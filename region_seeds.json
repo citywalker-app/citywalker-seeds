@@ -1,0 +1,1305 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "name": "Amsterdam",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Centrum",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.357933192,
+            "maxLat": 52.388690927,
+            "minLng": 4.87443424,
+            "maxLng": 4.932968461
+          },
+          "encodedPolyline": "ars~Hanb]jG\\rNvF\\v[pPv]~@rKjEbInIb~@xEtMxHrp@wBdq@}R~a@{A|N}DvAaFzKwFx@}FtH}`@fR}D}DsE_@yj@_Z_Ct@iDgFmb@iVYmn@~@[aA]a@_PvVoIpJ{JfHwN`Hc]f@u[dMoBJeDzC?|HagAtJsf@rG_NtHoC"
+        },
+        {
+          "name": "Westpoort",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.39191027,
+            "maxLat": 52.43106383,
+            "minLng": 4.728758928,
+            "maxLng": 4.885855293
+          },
+          "encodedPolyline": "{~z~Hszv\\vv@_lAb]zy@Kd\\_C`B~JlX{@hFxCjJ}JlSqCj`@Df~@|Fd]mD{EyEdQrC~D?bLtSdAh@lwBaFfV}MjWjDrRqKnJsOhHiEnM|E`k@BtmBzYrK}NtMkE{BoD~V{Dnn@bGxAy@tEnM`D}VnrDu|Di`AlUymDmEgAd`AavNxGiq@bAhAtN_r@|GeSnXgg@"
+        },
+        {
+          "name": "West",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.356407741,
+            "maxLat": 52.39937688,
+            "minLng": 4.835331065,
+            "maxLng": 4.895077566
+          },
+          "encodedPolyline": "_du~Haww\\rf@vU``@cR|FuHfGgAbDsIdGaE|F~[}@r@dBnBwAjOxAjOhAPtVjdBU~DuFcCcAfFb@p\\yP@e@}BmS`ACeGwDDm[dLVdc@kO}A{Dbo@sz@yWqMHQwa@ix@fCkEc@c@kFl@}rAdDmQtHuMyCkJz@iF_KmX~BaBJe\\c]{y@jc@}l@l]uJ`@~O`A\\_AZXln@lb@hVzC~ElCm@rP`J"
+        },
+        {
+          "name": "Zuid",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.321413287,
+            "maxLat": 52.362054403,
+            "minLng": 4.817121528,
+            "maxLng": 4.914940889
+          },
+          "encodedPolyline": "uom~Hye~\\vGnVbMzCdK`L~@bZtB`HlCv@`LmBxLvJjUxJbJoEhEbvFeArAik@QeHbBq@lp@fBxAhAnMkB~FtE~ZdJLdI|wA`@di@qGdGiWi^c@{rA_BkPqOip@mLmDsJVUdQgEpIcXlDoLYmB}@BcPkCwGWvAg`@R@tCeTJCgYaNFc@q\\bAgFtFbCT_EuVkdBiAQyAkOvAkOeBoB|@s@}F_\\`AmMvSaf@|Acm@_Ggh@|V_KbXaVbXkNnOsCdMkHpJrD|F|P"
+        },
+        {
+          "name": "Nieuw-West",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.326925114,
+            "maxLat": 52.400213874,
+            "minLng": 4.754901826,
+            "maxLng": 4.850492479
+          },
+          "encodedPolyline": "a~s~Hwlp\\VeNjO|AWec@l[eLvDEBdGlSaAd@|Bz_@IBfYdTKAuCf`@SVwAjCvGCbPlB|@nLXbXmDfEqITeQrJWlLlDpOhp@~AjPb@zrAhWh^es@|wB_h@dl@orApnE}DhIuErCgFFqqA}UwTfByObIyHyOy^b@a_@xDmj@ZkAlAoMaDx@uEcGyAjJofAjEzB|NuM{YsKCumBsEsm@~D}JrOiHpKoJkDsR|MkW`FgVYetBq@aCsRk@?cLsC_ExEeQlDzEyEyUt~@cBPva@pMIrz@xWbD}_@"
+        },
+        {
+          "name": "Oost",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.318248011,
+            "maxLat": 52.382473202,
+            "minLng": 4.895259715,
+            "maxLng": 5.0390565
+          },
+          "encodedPolyline": "mrn~Hmar]bIdEdGbO_Cb_@jAnTbCvGaqAdzC}Gr]vBLpBpFxC|KkBrApo@fe@~g@ph@lKzThK|o@nD@KrLfEzQwDpDoEpk@jF~OMnKjFr@jF~D`Ob{@fd@}DlAdOtB~DdCkEdEzBjHeUnLzJ?fSsBPeCpFkJd`@sBr`@_DvFaF`CiV{IeNsKaLlB_DiAcDsb@eKaLcM{CkJq_@iD{G_GwDwPnHoOrCcXjNcX`V}V~JsGaVoIc~@kEcI_AsKqPw]]w[sNwFkG]qGrBcFnHiM~l@}H`gA{C?KdDeMnB}La_CaAyiDxFwRx|@qpBxLoi@nDyl@}Hq_Cya@gpCbaCsGbf@voCpT|Q"
+        },
+        {
+          "name": "Noord",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.368229236,
+            "maxLat": 52.430678664,
+            "minLng": 4.855712488,
+            "maxLng": 5.07916222
+          },
+          "encodedPolyline": "cb}~Hybs]gDcLgGcG|DeKz@_T|E{KjI_EvHSqEmT_FyD{AuE`Gok@pJeh@yGst@hA_]uEyPfC{P~Omd@l|Cs]xqAfbGxa@fpC~HloBwAhm@wIfj@iLv\\ku@taByFvR`AxiDxLn|BHbTqDfZuItVaN|Oqp@lRiKhI{~AhbC_Vnk@uN~q@wX{XgDX}NpJ}Ei@_WiZgFm@sCqSr@}MdCkG_CoEhDuNzHkDxGsJlCyJz@isAjHix@t`@upAPcLdKu\\f^g_AuAsZkMyv@cEsD_f@sPiAaVcG\\yA_HrA^pEeEm@gM`BMiDqkBwWgy@nW{ZiB_LeFuFgEGNu{@zf@yoB"
+        },
+        {
+          "name": "Zuidoost",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.278174201,
+            "maxLat": 52.33115995,
+            "minLng": 4.929328206,
+            "maxLng": 5.012719725
+          },
+          "encodedPolyline": "img~Hioq]~Ao@zBbKUiGtEwBVlC|AqAr@~@~CmMj@rBjCyGzKd]pRlOW|G~EvBhG?b@rGhRJ|U|YyFhvApCzBrSjo@bSz`@hGdAxLtIgBjFoDz@lB`E`@vP`LhGcBlWhAzJmYtRoxBdjB{Zf\\cE|CiCwAuArBaTa]wCyLuF~EoFyT{GfCyBeJkFcBcDtCcBcHoM|EoGlMcDcAwHyNkNyk@ja@k^__@{{A|H}OcPsViI_GOmJgBaDfCwi@fOqZpHsHbOqGvg@u^lPPtAeEhBnDjPs]zD_a@xHeN"
+        },
+        {
+          "name": "Weesp",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.277976609,
+            "maxLat": 52.330862333,
+            "minLng": 4.997197955,
+            "maxLng": 5.107687873
+          },
+          "encodedPolyline": "azf~Huhb^pGb@rSgE~EyEpHiXgBoZvEsGbObIf@tRlIhUfFnDtEo@h^md@vFU|EhBvHdM~IKeJxxAdMfR|Gbn@w@xlA_AbDwEoH_A~Gw@S_BsAd@iHoCB?lAqWBVfCeLlHiLjVtPhi@sGxMxPfQxNj\\uGlK~BnG{Qze@}LvOpk@le@aGtNyzB`AgGt{@cBfBk@sB_DlMs@_A}ApAWmCuEvBThG{BcKiHdHkC~IgCr[cQn_@ycAiuBnHgB{@oJi[jAyMfDeC_ZRum@bK{gAdD{RjB_Ez@zAdAeEYiXjSmjA|HpA`AiAlLp\\|NuMhArEfA}@{FkX_I{PcG{AqHlEm@iFlCcSs@uApJiSo@eAnKoZtDsb@hBqIpAPzK_q@zFfC`Oss@tRlXnLhB"
+        }
+      ]
+    },
+    {
+      "name": "Rotterdam",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Centrum",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.9004589,
+            "maxLat": 51.926257,
+            "minLng": 4.4547376,
+            "maxLng": 4.5002388
+          },
+          "encodedPolyline": "_l|{HcaeZ`DSS_f@AoDAqBpCk@dGoA~DWvACdDJr@@|Cd@tEh@jB@rBUnBm@pC_AxBi@fAIxAEzBd@hANfAe@zD~RtChGbBxHtEmCwBuLd@eK~GqEtCeBzFeCb^oRaFu[eJo\\qBiHQ}@cCiDcBoCoBkD{ByDyB{CkDaEuBsBoB_BwBoAkJaGgIcKyVmg@iGuWq@aF_QzCuGzJqDbB}@~N{Ax`@@zCIxAo@|EeAzHc@fFaAnHiBtOUvQSFPnHBvA@ZIbH?lBCzA?V@v@R~CVjCQp@zAlNhBrPdArIJxDVnTl@rIj@hIRxB"
+        },
+        {
+          "name": "Delfshaven",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8993034,
+            "maxLat": 51.923314,
+            "minLng": 4.4090754,
+            "maxLng": 4.4677819
+          },
+          "encodedPolyline": "iaz{Hwc|YrGmAr@MnB{AEMAIAGiAmFvIuG@?NOzC}BF@B?LBB@@?@@@?????@?@?@@@?????@@@?@@B???@@@?B@??????@@@?@@@@????@?@@@?B@|@q@PM??lAwAfE_F\\a@JIr@w@pElGjBjChE`GdIkGFEaEm_@}Bkl@R_]l@kQViIhCma@bDaZvCac@t@cTJu[I{Ae@iJoAiWgBqNc^nR{FdCuCdB_HpEe@dKvBtLuElCcByHuCiG{D_SgAd@iAO{Be@yADgAHyBh@qC~@oBl@sBTkBAuEi@}Ce@s@AeDKwAB_EVeGnAqCj@@pB@nDR~e@D`X`Bjj@h@zObAlX~EjxANxDNdF^jM@zDCvAl@?F???bAAVAXFRDb@JpAVtBd@jCh@x@PPBtH~ACZB@jCh@vBd@ZFAR?LSfHD?l@D@@@?`@Bd@DF@?RAtB?B?@???@?@???@??@@?@?@??@@?@?@@??@@@??@@XT@@@?B@?@B?@@@???B@j@HB@RH?@?@?@?B?@@B?@?@@@?@?@??@@?@@@@@@@@@@@@@?@@B@@@B@B@B@@?B@BJb@XdAjDnMDN"
+        },
+        {
+          "name": "Noord",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.9221188,
+            "maxLat": 51.9428088,
+            "minLng": 4.432373,
+            "maxLng": 4.4899971
+          },
+          "encodedPolyline": "iy|{Hiu`Z`Xu\\cAmXi@{OaBkj@EaXaDRSyBk@iIm@sIWoTKyDeAsIiBsP{AmNPq@WkCS_DAw@?WB{A?mBHcHA[CwAQoHRGTwQhBuO`AoHb@gFqD_@m@CqAt@iBhBcCg@sBa@iFoEwAAqBIeAWcHoDwCaCmAoB_@aAuAuD}BaBKGoAFk@d@}@fIy@xBuBh@kD~@gAhAeBxB_Bz@qBLqAs@uBkCmAFiATuAsAcGrFhCl]zJjrAhDzi@lAvPT~BXnBf@jCl@fCl@nBnAfDfAvBp@fAnA~A~@~@~@x@|@n@bAh@lAdPx@`I~A~HrBeBnBfE`Op[fDhHbUzf@"
+        },
+        {
+          "name": "Kralingen-Crooswijk",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.9001605,
+            "maxLat": 51.9488456,
+            "minLng": 4.4845518,
+            "maxLng": 4.5430082
+          },
+          "encodedPolyline": "qi|{HsimZ}@~N{Ax`@@zCIxAo@|EeAzHqD_@m@CqAt@iBhBcCg@sBa@iFoEwAAqBIeAWcHoDwCaCmAoB_@aAuAuD}BaBKGoAFk@d@}@fIy@xBuBh@kD~@gAhAeBxB_Bz@qBLqAs@uBkCmAFiATuAsAcGrFmZsfEcBiUaC_`@I_COoCWwEOuBa@qF`RgGrKaD|g@sOtWqIpGkBzGgB|E_ArCU~ACtDLfC^`Dt@pDpAdGtCzGtDpEhCvAn@bC|@tAZxATnBPtBBbCKhAEjAQd@Ij@Ot@Qd@Q`C{@vC{AhNyHdp@qb@jOn`AhFh\\]xU{@vE}B|LkNpQoL`EqSlBoD\\sK~CgCbAkFtEsDjG}AhC{EnM{F`ScCnOo@lLP~G_QzCuGzJqDbB"
+        },
+        {
+          "name": "Feijenoord",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8775313,
+            "maxLat": 51.9185411,
+            "minLng": 4.4677819,
+            "maxLng": 4.5257195
+          },
+          "encodedPolyline": "{xw{HsrgZvKuIlAwDxPkc@oTstBD{C~ARtB~@f@LpDbBfKxDXJR@dA?nHMlM[z@Az@ATFNLdDfGtFf@~JvAl@p@z@mC`BqFp@uCb@_CfBmJZmA~@qCh@oA`GgJjBqC`B_CdF_IpAmB|AwCz@iB|AeEyGyOiDoFoGiHiA}ByCgGOm@KcAWiG@qBK_EcCW_Bg\\Gs@mH{BaBKmCHwAkSy@t@yXjSyBxAqYnT_b@r`@yJe^oL`EqSlBoD\\sK~CgCbAkFtEsDjG}AhC{EnM{F`ScCnOo@lLP~Gp@`FhGtWxVlg@fIbKjJ`GvBnAnB~AtBrBjD`ExBzCzBxDnBjDbBnCbChDP|@pBhHdJn\\`Ft["
+        },
+        {
+          "name": "Charlois",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8616672,
+            "maxLat": 51.9023502,
+            "minLng": 4.3964123,
+            "maxLng": 4.5152848
+          },
+          "encodedPolyline": "gcw{HqtyYf}B_hBpKqDfRnFA_@C_B?_@SyBAEGy@@CZeAeByBKK??KOCCII?SA]?I?aA?cB@o@BuAHiBJoANsBLuATqC^sDJkATeCf@aFh@kF`@aDPkBV}BNwAHy@RmARw@FMRi@N]?AN]b@eAVo@P]tAeD?ALYMy@[eB?Ee@gCXmBd@eDt@oFTkAjBmJbA_EBJZfA@B@A??h@gBV_ARo@@MpAeDfCqE??@CDG??JQ@AxAkCBEBC@Ck@kCCGIi@AAE[CSImBAkC?EAgDH{B@MFu@b@kFdDgWl@sE\\oCt@_GBM???GhCqPpAuIxB{NRsADYl@qE^sDPuBRgCNuBDw@EWAIVeFPaDHqBBy@BcCNiL@iDEsCGcD]yDI}@KiO?Iw@sOIsAC?y@Bu@@I@g@@A?C?OBA???C???K@G?G@I?I@E?A?G?E?A???A???G?????A?G?G?I@e@?A?A?A?a@DK?I@K@A???K?K@??M?I?C?K@K?M?I?E?I?G@A?C?EBMH?@A?IHCDCB?D?NAm@?K?[?Q?C?U@_@CAAEA??IAS?E??ACCQAGACCOCOCa@?C?CAi@??AKSmAEYSaA??EQAQAACQE_@YaBEYCIESCKCKCICMACCSACAII_@EWCGGYAC??@CAGCAc@gBKa@Ia@????BCCGCBGSCEOk@GSIYIYAE?CAGIUEMGQCE?EAGA?A?EOAEAGIa@C[?GAW?M?AC]CQEi@?GAWAWCg@AOCUAMMe@Ic@?CA@CCCECIWcAKm@BCAGC@SeAIe@I_@Kg@?EAISaAMg@W{@GYEOEYAIEQC_@CUAUCS?AG]EUAG?GEMEM?CEOK[YeAG_@EQAAAGAA?AAC?A?I?Y?K?W?a@?M?W?K?M?uBG@A??cC@?FB?SAaLAmK???eA?y@AmB?g@?aA?G?K?eI?yDAuF?A?_F?Y?gF?sA?]?Y?_BAgC?Y?oG?_D?Y?WA_IAuD?GeEVoBX{A`@kAd@aAh@mAv@sAfA{CbDc@d@}HjIi@|@kAxCkJjX}AdE{@hB}AvCqAlBeF~HaB~BkBpCaGfJi@nA_ApC[lAgBlJc@~Bq@tCaBpF{@lCm@q@_KwAuFg@eDgGOMUG{@@{@@mMZoHLeA?SAYKgKyDqDcBg@MuB_A_BSEzCnTrtByPjc@mAvDwKtIfBpNnAhWd@hJHzAKt[u@bTwC`c@cD`ZiCla@WhIm@jQS~\\|Bjl@`El_@?D??~BvPp@`FjApIBJF`@zFhb@jCdQFf@NnAPbBDd@HbAPtBNvB"
+        }
+      ]
+    },
+    {
+      "name": "Utrecht",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Binnenstad",
+          "osmId": 18936434,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0787071,
+            "maxLat": 52.0978475,
+            "minLng": 5.0982205,
+            "maxLng": 5.1297947
+          },
+          "encodedPolyline": "a{{|H{vb^vSqi@_SmVjF}DgDeMdWkVv@cJzDsI}@{AjFaP_O}Ha@iI}PmM}EmJsBpB_LlCcGgEcE~IqKhCkFmFeF`KkHn@aH}Cg@pAxDzVmA~HtDlGIlVeC|C`Jhb@hJzS~F_FnAbHlDwBp@|DrGbJfEjOjIfEbDnDtC`E"
+        },
+        {
+          "name": "Noordoost",
+          "osmId": 18936438,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0950443,
+            "maxLat": 52.1151707,
+            "minLng": 5.1098049,
+            "maxLng": 5.161915
+          },
+          "encodedPolyline": "ku_}Hg_e^rGcHdPqBvXuXHmVuDmGlA_IyD{Vf@qA`H|CfFa@qBo}AmPc|Acv@gb@uD|[{A~AiMbg@mOpGkI`Abj@t~DnGhXvH|Q`C`F"
+        },
+        {
+          "name": "Overvecht",
+          "osmId": 19101574,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.1188357,
+            "maxLat": 52.1356715,
+            "minLng": 5.072328,
+            "maxLng": 5.1000725
+          },
+          "encodedPolyline": "ivc}Hau}]pP_KjJqM`H_PpAue@oGuAqBkBwn@wkAeCPkF{Gy`@toAzt@vcAa@bAhJzSN\\"
+        },
+        {
+          "name": "Noordwest",
+          "osmId": 18936440,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0935431,
+            "maxLat": 52.1271815,
+            "minLng": 5.0612045,
+            "maxLng": 5.115148
+          },
+          "encodedPolyline": "_ec}Hoo{]xp@erAhNoK|IyAb{@ihBlR_[lQwe@hFmIiJ{SaJib@qTvSePpBsGbH_Nc\\}HtIlE|RbErEz@rFiNjKmd@|v@eQrQiD~`@eC|t@aH~OkJpM}RvLeHpJv@zA`B@`CrNo@r@`Sr`@l@lA"
+        },
+        {
+          "name": "West",
+          "osmId": 18935926,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0789191,
+            "maxLat": 52.1299724,
+            "minLng": 5.034384,
+            "maxLng": 5.1072814
+          },
+          "encodedPolyline": "web}H{gv]r`@}sAjYas@lWub@r^s_@dCi|@~cByRfSuFaLwy@_HkTwV{`@eLuGgEkOsGcJq@}DmDvBoAcHkKjKkTxj@mR~Zc{@hhB_FX}HpDiKhLudApuBmVnl@lFbO~@wArQj[|MnM`[tSnElD"
+        },
+        {
+          "name": "Oost",
+          "osmId": 18936437,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0567573,
+            "maxLat": 52.098402,
+            "minLng": 5.1224137,
+            "maxLng": 5.195155
+          },
+          "encodedPolyline": "}rz|Hang^vM{e@bVim@dL_ThWgUx|@}}@{Hq\\y^lDuHqLk@vC{KoFiChI_EfG}NlDeFqBiDsEsNwG{CyEqEcCcD]qIpAs@kBhCoDzF_D`Kg[oKi\\f@yJdA}Al@g`@tIeLaC{OUcS_Eg`@nBwNmu@~My@zQch@hU_@zGwFdLw@bKfHZm@lVmBPa@lCdC\\gBp_@f@h[_D~X\\~BuJrMaLlId@tDq@XlPb|ApBn}A`Cw@fDwIjFlFpKiCbE_JbGfE~KmCrBqB|ElJ|PlM`@hI~N|H"
+        },
+        {
+          "name": "Zuid",
+          "osmId": 19097387,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0631024,
+            "maxLat": 52.0741496,
+            "minLng": 5.0879957,
+            "maxLng": 5.1079123
+          },
+          "encodedPolyline": "mby|H_w`^`p@}l@qP{s@vAsXoF|AGtMaC~Hmi@bg@~Rtw@"
+        },
+        {
+          "name": "Zuidwest",
+          "osmId": 18936435,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0499378,
+            "maxLat": 52.0851284,
+            "minLng": 5.0814365,
+            "maxLng": 5.1224137
+          },
+          "encodedPolyline": "gtz|H_n_^jUaNx_BmyAhA`Er_@s\\~YmM_AgJl@cFkKwEkT{DiKkEwDoDRbCa_CyhAkF`P|@zA{DrIw@bJeWjVfDdMkF|D~RlVwSpi@dM~RpJbY`Lvy@"
+        },
+        {
+          "name": "Leidsche Rijn",
+          "osmId": 18936441,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0611201,
+            "maxLat": 52.1175617,
+            "minLng": 5.0272776,
+            "maxLng": 5.0971585
+          },
+          "encodedPolyline": "as~|Ho{t]jAgHnC}AnAiD[iOf@XrA_GlG}I~IeKdPkLnL{AlDwD_HqPN{ZdXtBGoNxPzAJ{S{DYxAwNpCA?cCyAKBgErAL?eB}BcAzBoJxEQb@hBf@_IvM~EdAd@_A~H~v@r[rI{u@i@yTkFeTaHgBaTcNlBcJxKtChThAdEmBzIsKvDoWzKid@|@}[rBoEjBod@{wAdrAkU`NgStF_dBxReCh|@s^r_@mWtb@kY`s@s`@|sAfDjCQzE|KzJnJcXrElDXaAMhAzF~DpDrFzI}JlDr@\\tH`a@tPCn@pKpFj@\\"
+        },
+        {
+          "name": "Vleuten-De Meern",
+          "osmId": 18936442,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.026282,
+            "maxLat": 52.1420506,
+            "minLng": 4.970096,
+            "maxLng": 5.0983181
+          },
+          "encodedPolyline": "gdc}Hcvi]|z@sq@}@u@vD_JrCdCtIy@tEl@zBpD@rLt@xApQpBpLxNdGw@zH{MaEmtAnd@oNSoC`[qIvJmbAx`AbJaA|H~jAjLlWurBvEzDr]kXtA_Bh@eGq@{PxAkGxC^fDyFbG[|CfCvE{Clg@a{@jG}Gbf@kZvc@wf@|BkGiDqAdF_TlDtAdOee@uB}KiEIoC|BsAA{CiCwr@gAaQl@mAw@{JHsF}@wm@cAqTyE^cDoWgJHcA}MiHuB{L[oTfEoe@pAyo@`A_G`GgJzAiIByE_FmR}FfFkBnd@sBnE}@|[{Khd@wDnW{IrKeElBiTiAyKuCmBbJ`TbN`HfBjFdTh@xTsIzu@_w@s[~@_I}OeGg@~Hc@iByEPsArC@rDg@Gh@bBpAN?dBsAMCfExAJ?bCqC@yAvNzDXKzSyP{AFnNeXuBOzZ~GpPmDvDoLzAePjL_JdKmG|IsA~Fg@YZhOoAhDoC|AkAfH}LoGBo@aa@uP]uHmDs@{I|JqDsF{F_ELiAY`AsEmDoJbX}K{JgaAtkBuLrQePjOiV~Ms_@`[cAXqAiBni@jgBpPfFhPreAvj@fVl@V"
+        }
+      ]
+    },
+    {
+      "name": "The Hague",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Centrum",
+          "osmId": 13751594,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0566024,
+            "maxLat": 52.0987968,
+            "minLng": 4.2842863,
+            "maxLng": 4.3342911
+          },
+          "encodedPolyline": "y`y|HywcYhfAkt@tOscA@iE_CgIuEkGR{GmJcCeL}FwPuPsEsHp@_B}Y}{@iD~CcXky@}GvYoQn[}A}GcJlLsB}FmFdEhKv\\wYp\\yaA`v@mAfKsKn]rAh@fXeCjJl[|KjFpCxDlHwJ@jFvF~J~Dd@jHeFjPpb@v\\}g@bRqM|Gtg@zHt]f@pD"
+        },
+        {
+          "name": "Escamp",
+          "osmId": 13751736,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0148485,
+            "maxLat": 52.0706887,
+            "minLng": 4.2350148,
+            "maxLng": 4.3100245
+          },
+          "encodedPolyline": "s|r|HyczX`}@gu@~CiGzS_SsRyi@RaFa^mcAAuBuOw]fZgS{DiKt^_Wg@yExDeCoCcJzD}Bh@dDfAwBx@dBrJmRzCnHrUqn@tIv[Xo@tOqa@uKkReEmNrG{HkIc^keAt{@qAiCmhA|n@aEgQgBrAiE{XcBbAwAiHmBhAaHk^fByAwKy^l@k@gAmDaJ`DoNvBuMBmQ}BSzGfHvKj@dKuOrcAifAjt@vKrr@vI|`@lYndAfCoFViFpAA~P{Np[bn@~Nc]z[~j@`C_Ejf@z{@mMvg@jFnLzIpL"
+        },
+        {
+          "name": "Haagse Hout",
+          "osmId": 13751489,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0749817,
+            "maxLat": 52.1093087,
+            "minLng": 4.3063131,
+            "maxLng": 4.3735145
+          },
+          "encodedPolyline": "ec~|HmahYzTeStm@kd@vYq\\iKw\\lFeErB|FbJmL|A|GnQo[|GwYCwDuIcWZ}@}EiPeHySuAn@uByH`@_Aw@@cjA}cDqHvK{DwFcH`M`@lA{Wd^eXrXqIpNl\\vs@hUho@kD~DtDlPkGfGhCxFtNdt@yUhY{Vcw@cGbKuGcPkUpY~H|e@zExBl\\h~@~CtDjDl@tFnIbAsB~IfOn@hC"
+        },
+        {
+          "name": "Laak",
+          "osmId": 13751465,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0486621,
+            "maxLat": 52.0751696,
+            "minLng": 4.3085405,
+            "maxLng": 4.3555187
+          },
+          "encodedPolyline": "_|u|HkohYbTsAvNsEcH{QmEsZ{JyZs@l@oA}AuD|CwEcQjAsAMkCsEaM{@f@k@aApA}D}`@ghAjDaJej@grAi^bzAwAfA\\dBmJl`@hY`|@hD_D|Y|{@q@~ArErHvKlLbK|GbQrFxPtBjCH"
+        },
+        {
+          "name": "Leidschenveen-Ypenburg",
+          "osmId": 13751466,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.026546,
+            "maxLat": 52.0778453,
+            "minLng": 4.3403069,
+            "maxLng": 4.4224897
+          },
+          "encodedPolyline": "ejw|H}unYnNwVnO}PnE^zIjM|]wq@~@~AzB]xDnP`APj@|DfF|HjHbDxA{C`AOdAhBjTcX|u@aTn@qE~NkQtDb@gA{FzCwDyd@ytAtc@_f@ue@mwAyb@hg@\\dG|Ndf@s^bl@o~@k~ApFcJgJ_Je@|@oFcH|@iBqFgGtPuXoMeRlBsSfGejBk`@vi@uA_@p@kk@g^tLmAiBoDZyPbUac@n_@ac@dq@jR`j@oEbOrPfc@kSlXhHr[~_AdlBhPvg@jRc]t@xFt@mAz@hBr@kAv@~GfDlE{@k@mNvUdAxBoCnE`QvYwQxSqNnYFV"
+        },
+        {
+          "name": "Loosduinen",
+          "osmId": 13751735,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0307117,
+            "maxLat": 52.0794517,
+            "minLng": 4.1955833,
+            "maxLng": 4.2644032
+          },
+          "encodedPolyline": "kev|HkmrXjAuCj]iTbDpDrHyGlGaKvpA__AjAxPjQ}OuEiHgKaa@cC_Xo@{^_g@iv@kFoLlMwg@kf@{{@aC~D{[_k@_Ob]q[cn@_QzNqA@q@pHmFjKwJdq@mM~XmIeZiJlLgLgXcCm@aEp@oInJhX~}@cVlRwIn]gIxSdqCtpE"
+        },
+        {
+          "name": "Scheveningen",
+          "osmId": 13751467,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0786926,
+            "maxLat": 52.129369,
+            "minLng": 4.2414554,
+            "maxLng": 4.3288067
+          },
+          "encodedPolyline": "eo||Hcl{XxAwy@|@}ItHkSaCcBw^gt@z^qi@dXmX`B_FlCtAxF^jHkDgIe\\mD}\\sSmi@kHdF_Ee@wF_KAkFmHvJqCyD}KkFkJm[gXdCsAi@rKo]TwHo@iC_JgOcArBuFoIkDm@_DuDm\\i~@{EyB_I}e@k|BljDpdAdyBH~S|Ku@flAvyBoCbPn@xZzPyDdGmHj]zYzi@tt@"
+        },
+        {
+          "name": "Segbroek",
+          "osmId": 13751488,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 52.0627015,
+            "maxLat": 52.0917659,
+            "minLng": 4.2291346,
+            "maxLng": 4.2966043
+          },
+          "encodedPolyline": "qwz|Ha_yXfIySvIo]bVmRiX_~@nIoJ`Eq@bCl@fLfXhJmLlIdZlM_YvJeq@~BcFgRin@}Pcw@_Mex@{Hu]}Gug@cRpMw\\|g@|B`HdDf\\xHtZkHjDyF_@mCuAaB~EeXlX{^pi@v^ft@`CbBuHjS}@|IyAvy@hNfRhg@xx@"
+        }
+      ]
+    },
+    {
+      "name": "Eindhoven",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Centrum",
+          "osmId": 11977052,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.429285,
+            "maxLat": 51.452881,
+            "minLng": 5.4686398,
+            "maxLng": 5.5028454
+          },
+          "encodedPolyline": "gl}xH_bk`@dBs@hVwe@jMuPjJaCmGuCcIhDyKgMbKqP]uKcN_B}DxB}ApDmQ}LsB~@oCfJ{HN}IwoAgAg`@qLjJkD`AgRjRuEdIgE|VqAfo@lHrCtUxPlGxAPfTlENS~JlDzQ~DsDpAdGrK~NbNIjDjAd@B"
+        },
+        {
+          "name": "Woensel-Noord",
+          "osmId": 11977054,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4620425,
+            "maxLat": 51.4970762,
+            "minLng": 5.4117083,
+            "maxLng": 5.5156146
+          },
+          "encodedPolyline": "arfyHe~_`@jaBq_CwSqa@aJs[viAqiAua@wtAj@yJeAweB~BwbAuBsn@`@ei@iJzNsCoEuEjKiQZaQmDmFrEwAa@]sFgBoA}OpS}GjD_AaF}GmHcDa@uDv@cD}Al@kMaHgDq@_DoJYkCiBiJgOkItKeF~@yBnJ|@fmE}AjJlFjVz@zOm@vJkED[dZlIttArJv{@`R`fArV~|@fKbm@@P"
+        },
+        {
+          "name": "Woensel-Zuid",
+          "osmId": 11977053,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4422244,
+            "maxLat": 51.4740017,
+            "minLng": 5.4322761,
+            "maxLng": 5.5143897
+          },
+          "encodedPolyline": "uocyHw~c`@pxCajErGsOrCmQmEmGy@aF_ErDmD{QR_KmEOQgTmGyAuUyPmHsClCiz@oIkKkESy@vA}Ck@wD}LwIiA{C{BRcKs@cBaIqAwDeFcCiIEoMsBoHqDyDwC|AqAsCZgO}@eL_Et@YzGiD~Ee@tTxBbcA_CvbAdAveBk@xJta@vtAwiApiA`Jr[xIjQ|HdO"
+        },
+        {
+          "name": "Tongelre",
+          "osmId": 11977051,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4312851,
+            "maxLat": 51.4655567,
+            "minLng": 5.4846106,
+            "maxLng": 5.5488528
+          },
+          "encodedPolyline": "sh~xHyen`@zHOnCgJrB_AdIrFfPkrBrUmzEk@gKcDcJTgCgM}_@c@`@xCjK}BLwBtCmC_AiDdA{A~GsDJ}BzCoDyABjC_BnBl@z@hBcASlDmEvF[{CcBJoBtC_BXaApDqFjFm@gDaAb@wA{@eFxDmIaEeBmCaAl@a@jD}FxAWrDqBfCLxDgBy@oC~F@dCaEb@yBbEmHfBw@~F_BFsC{BqB|@yA}CAfHaD~@kCvD}Cv]{CzK_DvDFrDuBXwE`Pq@LBmDuApDeEdBPlCoDrDj@`EuAPi@fB|@dL[fOpArCvC}ApDxDrBnHDnMbChIvDdF`IpAr@bBSbKzCzBvIhAvD|L|Cj@x@wAjERnIjKjC{KtEeI`T}SpBOpLkJfAf`@jI`jAPtD"
+        },
+        {
+          "name": "Stratum",
+          "osmId": 11977055,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4000475,
+            "maxLat": 51.4376732,
+            "minLng": 5.4747416,
+            "maxLng": 5.5320895
+          },
+          "encodedPolyline": "k_yxHchl`@`CiAl@gC`Ck@dAbCjBAzEgFlFoAd@nFxGfBhDgEfChB|DqD|GkBxBo`CpAuKtCsI|H}KdH_CSyBoDl@}MkBaBeB{B_Ka@wpBuoC~B~Bga@{CiBGwBwDjBcRqBa@w@aPfnDgPjrBfGhE|AqD|DyBbN~A\\tKcKpPxKfMbIiDrGzCpMbRvEEfD}IbCJfLyCn@_MnGkDzDpBxB{Al@^jD~R`MzHbApFx@N"
+        },
+        {
+          "name": "Gestel",
+          "osmId": 11977056,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4020487,
+            "maxLat": 51.4353816,
+            "minLng": 5.425231,
+            "maxLng": 5.4810818
+          },
+          "encodedPolyline": "m}vxHurb`@zJyKu@{@bAqAm@}J`@uEtBq@gB_NsCiIcEiBg@iBaBZu@s~AdAs@mA_JHaj@z@kLaA}CEq^t@o@_AkC|Aso@}GjB}DpDgCiBiDfEyGgBe@oFmFnA{EfFkB@eAcCaCj@m@fCaChAsBuBIkCaM{HkD_Sm@_@yBzA{DqBoGjDo@~LgLxCcCKgD|IwEDwMiRiIzAmNzQkKbUnKb]mJjO|BfBR`FhLdc@s@~BxGfNjIp]nEfKhDfNp@dKrF~CZxHdWnjAl]j@^`ApAGpI{E`TaCTw@r[@~CuA`EnFvBlRJ|@"
+        },
+        {
+          "name": "Strijp",
+          "osmId": 11977050,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.422171,
+            "maxLat": 51.4855548,
+            "minLng": 5.3567184,
+            "maxLng": 5.4715575
+          },
+          "encodedPolyline": "_p`yHofu_@tTeVlI}Cr_@bA`TvTlI~A|Ks_@dCQFqG}CsSwFNwDcEkBqTbGeKhEqd@lH_B}O_o@l@i@]oGrRk]`Iuj@_YyXnFiNdHeIwBsIfVqG~FcNkIaMl@uAsFkK[}CpHq\\`DkHvAiBno@{DZu@eWojA[yHsF_Dq@eKiDgNoEgKkIq]yGgNr@_CiLec@SaF}BgBlJkOoKc]aL`QuGkA}K`@aGkHsClQsGrO}zFrjIxCbb@FhW{A`]yFxf@dBCUfBpi@_Az@|Be@mClg@u@xCxBjAOChEzBbDhAdGvApAvEuAxBzR|Up_@gHr{@xc@fMgDvUvQdLpRpUhBvE@@"
+        }
+      ]
+    },
+    {
+      "name": "Groningen",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Binnenstad",
+          "osmId": 10120353,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.2120113,
+            "maxLat": 53.2222414,
+            "minLng": 6.5571041,
+            "maxLng": 6.5766007
+          },
+          "encodedPolyline": "ykycI{t_g@|FiJ~CaBfNLvIbCxEy`@G{VaFa\\aKcU}BeBeFzNqQhLoHrHgDrPC`GnNnt@tAzB"
+        },
+        {
+          "name": "Oosterparkwijk",
+          "osmId": 10120756,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.2170518,
+            "maxLat": 53.2334785,
+            "minLng": 6.5708719,
+            "maxLng": 6.5982672
+          },
+          "encodedPolyline": "_}zcI}jbg@vKsQ~DgPhHsI|CsAlFI|IpB`KaKi_@ipBkeA|tAr\\r_ArHtS"
+        },
+        {
+          "name": "Vinkhuizen",
+          "osmId": 10121052,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.216243,
+            "maxLat": 53.2358101,
+            "minLng": 6.5176813,
+            "maxLng": 6.5397151
+          },
+          "encodedPolyline": "me|cIo~wf@t^yGEw@tN[fToLxBf@zUeJxLyBc@_g@iGyg@uB`AkAmJdAk@{AmEuGa@_GfBuO|Pk~@|r@@rMmHxb@xJrIp@pB"
+        },
+        {
+          "name": "Selwerd",
+          "osmId": 10120982,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.2288272,
+            "maxLat": 53.2383266,
+            "minLng": 6.5421298,
+            "maxLng": 6.5594324
+          },
+          "encodedPolyline": "ew|cIiw|f@tYsLOuAbOkGtD_EuAgIoMsDQwAxDyMgAeHbCkBvBeJyJmJwSkGuFMyK|BVpj@bHbr@n@nH"
+        },
+        {
+          "name": "Beijum",
+          "osmId": 10123842,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.2402987,
+            "maxLat": 53.2557139,
+            "minLng": 6.5788805,
+            "maxLng": 6.6091404
+          },
+          "encodedPolyline": "i__dI_}cg@nCuHbDuDtKmCjDiCvSi]qLg]rA{@cNy\\dCwByGwQjAoB}DmLpD_FFcB{HeV_PzJ@bBcBh@iXXw@vH{ItmBr_@|b@fNrN"
+        },
+        {
+          "name": "Lewenborg",
+          "osmId": 10123826,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.2294894,
+            "maxLat": 53.2454095,
+            "minLng": 6.5981911,
+            "maxLng": 6.6337785
+          },
+          "encodedPolyline": "k{|cIuugg@nCsAfBh@lEy\\xGqQdHgKzN{IyLmy@jDgBmQ}vA}E~EiIzDuAYyCbA^hDiBn@EfAw^jSvAdKmGzH[wAaFvG~Nx}@nMuId@oBtCxBm@tExBlMa@jEhEvUyCtEr@xD~@g@f@lDrBeAXrBnG_FuGdUbBvM"
+        },
+        {
+          "name": "De Wijert",
+          "osmId": 10120528,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 53.1827525,
+            "maxLat": 53.2006962,
+            "minLng": 6.561983,
+            "maxLng": 6.5823445
+          },
+          "encodedPolyline": "outcIks`g@rL_Cf[aRlPkP~Qmh@_Bwa@aHvDy@_HkEzHoEnCo@qDoHdBoAvBeBcKqChBsBiMgKhEj@dDuEvEx@rEmBnAZ|A{XpR}KrTf@zAuCtDbErONjJiAnHjOlGpE`@rED"
+        }
+      ]
+    },
+    {
+      "name": "Nijmegen",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "Centrum",
+          "osmId": 10254642,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8389757,
+            "maxLat": 51.8521261,
+            "minLng": 5.8511054,
+            "maxLng": 5.8747108
+          },
+          "encodedPolyline": "aal{Hmxub@lGOaQ_Kw@_Cj@wBy@{@p@qOlA\\b@yAsAuCr@_A`C~@|@oCMeBw@f@_Bq@c@kB~Ay@_BcClBqEvAdCb@yAeB}FMqFpAGc@wC}AkAxBiAyAkKgAr@a@aE_Af@TqDmB}@GsCwC]]hCi@gKqByD_AXqCsJ_Ek@{CrDc\\jNr@lk@cD|m@|dAbb@xB?"
+        },
+        {
+          "name": "Oost",
+          "osmId": 10254646,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.809504,
+            "maxLat": 51.8591004,
+            "minLng": 5.8511947,
+            "maxLng": 5.9083469
+          },
+          "encodedPolyline": "sxk{H}xub@~H{BjG}GvpAeaCvG_ItH_EpHeAzt@v@fA}b@mAmMkDwGaEl@yBm@GbBkGdHuMdJoGpDiETcKlDaPso@nAaB{Ho\\dAe@{Cyb@qCuE}@d@gI}Ef@}Nq@}FsJkRmIbQgBzLcCje@uAnFgERkPsNk@|DgCtAgFtJ}BpJo@c@k@|CcBpAmBwMiI~d@qJtZgEtUgEkN_IoO{K}J{BvK`@rCaCeGcJ^}BmAM{BwF}B}ZP`AfFsAr[~S`NpGnG|HxPpFpUb\\kNzCsDjBApBtArBjI~@YpBxDh@fK\\iCvC\\FrClB|@UpD~@g@`@`EfAs@xAjKyBhA|AjAb@vCqAFLpFdB|Fc@xAwAeCmBpE~AbC_Bx@b@jB~Ap@v@g@LdB}@nCaC_As@~@rAtCc@xAmA]c@dUv@~B`OjI~@r@"
+        },
+        {
+          "name": "Midden",
+          "osmId": 10254643,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.810557,
+            "maxLat": 51.8409416,
+            "minLng": 5.8084189,
+            "maxLng": 5.8763365
+          },
+          "encodedPolyline": "cei{Hsmmb@ryAec@_@cFyA`@KgAdBkDiDkExH}NkGsPcJu_@lBaC}A}DrBsC`@uB}@uBpBkDiEyIm@~@sPe_@lB_EkZcg@tDe[xA{\\jOnCJok@qKCI}@Ea[lJu@_@sTsBT}AeAgIoX_B|AqB}JwMdMcsAhdC_ExDwEhBoN`@|YnTzInOzFzPja@|`BhDrXzHzqANnC"
+        },
+        {
+          "name": "Nieuw-West",
+          "osmId": 10254645,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8256203,
+            "maxLat": 51.8662135,
+            "minLng": 5.8071369,
+            "maxLng": 5.8441593
+          },
+          "encodedPolyline": "{gj{Hsemb@~Mc@vR{EkIkvAiDsXib@mcB_FdKQzHk@t@m@{Aw@Nu@|@XtA}DtD}@eBi@\\x@fCi@r@u@{A_@`@bBhD{@pAsBsC_BtAoAYs@}D}Ak@hBaHu@gBkB`E_@s@a@|@IwAqAe@pAwBgBcDmAxCkD}FmBv@@nAgB_BHpCcAMeAuEi@zCeCwBi@`DaATaAvId@b@gB`I}[sWuLBoC_AwHqLqCc@}EuDuy@lrBnGbJjBj@jBw@vEoH`Fi@|G|@l\\fSc@~BlYbSxJxCnJrG~@aFd|@vp@vLtFlRbDnEV"
+        },
+        {
+          "name": "Dukenburg",
+          "osmId": 10254648,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.7905891,
+            "maxLat": 51.8256203,
+            "minLng": 5.7747228,
+            "maxLng": 5.8246854
+          },
+          "encodedPolyline": "ieh{H_{fb@xY{NnYuRXpA\\aBrDcCbKcBvCcDjDyJbMmMzPuVjGkGtJyA`IgLcDuI|Uee@fWeq@yLwTa`@ucAcVt]uJ`K}InFi}Blr@bKrdBbRjiBPrA"
+        },
+        {
+          "name": "Zuid",
+          "osmId": 10254647,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.7980934,
+            "maxLat": 51.8206023,
+            "minLng": 5.8142089,
+            "maxLng": 5.8769524
+          },
+          "encodedPolyline": "ojf{Hyqnb@|\\}JtOyItJaKbVu]iGmNqCbI_c@cdAa@eBrHeLoGeLcGlA{@mE{Caf@@kBfAw@G}N`ATVkGmB}@cAkZyGyk@u@{Wh@gq@{v@q@gJxBpB|J~A}AfInX|AdArBUL~@PrRmJt@D`[H|@pKBKnk@kOoCyAz\\uDd[jZbg@mB~DrPd_@l@_AhExIqBjD|@tBa@tBsBrC|A|DmB`CbJt_@jGrPyH|NhDjEyArFxAa@^bF"
+        },
+        {
+          "name": "Lindenholt",
+          "osmId": 10254649,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8205334,
+            "maxLat": 51.8518401,
+            "minLng": 5.7576206,
+            "maxLng": 5.817523
+          },
+          "encodedPolyline": "}zh{Hcpcb@zC{h@\\yj@nC{BfDwK`EqCuR_lBcKsdBiMpDqOjAyNs@_MeCwLuFe|@wp@_A`FoJsG[x^kCDoHt^|G~FlD|F`A~G~DzFvl@z{AH`CeC|FgCzPcDlGeCFkD|G`Aj[j}BzkBFF"
+        },
+        {
+          "name": "Noord",
+          "osmId": 10254641,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.8633274,
+            "maxLat": 51.8946209,
+            "minLng": 5.8170748,
+            "maxLng": 5.8761358
+          },
+          "encodedPolyline": "e|q{Hucob@jj@yxAmS}ZzHuQgGcLwAa@nFgLo@_EyPeJwB{H}OqFoJaHwXck@iN{g@`G_Te@aDzEcBu@kRpG{F`BeSwYfAwd@rO}Av@V~CsGnBlA|Vc@jLeBP~@~D[|OpAfCEnT}e@dBxDptBa@lq@hLFrFmWpHuGrGaC~Ht@dMyCz@cFd^b^bDsMt`@bUa@hOcEbD?tDfCrDu@hMvE|KbFdT~AtH"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "countryCode": "GB",
+      "regions": [
+        {
+          "name": "City of London",
+          "osmId": 51800,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.5068709,
+            "maxLat": 51.5233122,
+            "minLng": -0.1138295,
+            "maxLng": -0.0727682
+          },
+          "encodedPolyline": "cdmyHlfUlNmKfKwCXnDdBm@zA~CxD}DtKUSwi@bHH[iBeG?d@e]lAmUvDwVhHghAgKgHm@hAoAs@{B_E_BgIbDkCgAwNu@q@gVjD_OrSkJ|FeBMRdGmOqDwArNlFlC|DxHkB`KrH`EgFlVuCe@}@fOwAXAjJeIzCv@fG_BbAvAlFxEuBtE|@lQn~@cBhd@?@"
+        },
+        {
+          "name": "Westminster",
+          "osmId": 51781,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4838425,
+            "maxLat": 51.5397474,
+            "minLng": -0.2160909,
+            "maxLng": -0.1110827
+          },
+          "encodedPolyline": "}foyHpei@~LgBa@cOrCye@rAsDtL{J|CqMtCU~FsDc@tKt@zErPkMc@gCjE_DbN}CcBwXzSqE[yEfK}C}@uYps@yU~@kWbV{C}Aee@_D}_@tCqB{DsJjB{@uHiPaH{IkBiNbSsBtFkJ|MwA`AiAtBpC|BgE|BdEtFsFdBrEzG_CtAdChUob@jHeAKeWpCq`@DsPgDu]_G{TwKgO}R_PcZaHiu@iGgIoBwHcHcE_HgDsNiB}VuKTyD|D{A_DeBl@YoDkHdBdBbMoFlDnHv\\iArMr@t@iB|CjN|\\aDzI{NnEcBUmB|ApAxIyAUsB`F\\|AsGnFp@tB_B~Av@hCe^vc@GnCkCUA~BzBAB~E_GnBl@nGamAxa@jFrh@_EnEnHb[qPl[`D|G{BrEvCrH{B`CqFi@w@t_@|Hb_@~RbUtArD_JbPrMtHbCcCnADx_@pX_A`BJfDyKByBhBkG~OcCvBaAdGRd]lD`TnBnXrF]lArCpCh@L?"
+        },
+        {
+          "name": "Tower Hamlets",
+          "osmId": 51805,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4845245,
+            "maxLat": 51.544686,
+            "minLng": -0.080209,
+            "maxLng": 0.0098632
+          },
+          "encodedPolyline": "}|jyHhtNtJ_j@~EiO|Gy]zCyc@aFm^a_@qy@wAyHq@}YlEaa@dFuOjEcFnGkCpGy@vY`CjVVfI_ApQiKbOwRrIqUhEmTp@wYk@iPuEi]uJgUgIyG}HaA}IjAw]pS{N`EaNoAqHkEiJuMaDaQCiOlFkTeH{HmGgCyC`DqDnR_P{K}CRiCvBJhJlE~CvLrA`AlBMpF}Cf@cReJ_Cv@uPbe@l@nGlEtDTbDoL|GoEvK_Ed@_LuFwCbAiO}BwGpF_DfHgEnCiB~QwHtT_E|CcDo@iD`EuElAiGjJaDOyDkIuEeBeDoEuCYsBuFmEuA}C`Bq@rSn@xb@tEhTcDnB_IhU`Qx[jAuBhWjYtIrThArMsDzNUpFhBbHdE~Aa@pLjEtWc@hG{FhLxBtAjIeCfArPq@\\`KxEbAbc@lEzNbH|ExE|H^cE|CdAfJ]n@GEiBzF[nEdCXbJ|QjFSeGdBLjJ}F~NsSfVkDt@p@fAvNcDjC~AfIzB~DnAr@l@iAfKfH??"
+        },
+        {
+          "name": "Hackney",
+          "osmId": 51806,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.5198144,
+            "maxLat": 51.5777843,
+            "minLng": -0.1045094,
+            "maxLng": -0.0165775
+          },
+          "encodedPolyline": "mfvyHdlSjW{c@oAaOpEwZtMeGzUPpAuEg@qCzEeElCoLjAuc@rUwP`JmAx@lAeBjk@xGk@dp@tQzYl`AfQaKnDt@tI{g@xFgExAmDyAeK`Du@pDnCNcAfBN@eEjUjEjBaK}DyHmFmCvAqNoA{@u@wKkHyAcCb@BjBuKb@}CeA_@bEyE}HoHkFaEmNcAcc@aKyEp@]gAoPkIdCyBuAzFiLb@iGkEuW`@qLeE_BiBcHTqFrD{NiAsMuIsTiWkYkAtB_Qc[|H_VbDoBuEiTo@yb@p@sSsRlBaXhJ_FJBmJiJ`AeJ`EaLn[SzD_F|@uDjDwJdXGfGjCrPoDlRbAbN{BvFpAlM_AtMoDtM{An@wEkCuEhDwMtS_FrNgIdFaBfKyItK{_@dPbF|a@z@AhC`\\^nZnBzAmCt[zD`g@nAmAQnQ~Cn]o@dKh@zEpQwIdVt]xL|TBF"
+        },
+        {
+          "name": "Newham",
+          "osmId": 185505,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.4960167,
+            "maxLat": 51.5640206,
+            "minLng": -0.0212642,
+            "maxLng": 0.0997977
+          },
+          "encodedPolyline": "kypyHzcCnCw@dC_GlHsC~BeDlER~D}CvHuThB_RfEoC~CgHvGqFhO|BvCcAzIxE`DZ`Be@hHmNtHiCViE{EmEm@oGvO{c@|C_BbRdJlBFt@aAF_FaAmBwLsAmE_DKiJhCwB|CS~OzKpDoRxCaDlGfCdHzH|GoMp]ob@nHqPdF}TvAiPJgR_Dyk@mByx@|De}AeAij@mCk`@sDySoHyPg]o^cOsKyMoSwFyOoAqIqBol@cOQsGlTmFhHwE~@kMyAyKxN_GJ}FwAmCdAc@xKqBtFhCvUcJn^}IlOoBxNzBvO_Kf@_JtB{SjNPpH}CaAg@}BcN~JwDz@cF]mMkG_JgBwIAic@xDAjD_Gl@iDvBuJfNlD|T_D~GeCxAWrEeCn@N~BcA@sA~Bm@hF{FnAiGzNqJpFxN~r@pRuDrCqGlPgKuAlbAdC`SlBji@kHTBzH{Ef@k@dBl@zAfBHGbLtFwEvIp[k@b@b@dB{InInEnQ_BbB~DhHhFoFdCjFfAXtBhVAv@oFm@DbB{@J~@hGu@`CfAbUdJ`s@iM|CoA`FpFxf@e@xK~EK~NgGp\\wE`CyAfFlBxA|EtCXdDnEtEdBbFjJV@"
+        },
+        {
+          "name": "Soho",
+          "osmId": 17710512,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 51.5100018,
+            "maxLat": 51.516365,
+            "minLng": -0.1418295,
+            "maxLng": -0.1293784
+          },
+          "encodedPolyline": "kplyHluZbJyE~PiOvAiFm@_OyG{GqHoUcLxCXjB}DtBu@mB`F~cAXJ"
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "countryCode": "US",
+      "regions": [
+        {
+          "name": "Manhattan",
+          "osmId": 3954665,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.6997807,
+            "maxLat": 40.8776136,
+            "minLng": -74.0193432,
+            "maxLng": -73.9104417
+          },
+          "encodedPolyline": "_lmwFz{wbMjGwAF}Gr@nFt@m@OuBz@Eo@q@~Bz@nHmGjFsGx@oEyA]HgAdDPoAmAtCk@wCJrAgBkBi@rBeBuErBhC}C_AFh@iAcAe@pCaA_GfAkAaI`G_EWu@q@d@qA{Dk@`@nAxD{CvBkIwNbF_GWc@aF|FeH{NzEkF]m@wEnFcAeBnEgFYg@_DxBdC_FqBmDuCbDo@sAyAtAkIuSgHq{@\\h@nCi@kCyk@mAHgA{SeGmHuj@qQyr@cK_LIwKbKcXhEjAsDg@s@_BvFuA?iAQ|BaKoT^yTwC_FkBsvA_kAaZ{\\_o@yh@s]i]aIqDq]xJuKaCgKiT_KoIoK_ElA_EsBjDwIyF}Tgb@{FwDu_@m@}O|FyVhSqK|Civ@mBayApG}Lq@}}@g_@mfAqr@fCdD_CF{GuHqG|FcFkCvFaD~AwEiQaMcH{JwC_@qAnCqAoKcJqGOd@}MiI}AlANiBmKeB{CRqG`GcCjKiAxNnCbJxB~BwAfBeEoAcDpKbAz@rCcBf@d@tB_EvBhBM`D}FhGcNa@gBbE_@lGnA`GYjAaA[Sl@fKfOb[pPbFz@xAe@rBpBz@cAdFd@TnA`CNnh@l[|SbPvQ|IdHdHjAvFvE`I[f@vCtB`GoA~J^xCcBn@h@jLyApYdNp_@dIhc@rVbFtEcBdGzD`CW|@zTlMzB_Hn@g@pAl@ph@nd@buDz~BNbGDsFvAz@c@tCv@gCdBfAcDfClEdEkD{DxB{BnAdAu@hDv@eDdAr@sAjCf@\\r@kDoCkCdUjNbKzD|@tO[yOjLpHBjBhZzQ_D|LlEiM|AdA}CxJrDoIvA~@qDbLz@j@pEmLlD~DdDpAeEvMbAr@fEqMhC~AqEfNz@l@vGuS`EnCwGpSz@j@tGsSvClB}FpStArAdHsSjDlBcGdR`AhAjGyR~B~A`@x@mGfSZi@t@f@tDsLtBrA{D~Ld@\\zDaMxDfCaE|Lb@Z~D_MzBxA]bAtEbDz@s@@nBt@kAM`ApA|@cDhKbCfBpDiKbAr@h@_BtThQ~UzFcCzHx@R`CyH~GfDExF~@Jn@mMzBTo@bMlARv@gMtBRm@bMhAXx@mMvBTq@zLjAXx@eM|@JVgDvDl@I|AbARs@vNjARz@cObAJH{AdMfB]nQ`@iFnGL@iFhDLEhCz@IDyBrVbAKdFv@DJgFrBUNlSt@@HgR~Nn@k@`QzKx@IfBxAyT`i@hFMjB|@Js@dOz@K`AoPlBVoAtSbAL|BsT~Gz@}@xTta@jEiB]f@yFvFz@c@jFaBE`]vEf@gCvDfAM|@_@i@Z|AdCb@p@H"
+        },
+        {
+          "name": "Brooklyn",
+          "osmId": 9691750,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.550339,
+            "maxLat": 40.739409,
+            "minLng": -74.056688,
+            "maxLng": -73.832945
+          },
+          "encodedPolyline": "_~}vFhe_cMfuCo}A`zCkg@`LcB~_DnTubC_{X{DsvAcLwmA}tAiuDesBc`BuiCcGy{Ah}A~Dlk@eg@tHgw@xi@uF_SkAiP_TfDwA}Oup@`KrAdPop@hKH|DkS~CxA`KsrA~QfEt_@pOb]fVh]fJrVxEdD`DdFeCrBvGdNeJxGpQpMoa@r\\i@mBaS~GgByAiN|YyHmH{X~l@{EcFgGzLuEyEgd@`~@cFgFoAjCqKvDuErIqFbBcEmJmBLgI|HqKHoFrEqY~JyJdJwAfCoCp^uB`KcJlOsQjGgHfGsPnp@kDjV^~SpPp`@|JwA~Hz@pL}DpIOpHjB~I_@zBhAx@qApQbInA|HnKzIrLtFz@uB|V~H`H\\lF|D~JlA|HeFvHJRbDsHDsLbL`Oj]zAnKvG~xAjDlIF~CvYpYp`A`i@bA`BzLdDli@peAea@bbBfqE`~B`dBzBtr@z@"
+        },
+        {
+          "name": "Queens",
+          "osmId": 9691819,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.492121,
+            "maxLat": 40.812135,
+            "minLng": -74.04378,
+            "maxLng": -73.700233
+          },
+          "encodedPolyline": "}tfvFrt|bMmeA}zKrgDixMyiAan@yDeFiCmO}Dk`A{d@waC{jBadHcNgjAuWmhBtTs|AjI_gAmvI{Bqe@cp@aHkWv@{k@{O~Dcg@uA}GnEe@zCoJtIwHbLeAiCkWdNxAlFmCbBV|AaAx@tLtl@mBQgC|[sTxa@?xEka@fD}Ui@qWcTwj@wpB}L}EwCqEGeHvAmCvI`GfDFy@aRqOhEaPdMgBgD{Bz@aa@oE}BqCs@wGgI{WqBk\\iKqa@wKRuFpC_RpCuPpHkIlA?eB{JK{DnCeq@iDyReGyN_C}bEdImdA|QcJsZiM{r@sHc{@agAgo@iqAlGwzDnoHexDnvD~m@`KvPnNrInU~@tNeAjYiX|nA{Ghs@TjPpBfQtNvv@hKh}BtRjmAnj@zn@hT|AlDbOx@bd@_Hdx@yApBmO`FS~I_c@b~Bf_@yOrHjPpQxQfb@~h@hXtf@fAjGu@vB}DdBkAnBi@dHGrG|EdJlMhHfEFdGgAhGoNrBd@~Tle@`LfKxdAhu@`R`P`ItNf^vTrPzGnQ`DdKuAqPq`@_@_Tr@wHjTc~@fHgGrQkGbJmOtBaKnCq^vAgCxJeJpY_KnFsEpKIfI}HlBMbElJpFcBtEsIpKwDnAkCbFfFfd@a~@tExEfG{LzEbFzX_m@xHlHhN}YfBxA`S_Hh@lBna@s\\qQqMdJyGwGeNdCsBaDeFyEeDgJsVgVi]qOc]gEu_@rrA_RyAaKjS_DI}Dnp@iKsAePtp@aKvA|O~SgDjAhPtF~Rfw@yi@dg@uH_Emk@x{Ai}AtiCbGdsBb`B|tAhuDbLvmAzDrvAtbC~zXthGxb@"
+        },
+        {
+          "name": "Bronx",
+          "osmId": 9691916,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.785739,
+            "maxLat": 40.91763,
+            "minLng": -73.933907,
+            "maxLng": -73.748374
+          },
+          "encodedPolyline": "qwoxF|egbMlRcw@hBcRvK}LbCuJ[eNuDqBqE_LmFcDo@eCxA{H|EgCRwClC_AhDyEbOfCjC~DaA`B`BtAbDc@fLbAlUlJtO~Kdi@vh@vx@xj@hRvKhP`Erc@tRrWdB~r@yDvl@{@rXz@rEu@nBz@hJcB|JmJhY}Pv@g^tCyFjKmHlSam@~b@c~BR_JlOaFxAqB~Gex@y@cd@mDcOiT}Aoj@{n@uRkmAiKi}BuNwv@qBgQUkPzGis@hX}nAdAkY_AuNsIoUwPoN_n@aKexAvCcuByhCudDo}@_wBtnMZp@_AjAhF\\\\eDnAY}[bbBsSnHuJkBgNfIiNrBG`ToGJ}Jp_@|DfDoDvM{OoLpAfEaBnCzGlIjD`@\\gE|@CdBrA~@pF~A|@^hF|@Dp@wDl@?n@jHfBcAhEB|CzAIrBfBf@qAbGzAGhBqBf@lBbBcBtAj@kjBhpJtsDpfA|h@tX"
+        },
+        {
+          "name": "Staten Island",
+          "osmId": 9691948,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.476578,
+            "maxLat": 40.651506,
+            "minLng": -74.258843,
+            "maxLng": -74.034613
+          },
+          "encodedPolyline": "_}dvFvtfdMjkAgc@~}@elDibEumb@uiLix@cgDnj@guCn}AwwCwDEbbEpThg@?peB|c@`dBqHbj@pIt~@k[zoF`B|WbXdc@`Zb]bQ|J~RnYpPWpZfInn@iHpNbHjr@zDnb@w_@xN?`}@xn@vwAbQlqAvZtTjTgLzrAf|@jcBfk@pPjdCuYb`@nq@jj@dXn|@lC"
+        }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "countryCode": "US",
+      "regions": [
+        {
+          "name": "Downtown",
+          "osmId": 9833255,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 41.8673,
+            "maxLat": 41.8906361,
+            "minLng": -87.6382474,
+            "maxLng": -87.6024757
+          },
+          "encodedPolyline": "e`s~F`z{uO|N[zNiChLuGll@eGm@aaBsCkCGoQuBlD{gAr@AwCiDB@vCeC[}C}PeBwBgC]CgP{QIOy@gD]_A}j@ArOy@yAOfBNnM_Dp@^|ToGf@j@rs@|@?Y_l@dFa@b@vEbBEJjXkBlj@hGxRH|o@|EnL~WtAxBJ"
+        },
+        {
+          "name": "North Side",
+          "osmId": 9709361,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 41.8863953,
+            "maxLat": 41.9112802,
+            "minLng": -87.6591846,
+            "maxLng": -87.5985431
+          },
+          "encodedPolyline": "ujx~Fz|_vOC{IbDjAhTnAnDeAzGqGrGwB~C_J|@_L`KyQxB}YlDkBzNY~NcQfLuHhN{DtBwD}EoLI}o@iGyRjBmj@KkXcBDc@wEeF`@X~k@}@?k@ss@nGg@@cJ}IJKev@cA]EyKeDD_@pLh@vw@wDDWum@aRJVdo@~MnHj@|M}m@h_@{AdCsA`JyEzBmEbGg\\fHwGJ}E{AdBzgEvAAfBjLrCn@"
+        },
+        {
+          "name": "South Side",
+          "osmId": 9877655,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 41.8450992,
+            "maxLat": 41.8685094,
+            "minLng": -87.635196,
+            "maxLng": -87.6056551
+          },
+          "encodedPolyline": "yin~F~f{uOG_^r]c@AqCvl@]a@_gAPyEjBqB]yk@mEkAqKvEiOw@kIlFwBwIg@sLqg@lBk@cFgKJ_BpDsInAuDgB~@oCoD@iDqAgBpAe@tCjAzDT|]eFy@yBzEn@`]rCjCl@`aBvp@o@jFfCtAF"
+        },
+        {
+          "name": "West Side",
+          "osmId": 10099127,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 41.8576685,
+            "maxLat": 41.8890736,
+            "minLng": -87.6922722,
+            "maxLng": -87.6344821
+          },
+          "encodedPolyline": "qps~FtkfvOrSSA_CtpAoA`IkCdQ_LxMs@@n@hJKGeNtDCoEofAeBa|EtMOKiVaIoCe~@bB__@pEiLtG{NhC}NZy[aBuBvD_LdDBd]dBCFdRgBf@AbNnA|cF`AA~AzQxBtFrE|BtI@DvB?\\"
+        }
+      ]
+    },
+    {
+      "name": "Kyiv",
+      "countryCode": "UA",
+      "regions": [
+        {
+          "name": "Pecherskyi",
+          "osmId": 1755013,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4027198,
+            "maxLat": 50.4550409,
+            "minLng": 30.516022,
+            "maxLng": 30.5902419
+          },
+          "encodedPolyline": "yvyrHcdgyDjo@QpjBqbAzJxXjJ}O~CcM`Fma@lAmbA|Ka`ADk_@mEeSyQyY}CoDaR{KaLcQgDsMeVa|Akd@xL{K~G{m@`aAaU~e@w]lZcVnWq]~{@oRrm@cLdd@|ObXmAhBeCzOwF`CTvPdPaCQnHjH~KrDyMlCvDkBjGfAdAuAtE~GpEz]hIjAsHnCi@_AzKbI~B~F~PCnB`Td@Z?"
+        },
+        {
+          "name": "Shevchenkivskyi",
+          "osmId": 1755014,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4386274,
+            "maxLat": 50.48678,
+            "minLng": 30.3956789,
+            "maxLng": 30.528246
+          },
+          "encodedPolyline": "ipcsH_toxDvmDmAuGi}B~r@ozHhOhCbNeHuEqd@B{QvAiMtLyi@dQ}YReL`DjDrK}OsS_n@hO}zAQgDiFgOcI_C~@{KoCh@kArHk`@qJoEiDtAuEgAeAjBkGmCwDsDxMkH_LIwHiOhC{JwAoNfQ\\tCbHfFwFdLmAlMkBxAF`EvE{DNhBsD|GhAvJ[fCXn@~CwAdCTpAsCv@lA{B`GqJxAmAlF\\t@pE`@hAeAb@dBm@b@lCzF]nBo@dAwCeEyC?gGlC{DfOeAToP}YgGvMqHfJEtD{FtMtEzGxJdBe@hGoF}Ae@nFrE`Q`BI\\dDuBnI}DiAc@oBgB}@iGp@wBhDoDj@uAyEcFgAqBhFb@`Dk@xBcBBuCpJxCpDJ~Ay@n@xClFiArGmIw@]{@iFrQq@}AuBdC_CcDsCfMsCdFWdCtAlByBrIPbH{IhHaDsDbGjUfBx@dEiA|DhFTfIlJbf@q\\vg@cRrMd@vEgCdFbCpNk@dA`DnIuAvCy@m@{ChGvBbJcCvCf@hEsLvG~D`PiAjPde@`c@jJzB~HqAR~KuE|zAsw@|gBfBh@f@D"
+        },
+        {
+          "name": "Podilskyi",
+          "osmId": 1754975,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4523275,
+            "maxLat": 50.5266351,
+            "minLng": 30.3619914,
+            "maxLng": 30.5424008
+          },
+          "encodedPolyline": "kjisHmaixDniBoR~hAm}Dtx@ajBtE}zAS_L_IpAkJ{Bee@ac@hAkP}DqNpLgIg@iEbCwCwBcJzCiGx@l@tAwCaDoIj@eAcCqNfCeFe@wEbRsMp\\wg@mJcf@UgI}DiFeEhAgBy@cGkU`DrDzIiHQcHxBsIuAmBVeCrCeFrCgM~BbDtBeCp@|AhFsQ\\z@lIv@hAsGyCmFx@o@K_ByCqDtCqJbBCj@yBc@aDpBiFbFfAtAxEnDk@vBiDhGq@fB|@b@nB|DhAtBoI]eDaBHsEaQd@oFnF|Ad@iGyJeBuE{GzFuMDuDpHgJfGwMnP|YdAUzDgOfGmCxC?vCdEn@eA\\oBmC{Fl@c@c@eBiAdAqEa@]u@lAmFpJyAzBaGw@mAqArCeCU_DvAYo@ZgCiAwJrD}GOiBwEzDGaEjByAlAmMvFeLcHgF]uCpMwPlB[jHbBUwPvFaCdC{OlAiB}OcX{FfTwG~LwMhLuHdDmKrB}UK{HgEc^}e@s_@q^eU{DgFXTxbAvBl`@fA?[vw@sC~z@Tfb@lAlH~D~GlEnBnKLnJ|HNzD_Zbl@ad@xk@eIvx@aCba@cFbJiUrXaP|\\eSrXqb@xDcyAdH_AfBqc@hLvFlkAtEvO|LtTrDzR`XhkItHxd@D|RYxC"
+        },
+        {
+          "name": "Obolonskyi",
+          "osmId": 1754928,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4772023,
+            "maxLat": 50.5864925,
+            "minLng": 30.2974856,
+            "maxLng": 30.5445135
+          },
+          "encodedPolyline": "mjpsHin|wDjWua@bsDquHfEkMbMio@E}RuHyd@aXikIsD{R}LuTuEwOwFmkApc@iL~@gBbyAeH~b@eEvRgX`P}\\hUsXbFcJ`Cca@dIwx@`d@yk@vYak@G}EyIoHeL[mEoB_E_HmAmHUgb@rC_{@Zww@gA?wBm`@UybAwEZcGzCoKdMyu@zo@gJ~P{MzNgQvAyP}B{PcF_x@mj@ib@_W`GsQiIwKeMyGyLW{OdDcNzLcKhQgKtXmKfMqBf]yJ~Soc@paBsQhe@eQxUuMzKaRnF{i@bGaAjTeBR}FzPdF~SeAAeAzBmDmHmQxSfBpiBm\\zCip@nCfArDkJp}AgCt{MxoA^w@pcE|SxfEbVcqA~L}g@lBhBp@y@pDnEfUmd@~Byf@jGkUvDfALfDYjS|@HuCdJ_@xJbA~JxDc@?`ExCqBOcAdB_@~@|DlEeFnAvLrHeQ~IdSmBlT~V{Aqe@hcAuPlZ|AtVdHxe@}ElRhMz@jBn@"
+        },
+        {
+          "name": "Holosiivskyi",
+          "osmId": 1754513,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.2132422,
+            "maxLat": 50.4419303,
+            "minLng": 30.4302718,
+            "maxLng": 30.6518983
+          },
+          "encodedPolyline": "cgmrHelvxDtYik@|BJBkAhd@bK~CmK`Sl@pMizAcEwE{XmIuFyPnDeaA~HrElCmMpM}BnHfIpGjAhFe\\|p@yE`C`Cl@sEtIq@vA`BnC{AXeUpH?xBtAApEjCBGhIzIpBhIqCCe\\aBsHgCmDrDmNq@sAcJ~@mAsACwCt@y@lAm^zIiIb@{J~DcO|DtOjGsDzMpj@|E~@p]}o@{Y_pApEuEnX}d@hCwN|D{f@hMss@|Bf@nB~BrT[dd@|EpYT~BaJ`c@b@|^`b@BsTdBkMcDapAtg@yDzJsBzh@b`@re@_dARoAan@b@Uc}@zo@_@zV}WtHyBdI_GxRQq@{a@lwA_bAh~AsZrp@oA~v@eIioAa}H}x@lh@sKet@_KpB_BcBo`@r{@cH~IaMjEqMb@uUbXb@pD{HhN{Br@cP{AgD|B}ABoKmHcIla@aAfNmC|DiFbFc_@tAHlBaBrDyLfICjE{A~B_CrAmFmBsA~BmD`@sBtDyKmCJ_pA}JeOgp@iToh@iIrAeVbFeNvJuNxIwFtEyFvHkBbH~@_Ne{@mGfOkTrM}SpCuQfO{RtI{^h]uX~c@eVjVcM~Hyd@zL{KjFaz@pz@_U`c@cg@d^yOrUuPtc@ar@pb@iv@~Oy[|D{c@mBom@sQ{k@kh@i`@iM{X_Ak[Kes@pc@dV`|AfDrM`LbQ`RzK|CnDxQxYlEdSEj_@}K``AmAlbAwF~c@_EvMuHvL{JyXqjBpbAieASiO|zArS~m@v\\al@a@[lHeZnUqVdC{@jJ@|IwGdMmEvY_Sl@rBcVdVb@|JoBb@oA|FnDvPyBhGxEpCpUpVfCdBxCEjLcPnNwa@jCkBv@rPu@dk@xFh[tC|DzIjFxPjC`PdHnKxOfDtJbFf`@eAv@gBaA_@r`@qBxCOlElDmHlEt@vBzMfCPrVgEbBdUtExN_DvFUvTlMl@i@~E`FfC_BdK`GnEtObG`@e@|@rBuP~`@bGtK]tCtQdYjDkF~@lBz@sA^\\bMhVtf@lm@|CfE"
+        },
+        {
+          "name": "Darnytskyi",
+          "osmId": 1754757,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.3372747,
+            "maxLat": 50.4698991,
+            "minLng": 30.5832688,
+            "maxLng": 30.8263593
+          },
+          "encodedPolyline": "wvmrHmhtyDx[}Dhv@_Pj\\cRtTmOtPuc@xOsUbg@e^~Tac@wFwKsCqAaCuDmGjDs@SHhA]_ANbA[s@wBnBJdAo@cBDhAKgAuBfAa@dBWo@qEjDoKdL}HgRcBcMlCwAeEwa@t@gP{@ERiEpA}AvC`AhB{BnDPnDaAfCcMvJg@`DuBrGcRpLoKdBeg@yFxJqFhWqCpCi@k@mCrDaTyNcr@eE{DsB}ISkD|CkLoDeD|H_E~Ba@~D_G{`Ay@aa@aVe~@eCyg@yP{KkAaR~@S~@uHqAgHkG_NLgBnPrMzJj^zD_C`D|Hn^nPxEqGuIsWrRkKpMxKzFkMQ}F~CgAq@uHjAed@~Qgq@TwJ|B}FrJy@u^uzAkKyBaAsE{H{B}J`@wZrUqGfO}CmGeE~HeGcCKgIaDe@WwOn@@PiF{ASc@kD_BeBoDo@iDd@uMhSwEuFmBMiB|D{CwC_BbDVnAsA^g@mAcJf@uAkLoCvAu@iD}Ab@yFqNgCoA]{GtAuL`Lm]pHyKlImHrG|JhGuYhLqz@B{GmUc`AbBmz@eLsGmToCiCoReGy}@wP{RaQpV{G`E_J`B{OTiCuCqQeyAnVci@|Ec_@`FkbAsFgSaG{MqUuPkOaDsAvE}Q{^sGvEuPrV_Ezn@uHxUfFpHiKzXsSb[uAnJmMlKqRg]oErCsFwJgEzCy@hCk@[yAtEmJeJyQp^yEpCwPlUQlB~DxIm_@bjAuEpIiVkAyA{@eN|v@uQtv@y{@veBmJiv@cGgSiO`XeMiOaFrIwGgLqDhK~Czw@lAnExzBt`EbO|b@dQ~u@hGth@rWn~AbE|a@hl@bwD|]z{Bfo@bsDds@qc@fu@jAh`@hMzk@jh@nm@rQzc@lB"
+        },
+        {
+          "name": "Desnianskyi",
+          "osmId": 1754820,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4473379,
+            "maxLat": 50.5908142,
+            "minLng": 30.5253982,
+            "maxLng": 30.8233496
+          },
+          "encodedPolyline": "aagsHw~hyDfQwAzM{NfJ_Qjd@_a@eNas@yKwdBp@}bHde@kNjW_NCfNr^`N|HlAre@}\\zU{`AxHeM|fAwp@pXtOnHaf@wIqf@NkAtIiHeDiShT}LuJir@sEeFqIMi@w@sKjBoVg@iAjGoGhLyBn@]mD}QhEbAhHcDl@oAhBBdHo@Lf@rAiAhAwAyAuEyZiAk@_Cx@aEyDi_CuqMgRc~@mP~JaTxEwDdGu@u@ZiLcDeCwKy\\c@e@_Cv@kA_BhAeAbCCq@g[eMbH{Ls]kEgUaE~AgA{KvCeB{BcLyFpCoAuBgBtAsBw@eBpAiUre@wOzNmEkj@iEwOcAmP_Jsf@mBcDcV}cAiK{y@oDaPg@qSoE{WwNca@cHow@iLqf@uIhK{uB|VZfF{B~MsI}E}@xDcDu@aBjA}EgAsA_I{Cb@e@fIyG`NkBsAwWl{A}Td_@gB`GwQnNNrGwQhSpGvInFmEpJjkA}r@r[zBznAql@h_Em@xQdANz@dHbCtBdMuHnGmLbm@zo@nb@t_@bAyJhCiCxcBiRfE`}AqJ~Cga@bBte@ffBfLfv@iArGz@rD~Lbd@lI`F`SxB~RjMjL|NdNvI`Gh@dTlHqAtUm@lnCmHtoEmHfjCoCl@mB`n@kFbk@lMdHhAhE~@BrDjH~@e@`JjB|BuDnEf@lKeDbDgF|BcStFyLpASpLcOxBaGtVkShDGtFrE`Fr@|@kAdEl@jClFoC~d@{CKmJpGaQnSi@|nAiEzFaGrQhb@~V~w@lj@zPbFxP|B"
+        },
+        {
+          "name": "Dniprovskyi",
+          "osmId": 1754781,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.4172389,
+            "maxLat": 50.4954118,
+            "minLng": 30.5289561,
+            "maxLng": 30.759833
+          },
+          "encodedPolyline": "up_sH_uiyDrWsCtHeDvMiLvG_M~Smy@nRsm@p]_|@bVoWv]mZ`U_f@zm@aaAzK_Hjd@yLgo@csD}]{{Bil@cwDcE}a@sWo~AiGuh@_Tu}@gPua@{vBgzDib@as@gTrU_e@_N`Esj@kA{A{@cVg`@dXSvBcBNwCrCjMnPdAnNmZlL|ChS|@zBhASX~BmDfCdAfIq@PdnCpeO`ExD~By@hAj@tExZvAxAhAiAg@sAn@MCeHnAiBbDm@cAiH|QiE\\lDxBo@nGiLhAkGnVf@rKkBh@v@pILrEdFtJhr@iT|LdDhSuIhHOjAvIpf@oH`f@qXuO}fAvp@yHdM{Uz`Ase@|\\}HmAs^aNBgNkW~Mee@jNq@|bHxKvdBdN`s@lP{MnKeMbG{C~Lu@dUzDr_@p^b^|e@zHfEvIj@"
+        },
+        {
+          "name": "Solomianskyi",
+          "osmId": 1754514,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.3817247,
+            "maxLat": 50.4594207,
+            "minLng": 30.397512,
+            "maxLng": 30.5153737
+          },
+          "encodedPolyline": "azzrHm_pxDlDg@lHcEdeA{s@li@{i@zXu`@fUcTvDwFlZeUrILtSzKfRfW|JjUJzCvDeKbCdLbBgPQuNdAuCfExDjDbAbAk@xMgZ?wC_DkHl~@qsA_AmBkDjFuQeY\\uCcGuKlJcSrDeNi@iAa@d@uOcGaGoE~AeKaFgCh@_FmMm@TwT~CwFuEyNcBeUsVfEgCQwB{MmEu@mDlHNmEpByC^s`@fB`AdAw@sDm[qCqKuMwSaPeHyPkC{IkFuC}DyFi[t@ek@w@sPkCjBoNva@kLbPyCDgCeBqUqVyEqCxBiGoDwPnA}FnBc@c@}JbVeVm@sBwY~ReMlE}IvGkJAeCz@oUpVmHdZ`@ZeCrFee@ju@aDkDSdLqRb]aN|t@PvW~Dt^cNdHiOiCcs@t}H|M`AbLdHfq@~wAjIvEfTvEjAJ"
+        },
+        {
+          "name": "Sviatoshynskyi",
+          "osmId": 1754751,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.397977,
+            "maxLat": 50.547692,
+            "minLng": 30.2361453,
+            "maxLng": 30.4276575
+          },
+          "encodedPolyline": "q~wrH}npwD|Lq_@{A{ClJ_OwSye@wNcPsKeIWa]p]ix@oZuj@_EpH}WmNuOaLgZqM{Ja@ePnAv]wnEw@wCp@oi@wCoMuHow@sFegAN{Vg@VuBqBAeB}D`FyLxFmBgCcDMOqInDc@?eDvXeAlBy@fBeJ?q\\|hA{Klt@}f@lAf@t@jDzEoF`AcHlPoRfqAabCjGoQ`k@afCvAmAK{CaG}N_N{TcGyGoV{L_In@gXfTwDvFqWpVqVf^mi@zi@snA~y@mDf@eEm@mPuDkIwEgq@_xAcLeH}MaAxGbzBwmDlAoCo@ajAp_EoiBnRiLnj@gEjMcsDpuH`B|F|SuOb`A~J_BrKpC~@vArm@hVvNrIoCnL|S[lF~LvQfD|Je@jCzC~Jp@l]rCbH~D~BbF|RzDzHtHnF`EhJbH~D`L~KlHnDzBgElHmEtI}JxRw`@vBeAEiAdDm@~SlApZd]lFsF~VvTXrAt@gC`ClBEbIjFdQk@f\\lAzD|HnDpJfA|Ai@tC~@`@q@~FIzGnAxHnG~QdChBsCrDeTGmFfAChAcHDsMzMzAfGdDlL|VdOnMjFxM|JfKdSnRxB\\pHxIrPpHjMnBtHeDpDaHbE_AnJyH`HiLjQeDtEpApDlRnOjCxEAzDbMxClEvHhI~KlEjO\\"
+        }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "countryCode": "JP",
+      "regions": [
+        {
+          "name": "Chiyoda",
+          "osmId": 1761742,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6686296,
+            "maxLat": 35.7052349,
+            "minLng": 139.7301347,
+            "maxLng": 139.7828483
+          },
+          "encodedPolyline": "kvxxEi`zsYjUgIhEeE~E}AhBgGEqKdM_DnQuIxLkXfA{J`AJl@gFhDgHiGuJzCoM_B{@\\yBpJqc@cV_LkEiSiVqQJo@eAo@MbAs^kSaGuAAq@sESsG`CuMjN}Pgu@oDmLkDkFfAeAkJmN}AQWxFqE]V{DaH_@i@xOmMoAwAd^yDOm@bMqEy@KdCmLs@k@tSnHR@vAnARCbGjCY\\hHm@RnDdA`ByCv@DdBwIpEdA_CnEzAp@]`Bx@TqCpQqE`Gq@lDGbWiG`s@ElM|BzK[|@zCbD`AkCvFfD@vArh@p_@nTz`@xFxElPxD|Dp@"
+        },
+        {
+          "name": "Chuo",
+          "osmId": 1758897,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6402011,
+            "maxLat": 35.6966138,
+            "minLng": 139.758555,
+            "maxLng": 139.7931527
+          },
+          "encodedPolyline": "}ouxE_r_tYrAmAtFiShH{DjHIjZxTxBb@~Tgg@bl@rJjq@mXkvA_fC}zApI{WlHiXuFcOyHgXuSiH}AwD`@oJbEqIhJaKbF_H`AeKc@iJpe@tAFWzDpE\\VyF|APjJlNgAdAjDjFnDlL|Pfu@tMkNrGaCrER@p@`GtAr^jSLcAdAn@Kn@hVpQjEhSjUxKVD"
+        },
+        {
+          "name": "Minato",
+          "osmId": 1761717,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6230363,
+            "maxLat": 35.6826343,
+            "minLng": 139.7087439,
+            "maxLng": 139.7829301
+          },
+          "encodedPolyline": "cttxEszusYdFgIxLiJvEcJtErBNxCpGkK`DyScC}@fG_W{BoDhNzFfGu@n@dABuB`[}B~EyEnCxCfB@IbArDNdB~Ir@HZ{AdLlLrA_@dBrI`C[XtEn@w@|IfAG_CjJ{BhC~BXk@b@`@fAyA{Ac@QmGdE}AkCcIuAk@NcBeBQhE{WhCsBnFxA|EiBHyBeGoBj@eCrE`BpB_De@aApHyIzJoAjAVB`BjBk@~Aj@`CuEbAv@l@s@o@{Ay@PEmHjQmHa@}IgABUmF}Fj@~C_H_EcXvIaDr@oLkL{\\IkH|EJ\\cDo@gYoTZEyJ?sh@hBJu@gCnE_LhQeN}KoPq]uv@gk@zc@kOjv@kq@lXcl@sJ_Ufg@yBc@kZyTuFG}HjDwGjTmAr@uKdh@~Az@{CnMhGtJiDfHm@fFaAKgAzJyMhY_RlIuKhCa@`QqMnIf@nFsG|C[tJ`QpIrEjMgBvGbArG_A`Cz@dCw@r@tCF_@rBdSkChGpF|CzM|CsAv@h@_DfIdOfDnCyEpAhCe@~ArTdRUbAnIzHh@d@"
+        },
+        {
+          "name": "Shinjuku",
+          "osmId": 1758858,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6732207,
+            "maxLat": 35.7299039,
+            "minLng": 139.6732748,
+            "maxLng": 139.7451394
+          },
+          "encodedPolyline": "{n_yE}|nsYlAeB|CbAwBoJ_ECnAgANiFtGkHFuBjFYzB_BbChArDCvB{CoAcALqB~AJUmEvAzCrALEoE`MnKt@{IxCeEkF}a@UcJdBJz@oEkBwAxAeEuBa@Z{HlGjFxA~FjM~T~NxCrHZfGYlIgDnDJ`^dQzGrJzAg@IsCdAr@hAaCpPtInFmDcAuI~FT^|D|AQzMqE~IcIw]yk@uKs]f@cA{@VqBcNjEh@HwBhAq@]gMj@}AhI}FrHg@xAgMhDkKjIgNxD}ClZbJbKB_BmLtCkAn@^hCoF}C{MiGqFeSjC^sBuCGv@s@{@eC~@aCcAsGfBwGwCqJuBiCkOeH^qJrG}CaAcEkUfIkVkFyFyEoT{`@sh@q_@AwAwFgDaAjC{CcDKmCq^vIuBbCsE`l@xEn@]lE`Bh@|@zHwBbFaGk@\\vRc@zAcBBg@|FtAr@QlAbBa@A`Ac@vBiALYbHyCbBu@YoBbGsCkAu@xJm@{@I|@lBv@AlAqBK[|@jB|@CpD_BhIuAp@o@vCfBp@BhDqIzOr@lDbExCgAnDlAbT{@b@O`CWoBwAf@{@tGsIoBZqCyAPVs@sE`@iDy@wHvFsAcA}@\\JoAgCkCsCnHqBmAkBlMa@lNlCnAbCrHH|LqCzd@V``@uEb@b@rFsApATjA{Br@IeAuPvEuNlZtLJpJfEtIpApJ}AvDT?bF~Dl@e@~CtDr@F@"
+        },
+        {
+          "name": "Shibuya",
+          "osmId": 1759477,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.641485,
+            "maxLat": 35.6921567,
+            "minLng": 139.6613778,
+            "maxLng": 139.7239259
+          },
+          "encodedPolyline": "guvxEsrlsYxDwAvBdAlH[ZqNeA}Zn@y@gCwW~MdAjPoClPoHh@e^xD}O@cIfHySjBuBrDuAVh@xFeDn^c[lK{Lb@j@tCuBX_DtJeMt@r@rA}Dz@|@l@qCx@BvBuIjPmXQqAvBOhGeMxBeHiBk@_AsKhCoE_BwBR{DkEs@hGyGn@yN_McL[zAs@IeB_JsDOHcAgBAoCyC_FxEa[|BCtBo@eAgGt@iN{FzBnDgG~VbC|@aDxSqGjKOyCuEsBwEbJyLhJeFfIyJaJTcAsTeRd@_BqAiCoCxEeOgD~CgIw@i@}CrAiCnFo@_@uCjA~AlLcKCmZcJyD|CkIfNiDjKyAfMsHf@uJzI\\fMiAp@IvBkEi@pBbNz@Wg@bAtKr]v]xk@_JbI{MpE}AP_@}D_GUbAtIoFlDqPuIiA`CeAs@J~DbNtRfKpJnHxL|NdLjBpE~HzI|HvWxPjLvGlThDv@j@j@"
+        },
+        {
+          "name": "Taito",
+          "osmId": 1758888,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6948026,
+            "maxLat": 35.7316077,
+            "minLng": 139.7622652,
+            "maxLng": 139.8098027
+          },
+          "encodedPolyline": "oyayEei`tYvKaIbK_EfOjCnB]~NlDv[_[xHiDPpEgFvDz@~CkEpE|@`BjAs@JwBtEaCnL|@tAmHhB_C|E^`@zCr@yFjC?IbHTi@pDPf@qA?rBdBy@Hx@eBo]hDOCsDbF\\c@zLfLVj@uSlLr@JeCpEx@l@cMxDNvAe^lMnAh@yOjEVhJqe@}g@e]ac@{P}JyG{w@gy@uc@wKeXwAcFhs@p@bf@oDP@tCmBHGtEz@~AaA`A{AOwA~DrPlLfClHh@tX|DrC\\nC~DZp@lDdB??rCqBzWwFfNrBzBHhBkDjCeGrM`DxOiA`HgJb@yCdBmGrP@@"
+        },
+        {
+          "name": "Sumida",
+          "osmId": 1758891,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6866987,
+            "maxLat": 35.7435063,
+            "minLng": 139.7887248,
+            "maxLng": 139.8428401
+          },
+          "encodedPolyline": "igzxEonetY~GaAvL{GeFmL}@l@IsEnBGW_H`BIY{GpGw@qGaQbJiEi@wXhI]o@m\\iIZe@mMqSfAUcK}CLgAag@g{AhEzX{`AzDaICoZ]s@iGpEyEo@gPsQsFeKgBk@gEpCsDjPoE|IiHnF_GZoEyByDmF{@wF^sE~E}J{LwUueBdlBkq@t^|B~I|@~BrNnLzB~FdKw@bEr@pRpPlRbIff@hCtc@vKzw@fy@|JxG`c@zPhd@t[pH`AfEP"
+        },
+        {
+          "name": "Bunkyo",
+          "osmId": 1758878,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6994885,
+            "maxLat": 35.7359098,
+            "minLng": 139.7172608,
+            "maxLng": 139.7724617
+          },
+          "encodedPolyline": "io~xEqowsY|D_RnEgJ~@aArCjAnBcGt@XxCcBXcHhAMb@wB@aAcB`@PmAuAs@f@}FbBCb@{A]wR`Gj@vBcF}@{HaBi@\\mEyEo@jFym@na@cLuAkIDmMhGas@N_YzFsJpCqQy@U\\aB{Aq@~BoEqEeAeBvIw@EaBxCoDeAl@S]iHkCXBcGoASAwAwUk@b@{LaE_@]tDiDNdBn]Iy@eBx@?sBg@pAqDQUh@HcHkC?s@xFa@{C}E_@iB~BuAlHoL}@uE`CKvBkAr@}@aBjEqE{@_DfFwDQqEyHhDw[~Z_OmDoB\\gOkCeLvEsO`NfCnF}D|GiOzd@pDvMtA_A|A~@`ClGq@S?`B_A_BeAnBr@n@}E~C}@aAyAhBf@jAuCxHbGfKSx@dFnCnA}DzA_@rHnLpAuAhBzD_JfKbHzMbA_AxDvF`FeGnBaAf@hAbBeC|C~KjDsCv@fBeAv@TlEeAt@~A`C{@bA\\x@lAg@ZnCpAk@ZzAs@`D{JvF`@tAXg@tAbAqHrQnBd@y@rBr@f@WlCt@Ax@eCHbEzBGnAzI`PmBt@aBtIiChB_Ch@j@}AdCz@pE`D`AxBdS`Dv@wAfEvBjBpAm@hK|BhAL"
+        },
+        {
+          "name": "Toshima",
+          "osmId": 1759506,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7123006,
+            "maxLat": 35.7459875,
+            "minLng": 139.6775274,
+            "maxLng": 139.7525896
+          },
+          "encodedPolyline": "wlayEqwosYjMyVlMwBlAeAHdAzBs@UkArAqAc@sFtEc@Wa`@pC{d@I}LcCsHmCoA`@mNjBmMpBlArCoHfCjCKnA|@]rAbAvHwFhDx@rEa@Wr@xAQ[pCrInBz@uGvAg@VnBNaCh@L{@uUfAoDcEyCs@mDpI{OCiDgBq@n@wCtAq@~AiIBqDkB}@Z}@pBJ@mAmBw@hAaA[wFoEfJ}D~QsMkCqAl@wBkBvAgEaDw@yBeSaDaA{@qE|AeCi@k@iB~BuIhCu@`BaPlBoA{I{BFIcEy@dCu@@VmCs@g@x@sBoBe@pHsQuAcAYf@a@uAzJwFr@aD[{AqAj@[oCmAf@]y@z@cA_BaCdAu@UmEdAw@w@gBkDrC}C_LcBdCg@iAoB`AaFdGyDwFcA~@cH{M~IgKiB{DqAtAsHoL{A^oA|DeFoCRy@cGgKtCyHg@kAxAiB|@`A|E_Ds@o@dAoB~@~A?aBp@RaCmG}A_AuA~@mDiMiG~PeM~FoEhI~ExAIfAkAJIvCfAvE{Ig@a@oAqH~TxDvNxClUaMdLcA`EeEuAsAkBeAP[~]tGnAhIvF`HhI`BeABeCxA@mAvBxAhAEtByCdBqCtEaDtMcNbBwC_@kDd^lBx@kBbXfI|GtERpFpBt[pZpIjAsApIyDb@YmAmPfG^tIaNhAb@hX}D?`@hFsBxCdMzRjNxs@rAfAvBsAC|AdEh@xFtG|BDpA~AtDwB~C?dElHrCoCzGdDH@"
+        }
+      ]
+    },
+    {
+      "name": "Maastricht",
+      "countryCode": "NL",
+      "regions": [
+        {
+          "name": "West",
+          "osmId": 10024002,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.8358678,
+            "maxLat": 50.8698869,
+            "minLng": 5.6407605,
+            "maxLng": 5.6814434
+          },
+          "encodedPolyline": "krjuHm}sa@_KvTMJ{@sEuCjAu@hC_EJs@{MwHT@{BWmAcAcBm@k@kEyDiQdLsGrEyAnBiAnEs@|JEpAgUq@ExAd@`C|AvDuUt}@zFjIqAvAeF|NlBzIrF{GnLbb@pIrWdCbJxL}IdF}F|HhIx@qIfEsYhA}PtBsJnGtJlKdFdEvAzDZdF^rBo@~DcAxDq@RVDhND`RQxBc@zT`BjBOl@DXvArD~EzClEg@fHaHRjBx@b@rFeF`B\\z@cB~@z@fH{VLGb@\\dHpFdGiMoAkCmCkN{DwDdByHRoBjAmLFyCBQXk@gWi{@aHmUy@oEwLw}@e]zUuAI"
+        },
+        {
+          "name": "Zuidoost",
+          "osmId": 10024213,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.8143435,
+            "maxLat": 50.8441415,
+            "minLng": 5.6970041,
+            "maxLng": 5.7385227
+          },
+          "encodedPolyline": "gucuHos{a@R`j@}B~BsNdnAmZsE}SAsP`@ig@q@ob@mDmASG}H]wI}AR`@uCfB{L`@kENyENoK?qGCu@Es@Es@Gs@Ik@Ik@UsA_@oA]iAoCsF{ImIqBaN_@wCSyCC{A?{AjEi~@B_ABk@bCoh@fN|BbIfBhIvF`IzFp{@p`@?Z`i@pCfCr@bD~BfBrBbBvCvAvD|@xDdArHvBlVBhC?nG"
+        },
+        {
+          "name": "Centrum",
+          "osmId": 10024257,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.8405538,
+            "maxLat": 50.8587168,
+            "minLng": 5.6777795,
+            "maxLng": 5.7066454
+          },
+          "encodedPolyline": "kgluHejva@sA_EzBuB|L]TsGiC_L?mH~@{KAaAqAP?SCc@To@S}IC}@fJ}FlH}B|HwFjFkBhQeGVfGdJsCrLdH`H`EJyC`BjAEpE|AUa@tC|AS\\vIF|HeGmA}AvKYtBMjAEh@IxACxADzERdD|@bGb@nDLlAHbAF~@LzF@rAAbBAp@Ar@G`AE`AI|@IfAOjAQdAOv@S|@Oj@YdAYz@i@tAWj@k@lA]l@]j@yAbBwBtBe]zUuAImZ}e@uS_\\{CyG"
+        },
+        {
+          "name": "Noordwest",
+          "osmId": 10024321,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.8498236,
+            "maxLat": 50.8712326,
+            "minLng": 5.6720594,
+            "maxLng": 5.6967834
+          },
+          "encodedPolyline": "e{muH}zra@eBCaPU`@aFyH_s@v\\yQqIcUpP}WlGgQxGuFlGY|\\M?lHhC~KUrG}L\\{BtBrA~DzCxGtS~[lZ|e@_KvTMJ{@sEuCjAu@hC_EJs@{MwHT@{BWmAcAcBm@k@kEyDiQdLsGrEyAnBiAnEs@|JEpAgUq@"
+        },
+        {
+          "name": "Oost",
+          "osmId": 10024410,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 50.8401913,
+            "maxLat": 50.8733357,
+            "minLng": 5.7008667,
+            "maxLng": 5.7410891
+          },
+          "encodedPolyline": "cdiuHwx_b@cCnh@Cj@C~@kEh~@?zABzARxC^vCpB`NzIlInCrF\\hA^nATrAHj@Hj@Fr@Dr@Dr@Bt@?pGOnKOxEa@jEgBzL}ATDqEaBkAKxCaHaEsLeHeJrCWgGiQdGkFjB}HvFmH|Bm@mIz@mEk]cVkBnJe@rC]|CIfAE~A?xADtA|@`T{IcLy@{@UAw@?gBKgZwEgAUeDeB_UsLuA}@xFiUnC}KzAiGdDoJ{CuCeFoFlU{h@fB}CkTsd@aPgk@`IyLdmA`Kfe@bDjNzA~JnAzJiAnZeC"
+        }
+      ]
+    }
+  ]
+}
