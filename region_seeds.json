@@ -122,7 +122,10 @@
           },
           "encodedPolyline": "azf~Huhb^pGb@rSgE~EyEpHiXgBoZvEsGbObIf@tRlIhUfFnDtEo@h^md@vFU|EhBvHdM~IKeJxxAdMfR|Gbn@w@xlA_AbDwEoH_A~Gw@S_BsAd@iHoCB?lAqWBVfCeLlHiLjVtPhi@sGxMxPfQxNj\\uGlK~BnG{Qze@}LvOpk@le@aGtNyzB`AgGt{@cBfBk@sB_DlMs@_A}ApAWmCuEvBThG{BcKiHdHkC~IgCr[cQn_@ycAiuBnHgB{@oJi[jAyMfDeC_ZRum@bK{gAdD{RjB_Ez@zAdAeEYiXjSmjA|HpA`AiAlLp\\|NuMhArEfA}@{FkX_I{PcG{AqHlEm@iFlCcSs@uApJiSo@eAnKoZtDsb@hBqIpAPzK_q@zFfC`Oss@tRlXnLhB"
         }
-      ]
+      ],
+      "centerLat": 52.35452,
+      "centerLng": 4.918223,
+      "radiusKm": 16.96
     },
     {
       "name": "Rotterdam",
@@ -206,7 +209,10 @@
           },
           "encodedPolyline": "gcw{HqtyYf}B_hBpKqDfRnFA_@C_B?_@SyBAEGy@@CZeAeByBKK??KOCCII?SA]?I?aA?cB@o@BuAHiBJoANsBLuATqC^sDJkATeCf@aFh@kF`@aDPkBV}BNwAHy@RmARw@FMRi@N]?AN]b@eAVo@P]tAeD?ALYMy@[eB?Ee@gCXmBd@eDt@oFTkAjBmJbA_EBJZfA@B@A??h@gBV_ARo@@MpAeDfCqE??@CDG??JQ@AxAkCBEBC@Ck@kCCGIi@AAE[CSImBAkC?EAgDH{B@MFu@b@kFdDgWl@sE\\oCt@_GBM???GhCqPpAuIxB{NRsADYl@qE^sDPuBRgCNuBDw@EWAIVeFPaDHqBBy@BcCNiL@iDEsCGcD]yDI}@KiO?Iw@sOIsAC?y@Bu@@I@g@@A?C?OBA???C???K@G?G@I?I@E?A?G?E?A???A???G?????A?G?G?I@e@?A?A?A?a@DK?I@K@A???K?K@??M?I?C?K@K?M?I?E?I?G@A?C?EBMH?@A?IHCDCB?D?NAm@?K?[?Q?C?U@_@CAAEA??IAS?E??ACCQAGACCOCOCa@?C?CAi@??AKSmAEYSaA??EQAQAACQE_@YaBEYCIESCKCKCICMACCSACAII_@EWCGGYAC??@CAGCAc@gBKa@Ia@????BCCGCBGSCEOk@GSIYIYAE?CAGIUEMGQCE?EAGA?A?EOAEAGIa@C[?GAW?M?AC]CQEi@?GAWAWCg@AOCUAMMe@Ic@?CA@CCCECIWcAKm@BCAGC@SeAIe@I_@Kg@?EAISaAMg@W{@GYEOEYAIEQC_@CUAUCS?AG]EUAG?GEMEM?CEOK[YeAG_@EQAAAGAA?AAC?A?I?Y?K?W?a@?M?W?K?M?uBG@A??cC@?FB?SAaLAmK???eA?y@AmB?g@?aA?G?K?eI?yDAuF?A?_F?Y?gF?sA?]?Y?_BAgC?Y?oG?_D?Y?WA_IAuD?GeEVoBX{A`@kAd@aAh@mAv@sAfA{CbDc@d@}HjIi@|@kAxCkJjX}AdE{@hB}AvCqAlBeF~HaB~BkBpCaGfJi@nA_ApC[lAgBlJc@~Bq@tCaBpF{@lCm@q@_KwAuFg@eDgGOMUG{@@{@@mMZoHLeA?SAYKgKyDqDcBg@MuB_A_BSEzCnTrtByPjc@mAvDwKtIfBpNnAhWd@hJHzAKt[u@bTwC`c@cD`ZiCla@WhIm@jQS~\\|Bjl@`El_@?D??~BvPp@`FjApIBJF`@zFhb@jCdQFf@NnAPbBDd@HbAPtBNvB"
         }
-      ]
+      ],
+      "centerLat": 51.905256,
+      "centerLng": 4.46971,
+      "radiusKm": 7.68
     },
     {
       "name": "Utrecht",
@@ -342,7 +348,10 @@
           },
           "encodedPolyline": "gdc}Hcvi]|z@sq@}@u@vD_JrCdCtIy@tEl@zBpD@rLt@xApQpBpLxNdGw@zH{MaEmtAnd@oNSoC`[qIvJmbAx`AbJaA|H~jAjLlWurBvEzDr]kXtA_Bh@eGq@{PxAkGxC^fDyFbG[|CfCvE{Clg@a{@jG}Gbf@kZvc@wf@|BkGiDqAdF_TlDtAdOee@uB}KiEIoC|BsAA{CiCwr@gAaQl@mAw@{JHsF}@wm@cAqTyE^cDoWgJHcA}MiHuB{L[oTfEoe@pAyo@`A_G`GgJzAiIByE_FmR}FfFkBnd@sBnE}@|[{Khd@wDnW{IrKeElBiTiAyKuCmBbJ`TbN`HfBjFdTh@xTsIzu@_w@s[~@_I}OeGg@~Hc@iByEPsArC@rDg@Gh@bBpAN?dBsAMCfExAJ?bCqC@yAvNzDXKzSyP{AFnNeXuBOzZ~GpPmDvDoLzAePjL_JdKmG|IsA~Fg@YZhOoAhDoC|AkAfH}LoGBo@aa@uP]uHmDs@{I|JqDsF{F_ELiAY`AsEmDoJbX}K{JgaAtkBuLrQePjOiV~Ms_@`[cAXqAiBni@jgBpPfFhPreAvj@fVl@V"
         }
-      ]
+      ],
+      "centerLat": 52.084166,
+      "centerLng": 5.082625,
+      "radiusKm": 11.03
     },
     {
       "name": "The Hague",
@@ -452,7 +461,10 @@
           },
           "encodedPolyline": "qwz|Ha_yXfIySvIo]bVmRiX_~@nIoJ`Eq@bCl@fLfXhJmLlIdZlM_YvJeq@~BcFgRin@}Pcw@_Mex@{Hu]}Gug@cRpMw\\|g@|B`HdDf\\xHtZkHjDyF_@mCuAaB~EeXlX{^pi@v^ft@`CbBuHjS}@|IyAvy@hNfRhg@xx@"
         }
-      ]
+      ],
+      "centerLat": 52.072109,
+      "centerLng": 4.309036,
+      "radiusKm": 11.03
     },
     {
       "name": "Eindhoven",
@@ -549,7 +561,10 @@
           },
           "encodedPolyline": "_p`yHofu_@tTeVlI}Cr_@bA`TvTlI~A|Ks_@dCQFqG}CsSwFNwDcEkBqTbGeKhEqd@lH_B}O_o@l@i@]oGrRk]`Iuj@_YyXnFiNdHeIwBsIfVqG~FcNkIaMl@uAsFkK[}CpHq\\`DkHvAiBno@{DZu@eWojA[yHsF_Dq@eKiDgNoEgKkIq]yGgNr@_CiLec@SaF}BgBlJkOoKc]aL`QuGkA}K`@aGkHsClQsGrO}zFrjIxCbb@FhW{A`]yFxf@dBCUfBpi@_Az@|Be@mClg@u@xCxBjAOChEzBbDhAdGvApAvEuAxBzR|Up_@gHr{@xc@fMgDvUvQdLpRpUhBvE@@"
         }
-      ]
+      ],
+      "centerLat": 51.448562,
+      "centerLng": 5.452786,
+      "radiusKm": 9.42
     },
     {
       "name": "Groningen",
@@ -646,7 +661,10 @@
           },
           "encodedPolyline": "outcIks`g@rL_Cf[aRlPkP~Qmh@_Bwa@aHvDy@_HkEzHoEnCo@qDoHdBoAvBeBcKqChBsBiMgKhEj@dDuEvEx@rEmBnAZ|A{XpR}KrTf@zAuCtDbErONjJiAnHjOlGpE`@rED"
         }
-      ]
+      ],
+      "centerLat": 53.219233,
+      "centerLng": 6.57573,
+      "radiusKm": 6.16
     },
     {
       "name": "Nijmegen",
@@ -756,7 +774,10 @@
           },
           "encodedPolyline": "e|q{Hucob@jj@yxAmS}ZzHuQgGcLwAa@nFgLo@_EyPeJwB{H}OqFoJaHwXck@iN{g@`G_Te@aDzEcBu@kRpG{F`BeSwYfAwd@rO}Av@V~CsGnBlA|Vc@jLeBP~@~D[|OpAfCEnT}e@dBxDptBa@lq@hLFrFmWpHuGrGaC~Ht@dMyCz@cFd^b^bDsMt`@bUa@hOcEbD?tDfCrDu@hMvE|KbFdT~AtH"
         }
-      ]
+      ],
+      "centerLat": 51.842605,
+      "centerLng": 5.832984,
+      "radiusKm": 8.54
     },
     {
       "name": "London",
@@ -840,7 +861,10 @@
           },
           "encodedPolyline": "kplyHluZbJyE~PiOvAiFm@_OyG{GqHoUcLxCXjB}DtBu@mB`F~cAXJ"
         }
-      ]
+      ],
+      "centerLat": 51.530813,
+      "centerLng": -0.058147,
+      "radiusKm": 13.32
     },
     {
       "name": "New York",
@@ -911,7 +935,10 @@
           },
           "encodedPolyline": "_}dvFvtfdMjkAgc@~}@elDibEumb@uiLix@cgDnj@guCn}AwwCwDEbbEpThg@?peB|c@`dBqHbj@pIt~@k[zoF`B|WbXdc@`Zb]bQ|J~RnYpPWpZfInn@iHpNbHjr@zDnb@w_@xN?`}@xn@vwAbQlqAvZtTjTgLzrAf|@jcBfk@pPjdCuYb`@nq@jj@dXn|@lC"
         }
-      ]
+      ],
+      "centerLat": 40.697104,
+      "centerLng": -73.979538,
+      "radiusKm": 37.37
     },
     {
       "name": "Chicago",
@@ -969,7 +996,10 @@
           },
           "encodedPolyline": "qps~FtkfvOrSSA_CtpAoA`IkCdQ_LxMs@@n@hJKGeNtDCoEofAeBa|EtMOKiVaIoCe~@bB__@pEiLtG{NhC}NZy[aBuBvD_LdDBd]dBCFdRgBf@AbNnA|cF`AA~AzQxBtFrE|BtI@DvB?\\"
         }
-      ]
+      ],
+      "centerLat": 41.87819,
+      "centerLng": -87.645408,
+      "radiusKm": 5.88
     },
     {
       "name": "Kyiv",
@@ -1105,7 +1135,10 @@
           },
           "encodedPolyline": "q~wrH}npwD|Lq_@{A{ClJ_OwSye@wNcPsKeIWa]p]ix@oZuj@_EpH}WmNuOaLgZqM{Ja@ePnAv]wnEw@wCp@oi@wCoMuHow@sFegAN{Vg@VuBqBAeB}D`FyLxFmBgCcDMOqInDc@?eDvXeAlBy@fBeJ?q\\|hA{Klt@}f@lAf@t@jDzEoF`AcHlPoRfqAabCjGoQ`k@afCvAmAK{CaG}N_N{TcGyGoV{L_In@gXfTwDvFqWpVqVf^mi@zi@snA~y@mDf@eEm@mPuDkIwEgq@_xAcLeH}MaAxGbzBwmDlAoCo@ajAp_EoiBnRiLnj@gEjMcsDpuH`B|F|SuOb`A~J_BrKpC~@vArm@hVvNrIoCnL|S[lF~LvQfD|Je@jCzC~Jp@l]rCbH~D~BbF|RzDzHtHnF`EhJbH~D`L~KlHnDzBgElHmEtI}JxRw`@vBeAEiAdDm@~SlApZd]lFsF~VvTXrAt@gC`ClBEbIjFdQk@f\\lAzD|HnDpJfA|Ai@tC~@`@q@~FIzGnAxHnG~QdChBsCrDeTGmFfAChAcHDsMzMzAfGdDlL|VdOnMjFxM|JfKdSnRxB\\pHxIrPpHjMnBtHeDpDaHbE_AnJyH`HiLjQeDtEpApDlRnOjCxEAzDbMxClEvHhI~KlEjO\\"
         }
-      ]
+      ],
+      "centerLat": 50.402028,
+      "centerLng": 30.531252,
+      "radiusKm": 32.56
     },
     {
       "name": "Tokyo",
@@ -1228,7 +1261,10 @@
           },
           "encodedPolyline": "wlayEqwosYjMyVlMwBlAeAHdAzBs@UkArAqAc@sFtEc@Wa`@pC{d@I}LcCsHmCoA`@mNjBmMpBlArCoHfCjCKnA|@]rAbAvHwFhDx@rEa@Wr@xAQ[pCrInBz@uGvAg@VnBNaCh@L{@uUfAoDcEyCs@mDpI{OCiDgBq@n@wCtAq@~AiIBqDkB}@Z}@pBJ@mAmBw@hAaA[wFoEfJ}D~QsMkCqAl@wBkBvAgEaDw@yBeSaDaA{@qE|AeCi@k@iB~BuIhCu@`BaPlBoA{I{BFIcEy@dCu@@VmCs@g@x@sBoBe@pHsQuAcAYf@a@uAzJwFr@aD[{AqAj@[oCmAf@]y@z@cA_BaCdAu@UmEdAw@w@gBkDrC}C_LcBdCg@iAoB`AaFdGyDwFcA~@cH{M~IgKiB{DqAtAsHoL{A^oA|DeFoCRy@cGgKtCyHg@kAxAiB|@`A|E_Ds@o@dAoB~@~A?aBp@RaCmG}A_AuA~@mDiMiG~PeM~FoEhI~ExAIfAkAJIvCfAvE{Ig@a@oAqH~TxDvNxClUaMdLcA`EeEuAsAkBeAP[~]tGnAhIvF`HhI`BeABeCxA@mAvBxAhAEtByCdBqCtEaDtMcNbBwC_@kDd^lBx@kBbXfI|GtERpFpBt[pZpIjAsApIyDb@YmAmPfG^tIaNhAb@hX}D?`@hFsBxCdMzRjNxs@rAfAvBsAC|AdEh@xFtG|BDpA~AtDwB~C?dElHrCoCzGdDH@"
         }
-      ]
+      ],
+      "centerLat": 35.684512,
+      "centerLng": 139.752109,
+      "radiusKm": 11.74
     },
     {
       "name": "Maastricht",
@@ -1299,7 +1335,10 @@
           },
           "encodedPolyline": "cdiuHwx_b@cCnh@Cj@C~@kEh~@?zABzARxC^vCpB`NzIlInCrF\\hA^nATrAHj@Hj@Fr@Dr@Dr@Bt@?pGOnKOxEa@jEgBzL}ATDqEaBkAKxCaHaEsLeHeJrCWgGiQdGkFjB}HvFmH|Bm@mIz@mEk]cVkBnJe@rC]|CIfAE~A?xADtA|@`T{IcLy@{@UAw@?gBKgZwEgAUeDeB_UsLuA}@xFiUnC}KzAiGdDoJ{CuCeFoFlU{h@fB}CkTsd@aPgk@`IyLdmA`Kfe@bDjNzA~JnAzJiAnZeC"
         }
-      ]
+      ],
+      "centerLat": 50.84384,
+      "centerLng": 5.690925,
+      "radiusKm": 5.29
     },
     {
       "name": "Antwerpen",
@@ -1409,7 +1448,10 @@
           },
           "encodedPolyline": "wawwHmg_ZrCcBhLwHrEoEVy@z@qCbGwQ|EwNvDoHbAsB`Si[YyG_SaAgHzAk@NgP_tA{@mGm@\\a@PyC|Aq@Ra@AUCm@K[AKBu@RWJULAFCB@NuBlAGxAmCxBs@mCeC\\w@l@o@]}C}De@m@QGkCbB_@PKEGSISK_@CS@[EQYc@Ue@]e@GSG{@Mu@Qi@Qc@G]Cc@?uA@[COKMMOWy@_@N{A|@EBEQIS_BkGc@{As@sC_@wAi@uB]uAYeAs@sCMe@CIe@iBUw@a@mBa@NKJgB~@qLtGUPcDlBwCwAkMlC{AFiMeB_@Ec@E{AGu]pDSBmGj@]Fe@V_@t@uAlCOVi@l@a@p@DnBd@jPDdB^xNXjKVjHLjDPzDPhDDbAHfAPtBTrCX~CXfC\\fCVjB\\~Bt@fEd@hCvApJR|AVjBJjBFhAB|A?nC?jEBxBJzBPvB\\hCp@pDx@fEVjCPxCTdCCvAxOjDrLpC|LdD~Br@jBZrCh@jDd@~NjBrIb@bNDlRa@dQe@"
         }
-      ]
+      ],
+      "centerLat": 51.228391,
+      "centerLng": 4.399391,
+      "radiusKm": 12.86
     }
   ]
 }
