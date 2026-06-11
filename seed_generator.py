@@ -26,6 +26,13 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+try:
+    from shapely.geometry import Polygon as ShapelyPolygon
+    from shapely.ops import unary_union
+    HAS_SHAPELY = True
+except ImportError:
+    HAS_SHAPELY = False
+
 SEEDS_PATH   = Path(__file__).parent / "region_seeds.json"
 PREVIEW_DIR  = Path(__file__).parent / "previews"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
@@ -210,6 +217,32 @@ def convex_hull(points):
             upper.pop()
         upper.append(p)
     return lower[:-1] + upper[:-1]
+
+def _union_polygons(districts):
+    """
+    Return the exterior polygon of the union of all member district polygons.
+    Uses Shapely when available (exact union, no overlap); falls back to the
+    convex hull of all member points when Shapely is not installed.
+    """
+    if HAS_SHAPELY:
+        polys = []
+        for d in districts:
+            pts = d["points"]
+            if len(pts) >= 3:
+                # Shapely uses (x, y) = (lng, lat)
+                polys.append(ShapelyPolygon([(p[1], p[0]) for p in pts]))
+        if polys:
+            merged = unary_union(polys)
+            # MultiPolygon → take the largest piece
+            if merged.geom_type == "MultiPolygon":
+                merged = max(merged.geoms, key=lambda g: g.area)
+            if not merged.is_empty:
+                # Convert back to (lat, lng)
+                return [(lat, lng) for lng, lat in merged.exterior.coords]
+    # Fallback: convex hull
+    all_pts = [p for d in districts for p in d["points"]]
+    return convex_hull(all_pts) or all_pts
+
 
 # ── Polyline encoding / decoding ────────────────────────────────────────────
 
@@ -438,11 +471,10 @@ def main():
 
         regions_raw = []
         for group in groups:
-            all_pts = [p for d in group for p in d["points"]]
-            hull    = convex_hull(all_pts) or all_pts
-            c       = centroid([centroid(d["points"]) for d in group])
-            label   = min(group, key=lambda d: _dist2(centroid(d["points"]), c))["name"]
-            regions_raw.append({"name": label, "points": hull,
+            c     = centroid([centroid(d["points"]) for d in group])
+            label = min(group, key=lambda d: _dist2(centroid(d["points"]), c))["name"]
+            pts   = _union_polygons(group)
+            regions_raw.append({"name": label, "points": pts,
                                  "members": [d["name"] for d in group],
                                  "osmId": None, "adminLevel": None})
             print(f"    '{label}': {', '.join(d['name'] for d in group)}")
