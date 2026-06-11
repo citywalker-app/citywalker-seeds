@@ -114,6 +114,10 @@ def build():
             errors.append(f"{path.name}: invalid JSON: {e}")
             continue
         validate_city(path, city, errors)
+        if "unknown" in (city.get("source", {}).get("license"),
+                         city.get("source", {}).get("attribution")):
+            print(f"⚠️   {path.name}: source license/attribution unknown — "
+                  f"required before this city can be merged")
         cities.append({k: v for k, v in city.items() if k not in CONTRIB_ONLY_KEYS})
 
     if errors:
