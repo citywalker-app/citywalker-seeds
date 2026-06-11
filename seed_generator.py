@@ -35,8 +35,43 @@ except ImportError:
 
 SEEDS_PATH   = Path(__file__).parent / "region_seeds.json"
 PREVIEW_DIR  = Path(__file__).parent / "previews"
+CACHE_DIR    = Path(__file__).parent / ".cache"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 NOMINATIM    = "https://nominatim.openstreetmap.org"
+
+
+# ── Download cache (resume support) ─────────────────────────────────────────
+
+def _cache_path(city, country):
+    slug = city.lower().replace(" ", "_")
+    return CACHE_DIR / f"{slug}_{country.lower()}.json"
+
+def load_cache(city, country):
+    path = _cache_path(city, country)
+    if path.exists():
+        data = json.loads(path.read_text())
+        fetched = sum(1 for d in data["districts"] if d["points"] is not None)
+        total   = len(data["districts"])
+        print(f"  ↩️  Resuming from cache ({fetched}/{total} already fetched)")
+        return data
+    return None
+
+def save_cache(city, country, rel_id, admin_level, found_level, districts):
+    CACHE_DIR.mkdir(exist_ok=True)
+    _cache_path(city, country).write_text(json.dumps({
+        "city": city, "country": country,
+        "rel_id": rel_id, "admin_level": admin_level, "found_level": found_level,
+        "districts": [
+            {"id": d["id"], "name": d["name"],
+             "points": [[p[0], p[1]] for p in d["points"]] if d.get("points") else None}
+            for d in districts
+        ],
+    }, indent=2))
+
+def clear_cache(city, country):
+    p = _cache_path(city, country)
+    if p.exists():
+        p.unlink()
 
 # ── HTTP helpers ────────────────────────────────────────────────────────────
 
@@ -418,36 +453,64 @@ def main():
                         help="Generate preview only; don't write region_seeds.json")
     args = parser.parse_args()
 
-    # ── 1. Find city ──────────────────────────────────────────────────────
-    print(f"\n🔍  {args.city}, {args.country.upper()}")
-    rel_id, admin_level, display_name = find_city(args.city, args.country)
-    print(f"    {display_name}  (rel:{rel_id}  al:{admin_level})")
-    time.sleep(1)
+    # ── 1. Find city (skip if cached) ─────────────────────────────────────
+    cache = load_cache(args.city, args.country)
+    if cache:
+        rel_id      = cache["rel_id"]
+        admin_level = cache["admin_level"]
+        found_level = cache["found_level"]
+        # Restore already-fetched entries; pending ones have points=None
+        cached_districts = [
+            {"id": d["id"], "name": d["name"],
+             "points": [tuple(p) for p in d["points"]] if d["points"] else None}
+            for d in cache["districts"]
+        ]
+        print(f"\n🔍  {args.city}, {args.country.upper()}  (rel:{rel_id}  al:{admin_level})")
+    else:
+        print(f"\n🔍  {args.city}, {args.country.upper()}")
+        rel_id, admin_level, display_name = find_city(args.city, args.country)
+        print(f"    {display_name}  (rel:{rel_id}  al:{admin_level})")
+        time.sleep(1)
 
-    # ── 2. Find districts ─────────────────────────────────────────────────
-    print(f"\n🗂   Finding districts…")
-    districts, found_level = find_districts(rel_id, admin_level, args.admin_level)
-    if not districts:
-        print("❌  No districts found. Try --admin-level to specify manually.")
-        sys.exit(1)
+        # ── 2. Find districts ─────────────────────────────────────────────
+        print(f"\n🗂   Finding districts…")
+        raw_districts, found_level = find_districts(rel_id, admin_level, args.admin_level)
+        if not raw_districts:
+            print("❌  No districts found. Try --admin-level to specify manually.")
+            sys.exit(1)
+        cached_districts = [
+            {"id": d["id"],
+             "name": (d.get("tags") or {}).get("name", f"District {i+1}"),
+             "points": None}
+            for i, d in enumerate(raw_districts)
+        ]
+        save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
 
-    # ── 3. Fetch polygons ─────────────────────────────────────────────────
-    print(f"\n⬇️   Downloading {len(districts)} polygons…")
-    fetched = []
-    for i, d in enumerate(districts):
-        name = (d.get("tags") or {}).get("name", f"District {i+1}")
-        print(f"    [{i+1:>2}/{len(districts)}] {name}", end="  ", flush=True)
+    # ── 3. Fetch polygons (resume-aware) ──────────────────────────────────
+    total   = len(cached_districts)
+    pending = sum(1 for d in cached_districts if d["points"] is None)
+    print(f"\n⬇️   Downloading polygons  ({total - pending} cached, {pending} remaining)…")
+
+    for i, d in enumerate(cached_districts):
+        if d["points"] is not None:
+            continue  # already fetched in a previous run
+        print(f"    [{i+1:>2}/{total}] {d['name']}", end="  ", flush=True)
         try:
             pts = fetch_polygon(d["id"])
             if len(pts) < 3:
                 print("skip (too few points)")
+                d["points"] = []          # mark as attempted so we don't retry
             else:
-                fetched.append({"id": d["id"], "name": name, "points": pts})
+                d["points"] = pts
                 print(f"({len(pts)} pts)")
         except Exception as e:
             print(f"ERROR: {e}")
+            # Leave points=None so next run retries this one
+        # Save after every fetch so a crash loses at most one entry
+        save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
         time.sleep(3)
 
+    fetched = [d for d in cached_districts if d.get("points")]
     if not fetched:
         print("❌  No polygons fetched successfully.")
         sys.exit(1)
@@ -535,6 +598,7 @@ def main():
     with open(SEEDS_PATH, "w") as f:
         json.dump(seeds, f, indent=2, ensure_ascii=False)
 
+    clear_cache(args.city, args.country)
     print(f"\n✅  v{seeds['version']} — {len(seeds['cities'])} cities  "
           f"({len(seed_regions)} regions for {args.city})\n")
 
