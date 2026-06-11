@@ -13,6 +13,9 @@ Usage:
   python3 seed_generator.py "Sacramento" US --max-regions 12
   python3 seed_generator.py "Tokyo" JP --admin-level 7
   python3 seed_generator.py "Sacramento" US --dry-run
+
+  # Use official city GeoJSON instead of OSM (skips Overpass entirely):
+  python3 seed_generator.py "Sacramento" US --geojson-url "https://services5.arcgis.com/54falWtcpty3V47Z/arcgis/rest/services/Neighborhoods/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson&outSR=4326"
 """
 
 import argparse
@@ -279,6 +282,50 @@ def _union_polygons(districts):
     return convex_hull(all_pts) or all_pts
 
 
+# ── GeoJSON source (city open data / ArcGIS) ────────────────────────────────
+
+def _geojson_ring_to_points(ring):
+    """Convert a GeoJSON exterior ring [[lng, lat], ...] to [(lat, lng), ...]."""
+    return [(coord[1], coord[0]) for coord in ring]
+
+def _largest_ring(geometry):
+    """Extract the exterior ring of the largest polygon from a Polygon or MultiPolygon."""
+    if geometry["type"] == "Polygon":
+        return geometry["coordinates"][0]
+    if geometry["type"] == "MultiPolygon":
+        # Pick the polygon with the most exterior-ring points as a proxy for largest
+        return max(geometry["coordinates"], key=lambda p: len(p[0]))[0]
+    return []
+
+def districts_from_geojson(url, name_field="NAME"):
+    """
+    Download a GeoJSON FeatureCollection from url and return a list of
+    {"name": str, "points": [(lat, lng), ...]} dicts ready for clustering.
+    Skips features with fewer than 3 points.
+    """
+    print(f"  Fetching {url[:80]}{'…' if len(url) > 80 else ''}")
+    data = _get(url)
+    features = data.get("features", [])
+    districts = []
+    skipped = 0
+    for feat in features:
+        name = (feat.get("properties") or {}).get(name_field) or "Unknown"
+        geom = feat.get("geometry")
+        if not geom:
+            skipped += 1
+            continue
+        ring = _largest_ring(geom)
+        pts  = _geojson_ring_to_points(ring)
+        if len(pts) < 3:
+            skipped += 1
+            continue
+        districts.append({"name": name, "points": pts})
+    if skipped:
+        print(f"  ⚠️  Skipped {skipped} features (no geometry or too few points)")
+    print(f"  {len(districts)} districts loaded from GeoJSON")
+    return districts
+
+
 # ── Polyline encoding / decoding ────────────────────────────────────────────
 
 def encode_polyline(coords):
@@ -449,71 +496,82 @@ def main():
                         help="Force exact number of clusters (overrides auto)")
     parser.add_argument("--admin-level", type=int, default=None,
                         help="Force a specific OSM admin level for districts")
+    parser.add_argument("--geojson-url", default=None,
+                        help="GeoJSON URL (ArcGIS/open data) — skips Overpass entirely")
+    parser.add_argument("--name-field", default="NAME",
+                        help="GeoJSON property containing the district name (default: NAME)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Generate preview only; don't write region_seeds.json")
     args = parser.parse_args()
 
-    # ── 1. Find city (skip if cached) ─────────────────────────────────────
-    cache = load_cache(args.city, args.country)
-    if cache:
-        rel_id      = cache["rel_id"]
-        admin_level = cache["admin_level"]
-        found_level = cache["found_level"]
-        # Restore already-fetched entries; pending ones have points=None
-        cached_districts = [
-            {"id": d["id"], "name": d["name"],
-             "points": [tuple(p) for p in d["points"]] if d["points"] else None}
-            for d in cache["districts"]
-        ]
-        print(f"\n🔍  {args.city}, {args.country.upper()}  (rel:{rel_id}  al:{admin_level})")
-    else:
-        print(f"\n🔍  {args.city}, {args.country.upper()}")
-        rel_id, admin_level, display_name = find_city(args.city, args.country)
-        print(f"    {display_name}  (rel:{rel_id}  al:{admin_level})")
-        time.sleep(1)
+    print(f"\n🔍  {args.city}, {args.country.upper()}")
 
-        # ── 2. Find districts ─────────────────────────────────────────────
-        print(f"\n🗂   Finding districts…")
-        raw_districts, found_level = find_districts(rel_id, admin_level, args.admin_level)
-        if not raw_districts:
-            print("❌  No districts found. Try --admin-level to specify manually.")
+    if args.geojson_url:
+        # ── GeoJSON path: one request, no Overpass, no cache needed ──────
+        print(f"\n🌐  Loading districts from GeoJSON…")
+        fetched = districts_from_geojson(args.geojson_url, args.name_field)
+        if not fetched:
+            print("❌  No districts found in GeoJSON.")
             sys.exit(1)
-        cached_districts = [
-            {"id": d["id"],
-             "name": (d.get("tags") or {}).get("name", f"District {i+1}"),
-             "points": None}
-            for i, d in enumerate(raw_districts)
-        ]
-        save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
+        found_level = None
 
-    # ── 3. Fetch polygons (resume-aware) ──────────────────────────────────
-    total   = len(cached_districts)
-    pending = sum(1 for d in cached_districts if d["points"] is None)
-    print(f"\n⬇️   Downloading polygons  ({total - pending} cached, {pending} remaining)…")
+    else:
+        # ── OSM / Overpass path (with resume cache) ───────────────────────
+        cache = load_cache(args.city, args.country)
+        if cache:
+            rel_id      = cache["rel_id"]
+            admin_level = cache["admin_level"]
+            found_level = cache["found_level"]
+            cached_districts = [
+                {"id": d["id"], "name": d["name"],
+                 "points": [tuple(p) for p in d["points"]] if d["points"] else None}
+                for d in cache["districts"]
+            ]
+            print(f"    (rel:{rel_id}  al:{admin_level})")
+        else:
+            rel_id, admin_level, display_name = find_city(args.city, args.country)
+            print(f"    {display_name}  (rel:{rel_id}  al:{admin_level})")
+            time.sleep(1)
 
-    for i, d in enumerate(cached_districts):
-        if d["points"] is not None:
-            continue  # already fetched in a previous run
-        print(f"    [{i+1:>2}/{total}] {d['name']}", end="  ", flush=True)
-        try:
-            pts = fetch_polygon(d["id"])
-            if len(pts) < 3:
-                print("skip (too few points)")
-                d["points"] = []          # mark as attempted so we don't retry
-            else:
-                d["points"] = pts
-                print(f"({len(pts)} pts)")
-        except Exception as e:
-            print(f"ERROR: {e}")
-            # Leave points=None so next run retries this one
-        # Save after every fetch so a crash loses at most one entry
-        save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
-        time.sleep(3)
+            print(f"\n🗂   Finding districts…")
+            raw_districts, found_level = find_districts(rel_id, admin_level, args.admin_level)
+            if not raw_districts:
+                print("❌  No districts found. Try --admin-level to specify manually.")
+                sys.exit(1)
+            cached_districts = [
+                {"id": d["id"],
+                 "name": (d.get("tags") or {}).get("name", f"District {i+1}"),
+                 "points": None}
+                for i, d in enumerate(raw_districts)
+            ]
+            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
 
-    fetched = [d for d in cached_districts if d.get("points")]
-    if not fetched:
-        print("❌  No polygons fetched successfully.")
-        sys.exit(1)
+        # ── 3. Fetch polygons (resume-aware) ──────────────────────────────
+        total   = len(cached_districts)
+        pending = sum(1 for d in cached_districts if d["points"] is None)
+        print(f"\n⬇️   Downloading polygons  ({total - pending} cached, {pending} remaining)…")
+
+        for i, d in enumerate(cached_districts):
+            if d["points"] is not None:
+                continue
+            print(f"    [{i+1:>2}/{total}] {d['name']}", end="  ", flush=True)
+            try:
+                pts = fetch_polygon(d["id"])
+                if len(pts) < 3:
+                    print("skip (too few points)")
+                    d["points"] = []
+                else:
+                    d["points"] = pts
+                    print(f"({len(pts)} pts)")
+            except Exception as e:
+                print(f"ERROR: {e}")
+            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
+            time.sleep(3)
+
+        fetched = [d for d in cached_districts if d.get("points")]
+        if not fetched:
+            print("❌  No polygons fetched successfully.")
+            sys.exit(1)
 
     # ── 4. Cluster if needed ──────────────────────────────────────────────
     original_count = len(fetched)
@@ -543,7 +601,7 @@ def main():
             print(f"    '{label}': {', '.join(d['name'] for d in group)}")
     else:
         regions_raw = [{"name": d["name"], "points": d["points"],
-                        "members": [d["name"]], "osmId": d["id"],
+                        "members": [d["name"]], "osmId": d.get("id"),
                         "adminLevel": found_level}
                        for d in fetched]
 
@@ -598,7 +656,8 @@ def main():
     with open(SEEDS_PATH, "w") as f:
         json.dump(seeds, f, indent=2, ensure_ascii=False)
 
-    clear_cache(args.city, args.country)
+    if not args.geojson_url:
+        clear_cache(args.city, args.country)
     print(f"\n✅  v{seeds['version']} — {len(seeds['cities'])} cities  "
           f"({len(seed_regions)} regions for {args.city})\n")
 
