@@ -16,6 +16,9 @@ Usage:
 
   # Use official city GeoJSON instead of OSM (skips Overpass entirely):
   python3 seed_generator.py "Sacramento" US --geojson-url "https://services5.arcgis.com/54falWtcpty3V47Z/arcgis/rest/services/Neighborhoods/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson&outSR=4326"
+
+  # Use a local Shapefile (UTM Zone 32N) instead of OSM:
+  python3 seed_generator.py "Ingolstadt" DE --shapefile /tmp/ingolstadt_shp/Bezirke_Polygon.shp --name-field bezname
 """
 
 import argparse
@@ -282,6 +285,58 @@ def _union_polygons(districts):
     return convex_hull(all_pts) or all_pts
 
 
+# ── Shapefile source (UTM → WGS84) ──────────────────────────────────────────
+
+def _utm_to_latlon(easting, northing, zone=32):
+    import math
+    k0 = 0.9996; a = 6378137.0; e2 = 0.00669438
+    e_p2 = e2 / (1 - e2); e4 = e2**2; e6 = e2**3
+    x = easting - 500000
+    y = northing
+    m = y / k0
+    mu = m / (a * (1 - e2/4 - 3*e4/64 - 5*e6/256))
+    e1 = (1 - math.sqrt(1-e2)) / (1 + math.sqrt(1-e2))
+    phi1 = (mu + (3*e1/2 - 27*e1**3/32)*math.sin(2*mu)
+               + (21*e1**2/16 - 55*e1**4/32)*math.sin(4*mu)
+               + (151*e1**3/96)*math.sin(6*mu))
+    N1 = a / math.sqrt(1 - e2*math.sin(phi1)**2)
+    T1 = math.tan(phi1)**2
+    C1 = e_p2 * math.cos(phi1)**2
+    R1 = a*(1-e2) / (1-e2*math.sin(phi1)**2)**1.5
+    D = x / (N1*k0)
+    lat = phi1 - (N1*math.tan(phi1)/R1)*(
+        D**2/2
+        - (5+3*T1+10*C1-4*C1**2-9*e_p2)*D**4/24
+        + (61+90*T1+298*C1+45*T1**2-252*e_p2-3*C1**2)*D**6/720)
+    lon_0 = math.radians((zone-1)*6 - 180 + 3)
+    lon = lon_0 + (D - (1+2*T1+C1)*D**3/6
+                     + (5-2*C1+28*T1-3*C1**2+8*e_p2+24*T1**2)*D**5/120) / math.cos(phi1)
+    return math.degrees(lat), math.degrees(lon)
+
+def districts_from_shapefile(path, name_field="NAME", utm_zone=32):
+    """
+    Read a Shapefile (UTM Zone utm_zone) and return a list of
+    {"name": str, "points": [(lat, lng), ...]} dicts.
+    Requires pyshp (pip install pyshp).
+    """
+    try:
+        import shapefile as pyshp
+    except ImportError:
+        print("❌  pyshp not installed. Run: pip install pyshp")
+        sys.exit(1)
+    sf = pyshp.Reader(path, encoding="latin-1")
+    fields = [f[0] for f in sf.fields[1:]]
+    districts = []
+    for sr in sf.shapeRecords():
+        rec  = dict(zip(fields, sr.record))
+        name = rec.get(name_field) or "Unknown"
+        pts  = [_utm_to_latlon(e, n, utm_zone) for e, n in sr.shape.points]
+        if len(pts) >= 3:
+            districts.append({"name": name, "points": pts})
+    print(f"  {len(districts)} districts loaded from Shapefile")
+    return districts
+
+
 # ── GeoJSON source (city open data / ArcGIS) ────────────────────────────────
 
 def _geojson_ring_to_points(ring):
@@ -498,8 +553,12 @@ def main():
                         help="Force a specific OSM admin level for districts")
     parser.add_argument("--geojson-url", default=None,
                         help="GeoJSON URL (ArcGIS/open data) — skips Overpass entirely")
+    parser.add_argument("--shapefile", default=None,
+                        help="Local .shp file path — skips Overpass entirely")
+    parser.add_argument("--utm-zone", type=int, default=32,
+                        help="UTM zone for Shapefile reprojection (default: 32)")
     parser.add_argument("--name-field", default="NAME",
-                        help="GeoJSON property containing the district name (default: NAME)")
+                        help="GeoJSON/Shapefile property for district name (default: NAME)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Generate preview only; don't write region_seeds.json")
     args = parser.parse_args()
@@ -512,6 +571,15 @@ def main():
         fetched = districts_from_geojson(args.geojson_url, args.name_field)
         if not fetched:
             print("❌  No districts found in GeoJSON.")
+            sys.exit(1)
+        found_level = None
+
+    elif args.shapefile:
+        # ── Shapefile path: local file, no Overpass, no cache needed ─────
+        print(f"\n📂  Loading districts from Shapefile…")
+        fetched = districts_from_shapefile(args.shapefile, args.name_field, args.utm_zone)
+        if not fetched:
+            print("❌  No districts found in Shapefile.")
             sys.exit(1)
         found_level = None
 
@@ -656,7 +724,7 @@ def main():
     with open(SEEDS_PATH, "w") as f:
         json.dump(seeds, f, indent=2, ensure_ascii=False)
 
-    if not args.geojson_url:
+    if not args.geojson_url and not args.shapefile:
         clear_cache(args.city, args.country)
     print(f"\n✅  v{seeds['version']} — {len(seeds['cities'])} cities  "
           f"({len(seed_regions)} regions for {args.city})\n")
