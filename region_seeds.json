@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "cities": [
     {
       "name": "Amsterdam",
@@ -3358,6 +3358,181 @@
             "maxLng": 8.3273554
           },
           "encodedPolyline": "aebpHkjsq@b@{@iHwMt]ox@|j@}z@hVu`@z@wApP}PhEeE|F|OI@hFpNqAvBwBvFoBhEkChEgCfIy@lBuBjC{AxAQ|@Y?UFu@CARAzAg@PeHbA@`@b@KbEjc@cK~OzZnl@nFMwA`PAxEAfBAnENxTXnLKDwFdB@WcB`@]JkAr@CDKHCBCDuBv@WHeC~@mFnCeDdBuB`@gEz@L|@BXj@fI?F@D@D]BMJqAJ?B?@A?EBGBC@E@e@F[BeLz@?n@oDX{NhAOk@EIGqECuDC{BCaBB}A@oA?AFaASuMOkFASEcGCc@{HaLJS_FkKFOsDgHEQ[s@?KGLIO}@_C}A`Bw@sA"
+        }
+      ]
+    },
+    {
+      "name": "Sacramento",
+      "countryCode": "US",
+      "regions": [
+        {
+          "name": "Campus Commons",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5470373,
+            "maxLat": 38.5870202,
+            "minLng": -121.4507343,
+            "maxLng": -121.3750033
+          },
+          "encodedPolyline": "iejjF~v_dVfCB`ABbADx@DY}GiAcGy@sHUsCOuCIeBYsKSuGaBuF{AmFaC{HK[k@oBe@yAeB}FsBaHc@yAsDsMk@cCa@iCm@}Fy@gHoA_KM_ArCSzHoBfKmFvUiO`GqDnOuMhDpIbD~IxDtLt@lCd@vBzDtOlBnKvC~RvAtNN~AHhAFx@JnBHpBDpB@x@@pBEnQApA?V?PAN?PANAP?PCNAPANAPCNAPCNCNCPCNeBhKa@`Cy@`FADCR}@jFwAtIkAhHiDhSg@`DI^MbAuCzTEVCNW~AQfACVERCNs@uEcBaLq@yFaA{GM@OBK@wATgBVChMAXC~QaCB_TNw@Dw@Ps@^o@h@_BxBgAjAu@l@]\\OTIJUf@c@xA[j@_@b@g@XQFe@{A{AuDQUuA~@aBbAwBnAqHlCsDt@oEr@kCNsCNk@DDL^pDhBrRzDx^aQtCmEn@sKjBeG~@kDv@aCtA_B|@{CpCkCjC{BzCaAtBaCdI{CdKiC`J}DfN}AhFoC~Fc@tAcAhDq@pDMlBATk@m@cAaA{Bb@iALMeBKk@sAmDwC{ESSR]hAmBrA_BxC}DzBaDj@{@\\{@`AkCPm@^c@Vg@d@{@FWTK`@u@Lk@V}@Vk@h@w@^w@\\qANq@f@aDb@gBj@wALe@FaA?m@Io@Dg@Fc@V_ACUE[z@oG@iCDgBEm@OwAg@eBYu@yAiAOk@Ym@UeAKi@OeAUk@Nw@Z}I^eKdRa[p@}AV_AlAp@|DfAhBIoBDr@wBdByGbDcMJKjAcEF[BS@U@WCsBn@?Hc@Rw@@YpA_FD[FSXOB}KTDjBb@|AcEzD_KNa@bAgChFmNwGEpG}t@~IpBXPz@RfBZoAjJ~AlA\\j@p@h@rA_Dr@h@RL~@h@bB`@~GzAj@DlCo@ZxBrDvW|BhRoCE^~CTfBX?bKTfB?"
+        },
+        {
+          "name": "Colonial Village",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5160264,
+            "maxLat": 38.5516503,
+            "minLng": -121.4276732,
+            "maxLng": -121.3906804
+          },
+          "encodedPolyline": "utajFjv`dV@zD@jIBxJ@`F@zC?jC@xE@~D?x@uB@GAE?E?E?C?EAE?EAC?EAE?EACAEAEACAEAEAeA[QGAAC?CAAAC?A?CAC?AAC?A?C?CAA?C?C?A?E?u@?gG?yD@kC?M??@ABu@M?FkJCiA?W?mAAyD??iAeWBaRA?NUzDAV?dKAfAGfAAZA^?tAWCkBU[EGAG?EAG?E?GAE?M?{P?gKAA?E?C?A@A?A?C?qGz@?sH?sN?yA?iDAgF?{E?gBwGAE?A?C?A?CAA?EAC?A?CAA?C?AAC?AAAAC?AAC?AAAAEAAACAAAAACAAAAACAAA}@u@AACAAAAAAAAAC?AAAAAAC?AACACAAAA?CAA?AAC?A?AAC?A?CAA?A?C?A?AAC?C?wMCAjQAbGKE{WAsJAkAaHuCgRBODSBWPgAV_BBODWhCqSHg@NiAF]h@_DhDiSjAiHvAuI|@kFBS@Ex@aF`@aCdBiKBOBQBOBO@QBO@Q@O@QBO?Q@Q@O?Q@O?Q?W@qAZ?LANGJIHMDQ~Lap@hLKhOQjAA~@?|@A`A?xb@@B?N?rB@pCCpDCdMAf@?j@?bN@?L?L?rADn[B~RBxN?|CD`U@vI?b@?R@lF?LH?nB?dA?Z?`D?V?rD?xA?hA?~CA`D@^?|BAdE?hD?~C?T?BpKDzR"
+        },
+        {
+          "name": "Depot Park",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.4996469,
+            "maxLat": 38.5443965,
+            "minLng": -121.4274587,
+            "maxLng": -121.3671445
+          },
+          "encodedPolyline": "ob`jFfnxcVtCCr@Tb@H`@Jb@Fb@Db@Db@Bz@@pMBAhRuB?ApTvB?ArgAlK@pC?D`\\aPJ?t@FzPFzDAfDAd`@EdUxGEvFCjEABjf@?ZyDBE?IDC?GAGCiA@?dBoL@?lC?R?lI@dGDvRcB?}A?@tIyAbCI|C?|BBb@?bA?`@eb@Fg@@ea@@CoIAaHAuB?y@A_EAyE?kCA{CAaFCyJAkIA{DE{RCqKU?_D?iD?eE?}B@_@?aDA_D@iA?yA?sD?W?aD?[?eA?oB?I??MAmF?S?c@AwIEaU?}CCyNC_SEo[?sA?M?McNAk@?g@?eM@qDBqCBsBAO?C?yb@AaA?}@@_A?kA@iOPiLJhBmJv\\ghB|~@E?oJtUI?uJfGIA_EnJE@tOhPFP@Ai@|FBEiPfS@pA?DfO@jAdPAf@Bd@DZFRDRFVHXJrNzF?lA"
+        },
+        {
+          "name": "Golf Course Terrace",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.4562144,
+            "maxLat": 38.5118411,
+            "minLng": -121.5062316,
+            "maxLng": -121.4606734
+          },
+          "encodedPolyline": "yoyiFxmjdVjDq@vFoArK{BtIeBnLcCrGsAdHq@d@cAm@dDxTcBAa@|Fa@wDlV@t~@XlARx@h@pBVv@l@nBXt@r@jBXr@~KwAXn_@uJElGbaAeK|BbEld@qBZiEr@^dEuHpAmDj@KeAWsCyB^b@xEQDQoByDt@QoBkB\\wB?CS{Fx@h@~Fa@P_Cv@}NNuBHw@Jc@DkNjC}NCo@LsI~AcUxAyCNgMjAS@iUvAcLhAaIYcEG[AYCw@?[AM?oAAm@A_ACeIK{AEiB?aE?uG@iA?w@?FgWTuAbAwAn@g@xBEfBFKePeAM}@}A]mD?_CTiB^u@bAm@n@M|A@FuM}DAOaA@cFcEPgEnAy@JaGDaE[iBMs@A_CLaDJcCDeLNsZ?bHcUh@{@Su@?cB~EeQD}FS?_E?M??AAmFMki@JCpY_GxQyD~M_DrCk@vDs@hRsD?NhTyErFiAjDu@zG{AjE{@tGuAnE}@xFoAxBe@jDs@p@M`AMbC_@jH_BjGqA|Bg@hBa@jDs@lDw@zBe@nBa@d@ILC"
+        },
+        {
+          "name": "Greenhaven",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.4697781,
+            "maxLat": 38.5413501,
+            "minLng": -121.5591581,
+            "maxLng": -121.49378
+          },
+          "encodedPolyline": "{g}iFjsrdV~@Bl@@nA@L?Z@v@?XBZ@bEF`IXbLiAhUwARAfMkAxCObUyArI_Bn@M|NBjNkCBJTdABdAFhE]P{BfA{@r@u@l@yBvCeBxDiClJoCrOcAvHcArK[hHKnO@tCD`CJ|Bb@nKb@rHf@fPRlEH~SIzHSdGcAlKqBfKyA`FkBrF_AlDuCzDgB`CgBrBeBxA_A`@_DhBeCjBkFlDkLvIaFvDcBnAuIzEkC~AwFlEyCtBqLvHwMhJcGrDcGtCiEbAiDZeBFuHi@yIeAaBi@uG_BsImCeEeBsXeM}K{IqE_LoDqRoBoMq@{EsDyPWqDOmBWwDq@mJg@k^{@{VoC}KuA{Cw@uAeA_AaBk@mD}@hA_MqQYmGWsCo@uCmAoBsAgBcB_C}BiF{DgD{AgB_@cAOcBIwBQwAOaBMoAUsASkBm@iBoAoByAcBqA[lCg@vEG^u@oAy@sAgImLcGwFwGiE[QZiAZoAXaAh@kBz@wC`AiDl@sB`@oAh@_BNm@t@gC^oAbAwD~@mBhCuEt@mA`@q@l@uBj@sEFk@`@cDHq@h@{DX{BB]^yCFi@`@aDBWh@gE`AmIDa@nAXt}@tSx@PpLpCvA\\XF~FtAbB\\pFfAxA^xA^dAVvCn@pBb@bAThGvAfGxAfBv@dDrAx@ZjE`Br@XhBv@|Al@`Bp@dLrE~HnClC~@~E`AlCj@L@`E?lFAnE?v@?hA?tGA`E?hB?zADdIJ"
+        },
+        {
+          "name": "Hollywood Park",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5102451,
+            "maxLat": 38.5459527,
+            "minLng": -121.4981897,
+            "maxLng": -121.4676533
+          },
+          "encodedPolyline": "cw`jFbdndVs{@Py@?BjMF`LaDB?xIl@BBdG@tLFjJ?bHAbLwA]qLqCy@Qu}@uSoAYeRcE}[iH~AcRuCq@\\aBqQ_D~f@qLqDc\\U{D{AcPAIAIAK?KAKAM?QAEEwBEoBAu@CiA?WJ?vA?xCCfC?d@A^?d@Ab@AhBIf@EPAJATCr@GlAOn@Kr@MrAWrA[pA]nAa@lAc@TKZO^Qz_@kP`UuJb@SFrXtIqARCNCLCvKaBvAUd@IZGx@Q|DcAnA]p@QzBi@@v]B|OnRcE~EeAxQ{DLji@@lF?@aF@"
+        },
+        {
+          "name": "Mansion Flats",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.578086,
+            "maxLat": 38.5886038,
+            "minLng": -121.496322,
+            "maxLng": -121.4813589
+          },
+          "encodedPolyline": "aznjFnbndVjO`FhPlFHBCREVShAw@bEqEtXsG{B{GkBwIrh@kPsFiC{@cA{FiBaQa@}G?kB?uAJ}@JsA`@qA|G}b@|S~G"
+        },
+        {
+          "name": "Marshall School",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.564482,
+            "maxLat": 38.5868798,
+            "minLng": -121.489038,
+            "maxLng": -121.4626177
+          },
+          "encodedPolyline": "gckjFxykdV[jBeAhGgAjGc@fCc@bCeAdGgAjGgAlGmCrOeAlGgAfGc@fCYdBGZAHeCpNEVav@kWICiPmFkOaF}S_HzFk`@hDsSfCkOfAgEhAsHj@kIj@eGzA{G`@mBl@v@t@v@r@p@RTfA~@`Cz@fEhA~Bv@vL~DlBl@rInCpEzA|HhCnP|FnSnGlEbBRHGV"
+        },
+        {
+          "name": "Med Center",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5249099,
+            "maxLat": 38.5856127,
+            "minLng": -121.4743796,
+            "maxLng": -121.4216215
+          },
+          "encodedPolyline": "{yejFntidVT?zA?dE?X?vI??bFbB??xB?rP?JpGA?{MnV?fHArF@?iCxC@GtQBzQc@RaUtJ{_@jP_@P[NUJmAb@oA`@qA\\sAZsAVs@Lo@JmANs@FUBK@Q@g@DiBHc@@e@@_@?e@@gC?yCBwA?K?qD@_IDsb@NkODm@@kA@c@@a@@g@B]BWBW@YBWBkBP{CVc@Ba@Bk@Be@?a@A]A[A[AUCSCQAy@Mi@K_@KUGQGoEyAa@M_H}BmDkAkDiAqNuESImEcBoSoGoP}F}HiCqE{AsIoCmBm@wL_E_Cw@gEiAaC{@gA_ASUs@q@u@w@m@w@sFkHs@iAaAuBw@}Ca@sBa@iGOmDs@oKmBaYhAMzBc@bA`Aj@l@@ULmBp@qDbAiDb@uAnC_G|AiF|DgNhCaJzCeK`CeI`AuBzB{CjCkCzCqC~A}@`CuAjDw@dG_ArKkBlEo@`QuCxV_ErFeAzGwBpIqEnLaInDcCp@h@`FtCp@P|ALfE@hAELQjIme@jA`HEb]J?R?|B?x@?V??d@@bA?N?LAJAJCJH??N}BpDILk@z@GLILINGLILGNGLINGNGLENGNGPSj@kApDCDABADABAD?DABADCHaAtFADABADADADADABADADABADCDABADABCDABCDABCDADCDABADCDADADCDABAFABADCLw@pDaAxEuBtH{@tCAB?BABABAB?DABAB?BAD?BAB?B?DAD|ICbFAzAAfB?lAAhDA|GAtAA@rG@dFDnMvBAlDAxC?vDAJ?pCAnB?`BArA?tDA`A?lBABjI@hJ@|F?~D?LA|IAtHC|h@@fAP?bK?"
+        },
+        {
+          "name": "Richmond Grove",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5351569,
+            "maxLat": 38.5712963,
+            "minLng": -121.5188535,
+            "maxLng": -121.471047
+          },
+          "encodedPolyline": "q~ijFxhldVnExAPFTF^Jh@Jx@LP@RBTBZ@Z@\\@`@@d@?j@C`@Cb@CzCWjBQVCXCVAVC\\Cf@C`@Ab@AjAAl@AjOErb@O~HEpDA?VBhA@t@DnBDvB@D?P@L@J?J@J@H@HzAbPTzDpDb\\_g@pLpQ~C]`BtCp@_BbR|[hHdRbEE`@aAlIi@fEAPADa@`DCVCP_@xCC\\YzBi@zDIp@a@bDGj@k@rEm@tBa@p@u@lAiCtE_AlBcAvD_@nAu@fCOl@i@~Aa@nAm@rBaAhD{@vCi@jBY`A[nA[hA{A{@c@W_V{SuK_GsCwA}@g@aCiA{@c@qAo@m@Y_Ak@s@]m@[uBaA}@g@kB_AgAi@gAi@YK{BgAmAo@qAo@WMmCqAgAi@{@c@MIsBaA_By@aBw@}CyA}C{A_HmDeFmB{EwAqBbLcAdG[hBk@~CsClOeAnGmA|GaAzFc@tCy@hE[~AoJvh@qCoDkG}H{AgBT[PU\\a@v@{@~@kA`CcDrAyCbAeCjA_Fn@eDxAiKfEeTfLsp@qBq@iBm@mBo@kBm@mBo@kBo@oBo@kBo@oBo@iBm@mBo@rA}HtE_XDWdCqN@IF[XeBb@gCfAgGdAmGlCsOfAmGfAkGdAeGb@cCb@gCfAkGdAiGZkBFWpNtEjDhAlDjA~G|B`@L"
+        },
+        {
+          "name": "Southside Park",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5647508,
+            "maxLat": 38.5857431,
+            "minLng": -121.5158607,
+            "maxLng": -121.4851397
+          },
+          "encodedPolyline": "exkjFrcsdVyAhKo@dDkA~EcAdCsAxCkCfDu@fAw@z@]`@QTUZ_G_JcCiDqBaC}AaCcCqCwBiBeB_AmHkEqCy@sJcDiHqBsJsC_McDjAyH~@iD|A{C`AGl@eDTmAv@aFXgBo@Yc@e@i@u@e@y@e@wB?aAFsBhAaGvIsh@zGjBrGzBpEuXv@cERiADWBS`v@jWuE~WsA|HlBn@hBl@nBn@jBn@nBn@jBn@lBn@jBl@lBn@hBl@pBp@gLrp@gEdT"
+        },
+        {
+          "name": "Tahoe Park South",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.5158546,
+            "maxLat": 38.5536922,
+            "minLng": -121.4497131,
+            "maxLng": -121.4188814
+          },
+          "encodedPolyline": "ulcjFbobdVxD?lA@V?hA?jJB?Gt@L@C?AL?jC?xDAfG?t@?D?@?B?B?@?B@B?@?B?@@B?B@@?B?@@B@B?@@PFdAZD@D@B@D@D@B@D@D?D@B?D@D?D@B?D?D?D?F@tBA@tB@`HBnIPdbAHZqQxGa]xLBbNmG@???eBAkC?wBuJjDuBt@sCbAiIvCC@A@gEzAcA^g@RyAh@cA^aBj@kEzAsH`DcKpEQH_H~CoClA?M?_EA}FAiJCkImB@aA?uD@sA?aB@oB?qC@K?wD@yC?mD@wB@EoMAeFAsGuA@}G@iD@mA@gB?{A@cF@}IB@E?E?C@C?C@E?C@C@C?E@C@C@C?C@Cz@uCtBuH`AyEv@qDBM@E@C@G@CBE@E@EBE@E@CBE@EBE@CBE@CBE@C@E@CBE@E@C@E@E@C@E@E@E@E@C@E`AuFBI@E@C?E@E@C@E@CBEjAqDRk@FQFODOFMFOHOFMFOHMFMHOHMFMj@{@HM|BqD?OI?BK@K@K?M?OAcA?e@W?y@?}B?S?K?Dc]rJ@lH@lN?JD@cG?{F@oIvMBB?B?@@@?B?@?@?B@@?B?@@@?B?@@@?B@@?@@B@B@@@B?@@@@@@B?@@@@@@@@B@@@|@t@@@B@@@@@B@@@@@B@@@D@@@@@B?@@B?@@@@B?@@B?@?B@@?B?D@@?B@@?B?@?D?vG@?fB?zE@fF?hD?xA?rN?rHpG{@B?@?@?@AB?D?@?fK@zP?L?D?F@D?F?D@F?F@ZDjBTVBtBVb@D`@Db@@b@@~VCx@Cd@CvFa@TAX??G@sX"
+        },
+        {
+          "name": "Valley Hi / North Laguna",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.4379596,
+            "maxLat": 38.5031709,
+            "minLng": -121.4720356,
+            "maxLng": -121.4036104
+          },
+          "encodedPolyline": "alwiFjzidVeHp@sGrAoLbCuIdBsKzBwFnAkDp@MBe@HoB`@{Bd@mDv@kDr@iB`@}Bf@kGpAkH~AcC^aALq@LkDr@yBd@yFnAoE|@uGtAkEz@{GzAkDt@sFhAiTxE?OiRrDwDr@sCj@?oD?eTaBA?mEeBAAeDuHK?gGdQA?oQhr@kZpN_GfCeArKeDrIyB@aa@E_H`G?_Fsf@lT]Fs|@lLmM|JmKEed@nRwH|LoE`OkF~HsCb^iNjToH~GeD@tAhC?nC{AhAkB`BoAlEaBnCeA`EyA|@k@~@g@p@d@`EoArAy@b@v@j@LJkA`@iAhHyB~BO~D`@LjAT@f@aCtCgErBuAzDmBPJf@KdOyFlFOjFn@jEQTRHbFJ`KBdL?bLD~Q?`_@EdP@zMDfU?tYEvWuTGEhu@?VqP_AmZG_OPiDV}Q~BGpJU?EnGdQIAtb@o]cMAod@oMrAO|ZkC_AcJzf@b@hAlB~OZ|@uKl@e@bA"
         }
       ]
     }
