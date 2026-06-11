@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Seeds — Sacramento, US</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  #map { height: 100vh; }
+  #panel {
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    background: white; padding: 10px 20px 12px; border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.18); z-index: 1000; text-align: center;
+    min-width: 260px;
+  }
+  #panel h2 { font-size: 15px; font-weight: 600; color: #111; }
+  #panel .sub { font-size: 12px; color: #666; margin-top: 3px; }
+  .note { color: #888; font-size: 11px; }
+  #legend {
+    position: absolute; bottom: 24px; right: 12px;
+    background: white; padding: 8px 12px; border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15); z-index: 1000;
+    max-height: 60vh; overflow-y: auto; font-size: 12px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; }
+  .legend-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h2 id="title">Sacramento, US &mdash; 13 regions</h2>
+  <div class="sub" id="sub">hover a region &middot; click to focus <span class="note">⚡ clustered from 66 districts</span></div>
+</div>
+<div id="map"></div>
+<div id="legend"></div>
+<script>
+var map = L.map('map', {zoomControl: true});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+var data = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Greenhaven", "color": "#42d4f4", "area": 0.0046792466000004146}, "geometry": {"type": "Polygon", "coordinates": [[[-121.55916, 38.49905], [-121.55912, 38.49854], [-121.55898, 38.49769], [-121.55864, 38.49668], [-121.55789, 38.49538], [-121.55699, 38.49408], [-121.55042, 38.48513], [-121.54527, 38.47839], [-121.54482, 38.47788], [-121.54424, 38.47736], [-121.54359, 38.47684], [-121.54265, 38.47609], [-121.54056, 38.47523], [-121.53943, 38.47478], [-121.53747, 38.47421], [-121.53548, 38.47387], [-121.50504, 38.46978], [-121.50403, 38.46982], [-121.50368, 38.46984], [-121.50327, 38.46997], [-121.49378, 38.53516], [-121.51238, 38.54135], [-121.55268, 38.51307], [-121.55442, 38.511], [-121.55669, 38.5069], [-121.5572, 38.50591], [-121.55791, 38.50421], [-121.5586, 38.50233], [-121.55895, 38.5006]]]}}, {"type": "Feature", "properties": {"name": "Valley Hi / North Laguna", "color": "#808000", "area": 0.004462320300000449}, "geometry": {"type": "Polygon", "coordinates": [[[-121.47204, 38.50061], [-121.47074, 38.49586], [-121.46045, 38.46131], [-121.45436, 38.45241], [-121.445, 38.44149], [-121.43623, 38.43799], [-121.43227, 38.43796], [-121.428, 38.43796], [-121.41418, 38.43797], [-121.40904, 38.438], [-121.40693, 38.43802], [-121.405, 38.43808], [-121.40386, 38.43813], [-121.40376, 38.43824], [-121.40361, 38.44044], [-121.40369, 38.44163], [-121.40494, 38.44451], [-121.4086, 38.45252], [-121.41128, 38.45815], [-121.41904, 38.47439], [-121.4206, 38.47751], [-121.46451, 38.50317], [-121.46583, 38.50317]]]}}, {"type": "Feature", "properties": {"name": "Golf Course Terrace", "color": "#911eb4", "area": 0.0031041540000003166}, "geometry": {"type": "Polygon", "coordinates": [[[-121.51647, 38.49555], [-121.51187, 38.48407], [-121.51068, 38.48118], [-121.50109, 38.45912], [-121.4997, 38.4577], [-121.49308, 38.45673], [-121.48253, 38.45621], [-121.47733, 38.45634], [-121.46067, 38.45882], [-121.46068, 38.46334], [-121.47204, 38.50061], [-121.47505, 38.51027], [-121.47507, 38.51033], [-121.49184, 38.51184]]]}}, {"type": "Feature", "properties": {"name": "Elder Creek", "color": "#4363d8", "area": 0.0026993199999995904}, "geometry": {"type": "Polygon", "coordinates": [[[-121.42746, 38.51599], [-121.42745, 38.51052], [-121.4274, 38.50469], [-121.41542, 38.49965], [-121.41528, 38.49965], [-121.40898, 38.49967], [-121.39056, 38.50067], [-121.37239, 38.50337], [-121.36715, 38.51435], [-121.36714, 38.518], [-121.36741, 38.52394], [-121.37221, 38.53911], [-121.39088, 38.5444], [-121.42338, 38.52507]]]}}, {"type": "Feature", "properties": {"name": "Fairgrounds", "color": "#f58231", "area": 0.0022831717000001855}, "geometry": {"type": "Polygon", "coordinates": [[[-121.47105, 38.56448], [-121.46845, 38.55508], [-121.44971, 38.53942], [-121.44964, 38.53942], [-121.44868, 38.53942], [-121.4456, 38.53944], [-121.43587, 38.53951], [-121.43468, 38.53952], [-121.42949, 38.53958], [-121.42767, 38.5396], [-121.42162, 38.5509], [-121.43412, 38.57539], [-121.43486, 38.57652], [-121.43559, 38.5773], [-121.43629, 38.578], [-121.43707, 38.57862], [-121.43766, 38.57895], [-121.45042, 38.58561], [-121.45746, 38.58472], [-121.45879, 38.58455], [-121.45937, 38.58438], [-121.46016, 38.5841], [-121.46075, 38.58377], [-121.46112, 38.58351], [-121.46262, 38.58229], [-121.4629, 38.58206], [-121.46343, 38.58153], [-121.46354, 38.58143], [-121.46386, 38.58107], [-121.46416, 38.58042]]]}}, {"type": "Feature", "properties": {"name": "Ramona Village", "color": "#9A6324", "area": 0.0021108399000001462}, "geometry": {"type": "Polygon", "coordinates": [[[-121.42789, 38.55055], [-121.42789, 38.55049], [-121.42789, 38.54947], [-121.42783, 38.54047], [-121.42756, 38.53218], [-121.42301, 38.52507], [-121.4215, 38.52507], [-121.40919, 38.52506], [-121.40912, 38.52506], [-121.39072, 38.53259], [-121.375, 38.55312], [-121.3827, 38.56497], [-121.42031, 38.56229], [-121.42179, 38.56155]]]}}, {"type": "Feature", "properties": {"name": "North City Farms", "color": "#469990", "area": 0.0018970223999999216}, "geometry": {"type": "Polygon", "coordinates": [[[-121.49819, 38.52183], [-121.48305, 38.51025], [-121.48185, 38.51026], [-121.47507, 38.51033], [-121.46164, 38.52491], [-121.44971, 38.53942], [-121.45001, 38.53994], [-121.45384, 38.54676], [-121.4714, 38.54938], [-121.47382, 38.54935], [-121.47393, 38.54935], [-121.48671, 38.54595], [-121.49131, 38.54286]]]}}, {"type": "Feature", "properties": {"name": "Southside Park", "color": "#800000", "area": 0.0017399519999996634}, "geometry": {"type": "Polygon", "coordinates": [[[-121.52111, 38.56567], [-121.52091, 38.56442], [-121.51238, 38.54135], [-121.50318, 38.53719], [-121.50259, 38.53696], [-121.50153, 38.53674], [-121.49868, 38.53614], [-121.49674, 38.53575], [-121.49395, 38.53519], [-121.49378, 38.53516], [-121.48751, 38.54298], [-121.48671, 38.54595], [-121.48766, 38.56219], [-121.50291, 38.58457], [-121.50369, 38.58504], [-121.50454, 38.58536], [-121.50611, 38.58574], [-121.52053, 38.56714], [-121.52092, 38.56649]]]}}, {"type": "Feature", "properties": {"name": "Campus Commons", "color": "#3cb44b", "area": 0.001482359200000149}, "geometry": {"type": "Polygon", "coordinates": [[[-121.45073, 38.58406], [-121.43199, 38.56728], [-121.41791, 38.5603], [-121.41727, 38.55999], [-121.41698, 38.55989], [-121.41434, 38.55965], [-121.41314, 38.55972], [-121.41206, 38.55984], [-121.40928, 38.56025], [-121.40022, 38.56354], [-121.39747, 38.56799], [-121.39714, 38.56894], [-121.39657, 38.5707], [-121.42639, 38.58219], [-121.44762, 38.58702], [-121.45042, 38.58561]]]}}, {"type": "Feature", "properties": {"name": "Newton Booth", "color": "#bfef45", "area": 0.0013552602000000285}, "geometry": {"type": "Polygon", "coordinates": [[[-121.49725, 38.56475], [-121.48454, 38.53955], [-121.47381, 38.54116], [-121.45384, 38.54676], [-121.45571, 38.55182], [-121.45573, 38.55188], [-121.45574, 38.55191], [-121.45577, 38.55198], [-121.46016, 38.56154], [-121.46904, 38.56395], [-121.48892, 38.56925], [-121.49463, 38.57077]]]}}, {"type": "Feature", "properties": {"name": "Tallac Village", "color": "#aaffc3", "area": 0.0007680749999997702}, "geometry": {"type": "Polygon", "coordinates": [[[-121.45571, 38.52977], [-121.45276, 38.52492], [-121.43835, 38.51585], [-121.42374, 38.51603], [-121.42341, 38.51771], [-121.42341, 38.51774], [-121.42341, 38.51776], [-121.4234, 38.51781], [-121.4234, 38.51783], [-121.4234, 38.51784], [-121.42337, 38.52144], [-121.42338, 38.52507], [-121.42767, 38.5396], [-121.4393, 38.5395], [-121.44971, 38.53942], [-121.45536, 38.53363], [-121.45571, 38.53057]]]}}, {"type": "Feature", "properties": {"name": "Marshall School", "color": "#f032e6", "area": 0.0005918079999999721}, "geometry": {"type": "Polygon", "coordinates": [[[-121.48904, 38.56928], [-121.47572, 38.56573], [-121.47117, 38.56452], [-121.47105, 38.56448], [-121.4705, 38.56561], [-121.46262, 38.58229], [-121.46459, 38.58292], [-121.47602, 38.58562], [-121.48136, 38.58688]]]}}, {"type": "Feature", "properties": {"name": "Alkali Flat", "color": "#e6194b", "area": 0.0005301407999999848}, "geometry": {"type": "Polygon", "coordinates": [[[-121.5088, 38.57473], [-121.50836, 38.57443], [-121.50785, 38.57428], [-121.48904, 38.56928], [-121.48514, 38.57809], [-121.48136, 38.58688], [-121.48752, 38.58848], [-121.48825, 38.5886], [-121.48868, 38.5886], [-121.48922, 38.5886], [-121.49065, 38.58843], [-121.49354, 38.5879], [-121.4948, 38.58756], [-121.50287, 38.58424], [-121.50719, 38.57823], [-121.50747, 38.57771], [-121.50783, 38.57705], [-121.50813, 38.57636], [-121.50865, 38.57515]]]}}]};
+var layers = {};
+
+var legend = document.getElementById('legend');
+var geoLayer = L.geoJSON(data, {
+  style: function(f) {
+    return {
+      color: f.properties.color, weight: 2, opacity: 1,
+      fillColor: f.properties.color, fillOpacity: 0.2
+    };
+  },
+  onEachFeature: function(f, layer) {
+    var name = f.properties.name;
+    layers[name] = layer;
+    layer.bindTooltip(name, {sticky: true});
+    layer.on('mouseover', function() {
+      layer.bringToFront();
+      layer.setStyle({fillOpacity: 0.45, weight: 3});
+      document.getElementById('sub').textContent = name;
+    });
+    layer.on('mouseout', function() {
+      layer.setStyle({fillOpacity: 0.2, weight: 2});
+      document.getElementById('sub').textContent = 'hover a region · click to focus';
+    });
+    layer.on('click', function() {
+      map.fitBounds(layer.getBounds(), {padding: [40, 40]});
+    });
+
+    var item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML =
+      '<div class="legend-swatch" style="background:' + f.properties.color + '"></div>' +
+      '<span>' + name + '</span>';
+    item.addEventListener('click', function() {
+      map.fitBounds(layer.getBounds(), {padding: [40, 40]});
+    });
+    legend.appendChild(item);
+  }
+}).addTo(map);
+map.fitBounds(geoLayer.getBounds(), {padding: [20, 20]});
+</script>
+</body>
+</html>
