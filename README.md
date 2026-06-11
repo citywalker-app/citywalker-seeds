@@ -4,6 +4,10 @@ Region seeds for [CityWalker](https://citywalker.app), an Android app for explor
 
 The interesting part for non-CityWalker users: `seed_generator.py` is a standalone tool that turns any city's open data into clustered, named, walkable regions. Point it at a city name (OpenStreetMap), a GeoJSON URL (ArcGIS or any open data portal), or a local Shapefile, and it produces clean region polygons plus an interactive HTML preview. No API keys, no paid services.
 
+## Disclaimer
+
+Region boundaries are approximate and intended for exploration tracking, not authoritative administrative use. Where a city has too many districts for practical use, the generator clusters them into larger walkable zones.
+
 ## How the app uses this repo
 
 The app downloads [`region_seeds.json`](region_seeds.json) from this repo's `main` branch and caches it for 24 hours, falling back to a bundled copy. That file is a built artifact: the source of truth is the per-city files in [`cities/`](cities/), assembled by [`build.py`](build.py). Do not edit `region_seeds.json` by hand.
