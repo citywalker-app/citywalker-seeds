@@ -1,0 +1,92 @@
+{
+  "name": "Paris",
+  "countryCode": "FR",
+  "centerLat": 48.8566,
+  "centerLng": 2.3522,
+  "radiusKm": 12.0,
+  "regions": [
+    {
+      "name": "Paris Centre",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "mqfiHggmMd}@{Mdc@nOtF|KwSn_@e]`~AoSj^cC}DiFhl@{UvhA{c@wZcB`@{N_|A~XcpCdGsHjTeK",
+      "boundingBox": {
+        "minLat": 48.84614,
+        "maxLat": 48.871998,
+        "minLng": 2.320902,
+        "maxLng": 2.369137
+      }
+    },
+    {
+      "name": "Paris Nord-Ouest",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "wxgiHmceMrf@xYoCvM|@|hBsEL_DbIcb@~MuPjNm]f~A{YmFsUe\\aQoc@qAeUae@cmA}UscAaFmJ{EawHt_@SpFwGnG|Ipm@vS~LlK`Cf~AhRiAv]hIl^z@gGbp@fOz{A",
+      "boundingBox": {
+        "minLat": 48.863057,
+        "maxLat": 48.90186,
+        "minLng": 2.279801,
+        "maxLng": 2.37179
+      }
+    },
+    {
+      "name": "Paris Nord-Est",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "ijciH}zvM_XtfFuO~t@VbFe}@zM{XtNmTbeBm^{@w]iIiRhAaCg~A_MmKqm@wSoG}IqFvGu_@R{@kwAjFcf@~Og]|U}Lvf@}GpPE~HmDpMuUpFya@jWaSxWeFbs@i@n~AcOrLxA",
+      "boundingBox": {
+        "minLat": 48.846614,
+        "maxLat": 48.902156,
+        "minLng": 2.34791,
+        "maxLng": 2.416437
+      }
+    },
+    {
+      "name": "Paris Est",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "}r_iHusrMjc@~sAdb@jkBPxm@_O~TrOfa@o@pNhBMe@hBsVcCgIdKoNvFcv@z@uc@yDzHu{@{Rs}@a^mYqF~HuF}Kec@oO[kExOwu@~WufFpu@nNxStFnChDLg\\yK}d@wh@fPcEoBmEiL`PqOnDulA_VuCj@aOyHs@`@_c@bDVzMwaBjJqTvYsXpMlCtJnQxGdE`S`Bz@yHzr@bTrK`Y}Ddw@s@xkAcFjANlPoDW{FlJu@sALjCeKfNgHluBw[|r@jLzq@",
+      "boundingBox": {
+        "minLat": 48.815576,
+        "maxLat": 48.853299,
+        "minLng": 2.341143,
+        "maxLng": 2.469758
+      }
+    },
+    {
+      "name": "Paris Sud",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "mvaiH}lhMjc@xDbv@{@nNwFfIeKrVbC{FlkAkF}Byv@|yFe`@hqAf[lf@Nx]eVdBaHaPyH~KfCd^spAwnAgx@klAeLwIhdAolBiD}RzK}Rcd@c|Ayf@e\\u@lDgDaB`C}\\|AaMbC|DnSk^d]a~Ah[oi@`^lYxRd}@oHb|@",
+      "boundingBox": {
+        "minLat": 48.815766,
+        "maxLat": 48.85935,
+        "minLng": 2.26296,
+        "maxLng": 2.366029
+      }
+    },
+    {
+      "name": "Paris Ouest",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "usfiH}o`Mw@cjBnZswAfD`Bt@mDxf@d\\bd@b|A{K|RhD|RidAnlBdLvIfx@jlArpAvnAsDxo@uXzTuWtA}OgGoL|}@{MtRuTz}AoZkDwk@gSiZ_W{Mks@}Zg_@bLe|@sd@wTnMgsBiCmMl]g~Ax_@gW~RcE~CcIrEM",
+      "boundingBox": {
+        "minLat": 48.833899,
+        "maxLat": 48.880281,
+        "minLng": 2.224143,
+        "maxLng": 2.333288
+      }
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

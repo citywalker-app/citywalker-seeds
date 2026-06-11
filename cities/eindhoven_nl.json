@@ -1,0 +1,105 @@
+{
+  "name": "Eindhoven",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "Centrum",
+      "osmId": 11977052,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.429285,
+        "maxLat": 51.452881,
+        "minLng": 5.4686398,
+        "maxLng": 5.5028454
+      },
+      "encodedPolyline": "gl}xH_bk`@dBs@hVwe@jMuPjJaCmGuCcIhDyKgMbKqP]uKcN_B}DxB}ApDmQ}LsB~@oCfJ{HN}IwoAgAg`@qLjJkD`AgRjRuEdIgE|VqAfo@lHrCtUxPlGxAPfTlENS~JlDzQ~DsDpAdGrK~NbNIjDjAd@B"
+    },
+    {
+      "name": "Woensel-Noord",
+      "osmId": 11977054,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4620425,
+        "maxLat": 51.4970762,
+        "minLng": 5.4117083,
+        "maxLng": 5.5156146
+      },
+      "encodedPolyline": "arfyHe~_`@jaBq_CwSqa@aJs[viAqiAua@wtAj@yJeAweB~BwbAuBsn@`@ei@iJzNsCoEuEjKiQZaQmDmFrEwAa@]sFgBoA}OpS}GjD_AaF}GmHcDa@uDv@cD}Al@kMaHgDq@_DoJYkCiBiJgOkItKeF~@yBnJ|@fmE}AjJlFjVz@zOm@vJkED[dZlIttArJv{@`R`fArV~|@fKbm@@P"
+    },
+    {
+      "name": "Woensel-Zuid",
+      "osmId": 11977053,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4422244,
+        "maxLat": 51.4740017,
+        "minLng": 5.4322761,
+        "maxLng": 5.5143897
+      },
+      "encodedPolyline": "uocyHw~c`@pxCajErGsOrCmQmEmGy@aF_ErDmD{QR_KmEOQgTmGyAuUyPmHsClCiz@oIkKkESy@vA}Ck@wD}LwIiA{C{BRcKs@cBaIqAwDeFcCiIEoMsBoHqDyDwC|AqAsCZgO}@eL_Et@YzGiD~Ee@tTxBbcA_CvbAdAveBk@xJta@vtAwiApiA`Jr[xIjQ|HdO"
+    },
+    {
+      "name": "Tongelre",
+      "osmId": 11977051,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4312851,
+        "maxLat": 51.4655567,
+        "minLng": 5.4846106,
+        "maxLng": 5.5488528
+      },
+      "encodedPolyline": "sh~xHyen`@zHOnCgJrB_AdIrFfPkrBrUmzEk@gKcDcJTgCgM}_@c@`@xCjK}BLwBtCmC_AiDdA{A~GsDJ}BzCoDyABjC_BnBl@z@hBcASlDmEvF[{CcBJoBtC_BXaApDqFjFm@gDaAb@wA{@eFxDmIaEeBmCaAl@a@jD}FxAWrDqBfCLxDgBy@oC~F@dCaEb@yBbEmHfBw@~F_BFsC{BqB|@yA}CAfHaD~@kCvD}Cv]{CzK_DvDFrDuBXwE`Pq@LBmDuApDeEdBPlCoDrDj@`EuAPi@fB|@dL[fOpArCvC}ApDxDrBnHDnMbChIvDdF`IpAr@bBSbKzCzBvIhAvD|L|Cj@x@wAjERnIjKjC{KtEeI`T}SpBOpLkJfAf`@jI`jAPtD"
+    },
+    {
+      "name": "Stratum",
+      "osmId": 11977055,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4000475,
+        "maxLat": 51.4376732,
+        "minLng": 5.4747416,
+        "maxLng": 5.5320895
+      },
+      "encodedPolyline": "k_yxHchl`@`CiAl@gC`Ck@dAbCjBAzEgFlFoAd@nFxGfBhDgEfChB|DqD|GkBxBo`CpAuKtCsI|H}KdH_CSyBoDl@}MkBaBeB{B_Ka@wpBuoC~B~Bga@{CiBGwBwDjBcRqBa@w@aPfnDgPjrBfGhE|AqD|DyBbN~A\\tKcKpPxKfMbIiDrGzCpMbRvEEfD}IbCJfLyCn@_MnGkDzDpBxB{Al@^jD~R`MzHbApFx@N"
+    },
+    {
+      "name": "Gestel",
+      "osmId": 11977056,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4020487,
+        "maxLat": 51.4353816,
+        "minLng": 5.425231,
+        "maxLng": 5.4810818
+      },
+      "encodedPolyline": "m}vxHurb`@zJyKu@{@bAqAm@}J`@uEtBq@gB_NsCiIcEiBg@iBaBZu@s~AdAs@mA_JHaj@z@kLaA}CEq^t@o@_AkC|Aso@}GjB}DpDgCiBiDfEyGgBe@oFmFnA{EfFkB@eAcCaCj@m@fCaChAsBuBIkCaM{HkD_Sm@_@yBzA{DqBoGjDo@~LgLxCcCKgD|IwEDwMiRiIzAmNzQkKbUnKb]mJjO|BfBR`FhLdc@s@~BxGfNjIp]nEfKhDfNp@dKrF~CZxHdWnjAl]j@^`ApAGpI{E`TaCTw@r[@~CuA`EnFvBlRJ|@"
+    },
+    {
+      "name": "Strijp",
+      "osmId": 11977050,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.422171,
+        "maxLat": 51.4855548,
+        "minLng": 5.3567184,
+        "maxLng": 5.4715575
+      },
+      "encodedPolyline": "_p`yHofu_@tTeVlI}Cr_@bA`TvTlI~A|Ks_@dCQFqG}CsSwFNwDcEkBqTbGeKhEqd@lH_B}O_o@l@i@]oGrRk]`Iuj@_YyXnFiNdHeIwBsIfVqG~FcNkIaMl@uAsFkK[}CpHq\\`DkHvAiBno@{DZu@eWojA[yHsF_Dq@eKiDgNoEgKkIq]yGgNr@_CiLec@SaF}BgBlJkOoKc]aL`QuGkA}K`@aGkHsClQsGrO}zFrjIxCbb@FhW{A`]yFxf@dBCUfBpi@_Az@|Be@mClg@u@xCxBjAOChEzBbDhAdGvApAvEuAxBzR|Up_@gHr{@xc@fMgDvUvQdLpRpUhBvE@@"
+    }
+  ],
+  "centerLat": 51.448562,
+  "centerLng": 5.452786,
+  "radiusKm": 9.42,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

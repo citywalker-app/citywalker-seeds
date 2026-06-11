@@ -1,0 +1,105 @@
+{
+  "name": "Groningen",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "Binnenstad",
+      "osmId": 10120353,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.2120113,
+        "maxLat": 53.2222414,
+        "minLng": 6.5571041,
+        "maxLng": 6.5766007
+      },
+      "encodedPolyline": "ykycI{t_g@|FiJ~CaBfNLvIbCxEy`@G{VaFa\\aKcU}BeBeFzNqQhLoHrHgDrPC`GnNnt@tAzB"
+    },
+    {
+      "name": "Oosterparkwijk",
+      "osmId": 10120756,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.2170518,
+        "maxLat": 53.2334785,
+        "minLng": 6.5708719,
+        "maxLng": 6.5982672
+      },
+      "encodedPolyline": "_}zcI}jbg@vKsQ~DgPhHsI|CsAlFI|IpB`KaKi_@ipBkeA|tAr\\r_ArHtS"
+    },
+    {
+      "name": "Vinkhuizen",
+      "osmId": 10121052,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.216243,
+        "maxLat": 53.2358101,
+        "minLng": 6.5176813,
+        "maxLng": 6.5397151
+      },
+      "encodedPolyline": "me|cIo~wf@t^yGEw@tN[fToLxBf@zUeJxLyBc@_g@iGyg@uB`AkAmJdAk@{AmEuGa@_GfBuO|Pk~@|r@@rMmHxb@xJrIp@pB"
+    },
+    {
+      "name": "Selwerd",
+      "osmId": 10120982,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.2288272,
+        "maxLat": 53.2383266,
+        "minLng": 6.5421298,
+        "maxLng": 6.5594324
+      },
+      "encodedPolyline": "ew|cIiw|f@tYsLOuAbOkGtD_EuAgIoMsDQwAxDyMgAeHbCkBvBeJyJmJwSkGuFMyK|BVpj@bHbr@n@nH"
+    },
+    {
+      "name": "Beijum",
+      "osmId": 10123842,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.2402987,
+        "maxLat": 53.2557139,
+        "minLng": 6.5788805,
+        "maxLng": 6.6091404
+      },
+      "encodedPolyline": "i__dI_}cg@nCuHbDuDtKmCjDiCvSi]qLg]rA{@cNy\\dCwByGwQjAoB}DmLpD_FFcB{HeV_PzJ@bBcBh@iXXw@vH{ItmBr_@|b@fNrN"
+    },
+    {
+      "name": "Lewenborg",
+      "osmId": 10123826,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.2294894,
+        "maxLat": 53.2454095,
+        "minLng": 6.5981911,
+        "maxLng": 6.6337785
+      },
+      "encodedPolyline": "k{|cIuugg@nCsAfBh@lEy\\xGqQdHgKzN{IyLmy@jDgBmQ}vA}E~EiIzDuAYyCbA^hDiBn@EfAw^jSvAdKmGzH[wAaFvG~Nx}@nMuId@oBtCxBm@tExBlMa@jEhEvUyCtEr@xD~@g@f@lDrBeAXrBnG_FuGdUbBvM"
+    },
+    {
+      "name": "De Wijert",
+      "osmId": 10120528,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.1827525,
+        "maxLat": 53.2006962,
+        "minLng": 6.561983,
+        "maxLng": 6.5823445
+      },
+      "encodedPolyline": "outcIks`g@rL_Cf[aRlPkP~Qmh@_Bwa@aHvDy@_HkEzHoEnCo@qDoHdBoAvBeBcKqChBsBiMgKhEj@dDuEvEx@rEmBnAZ|A{XpR}KrTf@zAuCtDbErONjJiAnHjOlGpE`@rED"
+    }
+  ],
+  "centerLat": 53.219233,
+  "centerLng": 6.57573,
+  "radiusKm": 6.16,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

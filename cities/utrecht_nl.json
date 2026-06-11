@@ -1,0 +1,144 @@
+{
+  "name": "Utrecht",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "Binnenstad",
+      "osmId": 18936434,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0787071,
+        "maxLat": 52.0978475,
+        "minLng": 5.0982205,
+        "maxLng": 5.1297947
+      },
+      "encodedPolyline": "a{{|H{vb^vSqi@_SmVjF}DgDeMdWkVv@cJzDsI}@{AjFaP_O}Ha@iI}PmM}EmJsBpB_LlCcGgEcE~IqKhCkFmFeF`KkHn@aH}Cg@pAxDzVmA~HtDlGIlVeC|C`Jhb@hJzS~F_FnAbHlDwBp@|DrGbJfEjOjIfEbDnDtC`E"
+    },
+    {
+      "name": "Noordoost",
+      "osmId": 18936438,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0950443,
+        "maxLat": 52.1151707,
+        "minLng": 5.1098049,
+        "maxLng": 5.161915
+      },
+      "encodedPolyline": "ku_}Hg_e^rGcHdPqBvXuXHmVuDmGlA_IyD{Vf@qA`H|CfFa@qBo}AmPc|Acv@gb@uD|[{A~AiMbg@mOpGkI`Abj@t~DnGhXvH|Q`C`F"
+    },
+    {
+      "name": "Overvecht",
+      "osmId": 19101574,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.1188357,
+        "maxLat": 52.1356715,
+        "minLng": 5.072328,
+        "maxLng": 5.1000725
+      },
+      "encodedPolyline": "ivc}Hau}]pP_KjJqM`H_PpAue@oGuAqBkBwn@wkAeCPkF{Gy`@toAzt@vcAa@bAhJzSN\\"
+    },
+    {
+      "name": "Noordwest",
+      "osmId": 18936440,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0935431,
+        "maxLat": 52.1271815,
+        "minLng": 5.0612045,
+        "maxLng": 5.115148
+      },
+      "encodedPolyline": "_ec}Hoo{]xp@erAhNoK|IyAb{@ihBlR_[lQwe@hFmIiJ{SaJib@qTvSePpBsGbH_Nc\\}HtIlE|RbErEz@rFiNjKmd@|v@eQrQiD~`@eC|t@aH~OkJpM}RvLeHpJv@zA`B@`CrNo@r@`Sr`@l@lA"
+    },
+    {
+      "name": "West",
+      "osmId": 18935926,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0789191,
+        "maxLat": 52.1299724,
+        "minLng": 5.034384,
+        "maxLng": 5.1072814
+      },
+      "encodedPolyline": "web}H{gv]r`@}sAjYas@lWub@r^s_@dCi|@~cByRfSuFaLwy@_HkTwV{`@eLuGgEkOsGcJq@}DmDvBoAcHkKjKkTxj@mR~Zc{@hhB_FX}HpDiKhLudApuBmVnl@lFbO~@wArQj[|MnM`[tSnElD"
+    },
+    {
+      "name": "Oost",
+      "osmId": 18936437,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0567573,
+        "maxLat": 52.098402,
+        "minLng": 5.1224137,
+        "maxLng": 5.195155
+      },
+      "encodedPolyline": "}rz|Hang^vM{e@bVim@dL_ThWgUx|@}}@{Hq\\y^lDuHqLk@vC{KoFiChI_EfG}NlDeFqBiDsEsNwG{CyEqEcCcD]qIpAs@kBhCoDzF_D`Kg[oKi\\f@yJdA}Al@g`@tIeLaC{OUcS_Eg`@nBwNmu@~My@zQch@hU_@zGwFdLw@bKfHZm@lVmBPa@lCdC\\gBp_@f@h[_D~X\\~BuJrMaLlId@tDq@XlPb|ApBn}A`Cw@fDwIjFlFpKiCbE_JbGfE~KmCrBqB|ElJ|PlM`@hI~N|H"
+    },
+    {
+      "name": "Zuid",
+      "osmId": 19097387,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0631024,
+        "maxLat": 52.0741496,
+        "minLng": 5.0879957,
+        "maxLng": 5.1079123
+      },
+      "encodedPolyline": "mby|H_w`^`p@}l@qP{s@vAsXoF|AGtMaC~Hmi@bg@~Rtw@"
+    },
+    {
+      "name": "Zuidwest",
+      "osmId": 18936435,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0499378,
+        "maxLat": 52.0851284,
+        "minLng": 5.0814365,
+        "maxLng": 5.1224137
+      },
+      "encodedPolyline": "gtz|H_n_^jUaNx_BmyAhA`Er_@s\\~YmM_AgJl@cFkKwEkT{DiKkEwDoDRbCa_CyhAkF`P|@zA{DrIw@bJeWjVfDdMkF|D~RlVwSpi@dM~RpJbY`Lvy@"
+    },
+    {
+      "name": "Leidsche Rijn",
+      "osmId": 18936441,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0611201,
+        "maxLat": 52.1175617,
+        "minLng": 5.0272776,
+        "maxLng": 5.0971585
+      },
+      "encodedPolyline": "as~|Ho{t]jAgHnC}AnAiD[iOf@XrA_GlG}I~IeKdPkLnL{AlDwD_HqPN{ZdXtBGoNxPzAJ{S{DYxAwNpCA?cCyAKBgErAL?eB}BcAzBoJxEQb@hBf@_IvM~EdAd@_A~H~v@r[rI{u@i@yTkFeTaHgBaTcNlBcJxKtChThAdEmBzIsKvDoWzKid@|@}[rBoEjBod@{wAdrAkU`NgStF_dBxReCh|@s^r_@mWtb@kY`s@s`@|sAfDjCQzE|KzJnJcXrElDXaAMhAzF~DpDrFzI}JlDr@\\tH`a@tPCn@pKpFj@\\"
+    },
+    {
+      "name": "Vleuten-De Meern",
+      "osmId": 18936442,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.026282,
+        "maxLat": 52.1420506,
+        "minLng": 4.970096,
+        "maxLng": 5.0983181
+      },
+      "encodedPolyline": "gdc}Hcvi]|z@sq@}@u@vD_JrCdCtIy@tEl@zBpD@rLt@xApQpBpLxNdGw@zH{MaEmtAnd@oNSoC`[qIvJmbAx`AbJaA|H~jAjLlWurBvEzDr]kXtA_Bh@eGq@{PxAkGxC^fDyFbG[|CfCvE{Clg@a{@jG}Gbf@kZvc@wf@|BkGiDqAdF_TlDtAdOee@uB}KiEIoC|BsAA{CiCwr@gAaQl@mAw@{JHsF}@wm@cAqTyE^cDoWgJHcA}MiHuB{L[oTfEoe@pAyo@`A_G`GgJzAiIByE_FmR}FfFkBnd@sBnE}@|[{Khd@wDnW{IrKeElBiTiAyKuCmBbJ`TbN`HfBjFdTh@xTsIzu@_w@s[~@_I}OeGg@~Hc@iByEPsArC@rDg@Gh@bBpAN?dBsAMCfExAJ?bCqC@yAvNzDXKzSyP{AFnNeXuBOzZ~GpPmDvDoLzAePjL_JdKmG|IsA~Fg@YZhOoAhDoC|AkAfH}LoGBo@aa@uP]uHmDs@{I|JqDsF{F_ELiAY`AsEmDoJbX}K{JgaAtkBuLrQePjOiV~Ms_@`[cAXqAiBni@jgBpPfFhPreAvj@fVl@V"
+    }
+  ],
+  "centerLat": 52.084166,
+  "centerLng": 5.082625,
+  "radiusKm": 11.03,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

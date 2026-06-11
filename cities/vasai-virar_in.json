@@ -1,0 +1,53 @@
+{
+  "name": "Vasai-Virar",
+  "countryCode": "IN",
+  "centerLat": 19.407,
+  "centerLng": 72.853,
+  "radiusKm": 18.0,
+  "regions": [
+    {
+      "name": "Vasai",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 19.287,
+        "maxLat": 19.39,
+        "minLng": 72.79,
+        "maxLng": 72.87
+      }
+    },
+    {
+      "name": "Nallasopara",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 19.39,
+        "maxLat": 19.465,
+        "minLng": 72.79,
+        "maxLng": 72.87
+      }
+    },
+    {
+      "name": "Virar",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 19.465,
+        "maxLat": 19.527,
+        "minLng": 72.79,
+        "maxLng": 72.87
+      }
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Maastricht",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "West",
+      "osmId": 10024002,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.8358678,
+        "maxLat": 50.8698869,
+        "minLng": 5.6407605,
+        "maxLng": 5.6814434
+      },
+      "encodedPolyline": "krjuHm}sa@_KvTMJ{@sEuCjAu@hC_EJs@{MwHT@{BWmAcAcBm@k@kEyDiQdLsGrEyAnBiAnEs@|JEpAgUq@ExAd@`C|AvDuUt}@zFjIqAvAeF|NlBzIrF{GnLbb@pIrWdCbJxL}IdF}F|HhIx@qIfEsYhA}PtBsJnGtJlKdFdEvAzDZdF^rBo@~DcAxDq@RVDhND`RQxBc@zT`BjBOl@DXvArD~EzClEg@fHaHRjBx@b@rFeF`B\\z@cB~@z@fH{VLGb@\\dHpFdGiMoAkCmCkN{DwDdByHRoBjAmLFyCBQXk@gWi{@aHmUy@oEwLw}@e]zUuAI"
+    },
+    {
+      "name": "Zuidoost",
+      "osmId": 10024213,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.8143435,
+        "maxLat": 50.8441415,
+        "minLng": 5.6970041,
+        "maxLng": 5.7385227
+      },
+      "encodedPolyline": "gucuHos{a@R`j@}B~BsNdnAmZsE}SAsP`@ig@q@ob@mDmASG}H]wI}AR`@uCfB{L`@kENyENoK?qGCu@Es@Es@Gs@Ik@Ik@UsA_@oA]iAoCsF{ImIqBaN_@wCSyCC{A?{AjEi~@B_ABk@bCoh@fN|BbIfBhIvF`IzFp{@p`@?Z`i@pCfCr@bD~BfBrBbBvCvAvD|@xDdArHvBlVBhC?nG"
+    },
+    {
+      "name": "Centrum",
+      "osmId": 10024257,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.8405538,
+        "maxLat": 50.8587168,
+        "minLng": 5.6777795,
+        "maxLng": 5.7066454
+      },
+      "encodedPolyline": "kgluHejva@sA_EzBuB|L]TsGiC_L?mH~@{KAaAqAP?SCc@To@S}IC}@fJ}FlH}B|HwFjFkBhQeGVfGdJsCrLdH`H`EJyC`BjAEpE|AUa@tC|AS\\vIF|HeGmA}AvKYtBMjAEh@IxACxADzERdD|@bGb@nDLlAHbAF~@LzF@rAAbBAp@Ar@G`AE`AI|@IfAOjAQdAOv@S|@Oj@YdAYz@i@tAWj@k@lA]l@]j@yAbBwBtBe]zUuAImZ}e@uS_\\{CyG"
+    },
+    {
+      "name": "Noordwest",
+      "osmId": 10024321,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.8498236,
+        "maxLat": 50.8712326,
+        "minLng": 5.6720594,
+        "maxLng": 5.6967834
+      },
+      "encodedPolyline": "e{muH}zra@eBCaPU`@aFyH_s@v\\yQqIcUpP}WlGgQxGuFlGY|\\M?lHhC~KUrG}L\\{BtBrA~DzCxGtS~[lZ|e@_KvTMJ{@sEuCjAu@hC_EJs@{MwHT@{BWmAcAcBm@k@kEyDiQdLsGrEyAnBiAnEs@|JEpAgUq@"
+    },
+    {
+      "name": "Oost",
+      "osmId": 10024410,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.8401913,
+        "maxLat": 50.8733357,
+        "minLng": 5.7008667,
+        "maxLng": 5.7410891
+      },
+      "encodedPolyline": "cdiuHwx_b@cCnh@Cj@C~@kEh~@?zABzARxC^vCpB`NzIlInCrF\\hA^nATrAHj@Hj@Fr@Dr@Dr@Bt@?pGOnKOxEa@jEgBzL}ATDqEaBkAKxCaHaEsLeHeJrCWgGiQdGkFjB}HvFmH|Bm@mIz@mEk]cVkBnJe@rC]|CIfAE~A?xADtA|@`T{IcLy@{@UAw@?gBKgZwEgAUeDeB_UsLuA}@xFiUnC}KzAiGdDoJ{CuCeFoFlU{h@fB}CkTsd@aPgk@`IyLdmA`Kfe@bDjNzA~JnAzJiAnZeC"
+    }
+  ],
+  "centerLat": 50.84384,
+  "centerLng": 5.690925,
+  "radiusKm": 5.29,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

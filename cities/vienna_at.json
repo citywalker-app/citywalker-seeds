@@ -1,0 +1,313 @@
+{
+  "name": "Vienna",
+  "countryCode": "AT",
+  "regions": [
+    {
+      "name": "1. Innere Stadt",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1973,
+        "maxLat": 48.2213,
+        "minLng": 16.3519,
+        "maxLng": 16.3904
+      },
+      "encodedPolyline": "cpdeHkvxbB_uC??soF~tC??roF"
+    },
+    {
+      "name": "2. Leopoldstadt",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1942,
+        "maxLat": 48.2382,
+        "minLng": 16.3806,
+        "maxLng": 16.4285
+      },
+      "encodedPolyline": "w|ceHwi~bB_rG??kjH~qG??jjH"
+    },
+    {
+      "name": "3. Landstraße",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1768,
+        "maxLat": 48.2132,
+        "minLng": 16.3793,
+        "maxLng": 16.4258
+      },
+      "encodedPolyline": "_p`eHsa~bBobF??saHnbF??raH"
+    },
+    {
+      "name": "4. Wieden",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1832,
+        "maxLat": 48.2094,
+        "minLng": 16.3468,
+        "maxLng": 16.3838
+      },
+      "encodedPolyline": "_xaeHovwbBwbD??gfFvbD??ffF"
+    },
+    {
+      "name": "5. Margareten",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1793,
+        "maxLat": 48.2063,
+        "minLng": 16.3309,
+        "maxLng": 16.3673
+      },
+      "encodedPolyline": "s_aeHcstbBwgD??obFvgD??nbF"
+    },
+    {
+      "name": "6. Mariahilf",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1902,
+        "maxLat": 48.2129,
+        "minLng": 16.3258,
+        "maxLng": 16.362
+      },
+      "encodedPolyline": "wcceHgssbB{lC??gaFzlC??faF"
+    },
+    {
+      "name": "7. Neubau",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1952,
+        "maxLat": 48.2194,
+        "minLng": 16.3236,
+        "maxLng": 16.3651
+      },
+      "encodedPolyline": "_cdeHoesbBgvC??kbGfvC??jbG"
+    },
+    {
+      "name": "8. Josefstadt",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2063,
+        "maxLat": 48.2259,
+        "minLng": 16.3307,
+        "maxLng": 16.3681
+      },
+      "encodedPolyline": "khfeH{qtbBoyB??whFnyB??vhF"
+    },
+    {
+      "name": "9. Alsergrund",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2153,
+        "maxLat": 48.2392,
+        "minLng": 16.3368,
+        "maxLng": 16.3861
+      },
+      "encodedPolyline": "s`heH_xubBktC??csHjtC??bsH"
+    },
+    {
+      "name": "10. Favoriten",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1324,
+        "maxLat": 48.1898,
+        "minLng": 16.3213,
+        "maxLng": 16.4422
+      },
+      "encodedPolyline": "ozwdHcwrbBweJ??srVveJ??rrV"
+    },
+    {
+      "name": "11. Simmering",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1402,
+        "maxLat": 48.1958,
+        "minLng": 16.3938,
+        "maxLng": 16.4833
+      },
+      "encodedPolyline": "gkydHg|`cBozI??knPnzI??jnP"
+    },
+    {
+      "name": "12. Meidling",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1572,
+        "maxLat": 48.2037,
+        "minLng": 16.2963,
+        "maxLng": 16.3672
+      },
+      "encodedPolyline": "ou|dH{zmbBsaH??czLraH??bzL"
+    },
+    {
+      "name": "13. Hietzing",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1553,
+        "maxLat": 48.2264,
+        "minLng": 16.2139,
+        "maxLng": 16.3263
+      },
+      "encodedPolyline": "si|dH{w}aBk{L??o}Tj{L??n}T"
+    },
+    {
+      "name": "14. Penzing",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1798,
+        "maxLat": 48.2523,
+        "minLng": 16.2397,
+        "maxLng": 16.3393
+      },
+      "encodedPolyline": "wbaeHcybbBcdM??omRbdM??nmR"
+    },
+    {
+      "name": "15. Rudolfsheim-Fünfhaus",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1787,
+        "maxLat": 48.2158,
+        "minLng": 16.2924,
+        "maxLng": 16.3497
+      },
+      "encodedPolyline": "{{`eHobmbB{fF??ceJzfF??beJ"
+    },
+    {
+      "name": "16. Ottakring",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1991,
+        "maxLat": 48.2458,
+        "minLng": 16.275,
+        "maxLng": 16.3388
+      },
+      "encodedPolyline": "k{deHwuibB{bH??wmKzbH??vmK"
+    },
+    {
+      "name": "17. Hernals",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2174,
+        "maxLat": 48.2632,
+        "minLng": 16.2928,
+        "maxLng": 16.3513
+      },
+      "encodedPolyline": "wmheH_embBg}G??slJf}G??rlJ"
+    },
+    {
+      "name": "18. Währing",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2183,
+        "maxLat": 48.2622,
+        "minLng": 16.3157,
+        "maxLng": 16.3752
+      },
+      "encodedPolyline": "ksheHctqbBkqG??{rJjqG??zrJ"
+    },
+    {
+      "name": "19. Döbling",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2287,
+        "maxLat": 48.3019,
+        "minLng": 16.2977,
+        "maxLng": 16.4139
+      },
+      "encodedPolyline": "ktjeHscnbBohM??guUnhM??fuU"
+    },
+    {
+      "name": "20. Brigittenau",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.2218,
+        "maxLat": 48.2581,
+        "minLng": 16.3608,
+        "maxLng": 16.4033
+      },
+      "encodedPolyline": "giieH_nzbB{aF??shGzaF??rhG"
+    },
+    {
+      "name": "21. Floridsdorf",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.249,
+        "maxLat": 48.3381,
+        "minLng": 16.2895,
+        "maxLng": 16.4917
+      },
+      "encodedPolyline": "gsneHkplbB{kP??wnf@zkP??vnf@"
+    },
+    {
+      "name": "22. Donaustadt",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1556,
+        "maxLat": 48.2962,
+        "minLng": 16.4333,
+        "maxLng": 16.5854
+      },
+      "encodedPolyline": "ok|dHcshcBwmZ??su\\vmZ??ru\\"
+    },
+    {
+      "name": "23. Liesing",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 48.1087,
+        "maxLat": 48.193,
+        "minLng": 16.2147,
+        "maxLng": 16.3727
+      },
+      "encodedPolyline": "kfsdH{|}aB{mO??oz]zmO??nz]"
+    }
+  ],
+  "centerLat": 48.2082,
+  "centerLng": 16.3738,
+  "radiusKm": 22.0,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

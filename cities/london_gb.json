@@ -1,0 +1,92 @@
+{
+  "name": "London",
+  "countryCode": "GB",
+  "regions": [
+    {
+      "name": "City of London",
+      "osmId": 51800,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.5068709,
+        "maxLat": 51.5233122,
+        "minLng": -0.1138295,
+        "maxLng": -0.0727682
+      },
+      "encodedPolyline": "cdmyHlfUlNmKfKwCXnDdBm@zA~CxD}DtKUSwi@bHH[iBeG?d@e]lAmUvDwVhHghAgKgHm@hAoAs@{B_E_BgIbDkCgAwNu@q@gVjD_OrSkJ|FeBMRdGmOqDwArNlFlC|DxHkB`KrH`EgFlVuCe@}@fOwAXAjJeIzCv@fG_BbAvAlFxEuBtE|@lQn~@cBhd@?@"
+    },
+    {
+      "name": "Westminster",
+      "osmId": 51781,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4838425,
+        "maxLat": 51.5397474,
+        "minLng": -0.2160909,
+        "maxLng": -0.1110827
+      },
+      "encodedPolyline": "}foyHpei@~LgBa@cOrCye@rAsDtL{J|CqMtCU~FsDc@tKt@zErPkMc@gCjE_DbN}CcBwXzSqE[yEfK}C}@uYps@yU~@kWbV{C}Aee@_D}_@tCqB{DsJjB{@uHiPaH{IkBiNbSsBtFkJ|MwA`AiAtBpC|BgE|BdEtFsFdBrEzG_CtAdChUob@jHeAKeWpCq`@DsPgDu]_G{TwKgO}R_PcZaHiu@iGgIoBwHcHcE_HgDsNiB}VuKTyD|D{A_DeBl@YoDkHdBdBbMoFlDnHv\\iArMr@t@iB|CjN|\\aDzI{NnEcBUmB|ApAxIyAUsB`F\\|AsGnFp@tB_B~Av@hCe^vc@GnCkCUA~BzBAB~E_GnBl@nGamAxa@jFrh@_EnEnHb[qPl[`D|G{BrEvCrH{B`CqFi@w@t_@|Hb_@~RbUtArD_JbPrMtHbCcCnADx_@pX_A`BJfDyKByBhBkG~OcCvBaAdGRd]lD`TnBnXrF]lArCpCh@L?"
+    },
+    {
+      "name": "Tower Hamlets",
+      "osmId": 51805,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4845245,
+        "maxLat": 51.544686,
+        "minLng": -0.080209,
+        "maxLng": 0.0098632
+      },
+      "encodedPolyline": "}|jyHhtNtJ_j@~EiO|Gy]zCyc@aFm^a_@qy@wAyHq@}YlEaa@dFuOjEcFnGkCpGy@vY`CjVVfI_ApQiKbOwRrIqUhEmTp@wYk@iPuEi]uJgUgIyG}HaA}IjAw]pS{N`EaNoAqHkEiJuMaDaQCiOlFkTeH{HmGgCyC`DqDnR_P{K}CRiCvBJhJlE~CvLrA`AlBMpF}Cf@cReJ_Cv@uPbe@l@nGlEtDTbDoL|GoEvK_Ed@_LuFwCbAiO}BwGpF_DfHgEnCiB~QwHtT_E|CcDo@iD`EuElAiGjJaDOyDkIuEeBeDoEuCYsBuFmEuA}C`Bq@rSn@xb@tEhTcDnB_IhU`Qx[jAuBhWjYtIrThArMsDzNUpFhBbHdE~Aa@pLjEtWc@hG{FhLxBtAjIeCfArPq@\\`KxEbAbc@lEzNbH|ExE|H^cE|CdAfJ]n@GEiBzF[nEdCXbJ|QjFSeGdBLjJ}F~NsSfVkDt@p@fAvNcDjC~AfIzB~DnAr@l@iAfKfH??"
+    },
+    {
+      "name": "Hackney",
+      "osmId": 51806,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.5198144,
+        "maxLat": 51.5777843,
+        "minLng": -0.1045094,
+        "maxLng": -0.0165775
+      },
+      "encodedPolyline": "mfvyHdlSjW{c@oAaOpEwZtMeGzUPpAuEg@qCzEeElCoLjAuc@rUwP`JmAx@lAeBjk@xGk@dp@tQzYl`AfQaKnDt@tI{g@xFgExAmDyAeK`Du@pDnCNcAfBN@eEjUjEjBaK}DyHmFmCvAqNoA{@u@wKkHyAcCb@BjBuKb@}CeA_@bEyE}HoHkFaEmNcAcc@aKyEp@]gAoPkIdCyBuAzFiLb@iGkEuW`@qLeE_BiBcHTqFrD{NiAsMuIsTiWkYkAtB_Qc[|H_VbDoBuEiTo@yb@p@sSsRlBaXhJ_FJBmJiJ`AeJ`EaLn[SzD_F|@uDjDwJdXGfGjCrPoDlRbAbN{BvFpAlM_AtMoDtM{An@wEkCuEhDwMtS_FrNgIdFaBfKyItK{_@dPbF|a@z@AhC`\\^nZnBzAmCt[zD`g@nAmAQnQ~Cn]o@dKh@zEpQwIdVt]xL|TBF"
+    },
+    {
+      "name": "Newham",
+      "osmId": 185505,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.4960167,
+        "maxLat": 51.5640206,
+        "minLng": -0.0212642,
+        "maxLng": 0.0997977
+      },
+      "encodedPolyline": "kypyHzcCnCw@dC_GlHsC~BeDlER~D}CvHuThB_RfEoC~CgHvGqFhO|BvCcAzIxE`DZ`Be@hHmNtHiCViE{EmEm@oGvO{c@|C_BbRdJlBFt@aAF_FaAmBwLsAmE_DKiJhCwB|CS~OzKpDoRxCaDlGfCdHzH|GoMp]ob@nHqPdF}TvAiPJgR_Dyk@mByx@|De}AeAij@mCk`@sDySoHyPg]o^cOsKyMoSwFyOoAqIqBol@cOQsGlTmFhHwE~@kMyAyKxN_GJ}FwAmCdAc@xKqBtFhCvUcJn^}IlOoBxNzBvO_Kf@_JtB{SjNPpH}CaAg@}BcN~JwDz@cF]mMkG_JgBwIAic@xDAjD_Gl@iDvBuJfNlD|T_D~GeCxAWrEeCn@N~BcA@sA~Bm@hF{FnAiGzNqJpFxN~r@pRuDrCqGlPgKuAlbAdC`SlBji@kHTBzH{Ef@k@dBl@zAfBHGbLtFwEvIp[k@b@b@dB{InInEnQ_BbB~DhHhFoFdCjFfAXtBhVAv@oFm@DbB{@J~@hGu@`CfAbUdJ`s@iM|CoA`FpFxf@e@xK~EK~NgGp\\wE`CyAfFlBxA|EtCXdDnEtEdBbFjJV@"
+    },
+    {
+      "name": "Soho",
+      "osmId": 17710512,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.5100018,
+        "maxLat": 51.516365,
+        "minLng": -0.1418295,
+        "maxLng": -0.1293784
+      },
+      "encodedPolyline": "kplyHluZbJyE~PiOvAiFm@_OyG{GqHoUcLxCXjB}DtBu@mB`F~cAXJ"
+    }
+  ],
+  "centerLat": 51.530813,
+  "centerLng": -0.058147,
+  "radiusKm": 13.32,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

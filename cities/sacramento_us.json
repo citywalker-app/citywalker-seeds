@@ -1,0 +1,207 @@
+{
+  "name": "Sacramento",
+  "countryCode": "US",
+  "regions": [
+    {
+      "name": "Curtis Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5248400468571,
+        "maxLat": 38.5780910907699,
+        "minLng": -121.521727932774,
+        "maxLng": -121.453853286171
+      },
+      "encodedPolyline": "}eejFfendVrG?y@bMaB~NQ|BiDp[e@bCoAYE`@cAlIg@fECVa@`DGh@_@xCC\\[zBi@|DIn@a@bDEl@m@rEm@rBa@p@s@lAiCtE_AnBeAvD_@lAs@hCQl@i@|A_@nAm@rBaAhD{@vCi@jBY`A_@nAq@zByAgA]_@iM]oCI_@D_@BiLrBsMjE_ElAoKxBqPxEmIjDoGrAyCpEaGhEuQlNoHr@cK_C}IeHcEcDiH}JK_@Cm@Ba@Dy@Fq@L_@NIb@e@dAy@z@aA|E}HrB}Ix@wDnB}JfEeTfLsp@??qBq@gBm@oBo@kBo@mBo@kBo@oBo@iBm@oBq@kBm@kBo@rA}HtE_Xav@kWn@kD`EyU~DeUfCsNVyAnJkj@zHhCnPzFpSpGlE`BPHF]ZiBfAiG~Mov@|BlFTtKpCxRHBJB@?XH^H??JDTD~A`@bAV`ATj@NnBd@bBb@JBlBn@|Af@zAf@xAf@dAiGfAgGb@kC`@{BzBqMpBeLFc@@A?C@C?C?A@C?C?A?C@C?C?C?A?C?C@C?E?_B?eB?oB?G?EAgA?K?C?C?EOeC?A?CAE[{AxAk@lBs@JEDCDAFA~Bo@d@K|IaC`EeAvDcAxA_@ZMAnF?fD?rC?\\BlEEfFApA?pCAdG?f@?DA@?D?B?B?@?BCTOfCS|CQjCQhCuArAqAtHyAhIc@dCc@bCc@bCc@dCIf@MRKR@tI@nC?Rrb@O~HCpDCL@vAAxCAdCAd@?`@Ab@Ab@AjBId@CRCJARAt@IlAOn@Kr@KrAYrA[nA]pAa@jAc@TK\\M^Qz_@kP~TuJd@S?X?f@BjI?V?jA@dA?P?^?\\?n@?F?pB@fC@fD?zCB~P?fABnM?RYp@mHzAeLfCc@Bg^tH}IjB}@b@bBQzEM"
+    },
+    {
+      "name": "East Del Paso Heights",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.6086013832812,
+        "maxLat": 38.6692200687264,
+        "minLng": -121.44750426475,
+        "maxLng": -121.362866145149
+      },
+      "encodedPolyline": "e~ujF`wadV|B?fA?zAFxARvA`@jBP@Bb@j@hBlBTR|HdKfIfJv@z@jHxHJNFFLNlBvBxFjGrClDEnZmNC?jB?jD?lCgVGoOU}F@[kBqBbClCtQwMqOmT{OqPcGO~HmBbMUtIr@jGlBfGItCI|BJ|Br@tCbC~Ch@~DdElNsp@Bkr@CGyB_Hcu@mAyRI}F}PK}FrEcZzUaeBAeFGRer@XsmAFkM~z@CtE??f@Bv@Sx@_DtBmAx@u@d@CBC@A@QNUz@A`A?nB?`B?dCLr@h@t@rAz@f@Zj@^`An@j@ZT`@\\rB?hAbD?@sBf\\?ApBdD?C|HtDODyVzDABoMnOBDiMH{[vl@CNs]rD?vBbB}KgN?sCk@wBkP{oAs@sHz@iH`DeIh@eIxNHeFaIx@qFe@uFcDgFgE{E}EsPqAgF_BkBUuATcBbEcGmAsRoAm@[y@GiDR_AHoGKqApB}CjJdHp@pAZbDIzB{@tDCdEfMbn@jNdi@xFhUha@|yApYncA`IpXjBrGhAxDvBxDd@h@`@V~@p@jAZX@hCAvGB"
+    },
+    {
+      "name": "Elder Creek",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.4996520031032,
+        "maxLat": 38.5444015671614,
+        "minLng": -121.427472358446,
+        "maxLng": -121.367157640615
+      },
+      "encodedPolyline": "y}_jFfnxcVNDb@LNDPDb@Hb@Fb@Fb@Bb@BP@f@?pMB?`C?pC?tA?`GwBA?pTtB??Z?zL?~TA`M?dT?RV?xB@|F?~B?N??^@xD?Z?nA@dC?bC@rIm@?aA@W?_@@w@?o@@E?u@?w@@U?gC@?V?\\@fC@dA???dA@dA?p@@lB@bADxD?|@?R?XA|@?dJ?~GAdD?J?`D?jA?lBApA?X?vA?`@?^?JAnH?RxGExDA^A\\?~B?jAA?b@?b@?T?z@?H?h@?V?P?h@?X?P?`@?F?`@?D@f@?D?b@?D?b@?J?`@?J?\\?P?V?V?T?X?N?Z?P?\\?J?b@?D?h@?@?j@?D?f@?D?h@@B?h@?B?h@?@?l@?r@?Zk@?K?cC@A?A@E@C@C?C?C?CACCiA@A|@?h@i@?U?]?O?Q?[?C?a@?a@???_@?K?S?c@?]?iA?@nC?P?dA?l@?d@?b@?H?^?f@?f@?T?X?v@?hA?B?d@?^?R?L?\\?h@@j@?h@?h@?h@?f@@l@?l@?l@?b@?^@v@?tAcB@{AA?|C?vDwAbCI|C?|B@b@@bA?b@kC?gB@{O@aG@sA?O?Q@G?eA?{Q@wK?K?AoICaH?sBwB?G?E?C?EAE?E?CAE?EAE?CAEAEAE?CAEAEACAgA]OGC?AACAC?AAC?CAA?C?AAC?C?A?C?CAA?C?C?u@?iG@yD?kC?K?A@?Bu@M?FmJCiA?W?kA?yDA?iA?wA?cD?q@AsB?eD?]?iC@mL?y@?aD?cD?uC?S?iD?gD?wC?O?W?oN?MI?kP@kD@i@?iA?aI@kD@cA?Q?K?I?S}s@?uCSsb@G_Uyb@AcA?}@?}@@mA@gONiLLzAaIDUDWp@oDhBsJ^uBnQk`AlDaRR?~D?~KA|TAhUA?gD?_D?g@tB?vFCbA?xCAjCAAwJT?B?nFGAy@?_AAeA`CCbFCJ?@vOV?`E@nIBN@?g@lF@L??e@CoIAwC?YF?D?rB?vD?L?bA?p@?`A?bA?bA?rA??pBBtK@lArDA|IAT?R@P@f@FZDPDRFXJXHpN|F?jAvCA"
+    },
+    {
+      "name": "Erikson Industrial Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5672870119954,
+        "maxLat": 38.6280651769243,
+        "minLng": -121.468522824294,
+        "maxLng": -121.419928006993
+      },
+      "encodedPolyline": "sjqjFnthdVTbHX~E|BxJfBnHb@lCN|DGtCc@hDg@`C_A|BoEdDuDxAeFnCqDdBiCr@wBj@eDByBBuBKoDQ}D]sEu@sTcGkKy@gBAoMb@_Ff@sJhADco@gJA@eNHqw@}Cw@sD[a]AeEmNi@_EcC_Ds@uCK}BH}BHuCmBgGs@kGTuIlBcMN_IpPbGlTzOvMpOmCuQpBcCZjB|FAnOTfVF?mC?kD?kBlNBDoZsCmDyFkGmBwBMOGGKOkHyHw@{@gIgJ}HeKUSiBmBc@k@ACB?RBpD?pE@~XCrYDlN?fP?fK@`S@^@bzAMxDRzCv@`BxAh@d@hA`@lAp@zDfAhBIhBIpAm@tIfAdFFvInBtK\\z@BR?DdA\\pDjBrRxDz^aQtCkEn@sKhBeG`AmDt@_CtAaB|@yCpCkCjC{BzCaAvBaCdI{CbKiC`J_EfN{AhFqC~Fa@tAeAhDq@rDKjBAVm@m@aAcA}Bb@iALMeBKi@k@_Bg@oAo@cAs@mAs@gASSsFaEmFdG{FzMAVeAKkNBoGa@aHqAQz^"
+    },
+    {
+      "name": "Greenhaven",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.4695477540847,
+        "maxLat": 38.5414835068765,
+        "minLng": -121.559434282887,
+        "maxLng": -121.493793169762
+      },
+      "encodedPolyline": "{g}iFlsrdV~@Bj@@nA@N@X?x@@XBX?dEF~HXdLiAfUwATAdMkAxCMdU{ApI_Bn@M~NBlOsCRhD\\`Ey@XkEjBqIrO_Ivg@Wxd@bC~o@gChw@gJh]qMlNgOjKoxAteAoLhE_XCaf@qLkb@gWaGoWuEiZ}DaWoBgYg@k^_CaZuEwLaGoEeADyADoEdFoGpG{ItKm@RkKbF{Mv@kHcEkJsZ_HaWwIyP_BuCyLqQmKoJ}@s@p@{B^oAXaAh@kBz@wC`AiDl@sB^oAh@}APm@r@iC^mAdAwD~@oBhCuEr@mA`@q@l@sBl@sEDm@`@cDHo@h@}DZ{BB]^yCFi@`@aDBWf@gEbAmIDa@nAXt}@tSx@RnLnCxA\\VH~FrAbB\\pFhAzA^vA\\fAVtCp@pBb@bARhGxAhGvAdBx@fDpAx@\\hE~Ar@ZjBt@zAn@bBn@bLtE~HnClC|@`F`AjCl@L?bE?jF?nEAv@?jA?rG?bE?fBA|ADdIJ"
+    },
+    {
+      "name": "Hansen Park Golf Course Site",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.6414075038994,
+        "maxLat": 38.669970861036,
+        "minLng": -121.477142757749,
+        "maxLng": -121.456913261035
+      },
+      "encodedPolyline": "}t}jFbnjdVyDmNkBiGqBkEgAaCa@{AIw@Ee@?kDhJAv`@JMts@e@nCjKDGrSpT@fB}B`R?UyDtALbAn@XRt@@DkAXyAF_BHcL|SDS~Sv@fTkdAdL{PnBkLnA{lAxMXidAlA@haALeCeK"
+    },
+    {
+      "name": "Mansion Flats",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5647558897768,
+        "maxLat": 38.6024947258935,
+        "minLng": -121.515792879247,
+        "maxLng": -121.462630870523
+      },
+      "encodedPolyline": "gxkjFvcsdVoB|Jy@vDsB|I}E|H{@`AeAx@c@d@OHM^kFoIeCiDoBaC}AaCeCqCwBgBcBaAcCyAkDqBoCy@uJaDgHsBsJsCaMcDlAyH~@iD|A{CaBJqDZkGnAyElA{Cr@mBZkAXmADqAJwB?_HUwFo@yDQmHY}CEiCRwCf@w@BgFdBm@VkAiEaBsGoA}Gs@cIs@yK]eJAcSCiNDqIZcHxAqKpAoGtByGfFqJzBmDbEuF~BeB|CqCx@qAz@v@f@n@n@bAp@z@f@n@f@d@v@f@fAl@nC|Dx@jBf@v@r@vBn@jCrDlK|@hBn@xAJXbA`CXv@RfBbMvE|G}b@xFi`@hDuSfCiOhAgEhAsHj@kIj@eGzA}G^mBl@x@v@t@p@r@TRdA~@bCz@dEjA`Cv@tL~DnBj@pIpCrEzAoJjj@WxAgCrN_EdUaExUo@jD`v@jWuE~WsA|HjBn@jBl@nBp@hBl@nBn@jBn@lBn@jBn@nBn@fBl@pBp@??gLrp@gEdT"
+    },
+    {
+      "name": "Metro Center",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.599500502013,
+        "maxLat": 38.6468890102962,
+        "minLng": -121.547180405048,
+        "maxLng": -121.49787937157
+      },
+      "encodedPolyline": "mqsjFhhsdVp@Tx@Jp@\\jAJp@It@KpAy@l@VnAzAxA~BpBrCv@nDFhCQhCIzAq@K{@IiA[yAk@q@c@s@g@u@a@{@a@}@Qu@CeBV_Ad@w@v@m@jAc@hBKz@SzAOzBQdBW`AYz@k@~@e@b@gAx@gAb@eAHq@@mAIy@WgBk@eA]}@[cAOy@Gq@DaE^f@xHFhA@|DDpBF`DHzCtEQtFRbVrAhU|AtAFw@fRKvFNfQbCbTdArEyJAn@|DYDh@lCdBnF|@bBtBjEl@PdEvHnDrGzAlCtAhChBfDd@~AH`@FXTnB@b@@hAGxASp@IViW}OaDyBaEgCuCgBqD_CiDuBuDuB{DwBgImFeJgGeAs@uGwHo@w@iEmIgBkEuIsSa@{@oIuRwFcM{A`AkB|AyCnD}AlDmJjTsAbDmHtPb@pF?vI@vv@yUCOwp@yBAcFoAoTgGoCVyF|FmVlKiCnL}@`JYnAHwjB?ac@EwDCqCOeD{@iEcAeDsAkC}AeByByBmBkCqAaCi@sBi@gB[sBW{DA_G|CGrPCfCCbD]p@QjDwA~AkArA}@p@s@nA}AlAeCdBuDv@eBnA{C~AeCrAaBjImHrE}DtZls@lK~VrNz[vTkHvGcCvFqBzJ_EdFqBzE}B|QyHqBLkAToAAsAQgA[}Ac@kAk@Tu@l@yBh@aBlAqCv@uBt@gCh@qCd@oEFkIJ{DBgFI{O?{ChJ?vP?LbCPtDPtEVnDf@rDb@dDjBrNM~Aa@z@s@f@m@Ts@z@S|@]pB[xAS|@a@l@c@l@m@f@bBOtBP"
+    },
+    {
+      "name": "Natomas Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.6429705361041,
+        "maxLat": 38.6853803240799,
+        "minLng": -121.540848451293,
+        "maxLng": -121.493205867058
+      },
+      "encodedPolyline": "gu{jFxcpdVCrTBv~@bN@@~K@~FVzDZrBh@fBh@rBpA`ClBjCxBxB|AdBrAjCbAdDz@hENdDBpCDvD?`c@abAvb@yKfHsR~Gk`@rRw^dQVqCsH?iWEe_@@a_@A}A?Aco@?gD?aL@qJDgW@kID}M@yFXef@C}V?kCAiw@AoI@mTT@`CA~IAhA?bYE^?|BA`B?lBAjJAhMClGAT?tIC~FAhBAlJCdB?zAAhHCzA?jMEl@?d@?`MEd@?bDAR?DAr@E|J@h]D"
+    },
+    {
+      "name": "Norwood Tech",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.6169355762991,
+        "maxLat": 38.6694510568008,
+        "minLng": -121.471703430996,
+        "maxLng": -121.433705562291
+      },
+      "encodedPolyline": "akujFj`kdV_ObByg@vFiYvCi[jDoc@zEyCZw@gTR_T}SEIbLG~AYxAEjAu@AYScAo@uAMTxDaR?gB|BqTAFsSkKEd@oCLus@w`@KiJ@?jDDd@Hv@`@zAfA`CpBjEjBhGxDlNdCdKiaAMl@_lDdFF`eB@bZ{U|FsE|PJH|FlAxR~Gbu@FxBjr@Brp@C`]@rDZ|Cv@Ipw@AdNfJ@Ebo@"
+    },
+    {
+      "name": "Ramona Village",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5250681775535,
+        "maxLat": 38.577444285781,
+        "minLng": -121.4320055192,
+        "maxLng": -121.375016458959
+      },
+      "encodedPolyline": "ulcjF`f`dV?V?N?vC?fD?hD?R?tC?bD?`D?x@AlL?hC?\\?dD@rB?p@?bD?vAgWDaRA?LAVSbDAV?^@dJAfAARCZCXAZ?^AtAWEkBU[EG?EAG?EAG?EAG?M?yP?iKAA?C@C?A?A?C?C@oGz@YDsAPI@E?G@E?E@G?E?G?E?_K@gH@yC@u@?eB?_H@K?oG@}@?}A@y@?Y?w@?_C@S?I?Bc]iAcHmIne@KPkABgEA{AMs@OaFuCo@i@oD`CoLbIqInE}GxBsFbAyV`EyD{^kBsR]qDEeAS?{@CuK]wIoBeFGuIgAqAl@iBHmBDp@uBdBwGbDgMLKhAaEBI@IBI@I@I?I@K?I?KAuBn@?Fa@?APq@@EBWnAaFF[FSVOB{KTBjBb@\\{@~@gCpFiN^_AbAqCbDyIuGGpG}t@~IrBVN|@RfBZoAjJ|AnA\\h@r@h@rA_Dp@h@TL~@h@j@Nv@Rl@Ll@Lb@Jl@Nl@LbARj@DlCo@ZzBpDtW~BhRqCELbAPzAVfBV?zHT?A`A?N?l@@p@?d@@\\?`A@bAB`ADx@DCeASwEiAcGy@sHUqCY}F[qKQuGaBwF{AmFkCqIsAmE}F{RsDqMm@eC_@iCo@}Fw@gHqA}JKaArCSxHmBhKmF|DiCNKfOsJ`GqDnOuMhDpI|AdEfAvCxDtLr@nCf@tBxDtOnBnKtC`SvArNN~AJjADv@Fv@Dx@Bv@Dv@@x@Bx@@v@@x@?v@?x@GtOZ?NALEHI@AHMFQ~L_p@hLMfOOlAA|@A|@?bA?xb@@F~TRrb@?tCR|s@H?J?P?bA?jDA`IAhA?h@?jDAjPAH??L?nN"
+    },
+    {
+      "name": "River Gardens",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5885801632894,
+        "maxLat": 38.6411548887,
+        "minLng": -121.517184287242,
+        "maxLng": -121.449855048251
+      },
+      "encodedPolyline": "y~rjF|pldVbDaItEmJzBoEtAkBxCyCfBaB~@q@DOhCs@pDeBdFoCtDyAnEeD~@}Bf@aCb@iDFuCO}Dc@mCgBoH}ByJY_FUcHP{^`HpAnG`@jNCdAJ@xBAlFFfAl@~J~AxK`@nChCzMf@dDv@dJ@pADtEg@rFMhAqAtHsBtIqArDeApCSXo@z@eCfDY`@wCfDYh@}BzDoC}@aNtQy@pA}CpC_CdBcEtF{BlDgFpJuBxGqAnGyApK[bHEpIBhN@bS\\dJr@xKr@bInA|G`BrGjAhEvB~EfIvJbF|E{@^kHdDuGvH}Uu@qBsCyA_CoA{Am@WqAx@u@Jq@HkAKq@]y@Kq@UuBQcBNl@g@b@m@`@m@R}@ZyA\\qBR}@r@{@l@Ur@g@`@{@L_BkBsNc@eDg@sDWoDQuEQuDMcCwP?iJ??zCHzOCfFKzDGjIe@nEi@pCu@fCw@tBmApCi@`Bm@xBUt@jAj@|Ab@fAZrAPnA@jAUpBM}QxH{E|BeFpB{J~DwFpBwGbCwTjHsN{[mK_WuZms@}Tui@u@o@aCgI}@aDqBiKqAcOUiCmB{X_@mLSmGCi@W}E{@iK]_Ezo@yGtQuBhIwAlHoAbAIfz@}InPmBhHcAdFYjBIjB?|Db@dHbB|@P~@Zx@b@t@`@pA~@rA|Ap@dAhApBb@|An@vBb@fBP~@LbCFfBBzCMtAKlA~@wC"
+    },
+    {
+      "name": "West Tahoe Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.5158596825096,
+        "maxLat": 38.585617746674,
+        "minLng": -121.473940990664,
+        "maxLng": -121.421634650791
+      },
+      "encodedPolyline": "cydjF~ghdV?W?]?g@?wAA[?cA?q@?E?{@?S?O?a@?_@?A?G?aB?[?S?[?[?C?Y?]?Y?C?Y?]?[?G?eK?}A?[_Bh@eBl@i@PUHg@PgH|CyCrAy@\\{DbBQHw@\\eAf@kBz@UJQH{CvACzIAtH?xF?~@?fD?L?nD?\\?hE?`A?|F?tB?fA?@N?hDAT?V?V?V?X?T?T?R?V?T?N?D?R?@?T?F?L?L?F?T?T?T?R?V?T?R?T?T?J?H?^?\\?Z?\\?\\?Z?V?B?\\?\\?J?H?v@??dF`B??rA?P?P?^?b@?`@?b@?^?b@?b@?^@d@?`@?`@?b@?b@?`@?`A?XbAAR?dA?xAAX??cC?cF?sBH?t@?P?P?F?P?F?N?J?R?D?X?H?N?J?L?R?F?Z?@?d@@LAJ?B?F?R?\\?B?X@T?H?\\?L?T?B?Z?B?V?J?J?V?J?X?X?Z?X?XAR?F?X?X?\\?X?Z?Z?V?B?X?X?Z?X?Z?\\?V?\\?T??{B?KxC@ErN?LApA?d@?f@@D?d@?p@@hD?r@?b@@`C?l@e@R_UtJ{_@jP_@P]LUJkAb@qA`@oA\\sAZsAXs@Jo@JmANu@HS@K@SBe@BkBHc@@c@@a@@e@?eC@yC@wA@MAqDB_IBsb@N?SAoCAuIJSLSHg@b@eCb@cCb@cCb@eCxAiIpAuHtAsAPiCPkCR}CNgCBU?C?A?C?C?E@A?E?g@@eG?qC@qADgFCmE?]?sC?gD@oF[LyA^wDbAaEdA}I`Ce@J_Cn@G@E@EBKDmBr@yAj@ZzA@D?B?@NdC?D?B?B?J@fA?D?F?nB?dB?~A?DAB?B?B?@?B?BAB?B?@?BAB?@?BAB?BA@Gb@qBdL{BpMa@zBc@jCgAfGeAhGyAg@{Ag@}Ag@mBo@KCcBc@oBe@k@OaAUcAW_Ba@UEKE??_@IYIA?KCICqCyRUuK}BmF_Nnv@gAhG[hBG\\QImEaBqSqGoP{F{HiCsE{AqIqCoBk@uL_EaCw@eEkAcC{@eA_AUSq@s@w@u@m@y@sFkHs@gAaAwBu@{Ca@sBc@iGOmDs@qKmBaYhAM|Bc@`AbAl@l@@WJkBp@sDdAiD`@uApC_GzAiF~DgNhCaJzCcK`CeI`AwBzB{CjCkCxCqC`B}@~BuAlDu@dGaArKiBjEo@`QuCxVaErFcA|GyBpIoEnLcInDaCn@h@`FtCr@NzALfE@jACJQlIoe@hAbHCb]H?R?~BAv@?X?x@?|AA|@?nGAJ?~GAdB?t@?xCAfHA~JAD?F?D?F?DAD?FAD?HArAQXEnG{@BAB?@?@?B?BA@?hK@xP?L?F?D@F?D@F?D@F?ZDjBTVDtBVP@PBP@P@P@P@N?P@V?tUEP?R?RAP?RARCvFa@HAD?D?B?D?N??G?M?yK@kKxD@jA?V?hA?lJB?Gt@L?C@AJ?jC?xD?hGAt@?B?B?@?B@B?@?B?B?@@B?@?B@B?@@B?B@@@B?NFfA\\B@D@D@B@D?D@D@B@D?D@D?B@D?D?D@B?D?F?vB??rBB`H@nIBpND`QBpLD~RF\\oQvGoOpFsLhE?b@@lA?D?F?X?pA?f@?b@@l@?f@?j@?h@s@?U?w@?A?W?[?}@@U?@fE@xF?|D@pB?dA?t@?n@?hA?~A?vA?xD@hE?`BU?}@?s@@aA?U?a@@G?W?S?I?_@?O?M?]?i@@U?o@?]?G?Y?C?q@@W?s@?M?i@?c@??t@?`@?NAt@qC@K??fLK?]?[?Y?[?c@??eB?gB?gB?aA?g@?q@?G?iBC?c@Ac@?a@?i@?UB?|CuC@?v@?r@?t@?p@?b@?dA?Z}C?aC??mKbC?zC??u@@]"
+    },
+    {
+      "name": "Westlake",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.642030641576,
+        "maxLat": 38.6856085610513,
+        "minLng": -121.560785749692,
+        "maxLng": -121.526160658479
+      },
+      "encodedPolyline": "sp|jFfuwdV`bAwb@IvjBeBnHr@~DnCpAqAzJQ`BjEhFGpDmDvJoLdEcNtH}DXk_@~McKdFiApFeArCCcG|@cFdAoBH{k@uRCwMDAoB_QGk`@EgHAk@VA~B@zH?xa@}@@eI@kEAwH@cM?}@?qA?wH@{@?oMBePBI?M?Fkc@Foh@@eR?}B@uD?u@?y@?e@?IZ?|A?`_@@d_@AhWDrH?WpCv^eQj`@sRrR_HxKgH"
+    },
+    {
+      "name": "Woodbine",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 38.4562194824557,
+        "maxLat": 38.5347607499915,
+        "minLng": -121.506244759231,
+        "maxLng": -121.419057565628
+      },
+      "encodedPolyline": "wbyiFzijdVrK}BvIcBlLeCrGqAdHs@d@cAk@dDxTcBCa@|F_@uDlV@t~@XjARx@Rx@Tv@Tv@Vv@Vv@Vt@Xt@Xt@Zt@|KyAXn_@sJEjGbaAeK|Bh@zFxCp\\yHnA\\fEaNzBe@yEyB^d@xESDOmByDr@QoBmB\\uB?CS}Fx@h@~F_@P_Cv@}SNORmOrC_OCo@LqI~AeUzAyCLeMjAU@gUvAeLhA_IYeEGY?YCy@AY?OAoAAk@A_ACeIK}AEgB@cE?sG?kA?w@?oE@kF?cE?M?kCm@aFaAmC}@_IoCcLuEcBo@{Ao@kBu@s@[iE_By@]gDqAeBy@iGwAiGyAcASqBc@uCq@gAWwA]{A_@qFiAcB]_GsAWIyA]oLoCy@Su}@uSd@cChDq[P}B`B_Ox@cMfp@EREH?CeQ?eA?g@?SCoM?gAC_Q?{CAgDAgCB?nFy@zF{@xCe@ZEzB]JAd@Id@Ib@G\\Gx@S~Aa@x@UbD{@zBi@Bv]@~L@|Ark@}LTGJCbNoCf@KdIaBdFgApJsB`N_D?oD?uI?mA?qA?mDcBA?oEeBA?eDaBCaBAaBCO?AgGP?fAAL?pA?H?Z?X?P?T?|@?pA?pA?@?`AAAoQj@WtKwEpEoBjBw@pAk@dH{C^QvCoAjAg@nF_CtB}@dBs@JE`CcAdCeAhCeAhCw@~Bu@fCw@nCq@lBg@vA]@ca@E_H~F?_Fqf@lT]Fu|@nLmM|JkKEed@nRwHFxAXbj@EfJCzs@?`CAtS@dGEfo@AbFFrWOpTShd@LAlDs@tFmA"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://services5.arcgis.com/54falWtcpty3V47Z/arcgis/rest/services/Neighborhoods/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson&outSR=4326",
+    "license": "unknown",
+    "attribution": "City of Sacramento Open Data"
+  }
+}

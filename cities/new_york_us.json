@@ -1,0 +1,79 @@
+{
+  "name": "New York",
+  "countryCode": "US",
+  "regions": [
+    {
+      "name": "Manhattan",
+      "osmId": 3954665,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 40.6997807,
+        "maxLat": 40.8776136,
+        "minLng": -74.0193432,
+        "maxLng": -73.9104417
+      },
+      "encodedPolyline": "_lmwFz{wbMjGwAF}Gr@nFt@m@OuBz@Eo@q@~Bz@nHmGjFsGx@oEyA]HgAdDPoAmAtCk@wCJrAgBkBi@rBeBuErBhC}C_AFh@iAcAe@pCaA_GfAkAaI`G_EWu@q@d@qA{Dk@`@nAxD{CvBkIwNbF_GWc@aF|FeH{NzEkF]m@wEnFcAeBnEgFYg@_DxBdC_FqBmDuCbDo@sAyAtAkIuSgHq{@\\h@nCi@kCyk@mAHgA{SeGmHuj@qQyr@cK_LIwKbKcXhEjAsDg@s@_BvFuA?iAQ|BaKoT^yTwC_FkBsvA_kAaZ{\\_o@yh@s]i]aIqDq]xJuKaCgKiT_KoIoK_ElA_EsBjDwIyF}Tgb@{FwDu_@m@}O|FyVhSqK|Civ@mBayApG}Lq@}}@g_@mfAqr@fCdD_CF{GuHqG|FcFkCvFaD~AwEiQaMcH{JwC_@qAnCqAoKcJqGOd@}MiI}AlANiBmKeB{CRqG`GcCjKiAxNnCbJxB~BwAfBeEoAcDpKbAz@rCcBf@d@tB_EvBhBM`D}FhGcNa@gBbE_@lGnA`GYjAaA[Sl@fKfOb[pPbFz@xAe@rBpBz@cAdFd@TnA`CNnh@l[|SbPvQ|IdHdHjAvFvE`I[f@vCtB`GoA~J^xCcBn@h@jLyApYdNp_@dIhc@rVbFtEcBdGzD`CW|@zTlMzB_Hn@g@pAl@ph@nd@buDz~BNbGDsFvAz@c@tCv@gCdBfAcDfClEdEkD{DxB{BnAdAu@hDv@eDdAr@sAjCf@\\r@kDoCkCdUjNbKzD|@tO[yOjLpHBjBhZzQ_D|LlEiM|AdA}CxJrDoIvA~@qDbLz@j@pEmLlD~DdDpAeEvMbAr@fEqMhC~AqEfNz@l@vGuS`EnCwGpSz@j@tGsSvClB}FpStArAdHsSjDlBcGdR`AhAjGyR~B~A`@x@mGfSZi@t@f@tDsLtBrA{D~Ld@\\zDaMxDfCaE|Lb@Z~D_MzBxA]bAtEbDz@s@@nBt@kAM`ApA|@cDhKbCfBpDiKbAr@h@_BtThQ~UzFcCzHx@R`CyH~GfDExF~@Jn@mMzBTo@bMlARv@gMtBRm@bMhAXx@mMvBTq@zLjAXx@eM|@JVgDvDl@I|AbARs@vNjARz@cObAJH{AdMfB]nQ`@iFnGL@iFhDLEhCz@IDyBrVbAKdFv@DJgFrBUNlSt@@HgR~Nn@k@`QzKx@IfBxAyT`i@hFMjB|@Js@dOz@K`AoPlBVoAtSbAL|BsT~Gz@}@xTta@jEiB]f@yFvFz@c@jFaBE`]vEf@gCvDfAM|@_@i@Z|AdCb@p@H"
+    },
+    {
+      "name": "Brooklyn",
+      "osmId": 9691750,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 40.550339,
+        "maxLat": 40.739409,
+        "minLng": -74.056688,
+        "maxLng": -73.832945
+      },
+      "encodedPolyline": "_~}vFhe_cMfuCo}A`zCkg@`LcB~_DnTubC_{X{DsvAcLwmA}tAiuDesBc`BuiCcGy{Ah}A~Dlk@eg@tHgw@xi@uF_SkAiP_TfDwA}Oup@`KrAdPop@hKH|DkS~CxA`KsrA~QfEt_@pOb]fVh]fJrVxEdD`DdFeCrBvGdNeJxGpQpMoa@r\\i@mBaS~GgByAiN|YyHmH{X~l@{EcFgGzLuEyEgd@`~@cFgFoAjCqKvDuErIqFbBcEmJmBLgI|HqKHoFrEqY~JyJdJwAfCoCp^uB`KcJlOsQjGgHfGsPnp@kDjV^~SpPp`@|JwA~Hz@pL}DpIOpHjB~I_@zBhAx@qApQbInA|HnKzIrLtFz@uB|V~H`H\\lF|D~JlA|HeFvHJRbDsHDsLbL`Oj]zAnKvG~xAjDlIF~CvYpYp`A`i@bA`BzLdDli@peAea@bbBfqE`~B`dBzBtr@z@"
+    },
+    {
+      "name": "Queens",
+      "osmId": 9691819,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 40.492121,
+        "maxLat": 40.812135,
+        "minLng": -74.04378,
+        "maxLng": -73.700233
+      },
+      "encodedPolyline": "}tfvFrt|bMmeA}zKrgDixMyiAan@yDeFiCmO}Dk`A{d@waC{jBadHcNgjAuWmhBtTs|AjI_gAmvI{Bqe@cp@aHkWv@{k@{O~Dcg@uA}GnEe@zCoJtIwHbLeAiCkWdNxAlFmCbBV|AaAx@tLtl@mBQgC|[sTxa@?xEka@fD}Ui@qWcTwj@wpB}L}EwCqEGeHvAmCvI`GfDFy@aRqOhEaPdMgBgD{Bz@aa@oE}BqCs@wGgI{WqBk\\iKqa@wKRuFpC_RpCuPpHkIlA?eB{JK{DnCeq@iDyReGyN_C}bEdImdA|QcJsZiM{r@sHc{@agAgo@iqAlGwzDnoHexDnvD~m@`KvPnNrInU~@tNeAjYiX|nA{Ghs@TjPpBfQtNvv@hKh}BtRjmAnj@zn@hT|AlDbOx@bd@_Hdx@yApBmO`FS~I_c@b~Bf_@yOrHjPpQxQfb@~h@hXtf@fAjGu@vB}DdBkAnBi@dHGrG|EdJlMhHfEFdGgAhGoNrBd@~Tle@`LfKxdAhu@`R`P`ItNf^vTrPzGnQ`DdKuAqPq`@_@_Tr@wHjTc~@fHgGrQkGbJmOtBaKnCq^vAgCxJeJpY_KnFsEpKIfI}HlBMbElJpFcBtEsIpKwDnAkCbFfFfd@a~@tExEfG{LzEbFzX_m@xHlHhN}YfBxA`S_Hh@lBna@s\\qQqMdJyGwGeNdCsBaDeFyEeDgJsVgVi]qOc]gEu_@rrA_RyAaKjS_DI}Dnp@iKsAePtp@aKvA|O~SgDjAhPtF~Rfw@yi@dg@uH_Emk@x{Ai}AtiCbGdsBb`B|tAhuDbLvmAzDrvAtbC~zXthGxb@"
+    },
+    {
+      "name": "Bronx",
+      "osmId": 9691916,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 40.785739,
+        "maxLat": 40.91763,
+        "minLng": -73.933907,
+        "maxLng": -73.748374
+      },
+      "encodedPolyline": "qwoxF|egbMlRcw@hBcRvK}LbCuJ[eNuDqBqE_LmFcDo@eCxA{H|EgCRwClC_AhDyEbOfCjC~DaA`B`BtAbDc@fLbAlUlJtO~Kdi@vh@vx@xj@hRvKhP`Erc@tRrWdB~r@yDvl@{@rXz@rEu@nBz@hJcB|JmJhY}Pv@g^tCyFjKmHlSam@~b@c~BR_JlOaFxAqB~Gex@y@cd@mDcOiT}Aoj@{n@uRkmAiKi}BuNwv@qBgQUkPzGis@hX}nAdAkY_AuNsIoUwPoN_n@aKexAvCcuByhCudDo}@_wBtnMZp@_AjAhF\\\\eDnAY}[bbBsSnHuJkBgNfIiNrBG`ToGJ}Jp_@|DfDoDvM{OoLpAfEaBnCzGlIjD`@\\gE|@CdBrA~@pF~A|@^hF|@Dp@wDl@?n@jHfBcAhEB|CzAIrBfBf@qAbGzAGhBqBf@lBbBcBtAj@kjBhpJtsDpfA|h@tX"
+    },
+    {
+      "name": "Staten Island",
+      "osmId": 9691948,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 40.476578,
+        "maxLat": 40.651506,
+        "minLng": -74.258843,
+        "maxLng": -74.034613
+      },
+      "encodedPolyline": "_}dvFvtfdMjkAgc@~}@elDibEumb@uiLix@cgDnj@guCn}AwwCwDEbbEpThg@?peB|c@`dBqHbj@pIt~@k[zoF`B|WbXdc@`Zb]bQ|J~RnYpPWpZfInn@iHpNbHjr@zDnb@w_@xN?`}@xn@vwAbQlqAvZtTjTgLzrAf|@jcBfk@pPjdCuYb`@nq@jj@dXn|@lC"
+    }
+  ],
+  "centerLat": 40.697104,
+  "centerLng": -73.979538,
+  "radiusKm": 37.37,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

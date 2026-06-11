@@ -1,0 +1,92 @@
+{
+  "name": "Rotterdam",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "Centrum",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.9004589,
+        "maxLat": 51.926257,
+        "minLng": 4.4547376,
+        "maxLng": 4.5002388
+      },
+      "encodedPolyline": "_l|{HcaeZ`DSS_f@AoDAqBpCk@dGoA~DWvACdDJr@@|Cd@tEh@jB@rBUnBm@pC_AxBi@fAIxAEzBd@hANfAe@zD~RtChGbBxHtEmCwBuLd@eK~GqEtCeBzFeCb^oRaFu[eJo\\qBiHQ}@cCiDcBoCoBkD{ByDyB{CkDaEuBsBoB_BwBoAkJaGgIcKyVmg@iGuWq@aF_QzCuGzJqDbB}@~N{Ax`@@zCIxAo@|EeAzHc@fFaAnHiBtOUvQSFPnHBvA@ZIbH?lBCzA?V@v@R~CVjCQp@zAlNhBrPdArIJxDVnTl@rIj@hIRxB"
+    },
+    {
+      "name": "Delfshaven",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.8993034,
+        "maxLat": 51.923314,
+        "minLng": 4.4090754,
+        "maxLng": 4.4677819
+      },
+      "encodedPolyline": "iaz{Hwc|YrGmAr@MnB{AEMAIAGiAmFvIuG@?NOzC}BF@B?LBB@@?@@@?????@?@?@@@?????@@@?@@B???@@@?B@??????@@@?@@@@????@?@@@?B@|@q@PM??lAwAfE_F\\a@JIr@w@pElGjBjChE`GdIkGFEaEm_@}Bkl@R_]l@kQViIhCma@bDaZvCac@t@cTJu[I{Ae@iJoAiWgBqNc^nR{FdCuCdB_HpEe@dKvBtLuElCcByHuCiG{D_SgAd@iAO{Be@yADgAHyBh@qC~@oBl@sBTkBAuEi@}Ce@s@AeDKwAB_EVeGnAqCj@@pB@nDR~e@D`X`Bjj@h@zObAlX~EjxANxDNdF^jM@zDCvAl@?F???bAAVAXFRDb@JpAVtBd@jCh@x@PPBtH~ACZB@jCh@vBd@ZFAR?LSfHD?l@D@@@?`@Bd@DF@?RAtB?B?@???@?@???@??@@?@?@??@@?@?@@??@@@??@@XT@@@?B@?@B?@@@???B@j@HB@RH?@?@?@?B?@@B?@?@@@?@?@??@@?@@@@@@@@@@@@@?@@B@@@B@B@B@@?B@BJb@XdAjDnMDN"
+    },
+    {
+      "name": "Noord",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.9221188,
+        "maxLat": 51.9428088,
+        "minLng": 4.432373,
+        "maxLng": 4.4899971
+      },
+      "encodedPolyline": "iy|{Hiu`Z`Xu\\cAmXi@{OaBkj@EaXaDRSyBk@iIm@sIWoTKyDeAsIiBsP{AmNPq@WkCS_DAw@?WB{A?mBHcHA[CwAQoHRGTwQhBuO`AoHb@gFqD_@m@CqAt@iBhBcCg@sBa@iFoEwAAqBIeAWcHoDwCaCmAoB_@aAuAuD}BaBKGoAFk@d@}@fIy@xBuBh@kD~@gAhAeBxB_Bz@qBLqAs@uBkCmAFiATuAsAcGrFhCl]zJjrAhDzi@lAvPT~BXnBf@jCl@fCl@nBnAfDfAvBp@fAnA~A~@~@~@x@|@n@bAh@lAdPx@`I~A~HrBeBnBfE`Op[fDhHbUzf@"
+    },
+    {
+      "name": "Kralingen-Crooswijk",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.9001605,
+        "maxLat": 51.9488456,
+        "minLng": 4.4845518,
+        "maxLng": 4.5430082
+      },
+      "encodedPolyline": "qi|{HsimZ}@~N{Ax`@@zCIxAo@|EeAzHqD_@m@CqAt@iBhBcCg@sBa@iFoEwAAqBIeAWcHoDwCaCmAoB_@aAuAuD}BaBKGoAFk@d@}@fIy@xBuBh@kD~@gAhAeBxB_Bz@qBLqAs@uBkCmAFiATuAsAcGrFmZsfEcBiUaC_`@I_COoCWwEOuBa@qF`RgGrKaD|g@sOtWqIpGkBzGgB|E_ArCU~ACtDLfC^`Dt@pDpAdGtCzGtDpEhCvAn@bC|@tAZxATnBPtBBbCKhAEjAQd@Ij@Ot@Qd@Q`C{@vC{AhNyHdp@qb@jOn`AhFh\\]xU{@vE}B|LkNpQoL`EqSlBoD\\sK~CgCbAkFtEsDjG}AhC{EnM{F`ScCnOo@lLP~G_QzCuGzJqDbB"
+    },
+    {
+      "name": "Feijenoord",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.8775313,
+        "maxLat": 51.9185411,
+        "minLng": 4.4677819,
+        "maxLng": 4.5257195
+      },
+      "encodedPolyline": "{xw{HsrgZvKuIlAwDxPkc@oTstBD{C~ARtB~@f@LpDbBfKxDXJR@dA?nHMlM[z@Az@ATFNLdDfGtFf@~JvAl@p@z@mC`BqFp@uCb@_CfBmJZmA~@qCh@oA`GgJjBqC`B_CdF_IpAmB|AwCz@iB|AeEyGyOiDoFoGiHiA}ByCgGOm@KcAWiG@qBK_EcCW_Bg\\Gs@mH{BaBKmCHwAkSy@t@yXjSyBxAqYnT_b@r`@yJe^oL`EqSlBoD\\sK~CgCbAkFtEsDjG}AhC{EnM{F`ScCnOo@lLP~Gp@`FhGtWxVlg@fIbKjJ`GvBnAnB~AtBrBjD`ExBzCzBxDnBjDbBnCbChDP|@pBhHdJn\\`Ft["
+    },
+    {
+      "name": "Charlois",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 51.8616672,
+        "maxLat": 51.9023502,
+        "minLng": 4.3964123,
+        "maxLng": 4.5152848
+      },
+      "encodedPolyline": "gcw{HqtyYf}B_hBpKqDfRnFA_@C_B?_@SyBAEGy@@CZeAeByBKK??KOCCII?SA]?I?aA?cB@o@BuAHiBJoANsBLuATqC^sDJkATeCf@aFh@kF`@aDPkBV}BNwAHy@RmARw@FMRi@N]?AN]b@eAVo@P]tAeD?ALYMy@[eB?Ee@gCXmBd@eDt@oFTkAjBmJbA_EBJZfA@B@A??h@gBV_ARo@@MpAeDfCqE??@CDG??JQ@AxAkCBEBC@Ck@kCCGIi@AAE[CSImBAkC?EAgDH{B@MFu@b@kFdDgWl@sE\\oCt@_GBM???GhCqPpAuIxB{NRsADYl@qE^sDPuBRgCNuBDw@EWAIVeFPaDHqBBy@BcCNiL@iDEsCGcD]yDI}@KiO?Iw@sOIsAC?y@Bu@@I@g@@A?C?OBA???C???K@G?G@I?I@E?A?G?E?A???A???G?????A?G?G?I@e@?A?A?A?a@DK?I@K@A???K?K@??M?I?C?K@K?M?I?E?I?G@A?C?EBMH?@A?IHCDCB?D?NAm@?K?[?Q?C?U@_@CAAEA??IAS?E??ACCQAGACCOCOCa@?C?CAi@??AKSmAEYSaA??EQAQAACQE_@YaBEYCIESCKCKCICMACCSACAII_@EWCGGYAC??@CAGCAc@gBKa@Ia@????BCCGCBGSCEOk@GSIYIYAE?CAGIUEMGQCE?EAGA?A?EOAEAGIa@C[?GAW?M?AC]CQEi@?GAWAWCg@AOCUAMMe@Ic@?CA@CCCECIWcAKm@BCAGC@SeAIe@I_@Kg@?EAISaAMg@W{@GYEOEYAIEQC_@CUAUCS?AG]EUAG?GEMEM?CEOK[YeAG_@EQAAAGAA?AAC?A?I?Y?K?W?a@?M?W?K?M?uBG@A??cC@?FB?SAaLAmK???eA?y@AmB?g@?aA?G?K?eI?yDAuF?A?_F?Y?gF?sA?]?Y?_BAgC?Y?oG?_D?Y?WA_IAuD?GeEVoBX{A`@kAd@aAh@mAv@sAfA{CbDc@d@}HjIi@|@kAxCkJjX}AdE{@hB}AvCqAlBeF~HaB~BkBpCaGfJi@nA_ApC[lAgBlJc@~Bq@tCaBpF{@lCm@q@_KwAuFg@eDgGOMUG{@@{@@mMZoHLeA?SAYKgKyDqDcBg@MuB_A_BSEzCnTrtByPjc@mAvDwKtIfBpNnAhWd@hJHzAKt[u@bTwC`c@cD`ZiCla@WhIm@jQS~\\|Bjl@`El_@?D??~BvPp@`FjApIBJF`@zFhb@jCdQFf@NnAPbBDd@HbAPtBNvB"
+    }
+  ],
+  "centerLat": 51.905256,
+  "centerLng": 4.46971,
+  "radiusKm": 7.68,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

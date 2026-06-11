@@ -1,0 +1,79 @@
+{
+  "name": "Oslo",
+  "countryCode": "NO",
+  "centerLat": 59.9139,
+  "centerLng": 10.7522,
+  "radiusKm": 16.0,
+  "regions": [
+    {
+      "name": "Oslo Sentrum",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "g}vlJou}`At`@yJ|GaNtDrLxQg^pPvF~OqXjK`uAvDdDpD~SnCqDjEnIpGtv@pBWfBlw@cEj}@tBrh@dFjKzLdHfKtChHyCz@jGuPtO|Epi@~W}MvU~x@`_A~cB|EbhFco@`nDezAg}GqMuEcJwxBej@wHyOwQiDfUpDhJwBzGaCcL{BfIoHsL[`_@mIaBcSc]|HgV~GmBgPySzTw^~KaEfImZgC{WaOik@oRb`@yAdV}HuRoz@|Lm|@_GkQ|J{DWvAsDeNmt@jBwMpBFuB}Iz@mRkGm@gFsd@tF_f@n_Aa^cEsM`a@q}ArQ{b@^nVpIw@fRs[",
+      "boundingBox": {
+        "minLat": 59.875928,
+        "maxLat": 59.94813,
+        "minLng": 10.660953,
+        "maxLng": 10.816768
+      }
+    },
+    {
+      "name": "Oslo Vest",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "ocylJgsk`AjSsp@vYqd@vMcO`ZeJ`FiPnP`S_HlB}HfVlT`^`IbAAa_@nHrLzBgI`CbLvB{GqDiJhDgUxOvQdj@vHbJvxBpMtElBxHvvAlsG{C|Pg{Cl_AcGv_@uSnNwCpXpCrDmAtIeIdBoGuGsCbWaJpDiIk@mDrVuBlAoGwAyCkH}JvK_FeK{GtDaMyb@mWoRmP~UeCDuRiJaCfAoMkPoNj@{VjHwAnEwBaEmC`@y@lJmI~EoDPsEiDwFxIsFhBkBbGgGlBmE`XoLmDmHnWuMfGj@alAwFsZaChArDoPyCpAkEmK`HuDcHgS}_@o@aGkCqAyGcPkF_AyDyVcSrBwQnOtAe@g[bJc_@xFsKtIgCYkEfa@oe@vHxF|@dIfNpE{Gtf@hApBvNeAEbCnN`EhByKmDuNjK~Fy@eJ|EaBQgGuEyGdGacBuFeOaD|AbAgNqRyGn@mKlUqRu@uKrCIH|CpDw@{Ae@rB_PeMuXcCs_@|H~DfHmI`IpHfImCnBcDyFkPlCuGvOrIbA_FrFl@`UrQpJsDdGxGvAgd@`_@|QjCiPn[pQ",
+      "boundingBox": {
+        "minLat": 59.883627,
+        "maxLat": 59.985098,
+        "minLng": 10.619198,
+        "maxLng": 10.735367
+      }
+    },
+    {
+      "name": "Oslo Nord",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "ep{lJue}`AiGoq@{IqIxA{E{X|DsSy@{NwCGmBn_@iSbF_[eAwAhHTxA`DhBoRpC}AAsU|DcAe@oDbNnInNgDr@eDuGoz@wBq@kA~GmJaLsHod@lA}b@vHiFsGuNuBiTbGqHnL|@nEsFlI`D|MnUjMxBtIvnAhFbXbKpU~_@jWxZ_B`K|BvCzr@qAdaAhCtk@wIlEiQpZqIv@_@oVsQzb@aa@p}AbErMky@vYcEhC_ExPu@dThEhb@hHvB{@lRtB|IqBGkBvMdNlt@wArDzDV|OeJwArRdE|@sD|R}BsBmFtS`Ypv@vDfC}@bEzJva@_DfJz@nWdJ`TqA`Gs[_RkChPa_@}QwAfd@eGyGgMxCgBgFkA|AwLoLsFm@cA~EgOqIcBbA_Scb@kIyCaa@EiDsReDyBDiPmFwFYkHqGyAlGqGtViF]aJjEcHKoLhDOr@cH@oNcS}Kh@uMzJeAt@}LyAyBjHeLcDuOu@aa@tCqNqHyG?oF{Gb@oHw^oC_z@pFge@g@iE_EzAEoQ~IfAkCwDR_MaKkBdC_OdH}NXpGpAsFJhEnBy@PaEpIjG`RXdBqIbMlEhOPpPq@|AqDrCf@g@vF|F`C|D{MbOkLsAsKpJkB",
+      "boundingBox": {
+        "minLat": 59.922634,
+        "maxLat": 59.972271,
+        "minLng": 10.711546,
+        "maxLng": 10.863164
+      }
+    },
+    {
+      "name": "Oslo Øst",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "a}ylJyewaAj\\js@dOdJlRlU|Ath@wElXmI~MkOfFwFzUzAjXsC|A|Ujv@aBzBrHvCpDrUvJV`AjY`LkAxQtBCrJ~JlAbArOwBzBLtH_F|EjAtX~F|@zAbXvHdGjDlOpB_Ct@vBlHYhBjJta@e]kCvPxFdd@aK~[kHzAdExZkOlT`CvUdJhStB~Po@nWeHjS|PdYbHnb@_PpXqPwFyQf^uDsL}G`N{VlEiCuk@pAeaAwC{r@aK}Bm\\lAsRiKeOyP_Nkh@uIwnAkMyBoR{X{Du@oErFoL}@cGpHtBhTrGtNwHhF_A~e@qUqAgDlHsBQqBcB]}JhEqn@w@qFgIdD`AcPaCi@k@aHoA^~@{GqBl@w@aGwHBwBtFgFn@sB_HmDvA}BxMkFmBgAxFiDn@nAaHoEcLQmU_OiAbEmG{N_b@sAzDrA`QwEzNwXeJYg_@fWyEtBrJrBiBn@mGpGgCe@qEiFeBoCtCiBi@a@eJlFkBr@vBxH}IlClCjE{O|C@lA}FxKOpFoIrC|AlFiUaEcEePvBeS}FUlGuCy@|@iJqM}o@TyRqGaY{M{LuGsAsFiK@iBnDd@lBtCrFcCj@qIkImDSgJwCmE{E{@yCzC|AkEeBc@qUpIoC{@mBoH`D_p@p_@yShRoWt`@wZd[sCvN`FdGiDdD~@pQ{OxTgFfAgDrFwAr@aCaCuE|BuHzSka@pFlVjEpDYpG_CjArC~MvDqAbCrChMgVv@~HlGrFpK~b@",
+      "boundingBox": {
+        "minLat": 59.907933,
+        "maxLat": 59.984525,
+        "minLng": 10.80766,
+        "maxLng": 10.951389
+      }
+    },
+    {
+      "name": "Oslo Sør",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "encodedPolyline": "syjlJyedaAx@_TwCwEmBgUtG~GvHnB`a@_AxTbDdBcCjYoBd@oHnW_@OpEdZ{AbOjK|G{E~AkEmGai@jK|H\\aGsDyKzAmSsDm]nBaJaB}VlBi@xAzC`I_FrN_@L}O|GeElCxTnPs@tDiRvPcDxLyf@{Ck\\xFkWpIpKtHha@tJ`DpHvKiFlGoEdw@pDvg@zQxi@{BxTmKr]kPpIsLx@fDbr@wDzIiFdtBcOjJkMbAuMnOhA|k@pKri@yAvx@mFdb@{FrOgAfT~LtV`BrL_IvCuZnd@cE|Rwu@zlB{kFhpAZt\\a_A_dBwU_y@_X|M}Eqi@tPuO{@kGiHxCgKuC{LeHeFkKuBsh@bEk}@gBmw@qBVqGuv@kEoIoCpDqD_TwDeDwPwnBuT_c@dHkSn@oWuB_QeJiSaCwUjOmTeEyZjH{AzEoRfJ}IpB|DvHa@KfUnMmFLdD|WaHVnFzAF@}FhEcCd@qFlE@tBmDpJJ~AyEp@|AtOHnGiCxAnHVwCrEc@H_DrEc@`OpQ~EqFhJ_Bv@tArXCDvi@bC|DdHjCzEeAbBoB]cQfAlEbIdDdJzMk@pIfHhIhGvDnSYrDfGXfN",
+      "boundingBox": {
+        "minLat": 59.809311,
+        "maxLat": 59.913579,
+        "minLng": 10.726258,
+        "maxLng": 10.890359
+      }
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "The Hague",
+  "countryCode": "NL",
+  "regions": [
+    {
+      "name": "Centrum",
+      "osmId": 13751594,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0566024,
+        "maxLat": 52.0987968,
+        "minLng": 4.2842863,
+        "maxLng": 4.3342911
+      },
+      "encodedPolyline": "y`y|HywcYhfAkt@tOscA@iE_CgIuEkGR{GmJcCeL}FwPuPsEsHp@_B}Y}{@iD~CcXky@}GvYoQn[}A}GcJlLsB}FmFdEhKv\\wYp\\yaA`v@mAfKsKn]rAh@fXeCjJl[|KjFpCxDlHwJ@jFvF~J~Dd@jHeFjPpb@v\\}g@bRqM|Gtg@zHt]f@pD"
+    },
+    {
+      "name": "Escamp",
+      "osmId": 13751736,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0148485,
+        "maxLat": 52.0706887,
+        "minLng": 4.2350148,
+        "maxLng": 4.3100245
+      },
+      "encodedPolyline": "s|r|HyczX`}@gu@~CiGzS_SsRyi@RaFa^mcAAuBuOw]fZgS{DiKt^_Wg@yExDeCoCcJzD}Bh@dDfAwBx@dBrJmRzCnHrUqn@tIv[Xo@tOqa@uKkReEmNrG{HkIc^keAt{@qAiCmhA|n@aEgQgBrAiE{XcBbAwAiHmBhAaHk^fByAwKy^l@k@gAmDaJ`DoNvBuMBmQ}BSzGfHvKj@dKuOrcAifAjt@vKrr@vI|`@lYndAfCoFViFpAA~P{Np[bn@~Nc]z[~j@`C_Ejf@z{@mMvg@jFnLzIpL"
+    },
+    {
+      "name": "Haagse Hout",
+      "osmId": 13751489,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0749817,
+        "maxLat": 52.1093087,
+        "minLng": 4.3063131,
+        "maxLng": 4.3735145
+      },
+      "encodedPolyline": "ec~|HmahYzTeStm@kd@vYq\\iKw\\lFeErB|FbJmL|A|GnQo[|GwYCwDuIcWZ}@}EiPeHySuAn@uByH`@_Aw@@cjA}cDqHvK{DwFcH`M`@lA{Wd^eXrXqIpNl\\vs@hUho@kD~DtDlPkGfGhCxFtNdt@yUhY{Vcw@cGbKuGcPkUpY~H|e@zExBl\\h~@~CtDjDl@tFnIbAsB~IfOn@hC"
+    },
+    {
+      "name": "Laak",
+      "osmId": 13751465,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0486621,
+        "maxLat": 52.0751696,
+        "minLng": 4.3085405,
+        "maxLng": 4.3555187
+      },
+      "encodedPolyline": "_|u|HkohYbTsAvNsEcH{QmEsZ{JyZs@l@oA}AuD|CwEcQjAsAMkCsEaM{@f@k@aApA}D}`@ghAjDaJej@grAi^bzAwAfA\\dBmJl`@hY`|@hD_D|Y|{@q@~ArErHvKlLbK|GbQrFxPtBjCH"
+    },
+    {
+      "name": "Leidschenveen-Ypenburg",
+      "osmId": 13751466,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.026546,
+        "maxLat": 52.0778453,
+        "minLng": 4.3403069,
+        "maxLng": 4.4224897
+      },
+      "encodedPolyline": "ejw|H}unYnNwVnO}PnE^zIjM|]wq@~@~AzB]xDnP`APj@|DfF|HjHbDxA{C`AOdAhBjTcX|u@aTn@qE~NkQtDb@gA{FzCwDyd@ytAtc@_f@ue@mwAyb@hg@\\dG|Ndf@s^bl@o~@k~ApFcJgJ_Je@|@oFcH|@iBqFgGtPuXoMeRlBsSfGejBk`@vi@uA_@p@kk@g^tLmAiBoDZyPbUac@n_@ac@dq@jR`j@oEbOrPfc@kSlXhHr[~_AdlBhPvg@jRc]t@xFt@mAz@hBr@kAv@~GfDlE{@k@mNvUdAxBoCnE`QvYwQxSqNnYFV"
+    },
+    {
+      "name": "Loosduinen",
+      "osmId": 13751735,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0307117,
+        "maxLat": 52.0794517,
+        "minLng": 4.1955833,
+        "maxLng": 4.2644032
+      },
+      "encodedPolyline": "kev|HkmrXjAuCj]iTbDpDrHyGlGaKvpA__AjAxPjQ}OuEiHgKaa@cC_Xo@{^_g@iv@kFoLlMwg@kf@{{@aC~D{[_k@_Ob]q[cn@_QzNqA@q@pHmFjKwJdq@mM~XmIeZiJlLgLgXcCm@aEp@oInJhX~}@cVlRwIn]gIxSdqCtpE"
+    },
+    {
+      "name": "Scheveningen",
+      "osmId": 13751467,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0786926,
+        "maxLat": 52.129369,
+        "minLng": 4.2414554,
+        "maxLng": 4.3288067
+      },
+      "encodedPolyline": "eo||Hcl{XxAwy@|@}ItHkSaCcBw^gt@z^qi@dXmX`B_FlCtAxF^jHkDgIe\\mD}\\sSmi@kHdF_Ee@wF_KAkFmHvJqCyD}KkFkJm[gXdCsAi@rKo]TwHo@iC_JgOcArBuFoIkDm@_DuDm\\i~@{EyB_I}e@k|BljDpdAdyBH~S|Ku@flAvyBoCbPn@xZzPyDdGmHj]zYzi@tt@"
+    },
+    {
+      "name": "Segbroek",
+      "osmId": 13751488,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.0627015,
+        "maxLat": 52.0917659,
+        "minLng": 4.2291346,
+        "maxLng": 4.2966043
+      },
+      "encodedPolyline": "qwz|Ha_yXfIySvIo]bVmRiX_~@nIoJ`Eq@bCl@fLfXhJmLlIdZlM_YvJeq@~BcFgRin@}Pcw@_Mex@{Hu]}Gug@cRpMw\\|g@|B`HdDf\\xHtZkHjDyF_@mCuAaB~EeXlX{^pi@v^ft@`CbBuHjS}@|IyAvy@hNfRhg@xx@"
+    }
+  ],
+  "centerLat": 52.072109,
+  "centerLng": 4.309036,
+  "radiusKm": 11.03,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

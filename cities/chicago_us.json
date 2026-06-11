@@ -1,0 +1,66 @@
+{
+  "name": "Chicago",
+  "countryCode": "US",
+  "regions": [
+    {
+      "name": "Downtown",
+      "osmId": 9833255,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.8673,
+        "maxLat": 41.8906361,
+        "minLng": -87.6382474,
+        "maxLng": -87.6024757
+      },
+      "encodedPolyline": "e`s~F`z{uO|N[zNiChLuGll@eGm@aaBsCkCGoQuBlD{gAr@AwCiDB@vCeC[}C}PeBwBgC]CgP{QIOy@gD]_A}j@ArOy@yAOfBNnM_Dp@^|ToGf@j@rs@|@?Y_l@dFa@b@vEbBEJjXkBlj@hGxRH|o@|EnL~WtAxBJ"
+    },
+    {
+      "name": "North Side",
+      "osmId": 9709361,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.8863953,
+        "maxLat": 41.9112802,
+        "minLng": -87.6591846,
+        "maxLng": -87.5985431
+      },
+      "encodedPolyline": "ujx~Fz|_vOC{IbDjAhTnAnDeAzGqGrGwB~C_J|@_L`KyQxB}YlDkBzNY~NcQfLuHhN{DtBwD}EoLI}o@iGyRjBmj@KkXcBDc@wEeF`@X~k@}@?k@ss@nGg@@cJ}IJKev@cA]EyKeDD_@pLh@vw@wDDWum@aRJVdo@~MnHj@|M}m@h_@{AdCsA`JyEzBmEbGg\\fHwGJ}E{AdBzgEvAAfBjLrCn@"
+    },
+    {
+      "name": "South Side",
+      "osmId": 9877655,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.8450992,
+        "maxLat": 41.8685094,
+        "minLng": -87.635196,
+        "maxLng": -87.6056551
+      },
+      "encodedPolyline": "yin~F~f{uOG_^r]c@AqCvl@]a@_gAPyEjBqB]yk@mEkAqKvEiOw@kIlFwBwIg@sLqg@lBk@cFgKJ_BpDsInAuDgB~@oCoD@iDqAgBpAe@tCjAzDT|]eFy@yBzEn@`]rCjCl@`aBvp@o@jFfCtAF"
+    },
+    {
+      "name": "West Side",
+      "osmId": 10099127,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.8576685,
+        "maxLat": 41.8890736,
+        "minLng": -87.6922722,
+        "maxLng": -87.6344821
+      },
+      "encodedPolyline": "qps~FtkfvOrSSA_CtpAoA`IkCdQ_LxMs@@n@hJKGeNtDCoEofAeBa|EtMOKiVaIoCe~@bB__@pEiLtG{NhC}NZy[aBuBvD_LdDBd]dBCFdRgBf@AbNnA|cF`AA~AzQxBtFrE|BtI@DvB?\\"
+    }
+  ],
+  "centerLat": 41.87819,
+  "centerLng": -87.645408,
+  "radiusKm": 5.88,
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

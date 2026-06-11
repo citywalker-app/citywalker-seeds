@@ -1,0 +1,79 @@
+{
+  "name": "Wrocław",
+  "countryCode": "PL",
+  "centerLat": 51.1079,
+  "centerLng": 17.0385,
+  "radiusKm": 18.0,
+  "regions": [
+    {
+      "name": "Stare Miasto",
+      "osmId": 2341619,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 51.083,
+        "maxLat": 51.1343,
+        "minLng": 16.9843,
+        "maxLng": 17.0721
+      }
+    },
+    {
+      "name": "Krzyki",
+      "osmId": 2319809,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 51.0427,
+        "maxLat": 51.102,
+        "minLng": 16.928,
+        "maxLng": 17.0942
+      }
+    },
+    {
+      "name": "Fabryczna",
+      "osmId": 2321749,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 51.0797,
+        "maxLat": 51.2101,
+        "minLng": 16.8073,
+        "maxLng": 17.003
+      }
+    },
+    {
+      "name": "Psie Pole",
+      "osmId": 2336796,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 51.1231,
+        "maxLat": 51.2094,
+        "minLng": 16.9181,
+        "maxLng": 17.1586
+      }
+    },
+    {
+      "name": "Wschód",
+      "osmId": 2336763,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "encodedPolyline": null,
+      "boundingBox": {
+        "minLat": 51.0452,
+        "maxLat": 51.202,
+        "minLng": 16.9181,
+        "maxLng": 17.1762
+      }
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
