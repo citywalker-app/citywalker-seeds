@@ -161,7 +161,7 @@
   ],
   "source": {
     "method": "shapefile",
-    "license": "unknown",
-    "attribution": "Stadt Ingolstadt Open Data (Bezirke_Polygon.shp)"
+    "license": "CC-BY-3.0-DE",
+    "attribution": "Stadt Ingolstadt Open Data"
   }
 }

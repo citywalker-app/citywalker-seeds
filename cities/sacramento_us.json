@@ -201,7 +201,7 @@
   "source": {
     "method": "geojson",
     "url": "https://services5.arcgis.com/54falWtcpty3V47Z/arcgis/rest/services/Neighborhoods/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson&outSR=4326",
-    "license": "unknown",
-    "attribution": "City of Sacramento Open Data"
+    "license": "public-domain-assumed",
+    "attribution": "City of Sacramento GIS"
   }
 }
