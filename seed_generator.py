@@ -3,9 +3,10 @@
 seed_generator.py — generate CityWalker region seeds for any city.
 
 Queries Nominatim for the city relation, fetches child admin districts from
-Overpass, clusters them if there are too many, and appends the result to
-region_seeds.json. Always writes an HTML preview you can open in a browser
-to verify the polygons before committing.
+Overpass, clusters them if there are too many, and writes the result to
+cities/<slug>.json, then rebuilds region_seeds.json via build.py. Always
+writes an HTML preview you can open in a browser to verify the polygons
+before committing.
 
 Usage:
   python3 seed_generator.py "Mainz" DE
@@ -26,8 +27,11 @@ import json
 import math
 import os
 import random
+import re
+import subprocess
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -39,18 +43,29 @@ try:
 except ImportError:
     HAS_SHAPELY = False
 
-SEEDS_PATH   = Path(__file__).parent / "region_seeds.json"
-PREVIEW_DIR  = Path(__file__).parent / "previews"
-CACHE_DIR    = Path(__file__).parent / ".cache"
+ROOT         = Path(__file__).parent
+CITIES_DIR   = ROOT / "cities"
+VERSION_PATH = ROOT / "VERSION"
+PREVIEW_DIR  = ROOT / "previews"
+CACHE_DIR    = ROOT / ".cache"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 NOMINATIM    = "https://nominatim.openstreetmap.org"
+
+# NFKD strips most diacritics; these letters don't decompose.
+_TRANSLIT = str.maketrans({"ł": "l", "Ł": "l", "ø": "o", "Ø": "o",
+                           "đ": "d", "Đ": "d", "ß": "ss"})
+
+def slugify(city, country):
+    s = city.translate(_TRANSLIT)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-z0-9-]+", "_", s.lower()).strip("_")
+    return f"{s}_{country.lower()}"
 
 
 # ── Download cache (resume support) ─────────────────────────────────────────
 
 def _cache_path(city, country):
-    slug = city.lower().replace(" ", "_")
-    return CACHE_DIR / f"{slug}_{country.lower()}.json"
+    return CACHE_DIR / f"{slugify(city, country)}.json"
 
 def load_cache(city, country):
     path = _cache_path(city, country)
@@ -423,8 +438,7 @@ COLORS = [
 
 def write_preview(city_name, country_code, regions, original_count):
     PREVIEW_DIR.mkdir(exist_ok=True)
-    slug = city_name.lower().replace(" ", "_")
-    path = PREVIEW_DIR / f"{slug}_{country_code.lower()}.html"
+    path = PREVIEW_DIR / f"{slugify(city_name, country_code)}.html"
 
     features = []
     for i, r in enumerate(regions):
@@ -559,8 +573,13 @@ def main():
                         help="UTM zone for Shapefile reprojection (default: 32)")
     parser.add_argument("--name-field", default="NAME",
                         help="GeoJSON/Shapefile property for district name (default: NAME)")
+    parser.add_argument("--source-license", default=None,
+                        help="License of the source data, e.g. 'CC0-1.0' or 'DL-DE/BY-2-0' "
+                             "(required info for GeoJSON/Shapefile sources; OSM defaults to ODbL-1.0)")
+    parser.add_argument("--source-attribution", default=None,
+                        help="Attribution line for the source, e.g. 'City of Sacramento Open Data'")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Generate preview only; don't write region_seeds.json")
+                        help="Generate preview only; don't write any seed files")
     args = parser.parse_args()
 
     print(f"\n🔍  {args.city}, {args.country.upper()}")
@@ -691,10 +710,28 @@ def main():
             "encodedPolyline": encode_polyline(pts),
         })
 
+    if args.geojson_url:
+        method = "geojson"
+    elif args.shapefile:
+        method = "shapefile"
+    else:
+        method = "osm"
+
+    source = {"method": method}
+    if args.geojson_url:
+        source["url"] = args.geojson_url
+    if method == "osm":
+        source["license"]     = args.source_license or "ODbL-1.0"
+        source["attribution"] = args.source_attribution or "© OpenStreetMap contributors"
+    else:
+        source["license"]     = args.source_license or "unknown"
+        source["attribution"] = args.source_attribution or "unknown"
+
     city_entry = {
         "name":        args.city,
         "countryCode": args.country.upper(),
         "regions":     seed_regions,
+        "source":      source,
     }
 
     # ── 6. Preview ────────────────────────────────────────────────────────
@@ -706,28 +743,24 @@ def main():
         print(f"\n✅  Dry run — {len(seed_regions)} regions, no files written.\n")
         return
 
-    # ── 7. Update region_seeds.json ───────────────────────────────────────
-    with open(SEEDS_PATH) as f:
-        seeds = json.load(f)
+    # ── 7. Write cities/<slug>.json, bump VERSION, rebuild ───────────────
+    CITIES_DIR.mkdir(exist_ok=True)
+    city_path = CITIES_DIR / f"{slugify(args.city, args.country)}.json"
+    if city_path.exists():
+        print(f"\n📝  Replacing existing {city_path.name}…")
+    city_path.write_text(json.dumps(city_entry, indent=2, ensure_ascii=False) + "\n")
 
-    existing_idx = next(
-        (i for i, c in enumerate(seeds["cities"]) if c["name"] == args.city), None
-    )
-    if existing_idx is not None:
-        print(f"\n📝  Replacing existing entry for {args.city}…")
-        seeds["cities"][existing_idx] = city_entry
-    else:
-        seeds["cities"].append(city_entry)
+    version = int(VERSION_PATH.read_text().strip()) + 1
+    VERSION_PATH.write_text(f"{version}\n")
 
-    seeds["version"] += 1
-
-    with open(SEEDS_PATH, "w") as f:
-        json.dump(seeds, f, indent=2, ensure_ascii=False)
+    subprocess.run([sys.executable, str(ROOT / "build.py")], check=True)
 
     if not args.geojson_url and not args.shapefile:
         clear_cache(args.city, args.country)
-    print(f"\n✅  v{seeds['version']} — {len(seeds['cities'])} cities  "
-          f"({len(seed_regions)} regions for {args.city})\n")
+    if source["license"] == "unknown" or source["attribution"] == "unknown":
+        print(f"⚠️   Fill in source license/attribution in {city_path.name} "
+              f"(or pass --source-license / --source-attribution)")
+    print(f"✅  {city_path.name} — {len(seed_regions)} regions, catalog v{version}\n")
 
 if __name__ == "__main__":
     main()
