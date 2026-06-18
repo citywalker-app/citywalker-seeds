@@ -302,12 +302,14 @@ def _union_polygons(districts):
 
 # ── Shapefile source (UTM → WGS84) ──────────────────────────────────────────
 
-def _utm_to_latlon(easting, northing, zone=32):
+def _utm_to_latlon(easting, northing, zone=32, southern=False):
     import math
     k0 = 0.9996; a = 6378137.0; e2 = 0.00669438
     e_p2 = e2 / (1 - e2); e4 = e2**2; e6 = e2**3
     x = easting - 500000
-    y = northing
+    # Southern-hemisphere UTM uses a false northing of 10,000,000 m so that
+    # northing values stay positive. Subtract it back out before the maths.
+    y = northing - 10_000_000 if southern else northing
     m = y / k0
     mu = m / (a * (1 - e2/4 - 3*e4/64 - 5*e6/256))
     e1 = (1 - math.sqrt(1-e2)) / (1 + math.sqrt(1-e2))
@@ -328,7 +330,7 @@ def _utm_to_latlon(easting, northing, zone=32):
                      + (5-2*C1+28*T1-3*C1**2+8*e_p2+24*T1**2)*D**5/120) / math.cos(phi1)
     return math.degrees(lat), math.degrees(lon)
 
-def districts_from_shapefile(path, name_field="NAME", utm_zone=32):
+def districts_from_shapefile(path, name_field="NAME", utm_zone=32, utm_south=False):
     """
     Read a Shapefile (UTM Zone utm_zone) and return a list of
     {"name": str, "points": [(lat, lng), ...]} dicts.
@@ -345,7 +347,7 @@ def districts_from_shapefile(path, name_field="NAME", utm_zone=32):
     for sr in sf.shapeRecords():
         rec  = dict(zip(fields, sr.record))
         name = rec.get(name_field) or "Unknown"
-        pts  = [_utm_to_latlon(e, n, utm_zone) for e, n in sr.shape.points]
+        pts  = [_utm_to_latlon(e, n, utm_zone, utm_south) for e, n in sr.shape.points]
         if len(pts) >= 3:
             districts.append({"name": name, "points": pts})
     print(f"  {len(districts)} districts loaded from Shapefile")
@@ -571,6 +573,8 @@ def main():
                         help="Local .shp file path — skips Overpass entirely")
     parser.add_argument("--utm-zone", type=int, default=32,
                         help="UTM zone for Shapefile reprojection (default: 32)")
+    parser.add_argument("--utm-south", action="store_true",
+                        help="Source Shapefile is southern-hemisphere UTM (false_northing 10,000,000)")
     parser.add_argument("--name-field", default="NAME",
                         help="GeoJSON/Shapefile property for district name (default: NAME)")
     parser.add_argument("--source-license", default=None,
@@ -596,7 +600,7 @@ def main():
     elif args.shapefile:
         # ── Shapefile path: local file, no Overpass, no cache needed ─────
         print(f"\n📂  Loading districts from Shapefile…")
-        fetched = districts_from_shapefile(args.shapefile, args.name_field, args.utm_zone)
+        fetched = districts_from_shapefile(args.shapefile, args.name_field, args.utm_zone, args.utm_south)
         if not fetched:
             print("❌  No districts found in Shapefile.")
             sys.exit(1)
