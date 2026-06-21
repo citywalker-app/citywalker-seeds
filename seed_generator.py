@@ -96,9 +96,18 @@ def clear_cache(city, country):
 
 # ── HTTP helpers ────────────────────────────────────────────────────────────
 
+_USER_AGENT = (
+    "Mozilla/5.0 (compatible; CityWalker-seeds/1.0; "
+    "+https://github.com/citywalker-app/citywalker-seeds)"
+)
+
 def _get(url, headers=None):
     req = urllib.request.Request(url, headers={
-        "User-Agent": "CityWalker-seed-generator", **(headers or {})
+        "User-Agent": _USER_AGENT,
+        # urllib sends no Accept header by default — some open-data portals
+        # (data.boston.gov via S3 presigned redirect) reject that as a bot signal.
+        "Accept": "application/json, application/geo+json, */*",
+        **(headers or {})
     })
     with urllib.request.urlopen(req, timeout=15) as r:
         return json.loads(r.read())
@@ -107,7 +116,7 @@ def _post(url, body, retries=3, pause=15):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, data=body.encode(), method="POST", headers={
-                "User-Agent": "CityWalker-seed-generator",
+                "User-Agent": _USER_AGENT,
                 "Content-Type": "text/plain",
             })
             with urllib.request.urlopen(req, timeout=45) as r:
