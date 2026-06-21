@@ -116,7 +116,9 @@ def _post(url, body, retries=3, pause=15):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, data=body.encode(), method="POST", headers={
-                "User-Agent": _USER_AGENT,
+                # Overpass-API 406's on the Mozilla-style UA used by _get for
+                # open-data portals — use the simple tool name for Overpass POSTs.
+                "User-Agent": "CityWalker-seeds/1.0",
                 "Content-Type": "text/plain",
             })
             with urllib.request.urlopen(req, timeout=45) as r:
@@ -638,9 +640,19 @@ def main():
             if not raw_districts:
                 print("❌  No districts found. Try --admin-level to specify manually.")
                 sys.exit(1)
+            # For non-Latin-script cities (Taipei, Tokyo, Seoul, etc.) show
+            # the English name first with the native script in parentheses,
+            # so English-speaking users can read it while locals get visual
+            # confirmation. Falls back gracefully when one side is missing.
+            def _pick_name(tags, idx):
+                native = tags.get("name")
+                english = tags.get("name:en") or tags.get("name:en-US")
+                if english and native and english != native:
+                    return f"{english} ({native})"
+                return english or native or f"District {idx + 1}"
             cached_districts = [
                 {"id": d["id"],
-                 "name": (d.get("tags") or {}).get("name", f"District {i+1}"),
+                 "name": _pick_name(d.get("tags") or {}, i),
                  "points": None}
                 for i, d in enumerate(raw_districts)
             ]
