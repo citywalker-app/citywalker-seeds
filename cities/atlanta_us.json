@@ -330,8 +330,8 @@
   ],
   "source": {
     "method": "geojson",
-    "url": "file:///tmp/atlanta_npu.geojson",
-    "license": "unknown",
-    "attribution": "unknown"
+    "url": "https://gis.atlantaga.gov/dpcd/rest/services/AdministrativeArea/GeopoliticalArea/MapServer/2",
+    "license": "Public Domain",
+    "attribution": "City of Atlanta Department of City Planning"
   }
 }
