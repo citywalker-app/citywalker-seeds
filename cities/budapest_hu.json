@@ -1,0 +1,310 @@
+{
+  "name": "Budapest",
+  "countryCode": "HU",
+  "regions": [
+    {
+      "name": "10th district (X. kerület)",
+      "osmId": 1552463,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4581723,
+        "maxLat": 47.506726,
+        "minLng": 19.0986707,
+        "maxLng": 19.2216553
+      },
+      "encodedPolyline": "eau`HgedtBgTeRwWuUqWaUgAa@iBiBcAgAUGc@]wAmAIE{F_FgB}As@m@aDwCOMsAoASQi@k@_@a@UYs@}@]]}CoCuJuIcJqIOKWGyAeAe@KWQaAq@CACAoGiGoByBWUoA{@m@]CAUQGGAAOKUMkAy@a@[QKOIeAu@mB_A_EsAkBwAk@hDoKj~@cCvTy@bIaBbMQ~A_@xCsLjeAKx@kBjNI`@AJYzBuAnLo@vFM`Ac@rDg@jE[dCShBo@dF}@zHs@bGg@dEo@nFg@hEa@|DIR{BrCoBdC{AjBiDfEoDnEmDlEa@j@QDBV`AdMHt@n@tHl@bIXrEHhDVpK@ZHxAp@bNBp@n@dG|A`_@p@fMt@jNDp@zBzd@xFleA|Ar^~AhZX~IfDva@t@EhO}BbC]dH@`TTnIJnGT|@R^JXLnIpD@B~CxBzJ|IpI`HfLhJbZ`TdLyc@hCuJ\\yA~AeGDMvAuFZy@Xq@zKib@@CBG`@kBvMeg@xEsRx@_DkA?kAaTkAoIjA_F~Jcw@j@sLd@aMr@mTO{Hf@aD~EuVxC_T?oBjAaF@IhFcb@~@eEhFoTlAoIqEiBiEbNm@nB}AhF]hAuBa@aFw@kBoXI]K{C_@iIE]g@iFa@qDs@IgDc@sL{ARIj@w@n@oAb@w@nBwDlB}Dj@gAdAuBdC}EvBcErBcEvBcEfBiDHMnBcEvBcErBeExBeETe@JUnAiC_@W{U{S"
+    },
+    {
+      "name": "11th district (XI. kerület)",
+      "osmId": 221998,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4277552,
+        "maxLat": 47.4888863,
+        "minLng": 18.9698967,
+        "maxLng": 19.0675055
+      },
+      "encodedPolyline": "{ox`H{m|rB_@?E?GAKGGGIOYa@]i@GOCICOEWAWIqBOcD?OC]AOIcAMkAKiAOwACY?Y?k@BcC?a@@c@?CAWAQAMGSI[MWi@_AKQISCO?G?KB]nA}Hd@wCXgBLu@Hc@p@iED]?K?KAMCMCKGIIGUMq@YKGQGYIYC}AKeAG_AEs@E[Gy@Q@U?I@MBaB@w@@{@Cc@Gg@M{@OkAOcAOu@Uw@eA{DG]CQAQCs@As@FILQ|AwBtAiBNYHQJWfAiET}@Ps@Nm@BUA[ACCSGc@ACI]Qi@CG]m@s@_AUUOYK_@I_@Ga@Ea@MkACU?[?U@a@Bk@F{@JmAN{AHiADc@?g@?c@?KAMCQEUEMGKEGKCKAO@MJIPGVG`@Kn@Id@If@EZKVMXs@dAi@v@]d@W\\ABGFGBI?Ak@AW?_@@OBKj@mC\\}ARq@Na@LYpA_C|@}A^q@NULSHKLOXYd@e@BCXYHIFIHMFMFQFOBQBK@M@O@MAQ?GAKCICGEGCCECEAGAGAE@KDOJkBfAUNk@Za@XQFQF]FYF]D[@_@?_@EYEYIYKYMQKMKQOSSMQYa@M]k@cACIKUMSKQYe@_@w@EKM[CIGSIWAACGOe@Qq@Qe@_@iASo@Kg@Ik@Go@Cm@EoAC{@KwDGiA?GCkA?g@@c@Bq@?O@g@?U?YAQLEdDkBtAy@FEFCLIBA@C@E@K?K@C?OYYNq@LGFEDEDEDGJ[J_@FUBGBMBM?E?GLsD?SG_@CIKyAOiBCIEs@KiBMeCGEKGKIKKGMGOCMCQ?S?UBQBQDQFQDK~AqB`@k@HODOFULiE@O@k@@MLEDCPCH]BQFc@BU?WA[Ec@CWEQGQGQIQISMOGIECUOQKkAs@WSCCIIGIGMGSGUI_@WmAAI[sAMo@AOCQ?SAWBgABeBBeA@y@DcA?W?e@AOCQ?OBMDSXy@Pi@yAsEu@_CuEgLnRsUhEqFvMwP|IwMr@iApCcEbDiD|A_BtJwGzAeAdFkBjFoBlMgBdIMbEZr@DnCArGtAb[tQlFlEzBhB~FfFdHlGpClC|BfBzOxLfPpJlGlDdDjB|JlCvXpC|@HlOjAtPlB~Ad@rI~Br[dLaCzUIZCJCd@@^N`E\\|F?LA\\EPGRKNIDcDpAQDOA}Fo@o@GQCMCKAEFELKj@uAfFENEJUZQTo@h@EFAJ?F?HJ^sBtAyDpCwH`FgIzEJdABLFt@\\`D?FDZJbARbB[Dc@Dm@?G@GBELGNK^Id@Y`BMl@O\\cAxBGJcBvD}BfHSj@Yn@U`@QZa@b@YZ_@R_A`@e@VKTM\\Sh@Sh@Wd@]d@q@hAmCdEo@t@gAnAIHq@p@IHk@j@g@j@mClC_@f@Q^g@lAu@pB[v@AHGPQv@a@hBa@nBw@rDGTe@tCu@pEq@fEET~@\\zFpB\\Rb@TtAx@`Al@p@Zj@Tt@X\\JjCz@NDFBl@PJDXHPDJB@@F@D@@?JBAN?L@LBJDT@DFJ\\l@r@hAX`@LLPLJDNDJ@L@n@APBRDNJpBbBzBhBBGZVADlB|ADXDHHJd@^?JJ?H?F@J@LFTL`@J\\LpGhCjBt@^N\\NpAf@`C`AvAj@f@RRHrEjBJFLHLHz@\\j@V`@PrCdA\\Lj@PF`A?NBp@@|B@j@H~B?l@BjB@zA?PAh@@X@T@^Ah@?JAb@?`@DNXr@Vz@Vx@FVf@fBBLN^Tl@f@dAXn@P^v@z@LHf@r@f@p@FH^p@JRHVJ\\?J@FHVDLHFJJJPXp@n@|ADVBJDNPZ^^TPFLDN@LF~@\\zCJx@BXBp@F~B?bB?tBC|BCbA?Z@fE@p@DlBB`A?t@?b@@NB\\@`@@jAATARIf@AV?ZBr@@r@@jBDnD@`A@fAAfAEf@En@AZAjA?x@@bB@FBD?DAD?BAJ@TBT?DDlC?`A@dA?j@?XAHAJK\\Uz@K^CLY~@[lAi@~BENQj@[z@oC`EsBoJgBy@UMa@OyAy@g@[sAm@GAIAGAi@W}Ac@{@UmBg@AMCIGCSC{F]gBUw@OWESCg@CGCa@I_Ci@[IwAq@WKICKAOAwAAmBA_A@KCkAAy@C_@@w@Dg@Bs@FM@C@QBGBOBIBSDeAl@{@LoBEo@HoCXmBZiA\\mDhAoA_@gCc@cCe@YGK|EqB~Fi@bBWp@e@pAiChHUp@eChHOf@_ApBmDtEyWan@UcAEoSoKsB{Bc@mQkDMDuMxDIl@IBi@RgC|@_@NWHiA`@}Aj@_A\\QFWJKBw@Xa@Nw@XQHqCbAiFhBe@X]XGFk@j@{CtDmA~Ak@v@_@f@]h@]b@{H~J}F~GcBrByChD}DbFE?UASAMCKGIKk@w@KMIKIOEMMg@c@gAc@aAGMSq@}@sB_@{@Wq@AEAG?EEAECCEkC}FQ_@Wi@i@cA[o@IUEQ?MBOBMFKJGZSHGFGJGHMFQFYBM?OFoAFoA?Y@SAMQDK@]BQ@QEECUKKEWEc@CYBcBNa@DMBOBODO@I?IAEAICGEIGIKAs@Ds@JiANoBHy@BQFQFINSnA}AT_@P_@Nc@Rg@n@aBRg@Zy@j@eAZk@FKZ[`BoBDGPMNWR]\\i@b@m@fA_BhAsAlB_DfAiBDS?[@SKAECIK_@s@Ua@KSe@}@o@oAUi@Qk@[cAi@oBI]g@mCg@mCEQSeAI_@GQISIOIKKIIGMEKAMCMAqEQy@E[A"
+    },
+    {
+      "name": "12th district (XII. kerület)",
+      "osmId": 221995,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4761415,
+        "maxLat": 47.5335871,
+        "minLng": 18.9268967,
+        "maxLng": 19.0304323
+      },
+      "encodedPolyline": "}g~`Heg`sB@QB]L_BRqB`B}MP}AN_B\\mEHkA@OBUBa@`@{FFu@@OD[Di@J{A@YBWFUDODOFOFODIz@yAJKZi@HODUBSLABEDC?AVi@NYDKNYNWn@mAR_@HO@ANWJSVc@JUJQLWDKJSJSFOVJtA`@tA\\JBF@B?N@h@BF?\\@ZBn@JJ@hBTP?LA^Ej@Md@G`AIJApAEr@Bf@Dr@FB?B@H?F@XBh@Fx@LRF`@Bd@@bA?~@?V?p@@Z?hA?V@J@n@DRD^FTDnAHxCRv@BT@z@BV@^AJ?RAhAEAOEw@AEAUOkCG}AOoCHCn@WtAm@hAg@PEPCLCLWNCJQXKpEuB~Aw@zAu@fBy@f@g@FG~@_Ax@s@PGhBq@xCcAjAc@PIJAPc@@P?X?TAf@?NCp@Ab@?f@BjA?FFhAJvDBz@DnABl@Fn@Hj@Jf@Rn@^hAPd@Pp@Nd@BF@@HVFRBHLZDJ^v@Xd@JPLRJTBHj@bAL\\X`@LPRRPNLJPJXLXJXHXD^D^?ZA\\EXG\\GPGPG`@Yj@[TOjBgANKJEDAF@F@D@DBBBDFBFBH@J?F@PALANALCJCPGNGPGLILGHIHYXCBe@d@YXMNIJMROT_@p@}@|AqA~BMXO`@Sp@]|Ak@lCCJAN?^@V@j@H?FCFG@CV]\\e@h@w@r@eALYJWD[Hg@He@Jo@Fa@FWHQLKNAJ@JBDFFJDLDTBP@L?J?b@?f@Eb@IhAOzAKlAGz@Cj@A`@?T?ZBTLjAD`@F`@H^J^NXTTr@~@\\l@BFPh@H\\@BFb@BR@B@ZCTOl@Qr@U|@gAhEKVIPOXuAhB}AvBMPGH@r@Br@@PBPF\\dAzDTv@Nt@NbANjALz@Ff@Bb@Az@Av@C`BAL?HATx@PZFr@D~@DdAF|AJXBXHPFJFp@XTLHFFHBJBL@L?J?JE\\q@hEIb@Mt@YfBe@vCoA|HC\\?J?FBNHRJPh@~@LVHZFR@L@P@V?BAb@?`@CbC?j@?XBXNvAJhALjAHbA@NB\\?NNbDHpB@VDVBNBHFN\\h@X`@HNFFJFF@D?^?Z@x@DpEPL@LBJ@LDHFJHHJHNHRFPH^RdADPf@lCf@lCH\\h@nBZbAPj@Th@n@nAd@|@JRT`@^r@HJDBJ@AR?ZERgAhBmB~CiArAgA~Ac@l@]h@S\\OVQLEFaBnB[ZGJ[j@k@dA[x@Sf@o@`BSf@Ob@Q^U^oA|AORGHGPCPIx@OnBKhAEr@@r@HJHFFDHBD@H@H?NANENCLC`@EbBOXCb@BVDJDTJDBPDPA\\CJAPE@LAR?XGnAGnA?NCLGXGPILKFGFIF[RKFGJCLCN?LDPHTZn@h@bAVh@P^jC|FBDDBD@?D@F@DVp@^z@|@rBRp@FLb@`Ab@fALf@DLHNHJJLj@v@HJJFLBR@T@D?IFkJvHaGtEkA~@gOrUcIhRcGvO{ExPnKdPrJx_@sDvE_VzZQOeGSmAhCaFbL@Do@|Ao@bB}@zBgBlEOVk@h@EG]Os@[OKcAi@MGMGEGEIm@c@{CuACACACAGKCCk@WUGWK{DsBIG}CaBoBcAwAw@w@a@]Um@c@KGIEQEG@h@mEJcAFk@JaAB[RmB@KN_BLmAN{ALgALmAaA[aA[MEWIo@b@c@z@ME{@{BsAaA[I[Ao@HkAvAm@d@i@P]Tc@`@c@h@e@~@UL}BPk@\\a@?k@Ye@[k@[s@o@k@Dc@d@iAnB}B|Gy@bCSp@u@bDy@nDiElTw@zDs@pDKn@ERo@[_FqC]UuAcA}@q@aAcAeA}@g@e@]e@o@u@USUO??g@a@k@c@IPmCeDY_Aq@LA}@?aCBg@@U?M?KCOEMIIQOIGs@i@kJaHeH{CcEgB_@}Bi@uF{ApBw@xAGNaBrDALCRo@dBoArDiBzFm@pBKZY|@ERUHCNSz@KGADGTKZgBpFeA~C{@hCIXMNc@WYQa@LEJ|JrJqBvLsB~LWtCo@rGEAmEmA}AyAaBWQOLi@JkACyCm@cBa@kB@KTmCjCeJfBsAbCoKsLf@}d@p@eGpBuGgB`i@kiA`FoBS_@Y]kAoAGG_@]i@e@s@s@sAqAaA_AQSMWKWIYKg@Eq@KuBEsAEmAAU?Q?M?M@O@OBQDUh@mBPs@Ne@JWFOJKJMNQhA}@RUXa@JQPc@J[nA_EHQBKDIHMNUnAsArB{Bd@g@FIFKFMDKBKBMDS@K@MD}@B[?I@QHwBDe@Fi@F[DShAkEz@eDDQBKDKdBmHP}@Ls@T{AF_@Nm@L_@dB_FTk@J]DUHi@n@wG@IBSDUrAaHd@yBfAaFFQZsAJa@FUDWFYNaABQDYDa@B_@Dc@LwBPcDBc@HoAHkAZoDFu@NgBPwBLsAXeDn@cIB[b@_F\\kEd@cGBS@Q@Q`@cFl@kHTyCr@gJHaADeA@{@?sA?aA@yA?C@kC?[?q@Ae@K{@Cg@A[?U?M?M?Q@Q?K@Q?G@YD_@B[@I`@iC\\cBJQFSJ[`@{Ah@qBPq@BOL_@FQ\\y@Xo@xAiChAgB^m@bBmCBEJQPUDKHK|@wA|AcCJQVk@^}@~A{Dh@mATc@vDiGdD_FRW`BaC?AZi@Vk@?g@@G@y@@a@?U?K?wA?O?yF?U?_@@c@@e@"
+    },
+    {
+      "name": "13th district (XIII. kerület)",
+      "osmId": 1605916,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.5104698,
+        "maxLat": 47.5631371,
+        "minLng": 19.0452562,
+        "maxLng": 19.0973526
+      },
+      "encodedPolyline": "}ndaHe}hsB|L^b[bAbGjAdb@fItCxAnB`AdKfF|T~KbLxFlLpGjP`J^^zC}LtK_c@dC}Jb@_BwAeAkCkBaD_C_@WsCoBk@_@uB{AgAq@YSOKc@Yo@c@QO}@m@GCECOCOEKS]{@IOGM_AuBs@cBSm@EOa@iAM[kC_GOc@EMOYHMFMhCqDPYzAuB@E@ENAHENi@V[?m@uAqDn@{@}DwKiFgNNu@Wu@I[]kAk@mBw@eCQi@iCiIsDmLaA}CYy@AEg@aBQw@I_@SiAG_@AIO{@Mw@i@kDMu@CMIg@GWCGCMEQAGCICIACGOUi@KSa@mA{@gCs@wB_AeCaBuDaBmDs@yAi@eACGCAIQ_B`Dc@x@Wf@Q^iA`CEHa@QmFeCWMaCkAwCwAoDcBkAi@aAe@gB{@gAi@GC_HcDaHeDgAg@oAm@ECCAc@SyEyB}BgA]QyCyAwCuAsCsAsCuAmHiDoBaAaCgAcD_BIAKAUFy@hA[VCICIGGGIMOGGGEIKGGiDiDUZqEtGu@nA{FtIwArB_AtAQX]f@Uf@CFCDa@z@c@~@ABALi@\\MHOTqA`Cs@fAqBxCsAtBq@hAaFnHA@_BlCh@Pb@RTPRNd@p@f@|@@BDHBByA~B_H~HqTbQmCzB}@dAy@bBm@vAs@~CaAdF[bBuDbRMr@w@|HkEtT?@~a@jMtTzGlOpHp{@~a@"
+    },
+    {
+      "name": "14th district (XIV. kerület)",
+      "osmId": 1606043,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.499654,
+        "maxLat": 47.5462042,
+        "minLng": 19.0723516,
+        "maxLng": 19.1570525
+      },
+      "encodedPolyline": "op}`HaynsBsA|AIJSRQNy@z@{@z@e@j@qB`CaRdTqPdSqAbBaAnA[`@MPUXKNEDSVyAdBwAbBOP]`@_@d@[\\mAvAKLw@|@i@n@u@z@_@d@i@n@c@j@SVI[]kAk@mBw@eCQi@iCiIsDmLaA}CYy@AEg@aBQw@I_@SiAG_@AIO{@Mw@i@kDMu@CMIg@GWCGCMEQAGCICIACGOUi@KSa@mA{@gCs@wB_AeCaBuDaBmDs@yAi@eACGCAIQ_B`Dc@x@Wf@Q^iA`CEHa@QmFeCWMaCkAwCwAoDcBkAi@aAe@gB{@gAi@GC_HcDaHeDgAg@oAm@ECCAc@SyEyB}BgA]QyCyAwCuAsCsAsCuAmHiDoBaAaCgAcD_BIAKAUFy@hA[VCICIGGGIMOGGGEIKGGiDiDxHuKbHsKhDiGTg@zOk]n@kAvIiPxCsGxDqHlD{G`D}GhByDjAmDb@yBt@cGpBqPlCkTd@gD|BmLxBaLlBcJtGc[hFqVjBoIVKGQ?I?Gb@sBDQ|@iE?MzFz@TBPAP@z@NfALXDh@DT?LCNGbANdCaCxCsCfI}GdAs@z]oXxIkIpDkB|As@|@g@lGwDbX{G@ZHxAp@bNBp@n@dG|A`_@p@fMt@jNDp@zBzd@xFleA|Ar^~AhZX~IfDva@j@bM|@tQe@t@u@Tk@P[fCEt@Gx@KvAu@hJMvBEj@A@En@UjDIrAInAWrDKvAMfBYdEUjDATY|DE\\ETCLKN[b@i@l@eD|Dy@~@KLo@t@IH]b@[\\KLeBvB}BhCMNOPIJKLwBdC"
+    },
+    {
+      "name": "15th district (XV. kerület)",
+      "osmId": 1606009,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.5258453,
+        "maxLat": 47.599848,
+        "minLng": 19.1027273,
+        "maxLng": 19.180781
+      },
+      "encodedPolyline": "_zaaHo{xsBuGb[mBbJyB`L}BlLe@fDmCjTqBpPu@bGc@xBkAlDiBxDaD|GmDzGyDpHyCrGwIhPo@jA{Oj]Uf@{CgBmEwAyAa@gHsBySeGeEmAkU{GwMwDy^oK{EoAsAa@aAWIjC{KkEyUiJ_Aa@[I]Im@QkAe@[MiA]oCi@}@Q_Cs@aCu@iBi@_FkBMEgBo@cGoBqCy@oDaAkZkIqJkCaG{AoE{A}Ce@}E}AsEy@aIiAcYFuFa@wDiA{DeBcAe@c@Ua@YkB_Ab@w@f@{@dFeThAkBgAcMC{EuCc[wCgMnTaMtC`MraAiaBbFnIxLfOzThYdYwe@gM{e@pG{Jt`@um@j_@il@`BbHpRj}@dFlJvg@maAx\\mw@bLjTpHnPpA|CDCHCHH^z@t@tAx@bBhAlBZl@JVNf@bAxBHNP\\fGnLl@fA~@|A`AxAT^r@jA~FnJh@`A^p@~DpGZj@DJBHDJLf@BT@V?v@?ZDFBL@NAPGLPCRAd@?JBb@JNDLHHDNLd@b@XZRTb@j@x@nAv@nA|@xA~C|EjDrFhAfBHNxBnD|@tADHdA`BlAnBb@r@pApBfAdBHL\\j@@B~@`CHX@V?RP?FBDDBDbBtDh@nANZLZpArCbBxDZz@DHXl@\\x@j@rAR`@vA`D?J?L}@hEEPc@rB?F?HFPWJkBnIiFpV"
+    },
+    {
+      "name": "16th district (XVI. kerület)",
+      "osmId": 1552464,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4923208,
+        "maxLat": 47.5461324,
+        "minLng": 19.1448931,
+        "maxLng": 19.2638164
+      },
+      "encodedPolyline": "_zz`HkfitBk@hDoKj~@cCvTy@bIaBbMQ~A_@xCsLjeAKx@kBjNI`@AJYzBuAnLo@vFM`Ac@rDg@jE[dCShBo@dF}@zHs@bGg@dEo@nFg@hEa@|DIR{BrCoBdC{AjBiDfEoDnEmDlEa@j@QDBV`AdMHt@n@tHl@bIXrEHhDVpKcXzGmGvD}@f@}Ar@qDjByIjI{]nXeAr@gI|GyCrCeC`CcAOOFMBU?i@EYEgAM{@OQAQ@UC{F{@?KwAaDSa@k@sA]y@Ym@EI[{@cByDqAsCM[O[i@oAcBuDCEEEGCQ??SAWIY_AaCAC]k@IMgAeBqAqBc@s@mAoBeAaBEI}@uAyBoDIOiAgBkDsF_D}E}@yAw@oAy@oAc@k@SUY[e@c@OMIEMIOEc@KKCe@?S@QBFM@QAOCMEG?[?w@AWCUMg@EKCIEK[k@_EqG_@q@i@aA_GoJs@kAU_@aAyA_A}Am@gAgGoLQ]IOcAyBOg@KW[m@iAmBy@cBu@uA_@{@IIIBEBqA}CqHoPhWyi@`@cAhAsChCmGdGaNlCyF?WuAmEpHcQ~@sBWe@mAgCS_@mBkDmBmDiBgDPc@jB{Ej@}AhByEHQnByEdAwCHQHK]sA}@iDa@mAAE_FmMaA_CkBkD_A{A|@sE`RqWjYci@wI{y@Eg@y@cICYcAkJ[sFgIiy@bCqC|e@m`@tp@uh@pFwBjAqBdS}G|CyAha@yNpBYfL}AhAbMtCdp@hA?jTt^~[~y@\\tCRpBb@hB`DdLvGxUbSxs@nBbH"
+    },
+    {
+      "name": "17th district (XVII. kerület)",
+      "osmId": 1550599,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4363091,
+        "maxLat": 47.5154243,
+        "minLng": 19.1958834,
+        "maxLng": 19.3349258
+      },
+      "encodedPolyline": "ea|`HeoltB]uC_\\_z@kTu^iA?uCep@iAcMuCqT?uSmHwz@gAeWPaIp@}YI}FaCo_@_CeQG[K[Ie@A]CUQqAQaAK_AEe@E_@iAwHSkACs@Es@I}@cBuMoAsJc@gBSkC_Gow@XPZFh@KxCw@zDoB|DaBZYpIkEnQvQrD|EpThRfLzA~L`@|HOxEm@DAfBYj@HxGyAnDS`ImEhEaFzFkJnCOpYkZzNcTfBgFrTkOp]eCzOJfO}B|O_NtDkD`CyBjTf[rBls@PvDxKbo@LxDt@|OJpEl@zE?`CAzEoCpQAdI`DlFxDtGh@|@hHvLjRhWbV|StOhJ~MxJx[rUnBvAlAt@_Kp}AmApWyCnWmA`MmAnW}]lPoH|EyC`FkAnBeF|EeFbp@rO`MeFbi@kAlBkA`FyClIy@eBmBhEk@nAq@zAiJxSOPyHfQcCrF}CdH{HnQc@jAm@rBi@lCWhBSbE?fCJfBFz@H~@ZlBb@vAMZoJxW}Nha@ADgTeRwWuUqWaUgAa@iBiBcAgAUGc@]wAmAIE{F_FgB}As@m@aDwCOMsAoASQi@k@_@a@UYs@}@]]}CoCuJuIcJqIOKWGyAeAe@KWQaAq@CACAoGiGoByBWUoA{@m@]CAUQGGAAOKUMkAy@a@[QKOIeAu@mB_A_EsAkBwAoBcHcSys@wGyUaDeLc@iBSqB"
+    },
+    {
+      "name": "18th district (XVIII. kerület)",
+      "osmId": 1550598,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.3853659,
+        "maxLat": 47.4672948,
+        "minLng": 19.1541008,
+        "maxLng": 19.2657695
+      },
+      "encodedPolyline": "upt`HgcctBsBdEwBbEoBbEILgBhDwBbEsBbEwBbEeC|EeAtBk@fAmB|DoBvDc@v@o@nAk@v@SHrLzAfDb@r@H`@pDf@hFD\\^hIJzCH\\jBnX`Fv@tB`@\\iA|AiFl@oBhEcNpEhBmAnIiFnT_AdEVb@^p@|NbVVu@^mApGdKrCSrIk@RCx@Ej@@d@BV@`ANdCpAXJn@Nd@ALNhCrCzCjDfCvClBtB`@f@HJjAlArDjEl@h@zGnJjAsDnBgGvDwKjBqFTu@`B{ElAbBJLxOjSd@{@tAkCJQlA_CpAgC^{@d@sA`AwCXaAh@yAv@_CJYbAwCNe@p@qB~@}CbAwCt@{BL]hA{BHUHUz@kC`AwCX{@h@}AbA{Cd@wAZaAvAaE`EdKVl@r@jBvAtD`CjGxEdMhIvUtDjKjA?z]gb@p@_AbAkA`E}FhDsEfBaCNSt@cAPWrFuH\\e@fAyARWTYJQ~@qAjA_BtL|e@`_@gk@~Kxc@n\\qi@vGjLjK_PjBsCgR{[vtA}tByDoBuDkBKE_EkBwDoBCMQKwCmBgAu@QKaAo@m@_@UMWQWQKEWG{@i@q@g@oA{@aAk@}B_B_EmCQM}DiCKSgBqDk@kAqCyFMe@uCeGgBsDmC}EgD_GyAuBKKGI{EoFqGgBECLMh@m@hDaEt@w@rBuBNQ_@i@e@u@g@s@a@m@FKCAc@Ysb@sl@i`@`w@q[ya@cOuRmHoJYa@oIgMwD{FnA_G@EZmA~AsGUK_@QsDgB[MqDeBiCmApJ{Kx@s@hI`DfGcWN[VItAiBfBuBi@gAs@kAzAoHrBgIMKKIe^aYw[oT~I}`@cdAeb@mApWyCnWmA`MmAnW}]lPoH|EyC`FkAnBeF|EeFbp@rO`MeFbi@kAlBkA`FyClIy@eBmBhEk@nAq@zAiJxSOPyHfQcCrF}CdH{HnQc@jAm@rBi@lCWhBSbE?fCJfBFz@H~@ZlBb@vAMZoJxW}Nha@ADzUzS^VoAhCKTUd@yBdE"
+    },
+    {
+      "name": "19th district (XIX. kerület)",
+      "osmId": 1551290,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4254406,
+        "maxLat": 47.4665883,
+        "minLng": 19.1138748,
+        "maxLng": 19.1719792
+      },
+      "encodedPolyline": "aru`HqtvsBkA?kAaTkAoIjA_F~Jcw@j@sLd@aMr@mTO{Hf@aD~EuVxC_T?oBjAaF@IhFcb@Vb@^p@|NbVVu@^mApGdKrCSrIk@RCx@Ej@@d@BV@`ANdCpAXJn@Nd@ALNhCrCzCjDfCvClBtB`@f@HJjAlArDjEl@h@zGnJjAsDnBgGvDwKjBqFTu@`B{ElAbBJLxOjSd@{@tAkCJQlA_CpAgC^{@d@sA`AwCXaAh@yAv@_CJYbAwCNe@p@qB~@}CbAwCt@{BL]hA{BHUHUz@kC`AwCX{@h@}AbA{Cd@wAZaAvAaE`EdKVl@r@jBvAtD`CjGxEdMhIvUtDjK?nBmTnWeF~EkAlBz@xAsBfCy@bAc@l@SVQVKNOVqDhG]d@s\\dn@kLxXoAxCqAnBu@dAuBxDuCxEyNhYqCbF{EhIcA~AcC|DmNxU{`@zp@MWS]GMm@gAq@mAYi@uCeFmCeEGIgCmEoCsE_C_EQYGMkGsKiGqKmAsBEGCGmBcDu@kAi@cAEIMYGGmD}FeBlGm@`A"
+    },
+    {
+      "name": "1st district (I. kerület)",
+      "osmId": 221984,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4856709,
+        "maxLat": 47.5080309,
+        "minLng": 19.0237618,
+        "maxLng": 19.0513614
+      },
+      "encodedPolyline": "cwy`HqadsB@K?K@C?OYYNq@LGFEDEDEDGJ[J_@FUBGBMBM?E?GLsD?SG_@CIKyAOiBCIEs@KiBMeCGEKGKIKKGMGOCMCQ?S?UBQBQDQFQDK~AqB`@k@HODOFULiE@O@k@@MLEDCPCH]BQFc@BU?WA[Ec@CWEQGQGQIQISMOGIECUOQKkAs@WSCCIIGIGMGSGUI_@WmAAI[sAMo@AOCQ?SAWBgABeBBeA@y@DcA?W?e@AOCQ?OBMDSXy@Pi@yAsEu@_CuEgLgJnL_@^u@r@KJkSpMyIvFcBdAiMvEyEdB{EhA{JnAqJb@_@BkBLcLe@KzR?T?b@?hB?LAT@T?pD?\\@xF?h@@\\AdAA|BAr@?\\Ax@BfADXEvBEdB?`@Ah@Af@ARO~D?DG`BExB?VCbC?NC~@?VAx@AP?b@FVR`@@BHNDFb@l@JNGPINLLDDRR~@fAJN|AjBlAvALNLHVJtA`@tA\\JBF@B?N@h@BF?\\@ZBn@JJ@hBTP?LA^Ej@Md@G`AIJApAEr@Bf@Dr@FB?B@H?F@XBh@Fx@LRF`@Bd@@bA?~@?V?p@@Z?hA?V@J@n@DRD^FTDnAHxCRv@BT@z@BV@^AJ?RAhAEAOEw@AEAUOkCG}AOoCHCn@WtAm@hAg@PEPCLCLWNCJQXKpEuB~Aw@zAu@fBy@f@g@FG~@_Ax@s@PGhBq@xCcAjAc@PIJAPc@LEdDkBtAy@FEFCLIBA@C@E"
+    },
+    {
+      "name": "20th district (XX. kerület)",
+      "osmId": 1551291,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4115844,
+        "maxLat": 47.4550652,
+        "minLng": 19.0878896,
+        "maxLng": 19.1591201
+      },
+      "encodedPolyline": "ior`HqvusB{`@zp@d@t@HNr@jAh@~@rAvB`@p@RZLTFHNVHNdAhBpC~ER\\|@zALRpAzBxEfIrC`F~@`BtA~B?@FJDHJNv@nAZj@bBvCJPxAdC~EnIb@t@DHb@r@x@vA~AjCFLLRd@v@`AfBlAtBVb@LV\\h@t@pArAzBt@rAlA|BFLT\\Vd@RZb@x@BFDHDFJVRPNJPDxGtZ?|EpFiAt^cCbKmEhUiHg@oBsD|@_@oDYuBWkBm@sExBqHlAaFjAoBjApBbDaDbH_HkAsFxCqC_Ay@o@k@MMIMGKGQEMEWM{@OeACQAIyBz@@s@GInBm@JEfA]j@SbBi@n@UXK|Ag@jGeDzCkBrB{ArEwErEoF?oBjAqBeF_J{E{HmAmBGK~AiBhBqBdBoBdBoB`BiB`BiBdCoCZ_BpNpJ`@o@l@eApViVaL}XoApAoI|H[X{@|@sCdCKHAE_EnDBJkFzEkCcFmCkGqJqQAA{O_Z?oB`BcClC}DzEeHdMgR`\\ih@yY{n@mGaNeUqf@kA??nBmTnWeF~EkAlBz@xAsBfCy@bAc@l@SVQVKNOVqDhG]d@s\\dn@kLxXoAxCqAnBu@dAuBxDuCxEyNhYqCbF{EhIcA~AcC|DmNxU"
+    },
+    {
+      "name": "21st district (XXI. kerület)",
+      "osmId": 215618,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.3850196,
+        "maxLat": 47.4619344,
+        "minLng": 19.0166532,
+        "maxLng": 19.1091427
+      },
+      "encodedPolyline": "sii`HcwksBLFFJz@vBn@`Bp@|AhDzGNTHTHXhAdDh@dBLZXh@JVtA`EbCfGNz@rE~MNUv@w@`@]d@]V[n@o@LIP@HEnCyCtLmLPNv@jAZ\\lBpCNTd@d@PTVf@DPHNVj@FXFv@iBdOqFza@jDpAbMtE`A^`HjCj@Rh@PdCp@c@xAc@zA_@hA_@jAIPY\\IJo@tAw@bBv@~@dAtAdCjCfB`D`A~AJV?NRXzAfAl@^|CrAeAdEqA~CMNBBFNV`ADV}ArAwA|AyAdBwAxA}ApC{ArCTf@Pl@^nA`DtLH^F`@BNFTj@bBNf@FXF`@FVNXFHj@tBNp@Hd@H\\|AvFb@rAZf@C`@wQdNWPTr@hEvPb@bB_KbIlDdSVbAwIzLy@kMqP{w@yUad@yb@oY{Y}Rej@{QsHeCwP]sTc@aIOaWoFyQyEs[eLsI_C_Be@uPmBmOkA}@IwXqC}JmCeDkBmGmDgPqJ{OyL}BgBqCmCeHmG_GgF{BiBmFmE`BiOLaDBo@NwGCeA?OAm@M{IB}A\\iFb@iCl@}BlNoV|[a^fCoAjHqDfp@{M|ReE~A]pFiAt^cCbKmEhUiHj@IlDo@hJeBzJcBfDm@tMkG|XiWdH_E~HmEdcAi\\n[{RfIgDpEo@`DRxDTfRlFxQvNu@|CiAjDITIRADGTSNMA?JANAJIZKZKVKTo@fBw@vBu@zB_@hAGVO~@Kj@If@gAhGsAjGKh@Kh@mArFaAlEIXGH}CbCQNoA`A}DxCw@h@kAz@{CxBaAr@kBvAURkA~@eBrAoA|@k@b@eAv@m@d@uAdAMJsB|A{@p@gEdDOJcDhC}AjAKFiBbAYLqAj@w@\\mDvA}D`BUDHpBJhCP|EL`CV|ERxEn@bMRnDDTFVJXt@lBd@hAd@hABP@R?TEVFDHHFLDVf@bF^vDHJJJ"
+    },
+    {
+      "name": "22nd district (XXII. kerület)",
+      "osmId": 215621,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.3726234,
+        "maxLat": 47.4485436,
+        "minLng": 18.9513396,
+        "maxLng": 19.0477985
+      },
+      "encodedPolyline": "sip`HkgdsBScBKcAE[?G]aDGu@CMKeAfI{EvHaFxDqCrBuAK_@?I?G@KDGn@i@PUT[DKDOtAgFJk@DMDGJ@LBPBn@F|Fn@N@PEbDqAHEJOFSDQ@]?M]}FOaEA_@Be@BKH[`C{UxQxE`WnF`INrTb@vP\\rHdCdj@zQzY|Rxb@nYxU`d@pPzw@x@jM`@bGlCpb@dKj|AxBrPfDxUxIxq@fGzVvIfVzq@v~@wIfOS^_AjBuErJgFvEyF`D{KjCuDPgAl@y@n@aAv@qAn@w@LgAWOk@Mi@Om@Mk@Qw@AWiCz@YVi@Re@DqAn@yAj@iFrCgBt@KN_Bb@aJ`CuE~@sC^mEXq@SeFWGDa@Mc@Om@SaA[g@QyAe@KYYo@{CoDqB}BiB_KmAiHO{AGIEEKq@EYCQU}ACUAC@AGe@E@Ga@AOGk@AKIg@AIQ}@Ic@?GG_@G_@AKEUCQIi@I[ESGa@Mg@Kg@Qu@OJmARa@F_@FSDC?SDK@A?KBMBK@UDUBUBE@QDC?I?E?Q@g@BM@S@I@U@_@DA?YBSBWBM@m@Fe@Da@Bc@DM@G@G@_@BQ@E@C?K@M@E@G@KBC?OD?ACAc@FUBUDUBI@I@[AM?MAABsA`@SFUJi@ZYHKDYDODc@Lc@Pa@LE?ICE@[Lo@Z_@P}@^qChA}@b@QH_Bh@MFi@RKD_A\\WJ_@N[N[J?@c@Ne@R[LWJ_@Pc@PKDWH{@\\_NfFgBKm@E_CCGIaF}@mBMsChAaBD{b@qv@wCmF{E{HoCkEsDiImI{QnCaEZ{@Pk@DOh@_CZmAX_ABMJ_@T{@J]@K@I?Y?k@AeA?aAEmC?ECUAU@K?C@E?ECEAGAcB?y@@kA@[Do@Dg@@gAAgAAaAEoDAkBAs@Cs@?[@WHg@@S@UAkAAa@C]AO?c@?u@CaAEmBAq@AgE?[BcAB}B?uB?cBG_CCq@CYKy@]{CG_AAMEOGMUQ_@_@Q[EOCKEWo@}AYq@KQKKIGEMIWAG?KK]IWKS_@q@GIg@q@g@s@MIw@{@Q_@Yo@g@eAUm@O_@CMg@gBGWWy@W{@Ys@EO?a@@c@?K@i@A_@AUAY@i@?QA{ACkB?m@I_CAk@A}BCq@?OGaAk@Q]MsCeAa@Qk@W{@]MIMIKGsEkBSIg@SwAk@aCaAqAg@]O_@OkBu@qGiC]Ma@KUMMGKAGAI?K??Ke@_@IKEIEYmB}A@E[WCF{BiBqBcBOKSEQCo@@MAKAOEKEQMMMYa@s@iA]m@GKAEEUCKAM?M@OKCA?EAGAAAKCQEYIKEm@QGCOEkC{@]Ku@Yk@Uq@[aAm@uAy@c@U]S{FqB_A]DUp@gEt@qEd@uCFUv@sD`@oB`@iBPw@FQ@IZw@t@qBf@mAP_@^g@lCmCf@k@j@k@HIp@q@HIfAoAn@u@lCeEp@iA\\e@Ve@Ri@Ri@L]JUd@W~@a@^SX[`@c@P[Ta@Xo@Rk@|BgHbBwDFKbAyBN]Lm@XaBHe@J_@FODMFCFAl@?b@EZE"
+    },
+    {
+      "name": "23rd district (XXIII. kerület)",
+      "osmId": 1550597,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.3496899,
+        "maxLat": 47.4299122,
+        "minLng": 19.091441,
+        "maxLng": 19.1989987
+      },
+      "encodedPolyline": "ain`HoxosBj@IlDo@hJeBzJcBfDm@tMkG|XiWdH_E~HmEdcAi\\n[{RfIgDpEo@`DRxDTfRlFxQvNLJhQdO``@nZn@sAFW^}ADOFQXq@v@yABArB}DCKBIhA{BHODKLARa@jGuL`AeBre@e{@vu@ktAP[xVaa@rf@wi@eTq[uKuRsGoLq@kAsD{`@EgLcBoPyBqT}@qIcByP{Fiw@k@gI}HaImTwTsPqP{@y@gCeCUS{WkWqSaJcCgAmI}DqP{H}FuCqIiEwtA|tBfRz[kBrCkK~OwGkLo\\pi@_Lyc@a_@fk@uL}e@kA~A_ApAKPUXSVgAxA]d@sFtHQVu@bAORgB`CiDrEaE|FcAjAq@~@{]fb@dUpf@lG`NxYzn@a\\hh@eMfR{EdHmC|DaBbC?nBzO~Y@@pJpQlCjGjCbFjF{ECK~DoD@DJIrCeCz@}@ZYnI}HnAqA`L|XqVhVm@dAa@n@qNqJ[~AeCnCaBhBaBhBeBnBeBnBiBpB_BhBFJlAlBzEzHdF~IkApB?nBsEnFsEvEsBzA{CjBkGdD}Af@YJo@TcBh@k@RgA\\KDoBl@FHAr@xB{@@HBPNdALz@DVDLFPFJHLLLn@j@~@x@yCpCjArFcH~GcD`DkAqBkAnBmA`FyBpHl@rEVjBXtB^nDrD}@f@nB"
+    },
+    {
+      "name": "2nd district (II. kerület)",
+      "osmId": 221980,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.5060708,
+        "maxLat": 47.578906,
+        "minLng": 18.9251057,
+        "maxLng": 19.042713
+      },
+      "encodedPolyline": "ybkaHubrrBCCs@yA{LkKwCeCzC}c@\\aFHsWLqd@~D_b@bCaWpMcr@rCqBaC_EnBsHzCuGtC}EbKeSxBwEbEkC~CuBbBo@|FkEFElFsGdGwHdHgFzPiN`JuC|MqJzAaC?cAwA}Bw@SYPGGiAqAI?AGYg@Y]WQQ]EMEK?ODOHIHCFCRAPBR?jEXn@B\\FNHXP~@l@p@Vb@FL?FAFGtEeHdAuBbC}D`@_@NKLEVGf@?ZB|DFv@?VCVEDAZGdBs@JExBaAhAe@ZOTMn@Ql@A^Qb@c@~@{@~@kAjAwBfAwBL[\\k@HQRYPIFARDNLJHLJRNLJHDHBF?FCBABEFQJo@RoAFUTaAXy@Vq@b@{@Zq@h@mAT_@LKJEH?HBHLDLDNDXBX@V@R?RALALE`@MvAEhA?l@?TAFFXDNFPZl@Tf@Vv@L^NPPRh@h@RTDJFRFb@DNJBF@J@H?F@h@XRsBZwCJiANgAVqAHm@JeAJ_AN_AXaBTsBBSFi@Fi@DQDQFSPa@d@cAZc@HGPMVUZ_@h@}@VUf@]ROHKLQfA_Bb@c@d@c@d@YfCeAv@OdAQNCl@MTCTCpAGRCHAJEHCHEXQBAdAu@LQLQXe@@CJSp@}AJ[Ri@ZCt@GTCpE]|@IjAKpCUd@MD_BQkA{@gMCa@e@iHQ}CG_@K[c@]}@k@[WQYMe@Oe@FMJWJWTUBCXE^GVMPILWLu@?y@Mc@U]]e@MSS]d@kBRm@Rm@f@qAJWXs@Zy@FWr@oDR_Ab@iBfAaDRi@HYh@sAh@_BFUDMBMNu@Hi@NaAJ}@Fc@TeBDy@@QH{ABu@?[B_A@c@@[BuABm@?E@W?C?A@SHeB@M@OB_@B[NuBNwB?C@A@O@UBO??|AeLn\\fJbFq@nNmBrHcAvLaB~OyBlAOf@@bSz@~AFKzR?T?b@?hB?LAT@T?pD?\\@xF?h@@\\AdAA|BAr@?\\Ax@BfADXEvBEdB?`@Ah@Af@ARO~D?DG`BExB?VCbC?NC~@?VAx@AP?b@FVR`@@BHNDFb@l@JNGPINLLDDRR~@fAJN|AjBlAvALNLHGNKRKREJMVKPKTWb@KROVA@INS^o@lAOVOXEJOXWh@?@EBCDM@CRETIN[h@KJ{@xAEHGNGNENENGTCVAXKzAEh@EZANGt@a@zFC`@CTANIjA]lEO~AQ|AaB|MSpBM~AC\\APAd@Ab@?^?T?xF?N?vA?J?TA`@Ax@AF?f@Wj@[h@?@aB`CSVeD~EwDhGUb@i@lA_BzD_@|@Wj@KP}AbC}@vAIJEJQTKPCDcBlC_@l@iAfByAhCYn@]x@GPM^CNQp@i@pBa@zAKZGRKP]bBa@hCAHCZE^AX?FAP?JAP?P?L?L?T@ZBf@Jz@@d@?p@?ZAjC?BAxA?`A?rAAz@EdAI`As@fJUxCm@jHa@bFAPAPCRe@bG]jEc@~ECZo@bIYdDMrAQvBOfBGt@[nDIjAInACb@QbDMvBEb@C^E`@EXCPO`AGXEVGTK`@[rAGPgA`Fe@xBsA`HETCRAHo@vGIh@ETK\\Uj@eB~EM^Ol@G^UzAMr@Q|@eBlHEJCJEP{@dDiAjEERGZGh@Ed@IvBAP?HCZE|@ALAJERCLCJEJGLGJGHe@f@sBzBoArAOTILEHCJIPoA~DKZQb@KPY`@STiA|@OPKLKJGNKVOd@Qr@i@lBETCPANAN?L?L?P@TDlADrAJtBDp@Jf@HXJVLVPR`A~@rApAr@r@h@d@^\\FFjAnAX\\R^aFnBai@jiAyKdBaKiAuEaB{E[cKWkI}@ELH~Ab@dCNtCbAhDJdFbBlE`A~DmMf\\cHoXoAaD?eEImCOcBo@kEo@_BiAkCEKaCeEq@iAe@_AIMMK?Aw@gBo@}AIQ{@oBw@iBKWy@iB{@oBaAyBwAmBy@d@WMmAl@m@Y][S]oClASbAU^^p@CfA[lA?Za@|AsC`D]p@_AfDiAbF}AdCMb@cCzDwFm[cJvD{FfByh@hY}ClBoCbBuAv@KFoBbAIDgCpAy@^cGxC_CjBUoAoGm]_DwPe@kCEIoCaJ"
+    },
+    {
+      "name": "3rd district (III. kerület)",
+      "osmId": 221976,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.5267887,
+        "maxLat": 47.610102,
+        "minLng": 18.976838,
+        "maxLng": 19.0767223
+      },
+      "encodedPolyline": "qtqaHu|hsBu@qWl@k@`A{LpBuV{@WjEw`@JcQnCuJzE`EvHvG~PdFpVrGzRp@hX~@`DEb@wH|FbA~Fz@~\\lI~MfDvOvAfGj@|Hr@jAJrOvBxPv@`[rAzAh@~a@jMtTzGlOpHp{@~a@zV`ZnRdUrJbHzJjHrYvS}AdL??CNATANA@?BOvBOtBCZC^ANALIdBAR?@?BAV?DCl@CtAAZAb@C~@?ZCt@IzAAPEx@UdBGb@K|@O`AIh@Ot@CLELGTi@~Ai@rAIXSh@gA`Dc@hBS~@s@nDGV[x@Yr@KVg@pASl@Sl@e@jBR\\LR\\d@T\\Lb@?x@Mt@MVQHWL_@FYDCBUTKVKVGLNd@Ld@PXZV|@j@b@\\JZF^P|Cd@hHB`@z@fMPjAE~Ae@LqCTkAJ}@HqE\\UBu@F[BSh@KZq@|AKRABYd@MPMPeAt@C@YPIDIBKDI@SBqAFUBUBm@LOBeAPw@NgCdAe@Xe@b@c@b@gA~AMPIJSNg@\\WTi@|@[^WTQLIF[b@e@bAQ`@GREPEPGh@Gh@CRUrBY`BO~@K~@KdAIl@WpAOfAKhA[vCSrBi@YGAI?KAGAKCEOGc@GSEKSUi@i@QSOQM_@Ww@Ug@[m@GQEOGY@G?U?m@DiALwADa@@M@M?SASAWCYEYEOEMIMICI?KDMJU^i@lA[p@c@z@Wp@Yx@U`AGTSnAKn@GPCDC@GBG?ICIEMKSOMKKIOMSEG@QHSXIP]j@MZgAvBkAvB_AjA_Az@c@b@_@Pm@@o@PUL[NiAd@yB`AKDeBr@[FE@WDWBw@?}DG[Cg@?WFMDOJa@^cC|DeAtBuEdHGFG@M?c@Gq@W_Am@YQOI]Go@CkEYS?QCS@GBIBIHEN?NDJDLP\\VPX\\Xf@@FH?hApAFFXQv@RvA|B?bA{A`C}MpJaJtC{PhNeHfFeGvHmFrGGD}FjEcBn@_DtBcEjCyBvEcKdSuC|E{CtGoBrH`C~DsCpByDhAuDeCsCuDqCqDuFgHyGkHkFoFuBbBgHcLkOrl@gPkZkBiDfBkFt\\e{@sLgR^i@zBqCV[l@q@f@m@tEaGRaK_DwRqF_[WoE{@yCsBmJm@oCGoBm@yCx@iDcBwD_BcReBqe@nCod@d@{@z@mLoAQyDrAeOtCwBt@u@dC_BmAuKfDuH|BsCz@gHrBkA`@WNc@RsC~@m@TcCnBYX_B~Ae@z@aHlFyAtAaFxEwAp@{GuWgCoJgMef@cCeD}Acq@tEgn@c@wN"
+    },
+    {
+      "name": "4th district (IV. kerület)",
+      "osmId": 367963,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.5423249,
+        "maxLat": 47.6131468,
+        "minLng": 19.0671975,
+        "maxLng": 19.1234631
+      },
+      "encodedPolyline": "u~eaH}qrsBxSdGfHrBxA`@lEvAzCfBiDhGcHrKyHtKUZqEtGu@nA{FtIwArB_AtAQX]f@Uf@CFCDa@z@c@~@ABALi@\\MHOTqA`Cs@fAqBxCsAtBq@hAaFnHA@_BlCh@Pb@RTPRNd@p@f@|@@BDHBByA~B_H~HqTbQmCzB}@dAy@bBm@vAs@~CaAdF[bBuDbRMr@w@|HkEtT?@{Ai@a[sAyPw@sOwBkAK}Hs@gGk@wOwA_NgD_]mI_G{@}FcAd@yIcPcLea@}^iCaCwg@ge@aOsTuA_B_b@mi@xDgSdAyFvAuFvEkXjRfJvBsB`D}CdKqo@vAoGd@oB|OyXjCiEjB~@`@Xb@TbAd@zDdBvDhAtF`@bYG`IhArEx@|E|A|Cd@nEzA`GzApJjCjZjInD`ApCx@bGnBfBn@LD~EjBhBh@`Ct@~Br@|@PnCh@hA\\ZLjAd@l@P\\HZH~@`@xUhJzKjEHkC`AVrA`@zEnAx^nKvMvDjUzGdElA"
+    },
+    {
+      "name": "5th district (V. kerület)",
+      "osmId": 1606103,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4857658,
+        "maxLat": 47.5147466,
+        "minLng": 19.0420223,
+        "maxLng": 19.0617711
+      },
+      "encodedPolyline": "ilz`Ha_jsBl@D\\b@dCtBx@x@j@t@|CpHrAbD|HfRoRrUgJnL_@^u@r@KJkSpMyIvFcBdAiMvEyEdB{EhA{JnAqJb@_@BkBLcLe@_BGcS{@g@AmAN_PxBGcG@]Hi@nB{HzC}LtK_c@dC}Jb@_Bl@b@VPLHj@VTFRBn@D`CF|BB@?H?H?X?L?hBDN?N?t@?F?b@?`@?R@vABpB@T@~A?vCD`@?RAN@P?H?`@@lA@`@@X?`@@L?P?pDB`A@B?P?lB?r@@fA@x@@Z?j@@V?fBDP@|AKj@Yb@c@zAqErBoFxBiGRe@XYfC}ArAy@r@[`@UnBy@nDgBbDuAPINGr@W`C[jBSXA"
+    },
+    {
+      "name": "6th district (VI. kerület)",
+      "osmId": 1606101,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.497552,
+        "maxLat": 47.5185558,
+        "minLng": 19.0547926,
+        "maxLng": 19.0808372
+      },
+      "encodedPolyline": "ik}`HsthsBqBAwACSAa@?c@?G?u@?O?O?iBEM?Y?I?I?A?}BCaCGo@ESCUGk@WMIWQm@c@wAeAkCkBaD_C_@WsCoBk@_@uB{AgAq@YSOKc@Yo@c@QO}@m@GCECOCOEKS]{@IOGM_AuBs@cBSm@EOa@iAM[kC_GOc@EMOYHMFMhCqDPYzAuB@E@ENAHENi@V[?m@uAqDn@{@}DwKiFgNNu@Wu@RWb@k@h@o@^e@t@{@h@o@v@}@JMlAwAZ]^e@\\a@NQvAcBxAeBRWDEJOTYLQZa@`AoApAcBpPeSJ^@FDLb@jARj@J\\nBrFn@fBRn@xBhGZz@Nd@|@dC@DL\\Lb@BB|@lCx@dCb@tAl@dBh@`Ah@bANZpCnF|A|CfCbFDFtB~DdBjDb@x@dAtBLXHNDJ@B@@FNHNVp@Th@\\dAHXFR`AxCXz@Vn@z@rBJRJPf@v@JVl@`AV^HJp@x@n@dA`A~ALPT\\DHLVBF`BtD~@~BJVdAdCp@zAHPDLTf@bArBdA~B@DLZD^c@b@k@X}AJQAgBEW?k@A[?y@AgAAs@AmB?Q?C?aAAqDCQ?M?a@AY?a@AmAAa@AI?Q?OAS@a@?wCE_B?UA"
+    },
+    {
+      "name": "7th district (VII. kerület)",
+      "osmId": 1606102,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.494314,
+        "maxLat": 47.5112158,
+        "minLng": 19.0551614,
+        "maxLng": 19.0911378
+      },
+      "encodedPolyline": "cp~`HgvmsBJ^@FDLb@jARj@J\\nBrFn@fBRn@xBhGZz@Nd@|@dC@DL\\Lb@BB|@lCx@dCb@tAl@dBh@`Ah@bANZpCnF|A|CfCbFDFtB~DdBjDb@x@dAtBLXHNDJ@B@@FNHNVp@Th@\\dAHXFR`AxCXz@Vn@z@rBJRJPf@v@JVl@`AV^HJp@x@n@dA`A~ALPT\\DHLVBF`BtD~@~BJVdAdCp@zAHPDLTf@bArBdA~B@DLZD^zAqErBoFxBiGRe@XYfC}ArAy@r@[ACCQSmAAOMs@O_AgAeHMq@Ge@aAeGAEAGCQCOg@sCUmAKg@G_@EQKi@Kc@GYEWOs@{@uEI_@E[}AuIOy@G_@KQMs@i@mCc@aCIa@QgAG]e@iCG[oAoHEUu@mE[oBMs@Mw@u@qESiASmBsAoD}D{KcCyGuAeDJQBC\\a@M[CO?_I?kB@wR?sAGOCEEEMK[b@i@l@eD|Dy@~@KLo@t@IH]b@[\\KLeBvB}BhCMNOPIJKLwBdCsA|AIJSRQNy@z@{@z@e@j@qB`CaRdT"
+    },
+    {
+      "name": "8th district (VIII. kerület)",
+      "osmId": 1606100,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4756216,
+        "maxLat": 47.5019853,
+        "minLng": 19.0599627,
+        "maxLng": 19.1090905
+      },
+      "encodedPolyline": "mf{`HwsisBACCQSmAAOMs@O_AgAeHMq@Ge@aAeGAEAGCQCOg@sCUmAKg@G_@EQKi@Kc@GYEWOs@{@uEI_@E[}AuIOy@G_@KQMs@i@mCc@aCIa@QgAG]e@iCG[oAoHEUu@mE[oBMs@Mw@u@qESiASmBsAoD}D{KcCyGuAeDJQBC\\a@M[CO?_I?kB@wR?sAGOCEEEMKJOBMDUD]X}D@UTkDXeELgBJwAVsDHoAHsATkDDo@@ADk@LwBt@iJJwAFy@Du@ZgCj@Qt@Ud@u@}@uQk@cMt@EhO}BbC]dH@`TTnIJnGT|@R^JXLnIpD@B~CxBzJ|IpI`HfLhJbZ`T_Jp\\wIx[kC`M]pA[jA_@zA[nACFCJCJENi@xB_@vAmAzEe@jBGVSx@Kb@YfAg@pBi@rBwA|FELc@bB]tASz@e@jBSv@St@I\\q@hCS|@u@zCYdAk@xBCJGRI`@IVm@fC_@xA_@xA[tAm@`CYhAADGTGVERABADCJEPCHCJGRIXK\\s@xBs@pBM\\}@`CABi@vAENCFO`@M\\iD`JUn@a@dAGLKXCFCHIPGPM\\CFcAbCc@pAQ`@Qb@i@vA]c@m@EY@kBRaCZs@VOFQHcDtAoDfBoBx@a@T"
+    },
+    {
+      "name": "9th district (IX. kerület)",
+      "osmId": 1552462,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 47.4399579,
+        "maxLat": 47.4897519,
+        "minLng": 19.0549817,
+        "maxLng": 19.1283295
+      },
+      "encodedPolyline": "qbz`HqvisB|CpHrAbD|HfRhEqFvMwP|IwMr@iApCcEbDiD|A_BtJwGzAeAdFkBjFoBlMgBdIMbEZr@DnCArGtAb[tQ`BiOLaDBo@NwGCeA?OAm@M{IB}A\\iFb@iCl@}BlNoV|[a^fCoAjHqDfp@{M|ReE~A]?}EyGuZQEOKSQKWEGEICGc@y@S[We@U]GMmA}Bu@sAsA{Bu@qA]i@MWWc@mAuBaAgBe@w@MSGM_BkCy@wAc@s@EIc@u@_FoIyAeCKQcBwC[k@w@oAKOEIGK?AuA_C_AaBsCaFyEgIqA{BMS}@{AS]qC_FeAiBIOOWGIMUS[a@q@sAwBi@_As@kAIOe@u@MWS]GMm@gAq@mAYi@uCeFmCeEGIgCmEoCsE_C_EQYGMkGsKiGqKmAsBEGCGmBcDu@kAi@cAEIMYGGmD}FeBlGm@`Ay@~CyErRwMdg@a@jBCFAB{Khb@Yp@[x@wAtFEL_BdG]xAiCtJeLxc@_Jp\\wIx[kC`M]pA[jA_@zA[nACFCJCJENi@xB_@vAmAzEe@jBGVSx@Kb@YfAg@pBi@rBwA|FELc@bB]tASz@e@jBSv@St@I\\q@hCS|@u@zCYdAk@xBCJGRI`@IVm@fC_@xA_@xA[tAm@`CYhAADGTGVERABADCJEPCHCJGRIXK\\s@xBs@pBM\\}@`CABi@vAENCFO`@M\\iD`JUn@a@dAGLKXCFCHIPGPM\\CFcAbCc@pAQ`@Qb@i@vAdCtBx@x@j@t@"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
