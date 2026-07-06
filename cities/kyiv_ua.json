@@ -1,6 +1,7 @@
 {
   "name": "Kyiv",
   "countryCode": "UA",
+  "aliases": ["Київ", "Kiev"],
   "regions": [
     {
       "name": "Pecherskyi",

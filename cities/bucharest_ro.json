@@ -1,6 +1,7 @@
 {
   "name": "Bucharest",
   "countryCode": "RO",
+  "aliases": ["București"],
   "centerLat": 44.4378,
   "centerLng": 26.0961,
   "radiusKm": 16.99,

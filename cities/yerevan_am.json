@@ -1,6 +1,7 @@
 {
   "name": "Yerevan",
   "countryCode": "AM",
+  "aliases": ["Երևան"],
   "regions": [
     {
       "name": "Nubarashen",

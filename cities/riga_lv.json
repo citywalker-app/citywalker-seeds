@@ -1,6 +1,7 @@
 {
   "name": "Riga",
   "countryCode": "LV",
+  "aliases": ["Rīga"],
   "regions": [
     {
       "name": "Bolderājas apkaime",

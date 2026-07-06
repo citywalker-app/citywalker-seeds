@@ -1,6 +1,7 @@
 {
   "name": "Saint Petersburg",
   "countryCode": "RU",
+  "aliases": ["Санкт-Петербург", "St Petersburg", "St. Petersburg"],
   "regions": [
     {
       "name": "Admiralteysky District (Адмиралтейский район)",

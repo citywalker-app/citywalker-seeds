@@ -1,6 +1,7 @@
 {
   "name": "Vienna",
   "countryCode": "AT",
+  "aliases": ["Wien"],
   "regions": [
     {
       "name": "Alsergrund",

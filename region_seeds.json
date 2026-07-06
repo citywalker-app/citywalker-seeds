@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 42,
   "cities": [
     {
       "name": "Amsterdam",
@@ -1705,6 +1705,9 @@
     {
       "name": "Bucharest",
       "countryCode": "RO",
+      "aliases": [
+        "București"
+      ],
       "centerLat": 44.4378,
       "centerLng": 26.0961,
       "radiusKm": 16.99,
@@ -4647,6 +4650,10 @@
     {
       "name": "Kyiv",
       "countryCode": "UA",
+      "aliases": [
+        "Київ",
+        "Kiev"
+      ],
       "regions": [
         {
           "name": "Pecherskyi",
@@ -7167,6 +7174,9 @@
     {
       "name": "Riga",
       "countryCode": "LV",
+      "aliases": [
+        "Rīga"
+      ],
       "regions": [
         {
           "name": "Bolderājas apkaime",
@@ -7552,6 +7562,11 @@
     {
       "name": "Saint Petersburg",
       "countryCode": "RU",
+      "aliases": [
+        "Санкт-Петербург",
+        "St Petersburg",
+        "St. Petersburg"
+      ],
       "regions": [
         {
           "name": "Admiralteysky District (Адмиралтейский район)",
@@ -9159,6 +9174,9 @@
     {
       "name": "Vienna",
       "countryCode": "AT",
+      "aliases": [
+        "Wien"
+      ],
       "regions": [
         {
           "name": "Alsergrund",
@@ -9931,6 +9949,9 @@
     {
       "name": "Yerevan",
       "countryCode": "AM",
+      "aliases": [
+        "Երևան"
+      ],
       "regions": [
         {
           "name": "Nubarashen",
