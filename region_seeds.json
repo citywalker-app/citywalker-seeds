@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "cities": [
     {
       "name": "Amsterdam",
@@ -5100,6 +5100,11 @@
     {
       "name": "London",
       "countryCode": "GB",
+      "aliases": [
+        "Greater London",
+        "City of London",
+        "City of Westminster"
+      ],
       "regions": [
         {
           "name": "City of London",

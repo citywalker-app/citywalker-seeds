@@ -1,6 +1,7 @@
 {
   "name": "London",
   "countryCode": "GB",
+  "aliases": ["Greater London", "City of London", "City of Westminster"],
   "regions": [
     {
       "name": "City of London",
