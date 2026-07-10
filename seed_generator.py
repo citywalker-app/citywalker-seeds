@@ -309,16 +309,33 @@ def _union_polygons(districts):
             pts = d["points"]
             if len(pts) >= 3:
                 # Shapely uses (x, y) = (lng, lat)
-                polys.append(ShapelyPolygon([(p[1], p[0]) for p in pts]))
-        if polys:
-            merged = unary_union(polys)
+                poly = ShapelyPolygon([(p[1], p[0]) for p in pts])
+                if not poly.is_valid:
+                    # OSM ways occasionally stitch into a self-touching/bowtie
+                    # ring — buffer(0) is the standard Shapely repair trick,
+                    # otherwise unary_union raises a TopologyException.
+                    poly = poly.buffer(0)
+                polys.append(poly)
+        try:
+            merged = unary_union(polys) if polys else None
+        except Exception as e:
+            print(f"    ⚠️   union failed even after repair ({e}); "
+                  f"falling back to convex hull for this cluster", file=sys.stderr)
+            merged = None
+        if merged is not None:
             # MultiPolygon → take the largest piece
             if merged.geom_type == "MultiPolygon":
                 merged = max(merged.geoms, key=lambda g: g.area)
             if not merged.is_empty:
                 # Convert back to (lat, lng)
                 return [(lat, lng) for lng, lat in merged.exterior.coords]
-    # Fallback: convex hull
+    # Fallback: convex hull. Bridges gaps between non-adjacent member
+    # districts and bloats past the real union footprint, which can make
+    # neighboring clusters visibly overlap in the preview — always prefer
+    # the Shapely path (`pip install shapely` / see requirements.txt).
+    print("    ⚠️   shapely not installed — using convex-hull fallback for this "
+          "cluster; check the preview closely for overlaps with its neighbors",
+          file=sys.stderr)
     all_pts = [p for d in districts for p in d["points"]]
     return convex_hull(all_pts) or all_pts
 
