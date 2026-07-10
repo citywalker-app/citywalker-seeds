@@ -55,20 +55,32 @@ NOMINATIM    = "https://nominatim.openstreetmap.org"
 _TRANSLIT = str.maketrans({"ł": "l", "Ł": "l", "ø": "o", "Ø": "o",
                            "đ": "d", "Đ": "d", "ß": "ss"})
 
-def slugify(city, country):
-    s = city.translate(_TRANSLIT)
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    s = re.sub(r"[^a-z0-9-]+", "_", s.lower()).strip("_")
+def slugify(city, country, slug_override=None):
+    if slug_override:
+        s = re.sub(r"[^a-z0-9-]+", "_", slug_override.lower()).strip("_")
+    else:
+        s = city.translate(_TRANSLIT)
+        s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+        s = re.sub(r"[^a-z0-9-]+", "_", s.lower()).strip("_")
+    if not s:
+        raise ValueError(
+            f"Couldn't derive a filename slug from {city!r} — the name has no "
+            f"Latin-transliterable characters (common for Greek/Cyrillic/CJK "
+            f"cities where Nominatim's English-name search only returns a "
+            f"place node, not a boundary relation, so you have to query the "
+            f"native name). Pass --slug to set one explicitly, e.g. "
+            f"--slug piraeus."
+        )
     return f"{s}_{country.lower()}"
 
 
 # ── Download cache (resume support) ─────────────────────────────────────────
 
-def _cache_path(city, country):
-    return CACHE_DIR / f"{slugify(city, country)}.json"
+def _cache_path(city, country, slug=None):
+    return CACHE_DIR / f"{slugify(city, country, slug)}.json"
 
-def load_cache(city, country):
-    path = _cache_path(city, country)
+def load_cache(city, country, slug=None):
+    path = _cache_path(city, country, slug)
     if path.exists():
         data = json.loads(path.read_text())
         fetched = sum(1 for d in data["districts"] if d["points"] is not None)
@@ -77,9 +89,9 @@ def load_cache(city, country):
         return data
     return None
 
-def save_cache(city, country, rel_id, admin_level, found_level, districts):
+def save_cache(city, country, rel_id, admin_level, found_level, districts, slug=None):
     CACHE_DIR.mkdir(exist_ok=True)
-    _cache_path(city, country).write_text(json.dumps({
+    _cache_path(city, country, slug).write_text(json.dumps({
         "city": city, "country": country,
         "rel_id": rel_id, "admin_level": admin_level, "found_level": found_level,
         "districts": [
@@ -89,8 +101,8 @@ def save_cache(city, country, rel_id, admin_level, found_level, districts):
         ],
     }, indent=2))
 
-def clear_cache(city, country):
-    p = _cache_path(city, country)
+def clear_cache(city, country, slug=None):
+    p = _cache_path(city, country, slug)
     if p.exists():
         p.unlink()
 
@@ -449,9 +461,9 @@ COLORS = [
     "#ffe119","#dcbeff","#fabed4","#ffd8b1","#fffac8",
 ]
 
-def write_preview(city_name, country_code, regions, original_count):
+def write_preview(city_name, country_code, regions, original_count, slug=None):
     PREVIEW_DIR.mkdir(exist_ok=True)
-    path = PREVIEW_DIR / f"{slugify(city_name, country_code)}.html"
+    path = PREVIEW_DIR / f"{slugify(city_name, country_code, slug)}.html"
 
     features = []
     for i, r in enumerate(regions):
@@ -595,6 +607,10 @@ def main():
                         help="Attribution line for the source, e.g. 'City of Sacramento Open Data'")
     parser.add_argument("--dry-run", action="store_true",
                         help="Generate preview only; don't write any seed files")
+    parser.add_argument("--slug", default=None,
+                        help="Explicit filename slug (without the country suffix), for "
+                             "cities whose name has no Latin-transliterable characters, "
+                             "e.g. --slug piraeus for a city queried by its Greek name")
     args = parser.parse_args()
 
     print(f"\n🔍  {args.city}, {args.country.upper()}")
@@ -619,7 +635,7 @@ def main():
 
     else:
         # ── OSM / Overpass path (with resume cache) ───────────────────────
-        cache = load_cache(args.city, args.country)
+        cache = load_cache(args.city, args.country, args.slug)
         if cache:
             rel_id      = cache["rel_id"]
             admin_level = cache["admin_level"]
@@ -656,7 +672,7 @@ def main():
                  "points": None}
                 for i, d in enumerate(raw_districts)
             ]
-            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
+            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts, args.slug)
 
         # ── 3. Fetch polygons (resume-aware) ──────────────────────────────
         total   = len(cached_districts)
@@ -677,7 +693,7 @@ def main():
                     print(f"({len(pts)} pts)")
             except Exception as e:
                 print(f"ERROR: {e}")
-            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts)
+            save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts, args.slug)
             time.sleep(3)
 
         fetched = [d for d in cached_districts if d.get("points")]
@@ -761,7 +777,7 @@ def main():
 
     # ── 6. Preview ────────────────────────────────────────────────────────
     print(f"\n🗺   Writing preview…")
-    preview = write_preview(args.city, args.country, seed_regions, clustered_from)
+    preview = write_preview(args.city, args.country, seed_regions, clustered_from, args.slug)
     print(f"    open {preview}")
 
     if args.dry_run:
@@ -770,7 +786,7 @@ def main():
 
     # ── 7. Write cities/<slug>.json, bump VERSION, rebuild ───────────────
     CITIES_DIR.mkdir(exist_ok=True)
-    city_path = CITIES_DIR / f"{slugify(args.city, args.country)}.json"
+    city_path = CITIES_DIR / f"{slugify(args.city, args.country, args.slug)}.json"
     if city_path.exists():
         print(f"\n📝  Replacing existing {city_path.name}…")
     city_path.write_text(json.dumps(city_entry, indent=2, ensure_ascii=False) + "\n")
@@ -781,7 +797,7 @@ def main():
     subprocess.run([sys.executable, str(ROOT / "build.py")], check=True)
 
     if not args.geojson_url and not args.shapefile:
-        clear_cache(args.city, args.country)
+        clear_cache(args.city, args.country, args.slug)
     if source["license"] == "unknown" or source["attribution"] == "unknown":
         print(f"⚠️   Fill in source license/attribution in {city_path.name} "
               f"(or pass --source-license / --source-attribution)")
