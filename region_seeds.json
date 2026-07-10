@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "cities": [
     {
       "name": "Amsterdam",
@@ -7100,6 +7100,80 @@
             "minLng": 2.224143,
             "maxLng": 2.333288
           }
+        }
+      ]
+    },
+    {
+      "name": "Piraeus",
+      "countryCode": "GR",
+      "aliases": [
+        "Πειραιάς"
+      ],
+      "regions": [
+        {
+          "name": "1st District of Piraeus (1η Κοινότητα Πειραιά)",
+          "osmId": 12122225,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9263246,
+            "maxLat": 37.9403562,
+            "minLng": 23.6209926,
+            "maxLng": 23.6531641
+          },
+          "encodedPolyline": "gbqfFiygoChAHpBPvE^d@DCrCChCeBOAN_CU{AMuAM[~@k@`BEL@XlCZxBRnAJJ\\H^OXi@dAm@nAu@zAg@fACFS`DKfBMzAQxBMtAK|AfFxU|AKjDqAXLl@`DaApEYNkBm@gAiDOHjAnDrBp@lPjFo@xDP`AwIfCHn@gA`@AESHCB?HDHB@lBs@NHlKmDRKJKFKFQ`@oBDUDS@O@IBQDK?G@ODSBODYBMDQh@[B?F?BABGDEDADA@C@IDC@A@C@E@IBKDK@MAO?EACEKGKEMAEACEGAAACAC?CAE?GACACCCAAA?A?AA?E?A?C?CAECCCECC?CAC?CAG?A?G?CAAA?CA?CAAACACCEAKCQ?E?ECCAEACC@AA?G?E?E?EAE?E@IAC?EAECC?C@C?E?CCC?E?C?E?G?GAIAC?GAE?EAE?O?G@I@I?I?G?C?EAG?E@G?I?KAK?I@G?I?G?I?A?C@E?G?G?M?O@I?K?G?ETGE[@AB?DZFCBCF?DDHFTRNNDDJND@B@HLDDBA@B@BD@@B@BD??B@D@BB?B@@B@D@B?D^ZBBO`@B?H?BAFAF?DADAJCF?HAD@HFFDHBDBB?@CB?@BDDD@B?BBB?@?FBB@BD@F@FBDDBD?DADAD?@@B?B@BB?B@JB?F@JCHIDAPAVGPMNGXKJG@GNGJAL@DEFCJCJEJKLMDILGDGJEFEHEDC@I@ELIJGJGDGD?H?FELEPMJELGBEB?FCDCBG@E@C@CF?B@DABEBCDGDEDCDEBEBEDIDIDEDABADCBCDEBE@CBE?EDAD?BCBEBE@E@CDEBEDKBI?A@I@GAEAE@CBE?QISKQGCAICCCAEEEEECCICCGKCGCAC?GIECAAEAA@C?AEAAC?ACCACAC?CCICAAEAI?ACKC?A???C?AAA?C???AA@?A???AC??C?EB??I@A@E@CF????@?@@@??????@A?A@A?A@?@@@??A?C@A@A@@D???FE?G@F@B@A?E@?@BDABE@A?A@?@@B?BA@@B?@AB?@@@@?AB@?C@@@??@B?BA@A?@B?@?BA@B?CBB@ABE@DBAB@?CBB@CDA@BBA?C@@B@BAB@BC?C?G@DB@@?@C?DBB@C@@BI?HBC?BDAB@BC@BBCAKB?HJLB@M@HFC@@@GPB?FFE@FFCHAZFBCN@DF@KFARWHOBEDE?ELQ?GD@@G?IBEBE@GAKD@?E?GFGBCDFBG@UFGDS?MLQ?a@Fa@BWGE?OAMEGDKGCCMBIAMCQEOAOCYBKEWH[GKFOAMEA?KHUIa@@O?MHi@CUBOEMJOE[DKCGDQ?UDc@AQBODCCKFG?MJ[EIBEIWFGG[GKE]UU_@G?DGAADQOKFEGE@CAGDICCAACEFAE?EEGC??@?BAC@CCC?@?BAEC@@DACCA@EIEAFGC@CBAECGAC?CEEBAGCCC@@BCCAEAA?D?EAABE@MCIBMAMIg@@IAQEGBMEKC@ASAGCM?GAG?EAGCE?ACCA??@?@AC@EAE?GBBB?AC@B@@@CAE??BFFCAGFJ@AAG@B?BB??AACAAB@?@B?CGACDHB?@CAA?C@@?CBB?EDLBA?GDD@AAI??BB@?BD@AAEACB@@D@GBDD?CG@?DJDEAKFFBCCGJHNCVALKJINo@CIDCFQEWNs@@_@EE@MMWAMEIC?IIEA?EC?CGEAEIGMAGE@CGMg@KAPCDIAEG?EGC?A?CIA?AECKGGAKEKGM?U?WAO?K@M?O?Q?Q?MAG?M@G?K?K?K?Q?a@Iw@AQCMDMQGCKCSCQCOEUEWEM?ICGE@CAAEBCCIC?ECAEBC?GAEC@C@CAACE@CDCCCICKIMSe@Q[KQEIKSKSKKGGCCCC?ECEe@e@CCCCCGCCGEEEGICGIKIIKIIIECGCCCCCCECEEEIEICEGCCEAEAGICGCCCACEGEEKIIKWISGYI_@Ga@Gc@Ea@O}@EWIm@E_@CSEUKw@Gu@C[EYE_@E]yEcLQe@IWEOESCQCWCQAU?Q?YBkB?QAGCEEAG?E@CB?B?@I?G?G?Ar@J?CfB@X@VB\\DZF\\JZHTFPEDPd@LKtAbDzBhFBBAHu@`HgB]A?C@QL?@MjAMjASNyBc@{BuD_A{AqAyBkBF?D?V??AD?D@@?@@HA@?????A?A??A???A???A@???AA???A???A@???@??A?????AA???@?@?@??????A??AA????@A??@?@??@???@A?@?????@@???A@???@A??@???@A@A??@???@?@????A???A??@??A@?A???A?@A??AA????@A????A??AAAA??A@???@?@A@????AA????A??@A@?@A?AA??A@?@A?A@A?A??@ABA@A?A@?BA???A?@A?AA?A?A@?@A?@@@@A@A?A??@A@A?A@A@??C??D?@A@?@?@A???A@??A???A??@?@?@A???A?A@?@?@A@A?A?A?AAA@AGGBISCBAAACBCISED??a@\\ACED@BaAt@YS@CQMEJA@LJMZGEe@bACHdAt@c@~CFD?@?BICG`@_@\\[TaBDkTvf@Zx@bBhF"
+        },
+        {
+          "name": "2nd District of Piraeus (2η Κοινότητα Πειραιά)",
+          "osmId": 12122222,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9328997,
+            "maxLat": 37.9526995,
+            "minLng": 23.6381813,
+            "maxLng": 23.6642279
+          },
+          "encodedPolyline": "iorfFonhoCXjHfFnEKRIPjAbAHSBIDIbB|ABIH]H]mBiBJOHSwAoA@eBb@w@xBlB`@{@b@}@yDcDSQ\\w@fB}DTg@Zu@tAQpASh@b@n@j@p@h@ZVRNKpAYnCOtAjA@nIBnBbGjTwf@y@]FYGEECIEOGWMK\\cAi@CCEE_BoCg@y@ACACSqAOgAAE?C?ETwDVu@@E@EBB\\u@Vi@BCnAc@nBo@B?bBPpAP`@DF@B@v@x@GJv@x@FF?N@D@HLAAQG?@G?ID??BA@@?@?@?@AB?@A??@@BAB??AJALCDADABCDCDEDEFIBBBEAA@A?@@????A??@A?@@????A?C@A?A??@??@?A@??A?A??@???@???@???@??????A@????@??@??@@A??@??A??@???@??@@??A@?BADA???A?A??@?????@@?B@?@?BA@A@A@@B@B@B?@ABCB?^FXFDBDB@?B@@@B@@@B?@A@?@@@?@?@?@??@@?@A?A?A@???@@A@?B?@?B@?@CBAB?@@B@B@B?BA@?@A@A?C?C?A?AbAD?Gw@C@Ut@BDwA`@@?Iy@E@wAnBH?N`@@?K?UoCKu@C?K_@AAAO?AAAAECACEGAACECC?E?CA?ACAA?C?CCCAACCECAAAEAEAAACCCAECACCCCAC?ACAAA?CCCAEECCCAAACCECEAAC?A@CAECCECCGGACACCIACCC?CCAC?CCEECICGEIEGCGGSMg@Os@GYKi@Ga@Ee@Ca@A[?]?]?iA@cC?G?G?CBC@C@GAIA[@[@K@G@G?e@@Q@YBY?GAK@MBQDUBUBSBQBODMDKDQ?I?IAQEMIQKSEK?G?G@@NY??H@?A?AIA?C@C@C?C@EBC@EDEFGBE@A?C@ABC?A?A@A@?@@BA@C?CAC?A@C??@G?C@C@E@E@C@AB@@C?E?G?G?CBA?C?C?C?C@C@E?E?CCAAAAA@CBA@A@CCCA?ACAAAC?E?CAAABC@A?AECCCACECEAC?CAAC?ABA@A?AAA?@C?A?CC?A@C?A@EAG?G@KBACE?CCACCAG@I??E??CBE@EIECCCGCEIEGAEAECKAGEc@COQk@DEBC@I?C@EAICKGCCEAGKSGSKOEICICMGKCGCGGAByBA?[??f@N?CbB?DDHEB@DEFABE@C?A?C?C@CBA?CB?@ABA??BA@C@C?CBC@C@A@?BBB@B@?BAh@YX~@BAHJFRQHDRRMVfARz@O`AEPCHABIJGJIDE?DL@HGDDHeA^Io@UFA?Hp@K@SB_@?g@?YCOCOGeAg@WSMSyAsCEQCIIe@CWAM?M?M?MBM@KBIVg@DB^y@BANO?AJKBA@At@Oz@S??xA^?B@@@@@?@C@A?A@??@@???@CAA@C?ECCC?CA?C@CACCCCAA?EAA@ECEEECGCIIMSa@g@We@AAQWSUc@i@Ua@QUKS?AEIEEE?AAC?AAAAAEAAAG?E@G?I@O?GAIAI?QA]AIAG?C?IACA?ACA?A@A@?@A@ABBD?@?B?F?F@@AD?B?B@B@D?HA@?@ABAB?BABABADABCDAFCDAB?BCBABA@A?AB?BA@EBOHEBQJ?BA?GBGDg@ZEB?@[Tg@Z}@j@MHMHOFMDGBOBK@{Cd@YFUHOFSLeBpAMHEBE@G?KAGAGAGCIEEEGIuAwBECAEACSuBDKwDcCIG?jAKrBWnAm@hBcGdKsFlJmA|Bq@jBeErIcT~[oAkA_@~@VdBB|@BlDLpC^~AVn@NR`@j@TXdDrAjEbBfAv@Xd@?zWlCJnA?fB?hB?nA?"
+        },
+        {
+          "name": "3rd District of Piraeus (3η Κοινότητα Πειραιά)",
+          "osmId": 12122223,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9374051,
+            "maxLat": 37.9547322,
+            "minLng": 23.6573753,
+            "maxLng": 23.6736722
+          },
+          "encodedPolyline": "exqfFotloCb@PBB@@@B@@@B@B?DADAFCLAD?D?B@D?B@B@DBDvAxB@@@@@@B?DAxAm@FGXSJGHGLGLGJELENCZEt@MpASNCNCLEPIf@[j@]ROLGFGi@aCT_Ah@TvA~ALOBE?E@I@G?E?C?C?ECEEEGOGGIGEIGGGEGCIAMCc@SGGCEEEEDC?GEKCGGKAMGGIOGIGIGKGAACEGIGEIAGCMCGCEKCIEIKg@E[GWGWIc@G]CQCUAWAO@Q?]@UB_@@]@UBWD]F]He@DQJ]DKDKBCDEBC@CBG?CEGOIOIOGCG?E@KBMHQFYBG@K@G@IDOBQDIBM@I?ICCEAE@CBKd@GXABCFCDELEJERKGAAIEOt@sAq@}@c@mAo@UMSFEYBOCAaBy@i@RGIFYJ]tCtAFB`@TjByGrJ~EUz@W|@Ur@Kb@?FD@F?DILHlAkEdB|@Qh@lFhCMf@`Ad@}@hDgAbETJAL?J@JFBH@FCBG@I?MLg@l@yB`@yAh@qB?I?GAICCCAGg@OGH_@kFsDi@_@aN_HeAi@aAg@wAm@BO@MfBt@dAh@jExB~GnDl@XJDFFBBD?@E}@a@qAs@sBcAgCsAw@a@qAo@_B{@MGgAc@YMYKc@O]Mu@Qa@G]Gk@Iq@GUAEAK?UAwA?eC@}AAyMAaEAyDKsBOmGc@gC]gAWeA[gG_B`@nB~@dE^|Az@xDh@zBnArF|@xDjR`z@pA~ETKzMoT~LyGn@AVoAJsB?kAHFvDbC"
+        },
+        {
+          "name": "4th District of Piraeus (4η Κοινότητα Πειραιά)",
+          "osmId": 12122224,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9443752,
+            "maxLat": 37.9658023,
+            "minLng": 23.6446651,
+            "maxLng": 23.6684861
+          },
+          "encodedPolyline": "k_rfFkploCo@@_MxG{MnTUJqA_FkRaz@GBmAMeAIiAIcAIqAK}AKeBM}@GeAIiAKK?G@I@FH?D@F?B@JANCbAEz@Ct@G|@A\\ABC^EVAJAFADCJENETWhAEREPCHCJGVa@jBGZAFALAP?FAHA^AVIjBMEm@QUBG@E?EAGCEEKIu@m@MGOIGCEAE?E?EBEBCDIJCHEHEVGd@Eh@MvAOfBEd@Gx@Ed@El@Ej@Ef@Cd@C`@A`@?\\?P?P@PBRD\\BRHh@FZkAvAGHGJm@bAEFg@v@u@jAc@r@iBrCGJCDSOi@[_Ai@s@_@YQmAu@yAeAYSo@g@}BmBAD}@jBi@pAc@dA{@jBy@pBq@`BNh@dAxDZlAJd@TnABPH^Dl@@P?J@n@@d@Dd@D\\?BBNPj@L\\h@dAPMBDTPv@t@LJLJBB@@LJPNDDXTb@`@n@f@lAv@fAl@x@d@z@d@W^_A~Ab@f@v@x@u@bAm@|@o@~@APa@v@i@fAjAxABb@A`BAjACzBhHyGn@iB`@d@RYNMPElL_BHC`@gARgApAm@Be@rC]\\ZpDiGx@n@vAtBl@~@T\\LHtGzBrC`AZFTAOSWo@_@_BMqCCmDC}@WeB^_AnAjAbT_\\dEsIp@kBlA}BrFmJbGeKl@iB"
+        },
+        {
+          "name": "5th District of Piraeus (5η Κοινότητα Πειραιά)",
+          "osmId": 12122226,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9412242,
+            "maxLat": 37.9641559,
+            "minLng": 23.627468,
+            "maxLng": 23.6496304
+          },
+          "encodedPolyline": "{kqfFmlfoCF]gBuITKXIUoAkAcAOZKR_QePNULSy@y@}@Ba@DAHI??G}CBaCC@a@AWgIB?cAAgCAoO?iC@y@mCK?{WYe@gAw@kEcBeDsAUYa@k@U@[GsCaAuG{BMIU]m@_AwAuBy@o@qDhG][sC\\Cd@qAl@SfAa@fAIBmL~AQDOLSXa@e@o@hBiHxGCvBArCCdEYAAzAGlDw@AMhBGdCIfCG|BKdDEf@F~Ei@ADdBB~C@nG?rFAJM?w@AO?O?g@?I?HfAThDDv@XnE@V@N?\\?\\Cf@QbCJ?`B@H?x@?N@`AAfA@bACpAA|@?J?t@?N?`A?fA?hA?dAAj@?Z?n@?hA?v@AN@t@AP?H?V?dA@bA@D?@?b@?^Ap@?lA@pAAjA@v@?hA?`A?nA?dB??xEv@?H?lAAjA??}AnCA?}A?_A?i@?_AAsCAoF?M?K?M?aE?_@AmF?M?SAwF?s@DCh@JVBVBP@T?HA`@Er@ElDMJ@f@?t@@dAB~@GfAI~@Ev@Ab@A^@R?L@RDNDRHJDDDn@f@VVXXPRT^P\\LTN^Pb@HTJ\\JZ@F@F?B?B@@?BdFdElCbD`@b@@@@?B?@ABAFG????@?RRn@l@~BbCDBB@DAz@e@z@g@"
         }
       ]
     },
