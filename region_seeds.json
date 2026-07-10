@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "cities": [
     {
       "name": "Amsterdam",
@@ -3328,6 +3328,207 @@
             "maxLng": -64.107879
           },
           "encodedPolyline": "rpq~DbrlfKodAK\\tCm@?nAfMoObCUqHES_OBgLAaF?sGIHq^j@a^ioAuJqfC{SvBed@_wBuQkW_Cm@_@Wa@{JBSdZ?R?f[?pV?t@?nM?vU?tF?f@?P?@???fc@?vI?@?H?F?fK?r\\?zA?nK?l@?vI?NjJxClGjBDWnAP^FhARf@H`C^dDh@jBZvEv@hC`@rB\\xF~@NBhAPzCf@bDiRlE?|D@pH?vF@pLHVDbEDtH@pI@xCBbD@lDBvCCdD?`DBxE@dB@lA?bA@zACfA?z@@~@?dA?fA?f@Ah@?dACx@?xAAxA@dAAnA@lA?~A?vA@~A@vA@vBBpB@tB@|B@V?b@f@jCvChCvCfBzBZ^lCtCfD|DzExF`@`@fFfGfF|Fd@h@l@p@O\\dDxDhD|D~F|GJc@F_@f@oC|AaIf@sCl@yCt@wCZwCXsCXyCNmARBLBVBv@Lz@JVDpAPnAPXDB?@?lAPzBXtBh@hCp@rD`A@@d@LjAXjBh@pDbAlBh@hBd@hBf@rBd@bDx@RJzAd@XDvAb@dDp@jBmKbGdBbCl@jA\\`@Fz@Vn@PfBh@VHRDfBh@~Bl@jD~@\\sBD{CGO_Cq@m@Qv@aEn@`@fDdDj@d@zBfBvUfSlHbGbDtClD|ClDtClDtCjDzCrDzCfDvCjD|C|DbDb@b@hDrCzD`DbElD^ZbDrCvD`Dl@h@JHn@j@TRCiBo@kFm@kC]}Ay@wDk@iCMo@_AkEcAwEw@oD{@iE{@wD}BqKq@}Ce@uB[{A]HkG{XwEsTaB{IAKs@{DCOcFo^Kk@E]m@mEkAsIoBoNsCaRsCeR"
+        }
+      ]
+    },
+    {
+      "name": "Curitiba",
+      "countryCode": "BR",
+      "regions": [
+        {
+          "name": "Abranches",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4050095,
+            "maxLat": -25.3315892,
+            "minLng": -49.3052409,
+            "maxLng": -49.2454613
+          },
+          "encodedPolyline": "`{}yCv||kHna@[`BItz@qxAgGmqB?OMoAGq@COGQyNy`@gvDcyBulC{EKF}tAtmAGNgUrxArCtFx@tAnDrFNPrsDjfB~~BtbAvf@vM"
+        },
+        {
+          "name": "Augusta",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4881443,
+            "maxLat": -25.4349947,
+            "minLng": -49.3744532,
+            "maxLng": -49.3121643
+          },
+          "encodedPolyline": "|mkzChmjlHr@GXEf@G\\GPGPIdoDoxBAS__AysCej@qt@k@e@ujBc|@c@Mo@QYDej@jRe{@bfCeGnQIr@Ef@KtX@dALtAzaAzsD|n@f@la@P"
+        },
+        {
+          "name": "Boqueirão",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.52967,
+            "maxLat": -25.4649066,
+            "minLng": -49.262141,
+            "maxLng": -49.1899012
+          },
+          "encodedPolyline": "rwqzCjotkHldAg_@JErCgAxc@_Q|\\sM~IkDpBw@nDuA|QgH`ZkLp_@cxD_dBg~Aer@gYydCcl@mjBp|CiJpxB"
+        },
+        {
+          "name": "Campina do Siqueira",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4722665,
+            "maxLat": -25.3954552,
+            "minLng": -49.3472016,
+            "maxLng": -49.2692727
+          },
+          "encodedPolyline": "`zezC~belHpvFa~Cf@q@HMJODGDKtEqO`E}iEc~AkhB{nIbqAiHfUwf@fvBrxDv_GTF"
+        },
+        {
+          "name": "Campo de Santana",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.6309838,
+            "maxLat": -25.5375718,
+            "minLng": -49.3522952,
+            "maxLng": -49.2669418
+          },
+          "encodedPolyline": "b}g{CzbflH`|CyzBdAgBbBaMb@_Ea@uJa@_Hm@iD{~BusIsAwBaQ}NytGlCmOfHiDvC_H`IiZn]gIxKiHhKgkA|cCl{AvbG"
+        },
+        {
+          "name": "Capão da Imbuia",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4839125,
+            "maxLat": -25.400597,
+            "minLng": -49.24315,
+            "maxLng": -49.1843182
+          },
+          "encodedPolyline": "~hjzCtxpkHr@e@`gAos@ho@ib@leAyrFuN{LyTiQcEuAuSR{CTcF`@qzIplAy_B`uBz`AdeCDHNZJNbCbDtLlOrJlBXD^Dft@rCZ?"
+        },
+        {
+          "name": "Caximba",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.6435043,
+            "maxLat": -25.6045807,
+            "minLng": -49.3658621,
+            "maxLng": -49.329721
+          },
+          "encodedPolyline": "vqm{CrwhlHhm@Y|Is_@`BgHXmGa@uCimAaiDmEl@mkBjz@iKbJgYjXqFzFI\\qAxLn@dTzMfZv@bB`B~@t}C|r@"
+        },
+        {
+          "name": "Juvevê",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.441869,
+            "maxLat": -25.392762,
+            "minLng": -49.2859955,
+            "maxLng": -49.2397
+          },
+          "encodedPolyline": "tsezCndykHLGh_@cN`FyCdf@s^}AuFgKc_@{Umz@mBaHkJk\\u}@uuAiMsJSOYK]K[GWAS?}dApG}ALOBMBSFSHw@Zi@\\i@\\qh@`c@IHCBGHILci@jcAiGrLjHt_@`i@hsBXP"
+        },
+        {
+          "name": "Lindóia",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.5292998,
+            "maxLat": -25.4599377,
+            "minLng": -49.3186044,
+            "maxLng": -49.2380666
+          },
+          "encodedPolyline": "rzmzCfp_lHbgBe@`rDi[vB{BpjAiyIsVmWoqGebBkjBbqAa@lBuN~lCgJlkDth@zvAbBzCzKhFxAn@tBX"
+        },
+        {
+          "name": "Prado Velho",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4771776,
+            "maxLat": -25.4285368,
+            "minLng": -49.276477,
+            "maxLng": -49.2337318
+          },
+          "encodedPolyline": "v_hzC~hwkHb~BoKv~@wlAv_@i_CMUEMoAkCIOKOKMMKMMKIOIck@s\\MIKGOGUGSGUEcL}AWEUAwGW_lCcDgAAasAxy@xaAdlDjIzY"
+        },
+        {
+          "name": "Riviera",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4457707,
+            "maxLat": -25.3823394,
+            "minLng": -49.4553262,
+            "maxLng": -49.3357024
+          },
+          "encodedPolyline": "rn|yCxfzlHtbGqh@x`@_ThOgKzO{Rj@sAr`AcfJvA{q@go@wdDgQqo@YOUMUM[O[M_@My@WSGcAY_@KWGyhA{SkiAfIs`@nn@qEdNGTiAhECJCR"
+        },
+        {
+          "name": "Santa Felicidade",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.4224319,
+            "maxLat": -25.3468438,
+            "minLng": -49.3774616,
+            "maxLng": -49.3027281
+          },
+          "encodedPolyline": "~xazCb`klHb@Gz@Sfd@uLZKPK^YVWNUtAeCVg@\\q@d@kAJYLa@~B_INk@pLad@xJmyG?_@ImAgnBucBw@GgBIehBuAoPlCehFbnFvgIlrEzYrDza@fE"
+        },
+        {
+          "name": "São Miguel",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.5293491,
+            "maxLat": -25.4698596,
+            "minLng": -49.3720382,
+            "maxLng": -49.3112163
+          },
+          "encodedPolyline": "~avzCf~ilHtNkJpr@ud@bKuWvPkj@Hu@x@gXBoB@{A?g@KsAO}A]aC]cB}J{a@mnGysDeA?oLBsE@mD@iD@w@?{h@xl@{B~CMRKPITGRwBdKxqBrlE"
+        },
+        {
+          "name": "Sítio Cercado",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.6034894,
+            "maxLat": -25.5042916,
+            "minLng": -49.32085,
+            "maxLng": -49.2165557
+          },
+          "encodedPolyline": "ndwzCh~_lHvfOeyHxEaGv@aEce@e`AwZkn@ql@}k@cvCq_Cu@i@q@a@yBs@yH_A}tDm^oiAppAyrAtwJC`@Ch@Ab@@d@@^B`@BVpAdONhB"
+        },
+        {
+          "name": "Tingui",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -25.420118,
+            "maxLat": -25.3484028,
+            "minLng": -49.2616491,
+            "maxLng": -49.1931807
+          },
+          "encodedPolyline": "lc}yChltkHXAxh@mCHAJCNGFEFGvdCoyBFK~c@k~A}AwFoaDccEgBMq@@sITqAFsh@bDq`@nCm@JcAb@m@\\g@b@yhAbkAyXf]kjA|jBALiGlyAB^FJ~CjErm@t_@RH"
         }
       ]
     },
