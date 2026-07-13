@@ -223,18 +223,30 @@ def _build_ring(elements):
     segs  = [list(ways[w]) for w in outer if w in ways]
     if not segs:
         return []
-    ring = list(segs.pop(0))
+
+    # A relation can have multiple disjoint outer rings (exclaves / multi-part
+    # districts, e.g. Munich's Stadtbezirke). Chain every ring we can build
+    # from the remaining segments, then keep the largest — same "most points
+    # as a proxy for size" heuristic _geojson_ring_to_points uses for
+    # GeoJSON MultiPolygons, applied here so OSM relations get the same
+    # treatment instead of silently returning just the first fragment.
+    rings = []
     while segs:
-        last = ring[-1]
-        matched = False
-        for i, seg in enumerate(segs):
-            if seg[0] == last:
-                ring += seg[1:]; segs.pop(i); matched = True; break
-            if seg[-1] == last:
-                ring += list(reversed(seg))[1:]; segs.pop(i); matched = True; break
-        if not matched:
-            break
-    return [nodes[n] for n in ring if n in nodes]
+        ring = list(segs.pop(0))
+        while segs:
+            last = ring[-1]
+            matched = False
+            for i, seg in enumerate(segs):
+                if seg[0] == last:
+                    ring += seg[1:]; segs.pop(i); matched = True; break
+                if seg[-1] == last:
+                    ring += list(reversed(seg))[1:]; segs.pop(i); matched = True; break
+            if not matched:
+                break
+        rings.append(ring)
+
+    best = max(rings, key=len)
+    return [nodes[n] for n in best if n in nodes]
 
 # ── Geometry ────────────────────────────────────────────────────────────────
 
