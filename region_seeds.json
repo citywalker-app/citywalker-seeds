@@ -1,5 +1,5 @@
 {
-  "version": 75,
+  "version": 76,
   "cities": [
     {
       "name": "Amsterdam",
@@ -239,6 +239,108 @@
       "centerLat": 51.228391,
       "centerLng": 4.399391,
       "radiusKm": 12.86
+    },
+    {
+      "name": "Athens",
+      "countryCode": "GR",
+      "aliases": [
+        "Municipality of Athens",
+        "Athina",
+        "Αθήνα"
+      ],
+      "regions": [
+        {
+          "name": "1st District of Athens (1η Κοινότητα Αθηνών)",
+          "osmId": 12437446,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9594807,
+            "maxLat": 37.9956123,
+            "minLng": 23.7130381,
+            "maxLng": 23.766833
+          },
+          "encodedPolyline": "yuwfF_v}oCM|CMvCK~BAVQdEEv@?FANGBMBQFKBMBKBUFE@A@KBi@Lo@PYHSDaAV[HYHG@ODKBHh@NfAf@nDBPf@fDBPDZ@F@H?D@H?D?H?NAJK|AAPCf@UdDA@KhBATC\\AHQbCCl@IlAAJG~@AFEl@MhB??F@`@FB@PBN@r@JB@fALJBRBB?B@LBJ@NBGx@UfDBNB@A@?HA@AA?@AH?H??ABEz@CZEd@ANhC\\HBn@Hj@HLBJFJF|GvFrD~Cj@`@PLJNNTHRHXDNHd@FTNTNNPLPDV@dHBB?BBBBLLHJBDLP|@lAj@x@v@dA\\f@DDrAjBt@dAtAlBJLFHBDb@j@lAfBp@|@xAnBNTHJnEjGxBzCPXzSpYyAnBw@bAiBlC_AnAQTQRMNKJKHOJIFIFMHYNOH]PULSJSLSLMJMJMLQPQVQRiBbCKNMTMZIRIVGRETETEVCVCXAV?RoBEY@IbCkAlDgIsGAsDRSl@?NA`FwGP]Ni@Hm@?}@oBeUIWKUaJmMIA_Lj@K^oAlEq@AnBiXr@aLB_@E{Bm@@gBd@oC\\i@J_@EeAHmARKPIGG@A@YFKFWNUPILCBEFKRADAAGEEEMb@[|BLFLRFZWjAFp@Th@Lp@Fr@OPPtB{BAStKuB|IkAbBSV}@pAgIwCEq@c@W^_AuBmBUJE\\QAGIw@kAy@dAc@f@e@aAEKSd@QXU`@j@v@HHV^IDWNIFs@b@yAiBY_@QP]VYNA@KHgAp@UNoAv@YPC@MHM_@AA]gACIc@mA?AGQMHA@}AbAIFo@`@yA`AiBjAYRMHoChBKDEDyBlASHUWk@T}CbBkBhAcBfAi@aAqAgBSeEWOgA`@cQaCsCkBqAQ|@mc@bCmYaZ{Ej@gGlCiYIkAAeADy@PeARg@d@q@d@c@j@_@p@Ml@@p@Fd@NRP\\y@Nk@t@NhAR~AVpATHB\\FJ@z@NF@LBLMDe@F@JBvAXpAaAXSHIpB}Aq@eBk@uA]e@wAeBUGOMRCTDp@_AfCeBt@g@j@c@DE`@[x@q@\\WlA_ABCBA@Ah@e@VQJIt@i@hAu@LMtAaA\\UGKEMiAoCAEcAcCCEUo@Oc@a@eAb@aEn@{F^oDrC_BFCDAHCHAF?D?D?F@r@L~@RtATlARzATb@qECEKSp@w@LMRKDIp@iAR]Va@JOFKHMNWVc@P[p@gAb@u@BE@ALSBEvAjAFMFMpBkEJONSn@c@nAy@FEb@[FCxAaADEbC{ADDBBtBgGpClCx@|@BD`A|@?AHSd@sBnBr@^qB`@}BZsAuAm@t@_Ct@iEbBmEtBvAhB}EcBoBvGmPZw@tBlAvNxJsErEi@|@}@vBgBlEsAnD{@bDq@vD@XNHDXJDANEj@Eh@Ej@E`@]rCIdAAPATEf@AZEd@StC?DAJMnBEj@ATeC~BDLrAjCJT?BAJCX?JSPo@j@cA|@o@h@KJ@LGzAMhC"
+        },
+        {
+          "name": "2nd District of Athens (2η Κοινότητα Αθηνών)",
+          "osmId": 12437447,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9488434,
+            "maxLat": 37.9759804,
+            "minLng": 23.714865,
+            "maxLng": 23.7557821
+          },
+          "encodedPolyline": "}mufFg_}oC|@jBDLr@zAr@|A^t@Vj@|DiDnBcBz@u@x@s@r@o@VSpBeBzAsAX^tB|BUnAMr@Ox@Kr@zANRDtBx@Sz@_@xA[vACJYhAB@DBFf@LfAD^PdB@DP|APdBJ`AHz@LjAHz@C@u@VgAZPpE?NTxFB~@FtA?FHfBBbA@LPGf@QFCVtAb@vBe@Nr@zCEBq@\\IJYp@^x@r@xAz@~ADHZbA`@nARp@@FBNZv@JNPRPd@ANMdBh@TAJAj@?d@DJPVl@r@fAjAxAhBbAnALLCRE`@QhAALCLFRDLFJFDdAp@nAv@hAt@dAp@t@d@`@Vn@^^Xl@`@JTTd@b@~@Xb@NTh@r@j@v@d@r@_@f@o@|@kA~AQTILORa@j@CDs@`A}@lAiA|AEFCDCDABEFIHW`@cArASTg@p@g@p@a@h@cArAm@v@QVWZsAdBW^_@f@g@n@}@lAy@dAILa@f@oAbBY`@qEoGaAuAiA}AoG}IuBwCmAcBSY{SqYQYyB{CoEkGIKOUyAoBq@}@mAgBc@k@CEGIKMuAmBu@eAsAkBEE]g@w@eAk@y@}@mAMQCEIKMMCCCCC?eHCWAQEQMOOOUGUIe@EOIYISOUKOQMk@a@sD_D}GwFKGKGMCk@Io@IICiC]@ODe@B[D{@@C???I@I?A@@@A?I@ACACOTgDFy@OCKAMCCAC?SCKCgAMCAs@KOAQCCAa@GGA??LiBDm@@GF_A@KHmABm@PcC@IB]@UJiB@ATeDBg@@QJ}A@K?O?I?EAI?EAIAGE[CQg@gDCQg@oDOgAIi@JCNEFAXIZI`AWREXIn@Qh@MJC@ADATGJCLCJCPGLCFC@O?GDw@PeE@WJ_CLwCL}CrALrALhBPLKLMHINKr@o@zAqABCFGx@s@bByA~BsBNOjAaADEBCJI|CqCbA_Al@g@ZYNM`CwBTSr@o@d@c@^]bA{@j@pAf@fAn@nAbAvBlBdE@BFJ?FG~BC|@EnBCt@c@De@N`A`Av@|Av@bB`ArBl@lAf@dADJd@~@d@bApBfEFL"
+        },
+        {
+          "name": "3rd District of Athens (3η Κοινότητα Αθηνών)",
+          "osmId": 12437230,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9633777,
+            "maxLat": 37.9934838,
+            "minLng": 23.6870046,
+            "maxLng": 23.7293532
+          },
+          "encodedPolyline": "qiyfFwaxoC|AcA@ALIFP?@b@lABH\\fA@@L^LIBAXQnAw@TOfAq@JI@AXO\\WPQX^xAhBr@c@HGVOHEW_@IIk@w@Ta@PYRe@DJd@`Ab@g@x@eAv@jAFHP@D]TKtBlB_@~@b@VDp@fIvC|@qARWjAcBtB}IRuKzB@QuBNQGs@Mq@Ui@Gq@VkAG[MSMGZ}BLc@DDFD@@@EJSDGBCHMTQVOJGXG@AFAHFJQlASdAI^Dh@KnC]fBe@l@ADzBC^s@`LoBhXp@@nAmEJ_@~Kk@H@`JlMJTHVnBdU?|@Il@Oh@Q\\aFvGO@m@?SR@rDfIrGjAmDHcCXAnBDAX@`@@XB`@BXD`@JdAZnDLxAF|@FfAFnBBtBFxCD`C?n@?LALANCNELCHCHCFO\\GLmBrD}@jBCDuAbC}BbE}BlEoAbCkA~Bo@nA}AvCSZW\\MRIPMTINGPOVKVKRKPILSZs@x@Sm@[{@_@cAK]Ka@Kc@Ke@]cBS_AEOISKWKYQ][i@s@qAeBwCyFuJqBxB]`@w@n@AAsBrDoAaBcCIwAECjAEzAIlCExAMrGQ~HQtHGlEA~AMTIJGNABCHGTMh@a@|AY`AYbACNm@hCCJm@fCS~@CHENKV{@zB_@|@MTGLIRELCLG\\ALC\\OfDCZA`@C^[tGCr@APCJ?DEPe@`BSS_@_@kByB}@_Ae@g@WYa@c@eAeAWYSSs@s@}@q@]n@OOkF}EoAmAgCuCoBoBeD_CyA_Aw@c@QIwD}AmB{@SDQGIEGCc@OME_@QoBi@gA[eA]sB{@CAMGEA_CeAyAo@]QMG]Ug@YWOi@[gBuAgA}@GECCCEAEAEAIC_@CSCICKEGEG_@e@GGSSKMjBaDt\\{j@d@w@IQQ[CGEIEG[m@e@_A`A_AhAmA|AaBv@y@dAgBL]h@mB|@{CHUBGTg@`@eAZy@Qc@e@oAe@wAzAaAu@oBc@mAgA}Cu@wByAcEACkAiDGQ~AeA^WbBgAjBiA|CcBj@UTVRIxBmADEJEnCiBLIXShBkAxAaAn@a@HG"
+        },
+        {
+          "name": "4th District of Athens (4η Κοινότητα Αθηνών)",
+          "osmId": 12436992,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9856714,
+            "maxLat": 38.0149733,
+            "minLng": 23.6928288,
+            "maxLng": 23.72875
+          },
+          "encodedPolyline": "em_gFknwoCbCXtAJpERXDx@V`BdAVVTVFFLPPVPZj@fAZl@lBzDl@nAfF|FjG|Gt@jAdAbCjBhH`@nAb@|@v@lAtEzFd@l@b@l@b@l@`@p@pA|B`@t@b@z@Zv@Zz@n@`CrBrHfChIfExL^fAnBtFp@xA|AhCfFfHn@z@RXfDtDf@h@HOPYFMTq@Ro@f@mAj@kAnAmBLUPc@FQDQH_@j@gDN_DBc@@K@K@IDGAIC_@CSCICKEGEG_@e@GGSSKMjBaDt\\{j@d@w@IQQ[CGEIEG[m@e@_A`A_AhAmA|AaBv@y@dAgBL]h@mB|@{CHUBGTg@`@eAZy@Qc@e@oAe@wAzAaAu@oBc@mAgA}Cu@wByAcEACkAiDGQ~AeA^Wi@aAqAgBSeEWOgA`@cQaCsCkBqAQgAOoAHiJaAMDHrAwJr@OiDDwBLwD}[aBG`Au@a@{CcCkKuIoFmEqBmAuBkAg@OqAW}Ce@eNsAkI}@y@Ni@HkAHcADcCJ}BDBF@RALAd@E`CCzAEhBAh@?HEbBCrAAP@rAIzACr@A|@?lE?jB?PBxD?l@?n@AZ?^@pDDlBLFjA^|@T~@RpATv@L"
+        },
+        {
+          "name": "5th District of Athens (5η Κοινότητα Αθηνών)",
+          "osmId": 8387121,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 38.0081304,
+            "maxLat": 38.03276,
+            "minLng": 23.718893,
+            "maxLng": 23.7528235
+          },
+          "encodedPolyline": "go~fFkwzoCP??K?GDiD@K@kABaBBaCB{ADyCuCEq@AkBEE?BkAHeE?_BA_@Cc@CSCYM}@YqASy@Ik@Gk@C_@Ai@@g@aAIi@CGh@yL[??k@GoDmCaDyBUQDg@_@GEAOCC?CAUASAyBSiBOe@C_BMoAKOC[OSMSOMOCEmAbAy@cBCG?OPo@iAq@cCsAkBkAe@[a@WKGOK{@i@oAy@qAy@KGAA_Ak@MKSKOKQKECAAIGKGMI{CoB_DoByBuAyAaAqBqAgDwBkEqCCFo@pBm@lBELCHCJO`@EDGHQj@a@nAEN?HAHc@tAk@~Ay@bCg@xAIV_@fAEJq@rBCHGRa@`ASj@_@lACDELq@tBaAnD?^?n@?h@AP_@K}@]aAnGeAjGHt@Iv@UvAGd@DXHVdBdAnB|Ad@`@LNd@`A^t@n@r@b@VVHt@f@dBrAd@ZVF\\DbBh@fCh@dA^TNPNLTLXDPDb@@f@CjCD`APlCLj@Nh@l@lBTr@\\t@h@`ApAzCb@pAbAxBzBvCl@t@t@p@f@Z~@ZjB`@`@ZT\\Tl@n@hBh@jAd@f@xA~@tErCd@\\^`@d@x@Lj@Ln@?xCdAv@|BhBr@v@zApBpB`DzBfDtA`Br@z@f@ZjAr@~@j@`Ah@r@`@EmBAqD?_@@[?o@?m@CyD?Q?kB?mE@}@Bs@H{AAsA@QBsADcB?I@i@DiBB{ADaC@e@@MASCG|BEbCKbAEjAIh@Ix@O?K?SCi@KqCEmAOkCAO~B]nBMjAKz@GR?vACA_BR?fACF?B}AvBIH?@{C@aCR?dATDcD@gB?K"
+        },
+        {
+          "name": "6th District of Athens (6η Κοινότητα Αθηνών)",
+          "osmId": 12437835,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9912829,
+            "maxLat": 38.0124535,
+            "minLng": 23.7207578,
+            "maxLng": 23.7541948
+          },
+          "encodedPolyline": "qj{fF}_xoC|@mc@bCmYaZ{Ej@gGlCiYIkAAeADy@PeARg@d@q@d@c@j@_@p@Ml@@p@Fd@NRP\\y@Nk@t@NW{@Kc@AG?G?KEc@_A_DKa@Og@s@eCCQ@OJkANgB@MFm@EAsAqAeAkAKKoAyAy@}@UUaAy@cAcA@O@GVmBDQPg@Pg@eAs@a@SQKSKKEECk@pBs@fCUx@OTSb@c@lBGGKMkBmC]i@s@eAqAkBWa@GKaAwAWa@{@oA?iA?aC_Ag@CEEKw@TUDK?MEGCGK{@C}@AIAMEKIe@k@Q]KSSc@Kc@Ia@Ki@Ii@OD[DiADM?a@@k@Am@AK?C@}@HO@AOCGKMUKyC_@eBYi@IUESISSuAsAICEDYu@EIc@uAi@eBwApAyC~A^rAWNKFOMISIHgAvAy@lACD_@f@MFcBd@Xp@fAxCgAt@JPv@xAq@b@KHh@fB^nATr@jCtIGzBA\\?NA`@GdBAf@Cv@SxG_EGuAMiBGAf@@h@B^Fj@Hj@Rx@XpAL|@BXBRBb@@^?~AIdECjAD?jBDp@@tCDExCCzAC`CC`BAjAAJEhD?F?JQ??JAfBEbDeAUS?A`CAzCI?wBHC|AG?gABS?@~AwABS?{@FkAJoBL_C\\@NNjCDlAJpCBh@?R?JjI|@dNrA|Cd@pAVf@NtBjApBlAnFlEjKtIzCbCt@`@FaA|[`BMvDEvBNhDvJs@IsALEhJ`AnAIfAN"
+        },
+        {
+          "name": "7th District of Athens (7η Κοινότητα Αθηνών)",
+          "osmId": 12437836,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 37.9792881,
+            "maxLat": 38.0064906,
+            "minLng": 23.7397299,
+            "maxLng": 23.7904386
+          },
+          "encodedPolyline": "}o}fFo_~oCO@AOCGKMUKyC_@eBYi@IUESISSuAsAICEDYu@EIc@uAi@eBnBiBlHmh@`CeFd@m@h@q@V[FI`AmA^g@X]PULO|@iAHKjAyA`AmAFKr@y@^k@DC@C\\e@t@}@b@m@vAgBrDwE`AoAn@y@LQJMTW}@y@_@[i@i@m@q@gB}Bs@eA_@u@Gk@Oy@QqAIm@K_AIy@K{@Mi@QyBWyB@IlAsB~@yAj@cAn@eAv@qALWb@s@HMh@_AP_@x@YRI@O?MAEEKEEIG}CmBMKkA{@aCgBe@[CCcEyCWSMKKKmH}Ek@]`@y@L[hAwCDMjBwEt@mBn@{A`@cA`@eAVu@d@iABEFQJSR^p@rALZnAhChAxBRXxArBp@z@`AvAFIHIdH_IzHwIrPaRjGe@j@|NB^tBlLfExAxIuChAcBt@a@lD|KfDpJ|@jBlFiD`AtBjBfDtD|GGJADoAxBcAjFG~AJjA_AzAeCpAe@hEPpBDd@e@hIBdFChAmBfClArBJTnAtCz@~B@DDLDJVr@FNHVb@lAjAjDRh@v@~BPf@j@~An@hBXx@Z|@Tn@l@dBz@bC^dAFPDLl@dBDLBFL\\FRHT?b@?R?D?L?n@@z@?`@?~B?jA@\\?p@?RDLX|@DL|@lCFPj@dBVx@GDoAx@o@b@ORKNqBjEGLGLwAkACDMRA@CDc@t@q@fAQZWb@OVILGJKNW`@S\\q@hAEHSJMLq@v@JRBDc@pE{AUmASuAU_ASs@MGAE?E?G?I@IBE@GBsC~A_@nDo@zFc@`E`@dANb@Tn@BDbAbC@DhAnCDLFJ]TuA`AMLiAt@u@h@KHWPi@d@A@C@CBmA~@]Vy@p@a@ZEDk@b@u@f@gCdBq@~@UESBNLTFvAdB\\d@j@tAp@dBqB|AIHYRqA`AwAYKCGAEd@MLMCGA{@OKA]GICqAU_BWiASW{@Kc@AG?G?KEc@_A_DKa@Og@s@eCCQ@OJkANgB@MFm@EAsAqAeAkAKKoAyAy@}@UUaAy@cAcA@O@GVmBDQPg@Pg@eAs@a@SQKSKKEECk@pBs@fCUx@OTSb@c@lBGGKMkBmC]i@s@eAqAkBWa@GKaAwAWa@{@oA?iA?aC_Ag@CEEKw@TUDK?MEGCGK{@C}@AIAMEKIe@k@Q]KSSc@Kc@Ia@Ki@Ii@OD[DiADM?a@@k@Am@AK?C@}@H"
+        }
+      ]
     },
     {
       "name": "Atlanta",
@@ -7993,103 +8095,6 @@
             "maxLng": 11.5882977
           },
           "encodedPolyline": "_fmdHq|leAG~HC`CCbE@h@HvBLpA?N?XFh@Fr@Dl@@Z@l@AT?h@@d@@B?HBFBD@ABH?FCL?NBLFLZ|@^r@b@n@V\\PRTVADp@r@XVx@j@ZH~@XjAT\\Jl@RPHTLNHb@TTLb@V^T\\RfBdAFBl@`@@ErAv@`CvA?DLH?FVFR@bDV\\Hp@RrALhAH?B\\BEd@`AL?Fv@B?lB?pCAfCb@@|ADEvEQ~CP~An@z@|A`BnFZA\\MlCa@Ga@Iq@MAXi@@?^A`CAnCAV@d@@hBDjC?l@z@c@H`@OHXpB|@CBhB`AVSpBpBl@rA`@Kz@rAb@jA\\pDl@lA\\oErXbM|LfBdBIrAg@dFi@|DQ~Ck@tFcBR_Gl@_CPcCVm@|BeB\\wBr@YH?u@Ia@}Bp@aBFmAWWEeCgCaAnC]bAqDzKqD|K}D~L}D~LsDfLK^mB`Gu@|B_AtCoAzDg@dB?@Un@nDtBrAmGlFlDyAhGeCgBKh@e@Uo@o@_Bw@aBy@]`A_@nAyAnEcBhFeBlFsDbL_BdFyDlLwE~N_CxHn@bAP@d@kApA~Ag@hAc@l@i@jA{AuA|@mBm@cAgErMMOIGm@UUM_Ag@e@[g@_@yBoB_Ay@u@i@}@k@mAy@e@[k@g@E]WyAQ_ACKKWQU_@[c@c@iAcA][SOKKo@i@k@c@SQUO?bA?`BAh@Gt@Kz@EEG@a@lBgAvCe@bAs@rBc@xAy@_@q@Yy@]{Aq@aAe@mBy@uAm@iBOw@IyA]gBUmB_@cAQAf@q@C[GYyAUaAs@sDa@oBOUSyAuAgIIq@Uw@QeAUy@[iBtEiBS{@jDqDRi@HMd@Gc@cJ[oEeA}KM@CU?IAGAMeCmGeCmGoJaZNo@oA}CkFoMwCoHSTe@Es@eBDy@LMCGCB[u@KK?o@Eq@CWm@wAQc@s@Lm@BmAEWCe@KQE}EqAc@Iq@IkAG}RSgPMw@ByDEcQKmBEaFCmLKmAAaHG}GImFE_IG?vABhEJbEPfCJdBd@xEuB`AgBpAyBhCq@bAqApBEDUd@}@hBsArCm@xAg@jA_AvCOp@e@xB]dCMtCG|B]vG?l@EjFKfP?|AH|BmAR_CVgBAgBUy@S}Bm@{Bw@{@]y@]}B_A{B}@mAi@c@SgB}@s@a@WMsCuAcCyAg@YsAgA}BsCc@c@u@o@_Am@w@]s@Y}@[uCgAsHqB_Cm@C\\gAHO|DmC[yBe@oGsAWr@o@zAaAfB{A`C]b@cAnAa@h@_CrC_CnC}CbDc@\\cAt@iAx@iAr@cAn@aAj@q@\\u@\\gBn@g@P_AXmCt@@DUFA??KEGGAs@NsA`@c@Lq@Jc@H_BRi@H}@?iA@sBI}AQaB[sA_@]MqBw@iBaAeAu@qAeAqAoATgAP{AR{BD_@D}@BaA?{@Aq@Co@IqAIy@O_AUoASs@Qi@KUX{AyA_AyCmBC@A?AC?A?CyA_Dm@oAu@_B]u@Q@?SI?Ia@s@n@w@sCUqAE[Ee@Ao@Aq@B_@Fe@Je@h@qBd@oBJo@Hq@W{FQzBSTaFgAQsAVkDZy@gEkAVcCJcC@s@Ba@LaABm@?_@C??sA?cHAoDAyH?iCAqBWmME_C{Bw@uC_AcEmA|AcEdCgGv@cDt@eDJ[l@{BPaAJiABg@@g@Au@s@iHy@uIW{DYyEQ_EKkFYcOAYw@iASqJMeFAo@KcBr@Ot@Q`@Mh@OfAg@nBcA\\oBgAiHw@wDFI`CcAc@eCAKMm@Ou@MJi@yCa@{BO{@Qu@Sw@]wBe@aCsBqKcAuFa@}Be@kCTe@DSDiACm@Cm@EQUkAg@_CKiAEy@Cc@CWEYGYOYQUz@aAn@c@j@[bFqCr@y@`@oAHmACoAIgCOiDCmBHiAZgAzAiCv@fAlApAxA~@xAh@bC\\jAD~@DvD@~MBBvH`@zB|@rB|@pB?AzDaFV[rEaG`BuBnO_Sf@jA`BpDf@dAb@dAPb@J\\NZp@zApAtCbDfHtCtGzCjBHFFFxChBl@\\xAf@o@pFfApAdAnAt@|@RRPPh@n@v@`AbBrBxAfBxAhBv@|@Zp@NVt@~@t@t@l@l@b@`@n@j@lAjA|B|B|B~BBtA~Av@VNR{F^kLZqJLmEb@qMLsDtFf@@AJBBDdAJPJn@x@b@l@`@j@^\\d@`@ADV?H{@JqA^qE\\qE|FHn@@f@?pBp@nAhBpAhBJZJRNXNTPRRRRPZPVJd@Nd@L`@F`@FlANh@B`BBP@ZFTHTJHDPLXVTVRXNPFDBDZPVHZFN@b@GrAa@^G~@[\\h@jD~CPH`A`@VHPDbEh@h@J^HFB|@Th@PRJNJ@?@@?@LHXZVZHHHANQ@MBQPBBu@?a@j@eB@SC?fAqCvEeM?CL]Pc@DKJYUUhB_Fx@kBpBaF|@{BvByF|BiG~BkG|@aCfBqEjCgH?AVu@FDnAmDBO?AAAp@gB@@@??A@AACAAp@gB@?@?@??C?AAAp@gBW[?C?M{FmGiA{Ag@w@We@iAgCw@eBsEkKOg@e@iA?AA?EMEK?AAAe@eAEIFQDKJMJGHELEN?L@JBFBfBwI~@yCVy@Le@f@_Bb@{Ar@}BxA{EJm@z@qC^iAd@gAJM`@UNGbAIpBRjGh@jAXEVBLVRj@n@h@z@`@f@j@b@zAr@`@Lz@j@v@p@v@\\vAx@hAfAv@f@^Hj@UDwABk@XuC^mCTuABKd@aBh@oAf@}@bAoA~AqAzCmBpIgDx@c@z@e@|AeAl@g@vBsBhA_AnA_AxAw@d@fCXM|DiBzZfBLALG|@{@iGqRGKh]sQl@]BPHRTz@b@|A\\lAbAlDp@bCVx@JXr@nChA~D@FxErPJ\\b@`B`CvIxDhNzArFfBHOdFhF|R`IpZFR|@dDnAzETv@P`AANJ?nHrAe@vE]fDILa@G_D`e@K~AtEbBdGvBdKvDdC|@rHrCpEbB~Bz@tDxAhE`BGMp@gCf@\\]pCHBb@P\\NdGbCxClArAj@LDNFEXPN|HfDtDdBpB`A~@d@KhAWbEcDUcB`@yBw@iD^kD^{EfD_B}AGH?FQLE?IBAB?FIAIHAEE?KBCJEBCDEDENGLGJIHUJCLCBADG?SPCBCVEHGF@PE@?D@@Fx@BVA@?DCF@F[Fa@BQB[BYBWJW?i@KYIQMCEYKIGQEG@EA?COESMSCYKQOoAEq@EOGSEO?YEEAEnEAzACzC"
-        }
-      ]
-    },
-    {
-      "name": "Municipality of Athens",
-      "countryCode": "GR",
-      "regions": [
-        {
-          "name": "1st District of Athens (1η Κοινότητα Αθηνών)",
-          "osmId": 12437446,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9594807,
-            "maxLat": 37.9956123,
-            "minLng": 23.7130381,
-            "maxLng": 23.766833
-          },
-          "encodedPolyline": "yuwfF_v}oCM|CMvCK~BAVQdEEv@?FANGBMBQFKBMBKBUFE@A@KBi@Lo@PYHSDaAV[HYHG@ODKBHh@NfAf@nDBPf@fDBPDZ@F@H?D@H?D?H?NAJK|AAPCf@UdDA@KhBATC\\AHQbCCl@IlAAJG~@AFEl@MhB??F@`@FB@PBN@r@JB@fALJBRBB?B@LBJ@NBGx@UfDBNB@A@?HA@AA?@AH?H??ABEz@CZEd@ANhC\\HBn@Hj@HLBJFJF|GvFrD~Cj@`@PLJNNTHRHXDNHd@FTNTNNPLPDV@dHBB?BBBBLLHJBDLP|@lAj@x@v@dA\\f@DDrAjBt@dAtAlBJLFHBDb@j@lAfBp@|@xAnBNTHJnEjGxBzCPXzSpYyAnBw@bAiBlC_AnAQTQRMNKJKHOJIFIFMHYNOH]PULSJSLSLMJMJMLQPQVQRiBbCKNMTMZIRIVGRETETEVCVCXAV?RoBEY@IbCkAlDgIsGAsDRSl@?NA`FwGP]Ni@Hm@?}@oBeUIWKUaJmMIA_Lj@K^oAlEq@AnBiXr@aLB_@E{Bm@@gBd@oC\\i@J_@EeAHmARKPIGG@A@YFKFWNUPILCBEFKRADAAGEEEMb@[|BLFLRFZWjAFp@Th@Lp@Fr@OPPtB{BAStKuB|IkAbBSV}@pAgIwCEq@c@W^_AuBmBUJE\\QAGIw@kAy@dAc@f@e@aAEKSd@QXU`@j@v@HHV^IDWNIFs@b@yAiBY_@QP]VYNA@KHgAp@UNoAv@YPC@MHM_@AA]gACIc@mA?AGQMHA@}AbAIFo@`@yA`AiBjAYRMHoChBKDEDyBlASHUWk@T}CbBkBhAcBfAi@aAqAgBSeEWOgA`@cQaCsCkBqAQ|@mc@bCmYaZ{Ej@gGlCiYIkAAeADy@PeARg@d@q@d@c@j@_@p@Ml@@p@Fd@NRP\\y@Nk@t@NhAR~AVpATHB\\FJ@z@NF@LBLMDe@F@JBvAXpAaAXSHIpB}Aq@eBk@uA]e@wAeBUGOMRCTDp@_AfCeBt@g@j@c@DE`@[x@q@\\WlA_ABCBA@Ah@e@VQJIt@i@hAu@LMtAaA\\UGKEMiAoCAEcAcCCEUo@Oc@a@eAb@aEn@{F^oDrC_BFCDAHCHAF?D?D?F@r@L~@RtATlARzATb@qECEKSp@w@LMRKDIp@iAR]Va@JOFKHMNWVc@P[p@gAb@u@BE@ALSBEvAjAFMFMpBkEJONSn@c@nAy@FEb@[FCxAaADEbC{ADDBBtBgGpClCx@|@BD`A|@?AHSd@sBnBr@^qB`@}BZsAuAm@t@_Ct@iEbBmEtBvAhB}EcBoBvGmPZw@tBlAvNxJsErEi@|@}@vBgBlEsAnD{@bDq@vD@XNHDXJDANEj@Eh@Ej@E`@]rCIdAAPATEf@AZEd@StC?DAJMnBEj@ATeC~BDLrAjCJT?BAJCX?JSPo@j@cA|@o@h@KJ@LGzAMhC"
-        },
-        {
-          "name": "2nd District of Athens (2η Κοινότητα Αθηνών)",
-          "osmId": 12437447,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9488434,
-            "maxLat": 37.9759804,
-            "minLng": 23.714865,
-            "maxLng": 23.7557821
-          },
-          "encodedPolyline": "}mufFg_}oC|@jBDLr@zAr@|A^t@Vj@|DiDnBcBz@u@x@s@r@o@VSpBeBzAsAX^tB|BUnAMr@Ox@Kr@zANRDtBx@Sz@_@xA[vACJYhAB@DBFf@LfAD^PdB@DP|APdBJ`AHz@LjAHz@C@u@VgAZPpE?NTxFB~@FtA?FHfBBbA@LPGf@QFCVtAb@vBe@Nr@zCEBq@\\IJYp@^x@r@xAz@~ADHZbA`@nARp@@FBNZv@JNPRPd@ANMdBh@TAJAj@?d@DJPVl@r@fAjAxAhBbAnALLCRE`@QhAALCLFRDLFJFDdAp@nAv@hAt@dAp@t@d@`@Vn@^^Xl@`@JTTd@b@~@Xb@NTh@r@j@v@d@r@_@f@o@|@kA~AQTILORa@j@CDs@`A}@lAiA|AEFCDCDABEFIHW`@cArASTg@p@g@p@a@h@cArAm@v@QVWZsAdBW^_@f@g@n@}@lAy@dAILa@f@oAbBY`@qEoGaAuAiA}AoG}IuBwCmAcBSY{SqYQYyB{CoEkGIKOUyAoBq@}@mAgBc@k@CEGIKMuAmBu@eAsAkBEE]g@w@eAk@y@}@mAMQCEIKMMCCCCC?eHCWAQEQMOOOUGUIe@EOIYISOUKOQMk@a@sD_D}GwFKGKGMCk@Io@IICiC]@ODe@B[D{@@C???I@I?A@@@A?I@ACACOTgDFy@OCKAMCCAC?SCKCgAMCAs@KOAQCCAa@GGA??LiBDm@@GF_A@KHmABm@PcC@IB]@UJiB@ATeDBg@@QJ}A@K?O?I?EAI?EAIAGE[CQg@gDCQg@oDOgAIi@JCNEFAXIZI`AWREXIn@Qh@MJC@ADATGJCLCJCPGLCFC@O?GDw@PeE@WJ_CLwCL}CrALrALhBPLKLMHINKr@o@zAqABCFGx@s@bByA~BsBNOjAaADEBCJI|CqCbA_Al@g@ZYNM`CwBTSr@o@d@c@^]bA{@j@pAf@fAn@nAbAvBlBdE@BFJ?FG~BC|@EnBCt@c@De@N`A`Av@|Av@bB`ArBl@lAf@dADJd@~@d@bApBfEFL"
-        },
-        {
-          "name": "3rd District of Athens (3η Κοινότητα Αθηνών)",
-          "osmId": 12437230,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9633777,
-            "maxLat": 37.9934838,
-            "minLng": 23.6870046,
-            "maxLng": 23.7293532
-          },
-          "encodedPolyline": "qiyfFwaxoC|AcA@ALIFP?@b@lABH\\fA@@L^LIBAXQnAw@TOfAq@JI@AXO\\WPQX^xAhBr@c@HGVOHEW_@IIk@w@Ta@PYRe@DJd@`Ab@g@x@eAv@jAFHP@D]TKtBlB_@~@b@VDp@fIvC|@qARWjAcBtB}IRuKzB@QuBNQGs@Mq@Ui@Gq@VkAG[MSMGZ}BLc@DDFD@@@EJSDGBCHMTQVOJGXG@AFAHFJQlASdAI^Dh@KnC]fBe@l@ADzBC^s@`LoBhXp@@nAmEJ_@~Kk@H@`JlMJTHVnBdU?|@Il@Oh@Q\\aFvGO@m@?SR@rDfIrGjAmDHcCXAnBDAX@`@@XB`@BXD`@JdAZnDLxAF|@FfAFnBBtBFxCD`C?n@?LALANCNELCHCHCFO\\GLmBrD}@jBCDuAbC}BbE}BlEoAbCkA~Bo@nA}AvCSZW\\MRIPMTINGPOVKVKRKPILSZs@x@Sm@[{@_@cAK]Ka@Kc@Ke@]cBS_AEOISKWKYQ][i@s@qAeBwCyFuJqBxB]`@w@n@AAsBrDoAaBcCIwAECjAEzAIlCExAMrGQ~HQtHGlEA~AMTIJGNABCHGTMh@a@|AY`AYbACNm@hCCJm@fCS~@CHENKV{@zB_@|@MTGLIRELCLG\\ALC\\OfDCZA`@C^[tGCr@APCJ?DEPe@`BSS_@_@kByB}@_Ae@g@WYa@c@eAeAWYSSs@s@}@q@]n@OOkF}EoAmAgCuCoBoBeD_CyA_Aw@c@QIwD}AmB{@SDQGIEGCc@OME_@QoBi@gA[eA]sB{@CAMGEA_CeAyAo@]QMG]Ug@YWOi@[gBuAgA}@GECCCEAEAEAIC_@CSCICKEGEG_@e@GGSSKMjBaDt\\{j@d@w@IQQ[CGEIEG[m@e@_A`A_AhAmA|AaBv@y@dAgBL]h@mB|@{CHUBGTg@`@eAZy@Qc@e@oAe@wAzAaAu@oBc@mAgA}Cu@wByAcEACkAiDGQ~AeA^WbBgAjBiA|CcBj@UTVRIxBmADEJEnCiBLIXShBkAxAaAn@a@HG"
-        },
-        {
-          "name": "4th District of Athens (4η Κοινότητα Αθηνών)",
-          "osmId": 12436992,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9856714,
-            "maxLat": 38.0149733,
-            "minLng": 23.6928288,
-            "maxLng": 23.72875
-          },
-          "encodedPolyline": "em_gFknwoCbCXtAJpERXDx@V`BdAVVTVFFLPPVPZj@fAZl@lBzDl@nAfF|FjG|Gt@jAdAbCjBhH`@nAb@|@v@lAtEzFd@l@b@l@b@l@`@p@pA|B`@t@b@z@Zv@Zz@n@`CrBrHfChIfExL^fAnBtFp@xA|AhCfFfHn@z@RXfDtDf@h@HOPYFMTq@Ro@f@mAj@kAnAmBLUPc@FQDQH_@j@gDN_DBc@@K@K@IDGAIC_@CSCICKEGEG_@e@GGSSKMjBaDt\\{j@d@w@IQQ[CGEIEG[m@e@_A`A_AhAmA|AaBv@y@dAgBL]h@mB|@{CHUBGTg@`@eAZy@Qc@e@oAe@wAzAaAu@oBc@mAgA}Cu@wByAcEACkAiDGQ~AeA^Wi@aAqAgBSeEWOgA`@cQaCsCkBqAQgAOoAHiJaAMDHrAwJr@OiDDwBLwD}[aBG`Au@a@{CcCkKuIoFmEqBmAuBkAg@OqAW}Ce@eNsAkI}@y@Ni@HkAHcADcCJ}BDBF@RALAd@E`CCzAEhBAh@?HEbBCrAAP@rAIzACr@A|@?lE?jB?PBxD?l@?n@AZ?^@pDDlBLFjA^|@T~@RpATv@L"
-        },
-        {
-          "name": "5th District of Athens (5η Κοινότητα Αθηνών)",
-          "osmId": 8387121,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 38.0081304,
-            "maxLat": 38.03276,
-            "minLng": 23.718893,
-            "maxLng": 23.7528235
-          },
-          "encodedPolyline": "go~fFkwzoCP??K?GDiD@K@kABaBBaCB{ADyCuCEq@AkBEE?BkAHeE?_BA_@Cc@CSCYM}@YqASy@Ik@Gk@C_@Ai@@g@aAIi@CGh@yL[??k@GoDmCaDyBUQDg@_@GEAOCC?CAUASAyBSiBOe@C_BMoAKOC[OSMSOMOCEmAbAy@cBCG?OPo@iAq@cCsAkBkAe@[a@WKGOK{@i@oAy@qAy@KGAA_Ak@MKSKOKQKECAAIGKGMI{CoB_DoByBuAyAaAqBqAgDwBkEqCCFo@pBm@lBELCHCJO`@EDGHQj@a@nAEN?HAHc@tAk@~Ay@bCg@xAIV_@fAEJq@rBCHGRa@`ASj@_@lACDELq@tBaAnD?^?n@?h@AP_@K}@]aAnGeAjGHt@Iv@UvAGd@DXHVdBdAnB|Ad@`@LNd@`A^t@n@r@b@VVHt@f@dBrAd@ZVF\\DbBh@fCh@dA^TNPNLTLXDPDb@@f@CjCD`APlCLj@Nh@l@lBTr@\\t@h@`ApAzCb@pAbAxBzBvCl@t@t@p@f@Z~@ZjB`@`@ZT\\Tl@n@hBh@jAd@f@xA~@tErCd@\\^`@d@x@Lj@Ln@?xCdAv@|BhBr@v@zApBpB`DzBfDtA`Br@z@f@ZjAr@~@j@`Ah@r@`@EmBAqD?_@@[?o@?m@CyD?Q?kB?mE@}@Bs@H{AAsA@QBsADcB?I@i@DiBB{ADaC@e@@MASCG|BEbCKbAEjAIh@Ix@O?K?SCi@KqCEmAOkCAO~B]nBMjAKz@GR?vACA_BR?fACF?B}AvBIH?@{C@aCR?dATDcD@gB?K"
-        },
-        {
-          "name": "6th District of Athens (6η Κοινότητα Αθηνών)",
-          "osmId": 12437835,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9912829,
-            "maxLat": 38.0124535,
-            "minLng": 23.7207578,
-            "maxLng": 23.7541948
-          },
-          "encodedPolyline": "qj{fF}_xoC|@mc@bCmYaZ{Ej@gGlCiYIkAAeADy@PeARg@d@q@d@c@j@_@p@Ml@@p@Fd@NRP\\y@Nk@t@NW{@Kc@AG?G?KEc@_A_DKa@Og@s@eCCQ@OJkANgB@MFm@EAsAqAeAkAKKoAyAy@}@UUaAy@cAcA@O@GVmBDQPg@Pg@eAs@a@SQKSKKEECk@pBs@fCUx@OTSb@c@lBGGKMkBmC]i@s@eAqAkBWa@GKaAwAWa@{@oA?iA?aC_Ag@CEEKw@TUDK?MEGCGK{@C}@AIAMEKIe@k@Q]KSSc@Kc@Ia@Ki@Ii@OD[DiADM?a@@k@Am@AK?C@}@HO@AOCGKMUKyC_@eBYi@IUESISSuAsAICEDYu@EIc@uAi@eBwApAyC~A^rAWNKFOMISIHgAvAy@lACD_@f@MFcBd@Xp@fAxCgAt@JPv@xAq@b@KHh@fB^nATr@jCtIGzBA\\?NA`@GdBAf@Cv@SxG_EGuAMiBGAf@@h@B^Fj@Hj@Rx@XpAL|@BXBRBb@@^?~AIdECjAD?jBDp@@tCDExCCzAC`CC`BAjAAJEhD?F?JQ??JAfBEbDeAUS?A`CAzCI?wBHC|AG?gABS?@~AwABS?{@FkAJoBL_C\\@NNjCDlAJpCBh@?R?JjI|@dNrA|Cd@pAVf@NtBjApBlAnFlEjKtIzCbCt@`@FaA|[`BMvDEvBNhDvJs@IsALEhJ`AnAIfAN"
-        },
-        {
-          "name": "7th District of Athens (7η Κοινότητα Αθηνών)",
-          "osmId": 12437836,
-          "adminLevel": 9,
-          "isPointFallback": false,
-          "boundingBox": {
-            "minLat": 37.9792881,
-            "maxLat": 38.0064906,
-            "minLng": 23.7397299,
-            "maxLng": 23.7904386
-          },
-          "encodedPolyline": "}o}fFo_~oCO@AOCGKMUKyC_@eBYi@IUESISSuAsAICEDYu@EIc@uAi@eBnBiBlHmh@`CeFd@m@h@q@V[FI`AmA^g@X]PULO|@iAHKjAyA`AmAFKr@y@^k@DC@C\\e@t@}@b@m@vAgBrDwE`AoAn@y@LQJMTW}@y@_@[i@i@m@q@gB}Bs@eA_@u@Gk@Oy@QqAIm@K_AIy@K{@Mi@QyBWyB@IlAsB~@yAj@cAn@eAv@qALWb@s@HMh@_AP_@x@YRI@O?MAEEKEEIG}CmBMKkA{@aCgBe@[CCcEyCWSMKKKmH}Ek@]`@y@L[hAwCDMjBwEt@mBn@{A`@cA`@eAVu@d@iABEFQJSR^p@rALZnAhChAxBRXxArBp@z@`AvAFIHIdH_IzHwIrPaRjGe@j@|NB^tBlLfExAxIuChAcBt@a@lD|KfDpJ|@jBlFiD`AtBjBfDtD|GGJADoAxBcAjFG~AJjA_AzAeCpAe@hEPpBDd@e@hIBdFChAmBfClArBJTnAtCz@~B@DDLDJVr@FNHVb@lAjAjDRh@v@~BPf@j@~An@hBXx@Z|@Tn@l@dBz@bC^dAFPDLl@dBDLBFL\\FRHT?b@?R?D?L?n@@z@?`@?~B?jA@\\?p@?RDLX|@DL|@lCFPj@dBVx@GDoAx@o@b@ORKNqBjEGLGLwAkACDMRA@CDc@t@q@fAQZWb@OVILGJKNW`@S\\q@hAEHSJMLq@v@JRBDc@pE{AUmASuAU_ASs@MGAE?E?G?I@IBE@GBsC~A_@nDo@zFc@`E`@dANb@Tn@BDbAbC@DhAnCDLFJ]TuA`AMLiAt@u@h@KHWPi@d@A@C@CBmA~@]Vy@p@a@ZEDk@b@u@f@gCdBq@~@UESBNLTFvAdB\\d@j@tAp@dBqB|AIHYRqA`AwAYKCGAEd@MLMCGA{@OKA]GICqAU_BWiASW{@Kc@AG?G?KEc@_A_DKa@Og@s@eCCQ@OJkANgB@MFm@EAsAqAeAkAKKoAyAy@}@UUaAy@cAcA@O@GVmBDQPg@Pg@eAs@a@SQKSKKEECk@pBs@fCUx@OTSb@c@lBGGKMkBmC]i@s@eAqAkBWa@GKaAwAWa@{@oA?iA?aC_Ag@CEEKw@TUDK?MEGCGK{@C}@AIAMEKIe@k@Q]KSSc@Kc@Ia@Ki@Ii@OD[DiADM?a@@k@Am@AK?C@}@H"
         }
       ]
     },
