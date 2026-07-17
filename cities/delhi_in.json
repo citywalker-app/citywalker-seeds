@@ -1,0 +1,50 @@
+{
+  "name": "Delhi",
+  "countryCode": "IN",
+  "regions": [
+    {
+      "name": "Chanakya Puri Tehsil",
+      "osmId": 10701234,
+      "adminLevel": 6,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.5809787,
+        "maxLat": 28.6456842,
+        "minLng": 77.1681618,
+        "maxLng": 77.2551392
+      },
+      "encodedPolyline": "gpsmD_vovMtAt\\|@zDj@bC_@pCG`@MtGy@~a@qz@cCuIoAYDqDf@}Bo@sRjc@g`@~cAcDfE_I|FkClBu[pLv@nEd`@xZir@rvAKTcC`HgAjBbDdCxCLdEnArQpLfG|BrF|ExR|PXfALjBJhBr@vLnMvH`QhOtBhBzJvInC`CfJ_LzN`QbIfG`NdAlOpGhPRhPlMnMtGtQjH~IwJ~_@fUrg@c]rJ_GnFaGtEcN~AgEd@{AjI}WnE_YbCeOlAaXlBsi@qB^Cg@{IfCm_@nHkEaAtBeJbIiNcBs_@OkZgHa@w@eJqEys@{Cof@kEc^oBk^u`@gCgv@bBmKEuAqH]qA`OoLyEwLaBkHsAsLuAq_@oUrD"
+    },
+    {
+      "name": "Delhi Cantonment",
+      "osmId": 3492183,
+      "adminLevel": 6,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.5382019,
+        "maxLat": 28.6286977,
+        "minLng": 77.083186,
+        "maxLng": 77.1712395
+      },
+      "encodedPolyline": "yskmDwm|uMt{B|lA~FgQba@|Ap]@b@DdBJ_FbKq@xFhChCrAiAfBnAgBrDjC`ByAj@]LzAxAf@r@Td@rB`Ad@Rz@nAT\\FV`@bBzA^eDlNeFnPih@yOU~GeCYoD_@qQ{AgDQgAv@{@rAmAxG}QwEGAgLyBMJWpBKt@yB|QoApLkA|JIC]hCAz@YGU|AyAxJn@Lq@~Du@Y_J_HwEp@kf@nGVva@kRlb@oFtRvNp[q@rGlApDM`e@CdFaAnQcA`LuAAGnFdC|@uJlRmqAidAyTwRkb@}\\yxD}`D{LqKrOwQ`GfFfIcRZi@vAf@v@_BhAZyBtGdJpEtCoRV_CpABHKAMGWgAwBVk@[YNYb@PbC}BfAyBB[LA?o@mEBWMo@RUbAAVWLY_Ab@{@o@uAa@\\UKHc@NO\\Yy@Uv@Yn@@zBa@bDf@FONBHWOEF[PDHYl@{BeH{DqIeHeFkAkBc@sFCcKzAuARe@a@mA`@a@c@{AmB|@iDhAFhHjAlCeAfC}AlEqKcE{CyMwBb@qJxF_CkEqI|KgJtAWnAy@p@fAxEmDd@k@fCuCnIcFli@aLhSy@nKiDvQwLvBsJbE}Qu@oCDuCpEmE~PhIbFbCaAnCcBvE~IrOfKgDfB`GpByBvTls@zAa@\\B`AUxTsJjCwB~CgDr@y@dGwKvQjJvHx@~C~AvGxFFzD`Bp@T^|NbG"
+    },
+    {
+      "name": "Vasant Vihar Tehsil",
+      "osmId": 10701233,
+      "adminLevel": 6,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4812209,
+        "maxLat": 28.5887988,
+        "minLng": 77.0698857,
+        "maxLng": 77.2115422
+      },
+      "encodedPolyline": "uimmDghevMCg@nB{]n@eGhBqYnXnGnCn@tL~ApG\\lq@bWtN~AV?pGlFiArNsNdAmMtC_E|DtIvMxBfDfC`KxMtFd@lQlMnLdKlBxLbEvUjEzFlLdKjTbDtNd@dPKn^~Kj[nBnRpPuh@hZi^~KiEfL`[xVdNhD|CfLzNpAzSbMvVnG`DoD|SoC`MwBx\\d@zT}Ato@rPrDvN`K`PfFb`@pC|T`AjD_RhD{MjIwRt^_q@kJuc@~`@pRvKbBnPnIbFtDbEx@xDv@rA?t@D|Aj@zJv@pGlB`G`@uGvUsL~Ul@l@yC~K`BpA_EnNbFdNIlPwEvWmF`[_r@mJuS|j@}DrMcKr\\eFdIyBbHyCfMeEzM{LzJaZeQs@bB_i@qZeFhH_CxBaEfCaBjFmDlHuGfJUZ}H`K]b@s@bAy@hAaAvA_AxAa@j@ILsApBiChEuA|B{CpEmFpH{DpFqF_A_BgB}]}MsD~XkHhXqFx`@oHb]wCmAwKxAgJQcPoIr@cKqLeTwBaOBmJ}TuO}KcB}G|GmHcGaCqHrBsU}FeIfQy\\lVy`@nQ{v@iXq[QyJjD}FjAcSuC_RbCgFnDwXrCyUyAiIzLmo@}r@qa@_PkQfCgIbTe^fHiR^sMsMwGwIrImId@qJdTsi@sXgIxk@}r@}`@oIlNmZ_ZfJoQbDmGfG}Ev@iRjQol@k@iM_JmJnE_YbCeOlAaXlBsi@qB^"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
