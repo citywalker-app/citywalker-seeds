@@ -1,0 +1,27 @@
+name: Notify prewarm pipeline
+
+# When a seed city's region_seeds.json actually changes on main, tell
+# citywalker-overpass-proxy's prewarm pipeline to run rather than waiting for
+# its own cron. The pipeline already always includes every seeded city
+# regardless of population/country (see its docs/design), so this just makes
+# a newly-seeded city's cache warm promptly instead of on the next scheduled
+# tick.
+on:
+  push:
+    branches: [main]
+    paths:
+      - region_seeds.json
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger large-city prewarm pipeline
+        env:
+          GH_TOKEN: ${{ secrets.PREWARM_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "PREWARM_DISPATCH_TOKEN secret not set — skipping (see docs/design/large-city-cache-prewarm-v1.md in citywalker-overpass-proxy for setup)."
+            exit 0
+          fi
+          gh workflow run prewarm-large-cities.yml --repo adiparab14/citywalker-overpass-proxy
