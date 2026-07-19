@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - region_seeds.json
+  workflow_dispatch: {}  # for manually testing the cross-repo dispatch itself
 
 jobs:
   trigger:
