@@ -98,6 +98,7 @@ def resolve_new_overlaps(all_cities):
     repeated until nothing changes, is sufficient and always terminates.
     """
     pre_existing_overlaps = []
+    _unresolvable_warned = set()
     changed = True
     while changed:
         changed = False
@@ -113,6 +114,7 @@ def resolve_new_overlaps(all_cities):
                     continue
 
                 shrink_total = overlap + OVERLAP_MARGIN_KM
+                before_a, before_b = a["radius"], b["radius"]
                 if a["is_new"] and b["is_new"]:
                     # Split the reduction between both, proportional to their current
                     # size, but never below MIN_RADIUS_KM.
@@ -124,7 +126,17 @@ def resolve_new_overlaps(all_cities):
                     a["radius"] = max(MIN_RADIUS_KM, a["radius"] - shrink_total)
                 else:
                     b["radius"] = max(MIN_RADIUS_KM, b["radius"] - shrink_total)
-                changed = True
+
+                # Only re-loop if a radius actually moved — both sides can be
+                # clamped at MIN_RADIUS_KM already (two candidates too close
+                # together to ever stop overlapping), in which case looping
+                # again would recompute the exact same no-op shrink forever.
+                if a["radius"] != before_a or b["radius"] != before_b:
+                    changed = True
+                elif (a["name"], b["name"]) not in _unresolvable_warned:
+                    _unresolvable_warned.add((a["name"], b["name"]))
+                    print(f"⚠️   {a['name']} <-> {b['name']}: still overlap after both hit "
+                          f"the {MIN_RADIUS_KM}km floor — needs a manual radius decision.")
     return pre_existing_overlaps
 
 
