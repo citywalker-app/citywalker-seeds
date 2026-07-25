@@ -1,7 +1,14 @@
 {
   "name": "Athens",
   "countryCode": "GR",
-  "aliases": ["Municipality of Athens", "Athina", "Αθήνα"],
+  "centerLat": 37.9908,
+  "centerLng": 23.73872,
+  "radiusKm": 4.87,
+  "aliases": [
+    "Municipality of Athens",
+    "Athina",
+    "Αθήνα"
+  ],
   "regions": [
     {
       "name": "1st District of Athens (1η Κοινότητα Αθηνών)",

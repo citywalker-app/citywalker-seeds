@@ -1,6 +1,9 @@
 {
   "name": "Boston",
   "countryCode": "US",
+  "centerLat": 42.312445,
+  "centerLng": -71.072105,
+  "radiusKm": 11.28,
   "regions": [
     {
       "name": "Allston",

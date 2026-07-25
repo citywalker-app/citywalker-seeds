@@ -1,6 +1,9 @@
 {
   "name": "Washington",
   "countryCode": "US",
+  "centerLat": 38.893805,
+  "centerLng": -77.014475,
+  "radiusKm": 11.59,
   "regions": [
     {
       "name": "Ward 1",

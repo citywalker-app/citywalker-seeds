@@ -1,6 +1,9 @@
 {
   "name": "Atlanta",
   "countryCode": "US",
+  "centerLat": 33.76743,
+  "centerLng": -84.420235,
+  "radiusKm": 15.7,
   "regions": [
     {
       "name": "A",

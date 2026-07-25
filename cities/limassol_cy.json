@@ -1,6 +1,9 @@
 {
   "name": "Limassol",
   "countryCode": "CY",
+  "centerLat": 34.801735,
+  "centerLng": 32.956465,
+  "radiusKm": 32.43,
   "regions": [
     {
       "name": "East Limassol Municiplaity (Δήμος Ανατολικής Λεμεσού)",

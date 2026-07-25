@@ -243,6 +243,9 @@
     {
       "name": "Aomori-shi",
       "countryCode": "JP",
+      "centerLat": 40.73156,
+      "centerLng": 140.750615,
+      "radiusKm": 21.07,
       "regions": [
         {
           "name": "上嶋田",
@@ -444,6 +447,9 @@
     {
       "name": "Athens",
       "countryCode": "GR",
+      "centerLat": 37.9908,
+      "centerLng": 23.73872,
+      "radiusKm": 4.87,
       "aliases": [
         "Municipality of Athens",
         "Athina",
@@ -546,6 +552,9 @@
     {
       "name": "Atlanta",
       "countryCode": "US",
+      "centerLat": 33.76743,
+      "centerLng": -84.420235,
+      "radiusKm": 15.7,
       "regions": [
         {
           "name": "A",
@@ -1181,6 +1190,9 @@
     {
       "name": "Boston",
       "countryCode": "US",
+      "centerLat": 42.312445,
+      "centerLng": -71.072105,
+      "radiusKm": 11.28,
       "regions": [
         {
           "name": "Allston",
@@ -1525,6 +1537,9 @@
     {
       "name": "Brisbane",
       "countryCode": "AU",
+      "centerLat": -27.341115,
+      "centerLng": 153.073985,
+      "radiusKm": 52.27,
       "regions": [
         {
           "name": "Bracken Ridge",
@@ -2098,6 +2113,9 @@
     {
       "name": "Budapest",
       "countryCode": "HU",
+      "centerLat": 47.48142,
+      "centerLng": 19.13002,
+      "radiusKm": 18.18,
       "regions": [
         {
           "name": "10th district (X. kerület)",
@@ -2403,6 +2421,9 @@
     {
       "name": "Chelmsford",
       "countryCode": "GB",
+      "centerLat": 51.73705,
+      "centerLng": 0.49057,
+      "radiusKm": 15.76,
       "regions": [
         {
           "name": "Mashbury",
@@ -2487,6 +2508,9 @@
     {
       "name": "Chicago",
       "countryCode": "US",
+      "centerLat": 41.83379,
+      "centerLng": -87.732035,
+      "radiusKm": 27.16,
       "regions": [
         {
           "name": "ALBANY PARK",
@@ -3494,6 +3518,9 @@
     {
       "name": "Copenhagen",
       "countryCode": "DK",
+      "centerLat": 55.672775,
+      "centerLng": 12.552555,
+      "radiusKm": 7.77,
       "regions": [
         {
           "name": "Amager Vest",
@@ -3630,6 +3657,9 @@
     {
       "name": "Córdoba",
       "countryCode": "AR",
+      "centerLat": -31.416795,
+      "centerLng": -64.18367,
+      "radiusKm": 16.99,
       "regions": [
         {
           "name": "Capdevilla",
@@ -3857,6 +3887,9 @@
     {
       "name": "Curitiba",
       "countryCode": "BR",
+      "centerLat": -25.487545,
+      "centerLng": -49.319825,
+      "radiusKm": 18.04,
       "regions": [
         {
           "name": "Abranches",
@@ -4058,6 +4091,9 @@
     {
       "name": "Delhi",
       "countryCode": "IN",
+      "centerLat": 28.56345,
+      "centerLng": 77.162515,
+      "radiusKm": 10.53,
       "regions": [
         {
           "name": "Chanakya Puri Tehsil",
@@ -4103,6 +4139,9 @@
     {
       "name": "Dublin",
       "countryCode": "IE",
+      "centerLat": 53.354935,
+      "centerLng": -6.250075,
+      "radiusKm": 9.6,
       "regions": [
         {
           "name": "Central",
@@ -4174,6 +4213,9 @@
     {
       "name": "Edinburgh",
       "countryCode": "GB",
+      "centerLat": 55.905235,
+      "centerLng": -3.247545,
+      "radiusKm": 13.22,
       "regions": [
         {
           "name": "Balerno",
@@ -4575,6 +4617,9 @@
     {
       "name": "Gent",
       "countryCode": "BE",
+      "centerLat": 51.084215,
+      "centerLng": 3.71456,
+      "radiusKm": 13.84,
       "regions": [
         {
           "name": "Binnenstad",
@@ -4906,6 +4951,9 @@
     {
       "name": "Gothenburg",
       "countryCode": "SE",
+      "centerLat": 57.682835,
+      "centerLng": 11.736565,
+      "radiusKm": 32.53,
       "aliases": [
         "Göteborg",
         "Goteborg"
@@ -4968,6 +5016,9 @@
     {
       "name": "Granada",
       "countryCode": "ES",
+      "centerLat": 37.18086,
+      "centerLng": -3.59834,
+      "radiusKm": 9.33,
       "regions": [
         {
           "name": "Albaicín",
@@ -5178,6 +5229,9 @@
     {
       "name": "Hamburg",
       "countryCode": "DE",
+      "centerLat": 53.567275,
+      "centerLng": 10.0277,
+      "radiusKm": 24.16,
       "regions": [
         {
           "name": "Altona",
@@ -5275,6 +5329,9 @@
     {
       "name": "Hamilton",
       "countryCode": "CA",
+      "centerLat": 43.2165,
+      "centerLng": -79.912325,
+      "radiusKm": 23.54,
       "regions": [
         {
           "name": "Corman",
@@ -5476,6 +5533,9 @@
     {
       "name": "Helsinki",
       "countryCode": "FI",
+      "centerLat": 60.11017,
+      "centerLng": 25.018655,
+      "radiusKm": 24.52,
       "regions": [
         {
           "name": "Keskinen suurpiiri",
@@ -5586,6 +5646,9 @@
     {
       "name": "Ingolstadt",
       "countryCode": "DE",
+      "centerLat": 48.753455,
+      "centerLng": 11.379685,
+      "radiusKm": 9.55,
       "regions": [
         {
           "name": "Etting",
@@ -5748,6 +5811,9 @@
     {
       "name": "Istanbul",
       "countryCode": "TR",
+      "centerLat": 41.193,
+      "centerLng": 28.964825,
+      "radiusKm": 84.68,
       "regions": [
         {
           "name": "Arnavutköy",
@@ -6261,6 +6327,9 @@
     {
       "name": "Kraków",
       "countryCode": "PL",
+      "centerLat": 50.0469,
+      "centerLng": 20.004795,
+      "radiusKm": 16.45,
       "regions": [
         {
           "name": "Bieńczyce",
@@ -6644,6 +6713,9 @@
     {
       "name": "Leipzig",
       "countryCode": "DE",
+      "centerLat": 51.34314,
+      "centerLng": 12.38957,
+      "radiusKm": 15.11,
       "regions": [
         {
           "name": "Altwest",
@@ -6932,6 +7004,9 @@
     {
       "name": "Lima",
       "countryCode": "PE",
+      "centerLat": -12.046185,
+      "centerLng": -76.910015,
+      "radiusKm": 55.4,
       "regions": [
         {
           "name": "Ancón",
@@ -7042,6 +7117,9 @@
     {
       "name": "Limassol",
       "countryCode": "CY",
+      "centerLat": 34.801735,
+      "centerLng": 32.956465,
+      "radiusKm": 32.43,
       "regions": [
         {
           "name": "East Limassol Municiplaity (Δήμος Ανατολικής Λεμεσού)",
@@ -7204,6 +7282,9 @@
     {
       "name": "Lisbon",
       "countryCode": "PT",
+      "centerLat": 38.74408,
+      "centerLng": -9.158085,
+      "radiusKm": 8.5,
       "regions": [
         {
           "name": "Alcântara",
@@ -7454,6 +7535,9 @@
     {
       "name": "Madrid",
       "countryCode": "ES",
+      "centerLat": 40.477855,
+      "centerLng": -3.70364,
+      "radiusKm": 21.14,
       "regions": [
         {
           "name": "Arganzuela",
@@ -7733,6 +7817,9 @@
     {
       "name": "Mainz",
       "countryCode": "DE",
+      "centerLat": 49.96538,
+      "centerLng": 8.243115,
+      "radiusKm": 5.44,
       "regions": [
         {
           "name": "Altstadt",
@@ -7934,6 +8021,9 @@
     {
       "name": "Malmö",
       "countryCode": "SE",
+      "centerLat": 55.57204,
+      "centerLng": 13.018585,
+      "radiusKm": 10.24,
       "regions": [
         {
           "name": "Innerstaden",
@@ -8005,6 +8095,9 @@
     {
       "name": "Milan",
       "countryCode": "IT",
+      "centerLat": 45.461295,
+      "centerLng": 9.1595,
+      "radiusKm": 10.51,
       "regions": [
         {
           "name": "Municipio 1",
@@ -8128,6 +8221,9 @@
     {
       "name": "Montevideo",
       "countryCode": "UY",
+      "centerLat": -34.819945,
+      "centerLng": -56.22396,
+      "radiusKm": 19.88,
       "regions": [
         {
           "name": "A",
@@ -8238,6 +8334,9 @@
     {
       "name": "Montréal",
       "countryCode": "CA",
+      "centerLat": 45.557435,
+      "centerLng": -73.72423,
+      "radiusKm": 25.28,
       "regions": [
         {
           "name": "Ahuntsic-Cartierville",
@@ -8493,7 +8592,7 @@
       "countryCode": "IN",
       "centerLat": 19.0808,
       "centerLng": 72.8789,
-      "radiusKm": 25.96,
+      "radiusKm": 21.45,
       "regions": [
         {
           "name": "South Mumbai",
@@ -8617,6 +8716,9 @@
     {
       "name": "Munich",
       "countryCode": "DE",
+      "centerLat": 48.15487,
+      "centerLng": 11.541845,
+      "radiusKm": 13.85,
       "regions": [
         {
           "name": "Altstadt-Lehel",
@@ -8888,6 +8990,9 @@
     {
       "name": "Nürnberg",
       "countryCode": "DE",
+      "centerLat": 49.43609,
+      "centerLng": 11.10112,
+      "radiusKm": 14.15,
       "regions": [
         {
           "name": "Altstadt und engere Innenstadt",
@@ -9024,6 +9129,9 @@
     {
       "name": "Olsztyn",
       "countryCode": "PL",
+      "centerLat": 53.7766,
+      "centerLng": 20.46657,
+      "radiusKm": 6.91,
       "regions": [
         {
           "name": "Brzeziny",
@@ -9251,6 +9359,9 @@
     {
       "name": "Oslo",
       "countryCode": "NO",
+      "centerLat": 59.897205,
+      "centerLng": 10.785295,
+      "radiusKm": 12.4,
       "regions": [
         {
           "name": "Alna",
@@ -9565,6 +9676,9 @@
     {
       "name": "Piraeus",
       "countryCode": "GR",
+      "centerLat": 37.94606,
+      "centerLng": 23.64733,
+      "radiusKm": 2.59,
       "aliases": [
         "Πειραιάς"
       ],
@@ -9639,6 +9753,9 @@
     {
       "name": "Poznań",
       "countryCode": "PL",
+      "centerLat": 52.400625,
+      "centerLng": 16.90165,
+      "radiusKm": 13.68,
       "regions": [
         {
           "name": "Fabianowo-Kotowo",
@@ -10044,6 +10161,9 @@
     {
       "name": "Riga",
       "countryCode": "LV",
+      "centerLat": 56.97173,
+      "centerLng": 24.128525,
+      "radiusKm": 16.68,
       "aliases": [
         "Rīga"
       ],
@@ -10144,6 +10264,9 @@
     {
       "name": "Rome",
       "countryCode": "IT",
+      "centerLat": 41.87976,
+      "centerLng": 12.545115,
+      "radiusKm": 30.83,
       "regions": [
         {
           "name": "Municipio Roma I",
@@ -10432,6 +10555,9 @@
     {
       "name": "Sacramento",
       "countryCode": "US",
+      "centerLat": 38.570915,
+      "centerLng": -121.46183,
+      "radiusKm": 15.24,
       "regions": [
         {
           "name": "Curtis Park",
@@ -10633,6 +10759,9 @@
     {
       "name": "Saint Petersburg",
       "countryCode": "RU",
+      "centerLat": 59.93931,
+      "centerLng": 30.092625,
+      "radiusKm": 46.43,
       "aliases": [
         "Санкт-Петербург",
         "St Petersburg",
@@ -10878,6 +11007,9 @@
     {
       "name": "Samsun",
       "countryCode": "TR",
+      "centerLat": 41.279945,
+      "centerLng": 36.024085,
+      "radiusKm": 96.98,
       "regions": [
         {
           "name": "19 Mayıs",
@@ -11105,6 +11237,9 @@
     {
       "name": "San Francisco",
       "countryCode": "US",
+      "centerLat": 37.75972,
+      "centerLng": -122.43596,
+      "radiusKm": 8.4,
       "regions": [
         {
           "name": "District 1",
@@ -11254,6 +11389,9 @@
     {
       "name": "São Paulo",
       "countryCode": "BR",
+      "centerLat": -23.68283,
+      "centerLng": -46.59568,
+      "radiusKm": 40.28,
       "regions": [
         {
           "name": "Aricanduva",
@@ -11455,6 +11593,9 @@
     {
       "name": "Sheffield",
       "countryCode": "GB",
+      "centerLat": 53.403825,
+      "centerLng": -1.56301,
+      "radiusKm": 17.97,
       "regions": [
         {
           "name": "Beauchief and Greenhill",
@@ -11825,6 +11966,9 @@
     {
       "name": "Singapore",
       "countryCode": "SG",
+      "centerLat": 1.340845,
+      "centerLng": 103.824655,
+      "radiusKm": 27.7,
       "regions": [
         {
           "name": "Central Region",
@@ -11896,6 +12040,9 @@
     {
       "name": "Surabaya",
       "countryCode": "ID",
+      "centerLat": -7.27076,
+      "centerLng": 112.719125,
+      "radiusKm": 15.36,
       "regions": [
         {
           "name": "Asemrowo",
@@ -12305,6 +12452,9 @@
     {
       "name": "Taipei",
       "countryCode": "TW",
+      "centerLat": 25.08538,
+      "centerLng": 121.56154,
+      "radiusKm": 14.41,
       "regions": [
         {
           "name": "Beitou (北投區)",
@@ -12706,6 +12856,9 @@
     {
       "name": "Turku",
       "countryCode": "FI",
+      "centerLat": 60.53541,
+      "centerLng": 22.26216,
+      "radiusKm": 23.95,
       "regions": [
         {
           "name": "Hirvensalo-Kakskerta",
@@ -12829,6 +12982,9 @@
     {
       "name": "Uberlândia",
       "countryCode": "BR",
+      "centerLat": -18.916695,
+      "centerLng": -48.286305,
+      "radiusKm": 13.62,
       "regions": [
         {
           "name": "Setor Central",
@@ -13041,7 +13197,7 @@
       "countryCode": "IN",
       "centerLat": 19.407,
       "centerLng": 72.853,
-      "radiusKm": 18.0,
+      "radiusKm": 14.87,
       "regions": [
         {
           "name": "Vasai",
@@ -13087,6 +13243,9 @@
     {
       "name": "Vienna",
       "countryCode": "AT",
+      "centerLat": 48.22029,
+      "centerLng": 16.37967,
+      "radiusKm": 17.36,
       "aliases": [
         "Wien"
       ],
@@ -13395,6 +13554,9 @@
     {
       "name": "Warsaw",
       "countryCode": "PL",
+      "centerLat": 52.233,
+      "centerLng": 21.06142,
+      "radiusKm": 16.89,
       "regions": [
         {
           "name": "Bemowo",
@@ -13635,6 +13797,9 @@
     {
       "name": "Washington",
       "countryCode": "US",
+      "centerLat": 38.893805,
+      "centerLng": -77.014475,
+      "radiusKm": 11.59,
       "regions": [
         {
           "name": "Ward 1",
@@ -13745,6 +13910,9 @@
     {
       "name": "Westerlo",
       "countryCode": "BE",
+      "centerLat": 51.105965,
+      "centerLng": 4.88096,
+      "radiusKm": 5.86,
       "regions": [
         {
           "name": "Oevel",
@@ -13803,6 +13971,9 @@
     {
       "name": "Wiesbaden",
       "countryCode": "DE",
+      "centerLat": 50.072525,
+      "centerLng": 8.248415,
+      "radiusKm": 6.43,
       "regions": [
         {
           "name": "Auringen",
@@ -14147,6 +14318,9 @@
     {
       "name": "Wrocław",
       "countryCode": "PL",
+      "centerLat": 51.126365,
+      "centerLng": 16.99178,
+      "radiusKm": 13.1,
       "regions": [
         {
           "name": "Borek",
@@ -14438,6 +14612,9 @@
     {
       "name": "Zagreb",
       "countryCode": "HR",
+      "centerLat": 45.85935,
+      "centerLng": 16.0058,
+      "radiusKm": 22.82,
       "regions": [
         {
           "name": "Brezovica",

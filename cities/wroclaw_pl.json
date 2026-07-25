@@ -1,6 +1,9 @@
 {
   "name": "Wrocław",
   "countryCode": "PL",
+  "centerLat": 51.126365,
+  "centerLng": 16.99178,
+  "radiusKm": 13.1,
   "regions": [
     {
       "name": "Borek",

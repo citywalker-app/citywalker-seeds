@@ -1,6 +1,9 @@
 {
   "name": "Córdoba",
   "countryCode": "AR",
+  "centerLat": -31.416795,
+  "centerLng": -64.18367,
+  "radiusKm": 16.99,
   "regions": [
     {
       "name": "Capdevilla",

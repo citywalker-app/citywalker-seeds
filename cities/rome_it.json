@@ -1,6 +1,9 @@
 {
   "name": "Rome",
   "countryCode": "IT",
+  "centerLat": 41.87976,
+  "centerLng": 12.545115,
+  "radiusKm": 30.83,
   "regions": [
     {
       "name": "Municipio Roma I",

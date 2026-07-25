@@ -1,7 +1,12 @@
 {
   "name": "Riga",
   "countryCode": "LV",
-  "aliases": ["Rīga"],
+  "centerLat": 56.97173,
+  "centerLng": 24.128525,
+  "radiusKm": 16.68,
+  "aliases": [
+    "Rīga"
+  ],
   "regions": [
     {
       "name": "Bolderājas apkaime",

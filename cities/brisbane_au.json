@@ -1,6 +1,9 @@
 {
   "name": "Brisbane",
   "countryCode": "AU",
+  "centerLat": -27.341115,
+  "centerLng": 153.073985,
+  "radiusKm": 52.27,
   "regions": [
     {
       "name": "Bracken Ridge",

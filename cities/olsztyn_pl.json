@@ -1,6 +1,9 @@
 {
   "name": "Olsztyn",
   "countryCode": "PL",
+  "centerLat": 53.7766,
+  "centerLng": 20.46657,
+  "radiusKm": 6.91,
   "regions": [
     {
       "name": "Brzeziny",

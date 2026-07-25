@@ -1,6 +1,9 @@
 {
   "name": "Montréal",
   "countryCode": "CA",
+  "centerLat": 45.557435,
+  "centerLng": -73.72423,
+  "radiusKm": 25.28,
   "regions": [
     {
       "name": "Ahuntsic-Cartierville",

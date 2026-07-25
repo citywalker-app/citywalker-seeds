@@ -1,6 +1,9 @@
 {
   "name": "Mainz",
   "countryCode": "DE",
+  "centerLat": 49.96538,
+  "centerLng": 8.243115,
+  "radiusKm": 5.44,
   "regions": [
     {
       "name": "Altstadt",

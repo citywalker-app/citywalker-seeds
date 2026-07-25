@@ -1,6 +1,9 @@
 {
   "name": "Uberlândia",
   "countryCode": "BR",
+  "centerLat": -18.916695,
+  "centerLng": -48.286305,
+  "radiusKm": 13.62,
   "regions": [
     {
       "name": "Setor Central",

@@ -1,6 +1,9 @@
 {
   "name": "Chelmsford",
   "countryCode": "GB",
+  "centerLat": 51.73705,
+  "centerLng": 0.49057,
+  "radiusKm": 15.76,
   "regions": [
     {
       "name": "Mashbury",

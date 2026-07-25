@@ -1,6 +1,9 @@
 {
   "name": "Curitiba",
   "countryCode": "BR",
+  "centerLat": -25.487545,
+  "centerLng": -49.319825,
+  "radiusKm": 18.04,
   "regions": [
     {
       "name": "Abranches",

@@ -1,6 +1,9 @@
 {
   "name": "Copenhagen",
   "countryCode": "DK",
+  "centerLat": 55.672775,
+  "centerLng": 12.552555,
+  "radiusKm": 7.77,
   "regions": [
     {
       "name": "Amager Vest",

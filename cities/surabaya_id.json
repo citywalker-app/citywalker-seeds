@@ -1,6 +1,9 @@
 {
   "name": "Surabaya",
   "countryCode": "ID",
+  "centerLat": -7.27076,
+  "centerLng": 112.719125,
+  "radiusKm": 15.36,
   "regions": [
     {
       "name": "Asemrowo",

@@ -1,6 +1,9 @@
 {
   "name": "Zagreb",
   "countryCode": "HR",
+  "centerLat": 45.85935,
+  "centerLng": 16.0058,
+  "radiusKm": 22.82,
   "regions": [
     {
       "name": "Brezovica",

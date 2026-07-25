@@ -1,6 +1,9 @@
 {
   "name": "Piraeus",
   "countryCode": "GR",
+  "centerLat": 37.94606,
+  "centerLng": 23.64733,
+  "radiusKm": 2.59,
   "aliases": [
     "Πειραιάς"
   ],

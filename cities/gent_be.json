@@ -1,6 +1,9 @@
 {
   "name": "Gent",
   "countryCode": "BE",
+  "centerLat": 51.084215,
+  "centerLng": 3.71456,
+  "radiusKm": 13.84,
   "regions": [
     {
       "name": "Binnenstad",

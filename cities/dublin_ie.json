@@ -1,6 +1,9 @@
 {
   "name": "Dublin",
   "countryCode": "IE",
+  "centerLat": 53.354935,
+  "centerLng": -6.250075,
+  "radiusKm": 9.6,
   "regions": [
     {
       "name": "Central",

@@ -1,6 +1,9 @@
 {
   "name": "Leipzig",
   "countryCode": "DE",
+  "centerLat": 51.34314,
+  "centerLng": 12.38957,
+  "radiusKm": 15.11,
   "regions": [
     {
       "name": "Altwest",

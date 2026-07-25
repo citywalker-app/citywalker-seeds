@@ -1,6 +1,9 @@
 {
   "name": "San Francisco",
   "countryCode": "US",
+  "centerLat": 37.75972,
+  "centerLng": -122.43596,
+  "radiusKm": 8.4,
   "regions": [
     {
       "name": "District 1",

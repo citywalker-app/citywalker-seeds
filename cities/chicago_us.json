@@ -1,6 +1,9 @@
 {
   "name": "Chicago",
   "countryCode": "US",
+  "centerLat": 41.83379,
+  "centerLng": -87.732035,
+  "radiusKm": 27.16,
   "regions": [
     {
       "name": "ALBANY PARK",

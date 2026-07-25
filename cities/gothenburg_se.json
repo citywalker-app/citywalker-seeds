@@ -1,7 +1,13 @@
 {
   "name": "Gothenburg",
   "countryCode": "SE",
-  "aliases": ["Göteborg", "Goteborg"],
+  "centerLat": 57.682835,
+  "centerLng": 11.736565,
+  "radiusKm": 32.53,
+  "aliases": [
+    "Göteborg",
+    "Goteborg"
+  ],
   "regions": [
     {
       "name": "Centrum",

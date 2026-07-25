@@ -1,6 +1,9 @@
 {
   "name": "Ingolstadt",
   "countryCode": "DE",
+  "centerLat": 48.753455,
+  "centerLng": 11.379685,
+  "radiusKm": 9.55,
   "regions": [
     {
       "name": "Etting",

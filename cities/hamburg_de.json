@@ -1,6 +1,9 @@
 {
   "name": "Hamburg",
   "countryCode": "DE",
+  "centerLat": 53.567275,
+  "centerLng": 10.0277,
+  "radiusKm": 24.16,
   "regions": [
     {
       "name": "Altona",

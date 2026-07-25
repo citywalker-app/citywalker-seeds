@@ -1,6 +1,9 @@
 {
   "name": "Madrid",
   "countryCode": "ES",
+  "centerLat": 40.477855,
+  "centerLng": -3.70364,
+  "radiusKm": 21.14,
   "regions": [
     {
       "name": "Arganzuela",

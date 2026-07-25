@@ -1,6 +1,9 @@
 {
   "name": "Lima",
   "countryCode": "PE",
+  "centerLat": -12.046185,
+  "centerLng": -76.910015,
+  "radiusKm": 55.4,
   "regions": [
     {
       "name": "Ancón",

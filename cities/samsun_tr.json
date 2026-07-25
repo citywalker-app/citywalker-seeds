@@ -1,6 +1,9 @@
 {
   "name": "Samsun",
   "countryCode": "TR",
+  "centerLat": 41.279945,
+  "centerLng": 36.024085,
+  "radiusKm": 96.98,
   "regions": [
     {
       "name": "19 Mayıs",

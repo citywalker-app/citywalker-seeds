@@ -1,6 +1,9 @@
 {
   "name": "Kraków",
   "countryCode": "PL",
+  "centerLat": 50.0469,
+  "centerLng": 20.004795,
+  "radiusKm": 16.45,
   "regions": [
     {
       "name": "Bieńczyce",

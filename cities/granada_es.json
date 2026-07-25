@@ -1,6 +1,9 @@
 {
   "name": "Granada",
   "countryCode": "ES",
+  "centerLat": 37.18086,
+  "centerLng": -3.59834,
+  "radiusKm": 9.33,
   "regions": [
     {
       "name": "Albaicín",

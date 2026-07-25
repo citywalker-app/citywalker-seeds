@@ -1,6 +1,9 @@
 {
   "name": "Sheffield",
   "countryCode": "GB",
+  "centerLat": 53.403825,
+  "centerLng": -1.56301,
+  "radiusKm": 17.97,
   "regions": [
     {
       "name": "Beauchief and Greenhill",

@@ -1,7 +1,14 @@
 {
   "name": "Saint Petersburg",
   "countryCode": "RU",
-  "aliases": ["Санкт-Петербург", "St Petersburg", "St. Petersburg"],
+  "centerLat": 59.93931,
+  "centerLng": 30.092625,
+  "radiusKm": 46.43,
+  "aliases": [
+    "Санкт-Петербург",
+    "St Petersburg",
+    "St. Petersburg"
+  ],
   "regions": [
     {
       "name": "Admiralteysky District (Адмиралтейский район)",

@@ -1,6 +1,9 @@
 {
   "name": "Turku",
   "countryCode": "FI",
+  "centerLat": 60.53541,
+  "centerLng": 22.26216,
+  "radiusKm": 23.95,
   "regions": [
     {
       "name": "Hirvensalo-Kakskerta",

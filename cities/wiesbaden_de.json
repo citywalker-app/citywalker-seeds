@@ -1,6 +1,9 @@
 {
   "name": "Wiesbaden",
   "countryCode": "DE",
+  "centerLat": 50.072525,
+  "centerLng": 8.248415,
+  "radiusKm": 6.43,
   "regions": [
     {
       "name": "Auringen",

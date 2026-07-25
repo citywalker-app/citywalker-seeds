@@ -1,6 +1,9 @@
 {
   "name": "Budapest",
   "countryCode": "HU",
+  "centerLat": 47.48142,
+  "centerLng": 19.13002,
+  "radiusKm": 18.18,
   "regions": [
     {
       "name": "10th district (X. kerület)",

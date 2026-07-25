@@ -1,6 +1,9 @@
 {
   "name": "Montevideo",
   "countryCode": "UY",
+  "centerLat": -34.819945,
+  "centerLng": -56.22396,
+  "radiusKm": 19.88,
   "regions": [
     {
       "name": "A",

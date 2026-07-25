@@ -1,6 +1,9 @@
 {
   "name": "Westerlo",
   "countryCode": "BE",
+  "centerLat": 51.105965,
+  "centerLng": 4.88096,
+  "radiusKm": 5.86,
   "regions": [
     {
       "name": "Oevel",

@@ -1,6 +1,9 @@
 {
   "name": "Hamilton",
   "countryCode": "CA",
+  "centerLat": 43.2165,
+  "centerLng": -79.912325,
+  "radiusKm": 23.54,
   "regions": [
     {
       "name": "Corman",

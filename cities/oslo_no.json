@@ -1,6 +1,9 @@
 {
   "name": "Oslo",
   "countryCode": "NO",
+  "centerLat": 59.897205,
+  "centerLng": 10.785295,
+  "radiusKm": 12.4,
   "regions": [
     {
       "name": "Alna",

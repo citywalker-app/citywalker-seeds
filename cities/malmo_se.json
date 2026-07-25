@@ -1,6 +1,9 @@
 {
   "name": "Malmö",
   "countryCode": "SE",
+  "centerLat": 55.57204,
+  "centerLng": 13.018585,
+  "radiusKm": 10.24,
   "regions": [
     {
       "name": "Innerstaden",

@@ -1,6 +1,9 @@
 {
   "name": "Edinburgh",
   "countryCode": "GB",
+  "centerLat": 55.905235,
+  "centerLng": -3.247545,
+  "radiusKm": 13.22,
   "regions": [
     {
       "name": "Balerno",

@@ -1,6 +1,9 @@
 {
   "name": "Nürnberg",
   "countryCode": "DE",
+  "centerLat": 49.43609,
+  "centerLng": 11.10112,
+  "radiusKm": 14.15,
   "regions": [
     {
       "name": "Altstadt und engere Innenstadt",

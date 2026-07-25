@@ -1,6 +1,9 @@
 {
   "name": "Istanbul",
   "countryCode": "TR",
+  "centerLat": 41.193,
+  "centerLng": 28.964825,
+  "radiusKm": 84.68,
   "regions": [
     {
       "name": "Arnavutköy",

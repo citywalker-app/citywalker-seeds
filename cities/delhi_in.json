@@ -1,6 +1,9 @@
 {
   "name": "Delhi",
   "countryCode": "IN",
+  "centerLat": 28.56345,
+  "centerLng": 77.162515,
+  "radiusKm": 10.53,
   "regions": [
     {
       "name": "Chanakya Puri Tehsil",

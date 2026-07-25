@@ -1,6 +1,9 @@
 {
   "name": "Warsaw",
   "countryCode": "PL",
+  "centerLat": 52.233,
+  "centerLng": 21.06142,
+  "radiusKm": 16.89,
   "regions": [
     {
       "name": "Bemowo",

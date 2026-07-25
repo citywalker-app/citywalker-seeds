@@ -1,6 +1,9 @@
 {
   "name": "Munich",
   "countryCode": "DE",
+  "centerLat": 48.15487,
+  "centerLng": 11.541845,
+  "radiusKm": 13.85,
   "regions": [
     {
       "name": "Altstadt-Lehel",

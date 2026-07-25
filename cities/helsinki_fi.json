@@ -1,6 +1,9 @@
 {
   "name": "Helsinki",
   "countryCode": "FI",
+  "centerLat": 60.11017,
+  "centerLng": 25.018655,
+  "radiusKm": 24.52,
   "regions": [
     {
       "name": "Keskinen suurpiiri",

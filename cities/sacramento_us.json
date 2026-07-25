@@ -1,6 +1,9 @@
 {
   "name": "Sacramento",
   "countryCode": "US",
+  "centerLat": 38.570915,
+  "centerLng": -121.46183,
+  "radiusKm": 15.24,
   "regions": [
     {
       "name": "Curtis Park",

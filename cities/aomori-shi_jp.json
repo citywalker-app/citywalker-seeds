@@ -1,6 +1,9 @@
 {
   "name": "Aomori-shi",
   "countryCode": "JP",
+  "centerLat": 40.73156,
+  "centerLng": 140.750615,
+  "radiusKm": 21.07,
   "regions": [
     {
       "name": "上嶋田",

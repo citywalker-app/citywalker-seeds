@@ -1,7 +1,12 @@
 {
   "name": "Vienna",
   "countryCode": "AT",
-  "aliases": ["Wien"],
+  "centerLat": 48.22029,
+  "centerLng": 16.37967,
+  "radiusKm": 17.36,
+  "aliases": [
+    "Wien"
+  ],
   "regions": [
     {
       "name": "Alsergrund",

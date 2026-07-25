@@ -1,6 +1,9 @@
 {
   "name": "Lisbon",
   "countryCode": "PT",
+  "centerLat": 38.74408,
+  "centerLng": -9.158085,
+  "radiusKm": 8.5,
   "regions": [
     {
       "name": "Alcântara",

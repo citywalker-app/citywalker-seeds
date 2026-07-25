@@ -1,6 +1,9 @@
 {
   "name": "Taipei",
   "countryCode": "TW",
+  "centerLat": 25.08538,
+  "centerLng": 121.56154,
+  "radiusKm": 14.41,
   "regions": [
     {
       "name": "Beitou (北投區)",

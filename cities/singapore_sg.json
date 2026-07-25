@@ -1,6 +1,9 @@
 {
   "name": "Singapore",
   "countryCode": "SG",
+  "centerLat": 1.340845,
+  "centerLng": 103.824655,
+  "radiusKm": 27.7,
   "regions": [
     {
       "name": "Central Region",
