@@ -1,5 +1,5 @@
 {
-  "version": 83,
+  "version": 84,
   "cities": [
     {
       "name": "Amsterdam",
@@ -11383,6 +11383,207 @@
             "maxLng": -122.400785
           },
           "encodedPolyline": "w`peF`rejVr@gBFWJe@Da@JsALgCBi@`@iJPaAC?CA?IH}AH}ALqE@a@AQDuB?O?MB}BDaC@QF@rAFhAE`CKIwD{@g@k@w@Sc@[o@k@mCc@BQHQHAQ?Ob@sFBw@EmC@kBp@[FCL?TArAE|FYbG]`GUbGWxFU~FW`GW`I]xDSbCK`I_@v@E~FU|FWKiEKaE~I_@b@YRKl@]\\FXHfB^d@J^]DELMt@Yz@UdARh@HxBh@bAZZT\\VDDr@KREPEn@CzDdA`@JxA|@pBnAnCjBzBxAlAv@r@^r@TfATxDTdBHdBGPCzAGVErAMbDYl@CRK\\CZEVEb@Mz@a@TO\\WlDgCpBoALGjCoAjGkC|DoBvCkAjBu@zFkB|@UdDm@b@IzFeAxDy@`EoACTG^M|@CN]zBxEyAzAe@hBk@ZKDABAVIVIn@dEBJl@lD@H@Fl@rD@Fr@dEt@jEl@bETfAb@xBn@dEr@`Et@bEh@tCrBvNFJ@\\?nAIjAaCnSEVSGEAOEg@LSb@Ct@QbGIfAKp@mB`E]r@kAvA_@r@i@fC]p@]Rc@D_@Cy@e@o@e@m@YkB_@YOw@k@w@_@QMUc@Is@Dc@Re@^g@j@[l@El@Ij@Y^c@\\q@LcALiGF_CDk@T}AViCHaBAg@]Lg@NcCx@oF`BoFbBoF`BqFbBkF`Bo@ROHcGa@qCQa@AaAAC?e@Ae@A?j@H~C?RHbA@@JrAB\\JrA`@~EPzE?J?pB?PAdACpBMjBGx@[pCGj@]jCkCkC_E}DMCk@i@DMEEu@u@CCKKwDwDYQiCm@gCm@cBc@a@CcBEyDKoAE_AY_Ai@@|A{Cg@qEsAwBi@iI{B@L?FcDu@g@Mk@Oa@AY?S@}CPAY_DHeD^K_@IuDG}EuCL_I^}H\\D~ABzALtFO@oCLiCLS?UBkCJiCLS@S@kCLkCJS@?P}CLAOmCLQ@@T_DH_DL_I`@[@_CLcDNAW_DPgBH{@DcI^yDNiBH[BY@aBFgBJuBLGqCGeCI}C}CNZe@"
+        }
+      ]
+    },
+    {
+      "name": "Santa Fe de la Vera Cruz",
+      "countryCode": "AR",
+      "regions": [
+        {
+          "name": "Barranquitas",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6361684,
+            "maxLat": -31.6168524,
+            "minLng": -60.7205708,
+            "maxLng": -60.699485
+          },
+          "encodedPolyline": "`}a`EjsnqJIp@Kr@c@~COhAKn@SzAIp@q@pFIj@i@`EKr@c@tDG`@{@jGE\\o@fFE\\w@`GCVg@zDGb@s@vFEVg@fDIp@_@hDG^{@tGw@hGCLCNa@~CM~@AN@P?NBRBLFZaA]uAqC}@sBm@gBYgASaAE[]HYDYDm@NaB`@cBd@]HwCx@a@NODg@LK@O@SAsBEwCIo@?UA@OB_@RqBBSiB?oBAwCCsDAiFOUpCCPoBCwBE{CGY?WBuBRW@W@Y?WA[E_@Ge@KBe@LiADi@Do@b@aFf@kGb@gFHaABUUA}CQ{DKQARIdSyJRMvEwBhAi@jCmADCp@_@FARKxJyEtIiExAu@HE@A@???FCt@[bBw@f@[PKDCJEhAk@JGLELGt@[DCDCBAJEBCx@c@z@c@|@a@RIFEPIhAk@JGNGbCkABANg@Rg@Ro@FWBKBOBQBQD_@B_@B[VmEBg@?]@W?WAW?EASA]Gc@Ig@EYI]EOEQGQEMIOO[OSMSMOFe@XJxCl@tDv@jB`@|@PbEz@p@Nn@LrANN@N@"
+        },
+        {
+          "name": "Candioti Sud",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6553179,
+            "maxLat": -31.6342337,
+            "minLng": -60.7206901,
+            "maxLng": -60.6847104
+          },
+          "encodedPolyline": "ned`EfioqJ^Fz@P\\FdCf@rAVTF??TDtFhAxDt@H@LBP@dBFR@TBf@Hl@BN?H?JAzA_@LENCNCZGTCXC\\A`@Cp@Bx@FQzAOfBg@fGe@~Fe@~Fk@`GANe@rFk@|Fk@fGo@~Fm@lGm@`Gc@lEGp@{E}@sAWiDo@{EaA_@EDq@j@wEp@iGp@eGt@cGoFiAiHwAcFy@yEcAwE}@oDs@{E_A_F{@qF_AuFeAiFaAoEw@gASOCe@Io@OMCUEeF{@n@gFD]z@kGFa@b@uDJs@h@aEHk@p@qFHq@R{AJo@NiAb@_DJs@Hq@@I`@cDHs@b@cDHk@l@wEl@oE`@eDHo@n@uE`@aDHq@@K\\gCHw@BK^oCLcAj@oEn@wEj@wE\\iCNeAj@oEDWBU`@aDBQFMJCLCTFbCf@tD|@B@ZHb@LXH~@tAtAxB@@FLz@zAV\\HJJP`@j@jBvBNPDFBFLRHNFPFXDTPvAn@bGHbAH|@JrAHt@NlAVvBRtBFh@?ZAPAlA?@AP@R@f@Df@Df@BNBPJf@FZDNp@lBNf@Lp@b@bEBP?DFj@D\\nBfQDVJz@RlAWQLr@n@fFDZJt@NjA@@?B@B@BBD@@@@BBBDDBDBB@@@B?FBLBHBb@H"
+        },
+        {
+          "name": "Central Guadalupe",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6220023,
+            "maxLat": -31.5711123,
+            "minLng": -60.6926332,
+            "maxLng": -60.6495832
+          },
+          "encodedPolyline": "`|}_En}hqJzJ`MlFzGjB~BtAv@`A^XJl@FtANbFlA\\PC\\SrCC\\CX[zECXWpDqCk@}Ba@{Do@wDo@}Du@iB_@uAYWEmB_@yEq@{Pa@CRCL_EBLNJL@@BBfAv@x@l@bD`CdDdCbD~BYxBm@zEm@nEm@tEi@pEm@vEk@nEuDu@sDs@wDs@wDu@uDq@eCi@cCg@b@oEVcCLsAd@uEh@{Ed@uEd@qEd@cFTmBDc@WI]zCStBQdBg@pEe@tEe@zEg@tEOrAUdCQzAQpBg@zEe@tEg@tEg@tEWdCWhCQ|AmB_@sDq@wDg@yDa@_EGsC?i@?g@AyCEsCCk@AsCAm@?_@@cDReER}DFmEDa@@oBBa@AI?M?uHBS?dAqHbAkHh@_EnA}IN_AhAuGT}AVqBXkBVoBVmBVsBsCk@Ih@gNeCqGiAoGiAiZgFaDHuP^qM@_L\\gVXzWieB~RcrAtDbCvCbAjE~Aj@T`@h@r@~Az@xAt@zBVrBb@{@L|ARjAV`@NhABb@Ph@f@HQ^Lp@Tn@pAxBrAxBpAlBH_@Vd@JMd@dBJy@|@dCDu@`AhCJo@RzAR]T|@LIRVPNb@RT\\NCZlAPg@`@jAD]RXl@f@FO`@XTCZ`@b@c@LU`@n@`@RTGd@bAVNFSb@d@`@VPKf@XVINPZT?a@j@b@JU~@h@b@Ql@^HUx@^XUt@r@Ce@r@n@V[r@p@`@^j@Tz@Nt@m@hBRjAL`A\\`AHlARrA^hAL~@PbAPpA\\nAVlBb@fATvAF`BGfCKvBQ`BEhCEvAEzAHlBAbBBbABx@DdABdABz@Jr@Dd@@n@Kh@@ZAb@HfAJp@Pp@NZJZVZH`@Ar@Hp@Tx@JY~Dl@DNMPElAf@NVzAnAhBfB~BdBtBbB~@lAPTj@n@|BrCzAjBr@~@bEjF~ClE"
+        },
+        {
+          "name": "Ciudadela Norte",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6217628,
+            "maxLat": -31.5942,
+            "minLng": -60.7620845,
+            "maxLng": -60.7176767
+          },
+          "encodedPolyline": "tm~_E|arqJZDV@X?VAVAtBSVCX?zCFvBDnBBKnBCVIdAWxCOdA]dCIhA?NeCv`@gPsGsCkA}CqAmAg@oHdk@oBqBaA{@oAy@uAg@gAS{AMkA?mAHuA^y@\\mAt@iAv@oCjCu@dAu@rAs@dDA|BNxA^rAt@lAfBrAnDlCnBhBh@`A`@hAPnAA|@W`Ag@z@k@VyATcBGwAu@aCyBqCuBgBgAcBm@yCKkC~@uA~@_BhBkBtDiA|Em@tEq@|HB|F`@~B~@pCtApAjFnBtFrBfBlA`AlBzAfFTrFg@tEiAhB]j@oD|BqCFmNDiFY_HhBoKdJgIbPN~@t@bAxDl@vQmFfCAlAb@Vl@q@lBk@t@oDrByCnCoC|DaA|Ci\\Jdd@soDGLGFKHG@uBZe@HqEv@oBZy@JmBZ}AX{E|@wCj@hFic@R}Ad@{D@Mh@sEBS`@aEJu@RcBHk@Hw@d@uDHi@XeC@K?O?KlBc@zBg@pAY`@KfASNErAWv@Q|@SjAU`@KdDu@vDw@x@SXEVEPCRCT?N?x@Dz@HX@P?PAPCVENCrCw@jAYRGXCd@ALBL@PARIHEFCFGPITWFENKJEDCv@Sd@MVEnAUpB_@REpDm@hB[dDm@jF{@rAUtE{@nB[jDs@ZE\\C^Ap@?P@T@^F\\D\\Ft@PTFv@TvBl@~@XVFd@J^F"
+        },
+        {
+          "name": "Colastiné Norte",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.633152,
+            "maxLat": -31.6132344,
+            "minLng": -60.627613,
+            "maxLng": -60.5856939
+          },
+          "encodedPolyline": "tm}_E|r}pJ^qDvB{TXoCxAmOn@}G`@oDn@{Ht@aIj@uFFw@n@_Gv@{HLqB^{DX{CFs@ZwCd@iEJ{@f@yE`@sDBQDIDICe@@eAFG^a@BI?OA_@@QReCZmDNqBFYLw@x@`@z@^pAl@`Br@XLTHPFzA^tA^dBb@TB`@FXHLDHFPXFF~BxA|BzANHNFNHDDPNd@f@LLHJFLN^pAhDXn@h@jAn@zAn@vAdAdCXj@`@x@f@z@LTLPHHLLRNVPZNbFpBj@R~B|@\\NlBjAtBpAbAp@h@XpB~@^Pj@RfAV^Dj@FdDb@a@dE_AhJSjBqAfNMbA_@hEc@pEi@nEYpCG`@sAhOqAnMERIHCXEJKHg@tMe@vEa@|DkGjk@_CnWaP[oGAeBMOGiLoRaWec@mKmNOCKGoAoBaBwBsBeC}@aA"
+        },
+        {
+          "name": "Del Tránsito",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.5861544,
+            "maxLat": -31.5677203,
+            "minLng": -60.7300087,
+            "maxLng": -60.7112238
+          },
+          "encodedPolyline": "ntw_E~}rqJo@fGk@nFYrC}Ev@eDl@KBeALm@JUBoB`@QDcAXu@LqFbAgB\\yATeC`@sHnAmAPcDb@gCXaCXoGp@kGt@u@JwCZUD_AVq@JB]z@eHx@{Gn@qFXmCDWDKDITYP[l@oARg@FYb@oDBSvBwNZwBb@sCf@}CToAvDmYlPqBjMeBhKoCzGkBj@BJ@DBFBFF@@HBJ@HAHIFCJAhAD~AF|CFfBHnGRrBDhBDzBFUl@GTGZ]dC]bC[dC[dC]dC[bCYz@GXsAdLy@dIs@`FS|AW`BYbC"
+        },
+        {
+          "name": "General Belgrano",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.622748,
+            "maxLat": -31.5893253,
+            "minLng": -60.7132031,
+            "maxLng": -60.691882
+          },
+          "encodedPolyline": "vb~_Ep`nqJPE@DH`@LhAJt@Fn@Df@BDF@D?LBBDBD@JAJEXH^d@jBj@fBHTBFFRTf@jBrDdCjFFNbB`Ed@`AzAzCJRP\\HNtCdGvCbG@BrArCJVh@hAZl@G@q@^EBkClAiAh@wEvBSLeSxJSHiACeBE}D?aEA}DA_EIkEC_EAkEEuD?}DEoDAMAgE@{AGaBIyDS_EM{DS\\_CPuAD_@VgBZcCZcCZcCFc@RaB\\_CFg@R{AZeCr@{FFa@hAkIXoBeLzCs@Rq@F_IxBaCp@iAXGBgEhA_GzA{DdAHk@|@cGFa@TaB@I\\yB^iC^cCZiBZoB`Cf@ZFtCl@`@H|Dv@DWcCe@w@QaDm@YE_Ci@[IWGsA]u@QQEsBc@aB_@gCi@[GsA[gBa@aDs@WGeAYkAYGAYGgIkBFg@j@uBHc@nAiJVcBVaBvAgKfICP?J?^ApBAb@A|DCbEEdEUdEWr@AlCD|DD`EDzDH`EDvDb@vDd@vDj@lBZZF`@HnALTBRDfAXpDbAtDbApD`ArD~@xA^tBj@lAj@`Ad@nB|@|@b@hDdBhD`BbAf@dB|@xAt@LHLHPRPTIRGHGLCBx@Wf@Q"
+        },
+        {
+          "name": "La Guardia",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6700553,
+            "maxLat": -31.627796,
+            "minLng": -60.6543282,
+            "maxLng": -60.5967663
+          },
+          "encodedPolyline": "|nd`EnozpJ|FwB|[zCvW`DhUjKpLbIvNfOdJ`OoD`MbA~BdDfPh@|RjAbGyDnAmB~ByB^iEmAaEQkCuAg@wB}@oDsG}CkSqP{GwBeAEAk@hB_Aj@^xAd@fB}AdBqCPaFgBwAcDNwEpB_@pDa@rGgDMgH`AcAj@sDrBwGrEaFnJ{@tE_FdMgE|J}CbH}BzEqCpF_AhEQxAr@xA`BtAxA?tE^pFEnHc@bK]hKbBtDhDr@zBq@bDk@\\cDrCuFfDwDjC_IfEyOfHmJjF{Al@sAjCoCnAuEAyD}@oEqAMPuBhC?jEzCn@`Cb@zCDbBQPAfAA~@ArCPtAFbEzBj@fCd@rDtBtCxAxC~@dFd@jDjBnD~CdCjDpBbE~DnAxEV`GMlAeAnA_BnAeBXiEdA_F`BsFxBqBxA_o@nCeBHQ@WsMc@aVAuC@yBBkADaAJsAJ_Ad@sEh@qFDiADoA@uAAu@C}@ImBKkBQcCIyAAIC{ACu@[yMQcIC]OyCWcGUsE]cHOyDWWUKKAgBO{AIWGsT{@{Kq@Y?{@?wJc@gKS~BoWjGkk@`@}Dd@wEf@uMJIDKBYHIDSpAoMrAiOFa@XqCh@oEb@qE^iELcApAgNRkB~@iJ`@eElCT|APd@HXHnAd@~D|AhAj@pBhALJNPJNt@vAFDHBDDBFBLDLBFBLBPDVHVjApC^t@xFtMLTn@lAHVLb@LXf@dALNPNFJBNHn@DPXv@j@xBBN@L@TCh@AlAB|BAlBBj@DZNnAFZBv@?VHlBXbDv@zI@F\\zCTlCPfBFr@@^LpARdBL|@TjAT~@R|@T`AHj@Nz@TjAL`@LPFLb@f@rAfA~@t@pCdCrEnDh@d@vKmMdAmAzXy[vJaLc@m@ab@_sAbCk@"
+        },
+        {
+          "name": "Nueva Santa Fe",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.5905841,
+            "maxLat": -31.5625666,
+            "minLng": -60.7154358,
+            "maxLng": -60.6894236
+          },
+          "encodedPolyline": "lnx_EdboqJgBYcB_@sFmAwJuBwA]uHgB_Ds@}K`bAiKnCkMdBmPpBkQvBwe@~Fx@yFp@iEJm@VsAx@uFJq@l@wD|AgK`@gC@IvAeJDWtA{IxAcJnAeIL}@x@kFz@qHF[ZgBhBqLl@iErDeWpHt@fD\\vALtDXjBLrCRrBN^?~MgAj@GXE|Ck@jAQbF{@`@Ef@C`@AZ@ZB`@DhB\\jGlAr@NjCd@pCj@|Cf@VDxB^PB`Fz@p@LxHrAh@Ll@J`BZPBbAP~@Nj@FsA`KUzACTaBnLAHMp@e@|AMt@EVoBvOuBlO_@MUG"
+        },
+        {
+          "name": "Parque Juan de Garay",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6504171,
+            "maxLat": -31.6257165,
+            "minLng": -60.7422906,
+            "maxLng": -60.7098833
+          },
+          "encodedPolyline": "hja`EfjqqJf@gDDWr@wFFc@f@{DBWv@aGD]dFz@TDLBn@Nd@HNBfARnEv@hF`AtFdApF~@~Ez@zE~@nDr@vE|@xEbAbFx@hHvAnFhAu@bGq@dGq@hGk@vEEp@^DzE`AQ`B]|Cq@~Fq@hGmGgAiF_Ay@zGk@~EGd@]tCYtBWxB[jC[fC_B_@q@Q_@Me@Sa@We@e@e@g@g@g@k@e@eAbGMfAEVfTzFAHg@fCQbAu@fEWxAOv@GXYrAWdBAR@P_@tBGn@aB~f@oEe@yC[cBOk@M_@Kg@Ui@Wm@a@kAy@iDqCwAkAeAaAgAaAs@o@m@q@cAqAy@eAu@aAe@o@s@cAQS]_@R{EXiGUGuBw@yE_ScFqJ_SoM{DsMi@_BeTm@Wm@k@_BWo@o@qBYcAOu@ESGe@Gk@IgAEy@C_AA_A@eADoB@Sn@?vCHrBDR@NAJAf@MNE`@OvCy@\\IbBe@`Ba@l@OXEXE\\IDZR`AXfAl@fB|@rBtApC`A\\G[CMCS?OAQ@OL_A`@_DBOBMv@iGz@uGF_@^iDHq@"
+        },
+        {
+          "name": "Progreso Pompeya Oeste",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6037317,
+            "maxLat": -31.5787726,
+            "minLng": -60.712621,
+            "maxLng": -60.6980686
+          },
+          "encodedPolyline": "`kz_ErloqJfEiAFChAY`Cq@~HyBp@Gr@SdL{CYnBiAjIG`@s@zF[dCSzAGf@]~BS`BGb@[bC[bC[bCWfBE^QtA]~BoBImGQwDO{AEcBGyDMwESwDM_EM}DMyDKkBGyAEuDK}DMcEMgCGq@CoDMY?sEImCECHANoGSgBI}CG_BGiAEK@GBIHI@KAICAAGGGCECKAk@C{GjB|KabA~Cr@tHfBvA\\vJtBrFlAbB^fBXTF^LVHz@{Gv@sF|@wGt@_GzBh@ZFpDx@rCn@\\HzD|@vCn@\\HhE`AzCr@VFrDz@[nB[hB_@bC_@hC]xBAHU`BG`@}@bGIj@zDeA~F{A"
+        },
+        {
+          "name": "San Ignacio de Loyola Norte",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6001497,
+            "maxLat": -31.5558042,
+            "minLng": -60.7669473,
+            "maxLng": -60.7135599
+          },
+          "encodedPolyline": "`jz_ErfuqJx@KnB[pEw@d@ItB[FAJIFGFMed@roDh\\Ku@xD[jFcBrFyAdBiAb@oACaAa@YSMi@IaCFgAKaAGe@o@UmA@{@PwA~@{AdC_BbDsB~BkBz@iAXyAL_C]kC}@uAyA{@mBYyB]kAcAwAqDg@oCX{Bh@_D}@gFTcChA{AxAyBxAyB`@_D^aE@kC?_AEiBQoBk@{BmBqAeC_AiDEsCPeEPkFFmDIqBYaBeA{AgBwBKCcBa@kBAiE`@kDr@kEr@kES{C?g@HaAd@w@t@YlAGvAX`Br@pBh@vA`@tBSlA}@|AaAd@iAH_BIeBm@sBiBaEkBsHpA_GrFcFgCgFiC~BuO|BqOVaBp@sEb@sCTyABS@Y?]Aw@Co@Ea@Ii@Ga@iCbAeOtF_H`AiB@sKH{@?m@Ef@gDx@{FR}Ah@cDn@uDpBwMj@sDh@qDj@gD\\gCLi@Ni@VeAZiB`AgG~@iGz@iG\\cC\\_C^eC`@eC\\}B^eC\\aC^eCf@gDN_BDg@~@}Fj@{DsBc@yA[iAUkBa@SCSAS?U?~BoOj@sD`@qCbAgG^gC^_C`@eC^eCZuB^_CXgBl@{DxAoJLs@Hg@ve@_GjQwBwDlYUnAg@|Cc@rC[vBwBvNCRc@nDGXSf@m@nAQZUXEHEJEVYlCo@pFy@zG{@dHC\\yEf@cBNeATzAG\\CLA\\CzEg@f@GdAKtDc@nHw@hDa@tBSvBWlC[jDg@vDk@hEs@zEy@`HqAxAUhASTE|A[XGJC^IfAW^GpDm@nEs@VGbJoA?POnBWvCa@xEQbCKnA_@zEEb@QtBCdA?`@B~@?VAJALS`AUhAe@xCUvACXy@fHw@hHAR_@lDIb@CR{AXI@S@[FkB\\eCd@aB\\Q?EZ^AfF_A`B[x@KzA]PCjGqAhDk@fAW\\IbASbCi@|@SCWdAWr@Mb@GhCg@PELCZ?JAhDo@l@KJENGHCTExAWlB[`B]rB_@pH}A~Ck@vCk@zE}@|AYlB["
+        },
+        {
+          "name": "San Roque",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.6397341,
+            "maxLat": -31.6056051,
+            "minLng": -60.7008379,
+            "maxLng": -60.6771698
+          },
+          "encodedPolyline": "`d``EhfkqJc@aCQ]U[EEYWw@e@g@U}@S@K@OBWkJmBWGmDi@MCiDq@}AYVqDBYZ{EBYB]RsCB]t@`@`InChEl@zFLnB?~CIJNtC{@tAUj@GbB?p@Dv@Sh@TpEhBdJrD`HpC^N|H`DTHb@NbFlBADlBp@rClAlAb@jAr@AH?DMr@ABAFWbBFRBNBP?TAZMvAa@zBOhAEV_@tCOnAk@rEc@rDE`@m@vEc@`DCPE\\c@zCEXEZ_@|CKx@g@xDEXe@`DIr@e@nDGd@a@bDIj@g@pDGd@_@xCCTG`@[zBUfBsAOo@Mq@OcE{@}@QkBa@uDw@yCm@YKoA]w@USESGIh@sDy@uDy@a@ISG_Cg@q@Mq@k@MIq@Q_@I{A[EC_Dm@KCI?S?a@@mEXmEXy@BgC@}DC{DMmAGe@Ce@Ga@I{Cy@D]YAwEjAeBd@GHGBI?AEIc@DVKAOESIsAs@aBs@gBy@eAi@iDcBiDeBq@]wBcAaAe@iAg@a@MyA_@yAa@sD}@sDcAsDcAqDcA}D{@c@KN}AViCVeCf@uEd@uEd@uEh@{EbCf@dCh@tDp@vDt@vDr@rDr@tDt@j@oEl@wEh@qEl@uEl@oEl@{EXyBcD_CeDeCcDaCy@m@gAw@CCAAKMMO~DC`ED~@@`CJD?pDPD?vDj@`Dl@xB^dAPjI~A^FtMbCAJEXdDn@~AZrDt@zDv@|AXvBd@@Ot@RZLXL\\Vh@^`@\\Lf@Bn@Bb@b@zCVhB@D\\FOcAk@{D"
+        },
+        {
+          "name": "Solidaridad y Progreso San Lorenzo",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.672879,
+            "maxLat": -31.6434286,
+            "minLng": -60.7424736,
+            "maxLng": -60.705446
+          },
+          "encodedPolyline": "fag`EdevqJuCZuI~@wLnAqKfAaAHwCVM@}@JOBwJdAm[dDkGn@m@Bw@CgAMcBQ`B_g@Fo@^uBAQ@SVeBXsAFYNw@VyAt@gEPcAf@gC@IgT{FDWLgAdAcGj@d@f@f@d@f@d@d@`@Vd@R^Lp@P~A^ZgCZkCVyBXuB\\uCFe@j@_Fx@{GhF~@lGfAp@iGp@_G\\}CPaBhDn@rAVzE|@Fq@b@mEl@aGl@mGn@_Gj@gGj@}Fd@sF@Oj@aGd@_Gd@_Gf@gGNgBP{Ap@Fv@LbAT~@ZxBt@hGzBhBp@rBp@tCn@hHnA`Dj@l@Lb@Jv@Tn@Rv@Zx@\\hAh@n@`@j@b@b@b@`@`@j@t@l@hATh@Rh@Nh@Nl@Jp@Jp@HxA@hB]vFKlA[pCCJCJU^k@x@HEb@GL?P@THJF\\Zt@j@r@n@xBpB`@`@v@j@~@j@`Ab@rAl@fAn@`@Vd@`@p@r@n@z@h@hAzBvFbC`H`ErLLd@ThAHfAFdAAlAElAI~@Mx@UjAa@hAm@nAq@|@s@v@s@j@u@b@q@Zs@Rm@Ns@JuBX}@NeATcBDkAF]QIKOWGM?P@`@ALG^w@n@yA`A_Bl@qBn@yKjDi@RcAu@r@hDfA~FPz@@WBOBKFIZSPKXOXSTURWRYL]Jc@PuAFm@Hm@BODONYRWVUVOVOXQjCw@n@Q~BS|@MTPNJPVPo@F_@b@_@JIPMnAq@h@SxHlBe@vAc@dCe@nBi@tAJtAv@j@r@`AC|@S`@a@`@QLHv@Pz@b@|BJdAs@~@qAjCqAnCcDlEyHpAwI|@AMCSeQfC"
+        },
+        {
+          "name": "Vuelta del Paraguayo",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -31.649436,
+            "maxLat": -31.6431439,
+            "minLng": -60.6792024,
+            "maxLng": -60.6534294
+          },
+          "encodedPolyline": "rhc`EzijqJFYRMXT`AEC{@sAHWI?]@e@Ic@Fw@DmABg@I]Lw@B}@Ho@?mATiDDkA?_AKsAAwAMaC?_CBkEEwDGiCEoBAcAEm@FaAAs@Me@B_AJ{@Da@Ay@FgACg@NqBPw@Xe@@{@X}AZ_A`@w@Hk@@u@NWKiAp@oCfA{DnAcE~AsErB}GtBsFrEaHjEyDnAq@d@vAa@rBu@`DgAlCaBdEaCdEmAdAeAb@cAj@q@n@c@t@YlAMhAp@dCD`@\\vCJ`BDvDThAf@dAf@n@j@zAj@r@n@~AJfAr@hBD@v@rCn@f@Pr@d@`@DXDdAIr@_@`Ak@r@iAj@qCtC}AxBeA|C}@~Aa@dB{BtFwAlAi@nATP`Bj@jBXz@^n@LZfB^`ACdBK|@Wz@OvAKt@Dr@xGbHoE?yM@OEe@Gi@GY?a@?u@GQe@"
         }
       ]
     },
