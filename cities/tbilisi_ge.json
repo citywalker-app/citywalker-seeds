@@ -1,0 +1,141 @@
+{
+  "name": "Tbilisi",
+  "countryCode": "GE",
+  "regions": [
+    {
+      "name": "Chugureti District (ჩუღურეთის რაიონი)",
+      "osmId": 13438810,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.6960749,
+        "maxLat": 41.7392232,
+        "minLng": 44.7873787,
+        "maxLng": 44.8759279
+      },
+      "encodedPolyline": "_}n}FqznpG?z@RtDuHz@mBTqAPyCr@gDbGcBbGcBxF{ApGmC~P[jBqCnL_BfE}C~EsAjAYRgItGaEpD}FtGqGdCyCvAkAj@gIZsHtBsCfBsChBu@cCoK}_@a@qAIUkGuVK[sIjFEAMHQi@MHEMIFSq@IDaEqLOi@Gi@EQe@k@Qc@sBeKEe@CcB`@uFaAqFEc@PcGLsA`AuFmC}S{@kDIeANcJCs@_@][BYb@Ix@GlD]fCa@tB]x@a@R]CQQK]Ac@nAw[Ei@ISKGSHYb@a@jEOn@c@Nw@OWYKg@YaCcAsIw@{HO{BMcDEiEE{Q]eD}@eFsAwEACqCuOiFsPwKiQqGgJuAiCmEgIeAKa@FgEj@yDfAU\\b@cEr@uFpAgDjAkKBcOlDuKdBeG|DgDpG_^~H}LhIwNxIeZlNgj@dHiKvBeCAlNVdCH~@PnBlKpi@FNtCfKlCnJtApEfStp@l@vDJvASzE?x@HbBKxCFpB`@`DJ~V@d@CdEMnAMtAMxAIfAKfACz@CjA[dJlD`AR@j@l@z@~C`@hAf@nAp@`Ad@f@RPn@f@p@d@l@d@rAxBlCjEr@hA`@bAt@pBt@rAn@b@jAl@t@Td@F|@NhAGz@Z`AV^@x@AjBuCj@oAX_AV]b@e@\\b@PrEF~APx@FZLxALl@Ll@\\v@Hp@@l@`@rB`@xC\\z@J^GZA\\F^@h@Hd@`@f@BVG`A[fBv@jB|BrFfAt@vAr@vB`DzAgAHf@Jd@HXFn@Fn@Jb@Rh@Td@d@`@`@`@LNFTPp@HRJNn@bANd@V`@TZLRLXNz@Lp@Hx@BPFJXTLLFHR^rA~Al@t@`@\\t@t@LLHLbAhAhDz@|Bl@bAXpA^xBnABFz@jCp@zDZvALp@T~AID`@|BaDt@OB"
+    },
+    {
+      "name": "Didube District (დიდუბის რაიონი)",
+      "osmId": 11300445,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.7169047,
+        "maxLat": 41.78745,
+        "minLng": 44.768535,
+        "maxLng": 44.7991213
+      },
+      "encodedPolyline": "syr}FcpjpGqDnCsK~HqFdDaG~CsEdBiLhEwBdAaDhC{EnG{O|WcFfDaF|B}HdDwGfCaLdCgHrAyFfAoEt@}Dj@gECkEUiBKgF{B_DkBqNyK_JqH_@p@eCvG{@d@_@b@gAl@_@n@aBj@aAd@KJ]`@m@d@q@v@[jAi@p@Yp@k@|@SX_@T}@PaAb@iAZy@Vk@PeAl@Ub@Uh@Kf@AvAgDNaH?iCEWCgAOYEqAE_@?{DM}GCgCA{@?wC]SCO?gILgBBwA?aTJiWLuBBcH?SA_ES_BKyGm@[C}N{@gDMqMe@WkHc@uG@aZBYRsDf@oG^uIZyFhBu^xCn@tBd@vA^lAX|@RvBj@dAYdCuBVAVIXORIXKRIxE}BtDjAdIlBlDt@vCrAdDbCnChEbErKrHzHhFhB`FTdFiAfNaGj@KtDk@nIUpEJzEb@pDjAjEhBrN`DfQpJzCqJLFDSJTrDlAfB`@vB\\nAPdCDlDFfBGfEYrEc@xEo@jCq@dBe@|B_AfAi@xBqAbA{@p@q@vB_C`\\{a@lEiEdCyB~AiAbBeApAm@bEoBfHcDfKuEScArGwDvI}EQmAT]Qa@Qa@Ow@q@r@c@iA~JwEnD_CQu@n@S`EpLHERp@HGDLLIPh@LID@rIkFJZjGtVHT`@pAnK|_@t@bC"
+    },
+    {
+      "name": "Gldani District (გლდანის რაიონი)",
+      "osmId": 13438812,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.7587158,
+        "maxLat": 41.8438777,
+        "minLng": 44.7460699,
+        "maxLng": 44.8950237
+      },
+      "encodedPolyline": "u|{}Fau{pGKXmAtBa@dAOp@KZC\\DTML[VNn@j@ZrAQx@Pn@x@t@v@b@P|@J|@Nl@\\pBv@b@B^XdAfA|BjAP^Bv@Xp@n@TnANXL\\`@RZ@`@MXsEpFsApB_@VQEGQOS_@AmALw@SWIa@IKV@`@`@j@f@\\jAtA~BdERr@BZG~@@b@b@rAZp@`@n@Ex@kBzDSn@@Z^x@}EjJ[d@{@xAg@l@k@^IVUAQVe@dBSRWFOf@EXFHOVULONMd@{@nAsDlFKXOJUDW`@mAn@KZEXGRKDW~@QLIPC\\@\\E^KVQLWj@o@r@QPMToBpBq@`@w@ZI\\a@VKRY\\k@ZEVINc@PU^e@RMRWLKRU`CWh@a@b@gEpHoBzCa@NQZ[~@i@z@?ZIj@wC~BgCpFKnAS|@wApDo@v@aDrD{@j@cAhCa@b@]r@k@nBYd@eAjCcAhDGb@qAdEy@nCWbDl@`Bd@hDl@lBW^iAzBVZrEfFg@lGKj@iAxCsNzW_B|CKPMX]r@QLAj@?~A[hCDFIjBr@LcAbFWPmBl@_@h@[bA}@|EKtGMxCsHbMs@h@_BjBw@oAqCdC{@fB{@~@g@v@m@j@a@Fg@Tm@j@O^Cb@g@b@QVe@`@Sf@Cn@Qd@ULUFUE_@RU`@Eb@@LBp@Z~@`@fDL\\f@dCHbACn@DjADZRzB@b@RfAz@jDP\\LLJAPNRXBTHHVn@XvBi@?Wj@p@`BbBzDPd@`AxE~@vFHlAB|@oCpl@e@G}@fPq@SkBw@qBk@cBm@sBa@}A_@qAYyOmD{GwAmF}@uKRkEjEoIpIqIjDiKPgGkBmGqAyCIgOcAgLk@mKlDoXnWuIbHmK~J_FxGkBpGIxCIlLOjEc@~BeEnPWbDFxBJzEbBvNjDvB`B~BtBnFkFj@qBwAyDxGq@Nh@fAz@m@tDlMfEzLzAhCp@~ADtAUvAHxFfA~DZ|BBR`AbBElBq@fAQfAq@z@e]vQiBc@w@a@qA@sArA{AZiFqCcBRqI}C_By@aDiBqIgYyAkVuDyp@eGuMg[{YoK{VtG_NlBc@~Nis@lFgd@dDaCfJwiBb_@yUn@uQL}@?{AHaAs@gAKgA^{Bb@cBXo@TeAJq@Xa@TgBLkBH]Ac@^u@Rs@PCZ@R]yAgj@d@u@h@{ABqAK_AIw@Va@P?\\^P~@?t@?j@LXD?FW?S?MHGLCFDBJFf@Lf@JLHKBeAJ?LHJn@Dt@Fj@TVZGN]Bu@o@}CMsAEcDI{Ag@aFAiJ\\aBZqKh@sGz@}DN{BVsLG_AmBoG_AmF|_@xBCgAnAyG?_Cj@{BYsCu@uCw@kI`@sEJuDR_CPoBt@}Fz@{Ct@oBTuDX_CjA{GJuG|@yJlBcMrBgH\\kIpAyH|D}LXs@r@g@dAuD`@oAr@mDv@u@|@mAnAkClB{Jh@qDV{@z@uA|@Np@n@Z?F_Ap@aDnAgFfAiETmC`AmBbBsCXgF~@wA|@\\~AsA`@kCnBqAvCoBjBg@zDvBpANfCqCZc@|@GvALf@Q`AiCVy@p@YbAZ^r@t@bCj@x@nADDOm@cBDe@?uAOaAk@cACYVsFOs@{@_CBcAh@{DFsBNu@TIx@tBfB`BlA|@hBdEVnAZFPkBAiATu@La@FyFBiAFQl@l@N^@dAD`@Zh@Ah@Fd@\\^Ah@Ld@j@~@JrANh@j@fAHXC^Bj@Pj@D^PBJJ@Z?RDHPJFLLpANr@@j@JRf@`@T^W`HIdABx@jApCN~@]fBgAjCAnAh@`BbBxBJp@StAYfB^rAl@lA|@`AhABp@Tn@w@b@mAv@kDj@{@dByDr@o@~Ao@f@WZf@Bd@q@rBo@vCDf@XLv@g@VJLr@Vd@\\r@Cz@@j@PJLt@xL}Fp[bCbSrF|JYhAeAhO_OlKz@~C{B~B_EdAs@lA?pEu@xAs@hAyAdAiAh@Qj@Bf@S^Ld@b@Pr@VV^`@NRVFFZAZANNN^XTP`@l@Xz@HfBx@vBh@x@n@V~@CpAC~@H~@f@h@nAZ|Bt@`A|AFbBP`ATpAZv@Zv@`An@hAhCpIf@Tl@FINWNB`@HZPEVGPhBd@\\IFCh@?h@H\\TPHJFTALBTLXDJBRDR"
+    },
+    {
+      "name": "Isani District (ისნის რაიონი)",
+      "osmId": 13438808,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.6667474,
+        "maxLat": 41.717403,
+        "minLng": 44.8082462,
+        "maxLng": 44.8784296
+      },
+      "encodedPolyline": "edj}Fei|pGZ\\RHn@VsAzIBTfGfCz@RrBn@FFBT?PKvAHVFDJ?RId@oAfBf@Vr@EbCEhB@dAd@dA\\n@JTNLT?LSFULOz@i@|By@hAc@^Ij@??|@gBtIgDhSuFbWmBlJiAhH[zIUrN}@pOQvI{AbUaA~SaBr_@eA`FQb@_CzB_Ab@_Cp@iD|@cGr@w@HeBVkALgABcFEcBH}DtAkEfDOd@QTo@fAs@tAe@`B{@pC_@zCIlACnC@pL@xFs@rNY`AQdAc@dA}FrGgHvE}D|DeCdC[ZqBrFkA~GyAbW_@zN]pAsBlBkHxGaD`Am@LoA?oRYyAJSuD?{@NC`Du@a@}BHEU_BMq@[wAq@{D{@kCCGyBoAqA_@cAY}Bm@iD{@cAiAIMMMu@u@a@]m@u@sA_BS_@GIMMYUGKCQIy@Mq@O{@MYMSU[Wa@Oe@o@cAKOISQq@GUMOa@a@e@a@Ue@Si@Kc@Go@Go@IYKe@Ig@{AfAwBaDwAs@gAu@}BsFw@kBZgBFaACWa@g@Ie@Ai@G_@@]F[K_@]{@a@yCa@sBAm@Iq@]w@Mm@Mm@MyAG[Qy@G_BQsE]c@c@d@W\\Y~@k@nAkBtCy@@_@AaAW{@[iAF}@Oe@Gu@UkAm@o@c@u@sAu@qBa@cAs@iAmCkEsAyBm@e@q@e@o@g@SQe@g@q@aAg@oAa@iA{@_Dk@m@SAmDaAZeJBkAB{@JgAHgALyALuALoABeEtS_`@nIgKj^ma@pLoO`HcEpGoCpFS^c@f@i@v@uAv@u@dAo@Xm@~@e@X_@NK|@iAL[b@w@XKb@DZCj@}@\\c@f@gAPIz@QJKVAh@[^KVAH@Nc@JDHb@^Cn@]l@QHGNMl@OZ_@|Au@pFwBt@a@jEqB~Aa@XJfB_AdASLKDQBQH{BFaAVmEh@qIH@dIPt@B~IP^@jBL`FLl@?dG@fA?lB@|Ei@t@AZD^LHq@Ty@d@iAz@iBJWx@gApAcBhDgD~@_AnJsOh@uAd@RZDvBAnAWx@[t@Wb@Sx@o@n@s@Xa@f@}@"
+    },
+    {
+      "name": "Krtsanisi District (კრწანისის რაიონი)",
+      "osmId": 13438809,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.6177901,
+        "maxLat": 41.6968625,
+        "minLng": 44.7812859,
+        "maxLng": 44.9358829
+      },
+      "encodedPolyline": "cdn}FckmpG}@BgBa@{AMsHcA[QQUU_@w@kBo@uNSoFQqFxAKnRXnA?l@M`DaAjHyGrBmB\\qA^{NxAcWjA_HpBsFZ[dCeC|D}DfHwE|FsGb@eAPeAXaAr@sNAyFAqLBoCHmA^{Cz@qCd@aBr@uAn@gAPUNe@jEgD|DuAbBIbFDfACjAMdBWv@IbGs@hD}@~Bq@~@c@~B{BPc@dAaF`Bs_@`A_TzAcUPwI|@qOTsNZ{IhAiHlBmJtFcWfDiSfBuI?}@b@E^?l@KvG_Dr@}ApAgE`CoUtEg[~E{]TeD^qFlCoQ`GcVbJ}WzSu^tB}DhB}UG}B[iOeDaZ?OEkMmAcQdBcNlKwPzBoAjOwIzUuNtK}LxWlEn@nFn@lDfBvD@nBDP^VF`B[|DQpA?fA_@z@JL~@Md@p@~BvAbCnFxChE`@@jC`DdBnC~@~Ct@dA`ErAxCpAfEn@`At@`@`Ado@q]nRmLrAA|AFLXdB`ZSx@[f@_KbA[`@sBfUqCxNs@tC_@lCgAxJ{@bKgAvJyAnNI~@QvAlA?d@XbAPpEfB_F`_@{BcBcEaB}XsDmC}@qAi@yCg@}@k@u@cAg\\kOiBFg@jBWxBNf@_UdOrFxRgAllAs@b@g@Ck@Qc@DWVyA|@oHxA?uBC{@uF}TSCg@fBqClGyAnJ_AzA}@`@m@b@Qr@S~Hc@~BUhAkBtLqAxFyA`JgAtGgCtC}JjL|K~W?n@qCjB{Fi@aDrCKh@t@nD{Ab@aAhAFfBoF|EkAd@yBfA{@rAyHnr@EbFCdD?v@tAzE?|@VdAR`@^PCpAkJt]yArJ_AvE?jEUzFSrCJZC\\l@`D`@bFXr@\\FfCnCb@^Ph@Av@@n@mAzHAlANrN@jFGxETbGFjJI|DJ~@@n@G`DYrGU`DEhBOpC_@~Eg@`QEvA?tDFZXfBZlAtBrDdBnCf@dAp@tDpAtFxBxK`AvDdAbDrJlTVbB?`BJCDv@@Vk@Nq@v@uCnEaCtCyBnEcBbB}AbCqCpAiAbAia@bDg`@?cJaFAyN}CeAkFnAyAjFa@tII`E?pBJfEIpB]tD]bAm@pBYr@oAvC?n@yBvJUrATbHaApHcA`EH\\{@hCyArE}@Y`AhAeCk@aAy@Wm@I]QGM]a@[KQkAU@i@o@_@v@uAu@CUa@k@WESu@VWVUT_@L]PIZ_@b@]PYLaCUaAKOIUC[@SBS@]IWSUQc@Sm@m@Wl@s@SOYMSCOI[WUa@GIq@k@GOg@QWIQ@Nq@aBJkAPgAQmAq@PHuAOiAJyBg@`@_@g@KYJa@\\w@v@yAiA@JiB{@Wg@UGu@a@_A_@_@YmAYeAMg@SIUu@SiAI[]Sm@MEDQwA@_BD?Fc@Ce@Ym@Ps@IY\\aA^k@OAJk@g@oACAk@DOc@KaA}AhAg@Z}Ba@qAw@}CkDXg@Ci@AKU[Mc@D_@HO?_CU_@Uc@IKSyCKWFqC}@_BQc@Gg@BKs@AiBCk@?cA{AcABE??IEoAASiERO?s@B}ERaDH"
+    },
+    {
+      "name": "Mtatsminda District (მთაწმინდის რაიონი)",
+      "osmId": 13438811,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.6248905,
+        "maxLat": 41.7169047,
+        "minLng": 44.6229662,
+        "maxLng": 44.8089793
+      },
+      "encodedPolyline": "usp}Fc{kpGYRgItGaEpD}FtGqGdCyCvAkAj@gIZsHtBsCfBsChBDTf@dBl@lBPXhIdL`AlA|AxAn@`@Ip@?`@Fn@BHHTHNDDZTZJT?l@G^^v@n@~AtAl@f@z@~@xMhH`A^JB~Af@THdCv@pAf@b@R`EjBhDf@lAJBMVVJJDDBFDHDLf@LJRFt@HdAAR?h@GdB?~@BLDLNLXCt@KL?NALHj@`Ad@p@Ll@JvAPnAJx@Ct@AHMv@AFE\\@`@Dl@FPFJDBZ@R@LHHRHVDJFR^j@TZFXFT?@Hb@Lr@Pz@Lh@F\\Hn@D`@@PhACFBDF@HJdCEXr@zBFXAn@Q\\KHh@fC@RENSZCVDLd@d@^dAHJh@LCRSJQFIT@VFLLDJBHLFTCJEJGNBPHDf@CPFBXEVEV@NJHHDPLHPHPTjAGHCJ@LAFAN@FHJL@JHETEF@PBL@VHRNJNFFH?R?PNHNFFh@CNGNCJAPHHJCJFDNANGDBJJPHJ?RKLIJGL?VFJJ?FJHJJ?J@LDDF?TIHGF?N@NJXH?HPAJ?T?NDJJLFJFRBNBb@CP@PBN@NAVCPAV@NDNBDFL?RAJAR@HDJFDFHD@AVA^?P@RFHDX?D@\\?PATDTDBN@DEHCH@JJH@BF?VCXBNHHBDLHHHATCPI^CT?HHDH?H?D?DFBHENEJIFGDCL?LDTDPDF?V?R?X?JBRFNBFB?HJHPFZDPDLNHTBF?R?FCNHJDJ?B?JJFLDP@J?L@HRb@DFDH?j@AP@LFLAPGDCH@HHHFL?LCNINKPKNGFCLAXDp@@b@@p@BX@`@Hl@Z|B@^@`@AX@X@LFZDLJTFJDTB`@DXDFBTBZDVLLJFLFJJ?JKLQRSHGXBZHPB\\?\\DXLZLf@Fb@B~@Cp@Bh@b@f@h@Pv@b@vA^VXdBfAd@Dz@c@PKXS`@S@Q@WNJLHB?h@@xBk@rAIhD?XDl@?v@X^b@Ll@Lf@d@pEDb@^bDdBfKZvAXVtBp@\\XZf@L`@NhAb@lDVhBRbE?nAr@zOD|DDfCI|FEpDSzH_BbNcBxC_BvBU|@hAtLt@|Gp@|DXRjAMjCiArE}@fDFjBl@z@h@`Az@|@fBrAxItArL`BhTx@rBvCpA`GtMtBvIdHvLbFfHjFfEzQdDrIdEvCN`IeApCZQvAeAnDyFfH{@xS}A~Q_AjBaFbCaJxJuHj_@j@~It@jEBjEzDpLh@zDSlFe@vEf@tEfApEZ`Fr@nFx@zAhBzEp@|DhAfFt@p@dAvMqDdYs@TiChGXd@JbFWNOpEYFw@rKp@fBX~@IfGWR{AM^p@t@f@C`DnFv@?`B|@bJn@hBeAtCJfCzArLdBa@`AtH~BkAlBuBxG~MrBu@zHZzB|AzC~CrE`DzDtYbAtCb@~ArAbO|CtIx@nNAvDzO}A`_Aac@vp@qZ~AeDv@oCF_B_@iBg@aBmAgBEWH[j@QVEj@En@k@R{@Dm@pCsHT}C}@oC]eCm@yCaA{B}Bo@eBuBWQgEgAWcC`DeCzEyBfA{Cq@}B?oEw@aDyBsAk@mA{AgI}BXqA{@cCsEhAaCrFk@lBuBBIbAiDwAmFmEiC}BqEOyQ_A{AaA^oANu@qDk@sFm@]{@@m@aA[oA[s@e@YWCmAu@UiAoA}AqAgEw@cF}BqE_IqFoCyEE{GdAGbAm@hCNnGUxCPxCz@xEXlAa@nAIz@cNw@eGNyYeAsG|Eo\\oAmM[_JcA\\}@Ei@iBc@}B@yAW}@a@u@_@a@g@oBO}Ct@}Cp@{B\\iABoCVyAA{BMyBEuDQ}Cd@aCLu@]{De@mDPsBb@}Av@_BFaAQmBdEwVjEyn@OmPH}EHkBEeCPoDR{B`AiIfGwYsBk`@wAwHgB_E[}Ad@_@dACbB?RCJe@Hk@NS|@a@V_@@YKo@A]@UAGIAEQBa@T}@Fe@Ri@X[n@SRUJq@BcBFa@Rk@RcALq@LU`@BZRPDfAcCX}@Xy@DmAFe@LU^EV?XTRTVHRGHQ?k@?[HYRMn@OZK^YTa@Ds@L}@B_@Ca@Dc@X{@JY?[FOPG@ECKBCJG@MS[ISDKHKPO\\i@b@s@Vi@\\W?KIICQNSXi@ZGPYJUf@ITIJIFu@Lk@Z}@Ac@O]HYZWn@HhAXXA^cBf@cDRgDFu@NOXG\\?JZJJPITa@^?f@KNg@XsCJk@R_@\\BPZXFRO?m@O_A@q@Pk@`@c@Xu@@eAOq@we@`@tBsCfB}E`C{E\\{@z@}CDm@ZoANgADk@c@mCV}ECeCBeAGm@GoANeAn@mCvAuEb@yEZyDAqAUcBL_Ab@iBJ{@?g@i@iGEy@Dm@J_BdAsCPqCQoDW{DGcB[iBUw@Wm@u@sA_@QkA[]?q@PkC~AiCpBgD}IlB}AhAwBZeALcAJQTIl@?NCJWD_@Cm@A[NQ\\KX[LY@c@LYf@STQN[Nu@Tq@Ta@ZOl@Jd@EHKFWEkBQmAk@sAc@gAoAaBi@UeBx@_Bj@c@Mm@eBkAsEs@wAJY`@eAJ_@JKnB[x@It@Nr@ITDT@\\At@@^Et@k@VELNNAL[Ho@VYv@o@`@QFIE_@FYPORAHRHFJKLUFi@Pc@^e@d@KZOJONc@TGn@IV?b@PX?TUR_@RWb@In@?`@MJUB[C[BSRS\\UXY^}@^mAHm@Bq@DYXWt@m@Te@b@i@`@YRU`@[VITLn@d@l@Hr@[Zg@Jc@B_@Ae@MSWE]DMIGSGg@OyFC]GWAOBKAEKAa@BQAe@aCEEs@DuCi@aEo@[JgE_As@HEmAGq@MUaDeGa@CyAjDWLa@_A{BcFa@yAFU\\K\\g@VcAKk@wFeKUa@{GaMWSGGo@h@s@f@sAhAc@zA_@rAUbAa@v@c@t@g@f@[h@_@d@i@hAW`AmBbCm@`ASf@W^Qf@WZiAtBoAnBO^e@No@MIYgBq@s@^a@Zi@x@Gb@OHq@DSRB^QNc@FK^[T_@d@{@TY`@g@FaAj@g@f@Q`AQJUSe@HiANu@RoATk@T{@To@VIZa@XOVk@Rq@No@h@kAjAaAhAyAZe@t@u@\\]x@CpAo@j@uB|AOl@oAtCYb@o@@MSTwBAeJI_IeA_B_@uAHgD@g@BsBKu@eCg@{@JDv@@Vk@Nq@v@uCnEaCtCyBnEcBbB}AbCqCpAiAbAia@bDg`@?cJaFAyN}CeAkFnAyAjFa@tII`E?pBJfEIpB]tD]bAm@pBYr@oAvC?n@yBvJUrATbHaApHcA`EH\\{@hCyArE}@Y`AhAeCk@aAy@Wm@I]QGM]a@[KQkAU@i@o@_@v@uAu@CUa@k@WESu@VWVUT_@L]PIZ_@b@]PYLaCUaAKOIUC[@SBS@]IWSUQc@Sm@m@Wl@s@SOYMSCOI[WUa@GIq@k@GOg@QWIQ@Nq@aBJkAPgAQmAq@PHuAOiAJyBg@`@_@g@KYJa@\\w@v@yAiA@JiB{@Wg@UGu@a@_A_@_@YmAYeAMg@SIUu@SiAI[]Sm@MEDQwA@_BD?Fc@Ce@Ym@Ps@IY\\aA^k@OAJk@g@oACAk@DOc@KaA}AhAg@Z}Ba@qAw@}CkDXg@Ci@AKU[Mc@D_@HO?_CU_@Uc@IKSyCKWFqC}@_BQc@Gg@BKs@AiBCk@?cA{AcABE??IEoAASiERO?s@B}ERaDH}@BgBa@{AMsHcA[QQUU_@w@kBo@uNSoFQqFuHz@mBTqAPyCr@gDbGcBbGcBxF{ApGmC~P[jBqCnL_BfE}C~EsAjA"
+    },
+    {
+      "name": "Nadzaladevi District (ნაძალადევის რაიონი)",
+      "osmId": 11300438,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.7239482,
+        "maxLat": 41.788242,
+        "minLng": 44.7787003,
+        "maxLng": 44.9050149
+      },
+      "encodedPolyline": "k~{}Fi~{pGMFIFCh@?h@H\\TPHJFTALBTLXDJBRDRKXmAtBa@dAOp@KZC\\DTML[VNn@j@ZrAQx@Pn@x@t@v@b@P|@J|@Nl@\\pBv@b@B^XdAfA|BjAP^Bv@Xp@n@TnANXL\\`@RZ@`@MXsEpFsApB_@VQEGQOS_@AmALw@SWIa@IKV@`@`@j@f@\\jAtA~BdERr@BZG~@@b@b@rAZp@`@n@Ex@kBzDSn@@Z^x@}EjJ[d@{@xAg@l@k@^IVUAQVe@dBSRWFOf@EXFHOVULONMd@{@nAsDlFKXOJUDW`@mAn@KZEXGRKDW~@QLIPC\\@\\E^KVQLWj@o@r@QPMToBpBq@`@w@ZI\\a@VKRY\\k@ZEVINc@PU^e@RMRWLKRU`CWh@a@b@gEpHoBzCa@NQZ[~@i@z@?ZIj@wC~BgCpFKnAS|@wApDo@v@aDrD{@j@cAhCa@b@]r@k@nBYd@eAjCcAhDGb@qAdEy@nCWbDl@`Bd@hDl@lBW^iAzBVZrEfFg@lGKj@iAxCsNzW_B|CKPMX]r@QLAj@?~A[hCDFIjBr@LcAbFWPmBl@_@h@[bA}@|EKtGMxCsHbMs@h@_BjBw@oAqCdC{@fB{@~@g@v@m@j@a@Fg@Tm@j@O^Cb@g@b@QVe@`@Sf@Cn@Qd@ULUFUE_@RU`@Eb@@LBp@Z~@`@fDL\\f@dCHbACn@DjADZRzB@b@RfAz@jDP\\LLJAPNRXBTHHVn@XvBi@?Wj@p@`BbBzDPd@`AxE~@vFHlAB|@oCpl@e@G}@fPxCn@tBd@vA^lAX|@RvBj@dAYdCuBVAVIXORIXKRIxE}BtDjAdIlBlDt@vCrAdDbCnChEbErKrHzHhFhB`FTdFiAfNaGj@KtDk@nIUpEJzEb@pDjAjEhBrN`DfQpJzCqJLFDSJTrDlAfB`@vB\\nAPdCDlDFfBGfEYrEc@xEo@jCq@dBe@|B_AfAi@xBqAbA{@p@q@vB_C`\\{a@lEiEdCyB~AiAbBeApAm@bEoBfHcDfKuEScArGwDvI}EQmAT]Qa@Qa@Ow@q@r@c@iA~JwEnD_CQu@n@SOi@Gi@EQe@k@Qc@sBeKEe@CcB`@uFaAqFEc@PcGLsA`AuFmC}S{@kDIeANcJCs@_@][BYb@Ix@GlD]fCa@tB]x@a@R]CQQK]Ac@nAw[Ei@ISKGSHYb@a@jEOn@c@Nw@OWYKg@YaCcAsIw@{HO{BMcDEiEE{Q]eD}@eFsAwEACqCuOiFsPwKiQqGgJuAiCmEgIeAKa@FgEj@yDfAU\\b@cEr@uFpAgDjAkKBcOlDuKdBeG|DgDpG_^~H}LhIwNxIeZlNgj@dHiKvBeCyBgLkByIYqAkBwNj@{@|@oMLsB`CcP_^e`@`@qARw@jLsz@WcDeDT{Bl@_Bp@q@c@m@@oK|EgBzOaBdCuCbH{AjIiBxFeDjFgFtHyDnFmEtFwHzJ{KnOiI`LaKfXsDtHkEzNaCpDkClCcEtCmDzAcDXaGJuFuAyDuAc_@yMaJ_BkE_@W?"
+    },
+    {
+      "name": "Saburtalo District (საბურთალოს რაიონი)",
+      "osmId": 11300446,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.7120059,
+        "maxLat": 41.8243568,
+        "minLng": 44.6596343,
+        "maxLng": 44.7902888
+      },
+      "encodedPolyline": "}sr}FmkepGRw@rF}J~BoOx@{MC{IFkGbIca@PaEg@iJw@wIDk@w@o@_@_@m@FU?[K[UEEIOIUCIGo@?a@Hq@o@a@}AyAaAmAiIeLQYm@mBg@eBEUqDnCsK~HqFdDaG~CsEdBiLhEwBdAaDhC{EnG{O|WcFfDaF|B}HdDwGfCaLdCgHrAyFfAoEt@}Dj@gECkEUiBKgF{B_DkBqNyK_JqH_@p@eCvG{@d@_@b@gAl@_@n@aBj@aAd@KJ]`@m@d@q@v@[jAi@p@Yp@k@|@SX_@T}@PaAb@iAZy@Vk@PeAl@Ub@Uh@Kf@AvAgDNaH?iCEWCgAOYEqAE_@?{DM}GCgCA{@?wC]SCO?gILgBBwA?aTJiWLuBBcH?SA_ES_BKyGm@[C}N{@gDMqMe@WkHc@uG@aZBYRsDf@oG^uIZyFhBu^q@SkBw@qBk@cBm@sBa@}A_@qAYyOmD{GwAmF}@uKRkEjEoIpIqIjDiKPgGkBmGqAyCIgOcAgLk@mKlDoXnWuIbHmK~J_FxGkBpGIxCIlLOjEc@~BeEnPWbDFxBJzEbBvNjDvB`B~BtBnFNCtDlHxBbDdAhA`A`Cv@rAr@rBj@vDdBdQ~@bOb@vIRl@Dn@S|@FpA_@bHw@fJ[xBgDtOXbB`FjCbE`M`Br@v@?Rb@N|@~A~AnA`Al@`Ej@Iz@d@jBtEBhH\\^Lz@?x@YjAUn@VbAh@rFp@lCpAlBfAp@j@bBx@hF?tCt@vEGhB[fFcBxCU~@s@jBkAxEEdAFdCWrCC|FOrFa@|A{@rADl@Mp@BjAcZpLLvCQhA?hAOb@GjBTR@dBS\\An@KfADf@Hd@BVE\\KJYIM]WGIPARNTPJLh@Ch@d@J]jE@~@URB~@p@DHbEc@pAd@`NEpJbCfLh@vEO|Cy@rGkApAqATa@b@a@zAVnEXbAh@~@d@hCR`BTj@LrCXtDt@h@l[ob@R`FP`Ah@Vh@L^p@N|@Zl@r@Qt@Np@XbApBhDjEtCzAh@xAc@LYlAJdApDxBTfA\\d@d@~CtAh@~@xAd@hBl@~AlEjGjElOdBzAdIhG|@JjUdc@z@xEhZhk@ha@fMnKpTvBN|@_@~@gAjCi@R[a@eAJ}@p@s@LuAb@cCbAyAbAkBxBaBFy@y@iBJu@h@[j@gAbBcCpAK`@sAhAkBrAq@Tg@Bg@Vs@t@a@r@AXWT]Am@h@qAXOj@gAZ_@ZA@KCYOOBo@`@o@b@i@f@?V]EmALoAv@iCl@{@ZStADj@YXm@Ni@AcDLe@NQb@KLSAe@n@cC`@Gb@D^?dAHF`ANdAJpBd@rCI|D@b@TLj@M`@c@HcAAcBTaDb@yARqAn@wBPk@Hi@\\oA^mARqAfAaBvAuAlAe@?YUo@Py@b@Kl@vA\\ZBXVCXg@VJRR`@Jh@Wn@?n@aCTOZTV\\dA?rEu@dD{@t@k@z@yAh@kBn@aAV_BTUTTN`FEfEXnA^?^_@r@Iv@FxA|@@aCn@ePNuDHsDEoAVgBC{@\\wCb@yAZkBr@qC?mAr`@wDbBGdHyAfI_BnABvFx@XADQbCsMvCePHe@rDaS~Now@lDcR~Ncs@|AkFDMrEqGNWtAqCoA_OEa@?_@rBmPdCyNtBaHpBwV|A{IfCoN|B{H|DiM`EqNtAeCp@ST\\FLPBN`@x@lBhAdCJVLXx@jBf@fAJRdBjFJZ^hAjArIRnBLbBDb@VtCDb@Fp@BTPxBFn@D^D`@Hv@\\tC`@M?wAPO\\WHa@I[Ck@FONOf@[@w@Ds@E[Fa@JGHM@g@\\o@BWBIFQNGTI?m@IYJ?HQ\\IFUAUKWCYtACbA_Cb@qAxAaEfAiCv@iAb@e@Xg@jRkBMeDjGk@jIw@|Hw@L?zDRdDJjTfADWLoA@ICm@cBo\\V_Dn@uGMuDeCiKBqWnAqE"
+    },
+    {
+      "name": "Samgori District (სამგორის რაიონი)",
+      "osmId": 11300436,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.6350569,
+        "maxLat": 41.7667993,
+        "minLng": 44.8427858,
+        "maxLng": 45.0172908
+      },
+      "encodedPolyline": "ga|}Fyd|pGINWNB`@HZPEVGPhBd@\\LGV?jE^`J~Ab_@xMxDtAtFtA`GKbDYlD{AbEuCjCmC`CqDjE{NrDuH`KgXhIaLzKoOvH{JlEuFxDoFfFuHdDkFhByFzAkItCcH`BeCfB{OnK}El@Ap@b@~Aq@zBm@dDUVbDkLrz@Sv@a@pA~]d`@aCbPMrB}@nMk@z@jBvNXpAjBxIxBfLAlNVdCH~@PnBlKpi@FNtCfKlCnJtApEfStp@l@vDJvASzE?x@HbBKxCFpB`@`DJ~V@d@tS_`@nIgKj^ma@pLoO`HcEpGoCpFS^c@f@i@v@uAv@u@dAo@Xm@~@e@X_@NK|@iAL[b@w@XKb@DZCj@}@\\c@f@gAPIz@QJKVAh@[^KVAH@Nc@JDHb@^Cn@]l@QHGNMl@OZ_@|Au@pFwBt@a@jEqB~Aa@XJfB_AdASLKDQBQH{BFaAVmEh@qIH@dIPt@B~IP^@jBL`FLl@?dG@fA?lB@|Ei@t@AZD^LHq@Ty@d@iAz@iBJWx@gApAcBhDgD~@_AnJsOh@uAd@RZDvBAnAWx@[t@Wb@Sx@o@n@s@Xa@f@}@Z\\RHn@VsAzIBTfGfCz@RrBn@FFBT?PKvAHVFDJ?RId@oAfBf@Vr@EbCEhB@dAd@dA\\n@JTNLT?LSFULOz@i@|By@hAc@^Ij@?b@E^?l@KvG_Dr@}ApAgE`CoUtEg[~E{]TeD^qFlCoQ`GcVbJ}WzSu^tB}DhB}UG}B[iOeDaZ?OEkMmAcQdBcNlKwPzBoAjOwIzUuNtK}LxWlEkDcY`@uBf@s@t@[pFwDt@R^Wd@m@r@]v@YbD}BZo@b@Ub@@\\a@LkADcA@m@UcBsAoDs@yCQmCBgDQMs@Bq@m@Wg@u@W]m@KuAMw@i@iA}@{@mAu@a@s@o@cCy@gAm@Rg@Xc@i@MiAAcCLeCGsAWgB?g@ZgAbAuB`@uARcCDo@Dm@Ey@Au@Eo@KqAQgAGa@Ke@Qg@S}@k@gAk@oAq@uAYq@m@e@qA_@k@GIi@Y}Ae@m@o@S{AIg@J}@\\c@Pq@A}@Uk@E[CUAw@JqAPy@@g@GcAGcAHa@Ls@TmAj@{@`Ag@v@YnASh@o@r@sApA_@ROPO\\q@vBMXQLSGqAs@gAsA{CqEo@gAIa@Dk@Te@JWN_@Ti@Dc@@UIe@Um@K_@?cACm@AWHq@L]BYC_@?]B]E[IOOGc@OQOMg@Ec@Ac@Cw@B_@@QEOyAgBaAmAYe@Ka@M[Ua@OMMOEUB]J}@@e@Ge@Q[i@Yw@Ag@I{@Ss@G[EOOOYO_Ag@eB_BoC_@sDg@cFh@cEDc@Is@Oq@_AiD}@oCO[KQMOg@k@{@e@w@[}A]a@QeAk@}@oAw@m@gA_@aHoAqAiB_@mASsAAkBDaBZkB`@_Af@_AVs@@i@@q@Dg@Vg@d@_An@eAFe@Ik@I_@Fc@LWj@q@Z_AFgAIcAe@kBOy@CiAB_BG_AKw@Yy@mByDsEyFA_@Ls@Ja@Cu@c@_A]_@cAw@eBgAs@iA}ByCk@mAmAqBUgAWeAc@cAa@Ms@Mu@s@y@qAQu@c@UU@i@^_B`@{@l@c@n@q@x@i@Pk@?i@De@PkCfAuCp@a@Ew@YiDm@w@CmAVw@BcAOaAo@s@w@q@q@k@m@q@sAg@yAKCM?KOQk@Gi@Dq@@e@KWmC{B{BcCQ]Ec@@SDSGQQW[QcCe@uACg@I]YWS_@GaBFo@Pw@h@mAd@mBp@aCEmBKeB]}@K{AAmAO_ASaAe@aA}@{AkAmBaAi@u@u@aBM[Ou@SgAy@oC[iAGo@C}@_@uAKi@Gy@UmAEs@Ck@Ki@Mi@@a@?i@ISY]G_@I_AWaAMs@B]ASEQWg@Mi@IcCCiAeB_@WOYg@Uw@Km@Y[[Eg@Kk@Bs@Tc@Ng@Aw@kAWq@o@UYDi@I]WWo@SoAQ_AQq@e@_Ao@e@c@KWGS?o@F_AE}@MiAe@aAm@{@gAy@}AyAsC[Wc@@k@d@u@`@u@Mo@Ye@Yg@UiAE}G_B[GgAQ]Aw@VsFdDu@Ve@QYW[g@]a@u@WqA]wAKcBBkAOm@UuAq@c@Cm@?Y@WFSLs@`A{@rAm@l@s@r@Wj@W`AErABz@HnA}AT}@\\_AFmAK}@e@m@k@i@c@s@SeAAg@Kk@k@U]_@UiAe@eAYcASk@Dk@?u@d@a@`As@fBwA`Bm@~@YdAY`CaBz@wAD}@Cw@Rq@Dc@Oc@S]?_Ad@_ABqAYqBMwBp@aBRwCKcCCg@BYBQYQWU@WKOSQ?a@A]c@YiAmAuDsA_D_AyAa@a@]EYB_@Pk@Hc@AeAq@k@Sg@EsED{Ag@m@e@]Eg@Lu@I}@l@Yf@oB`IiCfCe@V_AIq@CaEbBaCdBoA|C}OfJe@vAmCbAWf@o@IqFpBk@hEaAJ{AkA}OvGLlDf@pDnL`JvSzQVjCzCxJ~@zApDhCt@FKlZsGhHwb@dYmMl@u@eBIcCk@w@qAEe@Xc@IEk@VmB@yAUgAcDeGa@mAUwBx@_Bj@uB?qAiAiAuBmAQG}Cr@aBt@s@?]q@D_CI}ASu@aASaAReAjAk@Cm@i@aAEiDoAo[xr@yQv_AaA\\hDlKmBbImCnFqB`DeBbBiBn@Y~@EvARzBJpAV`DZ`EHlEYpE]hCi@~A{@l@iAVaBJg@NQl@@fANxDK~F_@xH_@xB_AxA{An@oBLs@KQl@@l@Xt@DzA{@bOc@lDt@j@N^Hl@Mv@e@bAKVH\\h@z@FhAIzBU`@w@AOg@?w@Sk@YBwBfBUfAbAjBr@fD@hCi@rNm@rE}BlEaBpEeExCqBlAgCfE_AdAs@pAwEgAy@PQx@BdBFLTHXi@r@Px@z@`@p@HbBOjBTp@x@Cn@tBMpBwBxGs@hCqCtE@h@Dj@YnBc@bAIn@Vb@`@~AxArB@tAXfApApFpBxBVdAXjAl@f@l@ATM\\b@d@X`@E?n@@rCF`BqBxCuB|GyCtG_AlEGhBd@z@@^hA\\xBHvJdI|Dm@hCNxAfBfCvAzHtJl@~Bl@dAb@VCl@j@bAd@tCe@|Ee@`Fw@vB}AxBsBhEoAbHSxAP~B_@fBYxA_@bDjA|ApA~B`BnEf@nE?xF@dGJlJPz@b@z@l@nBHPGJ]GS|AwGz_@mD~O}BhFa@fIyFvNwArJwC{@eBI"
+    },
+    {
+      "name": "Vake District (ვაკის რაიონი)",
+      "osmId": 11300449,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 41.658839,
+        "maxLat": 41.7526983,
+        "minLng": 44.5962016,
+        "maxLng": 44.7815038
+      },
+      "encodedPolyline": "kyy}FenwoGDQbCsMvCePHe@rDaS~Now@lDcR~Ncs@|AkFDMrEqGNWtAqCoA_OEa@?_@rBmPdCyNtBaHpBwV|A{IfCoN|B{H|DiM`EqNtAeCp@ST\\FLPBN`@x@lBhAdCJVLXx@jBf@fAJRdBjFJZ^hAjArIRnBLbBDb@VtCDb@Fp@BTPxBFn@D^D`@Hv@\\tC`@M?wAPO\\WHa@I[Ck@FONOf@[@w@Ds@E[Fa@JGHM@g@\\o@BWBIFQNGTI?m@IYJ?HQ\\IFUAUKWCYtACbA_Cb@qAxAaEfAiCv@iAb@e@Xg@jRkBMeDjGk@jIw@|Hw@L?zDRdDJjTfADWLoA@ICm@cBo\\V_Dn@uGMuDeCiKBqWnAqERw@rF}J~BoOx@{MC{IFkGbIca@PaEg@iJw@wIDk@~AtAl@f@z@~@xMhH`A^JB~Af@THdCv@pAf@b@R`EjBhDf@lAJBMVVJJDDBFDHDLf@LJRFt@HdAAR?h@GdB?~@BLDLNLXCt@KL?NALHj@`Ad@p@Ll@JvAPnAJx@Ct@AHMv@AFE\\@`@Dl@FPFJDBZ@R@LHHRHVDJFR^j@TZFXFT?@Hb@Lr@Pz@Lh@F\\Hn@D`@@PhACFBDF@HJdCEXr@zBFXAn@Q\\KHh@fC@RENSZCVDLd@d@^dAHJh@LCRSJQFIT@VFLLDJBHLFTCJEJGNBPHDf@CPFBXEVEV@NJHHDPLHPHPTjAGHCJ@LAFAN@FHJL@JHETEF@PBL@VHRNJNFFH?R?PNHNFFh@CNGNCJAPHHJCJFDNANGDBJJPHJ?RKLIJGL?VFJJ?FJHJJ?J@LDDF?TIHGF?N@NJXH?HPAJ?T?NDJJLFJFRBNBb@CP@PBN@NAVCPAV@NDNBDFL?RAJAR@HDJFDFHD@AVA^?P@RFHDX?D@\\?PATDTDBN@DEHCH@JJH@BF?VCXBNHHBDLHHHATCPI^CT?HHDH?H?D?DFBHENEJIFGDCL?LDTDPDF?V?R?X?JBRFNBFB?HJHPFZDPDLNHTBF?R?FCNHJDJ?B?JJFLDP@J?L@HRb@DFDH?j@AP@LFLAPGDCH@HHHFL?LCNINKPKNGFCLAXDp@@b@@p@BX@`@Hl@Z|B@^@`@AX@X@LFZDLJTFJDTB`@DXDFBTBZDVLLJFLFJJ?JKLQRSHGXBZHPB\\?\\DXLZLf@Fb@B~@Cp@Bh@b@f@h@Pv@b@vA^VXdBfAd@Dz@c@PKXS`@S@Q@WNJLHB?h@@xBk@rAIhD?XDl@?v@X^b@Ll@Lf@d@pEDb@^bDdBfKZvAXVtBp@\\XZf@L`@NhAb@lDVhBRbE?nAr@zOD|DDfCI|FEpDSzH_BbNcBxC_BvBU|@hAtLt@|Gp@|DXRjAMjCiArE}@fDFjBl@z@h@`Az@|@fBrAxItArL`BhTx@rBvCpA`GtMtBvIdHvLbFfHjFfEzQdDrIdEvCN`IeApCZQvAeAnDyFfH{@xS}A~Q_AjBaFbCaJxJuHj_@j@~It@jEBjEzDpLh@zDSlFe@vEf@tEfApEZ`Fr@nFx@zAhBzEp@|DhAfFt@p@dAvMqDdYs@TiChGXd@JbFWNOpEYFw@rKp@fBX~@IfGWR{AM^p@t@f@C`DnFv@?`B|@bJn@hBeAtCJfCzArLdBa@`AtH~BkAlBuBxG~MrBu@zHZzB|AzC~CrE`DzDtYbAtCb@~ArAbO|CtIx@nNAvDMFUbKS`BFtMo@nDwBvD}CdDqCnA{DRkEY}BgBeAcAi@Ku@AiAQs@KYHIv@JTl@f@Jf@Sh@Uv@a@Xw@jByB~DiBrCu@vCgCfCoE`FqO~BsAl@uDXcA^uChDwBjEiAdGw@zBeB`FcEhF}EfEiBl@iB`B}FaCq@nA_Ap@oCl@s@v@kAn@}Ab@{BUqBNaEdBqA~A_BdHoAnCiBdAgEdACgCU_@WEi@N]OYcAc@eAEcAF{@Ig@YO_@Ne@M_@sAy@aF]{@c@[]_AU{@Dk@RkACs@]uAc@{@i@?k@ZWEQg@@w@`@i@l@w@|@i@^i@Ac@U_@Q?k@FWIE_@L_@^Sh@A\\?PQAu@a@u@Wc@m@Eg@@[m@KkAFoAI_@GYGk@CSL[V[Am@s@mBaAo@m@s@_A_@q@_@QYc@yBCs@L_@l@Y\\g@Ek@OOm@Dy@a@m@_Ak@sAB_@Fs@Yc@k@iAE]N_@dAe@bB?jAEtAbAVOLi@Ii@Sg@Y}@_@{@EWTm@BYQe@u@UkA^AB_@]My@@}@Co@NY^QPk@BeBLq@^e@ZWFYIc@]I{AN[CKWBa@@aBAkAOm@g@s@KUL_@L@ZP^Hb@Ob@a@N_@D_@E]][]Ii@DWDIMG}@DYLOj@e@Ra@TgANoAFiAOo@[k@yA_BuAmAq@gA?]FMh@s@d@c@Vg@?m@Q_BES[QMSCe@JQb@Q\\?r@[bAs@ZSFQCY[m@a@k@CYDOZ_@Ts@COcBsBOk@Ju@lAuALi@IYq@aAWGu@P]SQc@Me@AaAXyAr@mBHa@Gu@u@q@q@WK[Is@Do@Pw@t@Bv@MVOTw@NoBp@gA\\aBCeB[g@{Bi@_@y@@c@n@yBNeADkAq@{CRsAn@oAf@aBhAgAh@Fd@h@n@dBZPf@OV}@S[y@s@wAg@oA}@s@aBeAa@s@w@Uq@Ck@J_Ar@uCxCeBC_@MWYe@iCWYIW[q@aB]_@U?gAr@e@Fg@OKYOuAFoARi@rA[NS\\e@`AwBPaAFcCGeBKi@Us@i@s@QEe@?u@y@M[Cc@XkAt@GdAy@PSCk@MQQDoAQc@Ji@Gm@BuAi@mAqAQeB_@m@QkAa@sAKi@Dy@b@eBx@yB|@oA\\Y?sAkAsAe@kA_@mBcAmAaAc@k@Na@QCf@?fCYd@g@`@qADWES[Oa@_B}@cAcA]y@E_@ZuAfAwBRw@?a@MWu@Ke@bA_@\\_@AqALc@MWYGm@@e@Ru@f@g@n@kBXuDS{@WYoCaBe@e@{@_@s@G_@LcA[uAw@iBcCo@_CE]TgAv@uAZ{AIY]i@g@[[FURWL{Ce@gBk@cAiA[oBM}CQ}@}@i@gFImBaBY}BR}BHeCiAoBsAo@[i@TgA_@mA@iA^uASm@g@]q@XsAbAy@v@iBrB{@\\{AMOcBNkBr@aChAmBCwCFuPQ}AwAcF{AeEs@aB{AuBsAmCc@_BGaA?eBIaBYs@WO]H{@~@WHe@GUOI_@J{A`Ag@\\Ar@[Ne@]eAG[CiALuBCSKMOAi@@g@^k@UU_@Ba@A{@WgBEyAEuEFS?e@c@}CS]aACc@GOC[_@IqAc@iAKKO?MFSPs@bBYPYW?Y?qAO_@U[SKUFKFIDQNIHOXKHMDSDWEUIc@Z]t@eFcHuJgDiBq@o@hBUtAI^e@r@o@`B[n@]FQWEq@H}@AcBOSOBS`@q@|AmDvHYRgA`@UZOb@aCrGsAbEqB`D_GzDcE|I{ChDmFbDgFfAeBnAaBfCqBzFcBdKqBbKwApBwArA_A]gFoByCoEyEsLgClK[S@kAAiAEmB@uCQkE[g@s@[s@Ca@MS[_AgBFoA_A_@Aw@qByDs@gBW]]{@{EuGcA}@sGoEgASl@oE?kBIeBF{ALaA]{AMkAq@uBcAaCmAcBMa@SeAKoBGkAiATwARq@HmGn@gFpC_@\\eBzBaDjFuBnEoClGMK"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
