@@ -1,5 +1,5 @@
 {
-  "version": 96,
+  "version": 97,
   "cities": [
     {
       "name": "Amsterdam",
@@ -10184,6 +10184,324 @@
             "maxLng": 20.4869511
           },
           "encodedPolyline": "gjggI{e_|BlD~@GmAO}AfCcBfA_AhAkC~AsIE[rBeKnKjHZiBhDrCGN[`BnE~BdKnF[Zo@f@aBrAKJIVUtAMlAMv@Oh@o@d@Sj@Ad@Jh@T`BXpAD\\GpBSjCQdDDrAl@l@XL`Af@Nf@F|@[|@UZgAlAYh@Yj@_B~@{@\\u@pAu@nAc@Zq@U}@qBw@q@gAByB{AaB\\aE`AcHuUeDmOcAaH"
+        }
+      ]
+    },
+    {
+      "name": "Osaka",
+      "countryCode": "JP",
+      "regions": [
+        {
+          "name": "Abeno Ward (阿倍野区)",
+          "osmId": 358736,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6162564,
+            "maxLat": 34.6484765,
+            "minLng": 135.4956636,
+            "maxLng": 135.5289781
+          },
+          "encodedPolyline": "cenrEaoazXBu@pCmRf@iDNqAJeAxBoMrCuSo@_@QQMaDOyALS]}A_@cAe@aAm@gAiA}Aa@q@}BeCeBiBCBKIjJcLJMLOTYrCcEFIHKdBgCx@mANSVa@FJr@GDBtBt@lBj@D@DBVJpAj@|@^f@VBGRJDTp@X\\BbAVF@lA`@dBp@FBDBbA^b@LHDlBv@TLlAb@|@\\LDRHdBt@NDYhBADAFy@bFKl@rBBJ?zA@`DBnC@H?D?t@?R?nA@|CBF?F?R@D?rACD@XBP@x@Br@DZFTATHh@LF@FBRDHBh@N@@hAVRHTFrA`@FBDB`Bj@D@D@RH~@ZD@lBr@vGvB~@ZF@D@zB~@`Bj@JDt@VNDxA^nATFBHDxAj@JDDBtCfAfBXVJ~ElBCb@JD~MvFfBv@bGrCxCdB?TGr@[jIAJAxAARARCl@QnDMfEG`BCZ?FChAAd@Ef@El@I~@?fBQJ[j@QH[Aq@C}@a@Yx@i@WeAAyAGu@a@IDu@P_@D_@G}AOmCUi@I_@EWCMAa@A_AG?HAPQnE?RABCp@AHw@lDwApGERUbA[xA}@hEGR?@GVwCjNCHAH[tAG`@C^?d@@\\Rz@\\rAcALCDtAdBPXT`@JTILMLn@|@JLXj@f@n@b@b@Jx@Rt@KC_BO}B]eB]AYOBa@GO?_@E}@UIAOAy@QiAm@H[i@_@k@]o@QEAEMGc@W_@GJy@g@EEECCGP_@]_@YFi@Jy@WY]IWgAy@aAm@]Ow@e@QGYWmAy@DaAd@a@[I_AQw@?e@MI?IFkBQcAe@QIKEc@I[M?I]IJa@_Cm@iCy@_Bk@aAYEeAs@KKJ[B]AGCE??GuAi@gAw@K[ACEAE?s@W}By@@IwBw@?EYOWKPe@EGk@SGCGCkEcBIE_@S_@K}@g@{As@uAa@qD}Aa@KQGsB_@{CaBgAKkAM_@k@qAi@e@OoAc@mA]@OuCq@oFuAG\\y@A"
+        },
+        {
+          "name": "Asahi Ward (旭区)",
+          "osmId": 358684,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.7113037,
+            "maxLat": 34.746081,
+            "minLng": 135.525537,
+            "maxLng": 135.5676206
+          },
+          "encodedPolyline": "oh{rEaelzX_@Ac@@yBQ_EpB{@?m@Hn@kFBg@?G@a@@M?U?K?U@K?S?QDoBB_A@WBo@AIEUEc@E]EYAMNaAKY_@w@EGIGo@PkA^Y\\w@Zg@b@a@VMNMJMNEFMNKJMN_@`@EDGFKHMJEBQH]He@Hs@HiAD}@Rw@RYHSHKc@G@MJGDMHYFs@Li@FBVa@EYAMAEHUNGNE\\WNoA^_Ax@s@r@OREFEDMPEDCBa@j@Yt@ELGNCFCXGfACb@AF?DC\\I~AAF?FANEp@IpAC^YLi@LOHOp@y@v@EDQP?DVr@n@nADN@jA?F@B@|@DXPxA^jBPdABH@FFVLr@Vx@Lx@^jBFl@@L{@Fo@FoAToALC@WDWCE?G?g@CU@E?KA_@CM@Y@m@Bg@@m@@{@Fy@?]?k@EmABy@A_@AiA@g@Bu@BIFa@Pc@D]`@KSOFQ]mAz@KHIDQNEBKHQLEDIDGDGFUPIDGFYJQKYHSDE@ISw@f@}@iBMYUw@S]QWWa@KUO]Se@m@qAM[S_@CIO]W]X]yA{B]o@_AsAQQOQ]aAYy@Qk@gA}C_AoCSUGGIKIIGC]M[MQCOEcASk@OG?{@IUAMAK?MAe@CiCEcAFi@D_@JYP[RgB|@{@b@]PSHIFe@TSRA@CBs@^GFQNYVOLg@b@c@^a@Z?@m@\\SNUPMVMJoAfAu@n@EDaBvAMJyCbCo@\\jAXnCn@j@LpFjAxMdCtAR|B`@jChAJFv@f@pAjAbC~BxEbGh@fAFN\\t@pApCtBhGlBrGLb@h@dCpB`M^fDNlAThBv@zGp@`J`@tG\\rFNbHFjDL~GArCkAhKQ`B_@zFGjBMnEAlCVpD|CuA\\OpBy@~CsAx@_@h@SXMd@S`Ac@RIJCf@Ud@UhB{@ZMb@Qh@W`@QVM\\M|As@~@c@ZKVKXMVK`@K~@_@TKVM^Mr@[bAg@\\OZQRIZOTKNEn@YVKJGb@SRKj@U`Ac@^Sx@g@RMVOTSt@m@LKJIJIb@]LMXUt@m@HIVQj@c@PMNKTQl@c@PKp@m@LIHG`BoAPMTQPMHGPOFGNMPOPMLK\\YPOLIl@e@\\Yl@e@x@k@RQVQ~BcB^YJKh@c@z@w@VQRQPMd@c@RO^Yb@]TSLIVU\\WHGHGHGHGFE`@Y`@]TOVQl@c@b@]p@e@h@a@VSLKNITQXUb@]b@[b@[\\WXSLKuAmAQQuAoAe@a@[Y}@{@YW_@_@UWIG_@a@q@aA{@wAe@{@_@aA_@aAM]i@iByA_FQaAKk@?OBqB@uCBsB@]@sA@wC?QBgC@yDBuC@_B@u@BwC@y@?K@K?IBgC@}CBuCB}DByCBkGDcC?C@u@@gA@{AA_@Ai@BcDG}A"
+        },
+        {
+          "name": "Chūō Ward (中央区)",
+          "osmId": 358727,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.662424,
+            "maxLat": 34.6953569,
+            "minLng": 135.496732,
+            "maxLng": 135.5355055
+          },
+          "encodedPolyline": "iwqrEy`bzXfIPCd@`Mb@YlEo@hJo@|JQbBGvAO|JM`@}@j@?@@DBRJbA@LDv@Lt@B`@CTAR\\hAwClBqBnAEBYPGFUJkElCeCvAw@d@K@M@Q@I@I@G?I@E@e@Ru@bAw@j@KHeBnAQLSFSHGP?B?N?T?L?PG?c@AM?K?[@yAIcAKmBQqF[yAGcBIMAuAGsH_@aBCsFMmBEyCIsCGyAC{BCkCKeDc@}@[{@?o@CoBBg@A_@?[?aB@oH?]@{@?gABiBA_A@m@BaEVqBFm@Bg@@}Hb@wCNoDJW@a@Cg@CG{@KsAEsA?AEmAIaIDu@BYFcAXmEHgAPkD@_@NwENgEFYl@oDHc@DQZoALo@vAcFd@wAL]Pk@|@yC@AAGKqDE}@KkDIsDKcFC_A@i@?eBB{GEw@AUSmDoAsF]{@Sg@BGDKjA{CZ{@VcA@Ib@mBEa@Eu@CW]_Ck@_Da@wBACe@cCKk@o@yBUq@Sk@Mc@{@gCgAgC[y@]w@Wm@_AsCKYaB}FGU[_BCIIaAeAkFo@gDUgACM^Kp@St@Uz@Wn@Wd@Mv@QfAUZCv@Cz@A\\BX@\\D`@Ff@Hp@Ll@JjF`Ah@H`@Hb@HjBXf@HnBL`@@pBJbDL~ETrLb@`@@rBHj@Dr@BR@L?V@P@n@AR?d@A?K~@IBGbAGzDQHLnAIv@Ij@?f@CVBn@?Z?JD^DVBVDdANbAVn@LhE~@`F|@AZ?bAAx@Cr@CvBKdGGfCA|AGfCe@pEALAJa@rECLANYpCa@bESfCCHAHAP]bDGt@MrDAnCv@FhAJvCPT@hFVjH^fN|AfMvAtDb@StCKxAK`BW|DATS|CIbAAhACvBGbEE~CExF~@B"
+        },
+        {
+          "name": "Fukushima Ward (福島区)",
+          "osmId": 358680,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.68061,
+            "maxLat": 34.7068088,
+            "minLng": 135.4620396,
+            "maxLng": 135.4910862
+          },
+          "encodedPolyline": "axxrEggyyX~CrGrIzPtGuFnH}Fh@rATf@\\t@d@j@j@Zj@Pj@Fn@Ar@KhA]~@[tHaCl@Or@ClABpFNlIfIbD@RA^?jBJ`@Bp@mHb@mC?yAJwBEEJiAXq@Fu@nAgG~@kAxA{APMNVRQDFPOMYd@a@LTj@a@x@_@nBaBdF{CtBqA`CoBhAk@HCz@c@?SEs@{E{SWcAqCuLYiA{@}Cc@_A{AkBsAqAsAgA]UaCcAgAm@KGYOSKw@g@{@i@_@Yw@m@m@c@}BoBuBeBaFaEKGyD_DyBwBk@g@KOsAuBq@oAiBwDIQq@}AsAkEgA}DiE|AqCz@]JKDC@[?E?G?I?gAE_@FYDM@K@s@D}Bn@wDx@IB}AEmA?eCeA@EYEkCm@iAYqG}A?vB^zENdBB\\NfBv@AnAAhBA@x@@lB?hAAdCfCvBPpDNlAhDv@oA`FqAnE{BxGkAlCwBbDeAvAgBvBuAlAgFnEqBvAgKfJXh@N\\Td@pDpHlLfVNXpBbE`BjDJP"
+        },
+        {
+          "name": "Higashinari Ward (東成区)",
+          "osmId": 358708,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6643275,
+            "maxLat": 34.6836697,
+            "minLng": 135.5303301,
+            "maxLng": 135.5633429
+          },
+          "encodedPolyline": "_rqrEqwezX?cE?Y?K?OAsB?O?ICgA?U?MAi@?OGyD?a@?YCoAAaB?_@CsA?[AkBAWE{E?K?SAsA@yA?q@?O?Q@W?Q@O?MBe@?_@FyA?Y@]Ds@@o@B[@W?U@MGCJwC@]@[DoA@O?KLwD?G?GFoB@G?GDaB@[@I?GDsABq@?G@I?CD}ABk@Bq@?CN{EJuCLkEFAHmC@S?M@Q@[@O@Y?KDiA@c@B_ADcA@a@?O@O?ODiAPoFJwDHgC@g@@O@e@B_AM?YC{@Em@EOAa@C_@Cs@CYCgBIk@CO?u@GiAIoBKiAG@eEp@BFaAX@Bg@q@E?MA?A[W??g@@[FaAB}FAw@Aw@?a@?QQ?Q@i@AO?OA[CQ@SHMDQFGDI?k@DG?c@Ga@C{B?[CuAOcAC_CIKAa@Aq@AIAg@G_@GKC[GGAYGOAOAKAQAYAUCQ?a@?o@A_@Gy@O[GM_@MUWA?Ia@Au@QASi@SB]g@?In@o@WK@KDKPMPMDy@?GA[c@MGk@G}AKq@As@?eAtOQ~Ak@~GU^WxA?P?JQx@G^i@nCQ`A[v@k@jACDk@pBSp@s@hCCHAJ?FCr@CRC`@I~AAd@?d@CzACx@S`DS~@S~@AD?HEl@G`@AH?lACz@a@vG?FKxA]zDCXAj@Cn@OjBKtAEd@oAfRALAFGFqArA_@`@m@l@QPGFSRQRi@j@vA?hC?fA?RA^KHChAg@JEJCIfAAVAPCf@?LAp@@LAnCAb@?H?H?R?T?f@Ar@?XAjD?JAP?hA?VA~@?J?RArACfFR?d@A?K~@IBGbAGzDQHLnAIv@Ij@?f@CVBn@?Z?JD^DVBVDdANbAVn@LhE~@`F|@PD`@HvANDCzANDFn@H`@D\\FALl@HXDb@Hh@NRFXJVJNHNFPJXJTJPFZJNDRFLDJBTFLDTDf@L|@RTDZFb@JTDVH~@RpAXXHPDb@H`B\\TFRDPBfALrBd@NDVFPDfB`@"
+        },
+        {
+          "name": "Higashisumiyoshi Ward (東住吉区)",
+          "osmId": 358742,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.5909076,
+            "maxLat": 34.6445936,
+            "minLng": 135.51399,
+            "maxLng": 135.5476351
+          },
+          "encodedPolyline": "mnkrEguhzXfBfBfAdAhApAhAfAHHD@p@?jA@`A?bBBfA@v@?jB@t@?hAApAAbC?jA?|A?pB?xB?dBAx@??H?bE?R?J@R?l@?dB?T?nC??|@@\\?Z?^ArA?R?fAAN?x@At@?@?D?nD?l@???@?F?`@?f@?`A?^?lBCjCAZ?\\?NAL?b@?v@?V?F@rA?F?\\?~B?v@?b@?J?b@?P?h@?j@?N?nB?jACd@KtA_@D?l@Gj@@hAH|AFr@@X?X@nDDh@?T?nA@X?b@?|C@v@Bl@@DwJ?M?o@?M?_@?e@?]R?NAtC?X?N?FAP?N?@?N?vBBbDBbA@l@?t@AhDCbBAxB?nC?b@?dA@rA?`A?N?n@?n@?jB?@?F?T?N@R?J?N?jBB??j@ZJvTBtGELA@CJIRBhG@NXHBtAFzDHvCNDTF`@tIDp@JrA@NFr@\\CXAPbBJAbBOtAMF?`AKl@EJAd@CTxB@N??VHRDD@j@HD?~@d@vA?n@AHjALDt@XrAb@VAhAGhAIrD[zC]dAGl@G@v@i@DM@E@uALWBq@@mCVa@DQ@UBmFh@W^Kv@MjASjBGp@ClASV[^EF]b@A?QLWPWNe@Vi@XWNA?QJ_Af@bGbPfB`FQ?oA?u@AoA?iA?qDEY?u@Ia@Ig@MGA{@Q]G_@CIAoAG}ACM?IAaB@kC?U@s@Ds@HS@wCDi@?cC@K?Q@G?gDHM?W@Av@gCBeBBIu@c@?eAB_CB[C[?AQ}@BIEq@?k@He@?u@A_@@?kBa@@CcBmB?_@?c@?CvS?nE@fJ@~@?DE|J?|@A~@?^?b@?@AXAj@i@E]AYCqG_@}@EcESOAk@Ca@CUAeBCiFsCGCuDiBECcAi@yCeBcGsCgBw@_NwFKEBc@_FmBWKgBYuCgAECKEyAk@IEGCoAUyA_@OEu@WKEaBk@{B_AEAGA_A[wGwBmBs@EA_A[SIEAEAaBk@ECGCsAa@UGSIiAWAAi@OICSEGCGAi@MUIU@[Gs@Ey@CQAYCEAsABE?SAG?G?}CCoAAS?u@?E?I?oCAaDC{AAK?sBCJm@x@cF@G@EXiBOEeBu@SIME}@]mAc@UMmBw@IEc@McA_@ECGCeBq@mAa@GAcAW]Cq@YEUSKCFg@W}@_@qAk@WKECEAmBk@uBu@ECs@FGKlAcBHKvBcDV]BEBEbCqDDGBCt@gAFMFIdA}AX]b@k@f@g@pAeAx@g@~@s@t@m@DCTQLKFEBCZULYJe@Po@H[i@I]GyB]OCIIU_@We@[k@a@s@M_@S_@[i@]o@M_@@e@LmBTqD@UISPaDh@gJfAoQH_@NYHGRKVGj@B|@TVB|@Df@CrAYdA[LGVGJGFEJEJEJKPSRYR[z@qAh@{@b@q@T[T_@JOTc@Tc@HQFOXX~C`DfCbCpCnC"
+        },
+        {
+          "name": "Higashiyodogawa Ward (東淀川区)",
+          "osmId": 358676,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.71941,
+            "maxLat": 34.768849,
+            "minLng": 135.501814,
+            "maxLng": 135.560529
+          },
+          "encodedPolyline": "qbesEimizXEEKMv@qBJOh@{@Zm@Rg@Zg@PMd@SMKi@CWGOEUGKCc@E_@E]Ca@Ba@@{BL]D[Bg@Rk@Za@PUTMLKHg@j@s@bAW`@If@Mn@Qv@O^GLM\\l@|D@pGuBlEIh@Jn@`AhDr@dAbBjCdCjCfE|CjF|AbKbAlCbAxArAh@f@bB|Dr@tFd@jG`@`FTfBh@tDhBjEdD~BfPzIxHzF~As@c@yBjCkApAwAn@cDd@H|@tAXT`ARvAHj@e@j@z@Mh@dClHZNfDTv@hAl@~Az@rCl@nDZ`DLhBBbAg@jBW|@eAtCOhAOdAObA[|BIhD?h@AbB@vBmE|@h@dJ|@hG`AzCv@xArBbElEjGjLzOvA`Ch@lBRjB_@xElBx@b@N`@NfEdBjFxAtBp@v@Zf@aBlAr@E`AvBv@lGbCRH`DjAzAf@hAZ|@ThBb@HBRAnB\\`@N\\NL?L?`ARbALvANd@FL@\\Ff@HL@HBTLHBl@JbAJD?D@H?J@T@X?|@@X?F@D?H?V?rDKp@EJANAJ?f@Ef@IRAv@INAFAv@Kn@OpA[ZIzC{@^OtBq@^K`Bc@hAUvBMp@EnAw@ZCZAL?pEGnDEtFEbDEGwASmGGgC_@iPMuDG}@A]MgCGeAIyBKsB]mFQqCo@Ya@OaDsAgAc@ECk@U]Ky@UiBk@]K_G{AgGyAmIqBsCu@aCm@{@YuBcAsB}Ae@g@cBiBYc@Ye@c@u@KS}@wAw@qAkB}Fa@oBw@_FO_BGw@Gy@CYASWqD@mCLoEFkB^{FPaBjAiK@sCM_HGkDOcH]sFa@uGq@aJw@{GUiBOmA_@gDqBaMi@eCMc@mBsGuBiGqAqC]u@GOi@gAyEcGcC_CqAkAw@g@KGkCiA}Ba@uASyMeCqFkAk@MoCo@kAYWHaBLe@@qA?_C@qEMkAQ{Cc@}Bg@SK_A_@WMkAgAeCaCeBsBKO_AqA]m@oAsCe@eA_@`@wB~BaCzB?@[V]Xc@`@SRMLQRGDWTa@COAM@W@W@I@@zD?p@?PAnFAlDIjEARKrF?^AN?PCpBGpAC`@?FAPsA?y@\\{A^eAPqF`@iD`@_AL}@Bq@G?i@|@Np@Dt@KAa@cFBeDYcEmAKRoABa@NYZqDfH"
+        },
+        {
+          "name": "Hirano Ward (平野区)",
+          "osmId": 358710,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.586905,
+            "maxLat": 34.6443305,
+            "minLng": 135.540732,
+            "maxLng": 135.587334
+          },
+          "encodedPolyline": "ohmrE_wkzXR?NAZAfAA^A\\?\\ARA`GOEqCGk@DgAAyBGyAT?GiDCwBCsB`AGx@Ap@A`CEbAAh@AfBEb@??WAiAC}BAcAA[?M?]Aa@EgDjCEVAJ?f@AnGOzACnAEV?J?bBC?KCuA?SCkBMsIAWP?t@Ah@ACyAIsGCyCA_@?SjDGtDCf@?jCEtCO?oGd@@\\@J@tCPn@ApDEvA?l@[v@]^QfAa@`@OHEHCPJXNbDfBhAXj@NlAZNBNFR@J?tBLj@?dB?^?pAGXAbACB?`DMv@?z@?@bBA`@?@l@@hB@nA?BQHe@X@D?F?rC@Eb@CX?BIp@C^CL?DCRIz@U~@g@rAGLQ\\Eb@Gh@W~@c@vBeAjDWhAGr@I^WbAW~@S`@Dl@u@`CABoA~DMt@KrAEFQZS^Sh@Mb@ADEf@?Z?^DTF`@BHBT?FFf@Il@W|@TjADb@y@?]HMJMJCBqAtAGFa@b@mAbBT?J@pB@dBF?^nA@h@@h@Bb@FpDRxB?hAAnBC`BCZB@MdA?ALf@DDcAB_@RmCD]Rg@r@eAYaBAAEq@Ac@Ck@@YFUz@oADg@@g@@[`BkDFqD@_@lD??{DXCB]vDG@m@?kBCi@@y@@eA@{I@q@Am@AcAAmAAo@@kAeAGc@CO?]AY?e@Au@C_@?QP]f@m@b@SPc@Vo@ZeBFYV]NWKe@OUQTQx@Vb@Sn@]XUZkAbBB\\@r@kAp@@~@@^@?}@CoBBw@CeA?m@^oA?m@cAMn@qAAQdCAd@WJACVBzFt@N|@Mp@BdAJdCG?E?Q?u@?i@?[?aA?S?S?U?u@AsD?s@?U?]?S?G?_AAu@?}@?k@AsDAm@?q@Eu@?I?SJg@DAj@ID?|@GfAOj@WDEv@s@b@_@BC`@_@\\a@^m@p@o@h@]^YF_@@AFa@Bu@?AFwC?UEyBMgA|@Mt@?\\B^JRH`@FF@HAVCp@Yj@[V[@?VCp@Cf@?hFER?tB@?N?TE~E~CG@X?b@Ab@IhA`Aj@?H@~FfDCHpAFtABpABfB?`A@b@`BX@d@fCKr@CxAC?VLrF^ApCG?KvCI`CEvAEd@?J~Ea@l@B|@JAZ_Bh@iAGaD|C?^?\\?V?r@?X@t@Cl@?r@@p@B\\?Z@T@H?NDlADNFAVDP?h@Eb@Ad@Lx@r@@s@zEP@JTZHr@P`ATHBg@fDAFKpBABOx@CNMl@EXA@EVIt@YzBUrB{@jI@RJJD?F?t@Kv@Kz@QHD@V]xBDNHB`@RD@|@mE`@F^F@?D`ADnABp@bCGZ?tAGn@EB?l@CNJXN\\?x@OlB@p@Kf@Od@QxAAz@Ah@DJ@\\@f@Nv@F@V@DAb@Aj@?TAZ?XMtCMt@o@KMCUEkAScA@mFFc@Ce@Ya@C_@Ck@Fi@Rg@b@o@j@KJIHA?EDC@m@h@A@EDMPWZi@p@]Z_@DwA?O@I@YDG?GDQHMDKDKFMDOH]?E?C?c@BE?c@NE@u@Tm@Rg@F}@Dm@Bg@?]A}@zE?BWxBc@|DBNNFX@jEP^Bj@BB?O|@y@hFIZK`@Gf@?LCd@ItCCt@AZHzD?JFlC@jE?^?L?R?h@?Z@T?`A@xBBp@H|@KdAf@BAnAEXAtBAfDK~BClAAd@FlABz@A~B@bABj@?X?NA\\ALEPg@?K@c@?kAAg@K?rB`@?d@RVBF`ANb@PJd@A@ZBfBE|@GTSDMDGp@ANEb@CPDdFJrAHp@?JHX?b@?x@?LCvC_@?O?M?KA_@?O?a@AO?E?e@?cBAaAAE?Y?mABQ?S@aBD{AJI?]BG@u@@W?k@[??kBCO?K?S?OAU?G?A?kB?o@?o@?O?aA?sA?eAAc@?oC?yB?cB@iDBu@@m@?cAAcDCwBCO?A?O?Q?G@O?Y?uC?O@S??\\?d@?^?L?n@?LEvJm@Aw@C}CAc@?Y?oAAU?i@?oDEYAY?s@A}AGiAIk@Am@FE?uA^e@JkABoB?O?k@?i@?Q?c@?K?c@?w@?_C?]?G?sA?GAW?w@?c@?M?O@]?[?kC@mBB_@?aA?g@?a@?G?A???m@?oD?E?A?u@?y@@O?gA@S?sA?_@@[?]?}@A???oC?U?eB?m@AS?K?S?cE?Iy@?eB@yB?qB?}A?kA?cC?qA@iA@u@?kBAw@?gAAcBCaA?kAAq@?EAIIiAgAiAqAgAeAgBgBqCoCgCcC_DaDYYpBmEBKb@y@RYv@q@RSf@c@rAkA`AiAXe@Ra@^q@Zw@bAyBV{@Jk@Bk@KoDBYDOFMAi@CUo@K_@D{@?i@B]@S@O@Y@m@B@bB@n@@R?J@T@ZE?{AHODo@Bm@BFbBg@@W?g@?O?}AECcAAw@?KgDDE@eCDCgD?IgBBO?_@@aCDs@BS@}CFk@Bi@@CuAgBBa@@o@@??q@@O?a@@q@@C?E?oEHC{A?GAECqBCoCCeBE{B?H?YjEKCuBE{EMuKAM?O"
+        },
+        {
+          "name": "Ikuno Ward (生野区)",
+          "osmId": 358709,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6331852,
+            "maxLat": 34.6656313,
+            "minLng": 135.5241726,
+            "maxLng": 135.5640174
+          },
+          "encodedPolyline": "qknrEcukzXzDKn@AfACfEGrACpAEV?\\AbBEdBCTA\\A~@C^Aj@A?N@LLtKDzEBtBkEJ?X?IDzBBdBBnCBpB@D?FBzAnEID?B?p@A`@AN?p@A??n@A`@AfBCBtAh@Aj@C|CGRAr@C`CE^AN?fBC?HBfDdCEDAfDE?J@v@BbA|ADN?f@?V?f@AGcBl@Cn@CNEzAID?A[AU?KASAo@AcBl@CXANARA\\Ah@Cz@?^En@JBT@h@GLENCXJnDCj@Kj@Wz@cAxB[v@_@p@S`@Yd@aAhAsAjAg@b@SRw@p@SXc@x@CJqBlEGNIPUb@Ub@KNU^UZc@p@i@z@{@pASZSXQRKJKDKDGDKFWFMFeAZsAXg@B}@EWC}@Uk@CWFSJIFOXI^gAnQi@fJQ`DHRATUpDMlBAd@L^\\n@Zh@R^L^`@r@Zj@Vd@T^HHNBxB\\\\Fh@HIZQn@Kd@MX[TCBGDMJUPEBu@l@_Ar@y@f@qAdAg@f@c@j@Y\\eA|AGHGLu@fACBEFcCpDCDCDW\\wBbDIJmAbBW`@ORy@lAeBfCIJGHsCbEUXMNKLkJbL_@a@eA{@sBsAmBw@iLcCqD{@uGwAQAsEcAoKaCOUiIcBmH_BK?mFmAyIqB?i@aAUKC_AUCf@}Aa@cAW?cE?Y?K?OAsB?O?ICgA?U?MAi@?OGyD?a@?YCoAAaB?_@CsA?[AkBAWE{E?K?SAsA@yA?q@?O?Q@W?Q@O?MBe@?_@FyA?Y@]Ds@@o@B[@W?U@MGCJwC@]@[DoA@O?KLwD?G?GFoB@G?GDaB@[@I?GDsABq@?G@I?CD}ABk@Bq@?CN{EJuCLkEFAHmC@S?M@Q@[@O@Y?KDiA@c@B_ADcA@a@?O@O?ODiAPoFJwDHgC@g@@O@e@B_AX?B?d@?~A?AwB@O?INeC?I@GJiBvANHgED}A?u@@cAn@OlAUBO~BNL@f@j@HDH?JCj@S^SlAk@t@G?JnAOb@EPEl@EhC?@gA@Q@_B?{@@k@Aa@GwCx@@|@?Z@R?V?bE@AhC?D?x@Z?L?T?L?L@F?LAL@ZAA`D?TAt@?P?JA`@Cj@E~@LEJGAnB?NAd@?f@m@?ApA?bA?lA?`Bx@??Yn@??Np@??Fv@??q@?}BzBA?c@|@A|@CfAEd@BJ?DeCDwABcBBkA@u@jAC~@An@?pAA@Yb@B|@DdBHjBHInCAf@AJA^z@A~CI"
+        },
+        {
+          "name": "Joto Ward (城東区)",
+          "osmId": 358707,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6783996,
+            "maxLat": 34.7154365,
+            "minLng": 135.5339343,
+            "maxLng": 135.5671746
+          },
+          "encodedPolyline": "_kzrEqrgzXo@k@c@a@[YUSOM][uAmAQQuAoAe@a@[Y}@{@YW_@_@UWIG_@a@q@aA{@wAe@{@_@aA_@aAM]i@iByA_FQaAKk@?OBqB@uCBsB@]@sA@wC?QBgC@yDBuC@_B@u@BwC@y@?K@K?IBgC@}CBuCB}DByCBkGDcC?C`A@R@zGD|BDfDBtBB~A@xIJxDDfCD~BBjB@`EDjB@pAHvDDfEDrA@zCDnEFd@@l@@lDJpHPnGNhQb@nEJd@DxAJND`BH?AZFnKf@@KD?|DP@?l@uHTkCr@oLBu@?_@Cc@M]Q_@U]IKGK[_@Ye@EECMEUCY?M?q@@oF`@hAVvETHY}H@o@H?TjGPJG~APBIf@PRtB`Bj@sAbAp@DBJLFBFBPBPIX?^A@b@f@Az@b@\\T^DHELAFEn@]TKNI??b@QFPTMNEHC^AZB\\ZVTj@f@h@p@j@`@P@NGJKNGZGV@p@JnARn@LZFd@Hj@H`@Dn@DfA@~BDt@@\\@eAtOQ~Ak@~GU^WxA?P?JQx@G^i@nCQ`A[v@k@jACDk@pBSp@s@hCCHAJ?FCr@CRC`@I~AAd@?d@CzACx@S`DS~@S~@AD?HEl@G`@AH?lACz@a@vG?FKxA]zDCXAj@Cn@OjBKtAEd@oAfRALAFGFqArA_@`@m@l@QPGFSRQRi@j@vA?hC?fA?RA^KHChAg@JEJCIfAAVAPCf@?LAp@@LAnCAb@?H?H?R?T?f@Ar@?XAjD?JAP?hA?VA~@?J?RArACfFo@@QAWAM?SAs@Ck@EsBIa@AsLc@_FUcDMqBKa@AoBMg@IkBYc@Ia@Ii@IkFaAm@Kq@Mg@Ia@G]EYA]C{@@w@B[BgATw@Pe@Lo@V{@Vu@Tq@R_@JEQaA\\YHMDkA^uBr@Gc@C]Ai@Am@AyCECIA[GcEcA{@OkBYUEq@KYEgAQUE]EsB_@g@E{@IwAImAGa@Ce@EM?GAM?q@Fk@F_@LYNSJIBSJMFMFWJIDYDq@E]Ge@Gc@EY@M@oBEW@C@G@GBs@lASDc@@e@AcBKiAGsBBSP{@JSHJaG?oAIMMM[a@eAkA}@aAkAuA[[o@q@_A}@"
+        },
+        {
+          "name": "Kita Ward (北区)",
+          "osmId": 358681,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.684636,
+            "maxLat": 34.720569,
+            "minLng": 135.4741366,
+            "maxLng": 135.522953
+          },
+          "encodedPolyline": "qj|rEqvbzXf@{BTeAR_AH]@CXqA?AH_@BOr@qDJWn@aBxAgCxByBfBiANKjBmAlAo@|@Wd@ODCtAa@FAvCi@~@QPA|AMx@ClCBN?fAHN@x@DXF|A\\n@^PJVPv@j@~B|B\\XrCjCDD~AxAlAt@LHpAv@FDp@`@f@Rb@N\\LpBD|@?~AQl@KxBi@XKxCoAZMjDyBJGjAw@nAy@fB{ApAcAhAaAbDgC^QBCjAk@dBs@bBq@p@WjDg@`@Il@E\\CZC|ACV?r@D~@Fv@DhCj@pAj@^NDBvAv@p@h@j@b@rBpBFJz@jA|@lBRf@\\z@nArFRlD@TDv@CzG?dBAh@B~@JbFHrDJjDD|@JpD@FA@}@xCQj@M\\e@vAwAbFMn@[nAEPIb@m@nDGXOfEOvEA^QjDIfAYlEGbACXEt@H`IDlA?@DrAJrAFz@Fv@DLDbA@r@B`A?D?D@LFx@PdAFd@DZDXBP@HRdANXDDtA~AzAfBDHbAnAh@n@pCpE`BlDZn@j@nAhDfIDJhB`EXp@h@nAhAfCLZzA~CbAjBlAzBhCxD`@nADJ??@D@BDXPx@F`@VtBA\\aCcAgAm@KGYOSKw@g@{@i@_@Yw@m@m@c@}BoBuBeBaFaEKGyD_DyBwBk@g@KOsAuBq@oAiBwDIQq@}AsAkEgA}DiE|AqCz@]JKDC@[?E?G?I?gAE_@FYDM@K@s@D}Bn@wDx@IB}AEmA?eCeA@EYEkCm@iAYqG}A?vB^zENdBB\\NfBv@AnAAhBA@x@@lB?hAAdCfCvBPpDNlAhDv@oA`FqAnE{BxGkAlCwBbDeAvAgBvBuAlAgFnEqBvAgKfJ{IkQ{DmHcAsBk@gA}JaS}@gB{DsH}CcG]q@Q]MUSa@KSEGGMcF_KWi@aFyJ_DsG]u@kCwHc@iBSaAe@wEKyACaACq@?gACwCAuEAm@?m@AoDWeMAW?CCYCw@ASAECs@GwASmGGgC_@iPMuDG}@A]MgCGeAIyBKsB]mFQqCo@Y"
+        },
+        {
+          "name": "Konohana Ward (此花区)",
+          "osmId": 358679,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.5939215,
+            "maxLat": 34.6997456,
+            "minLng": 135.3099784,
+            "maxLng": 135.472057
+          },
+          "encodedPolyline": "klurEavqyXiFiT{CuLeBeHOk@{EcQaCkJ{CyIoDgLyEeOyAkEe@wA]eAg@aBOi@_FaN_@cAaBuEWw@uA{DqAcD{BwFk@sAu@mBkLgYu@eBiAyBtGuFnH}Fh@rATf@\\t@d@j@j@Zj@Pj@Fn@Ar@KhA]~@[tHaCl@Or@ClABpFNlIfIbD@RA^?jBJ`@Bp@mHb@mC?yAJwBEEJiAXq@Fu@nAgG~@kAxA{APMNVRQDFPOMYd@a@LTj@a@x@_@nBaBdF{CtBqA`CoBhAk@HCz@c@@x@HbA`@pBrEzSR|@tHp\\`@`BH`@~BzJrCzLZpAfAvEtAfGFV|DtP@DlAzE^rAd@bAFNhApBnAfBbCzCnBzBnAlArCbC|@l@nHlFtElD|C~B`I~F~@p@tFnFNNXZ`@v@Td@l@dA@D|D`HVl@|AnCvBvDxB~DPZ@TLvAXnCLdAVpBBNN~@FXJj@F\\Rj@`AvBRb@Rd@hAbCNZlAhC\\t@h@~@t@tAtB|DxCbG`A`Bj`@tSpEl@dAdGjXpgAvT|}@rQxb@rW`^xMd]nRd[rdAxrAxiA|wBzgAjgEwtChNq]pE{VnDedFmzBmCgZqBoVqGciByCk`A_IwmA_MkM{M_]gIaUsb@ucCe@mCaFaYeFaZmMqu@"
+        },
+        {
+          "name": "Minato Ward (港区)",
+          "osmId": 358682,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6425486,
+            "maxLat": 34.6775036,
+            "minLng": 135.4222051,
+            "maxLng": 135.4743648
+          },
+          "encodedPolyline": "eknrEyspyXqEm@k`@uSaAaByCcGuB}Du@uAi@_A]u@mAiCO[iAcCSe@Sc@aAwBSk@G]Kk@GYO_ACOWqBMeAYoCMwAAUQ[yB_EwBwD}AoCWm@}DaHAEm@eAUe@a@w@Y[OOuFoF_Aq@aI_G}C_CuEmDoHmF}@m@sCcCoAmAoB{BcC{CoAgBiAqBGOe@cA_@sAmA{EAE}DuPGWuAgGgAwE[qAsC{L_C{JIa@rEcBRUlEaFdUq[zPmU`HcKbBiBb@~B^`BV|@p@nBR^BDf@hADJNRHLNX~@vAf@t@nAfBTXbApAzBrCp@x@d@l@VZHLJLx@`AzAfBb@f@b@`@@@@@h@n@n@n@@?TP~@`AB@NNr@n@jB`Bf@\\|AhAlEbDbErCXL@?j@b@dBnAVRVPh@^lBpAp@f@v@f@jEnC`BbAZRhCbBbBlAZNzBvAf@Z`An@dAn@pErC`Ap@`EhCFHVRR`@HR\\lABNBTp@zBJj@p@dCJb@d@xBDNL`@@F^dBZfAh@xBPn@\\pANj@Ld@XdA`@~Al@~BPn@p@~BnArEl@|BjBhH|A`F`DlGgEzKkL|^uL|t@eBbLwBnL"
+        },
+        {
+          "name": "Miyakojima Ward (都島区)",
+          "osmId": 358722,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.691052,
+            "maxLat": 34.7333682,
+            "minLng": 135.514807,
+            "maxLng": 135.5406017
+          },
+          "encodedPolyline": "qz~rEsydzX|CuA\\OpBy@~CsAx@_@h@SXMd@S`Ac@RIJCf@Ud@UhB{@ZMb@Qh@W`@QVM\\M|As@~@c@ZKVKXMVK`@K~@_@TKVM^Mr@[bAg@\\OZQRIZOTKNEn@YVKJGb@SRKj@U`Ac@^Sx@g@RMVOTSt@m@LKJIJIb@]LMXUt@m@HIVQj@c@PMNKTQl@c@PKp@m@LIHG`BoAPMTQPMHGPOFGNMPOPMLK\\YPOLIl@e@\\Yl@e@x@k@RQVQ~BcB^YJKh@c@z@w@VQRQPMd@c@RO^Yb@]TSLIVU\\WHGHGHGHGFE`@Y`@]TOVQl@c@b@]p@e@h@a@VSLKNITQXUb@]b@[b@[\\WXSLK\\ZNLTRZXb@`@n@j@~@|@n@p@ZZjAtA|@`AdAjAZ`@LLHL?nAK`GRIz@KRQrBChAFbBJd@@b@AREr@mAFCFABAVAnBDLAXAb@Dd@F\\Fp@DXEHEVKLGLGRKHCRKXO^Mj@Gp@GL?F@L?d@D`@BlAFvAHz@Hf@DrB^\\DTDfAPXDp@JTDjBXz@NbEbAZFH@DB@xC@l@@h@B\\Fb@tBs@jA_@LEXI`A]DPBLTfAn@fDdAjFH`ABHZ~AFT`B|FJX~@rCVl@\\v@Zx@fAfCz@fCLb@Rj@Tp@n@xBJj@d@bC@B`@vBj@~C\\~BBVDt@D`@c@lBAHWbA[z@kAzCEJCF}@mB{@kAGKsBqBk@c@q@i@wAw@EC_@OqAk@iCk@w@E_AGs@EW?}AB[B]Bm@Da@HkDf@q@VcBp@eBr@kAj@CB_@PcDfCiA`AqAbAgBzAoAx@kAv@KFkDxB[LyCnAYJyBh@m@J_BP}@?qBE]Mc@Og@Sq@a@GEqAw@MImAu@_ByAEEsCkC]Y_C}Bw@k@WQQKo@_@}A]YGy@EOAgAIO?mCCy@B}ALQ@_APwCh@G@uA`@EBe@N}@VmAn@kBlAOJgBhAyBxByAfCo@`BKVs@pDCNI^?@YpAABI\\S~@UdAg@zBa@OaDsAgAc@ECk@U]Ky@UiBk@]K_G{AgGyAmIqBsCu@aCm@{@YuBcAsB}Ae@g@cBiBYc@Ye@c@u@KS}@wAw@qAkB}Fa@oBw@_FO_BGw@Gy@CYAS"
+        },
+        {
+          "name": "Naniwa Ward (浪速区)",
+          "osmId": 358734,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6486764,
+            "maxLat": 34.670014,
+            "minLng": 135.480537,
+            "maxLng": 135.5108675
+          },
+          "encodedPolyline": "}cprEgh|yXfAJ\\?xBV`@BjEl@`AN\\NB@d@RHBCGgA}BWk@]u@Ue@]w@gB{DQc@M]AEGQYcAGUUw@S]sAgAd@CPAz@Dz@N`AEx@Cb@A^AH?d@CXANAN?L?JANAN?RAN?rBKH?J?RAR?LAj@CJ?~CK~@Cr@AcAkDoAqC]s@]_@mD_BEg@AyGNoC`A_HrA_DZ[`BmDz@gAvAcDbB{Ev@wCTqDxBmNN}@pCiQPkA~AsKd@aDgLqCwFuAyEeAyCe@\\gHMEg@KcEc@_BQwMwAMA}Hc@cCGSAkEKc@C_EKYlEo@hJo@|JQbBGvAO|JM`@}@j@?@@DBRJbA@LDv@Lt@B`@CTAR\\hAwClBqBnAEBYPGFUJkElCeCvAw@d@K@M@Q@I@I@G?I@E@e@Ru@bAw@j@KHeBnAQLSFSHGP?B?N?T?L?PCj@?FE~AYjECh@[`GM|ACVA\\GnAAf@e@zK[vHEp@SdDInAEd@Af@?P?LBb@FXDTn@fGl@tFPnBNlATxBJ\\BJd@dA`@|@NH^RdAlAnBe@~DcAvCk@XGjB]p@OjAUpB[BAb@Cf@Ch@Ex@I|ACpDCn@AnBEd@CF?zA?x@?pBDVBH?P@nAJ`CV"
+        },
+        {
+          "name": "Nishi Ward (西区)",
+          "osmId": 358683,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6667979,
+            "maxLat": 34.692866,
+            "minLng": 135.4619873,
+            "maxLng": 135.4980163
+          },
+          "encodedPolyline": "m}vrEej_zXf@B`@BVAnDKvCO|Hc@f@Al@CpBG`EWl@C~@AhB@fACz@?\\AnH?`BAZ?^?f@@nBCn@Bz@?|@ZdDb@jCJzBBxABrCFxCHlBDrFL`BBrH^tAFL@bBHxAFpFZlBPbAJxAHZAJ?L?b@@F?Cj@?FE~AYjECh@[`GM|ACVA\\GnAAf@e@zK[vHEp@SdDInAEd@Af@?P?LBb@FXDTn@fGl@tFPnBNlATxBJ\\BJd@dA`@|@NH^RdAlANZPZ?F`@zBDZFVJn@Hv@RhBDXf@pDLpAJlAHjAJt@?@F^Lv@N`BJfA]^cBhBaHbK{PlUeUp[mE`FSTsEbBa@aBuHq\\S}@sE{Sa@qBIcAAy@?SEs@{E{SWcAqCuLYiA{@}Cc@_A{AkBsAqAsAgA]U@]WuBGa@Qy@EYACAE??EKa@oAiCyDmA{BcAkB{A_DM[iAgCi@oAYq@iBaEEKiDgIk@oA[o@aBmDqCqEi@o@cAoAEI{AgBuA_BEEOYSeAAICQEYE[Ge@QeAGy@AM?E?ECaAAs@EcAEMGw@"
+        },
+        {
+          "name": "Nishinari Ward (西成区)",
+          "osmId": 358737,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.621768,
+            "maxLat": 34.6574635,
+            "minLng": 135.4734341,
+            "maxLng": 135.5086258
+          },
+          "encodedPolyline": "cenrEaoazXx@@F]nFtAtCp@ANlA\\nAb@d@NpAh@^j@jALfAJzC`BrB^PF`@JpD|AtA`@zAr@|@f@^J^RHDjEbBFBFBj@RDFQd@VJXN?DvBv@AH|Bx@r@VD?D@@BJZfAv@tAh@?FD?FB\\@ZCJKr@JDdA`AX~Aj@hCx@~Bl@K`@\\H?HZLb@HJDPHbAd@jBPHGH?d@Lv@?~@PZHe@`@E`AlAx@XVPFv@d@\\N`Al@fAx@HVX\\x@Vh@KXG\\^Q^BFDBDDx@f@FKV^Fb@DLD@n@Pj@\\h@^IZhAl@x@PN@H@|@T^DN?`@FNC@XdB\\|B\\~ANJB^DEpCErAEhAQ~ECPEbDC`B?lBL`CXP@^Ep@bAjJt@zGxCdY?@KB??kO~BQHGF{ChH{ApDMZmGjP{CrEs@hA}@`B_CpEm@q@UWk@o@QUw@y@e@a@Y[cBiAa@YgBcAq@a@a@QqAi@ECu@[}BeA}@a@QKQGq@WQGYK]OqBq@iCu@w@WeBc@o@OoBg@_@IsBe@e@Gy@Mq@KqBWuD_@iDMiBIiDI{BAwACO?qDDwB@I?mBHa@?iAFc@@U@y@BuAHe@BgAJw@Ha@@G?uBB_@?gBEK?g@Ck@QyAe@ICyAg@aAYuAc@w@UeBi@s@UeBg@o@UgBs@gAc@KKaAe@SGCGgA}BWk@]u@Ue@]w@gB{DQc@M]AEGQYcAGUUw@S]sAgAd@CPAz@Dz@N`AEx@Cb@A^AH?d@CXANAN?L?JANAN?RAN?rBKH?J?RAR?LAj@CJ?~CK~@Cr@AcAkDoAqC]s@]_@mD_BEg@AyGNoC`A_HrA_DZ[`BmDz@gAvAcDbB{Ev@wCTqDxBmNN}@pCiQPkA~AsKd@aDzAcKf@G"
+        },
+        {
+          "name": "Nishiyodogawa Ward (西淀川区)",
+          "osmId": 358678,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6745378,
+            "maxLat": 34.729082,
+            "minLng": 135.3885194,
+            "maxLng": 135.473929
+          },
+          "encodedPolyline": "wsyrEawzyXN\\Td@pDpHlLfVNXpBbE`BjDJP~CrGrIzPhAxBt@dBjLfYt@lBj@rAzBvFpAbDtAzDVv@`BtE^bA~E`NNh@f@`B\\dAd@vAxAjExEdOnDfLzCxI`CjJzEbQNj@dBdHzCtLhFhTlMpu@dF`Z`F`Yd@lCrb@tcCqiAo~@gh@q`@uRkPmD{AAAy@i@uGuEeBaB{AaBaAuA_CiDkBaDsCsFu@{BOe@Oa@aA}Cu@mCkAgEUeA_A}DsA}Fy@oDmCoNyAsIe@uBCKYw@c@w@s@cAEGo@u@CEiAcAiBeAqCiByA_A_CyA_CcBe@c@a@]YUqB{B]_@EGkAgBEIm@gAaAmBm@{AYo@Wq@a@eA]{@AAwA}D{AiE{B{Hu@qCgAkFu@oDc@kBcAeFc@uBAIg@cCy@}Co@eCeA}DkAoCGO{@qBq@gA_AeA}AuAkBkAiBw@sBu@eB]oAO{BHk@Di@F{A^kBf@]HoB|@qAr@cCtAWLa@PoA^kCl@{Bb@oDl@uBJO?^gF?G^_Fn@aGRmBr@kGJm@h@yCfAwExAwFPc@L]f@}@\\q@z@}ALUnAuBt@gAPO\\]bA_AtAoAt@s@dA_A~@eANQjAaBl@w@p@_Ax@aAfAiAb@c@l@k@D@nAeA@ElDuCv@q@`EiDZYjDeCVSVSj@q@nCaC~AsAtAqAnB{AvE_EfA{@hG}EhB}ApC}BjHiGp@k@f@c@x@q@bLmJ~@w@"
+        },
+        {
+          "name": "Suminoe Ward (住之江区)",
+          "osmId": 358743,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.5959892,
+            "maxLat": 34.6489856,
+            "minLng": 135.3464202,
+            "maxLng": 135.492895
+          },
+          "encodedPolyline": "czerEcqwyX{AtHy@bEi@pCi@|Cu@`E_BlJ_@zB[jBoArHKv@]vBg@`Cb@t{@h@`qAZvPTpjE_Tfl@da@lwEyiA}wBsdAyrAoRe[yMe]sWa^sQyb@wT}}@kXqgAeAeGvBoLdBcLtL}t@jL}^fE{Khc@qG|k@mHdDcA|Bq@xB}CzCsGdAmDn@aCPm@Le@Po@ZeALk@h@eCJe@^mBPcAVuABOF]Fi@RsAJm@Fg@??FwA@}@BcABaA?k@@_@?EAMMyCMcCEw@QuBIgAa@yDe@_Fs@yFAKMcAMgAOmACWSgBKaAy@gGk@uEc@gEYsBc@}Ca@yBAKC[[uA_@aBo@yBCISk@GQM[Qa@k@kAYc@c@m@IOo@u@QQ{@_A~BqE|@aBr@iAzCsElGkPL[zAqDzCiHFGPIjO_C??JC?AyCeYu@{GcAkJDq@A_@YQMaC?mBBaBDcDZD~HpA~MzB`Dd@n@ZpAh@L?DABYlDn@hC`@t@LtCf@pB\\lB^l@NrBd@`APhCb@hG~@^e@X{@\\_ALc@Hs@DsAlDn@fInA`Fx@|Ev@jCd@fFv@|AXtF~@rEp@dBb@rCp@jCr@dDhAhKpC[tCa@dEU|Ba@jDE^Kj@CRGd@YlBE\\Gr@e@fCeAdFEVa@dByApGOn@u@hCiAdEEN]pAY`AwBbHMf@Q`@i@|AuArDw@lB]z@Yp@CFELENSv@}@fDa@`BOb@?Bc@lBSbACLQbA_@vBMh@WpAQ|@AF??EXEPGRKf@aApFWzAIf@Mh@Qx@m@hDm@tCMj@GRCL_@fBmAbGm@jC????[dB[bB[zA"
+        },
+        {
+          "name": "Sumiyoshi Ward (住吉区)",
+          "osmId": 358744,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.586154,
+            "maxLat": 34.624775,
+            "minLng": 135.4870948,
+            "maxLng": 135.5237436
+          },
+          "encodedPolyline": "}_drEii}yXBWl@eGHq@\\qDJu@VmBR{Ab@{CFc@TwBTkD@CDw@Fw@NiADY~@aD~@qBh@_AJOPWBEp@_AvAcBRO^Wd@O~Ag@d@Kl@ObDu@nCk@zBg@n@S`Aa@dAq@|AaAzAsA`A_Ad@u@@Ar@wA`@o@HILYNg@He@Jm@VkA?q@@O?}@@{AOuCMiAYkCa@qC_@uAc@gA{AaCy@aBUu@y@wC_BeF}@aD_AcDk@sAs@gBKWq@wAe@gCYgAu@{B?AY{@M[wAqDy@iBaCyDcA}Ak@iAMUc@_Aw@eCmCmIkA_Do@eBQ?oA?u@AoA?iA?qDEY?u@Ia@Ig@MGA{@Q]G_@CIAoAG}ACM?IAaB@kC?U@s@Ds@HS@wCDi@?cC@K?Q@G?gDHM?W@Av@gCBeBBIu@c@?eAB_CB[C[?AQ}@BIEq@?k@He@?u@A_@@?kBa@@CcBmB?_@?c@?CvS?nE@fJ@~@?DE|J?|@A~@?^?b@?@AXAj@i@E]AYCqG_@}@EcESOAk@Ca@CUAeBCiFsCGCuDiBECcAi@?TGr@[jIAJAxAARARCl@QnDMfEG`BCZ?FChAAd@Ef@El@I~@?fBQJ[j@QH[Aq@C}@a@Yx@i@WeAAyAGu@a@IDu@P_@D_@G}AOmCUi@I_@EWCMAa@A_AG?HAPQnE?RABCp@AHw@lDwApGERUbA[xA}@hEGR?@GVwCjNCHAH[tAG`@C^?d@@\\Rz@\\rAcALCDtAdBPXT`@JTILMLn@|@JLXj@f@n@b@b@Jx@Rt@^DEpCErAEhAQ~ECPZD~HpA~MzB`Dd@n@ZpAh@L?DABYlDn@hC`@t@LtCf@pB\\lB^l@NrBd@`APhCb@hG~@^e@X{@\\_ALc@Hs@DsAlDn@fInA`Fx@|Ev@jCd@fFv@|AXtF~@rEp@dBb@rCp@jCr@dDhAhKpC"
+        },
+        {
+          "name": "Taisho Ward (大正区)",
+          "osmId": 358733,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.624611,
+            "maxLat": 34.668137,
+            "minLng": 135.4422671,
+            "maxLng": 135.482044
+          },
+          "encodedPolyline": "yarrEk~{yX`@zBDZFVJn@Hv@RhBDXf@pDLpAJlAHjAJt@?@F^Lv@N`BJfA]^b@~B^`BV|@p@nBR^BDf@hADJNRHLNX~@vAf@t@nAfBTXbApAzBrCp@x@d@l@VZHLJLx@`AzAfBb@f@b@`@@@@@h@n@n@n@@?TP~@`AB@NNr@n@jB`Bf@\\|AhAlEbDbErCXL@?j@b@dBnAVRVPh@^lBpAp@f@v@f@jEnC`BbAZRhCbBbBlAZNzBvAf@Z`An@dAn@pErC`Ap@`EhCFHVRR`@HR\\lABNBTp@zBJj@p@dCJb@d@xBDNL`@@F^dBZfAh@xBPn@\\pANj@Ld@XdA`@~Al@~BPn@p@~BnArEl@|BjBhH|A`F`DlGhc@qG|k@mHdDcA|Bq@xB}CzCsGdAmDn@aCPm@Le@Po@ZeALk@h@eCJe@^mBPcAVuABOF]Fi@RsAJm@Fg@??FwA@}@BcABaA?k@@_@?EAMMyCMcCEw@QuBIgAa@yDe@_Fs@yFAKMcAMgAOmACWSgBKaAy@gGk@uEc@gEYsBc@}Ca@yBAKC[[uA_@aBo@yBCISk@GQM[Qa@k@kAYc@c@m@IOo@u@QQ{@_Am@q@UWk@o@QUw@y@e@a@Y[cBiAa@YgBcAq@a@a@QqAi@ECu@[}BeA}@a@QKQGq@WQGYK]OqBq@iCu@w@WeBc@o@OoBg@_@IsBe@e@Gy@Mq@KqBWuD_@iDMiBIiDI{BAwACO?qDDwB@I?mBHa@?iAFc@@U@y@BuAHe@BgAJw@Ha@@G?uBB_@?gBEK?g@Ck@QyAe@ICyAg@aAYuAc@w@UeBi@s@UeBg@o@UgBs@gAc@KKaAe@SGICe@SCA]OaAOkEm@a@CyBW]?gAKaCWoAKQAI?WCqBEy@?{A?G?e@BoBDo@@qDB}ABy@Hi@Dg@Bc@BC@qBZkATq@NkB\\YFwCj@_EbAoBd@NZPZ?F"
+        },
+        {
+          "name": "Tennōji Ward (天王寺区)",
+          "osmId": 358735,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6455835,
+            "maxLat": 34.6758037,
+            "minLng": 135.5065118,
+            "maxLng": 135.5332472
+          },
+          "encodedPolyline": "_rqrEqwezXgBa@QEWGOEsBe@gAMQCSEUGaB]c@IQEYIqAY_ASWIUEc@K[GUE}@Sg@MUEMEUGKCMESGOE[KQGUKYKQKOGOIWKYKSGi@Oc@IYEm@I@M]Ga@Eo@IEG{AOEBwAOa@IQEAZ?bAAx@Cr@CvBKdGGfCA|AGfCe@pEALAJa@rECLANYpCa@bESfCCHAHAP]bDGt@MrDAnCv@FhAJvCPT@hFVjH^fN|AfMvAtDb@StCKxAK`BW|DATS|CIbAAhACvBGbEE~CExF~@BfIPCd@`Mb@~DJb@BjEJR@bCF|Hb@L@vMvA~APbEb@f@JLD]fHxCd@xEdAvFtAfLpCzAcKf@GBu@pCmRf@iDNqAJeAxBoMrCuSo@_@QQMaDOyALS]}A_@cAe@aAm@gAiA}Aa@q@}BeCeBiBCBKI_@a@eA{@sBsAmBw@iLcCqD{@uGwAQAsEcAoKaCOUiIcBmH_BK?mFmAyIqB?i@aAUKC_AUCf@}Aa@cAW"
+        },
+        {
+          "name": "Tsurumi Ward (鶴見区)",
+          "osmId": 358695,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.6869993,
+            "maxLat": 34.7233548,
+            "minLng": 135.5590314,
+            "maxLng": 135.5991702
+          },
+          "encodedPolyline": "m}urEgrlzX?M?q@@oF@gC?wC@mBB_CHg@Io@OkAU?}@?EKB[@WBWBg@@OFs@HYFc@Rw@TeDFs@Dk@BYHiAU@a@PIxAc@Ae@|@EFEFINKJ?I?W@aAZWNq@DMJi@RaABWRuBHeACoACe@Es@Eg@[oBe@{@[cAWU]a@a@u@[w@OYEG[o@m@cA_@o@OSSU[Ye@[GC_@a@_@WoAq@yAy@q@I}Ac@qBq@g@ScAq@_@Ko@WyCgA{Bs@iCy@yBw@EJWj@GLMXCFEFWj@ISCIAACGa@}@S]Ua@IEA?c@Uw@kACCk@y@g@s@o@aBIQOkAB]Bi@NiA@UJwA?AEqA_@{AW]SWS[_B{ACCIIIIs@gASc@Qa@]{@GSa@cBESc@iBW@O?sATkARCi@_AC_@AWeBa@}A[iA]cA_@aAq@c@mAy@IkAIy@MyAOgBO_BqFYC|@nADRnCgAlAK\\u@hAs@|@cB~AIJw@`AONILm@j@u@r@]^Y\\iAtAEAEURUHPHKQ]l@e@AMHUDiABe@?OFgA?GHm@HQBy@?w@?M?Q@m@?S@u@?Y@m@JaCFsB@{@FgC@a@?KB[@WBWaAKo@KgGaAoFeA_HwAuGuAiIwAE\\Gl@@l@Ar@Dj@Dd@JjALb@Nt@NzB^hDNz@Hp@Jx@Kz@f@JAdAFh@Jp@@t@Gl@E|@Ef@Kx@Ib@Gd@@j@Bh@IVh@zBGn@AFC\\Gj@Gn@RbB~@|Bl@bA`Ax@dAr@dB^vARp@Jb@Bj@NBV]|@MRW`@INc@v@_@n@[^]f@WF]Gm@YeAWyBmAiCo@g@WiBDi@Be@Cs@QoAA[Gk@U_@UYIo@@q@D?PaAIAJaEYAZsASgHFwA@wG`DNxD@z@Ej@Q`@kAnBa@RI^I^_@\\Ch@?RSE}@`@CXz@J?r@k@@m@??`@~BAzA?nAABRP?bAFlAHB_FX]rABhANM|CX?DeA|@BGnAwA?QDBh@h@AAUV?@T|CA@r@bC?Ag@eBC]W?K_A?HmDXB?hBl@NnB^`@}@LaAM[yAi@J_@z@Zj@xAp@VvAv@^m@b@JGjAh@@Cl@O?EdAOpAShBCp@Yhb@`\\aOe@nPnDVzE^rAAfDXfAArAZZdMApHQ|@Av@oGQIdBw@AqBESN[rAWNw@@w@U{@i@[_@UB}Cn@kB`@cD^cBZ_FxASFeD|AQFYJHFDF^v@JXO`A@LDXD\\Db@DT@HCn@AVC~@EnB?P?RAJ?T?J?TALA`@?FCf@o@jFl@Iz@?~DqBxBPb@A^@F|ACbD@h@@^AzAAfAAt@`A@R@zGD|BDfDBtBB~A@xIJxDDfCD~BBjB@`EDjB@pAHvDDfEDrA@zCDnEFd@@l@@lDJpHPnGNhQb@nEJd@DxAJND`BH?AZFnKf@@KD?|DP@?l@uHTkCr@oLBu@?_@Cc@M]Q_@U]IKGK[_@Ye@EECMEUCY"
+        },
+        {
+          "name": "Yodogawa Ward (淀川区)",
+          "osmId": 358675,
+          "adminLevel": 8,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 34.706682,
+            "maxLat": 34.751377,
+            "minLng": 135.445556,
+            "maxLng": 135.506714
+          },
+          "encodedPolyline": "cy~rEyaxyXzAkGtBqHdByGrByHp@cC?CH[GiBKeCCyDCaBEo@yBSc@Ig@IQAu@Cs@K]Gc@cBqAiDUo@M[Si@Ma@k@}@eAmAsBwCqCeDe@q@{@oAc@u@m@{AWiAq@_Ek@uEOs@m@iC_@yA}@yBGMQ_@y@_Bw@}@}@{@gAs@QIg@Ws@a@WQk@]MIc@z@sApBwCfBsAaE^mB\\qB_NwDkD}@_@fBa@Fe@SoBT}DTgAgBcBuA_Ao@g@m@eAkBGy@UgD{EgECC}BoCsCuGg@_EBiCJyADg@rAmG\\eA}AiDZgCn@uEl@gChCsI?uBLs@xCYxEnBxHwRtGkRp@mElBx@b@N`@NfEdBjFxAtBp@v@Zf@aBlAr@E`AvBv@lGbCRH`DjAzAf@hAZ|@ThBb@HBRAnB\\`@N\\NL?L?`ARbALvANd@FL@\\Ff@HL@HBTLHBl@JbAJD?D@H?J@T@X?|@@X?F@D?H?V?rDKp@EJANAJ?f@Ef@IRAv@INAFAv@Kn@OpA[ZIzC{@^OtBq@^K`Bc@hAUvBMp@EnAw@ZCZAL?pEGnDEtFEbDEBr@@D@RBv@BX?B@VVdM@nD?l@@l@@tEBvC?fABp@B`AJxAd@vER`Ab@hBjCvH\\t@~CrG`FxJVh@bF~JFLDFJRR`@LTP\\\\p@|CbGzDrH|@fB|J`Sj@fAbArBzDlHzIjQXh@_Av@cLlJy@p@g@b@q@j@kHhGqC|BiB|AiG|EgAz@wE~DoBzAuApA_BrAoC`Ck@p@WRWRkDdC[XaEhDw@p@mDtCADoAdAEAm@j@c@b@gAhAy@`Aq@~@m@v@kA`BOP_AdAeA~@u@r@uAnAcA~@]\\QNu@fAoAtBMT{@|A]p@g@|@M\\Qb@yAvFgAvEi@xCKl@s@jGSlBo@`G_@~E?F_@fFs@?_@?iBOiB_@w@SaBe@_EaBsAu@u@e@MI{@w@u@cAo@oA]}AQqAMaD]kK?UC}BCkBDuIB{B@KRuC\\{Dr@uELw@P_ADWToAh@oBXgA@G"
         }
       ]
     },
