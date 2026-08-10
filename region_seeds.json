@@ -1,5 +1,5 @@
 {
-  "version": 102,
+  "version": 103,
   "cities": [
     {
       "name": "Amsterdam",
@@ -16308,6 +16308,285 @@
             "maxLng": 16.3537656
           },
           "encodedPolyline": "ylheHmxvbBoAtOI`B_AUy@OgC}@eC}@s@tFwAlLmAcAiAhDGEQMIGWSQMIIYQOMECQMQM?AMIGGSM??EEOK[S??CFABCBCDKTGHo@e@qAfDkBzEeAjCuApDu@hBu@pBUfBOfAo@fBs@lBo@dB]fAA?IPGX[pAICABCBC?C@E?UAm@Gk@E}@dCKPi@`ACDHRnAvBJHF@D?LEPBZj@L^Jh@HPRhAJl@DnAM\\?hACl@Ed@Gb@B~B?j@?d@G`AOz@KGIEa@SmAc@q@Ug@OaAa@e@jFGr@UGcAWiAYW~CSnCI`ACj@IzAKlBAVE`@EXSvAAHMz@Ix@C\\Cf@@pCKAuAYoDk@UEYjEC?gAEc@?K@QB]?O@?D?HDr@HfAJlAAH@HLdBLjAJbAD^?b@@n@A`AChA?P@Tg@jGWrBETMt@S`Ao@t@MTOZM\\Wx@GXUfAKj@WzBKl@q@dC]~@GTA@Kp@GXCLGb@I`@G^CJCLYfAi@nBe@`BWfAB^A@S@MLwFj@@rDHBQb@mCbCwAzESX@JExEK|EPHn@b@z@rAP|@Hn@ZhATh@F\\@LCR?L@ZRlA[DcEY_@IM?cDA}CTDtG?`BMdA?n@FvAD`BDz@^jJIh@A?Y`COtCOnBu@jEA~@y@lCu@bCQCc@EEIAEKQII]SM]CM?KCEMEIWBIMYCMGKFQ?IAGO?MU@YDQI[OCK[?K@KYeAAUEMIc@IYIYE[AQGWAO@M@]Ka@AK?[Ia@?oAEMB]AM@KI]OOEY?S?OASiAJgA@SAUoCUq@k@U_@Yq@eAkAc@AaBj@gBg@}EGe@a@mBaCpA{At@ZbF@nCCnDAzF@nCUnDFfDZ~EB~BD`@S|E[nACnAEnB?LOKE]e@?GII??TSA?EI?_APcBNqA@]e@{@gBa@aA{@qBWq@kAiDmAsE]ZgAcAy@qCu@oDWo@QOi@OIGn@}BDOFWDQVmAHmDLeCRgBD?XiC?KBODi@@ILgAl@yCJcBj@yEF?^{BAEPcAFAHi@FiB?g@`@gFTiH\\uLLiBx@mGXkAtAyFH?h@oBh@qAPiAf@{ABKHBpC\\RBjAJVDJ?@KP}B@KF}@B_@N}BVBD@b@LNBP?LGNOJSvAeDFQFUb@YZ]R_@d@aAr@cBhAgFz@eFLm@nA_Fj@}BRy@Li@FSSMGGGKGMCOAMAQ@OF[PeAXyATuALm@X}AZaBDUDWHo@Dm@NaBLwAD@DFBBDDLTN^HZLhADZFTLZNZBDFHDKDKHSFWHYF[B[Dq@LmBDy@@SB[H{@LcA?CF_@`@yBj@{Bv@_DHYNo@j@eCDMDQFYZmAXkAVeA\\wA\\{AvBaJH[@GBKBM@M@U?U?G?q@?wD?uD?U?{@?y@Ao@?e@?eA?}@?]?K?w@?K?a@?M?G?[?}@?A?c@?gA?aH?OL?z@A\\@N?fA?JAJ@rDAdD?T?l@?NA?[@{@AmF?_H?aD?s@?m@?Qn@iIa@sAXWZYhAsND[?EBY[QOIGE\\gEHmADe@aBWe@ITsHdBN^@hCb@RHVD@@^F@eC@{Ee@{D?ECKAOAC`@wATh@b@`ANb@HTED@DDLC@HT@ADLED@F@?Lf@Nd@?@BFDERp@A?@DDEFNA@@B@?DJAB@D@ADJ?@@B@?BL??@B@?DL?@@B??FJA@BB??FHA@BD@?Xf@BD?AFH?@@@@?DH??BB??@?TV???@B@??HD?@@@@?FD?@@@@?HD?@B@??FB?@B@??HB?@B@??HB?@B???HB?@@?@?HB?@@?@?ZD???@B???H@?@B???H@??B@?AH@@@@???J@?@B??AHB??B@?AH@@@@???J@?@B???ZB?@B?@?H@@@@???J@?@B???J@??B@@AHB??B???J@?@B???J@?@D???H@@@@?@?H@??B@?AJB?@B???ZDlEl@ZFnDb@ABF@ZD@?AFF@?A`@FAJD@?AVDD@F@D?PB??D@?Kb@F?@D?@GAA??`@F?BD@@C|@J?BD@?C^D?DF??CxAP|@\\\\RRPTTFFLNRZHLLTJVLXFVDNFVH^Hd@?DKDA@A@?@ABAB?BAB?D@BnBjLn@~DJLA@d@r@@AJL~Ab@|DjANFhA\\bFzAPFHs@B@?Cj@NhA^bBr@?D@@@?@@@ARJ"
+        }
+      ]
+    },
+    {
+      "name": "Vilnius",
+      "countryCode": "LT",
+      "regions": [
+        {
+          "name": "Antakalnis Eldership (Antakalnio seniūnija)",
+          "osmId": 1274541,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6870646,
+            "maxLat": 54.8259809,
+            "minLng": 25.2911109,
+            "maxLng": 25.4558372
+          },
+          "encodedPolyline": "gb`mIygbzCdAA~F_BhB?pBLbEdAzA|HdAs@^rBcAn@b@~Bp@a@B|EDRhNo@rQRi@gNg@cGn@[|@UhAI`IK|MHr@K^OXY`B_Cb@w@~@vJP`CLfAV`BfApF\\|@Xj@dB`CFL|AtCr@x@DFrAzBTb@Pb@N`@ZfAd@bBZjAhBvHLl@RlAHz@JhABl@@bA@xCFrABd@D`@Hl@`@hB`@tBR~@Lv@\\rCFbA@|@AdAEfA?PI~BI~CMhAGj@Gh@EZAXIbBWtHCx@a@tLK`CIjDA\\S`HIxCAp@@v@DbABb@H^XfAdApDh@lBBJLf@j@|BHZb@fCFb@NpAFf@Dl@@NTbEX|E@ZLdCFrAJfCLvCDnA?h@IbFM~CAl@AvA@x@JxAP`B\\tC\\vBHZBJNb@Zn@^bA\\fAPn@VnA^rBx@dDZlANh@FXTz@L`@Tl@JZHVH`@D\\Ff@Bl@@~@Ct@Ef@Kd@{@jBUl@Oh@Mp@Ef@Az@?fA?ZDr@T`CpArMJf@Lh@JXb@~@Rj@HRn@|@HLp@|@h@z@Vf@N`@HV`AvCZz@v@lBDHz@rBHRh@hA~@rBj@tAj@bBFAF?DDDHBH?L?L\\Lt@l@t@n@TTFD|AlADBlA~@b@\\RRRTx@hAnCfEX`@dA|AZd@p@bAnAjBlBvC`B`CVZ?V@H@JTl@Nt@PrADh@B^BDBFHDK|AQbD_@|GIpAWzDIdAAVG`BCv@AV@L@l@@^HtABTPdBDj@Bj@@d@@b@AXAZC`ACZEd@ObBSzAMz@Mj@GXMh@GZETKn@[nCCV[dC[|BId@GZMb@QZs@dAW\\DHLTzAbCbA`BVh@p@`B^CH?XHRDFBdAX~Ad@nD|@TFd@Jp@PPJFFh@n@lBbCJJX^NVZd@FNXl@DHpArCf@hANXBFBJBLFNb@v@FHnAxB^p@BDBBDDBB@@LFNF~@VPFTRHHFHFFHHHHLL^b@^`@`@\\N`@sApB]f@eA|Aa@j@e@`AKZIXObAGz@Cx@Bz@FlABn@Dt@PzCFdA\\|FHfAD|@NpC@VJlD?BDxA?xAA~@@p@DZJ^d@dBFTFVJZWXYXu@t@o@r@i@d@_@Te@TMBMDg@Ho@Bq@@]CUAc@EYCUGg@Mc@OMGWKk@YcAi@e@Q]GMCWAS?Y@WDYD]LMDaCrBcAzAkArEwAxEo@u@k@q@}@cAqAqA}A{AgCaCqAoAk@g@m@i@i@a@m@c@s@g@s@a@m@Ys@Uo@Qk@Kc@G{@Iy@E}@GcAC_A?eA?_A@gABwAFu@?i@Ag@Ce@Cq@Gs@KeAQs@Mo@Qs@QgA]g@Si@Wi@[g@_@e@a@k@k@o@u@aCeCg@c@_@Wc@Yc@Uk@YyFeCo@Wo@Si@Ks@KgEi@_AMy@Oo@Ss@Uw@Yw@]y@c@sCsAm@Wg@Qg@Ok@Qg@Ii@Ak@Ak@Dk@Hm@Nw@Vi@Rq@V{DxAw@Ry@L{@Hu@Bw@?eA?w@Ee@Ee@Ia@Mc@Sc@Yg@c@]]GIo@u@aBmBe@c@g@]g@Wg@UOEOGg@Mi@Ie@Cc@@c@H[LuAh@k@\\e@`@g@b@i@h@e@l@c@j@k@~@qGtJa@x@[r@[|@Yt@[`AW`AYfAWnAWlAmElTWzAUzAOvAKtACjA?xA@lAHrALtANvANnAPxALtAJnADdADjA?hAAnAGnAIhAOhAMz@Sz@[~@Yv@]n@g@p@gCvCg@d@_@\\c@Ve@Re@Le@Le@He@Do@@uID{BLcAH}@LaAP{@Hy@Hu@@w@Cq@Ik@Ko@Os@Yq@]oCwAm@Yk@Si@Om@Mo@Im@Is@Ck@@e@Be@Ha@Pe@Tk@`@g@\\yAfAg@Va@Pa@Lc@Fc@Bc@?a@Ec@Ia@Mc@S]SYYW[]g@e@_Aa@eA]mAUaAQeAG_AGmA?eA@gAB}@HkAv@}MFcBB{A?aBCyAEiAKcAKaAQaAOaAyAgJM_AMkAIkAEkAA}@@}@BcAFuAL_Bv@yJFu@D{@FgA@cA?iAEeAGkAKkAeBgRQsAUoAYcAY{@[s@kB{D]u@Yw@Uw@Sy@yB{LQkAK{@KaAGy@KiAEiAAgA@{ADsAFgAHoALoAPoA`@wBTqAL_ALkAJuAHaBHgCBsB@aBC}AG_BKuBU}C[yD_@mDWmBOaAQu@S{@[}@]s@{@wAw@iAoAmByAmBqA_Bq@w@o@k@}@m@s@]m@YaA]eAe@eAi@{@g@m@c@o@g@m@o@o@w@m@_Ac@u@]y@So@Os@G}@CeAB_ABu@J}@PcAf@_Cl@_Cl@uBd@yAf@qA`AyBx@mBh@wAb@uAl@uBj@eCb@kCFu@Ds@?u@Co@Mm@Sg@Yg@[c@_@[c@_@a@S]Ka@G[@_@Fa@Pa@ZgCxAc@Te@Pc@Ng@Ji@Bi@Am@Ii@Og@We@]e@i@c@q@c@q@]i@a@g@k@c@m@g@y@g@s@[y@Ww@Mq@Gs@A{@DaALaARsATw@Rs@Lw@J{@B{@G}@UaAg@y@e@y@w@{@aAo@cAo@uAm@_B_@eBYeBYkCSoCSaDKwCEmC?yCBeCFoCL{BP}BRuB`@{DJsAFyA@{AC_BKeBMaBU}AQiAWmA[oAc@}Ai@kBk@aBm@}Aw@gBiCcGiCwFu@}Ai@y@i@y@q@u@e@e@g@_@k@a@o@[s@Sm@Km@Cs@Bo@FsEx@w@Fy@Aw@Iu@S_A[_A_@}@e@w@m@iA{@_@Qa@Ii@Hi@Za@d@oBvCY`@[X]T}BnAi@Zm@f@q@t@m@`Aa@v@o@vAkAxCWf@U`@Y\\]`@i@d@}@j@aAh@m@Tk@Ns@Ho@Dm@AqDKgA?w@@{@FkDf@{Bv@sDhBeDbBiFrB}CdBeElByB^_CBM?gDWeCDaC`@s@VgBn@kCrBqElE{CjCgEfCsCdBsA|AcAlBmBbFgBvE{BzEwBrDuB`DkB~BcBtAeAb@eAHiAU{Au@}EwDoCuBmBaAsDi@kBD_Cf@}A~@yAjBy@bAmAj@{@Bw@MwAeAgCsAy@OkAAoAVqFhCiDtBeE~BuAvAwA|A_B|@cDn@gADcAOg@U{CkBaAw@cAeA_AqAgDmHeN}\\cD}HZoAzAyFjIlMfF~QxEjK@|@tFzB~Gi@hB_@dIwBx@cAnAuLRixAp^Vh^\\\\yoA?{FTw|@Ves@fHnH@wA@i@l@{l@tZbAwAmi@eC{`AwDczA}Amm@fW_D`NhCza@l@pjA~@|k@rA`Rb@zf@nBJ?rGVjj@vB~Lf@zh@pCpQ`AVzSeJlWaDp@g@rJgBdI~KtO~HwA|G|dA~FwB|H]hAdH~@tGfHQ`Gi@vBOvFa@vDYrBnIFd@`Bx`@bCBM|IEv["
+        },
+        {
+          "name": "Fabijoniškių seniūnija",
+          "osmId": 1201400,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.7202016,
+            "maxLat": 54.757667,
+            "minLng": 25.2143712,
+            "maxLng": 25.2706164
+          },
+          "encodedPolyline": "ovemIa``yCQ|D?p@?d@BnBCbAkBx[jUz@wIfx@iAnKbGt@r@Dh@L\\N^RhMdJ~C|BzBpB^jAl@_@dAmAhBwBX[jAsAbGmGzCeEz@kAj@u@|BkCjA}@RSNUd@e@jBwBjAuA~@gAr@y@LMb@m@hAyAp@y@\\i@z@oAl@aAlEiHtDaGR_@lB}CdCaEt@mA~@{AnCmEVe@V_@z@qAVa@~BkDv@eAtAiB`CsC^a@|@cA|AaB~F{FbC_C|@_Af@g@f@g@b@c@d@a@`A}@zAkApCsBv@g@FGvDeCbAq@bAm@bAg@vE_CvDkBbBs@lAm@tBcAp@YTK~Ao@tE_CVMEo@E_@Ca@OmBMyACWI_@\\c@\\g@LSN[N]Ne@@EPe@Li@Ru@Ji@Lw@DUFe@B[Fo@Bk@Bq@@i@@w@?e@?oE?_@EwHCcACy@KwAQqBGe@Ik@w@cFIi@@sJAcnAkAVuB\\wA\\uD|@mATiCj@y@PyDx@_GpAwA\\{@VaAZmBn@uBp@UHPdF@JNhCJtBB|@?n@AX?j@E~@Iz@Kt@ERSbAGXIZGRITWl@_@p@a@z@m@jA]n@SVOLWRSJUHQB_BBa@@}@F_@DWHsAf@aBn@KDiAh@aAb@E@IDkAh@WHqAh@qAh@[NYLg@uEa@}DGa@WLk@Zi@Vw@`@UHo@\\{At@GBc@JQ@OAy@CWAE`@AHApAEz@Gx@EXS~ACRG^UfBE^OhAmAhJGf@G`@AHE\\SpAOfAKt@G^IZWv@{@zBu@fBGNaFvc@mFde@fA|E]hA`@`Lo@hIg@bQ{EpKqAtC{BeFTaAsHkM^eDuCKaMoFAi^wEO}@eP}c@iAqChf@"
+        },
+        {
+          "name": "Grigiškės Eldership (Grigiškių seniūnija)",
+          "osmId": 1017349,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.661823,
+            "maxLat": 54.6907091,
+            "minLng": 25.0675723,
+            "maxLng": 25.144044
+          },
+          "encodedPolyline": "qmslI}|axC\\aA`HkSOoXTa\\aCu^q@mGcFwt@LsCAyAIa@KYMSSSa@Oe@EcADa@sHmIbA{EdIfF_\\hEoRbOwn@uQzCqClG}BhE?uS]{Ii@aDiA}J}@oOkDmVcB{J{CgDsEFkBo@eD?i@EsEiH`@pSaHXgGnQu@o@o@aRoBoD`@wB_@cU}OxA_ByAk@xC_@nEG|EFlHJpEXbGR|D\\zBv@zBnB~DfAlC~CrIn@tC\\xC^dA\\n@|@t@vA`AnBnBp@jAf@hAh@zAvGlSzD|LpArG~@~G^|DHrC@fBIzCYdGqA`TYjDg@bDu@vD_BxJaAnE{BdIYtAWnCi@bEi@fDw@pD_AdF_A~F_AvF}@fDmAjCeA|Bu@fCoAdHsCbQq@`Fs@zGcAfJu@vEq@rC[x@k@v@m@f@o@Xw@Ny@CkAUeB]{ABsAJ_Dj@yB|@cBrAuBtCsAtCgAtFc@|EMzCMzEKxFQvCm@|Ck@hBs@`BgAzAuAr@eB^UvDw@tNzg@{EfHgFZ~BnCeB_@gChKuHxFdG`DqJbIaApBHhAJx@jDRTzC]bGmD|HmChKiFxC{D~E}Ib@uJnWuMMkE"
+        },
+        {
+          "name": "Justiniškių seniūnija",
+          "osmId": 1200167,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.703434,
+            "maxLat": 54.7263103,
+            "minLng": 25.1990125,
+            "maxLng": 25.2332003
+          },
+          "encodedPolyline": "wc}lIytxxCp@g@vCkBt@e@dCiBt@m@^]HKv@y@jBqBb@e@`AcAtD}D~@cAxJaKTUVWPO~MeNH{BoNaBM__@EiGUJSD[Fc@B]@q@?m@CiAEeAOyBSu@Ka@IsA_@sAc@_Bu@[Ou@_@iBsA]S_DuBoCmBaQiLqE{CUOFg@PmBHeADq@DoABw@D}AB{B@g@?gA@yB?yDBgCFaBFoADk@JoAJkAd@aFDa@[MWMyAs@{DcB}@a@eF_Ca@OqCcAkBk@eAUsA]WzGwAlJ{@rFqBzMaJfc@UdA\\`K_Ahj@cAbGFxEzBdDhFGgDrHS^GVIXQ|@GXEZCNa@jCCLOfAWlAU~@Ol@]bAIRUj@_@r@{BtDv@bDb@@pBc@h@u@n@aBzA[pNhCNm@^m@p@Wx@AZNTJL@RKN[`@s@\\WR?PHRRHd@\\bC@Fp@_@lDcDxDmAVfAf@dAt@Bj@b@Vh@Lx@AlAIp@g@|Ab@Rj@JjB]x@Rp@h@vAbB^Pb@Cf@QtAw@^?d@H`Ct@Bd@"
+        },
+        {
+          "name": "Karoliniškės eldership (Karoliniškių seniūnija)",
+          "osmId": 1069592,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6793044,
+            "maxLat": 54.7004021,
+            "minLng": 25.1943535,
+            "maxLng": 25.2409371
+          },
+          "encodedPolyline": "oozlIy{}xCOeC]cH_@eI]gIg@gMG_BCuA?qA?sAB_BDmAHgALqAPuAX_BdBiINy@Ju@LuAJwBjEtJMbOzFxBp@t@|JGFhGlF|DnJqRp@rAb@`AfAjBfBnCtBxCb@r@f@|@`@~@Z`AVfANz@LhAn@tHb@dELhAPbAPv@Tx@Xv@\\x@`@z@^r@dAbB^l@`@j@\\`@`@X^N`@Jd@Bd@A`@G`@Q\\W`@]xDoEvBhJ`CdCtA`B@pA}ErJrA|DgF|Fy@zCsDzGIfH~AvPfEl\\^xCfEh@~BH~BgBnBhArBpAx@hQdE`T_DvH{AxNiCjAoBbHsAKkGkCsHqEeC_AgD_EmH}HcNiIcKsJqF{EqGoFyQ_LkFiC@uBAy[E_a@MwVAmBm@qR"
+        },
+        {
+          "name": "Lazdynai eldership (Lazdynų seniūnija)",
+          "osmId": 1017350,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6484001,
+            "maxLat": 54.6856351,
+            "minLng": 25.1756054,
+            "maxLng": 25.2319284
+          },
+          "encodedPolyline": "ahwlIihwxCxLtMzl@~fAHeCRyBZiBb@uAr@gB`AkB|@wA|A_BhBsAvAo@xAQnAC^D\\N`@Vr@n@dH|HdBdC`BbD`G|OdAfBx@t@v@b@z@PjBLnA@rBMtBi@jDw@zBQdDMjAJfAMv@[z@w@r@iAr@}Af@mB\\}BX_CPkDDqIIcHGwKJuDb@wFx@gFr@_D`A_CnAoBxAoBtAgClAeDnAuEt@uDpAsHnA{Gv@cDx@cCfAmCzAoBfBsAvAeApA_BzAuC`BeE~AiFjA{GPaDBkCI_B_@gBqA_CwBqC_D{EkD_F}C{GgCeHuBwGg@oB[qCCeDEiFUqBe@}ByAyDuAoBmBiAaDq@gE_AoA}@aAuAi@yAuAqCuAcBiAw@aBe@qA?qAXuEnBoAj@oAb@kAZsATwAL{@?s@Cy@Gy@Uo@]iAy@aJeJkJcJqAeAoAaAuBuA}@e@}@e@cAg@qAc@cEqAyA]yA[wAOqAKsACwACaACYAsLE_FE{@?u@Jy@Ra@T_@Ti@b@w@r@oE|E_@b@_@d@c@l@a@n@_@p@Yn@qBpEa@z@_@v@c@v@_@f@vBhJ`CdCtA`B@pA}ErJrA|DgF|Fy@zCsDzGIfH~AvPfEl\\^xCfEh@~BH~BgBnBhArBpAx@hQdE`T_DvH{AxNiCjAoBbHsAKcDvN"
+        },
+        {
+          "name": "Naujamiestis eldership (Naujamiesčio seniūnija)",
+          "osmId": 974263,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6637075,
+            "maxLat": 54.6957306,
+            "minLng": 25.2470353,
+            "maxLng": 25.2907776
+          },
+          "encodedPolyline": "m`ulI}pjyC|@zA|@fBf@bAHTl@fAJVFNBHn@zBDLz@nBbApB`@j@n@z@d@h@RTX^DJDFJXNb@bApDNp@n@rCp@rCTfATfAHl@Hp@HhADx@h@tIFx@@NB^FhAH`ANjBd@fFVxCLrADd@ZhERfCFr@Fl@H|@NrAHz@LjAN|ARfBiBKDn@n@lHbFlm@~Cf\\JdAJj@s@ZKFcJ`D}@\\MJOPUV}B~BGFIJQ_@Sa@e@aAk@iA]u@Sa@k@mA{@eB_@u@c@}@[q@[_@e@{@i@_AKQOWUc@_@s@m@kAYq@SZyBxCk@|@INw@nAIPCBy@vAU\\sA|Bg@x@{AdCyAbCW`@_@p@i@bA_BtC_AxAGJUb@oAvB[h@Wd@_BvCaAfBcB|CQVIn@eAbCc@t@[`@g@b@c@Zw@Vg@JSBQ?[?{Ag@}Ai@q@UoCaAm@Um@Wi@Wi@Yo@a@o@e@c@a@USMK_@a@_@g@Q[O_@[{@_@yAUmAUuBIeBIuCCu@GyAK}Ac@kES{BcBzAOcAQiAYmAYeA]aAYu@[k@c@o@a@g@c@[g@Um@Qo@Mu@Os@Ku@Mq@Gw@Im@G_AIkLy@q@Go@Gq@Mo@Mq@Qw@Wu@Yq@Yu@[k@Yk@Yq@_@k@[i@]a@[c@_@a@_@_@c@_@c@Ye@Yk@Wi@Uq@Qq@Ms@M}@IaAGkAAy@C_D?qA?uABqAFiAFwAJmAJkAN}@RcAVaANe@DOVo@\\o@Xk@`@o@b@q@bDmFf@y@^o@b@w@^{@Zs@Zy@Vu@V}@T}@R_APaANmALoAHgAHmADuAt@wU|BXjAAh@Aj@CPA`@El@I`@ARAN?f@Fb@FdAJ\\DTBLBh@FTDlANb@NNFUxBPDp@N`Cf@fAXf@TPHDBNHHDv@b@\\`@^h@Zf@R^PZTHv@D\\?Z?j@EHAv@MlASNC@h@@X@jABzA?b@?rC?FBbA?PDtA@VJxC@VLDfCn@HB@@pDdANBXCxBm@JCHCvDgANEHCjBe@NEzAc@LCz@Wt@UTGTGFCHAb@Kn@OFCVEIW]kACMQk@Uy@m@_Cc@eBK_@FEFCt@QtAYb@Kn@MlCm@NCJEjASREj@Mj@KvBc@fASdAQREPFARAN@N@p@DxBNpE@l@RGTE|@S`AWTENA`@Ad@Ab@A@K?O^iCPiAPuAD_@NaAf@oDHBVH??NwAoDeN_@WYS}@u@GEYWYg@Ew@?[RmEB}@HiBNuDDiABw@Bi@FcADu@Gk@UaCk@}F[kCAIGg@LMFMb@w@JAFBDBFFHPJJ"
+        },
+        {
+          "name": "Naujininkų seniūnija",
+          "osmId": 1283316,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.5924942,
+            "maxLat": 54.6704253,
+            "minLng": 25.1906281,
+            "maxLng": 25.31413
+          },
+          "encodedPolyline": "i}klI_omyC|A[t]eJv_@_KtGwBjYeK~KqDjLuAtJkAzUuAZvBi@AX|Bj@xE^QbGt_@lAvIxF`]zEz[lFd]xCtR}KKZpXcAvWxMxt@qJqAwHcAcMcBmAUu@Wm@YiM}GqC{AyEgCmAc@oA[yB[oBK}CL_@Fw@NyA^aEfAiDdAV\\P^^x@Vd@rAnBhB`Cf@v@`@t@Vl@Xv@bCvGrArDh@zAHRfAzCNh@Jf@Db@Bh@?p@Cz@WdDUnCGx@G|@UhDpKxBzAhEf@~Ez@f@Eh[KzEwQw@Af@Af@Cl@APCp@G`AAPCb@SjD[lEG~@QzCGfAEn@QhCGbAm@~JUzDIdAGd@GXIZO\\Q\\QPKJQLiEzCq@d@sBxAcAt@gAt@QRQXSp@K^I`@E^QxCsAxT}A~ViA`RATkA`SIdAIvA_@`GWdEGtAiAxQGbAA\\E`@APCLKXiDlGgD}AaFrPeRlIe[jXmJtVkA|Sd@`YyFx^kPdUDoVgFm_@{HcKoC}A_Ho@_EaO@oBAqBE_CKsBIwAMsAMqASuAKq@Mw@c@uBkCyL}D{QyCkNe@}Bg@qCk@uDQmAkGwc@c@yCSiA[iBm@gDq@cDy@aDaBeG}EmQmAsDkAsC_AsBmAyBcBeCqB}BmBgBwAaAOKqAu@wAo@k@SiBg@aBYcCQuA?u@?mCZcDl@wCl@mCb@_DZsA@eAAaCQiAQgAWmA_@kAi@cCsA_As@kBaBiCwC_C}DwBoEEIuAqDeDkK}C{JsAuEq@kDc@kCSaBMkAOgAqAkKYeDKk@KeA_Dg\\cFmm@o@mHEo@hBJSgBO}AMkAI{@OsAI}@Gm@Gs@SgC[iEEe@MsAWyCe@gFOkBIaAGiAC_@AOGy@i@uIEy@IiAIq@Im@UgAUgAq@sCo@sCOq@cAqDOc@KYEGEKY_@SUe@i@o@{@a@k@cAqB{@oBEMo@{BCIGOPSNO\\_@\\[f@k@JOl@s@JK|AmBX_@NOBVBJJJf@\\r@f@RNFDf@\\n@d@d@Xp@Tn@LPBT?RCHAJAl@Mb@KVIFGLIj@q@PWRWNWJQFOL]Nk@Lm@R_ANm@DKJCLCVCAW@_@?W@q@Be@@_@B[Dc@BMHg@T{Ab@mCd@mCj@}CPiARkAl@gDPeANy@RkAPcAXaBLo@XaBF]Ha@B]BU@Q?w@f@gAVg@Xk@DIZe@P[V]JO`@g@NS^c@n@s@@AZYTORMFCBAXINCNEb@CFA^?~CBfA@jA?tADT?v@DF@x@JvB^rBZtALrA?vEPpGVxE?z@C^?v@?\\AbA?n@?Z?`A@rE?^?tCAH?z@@rCA`A?~A?B?H?nEAH?J?b@?vA?f@A`XMrEE~BCz@Cx@Gv@IhGy@RCtG{@~Di@TCvKwAbC[~G_AVCbGu@hMyApAS"
+        },
+        {
+          "name": "Naujosios Vilnios seniūnija",
+          "osmId": 1283317,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6395655,
+            "maxLat": 54.7157568,
+            "minLng": 25.3272173,
+            "maxLng": 25.4814574
+          },
+          "encodedPolyline": "{dxlIyyozChAzAr@l@\\Pb@LdBTTJLNPd@H\\BR?TApB@PBVF`@LXj@^JVD^@b@Op@e@|AE^@XFRX^Zt@Pl@Ft@?x@Bx@Cb@IXK^Wd@iApAwBdDm@l@gFhDe@p@a@r@e@hASp@Mv@Kr@EhA@tBLhIRfDVhBj@zCDTVfA\\jAd@rAZr@j@|@x@~@`AtAh@z@`@l@^^XXH\\B^?h@Ip@WdAgAzCa@nAUtAWvA]~@a@r@Uv@Op@zBxJ~ArMdEj\\bUrVlTea@|N~\\zBdo@|GtH_CrGkFnQ_FrH~DhAtAv@dCnGfAnCkDnLm@pBa@lBa@`DaApKKlB?bAHnCaHbLcCtUeCfAeE`BDh@cJpGf@`DvBlMfZmDnCfGFjYpe@vB~AvCv@vB`@nAp@jCf@lCChHT~CvBd]dAvVbCvSjE|MhGzIpGtDdNlClOrC^LpDdCtQtQrSvR|PrPNZlHvNrFlNvEhGnBfBtDvApFFpFGQdAQ|J}Hri@}CfLhAnBqW`aBqSuPwAnTqElRqJt\\i@yAqAyCm@uAyB{EwAeD_BuDO[EIi@_A[g@QUGK]a@]a@_@k@]k@cAiBMUGMWc@]g@]a@]]i@_@c@Wy@e@g@Y[SSSQSg@u@i@aAQ]W_@SWYU]U]Qc@OWKSIoBw@KEGCgBy@IEwBcAIE_EkB{@]CA[MuAvImAzHq@rDo@zCwA~FEKCQAkACa@G[KQIM]W[S[]OOWSgAcAe@YCAi@QUEQAO?MAOCMIoAkAWSQCMBMD}At@MFk@X_@PSDUDUJKDM@WEOMIIW]QMu@]a@Oc@EY@IBC@aDdAm@cHkBqS]gDWuB]yBe@iCkA`E}BdAkCj@yMDAxBAx@?xB@nAD~@Hv@L`AZzAmElDm@JcAOcA^OVO\\ErAGd@Id@]|@Ub@KSOS]e@WMK@e@kBWiAMcAWqCu@sHEi@M}@M}@i@sFKDoB\\ICEGGOESEKIGKA_@?EAGAk@WICe@Sk@O{@]e@_@c@i@a@_@_@Ia@D_@^aBl@kAv@u@Nk@?I?[DiA\\UBu@LuAJ_AEcACIMSQWS_@Ie@?KWQu@a@mBk@aBS[s@cAOSu@iA}AoBMSOk@g@_Ba@{@SY[_@OMM?M@K@MDOHk@d@KHqAbAGDC@g@h@c@h@U\\UZq@`Ae@r@Yh@QZk@dAa@nAq@|BKTGh@Sn@Wt@CJGPQh@M`@Ib@Gf@IECGCEC_@Ei@QsAOu@Um@AKAI?WW[aBaCmBwCoAkBq@cA[e@eA}AYa@oCgEy@iASUSSc@]mA_AEC}AmAGEUUu@o@u@m@]M?M?MCIEIEEG?G@k@cBk@uA_AsBi@iAIS{@sBEIw@mB[{@aAwCIWOa@Wg@i@{@q@}@IMo@}@ISSk@c@_AKYMi@Kg@qAsMUaCEs@?[?gA@{@Dg@Lq@Ni@Tm@z@kBJe@Dg@Bu@A_ACm@Gg@E]Ia@IWK[Um@Ma@U{@GYOi@[mAy@eD_@sBWoAQo@]gA_@cA[o@Oc@CKI[]wB]uCQaBKyAAy@@wA@m@L_DHcF?i@EoAMwCKgCGsAMeCA[Y}EUcEAOEm@Gg@OqAGc@c@gCI[k@}BMg@CKi@mBeAqDYgAI_@Cc@EcAAw@@q@HyCRaH@]HkDJaC`@uLBy@VuHHcB@YD[Fi@Fk@LiAH_DH_C?QDgA@eAA}@GcA]sCMw@S_Aa@uBa@iBIm@Ea@Ce@GsAAyCAcACm@KiAI{@SmAMm@iBwH[kAe@cB[gAOa@Qc@Uc@sA{BEGs@y@}AuCGMeBaCYk@]}@gAqFWaBMgAQaC_AwJnBcEc@iBpAsMTuDbG{_@Hm@d@cAdC_QuHmI{GnEqA|FAhBgAGg@OuEmCs@g@{A@uDuBjHeGZe@V_ARkAFuAEeBmAcOzKyN|@wFhG_EbKoLnCwD`B_MzDeYvBmQ|@oHm@uAb@e@y@iUu@{@@gBVK[kDuBZ}@mDgCiAh@aCu@uGK{C|A}@UqDKBo@iEMHE]y@p@i@{BxDoBrCKlA}AhDmAlF[jC~FlA~Ct@SpDeAl_@|WYk[rHqAH_l@sB{OwB_ScAeFpRcI`@S`@SfAxHhS}C|KsA\\}@"
+        },
+        {
+          "name": "Panerių seniūnija",
+          "osmId": 1017348,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.5689058,
+            "maxLat": 54.6810508,
+            "minLng": 25.0245351,
+            "maxLng": 25.2756453
+          },
+          "encodedPolyline": "ioilIax|xCJYBM@QDa@@]FcAhAyQFuAVeE^aGHwAHeAjAaS@UhAaR|A_WrAyTPyCD_@Ha@J_@Rq@PYPSfAu@bAu@rByAp@e@hE{CPMJKPQP]N]H[FYFe@HeAT{Dl@_KFcAPiCDo@FgAP{CF_AZmERkDBc@@QFaABq@@QBm@@g@@g@vQv@J{EDi[{@g@g@_F{AiEqKyBTiDF}@Fy@ToCVeDB{@?q@Ci@Ec@Kg@Oi@gA{CISi@{AsAsDcCwGYw@Wm@a@u@g@w@iBaCsAoBWe@_@y@Q_@W]hDeA`EgAxA_@v@O^G|CMnBJxBZnAZlAb@xEfCpCzAhM|Gl@Xt@VlATbMbBvHbApJpA[|N`Dl@q@jWnG|DL|DEvDeBzBgD^E\\FnCPbDdAx@f@jInCtAkAfHc@dC?\\Ih@mAp@uBnDk@j@{AoCMJ_DxGTb@{AhDe@dA[e@}A|GDr@Ox@nCbA~D{A`ByCdPvPQjC_AlAcBvBm@lAyH|Ig@tLnJdOb@m@rJpLdByF`CgGdF{KfErJtE|AxArGjClEnb@{~@|DkQzAr@qBlNeAjHfDhF|AhBz@nBvD`Kv@lMqPj_@a]mAmN~QgRdb@k@~CaBlQIr^{AfM`HhK}@bCgE[aBpAwDjCwFrIuq@`h@qEjHl@pANPw@hF]lAcHbRMPbDlKmDpKjDrDqHjXyAiEaEpMeFdR`ArLoDtIqAfIfBpCcCbObIfMiAtGOnAKpAEz@?bAzHdIx@S|@kFj@\\RaFxIrK|HtVZb@JMLS^{@Jc@D_@B_@Ac@QyDAe@DSFSPWZOZOb@[`@_@Te@To@f@oAr@mCPm@NiAFa@Bm@A[Ce@Ea@a@mCMm@Me@[}@a@y@Wy@c@yAIg@Ao@@y@@w@Aa@Ew@?cB@YFk@Ja@Po@\\u@JYFU@SAQCQGYEU?K?SDsA?W@UBMDIZ_@FMBKDWHaAL_BHq@p@PrF`D`BKrG{RfGqQhBzA`CoLLIhBkBbIxE~AhCtk@mM`KeCFtCtaA{CRjRd@bKbAvFgEj`A[lAuC|dAYtD}Fj\\uDfRoAhF{Qo@kIlQaD|SQrAhDJmDpUrIhP}Hje@n`@oNtWr_Akw@xc@bAvMyZd{@o\\ll@s@~AcGvKFlAoCdCS}XgLgnBe^bL{GoEiO{KQCMDQ^wVvp@CDrFzMc_@fb@rVx~Axd@r`@ZVi@x@gH|Lu@n@g@X_F^oH~@uP|BoBdAyCbCwAbB}D`HeAfA}WjKuBz@y`@nPkKfnCqE|jAu@~U_@nPmEsOe`@soACo@qA}]wI|AtBg]}AKOsCc@HcDaw@Ey@wMxFk@ei@kJh@Tmi@qMi]kCs@qOjt@cGBl@ee@uUkBwMKMzIg@Esa@kBCeq@g@{HgB_SvAgGeA}DoAgI\\}LHqUh@qT|Aie@m@_KBaHEwCiEe@{FlAe@sCs@`AaAvA_@n@Qb@U|@]jCAXDT^b@HZBZA\\AVELKFU?YDOFMRIz@O|CCzC@jB@fACr@GbASh@WT]Da@Ki@]s@c@aAc@a@Ue@g@q@aAs@}@g@a@UYWi@UcAEcA@o@ZwBFy@CyAMq@Sm@g@u@_Ay@a@a@Wa@Ya@Ws@S}@LsCAyAIa@KYMSSSa@Oe@EcADa@sHmIbA{EdIfF_\\hEoRbOwn@uQzCqClG}BhE?uS]{Ii@aDiA}J}@oOkDmVcB{J{CgDsEFkBo@eD?i@EsEiH`@pSaHXgGnQu@o@o@aRoBoD`@wB_@cU}OxA_ByAPmAvA{FvC_Jv@{Dj@yEViEJsEA_ESsBWgAk@}@cCgD_@w@]iBU}A_@oI?eDHeBNsAToAXiAf@qAv@iAhBoBhB_AlEmArCaAdDmBbB{@bCu@pB_AfE}CpAoApAgBp@yAd@gB^_CNaCDcCOgGSwFQeHY{ESyAe@iB_AmCu@yBU{AOmBGsA@{BHeCRyBZiBb@uAr@gB`AkB|@wA|A_BhBsAvAo@xAQnAC^D\\N`@Vr@n@dH|HdBdC`BbD`G|OdAfBx@t@v@b@z@PjBLnA@rBMtBi@jDw@zBQdDMjAJfAMv@[z@w@r@iAr@}Af@mB\\}BX_CnEc@^SzAo@`@S\\Y`@k@p@iA~AeC`@m@`@e@rCqBpA}@XW\\_@n@u@r@_Al@{@Za@Z[|AgAn@a@nAz@hCdBdBo@dMiUvG_R~B{MOiAmAkBJ[f@cBVy@`A{CtAoEf@{AXcAHm@Fk@@i@@m@?_@AyB?qF?aAHIFOLYt@_BL[NYt@eBP[xId^FENQfAcAxA{Ah@m@PsB@]FiAJg@Hc@DKR]FO?OB?NEl@{@DKr@iAp@{@\\]T_@DGRc@HSBBDBD?BNp@pC~AnDpAdBt@UrAkAj@cBXeBXiAjAuEjD_K~D`O~Gn@nC|AzHbKfFl_@EnVjPeUxFy^e@aYjA}SlJuVd[kXdRmI`FsPfD|AhDmG"
+        },
+        {
+          "name": "Pašilaičių seniūnija",
+          "osmId": 1200168,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.7204893,
+            "maxLat": 54.7595102,
+            "minLng": 25.17362,
+            "maxLng": 25.2441107
+          },
+          "encodedPolyline": "ojdmIyu{xCdAmAhBwBX[jAsAbGmGzCeEz@kAj@u@|BkCjA}@RSNUd@e@jBwBjAuA~@gAr@y@LMb@m@hAyAp@y@\\i@z@oAl@aAlEiHtDaGR_@lB}CdCaEt@mA~@{AnCmEVe@V_@z@qAVa@~BkDv@eAtAiB`CsC^a@|@cA|AaB~F{FbC_C|@_Af@g@f@g@b@c@d@a@`A}@zAkApCsBv@g@FGvDeCbAq@bAm@bAg@vE_CvDkBbBs@lAm@tBcAp@YTK~Ao@tE_CVMxBtG}Dnz@WzGwAlJ{@rFqBzMaJfc@UdA\\`K_Ahj@cAbGFxEzBdDhFGgDrHS^GVIXQ|@GXEZCNa@jCCLOfAWlAU~@Ol@]bAIRUj@_@r@{BtDUOSIB\\wD{BZcE_EmNmi@KeB@m@AiHMuYo@{UfDxD`XcBdJjBhIfE~JzGrKlBtA~JiFdKgD|GNhAjPu@rLIb@u@nCuTln@}BtBkIrIiJfRuBwGoBzAaHzEiFbPoJUoNCoCiFeDn@`Di]h@sFdUcJuKef@sM~JaDeOqBmJw@iAsD{CyFsF}@}@SQrM_NzDgEeK_OeBEiQgQdEqGzUiZn\\_a@Qi@l@_@"
+        },
+        {
+          "name": "Pilaitės seniūnija",
+          "osmId": 1070550,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6822346,
+            "maxLat": 54.7296563,
+            "minLng": 25.1010304,
+            "maxLng": 25.2094569
+          },
+          "encodedPolyline": "}bwlIaxwxCkGkCsHqEeC_AgD_EmH}HcNiIcKsJqF{EqGoFyQ_LkFiCkFaCyDaBiCq@uF{A[rBIzB_NdNQNWVUTyJ`K_AbAuD|DaAbAc@d@kBpBw@x@IJ_@\\u@l@eChBu@d@wCjBq@f@Ce@eCvBVz@uCjCiFxGuAbR[~BOpAQbEBN~CzCVhJmAvAiBhAgCfA_GdCuFyGcLfC`@xDoCxa@{FpQEJcAw@_AzCmQzk@|JzLiD`OcGlGaFhSyEf`@a@zEzWjJtAxHjBfSl{@k]zBfHtBjDnDjAnCl@zGlF~AzI`BdJuDvTGdAG`CvCfBUjDbG|IbGqJbAhTLpBNd@Xd@JDzBY^DV`AO`Ec@hEkH`^jHrGwHtm@eFba@b_@`m@cCfL`MzOpCqMp@uFj@mEpA}\\jCkQzCmU|@kGoCoBTcFX}Ff@eQpCaD`EmXtD_OZmAo@gJtFoEoJyOiEw\\PePBwDvFfBtBqId@sBkBoJi@oAoFeIwFuDo@e@uBkB{AeBs@mAs@}KC_A@kAlF_\\z@iCZwAf@eEVeAtC`@d@cKaAm@hCgFrBiIeAgB{BcBaAyViCCMcD{@cIqBJmBiJoB}N|J}H|Tw@xHM`U{[f`@oFdNkVbDwN"
+        },
+        {
+          "name": "Rasos eldership (Rasų seniūnija)",
+          "osmId": 1283318,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6026914,
+            "maxLat": 54.6957787,
+            "minLng": 25.2886399,
+            "maxLng": 25.3459323
+          },
+          "encodedPolyline": "extlIyhsyCaDdAm@cHkBqS]gDWuB]yBe@iCkA`E}BdAkCj@yMDAxBAx@?xB@nAD~@Hv@L`AZzAmElDm@JcAOcA^OVO\\ErAGd@Id@]|@Ub@KSOS]e@WMK@e@kBWiAMcAWqCu@sHEi@M}@M}@i@sFKDoB\\ICEGGOESEKIGKA_@?EAGAk@WICe@Sk@O{@]e@_@c@i@a@_@_@Ia@D_@^aBl@kAv@u@Nk@?I?[DiA\\UBu@LuAJ_AEcACIMSQWS_@Ie@?KWQu@a@mBk@aBS[s@cAOSu@iA}AoBMSOk@g@_Ba@{@SY[_@OMM?M@K@MDOHk@d@KHqAbAGDC@g@h@c@h@U\\UZq@`Ae@r@Yh@QZk@dAa@nAq@|BKTGh@Sn@Wt@CJGPQh@M`@Ib@Gf@K|AQbD_@|GIpAWzDIdAAVG`BCv@AV@L@l@@^HtABTPdBDj@Bj@@d@@b@AXAZC`ACZEd@ObBSzAMz@Mj@GXMh@GZETKn@[nCCV[dC[|BId@GZMb@QZs@dAW\\DHLTzAbCbA`BVh@p@`B^CH?XHRDFBdAX~Ad@nD|@TFd@Jp@PPJFFh@n@lBbCJJX^NVZd@FNXl@DHpArCf@hANXBFBJBLFNb@v@FHnAxB^p@BDBBDDBB@@LFNF~@VPFTRHHFHFFHHHHLL^b@^`@`@\\N`@sApB]f@eA|Aa@j@e@`AKZIXObAGz@Cx@Bz@FlABn@Dt@PzCFdA\\|FHfAD|@NpC@VJlD?BDxA?xAA~@@p@DZJ^d@dBFTFVJZtBsBhAiAj@k@p@{@j@}@l@eAp@sAj@uATi@f@sAh@{AZy@~@oC`@mAx@oCv@yBdAsCdA{CXs@Zu@V]NUPONKREZC\\Bd@RPRb@l@dBbCzBtCdApAbCvCVZfAtAHL\\b@LN|C~DlAfB^n@|@`BbAdCHN|@rAh@x@V`@NN`BdBlA|@nAv@vEpCVLXLv@Px@N~@J^@V@`@BSzA]fBi@lD_@lDQrB[zEc@zHMfDCnC?pC@bAD~BDpAJbDFxAJlBNhBZdC\\`CVjAd@`AJAFBDBFFHPJJ|@zA|@fBf@bAHTl@fAJVPSNO\\_@\\[f@k@JOl@s@JK|AmBX_@NOBVBJJJf@\\r@f@RNFDf@\\n@d@d@Xp@Tn@LPBT?RCHAJAl@Mb@KVIFGLIj@q@PWRWNWJQFOL]Nk@Lm@R_ANm@DKJCLCVCAW@_@?W@q@Be@@_@B[Dc@BMHg@T{Ab@mCd@mCj@}CPiARkAl@gDPeANy@RkAPcAXaBLo@XaBF]Ha@B]BU@Q?w@f@gAVg@Xk@DIZe@P[V]JO`@g@NS^c@n@s@@AZYTORMFCBAXINCNEb@CFA^?~CBfA@jA?tADT?v@DF@x@JvB^rBZtALrA?vEPpGVxE?z@C^?v@?\\AbA?n@?Z?`A@rE?^?tCAH?z@@rCA`A?~A?B?H?nEAH?J?b@?vA?f@A`XMrEE~BCz@Cx@Gv@IhGy@RCtG{@~Di@TCvKwAbC[~G_AVCbGu@hMyApAS|A[t]eJv_@_KtGwBjYeK~KqDjLuAtJkAuEku@}RxEmCuWwKcb@gNjVwN|MyA~BwK~M{s@|DiF{k@mZfK`FbZwFtEkX|A}WzAko@i@jBoL_JiGiAw@nMwy@l@}DrAwIqSuPwAnTqElRqJt\\i@yAqAyCm@uAyB{EwAeD_BuDO[EIi@_A[g@QUGK]a@]a@_@k@]k@cAiBMUGMWc@]g@]a@]]i@_@c@Wy@e@g@Y[SSSQSg@u@i@aAQ]W_@SWYU]U]Qc@OWKSIoBw@KEGCgBy@IEwBcAIE_EkB{@]CA[MuAvImAzHq@rDo@zCwA~FEKCQAkACa@G[KQIM]W[S[]OOWSgAcAe@YCAi@QUEQAO?MAOCMIoAkAWSQCMBMD}At@MFk@X_@PSDUDUJKDM@WEOMIIW]QMu@]a@Oc@EY@IBC@"
+        },
+        {
+          "name": "Senamiesčio seniūnija",
+          "osmId": 968951,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6701793,
+            "maxLat": 54.6945237,
+            "minLng": 25.2726479,
+            "maxLng": 25.3149006
+          },
+          "encodedPolyline": "mdylIakmyCaCrBcAzAkArEwAxEPVX\\h@t@^h@\\d@`@l@`@x@d@~@`@|@`@bA`@fA^lApA~D`@lAZ~@^z@\\t@Zp@Zn@^p@`@p@f@v@jCtD\\h@\\j@Xl@Tj@Tr@Pv@Jp@Jz@JdAHjAFdAFhADfABjA@pA?dAC`ACx@Ch@CVGt@E`@Gd@Kd@Kd@Mb@Qb@S^}BtEYl@Wj@Qj@Wr@Sn@Qp@Sr@On@Mn@Mn@Mr@It@Gp@Ez@E|@C|@W~H|BXjAAh@Aj@CPA`@El@I`@ARAN?f@Fb@FdAJ\\DTBLBh@FTDlANb@NNFUxBPDp@N`Cf@fAXf@TPHDBNHHDv@b@\\`@^h@Zf@R^PZTHv@D\\?Z?j@EHAv@MlASNC@h@@X@jABzA?b@?rC?FBbA?PDtA@VJxC@VLDfCn@HB@@pDdANBXCxBm@JCHCvDgANEHCjBe@NEzAc@LCz@Wt@UTGTGFCHAb@Kn@OFCVEIW]kACMQk@Uy@m@_Cc@eBK_@FEFCt@QtAYb@Kn@MlCm@NCJEjASREj@Mj@KvBc@fASdAQREPFARAN@N@p@DxBNpE@l@RGTE|@S`AWTENA`@Ad@Ab@A@K?O^iCPiAPuAD_@NaAf@oDHBVH??NwAoDeN_@WYS}@u@GEYWYg@Ew@?[RmEB}@HiBNuDDiABw@Bi@FcADu@Gk@UaCk@}F[kCAIGg@LMFMb@w@e@aAWkA]aC[eCOiBKmBGyAKcDEqAE_CAcA?qCBoCLgDb@{HZ{EPsB^mDh@mD\\gBR{Aa@CWA_@A_AKy@Ow@QYMWMwEqCoAw@mA}@aBeBOOWa@i@y@}@sAIOcAeC}@aB_@o@mAgB}C_EMO]c@IMgAuAW[cCwCeAqA{BuCeBcCc@m@QSe@S]C[BSDOJQNOTW\\[t@Yr@eAzCeArCw@xBy@nCa@lA_AnC[x@i@zAg@rAUh@k@tAq@rAm@dAk@|@q@z@k@j@iAhAuBrBWXYXu@t@o@r@i@d@_@Te@TMBMDg@Ho@Bq@@]CUAc@EYCUGg@Mc@OMGWKk@YcAi@e@Q]GMCWAS?Y@WDYD]LMD"
+        },
+        {
+          "name": "Verkių seniūnija",
+          "osmId": 1274540,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.7125071,
+            "maxLat": 54.83232,
+            "minLng": 25.2288588,
+            "maxLng": 25.3789829
+          },
+          "encodedPolyline": "gjomIgaxyC?vHDxFEhAwAn@}Ad@YHk@@Ab@{CdAu@dAFvBwDd@yAPg@Ta@Rg@XsBpBw@x@wAnBwFfDJ^kC`Ae@J?b@m@@ATgAEd@zCf@hCtEcBVe@fJuFvFz@`GtA\\rA{Izo@AhIwBhVfCrE|BhVObCsDvMsD~FsLbAyCcGwH`Ll@lB[fGyHhBd@bP}DVqCeTaH}f@mByMaBaJkGtBgEvAW~Bl@bMQa@sArD]jBg@rAq@s@k@|FaA|IqBbIoAcDkChDf@fGjAcA~@s@\\WuAnOED?`@U~BlB~FgCy@yCg@{IdQeGvCmKzMdHnWbHhXlOfFK|NbFtFBrG}F~FKtFkABObFAh@nA^[zMjYhX|@z@cCdSTdIf@Zh@KLGr@uA`AUz@{EbCrCxAmL~DbDjB^~@_@T~@tIjBhCmArFxDtG\\n@Yb@SbGaKgCuIqAkE|@yBtAmDfDc@U}MjLZt@~Ny@|EfFlFdBmA|@sApCrBxD}@rCwFfClBdJhBzE`AgBhLrL}Ay@}I|CgD~EdJJw@d@eKzIhI\\XtCdD{A|L{BbUDt@Tp@zA|@|GjD`Az^xQHf_@LjGDjERlCNjDZ`Fj@pDh@hBVzFbBo@y_A~Xu@eCdr@rEbCkAbVMX}EoADvGaABBz@uBREhAUF`@pI_Bf@I\\s@\\FjBLtEP~GfB[r@`BbAQ|@[bAcC\\qAVy@jBaDdE}@zBsCH?tGz]bN`r@t@vDvJne@nE}G\\VpAjDjBpCz@pAz@`ChAbCR`GzChC|@~BnBi@rAk@dAIpAVpBf@F`ATL?PdElBfExBJhEnB\\Px@SxEkBp@MpK~DpApCif@|c@hA|@dPvEN@h^`MnFtCJ_@dDrHjMU`AzBdFpAuCzEqKf@cQn@iIa@aL\\iAgA}ElFee@`Fwc@FOt@gBz@{BVw@H[F_@Ju@NgARqAD]@IFa@Fg@lAiJNiAD_@TgBF_@BSR_BDYFy@D{@@qA@IDa@V@x@BN@PAb@KFCzAu@n@]TIv@a@h@Wj@[VMF`@`@|Df@tEXMZOpAi@pAi@VIjAi@HEDA`Ac@hAi@JE`Bo@rAg@VI^E|@G`@A~ACPCTIRKVSNMRW\\o@l@kA`@{@^q@Vm@HUFSH[FYRcADSJu@H{@D_A?k@@Y?o@C}@KuBOiCAKQeFTItBq@lBo@`A[z@WvA]~FqAxDy@x@QhCk@lAUtD}@vA]tB]jAWnCk@xAYpAQ`BOrAI`ACvB@|AD`ABH@zLx@R@~Ef@zBZq@gB?w@D{ICkEEwE]sJImCAYASEu@Cc@Eg@Cm@OgBMgBQsBQiB[sBq@iCi@iBs@qBo@kBYeAScAIc@Iq@K}@Ci@EgA?gBAU?k@Ai@W@Y@S@uBDcAH}BBK@K?g@Da@Bc@BY?a@@Y?i@Ag@?}CFcABo@J]F[Jy@Za@ROHk@`@g@d@_@b@a@f@}@|Ae@x@]t@Ag@MwGIyDAm@A_@AOAOCMk@{CGe@Ci@Ao@?o@?s@DiF@w@BqE?qAA[CWU{ACMCKAKWuAe@oCAGCKEUgBnB]^k@f@o@d@SJSDa@J[DKBi@Fm@Ba@BeCNY?WAWG{@Uy@[a@Qc@Uc@W_@Q]KcLmMAnAGnAIhAOhAMz@Sz@[~@Yv@]n@g@p@gCvCg@d@_@\\c@Ve@Re@Le@Le@He@Do@@uID{BLcAH}@LaAP{@Hy@Hu@@w@Cq@Ik@Ko@Os@Yq@]oCwAm@Yk@Si@Om@Mo@Im@Is@Ck@@e@Be@Ha@Pe@Tk@`@g@\\yAfAg@Va@Pa@Lc@Fc@Bc@?a@Ec@Ia@Mc@S]SYYW[]g@e@_Aa@eA]mAUaAQeAG_AGmA?eA@gAB}@HkAv@}MFcBB{A?aBCyAEiAKcAKaAQaAOaAyAgJM_AMkAIkAEkAA}@@}@BcAFuAL_Bv@yJFu@D{@FgA@cA?iAEeAGkAKkAeBgRQsAUoAYcAY{@[s@kB{D]u@Yw@Uw@Sy@yB{LQkAK{@KaAGy@KiAEiAAgA@{ADsAFgAHoALoAPoA`@wBTqAL_ALkAJuAHaBHgCBsB@aBC}AG_BKuBU}C[yD_@mDWmBOaAQu@S{@[}@]s@{@wAw@iAoAmByAmBqA_Bq@w@o@k@}@m@s@]m@YaA]eAe@eAi@{@g@m@c@o@g@m@o@o@w@m@_Ac@u@]y@So@Os@G}@CeAB_ABu@J}@PcAf@_Cl@_Cl@uBd@yAf@qA`AyBx@mBh@wAb@uAl@uBj@eCb@kCFu@Ds@?u@Co@Mm@Sg@Yg@[c@_@[c@_@a@S]Ka@G[@_@Fa@Pa@ZgCxAc@Te@Pc@Ng@Ji@Bi@Am@Ii@Og@We@]e@i@c@q@c@q@]i@a@g@k@c@m@g@y@g@s@[y@Ww@Mq@Gs@A{@DaALaARsATw@Rs@Lw@J{@B{@G}@UaAg@y@e@y@w@{@aAo@cAo@uAm@_B_@eBYeBYkCSoCSaDKwCEmC?yCBeCFoCL{BP}BRuB`@{DJsAFyA@{AC_BKeBMaBU}AQiAWmA[oAc@}Ai@kBk@aBm@}Aw@gBiCcGiCwFu@}Ai@y@i@y@q@u@e@e@g@_@k@a@o@[s@Sm@Km@Cs@Bo@FsEx@w@Fy@Aw@Iu@S_A[_A_@}@e@w@m@iA{@_@Qa@Ii@Hi@Za@d@oBvCY`@[X]T}BnAi@Zm@f@q@t@m@`Aa@v@o@vAkAxCWf@U`@Y\\]`@i@d@}@j@aAh@m@Tk@Ns@Ho@Dm@AqDKgA?w@@{@FkDf@{Bv@sDhBeDbBiFrB}CdBeElByB^_CBM?gDWeCDaC`@s@VgBn@kCrBqElE{CjCgEfCsCdBsA|AcAlBmBbFgBvE{BzEwBrDuB`DkB~BcBtAeAb@eAHiAU{Au@}EwD"
+        },
+        {
+          "name": "Vilkpėdės seniūnija",
+          "osmId": 1013447,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6348011,
+            "maxLat": 54.6927273,
+            "minLng": 25.1794234,
+            "maxLng": 25.2589389
+          },
+          "encodedPolyline": "knslIwrcyCYeDs@ZKFcJ`D}@\\MJOPUV}B~BGFIJQ_@Sa@e@aAk@iA]u@Sa@k@mA{@eB_@u@c@}@[q@[_@e@{@i@_AKQOWUc@_@s@m@kAYq@SZyBxCk@|@INw@nAIPCBy@vAU\\sA|Bg@x@{AdCyAbCW`@_@p@i@bA_BtC_AxAGJUb@oAvB[h@Wd@_BvCaAfBcB|CQVIn@eAbCc@t@[`@g@b@c@Zw@Vg@JSBQ?[?{Ag@}Ai@q@UoCaAm@Um@Wi@Wi@Yo@a@o@e@c@a@USMK_@a@_@g@Q[O_@[{@_@yAUmAUuBIeBIuCCu@GyAK}Ac@kES{BcBzAHz@HdADfABjA?pACfAE|@IdAMlAOnAQlAm@tDYxA]`B[rA]pAc@pAe@nAe@dAm@fAs@lAwAvBq@~@s@|@q@x@{@z@s@n@y@l@_Ap@aAl@eAh@{Ax@eB|@c@X}@f@}@l@eAv@q@f@m@n@c@r@Yx@S|@Iz@CdABnAFfAHtANpATtAXlA\\nA`@dAd@zAp@rAb@`AfAjBfBnCtBxCb@r@f@|@`@~@Z`AVfANz@LhAn@tHb@dELhAPbAPv@Tx@Xv@\\x@`@z@^r@dAbB^l@`@j@\\`@`@X^N`@Jd@Bd@A`@G`@Q\\W`@]xDoE^g@b@w@^w@`@{@pBqEXo@^q@`@o@b@m@^e@^c@nE}Ev@s@h@c@^U`@Ux@St@Kz@?~EDrLDX@`ABvABrABpAJvANxAZxA\\bEpApAb@bAf@|@d@|@d@tBtAnA`ApAdAjJbJ`JdJhAx@n@\\x@Tx@Fr@Bz@?vAMrAUjA[nAc@nAk@tEoBpAYpA?`Bd@hAv@tAbBtApCh@xA`AtAnA|@fE~@`Dp@lBhAtAnBxAxDd@|BTpBDhFBdDZpCf@nBtBvGfCdH|CzGjD~E~CzEvBpCpA~B^fBH~ACjCQ`DkAzG_BhFaBdE{AtCqA~AwAdAgBrA{AnBgAlCy@bCw@bDoAzGqArHu@tDoAtEmAdDuAfCyAnBoAnBaA~Bs@~Cy@fFc@vFKtDFvKHbHEpIQjDnEc@^SzAo@`@S\\Y`@k@p@iA~AeC`@m@`@e@rCqBpA}@XW\\_@n@u@r@_Al@{@Za@Z[|AgAn@a@nAz@hCdBdBo@dMiUvG_R~B{MOiAmAkBJ[f@cBVy@`A{CtAoEf@{AXcAHm@Fk@@i@@m@?_@AyB?qF?aAHIFOLYt@_BL[NYt@eBP[xId^FENQfAcAxA{Ah@m@PsB@]FiAJg@Hc@DKR]FO?OB?NEl@{@DKr@iAp@{@\\]T_@DGRc@HSBBDBD?BNp@pC~AnDpAdBt@UrAkAj@cBXeBXiAjAuEjD_K@oBAqBE_CKsBIwAMsAMqASuAKq@Mw@c@uBkCyL}D{QyCkNe@}Bg@qCk@uDQmAkGwc@c@yCSiA[iBm@gDq@cDy@aDaBeG}EmQmAsDkAsC_AsBmAyBcBeCqB}BmBgBwAaAOKqAu@wAo@k@SiBg@aBYcCQuA?u@?mCZcDl@wCl@mCb@_DZsA@eAAaCQiAQgAWmA_@kAi@cCsA_As@kBaBiCwC_C}DwBoEEIuAqDeDkK}C{JsAuEq@kDc@kCSaBMkAOgAqAkK"
+        },
+        {
+          "name": "Viršuliškių seniūnija",
+          "osmId": 1201402,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6992493,
+            "maxLat": 54.7169152,
+            "minLng": 25.2076124,
+            "maxLng": 25.2386799
+          },
+          "encodedPolyline": "_`{lImq_yCcA_Da@qA}@mCo@wAc@}@Wa@WY[YYKQEOAK@U?WEYGOISa@Q@U?_@?a@@_A@o@@]?G@u@?e@@qA@m@?UAWC_@I]Mg@Yy@m@_@Y][UUEEGGgD~XwRaLAJIf@GXSlAO|@WbBe@xCGb@ETg@zCQx@Mh@EJg@vAYv@Uj@a@nAK^Mh@G\\ETOn@AFGb@UbA}Aq@uCqA[OE`@e@`FKjAKnAEj@GnAG`BCfC?xDAxB?fAAf@CzBE|ACv@EnAEp@IdAQlBGf@TNpEzC`QhLnClB~CtB\\RhBrAt@^ZN~At@rAb@rA^`@Ht@JxBRdANhADl@Bp@?\\Ab@CZGRETKDhGL~^nN`BZsBtFzAhCp@xD`BjF`C@uBAy[E_a@MwVAmBm@qROeC]cH_@eI]gIg@gMG_BCuAoJ@"
+        },
+        {
+          "name": "Šeškinės seniūnija",
+          "osmId": 1201401,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6992264,
+            "maxLat": 54.7214406,
+            "minLng": 25.2298489,
+            "maxLng": 25.271206
+          },
+          "encodedPolyline": "_`{lImq_yCcA_Da@qA}@mCo@wAc@}@Wa@WY[YYKQEOAK@U?WEYGOISa@Q@U?_@?a@@_A@o@@]?G@u@?e@@qA@m@?UAWC_@I]Mg@Yy@m@_@Y][UUEEGGgD~XwRaLAJIf@GXSlAO|@WbBe@xCGb@ETg@zCQx@Mh@EJg@vAYv@Uj@a@nAK^Mh@G\\ETOn@AFGb@UbA}Aq@uCqA[O[MWMyAs@{DcB}@a@eF_Ca@OqCcAkBk@eAUsA]|Doz@yBuGEo@E_@Ca@OmBMyACWI_@\\c@\\g@LSN[N]Ne@@EPe@Li@Ru@Ji@Lw@DUFe@B[Fo@Bk@Bq@@i@@w@?e@?oE?_@EwHCcACy@KwAQqBGe@Ik@w@cFIi@@sJAcnAnCk@xAYpAQ`BOrAI`ACvB@|AD`ABH@zLx@R@~Ef@zBZ|DbAbBf@rAn@hAj@`D`BdFjCbExB^PlAl@rAn@rAn@|@`@r@Tr@Nf@FpALT@jA@`@?VJTPRXJTjBnDh@bAjAvBZn@j@nA^n@JFNnAPFR?[ZUXQXS^KXUj@I\\Or@YtA[lBg@vCMz@Qx@Sx@Sr@Uj@Yn@W`@[b@Y\\F\\@@RpADXN~@Hf@^`CXbBXfBn@pC`@hB}FdG}@lDwAbBcDb@CdH~@z@vDo@lAt@JdJlB`@V\\HPdArBpAr@tApGh@jCBpC_@pJfCy@ImEnAiBnBfDfA|BvA`@RxAKvBMtAKt@Ox@eBhIY~AQtAMpAIfAElAC~A?rA?pAoJ@"
+        },
+        {
+          "name": "Šnipiškių seniūnija",
+          "osmId": 1252013,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6890124,
+            "maxLat": 54.7149884,
+            "minLng": 25.262835,
+            "maxLng": 25.2892482
+          },
+          "encodedPolyline": "apxlImcjyCIAMCWE}AWc@IMAs@Ma@KWIYKIEwB_AUE]@e@HcCj@o@N}@TUDsCt@gAVYH]JaBb@QDaBb@UFC@qA\\}Bn@G@wA^ODuDdAKByBn@KDUFeBZE?[Dw@BoA?QCMCm@IiAY_@Me@UMG]QIEe@YUQOOcB}Ao@s@_@g@Mr@Kl@I|@Gp@Cx@Ax@?|@EnD?d@An@?LAf@AjA?PA|@YCKCi@E_@E}@GKAg@Gu@Ms@QuCaAq@UECqAc@q@UEA_A_@oA_@}@[a@MeA]UISGGAeAWuAYiASQEiAOGAc@GuAOcBW}@KKCyAQMEe@OaBQ]Ek@EcAEeCGW?KA[@@h@?j@@T?fBDfABh@J|@Hp@Hb@RbAXdAn@jBr@pBh@hBp@hCZrBPhBPrBLfBNfBBl@Df@Bb@Dt@@R@XHlC\\rJDvEBjEEzI?v@p@fB|DbAbBf@rAn@hAj@`D`BdFjCbExB^PlAl@rAn@rAn@|@`@r@Tr@Nf@FpALT@jA@`@?VJTPRXJTjBnDh@bAjAvBZn@j@nA^n@JFNnAPFR?^ULId@S|@OzBSvDWdHo@hAKvDOpC_@C_D?qA?uABqAFiAFwAJmAJkAN}@RcAVaANe@DOVo@\\o@Xk@`@o@b@q@bDmFf@y@^o@b@w@^{@Zs@Zy@Vu@V}@T}@R_APaANmALoAHgAHmADuAt@wUV_IB}@D}@D{@Fq@Hu@Ls@Lo@Lo@No@Rs@Pq@Ro@Vs@Pk@Vk@Xm@|BuER_@Pc@Lc@Je@Je@Fe@Da@Fu@wAO"
+        },
+        {
+          "name": "Žirmūnų seniūnija",
+          "osmId": 1252014,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6889278,
+            "maxLat": 54.7304411,
+            "minLng": 25.2838354,
+            "maxLng": 25.3134538
+          },
+          "encodedPolyline": "apxlImcjyCIAMCWE}AWc@IMAs@Ma@KWIYKIEwB_AUE]@e@HcCj@o@N}@TUDsCt@gAVYH]JaBb@QDaBb@UFC@qA\\}Bn@G@wA^ODuDdAKByBn@KDUFeBZE?[Dw@BoA?QCMCm@IiAY_@Me@UMG]QIEe@YUQOOcB}Ao@s@_@g@Mr@Kl@I|@Gp@Cx@Ax@?|@EnD?d@An@?LAf@AjA?PA|@YCKCi@E_@E}@GKAg@Gu@Ms@QuCaAq@UECqAc@q@UEA_A_@oA_@}@[a@MeA]UISGGAeAWuAYiASQEiAOGAc@GuAOcBW}@KKCyAQMEe@OaBQ]Ek@EcAEeCGW?KA[@W@Y@S@uBDcAH}BBK@K?g@Da@Bc@BY?a@@Y?i@Ag@?}CFcABo@J]F[Jy@Za@ROHk@`@g@d@_@b@a@f@}@|Ae@x@]t@Ag@MwGIyDAm@A_@AOAOCMk@{CGe@Ci@Ao@?o@?s@DiF@w@BqE?qAA[CWU{ACMCKAKWuAe@oCAGCKEUgBnB]^k@f@o@d@SJSDa@J[DKBi@Fm@Ba@BeCNY?WAWG{@Uy@[a@Qc@Uc@W_@Q]KcLmM?iAEkAEeAKoAMuAQyAOoAOwAMuAIsAAmA?yABkAJuANwAT{AV{AlEmTVmAVoAXgAVaAZaAXu@Z}@Zs@`@y@pGuJj@_Ab@k@d@m@h@i@f@c@d@a@j@]tAi@ZMb@Ib@Ad@Bh@Hf@LNFNDf@Tf@Vf@\\d@b@`BlBn@t@FH\\\\f@b@b@Xb@R`@Ld@Hd@Dv@DdA?v@?t@Cz@Ix@Mv@SzDyAp@Wh@Sv@Wl@Oj@Ij@Ej@@h@@f@Hj@Pf@Nf@Pl@VrCrAx@b@v@\\v@Xr@Tn@Rx@N~@LfEh@r@Jh@Jn@Rn@VxFdCj@Xb@Tb@X^Vf@b@`CdCn@t@j@j@d@`@f@^h@Zh@Vf@RfA\\r@Pn@Pr@LdAPr@Jp@Fd@Bf@Bh@@t@?vAGfAC~@AdA?~@?bAB|@Fx@Dz@Hb@Fj@Jn@Pr@Tl@Xr@`@r@f@l@b@h@`@l@h@j@f@pAnAfC`C|AzApApA|@bAj@p@n@t@PVX\\h@t@^h@\\d@`@l@`@x@d@~@`@|@`@bA`@fA^lApA~D`@lAZ~@^z@\\t@Zp@Zn@^p@`@p@f@v@jCtD\\h@\\j@Xl@Tj@Tr@Pv@Jp@Jz@JdAHjAFdAFhADfABjA@pA?dAC`ACx@Ch@CVwAO"
+        },
+        {
+          "name": "Žvėrynas eldership (Žvėryno seniūnija)",
+          "osmId": 975554,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 54.6844105,
+            "maxLat": 54.7053942,
+            "minLng": 25.2333727,
+            "maxLng": 25.2639405
+          },
+          "encodedPolyline": "oqwlIiscyCHz@HdADfABjA?pACfAE|@IdAMlAOnAQlAm@tDYxA]`B[rA]pAc@pAe@nAe@dAm@fAs@lAwAvBq@~@s@|@q@x@{@z@s@n@y@l@_Ap@aAl@eAh@{Ax@eB|@c@X}@f@}@l@eAv@q@f@m@n@c@r@Yx@S|@Iz@CdABnAFfAHtANpATtAXlA\\nA`@dAd@zAoJpRmF}DGiG}JFq@u@{FyBLcOkEuJSyAwAa@gA}BoBgDoAhBHlEgCx@^qJCqCi@kCuAqGqAs@eAsBIQW]mBa@KeJmAu@wDn@_A{@BeHbDc@vAcB|@mD|FeGa@iBo@qCYgBYcB_@aCIg@O_AEYSqAAAG]X]Zc@Va@Xo@Tk@Rs@Ry@Py@L{@f@wCZmBXuANs@H]Tk@JYR_@PYTYZ[^ULId@S|@OzBSvDWdHo@hAKvDOpC_@@x@FjAH`AL|@Lr@Pp@Tp@Vh@Xj@Xd@^b@^b@`@^b@^`@Zh@\\j@Zp@^j@Xj@Xt@Zp@Xt@Xv@Vp@Pn@Lp@Ln@Fp@FjLx@~@Hl@Fv@Hp@Ft@Lr@Jt@Nn@Ll@Pf@Tb@Z`@f@b@n@Zj@Xt@\\`AXdAXlAPhANbA"
         }
       ]
     },
