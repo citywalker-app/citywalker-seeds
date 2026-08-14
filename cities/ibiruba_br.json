@@ -1,0 +1,194 @@
+{
+  "name": "Ibirubá",
+  "countryCode": "BR",
+  "regions": [
+    {
+      "name": "Bangu",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.641138999999953,
+        "maxLat": -28.629709999999932,
+        "minLng": -53.086324899999966,
+        "maxLng": -53.07055059999993
+      },
+      "encodedPolyline": "xvvmDfi~bIpL_H|@sAb@iAJy@@e@Ee@GuASiCQ{CIuAFu@Z}@`@e@N[j@oGlEPzBOvA{A~DKxHyA\\U`DkB|EmD|@AhG[?rF@t@k@`Ne@nJaB|I{@tKmAfLTzIzBnHuGNs@DSBiCJ_@@cZdA??]BkCJS@kDN{I\\?e@AuC?i@MaNB_L"
+    },
+    {
+      "name": "Centro",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.633505199999945,
+        "maxLat": -28.62557909999998,
+        "minLng": -53.09943499999997,
+        "maxLng": -53.08516789999993
+      },
+      "encodedPolyline": "dwvmDnl_cIzI]jDORAjCK\\CD|OFtNDlGLnQcPLCjU?n@eB@cB?@eC?KG?uJF?AAwGeF@AcI?K?UAgGmEA@{AAQAqMGcNdB@M{T|ACL_@bSO?h@@tC?d@"
+    },
+    {
+      "name": "Chácara",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.632803399999943,
+        "maxLat": -28.624213399999974,
+        "minLng": -53.08184559999995,
+        "maxLng": -53.07162089999997
+      },
+      "encodedPolyline": "fuumDjy|bIDwGlJjCjHpFrDlApD`@rA[rA[|BuAbEgAfDZ?Bk@nGOZa@d@[|@Gt@HtAPzCRhCFtADd@Ad@Kx@c@hA}@rAqL~GCP_EvEAAqMoHKGYSwAiAyH_C\\yd@?S"
+    },
+    {
+      "name": "Esperança",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.652772599999935,
+        "maxLat": -28.638889699999936,
+        "minLng": -53.106124799999975,
+        "maxLng": -53.08509449999997
+      },
+      "encodedPolyline": "vxxmD`g_cIjDMpTy@Zfd@wCCRlIvJc@nJIbIGfEGnAnEhEfDM~ASpAdB~GxBtBGvD{AxEv@xIeC|]yeAn@QmJLoA@IL{@yC?p@kB|@yCn@qC^aCPyAPgA@KRwAP}ARyCB_BF{BCs@AwH?IBy@QgHq@{Hi@wDkB_IoBiIqBiIk@}BtGO"
+    },
+    {
+      "name": "Floresta",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.62875329999997,
+        "maxLat": -28.618853999999942,
+        "minLng": -53.086318699999936,
+        "maxLng": -53.07731559999996
+      },
+      "encodedPolyline": "hstmD`q~bIOy[|Bx@dD|A`CEhJbB~GzBxH~BvAhAXRJFpMnH@@_BrBgBxCcLtB_AT_Bp@{Ax@}AjAqBpBiK|AaC^kJz@BuY?W"
+    },
+    {
+      "name": "Hermany",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.641013399999963,
+        "maxLat": -28.628369599999928,
+        "minLng": -53.12339509999998,
+        "maxLng": -53.10352599999993
+      },
+      "encodedPolyline": "lwvmDj}ccI?E?AjBM|@KXI|EaCjBqAfA_ApDgErAcB`AkAlAqAnAeAtBqA~@a@bA_@xBo@`Ck@HCbCk@jB_@xAYhAL@KxC?Mz@AHMnAPlJPlC|@bCJpImDjM^x^?xNaFxGkGrJMR?@{BvD}e@sU`B~EyMlCp@aHuD_BjHqx@GaE"
+    },
+    {
+      "name": "Jardim",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.641338099999928,
+        "maxLat": -28.636102999999935,
+        "minLng": -53.104678399999955,
+        "maxLng": -53.095330899999965
+      },
+      "encodedPolyline": "hixmDf{bcIIBaCj@yBn@cA^Gua@CyUlAAtBCpBAhBCpRQ?H@vHBr@GzBC~ASxCQ|ASvAAJQfAQxA_@`Co@pC}@xCq@jBAJiAMyAXkB^cCj@"
+    },
+    {
+      "name": "Odila",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.626681899999937,
+        "maxLat": -28.619748999999956,
+        "minLng": -53.09944709999996,
+        "maxLng": -53.08892049999997
+      },
+      "encodedPolyline": "r_umDd``cIr@qAJ?pY[T?FbN@pM@PAzAlE@@fG?T?J@bIsF@NlE?DBnALzB?BcDUqOHwAwH?AEO?Ak@}CsAuEmBqGuC{K|BF`EoFDeBq@eAwAZq@]Ds@h@_Aj@gA"
+    },
+    {
+      "name": "Planalto",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.64132589999997,
+        "maxLat": -28.633338999999978,
+        "minLng": -53.095531999999935,
+        "maxLng": -53.085533099999964
+      },
+      "encodedPolyline": "~mwmDps`cIEmGGuNE}O??bZeA^AhCKRCr@Ej@|BpBhInBhIjB~Hh@vDp@zHPfHCx@qRPiBBqB@uBBmA@eOHMoQ"
+    },
+    {
+      "name": "Progresso",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.630818699999963,
+        "maxLat": -28.625464299999976,
+        "minLng": -53.10946439999998,
+        "maxLng": -53.09732789999998
+      },
+      "encodedPolyline": "~jvmDbzacItJGF??JAdCbB?dBA?pADzWDnZ@jBAhBYH}@JkBLK_QiUGQsW?KAgR}AA?CM{BCoA?EOmErFAdFA@vG?@"
+    },
+    {
+      "name": "Pôr-do-Sol",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.63615509999994,
+        "maxLat": -28.63074819999997,
+        "minLng": -53.10927609999993,
+        "maxLng": -53.09913359999996
+      },
+      "encodedPolyline": "d}vmDz|acIzIAnEAnFCtGAFta@_A`@uBpAoAdAmApAaAjAsAbBqDfEgA~@kBpA}E`C@iBAkBEoZE{W?qA?o@"
+    },
+    {
+      "name": "Santa Helena",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.629782699999964,
+        "maxLat": -28.621161899999947,
+        "minLng": -53.08905599999997,
+        "maxLng": -53.08068289999994
+      },
+      "encodedPolyline": "|numDtf_cIpBqB|AkAzAy@~Aq@~@UbLuBfByC~AsB~DwEBQC~KL`NcSNM^}ABLzTeBAU?qYZK?FKjDmFvBuBx@mATiAPeBf@oB"
+    },
+    {
+      "name": "São Jacó",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.636123699999928,
+        "maxLat": -28.630750099999943,
+        "minLng": -53.09917799999994,
+        "maxLng": -53.09547689999994
+      },
+      "encodedPolyline": "pnwmDv|acIoE@{I@BkUbPMdOIBxUuG@oFB"
+    },
+    {
+      "name": "Unida",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -28.623350499999958,
+        "maxLat": -28.61891129999998,
+        "minLng": -53.09247599999998,
+        "maxLng": -53.085386899999946
+      },
+      "encodedPolyline": "|numDtf_cIg@nBQdBUhAy@lAwBtBkDlFGJs@pAk@fAi@~@Er@p@\\vA[p@dAEdBaEnF}BGwC_U??AA?E?I?A??MsNjJ{@`C_@hK}A"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "file:///private/tmp/claude-501/-Users-pritipatki-AndroidStudioProjects/3f69da0a-559a-4798-86fa-50cf4b22e243/scratchpad/ibiruba_bairros.geojson",
+    "license": "BR-PNDA-Decree-8777-2016",
+    "attribution": "IBGE (Instituto Brasileiro de Geografia e Estatística) — 2022 Census bairros mesh, published under Brazil's National Open Data Policy (Decree No. 8,777/2016)"
+  }
+}
