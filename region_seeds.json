@@ -1,5 +1,5 @@
 {
-  "version": 113,
+  "version": 115,
   "cities": [
     {
       "name": "Amsterdam",
@@ -7957,6 +7957,142 @@
             "maxLng": 29.0160356
           },
           "encodedPolyline": "yuoyFmyxoDgBEiBAwER_AzC@RZRy@zA_@h@k@\\{ApBB`@u@~@Qd@WTQOwBpB]Xg@XEnBI^W`@]d@IXCb@m@Mq@Ga@B{@VyD~@e@Vi@n@a@x@e@k@iAc@sAc@iCw@_AYo@UgB{@mAs@{BaBs@q@i@g@qCwDwA[}A}@a@]i@e@uAkAuDcDk@c@sAoA_BeAyEsD_Ba@i@_@u@yAyAkEa@{ASq@KSiAcDkAmCc@eAu@aCYkAYaAq@RyBb@UaDMqBEgBAkA?uDB}B{HYwAMiAi@aBiBgBcBrBeFbFoImBuBoBwB_CcDVo@`@cAEIw@sBSkAs@sAaB}B]_BEo@}@iAm@_Ai@c@a@KaBYiASwASaCUwBW]?_@B{AZiBP_A?eBVeA\\u@k@Bi@Le@Ra@Zq@f@}@`AcBb@aAb@gAZeAN}@NaAI[Bw@BcB@gCAiCBuA?[JoA`@uARi@La@HYHi@Bg@EmB@s@Hk@Re@dAoA~@_ALMHULe@RmAZwC\\m@Ii@Ik@Sq@c@uAEc@AW@SHg@N{@@YBw@EqAWsC]cDc@{Cg@cBi@yAGMGISIQEUAaCF_B@[G_Cq@gCs@mBFaBX@NeEhAyGzCeBt@_@VKh@Il@IXYTo@@mAIeA@s@FEmA_@_HcATcDd@u@DeAEw@h@Ol@aB]_ARsDt@mJdCuGdCiDr@e@?YA_AEe@CiAIFyB`BF`BCjBK~AM|AUv@Q`Bi@`Dw@jBa@bHwA|A_@tAeAzBq@lCyAnCqBnGgE~CeClEeBbRuMtF{DdF}BfFqBrFsBpC{@v@OvAFrATtGbC~GtCfHvC|Bx@`E~Ax@\\nDnAjCp@hFpAZHyAjAUl@MNkEnEcC`Cu@|@aAzAmAtBs@`A[n@E`@JJTJEr@IvCOzCObDK`BEl@DlBxAFnAHt@RhAb@hBv@\\Tf@K|Ct@RbAZ`@xCb@pCZhABxBC`BNzBFjEJvAJpATxLrMjAw@hCaA`Bu@b@Q`@Yz@_A~@oAvCwDXzALnCbJ{C|ALzB^y@tBe@fBm@fEEbAVZR@zEzBtB|@zBjA~DxCDDlBL\\JNDNjBLv@dFiD~@pCZ[r@SZJjAWBz@hAtCBn@IFxAdE`@Vj@FdA_@x@Gb@Ap@BXFjD|DXv@bAN\\aEMxGAnAg@^StAU\\If@g@Pa@C?\\IJ?NQBAfCIrBg@rEc@|DUj@cBfL}@jCe@fABl@bDdDqFpFmAxBaC`Ee@RkAjBwBfDJr@V`AuA|@QOu@f@MJo@p@e@b@Ql@SRXt@a@|AIdAA`Aq@`C^vBj@b@x@tCrBfDAf@Gr@\\PkAzDgB|J"
+        }
+      ]
+    },
+    {
+      "name": "İzmit",
+      "countryCode": "TR",
+      "regions": [
+        {
+          "name": "Arızlı Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7753043,
+            "maxLat": 40.8341268,
+            "minLng": 29.8825764,
+            "maxLng": 29.9235606
+          },
+          "encodedPolyline": "iuexFcmkuDXgq@~H}Sq@qKhDcGa@iEzBNjD\\rA`@fAJjA@|@h@x@Vn@Qh@w@Ju@nDPpAeGpBgCtKqTlCc@vChExRxChKf@nPlAdN_DbWkCdJbGnGbDpK|BzIoAhIpCjAqApMVjJrC`HrCjI\\VzBhAl@|GpD\\g@jAgBHDtFjCJdFvBtCH~FpAdIlBbHOlCZjAX`APdAb@h@|Dx@PB[oAvBgETe@~FxDxBq@BiI`HgOnGp@MKQSs@u@k@g@n@gCj@_CdAj@x@oDdBoM^yCV{D@wD@uDEeF}D]uGi@WUWUUu@[g@a@g@c@BkABgAo@]a@c@a@Wu@Mc@gAk@Q_AOmBc@QuArCsCuF_AkBiB{@Os@IUMc@m@Ge@Fg@GgAkAoAIuAGiAqAc@uCCM{@sAeBy@w@Cq@^Y?MW[cAKCWbAUH[E_@[aBuD|@s@yC{CaAIkATP_BcFcBq@yC{DNoBaEkGa@gJcGyOkAqFwI]bAaGqDo@sDOuDq@aB{BqEaE{EaIBgDhDySdLgGnFyWbQmVqEs\\h]e@lEsEzB{@`OGdA}GzQqD`GuVwB{QdLwG`kAzChGvDhKvC~HlAxHX`@PTxB|C"
+        },
+        {
+          "name": "Ayazma Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7833201,
+            "maxLat": 40.827352,
+            "minLng": 29.9385649,
+            "maxLng": 29.9912364
+          },
+          "encodedPolyline": "w_}wF{}xuD?lBDhBDrALlBNlBd@vDRtAZ~A`@lBj@xBX~@t@|Bx@|B|@bCr@~Ad@bAwAfBIEu@YSIi@Se@QkDxGuO|IsRsAyKmE{Am@cKnFoI{EgC[kAgBwEaDeB}DW]i@YeAm@mOkBqVaCW`@aKdQ{EfC}ItEKxJgKu@WC[WcA{@}@k@qBkAe@WYKUGi@G_BQ{AQ@~Fq@dBqBt@_BsDDqD{A`@qAjAcBeEeB_C}GsHcI{AsNi[jJwV_MuNkAgJYoFbA{XsCuUpIvDbDkCrC}BbHbMvCbIxAz@VDbARpXrFZCjFg@jFwJxPpLlBoKNCEc@Cc@?W@Y@OBODW@QBc@?UAOCWAo@A]?c@Cc@Aq@?]?M@GBGHKJQFKBI@K@WFa@FUFSLYRe@HUDSf@{CDIDEHEHCHGHIv@cABMHi@@ONs@Jy@F{@@_@@WEg@AM@MHe@Lq@BU@O?KAYCk@?SEUCU?M?gA?iAAiACaACk@@q@Bg@Dk@Fc@Le@Pk@Vk@Vc@b@m@v@}@BCt@}@`A_BdAsAX]ACuCgHhA{@lAsHTQ`BwA`@_@^[tBgBo@cAfDwD\\a@p@QPKhAo@XSDGDIBMTkAJe@La@`AoB@CZk@LSHGB?B?H?\\HvAXVFrCn@PDrA\\x@Vj@PvAb@xEtAmA_AmAqAg@aASo@a@oBuBcKMo@AKAIKk@x@?fABj@Bf@DRFb@ThBfAvA~@fCbBRLLFTBT@fCFvDVfAJd@?RCJE^QZSRM^W^a@Vc@HILGNC~ABdD_Mr@sAt@uAlEsJpD~Ed@f@t@x@LNvDdFDFfBvC~@dEJf@XpAb@fB\\bA^n@`@\\`An@`Af@z@r@n@vAp@pDn@hHj@bGB^?T@|A@lBB`ALn@LXp@lAhDpH\\j@b@h@f@\\HFd@V`@HqBpD_A`Cm@dBWt@g@hBQt@YlAWtAY`BUjBUnBMzAGdBGlBCtA?bB?tABpAFfBL~BJdBh@fIPrCJlCHrD?jBAtACpAEvAItAK~AObBSzBUxBw@dIMxAO|BO~BEnAE~A@n@"
+        },
+        {
+          "name": "Fevzi Çakmak Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7576766,
+            "maxLat": 40.7966739,
+            "minLng": 29.9662955,
+            "maxLng": 30.0246482
+          },
+          "encodedPolyline": "e{ywFgjcvD\\LTJn@VLDpCbAdA^t@VZJZJ\\LlDhAd@PPFhFfBtHfCHDJJDJDRD^Jz@P|C@Pr@jLFdADNDHHFFDLDNBlMhCxKhBh@PJBMdB}@xKAJhDl@}C~a@_C|Zq@fIwDrf@OhBoCz^kAxN[lFcC_@}MqAyK{A}Cc@e@Kg@IMC}HsA}F_AmGiAsEiAgCo@sCu@eD{@_@KgBa@eEsA_CcAsGiDsG{C}F{CkCqAqDmAMESI_AYpBqDa@Ie@WIGg@]c@i@]k@iDqHq@mAMYMo@CaAAmBA}A?UC_@k@cGo@iHq@qDo@wA{@s@aAg@aAo@a@]_@o@]cAc@gBYqAKg@_AeEgBwCEGwDeFMOu@y@`@oBZqBLoAJsADsA@qA?cCIcBSwCyDsYyGwg@cD_FeN_KwB]gAQBsB`@mA~@kCZ}@bCoGv@aBv@oA`B}B|AkCb@q@x@kAT_@x@qALa@n@{BDQb@yBd@aCh@mC@EFqBDmADw@j@eEeAcBe@gD@yO\\FbATL@X?JAhDi@f@?x@ADjBBrACdACtAKvE?B?xA@xBBrFAhACzAAd@AlAARCjA@x@BpBvHBnD@`A@zD@w@lIdFrAxKf@YlN@bG`@?v@Dr@Fj@Fh@F`@?h@FJCHEDCFAFAF?J?J?JBNB\\JhBf@RFJ@JBTBL@N@Z?X@H?`@D^BJ@N?X?P?l@CP?J@J@LBJDJDJDd@^^TtAhAq@`BRLRJdChAVLJDLDh@LfJ|ClAf@`A\\t@Vr@VZLPDj@TPFb@Ph@Pv@V\\Ln@R\\Lj@Rb@N^LfA^THTHfA\\^LRFJD@@`@Lh@R"
+        },
+        {
+          "name": "Gültepe Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7581532,
+            "maxLat": 40.7912481,
+            "minLng": 29.8929061,
+            "maxLng": 29.926039
+          },
+          "encodedPolyline": "yfywFieruDD?F?FABCDE@M?y@?mD@kA@_@@S@QBSFUBIBIDIDEBCJIHAHAJAJ?JBF@HBPJ`Ap@jA|@l@f@^Sx@g@PODEFIJUL[Nc@@GHW@K@K?[JDnAr@LFDDDBBHBHXlANj@DHBDBBJNDDBBD@RJdJxAxABENO\\EHEFKBMb@NPAP?RGd@Id@JBCN?F[dDADApD?|C@n@BPLdANfABR@NFh@Jv@BJLJH^H^@JJv@FABTFA@Jz@|FLx@XrB|Ae@PGBNBNBNh@nD@Pg@NRrK@bB|BI@f@}BFD`D~BG?h@qBD?H@dAD??d@?`@???rAG??P@B@D?H?FADADCDEBC@E?CAEC?DAHATJHVXLPHRFRD\\DT?P@\\?b@A`@@R@R?PA\\?^?BB`@D`@BPFVHRDLHJf@v@DJBH@@BPBR@T@R?PANANANOfACNCh@AN?`@?h@@J@LBVJp@@R?FDd@?`A?|@CbACl@AJGRKl@GXIVO\\IPGVOzA[`CA^Ep@MbA?FBP?N?NAJCBG@GCEECHUW_D{DcEkFyEaACCQY]o@g@mAm@oAc@aA[c@SUWMoC{@eEoAm@m@o@uA}AmEk@_BqAs@qBaAu@?]Hq@CKAMCGCICMIQMUSQOSUSWY_@GGg@i@MKWQUIi@MIAIAG?c@Bu@DI@GBo@Rw@Rk@N]Be@Fu@JIAECGGWa@MICACCgBk@e@Oi@Oq@OKCi@KQCSAWA{@?k@?e@@u@B{CW}D]uGi@WUWUUu@[g@a@g@c@BkABgAo@]a@c@a@Wu@Mc@gAk@Q_AOmBc@QuArCsCuF_AkBiB{@Os@IUMc@m@Ge@Fg@GgAkAoAIuAGiAqAc@uCCM{@sAeBy@w@Cq@^Y?MW[cAKCWbAUH[E_@[aBuD|@s@yC{CaAIkATP_BcFcBq@yC{DN`IsESoOTo@l@iBl@gBtDwKdAxA`@s@DG^m@b@o@`@g@h@g@XSLIZKGgC|@Wt@QJ?NBLBbB`@JFNJDFVb@\\a@NMLIHEJALAF@F@^DKkDC_A?YEmAEgDCsAvFZzCH`ARqBsCv@VfAVjQbIxDn@x@pAHJ`AlBl@jAjBoAHLp@tAj@MVOVGNEHGDGBIBU?cA@q@@YBUDOFMBGHCLCTAB?d@AAbBh@dAxBnENZjLfMtDvEBJPAHCLGJGHIFKXk@d@}@Zk@b@m@RWAF?H@HDJN\\Zv@x@tBFNLZN\\FFHJTLVJHBJBH?f@?P?p@CdAg@LEJCHAB?HAVAZ?N@NDNFJHHHJLR^NZP^Zx@DHBFDBD@"
+        },
+        {
+          "name": "Hacıhızır Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7564581,
+            "maxLat": 40.7856756,
+            "minLng": 29.9171656,
+            "maxLng": 29.9438114
+          },
+          "encodedPolyline": "i|wwFyqsuDEp@S`CnANAJAJeAOG?GfAGnAKrAUlCOvBOvBNBF@f@HT@HB`@iFJ@a@jFrAT`@mFJB_@jFvARl@_JP@o@xJqBYuDo@A?Ed@PH`@THDB@FD?DIZQl@Sv@[jAQn@GNyACeJyASKEACCEEKOCCCEEIOk@YmACICIECEEMGoAs@KE?ZAJAJIVAFOb@MZKTGHEDQNy@f@_@Rm@g@kA}@aAq@QKICGAKCK?K@I@I@KHCBEDEHCHCHGTCRAPARA^AjA?lD?x@ALEDCBG@G?E?EAECCGEI[y@Q_@O[S_@KMIIKIOGOEOA[?W@I@C?I@KBMDeAf@q@BQ?g@?I?KCICWKUMIKGGO]M[GOy@uB[w@O]EKAI?I@GSVc@l@[j@e@|@Yj@GJIHKFMFIBQ@CKuDwEkLgMO[yBoEi@eA@cBe@@C?U@MBIBCFGLENCTAXAp@?bACTCHEFIFODWFWNk@Lq@uAIMkBnAm@kAaAmBIKy@qAyDo@kQcIgAWw@WcEmDKc@Ia@Ge@WeDM}BQkAu@Hq@AUqDPKv@c@dAiUnBgC_EcSeCgMgBmHjDyGd@Ph@RRHt@XHDOxAJjBf@x@~AlBdBpBjB~@|BbAbEfIPFP@R@zC@pAHr@Bx@?xACMeCEqA?e@Ac@?qD@_@@QBSFUFOHSHKJKLMJG|BaAVKFCJAVEJ?RAP@ZD\\JPH?@PNd@j@l@`ARVPLNJ\\RnCnAPDPFPBVBN?T?`AMfEs@b@GvB[l@Ip@EX?J?zBA|@?RBNFVLdAb@THH@J@J?JARALEHCj@Q\\Gx@ExAEbBOfAGpEK\\APCNE\\IZKTI@ZBZBl@VdDThCB^@FBTHAD?DAAGAI?EJAPAhASAKIgACa@GkCGkCAY?KlKa@xFYdBEhAK`AMZEPIj@Ur@g@jA}@dCyBfAkAnCeDZfAt@bCTnALjAHrHFnH^bWg@N?N?L?F@F?FBHBJF^BJAHCLAN@ZFd@FPDPL|@CVKbBUx@s@hAu@~@eAz@aA~@?BYbAOlACNENCXIj@Ox@AR?n@DDAHCN@d@BX?NG~@CRG\\@N_@d@S\\KPYb@eBlAi@VKFQKCJIr@Ih@Gv@GrAEhA?f@?d@?`@?D?p@?n@"
+        },
+        {
+          "name": "Mehmet Ali Paşa Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7573588,
+            "maxLat": 40.7860464,
+            "minLng": 29.9378112,
+            "maxLng": 29.9743378
+          },
+          "encodedPolyline": "cdxwFcc{uDMxDNxDv@~FdCtHbAnDf@`C`@zDPhApCzIRz@JhABrAGdBMdCFz@P~@z@vCh@hBRx@V`B@RBzAN|KH`HDt@Ln@Rt@oCdDgAjAeCxBkA|@s@f@k@TQH[DaALiAJeBDyFXmK`@?J@XFjCFjCB`@HfA@JiARQ@K@?D@H@FE@E?I@CUAGC_@UiCWeDCm@C[A[UH[J]HODQB]@qEJgAFcBNyADy@D]Fk@PIBMDS@K@K?KAIAUIeAc@WMOGSC}@?{B@K?Y?q@Dm@HwBZc@FgEr@aALU?O?WCQCQGQEoCoA]SOKQMSWm@aAe@k@QO?AQI]K[EQAS@K?WDK@GBWJ}B`AKFMLKJIJIRGNGTCRAPA^?pD@b@?d@DpALdCyABy@?s@CqAI{CASAQAQGcEgI}BcAkB_AeBqB_BmBg@y@KkBNyAvAgBe@cAs@_B}@cCy@}Bu@}BY_Ak@yBa@mB[_BSuAe@wDOmBMmBEsAEiB?mBAo@D_BDoAN_CN}BLyAv@eITyBR{BNcBJ_BHuADwABqA@uA?kBIsDKmCQsCi@gIKeBM_CGgBCqA?uA?cBBuAFmBFeBL{AToBTkBXaBVuAXmAPu@f@iBVu@l@eB~@aC~@XRHLDpDlAjCpA|FzCrGzCrGhD~BbAdErAfB`@^JdDz@rCt@fCn@rEhAlGhA|F~@|HrALBf@Hd@J|Cb@xKzA|MpAbC^gAfNO`D|CZT@"
+        },
+        {
+          "name": "Ovacık Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7227241,
+            "maxLat": 40.7616023,
+            "minLng": 29.9629013,
+            "maxLng": 30.0162177
+          },
+          "encodedPolyline": "wxqwFmtcvDH@jEn@hFtAbE|BJFLBLBv@@x@@bEF@`L?bA@dDnCs@NCPECr@Gx@OrA]rB_AjE{AtGYz@ABuBfFsArCs@hA??CDYd@KPGJu@jAeAfBQZoB`DeApB_CnDsG`L_DdFuAfCuDlGyIzNiAtD{@~CoAfAKAK?OFsFhESLOFODO@iBCs@CU@SDSJiAn@WL]L{@X{@Zo@Xe@T]TSNMJKLS\\k@z@c@p@i@r@qEhBuBx@EBIBOPYh@_BzDa@pAGP[|AMZKVOTMJkAx@o@f@YTYPMFIBI@[A_@?M?K@KBKBIDOHKJQTMRSXGDGBEBEBO@O@M?OCYKa@OgASQCGAIIECkC~F_ArBmA`Cy@bB{@`B_C~DeCfE_A|AqB|Ck@t@oAvAe@h@u@p@g@b@a@\\w@j@eAt@eBjASNkAx@sA|@eBpASNMHGFEBIHQL{@v@eA~@e@d@Ki@Qi@O_@Ua@SUYY]WkKmG]Oa@MYIs@K}AOoEo@oFgAZmFjAyNnC{^NiBvDsf@p@gI~B}Z|C_b@tHi~@vB_W`@H|FGzB?vFAhEAlAAdBAdDAH?WkOBeA?sFZC?]zAIz@EHB|BfAj@v@hBp@TBPB`@B`A?J?~@Ap@Cn@GNC`Bq@`Bc@TETCTCZAt@Aj@Al@?|@?T?`@AN?v@@L?^?H?\\?bB?X@L?N?d@?@?~@?vBB\\?b@@l@@d@@x@Dp@D~@FvE^^HjARd@JFBL@dE\\ZDlB}H~AyEd@kAd@eANWNWLSNQPSVYHITU`@]n@k@POLQBEt@gARHNJf@h@`@l@t@fAHRFVH`@Ff@Nx@NhADZHf@Hd@H^BVBT@VB\\DZBTDVDPFXHTJVJTf@dAj@zAj@xAp@zA^tANx@TnAZbCPl@vAtEh@fBHA"
+        },
+        {
+          "name": "Serdar Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.705466,
+            "maxLat": 40.7237138,
+            "minLng": 29.9234633,
+            "maxLng": 29.9715614
+          },
+          "encodedPolyline": "yomwF_{wuDrF~Vu@Vk@Vk@x@_@tAQl@]`AY`@e@Xa@^]h@o@l@UV_AlBeAjCuEbPYTYFmEPg@\\gCv@gF`ERvAwBfANjAJrBgAAdBzLhAtHBRp@nGTEF?LdAZjCtAMArCCtAUnEwF[eCSmBb@gCpA{@^k@Nq@F]EsCa@cACAk@MkBEcAOcASm@[e@k@{@e@q@q@qA]s@I]C]DWHKXK?E?Ea@A@QZCRET]H[@}@Eq@WuAIy@GS_@m@s@cAOSM@?LYDCOKKqLlAINRrDSBWwEzGs@GwANCHhATJlCYBOt@IJS@]AWESI]AIQ@AOZELWFO@WDq@Qq@Je@CaAPoCSyCY{AQs@Ok@AiAJc@gAkBmAuAAQEMKM}F_EOGh@_B^gAO[Wk@Oa@O_@CKo@{Bg@qBQ_AQkAOgAyAwMuBcReAoJOsAOaAO}@YwAS}@]oAQk@|CzAiAyV[{CWiCCuFc@}IC]g@eJLqUF_@`AoBF{B\\cBv@yE?gDWwDfCmFRdFLlB`AfFtE_GfDsCzG}HjB_ClBjAfFzAzF|Bd@d@l@pAlDjNdAbAxKlChF|C`CpCbAhCt@zBzAtCxBbCcD`C{HtCoBv@z@|ETnApArNWfNxBdG]`DaHfFb@bC|GgAxJHp@vHfBrL"
+        },
+        {
+          "name": "Vezirçiftliği Mahallesi",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7167289,
+            "maxLat": 40.7620363,
+            "minLng": 29.9350898,
+            "maxLng": 29.9845028
+          },
+          "encodedPolyline": "_nrwFs}~uD`FcAzIgBrXcFvGjIbNvNdEpFRdIpG@pBHhAA|@UxAQ~@TGbAgBnGUlAAz@?zAHxAh@~C\\Dh@j@Bj@Y|@e@\\m@dGmBkAkB~B{G|HgDrCuE~FaAgFMmBSeFgClFVvD?fDw@xE]bBGzBaAnBG^MpUf@dJB\\b@|IBtFVhCZzChAxV}C{APj@\\nAR|@XvAN|@N`ANrAdAnJtBbRxAvMNfAPjAP~@f@pBn@zBBJN^N`@Vj@NZ_@fAi@~AS@QDSL[\\WNGNC?@QsAq@cB}Ao@u@IEyIwCyLaEmAa@mBq@yBu@oD{@iE}@}CUcG?_A?sBPq@LE@aBl@mBd@m@H_@t@A`@?p@Fj@Cf@OXU^ULQPGFI@KGOSAe@K[QU?ACYEc@AERm@@e@SoFAK?Mc@Ac@@?L@F@fA?x@IjDPlDAlAAFC?AECI@q@Cm@Wi@S[k@}@[e@c@i@aHyB_HsAk@HcAZi@No@RuAj@uClAcBz@aBtA}@VuDIcBIyBBgBDSYIu@EkAI_@MMKOm@a@e@]_@m@_@u@c@u@g@c@A?q@I}AKa@A[FQD_DvA_@LoAZy@RC@oBx@y@ZMEm@d@i@`@Y`@w@h@CnA_@r@{Bn@_ARa@@s@AcCb@gBj@uAj@aB|@iAr@kAz@g@bAIx@?zEF\\DZA\\MTQVIDQF_@N_@cWGoHIsHMkAUoAu@cC[gASu@Mo@Eu@IaHO}KC{AASWaBSy@i@iB{@wCQ_AG{@LeCFeBCsAKiAS{@qC{IQiAa@{Dg@aCcAoDeCuHw@_GOyDLyDUA}C[NaDfAgNnFfAnEn@|ANr@JXH`@L\\NjKlG\\VXXRTT`@N^Ph@Jh@d@e@dA_Az@w@PMHIDCFGLIROdBqArA}@jAy@ROdBkAdAu@v@k@`@]f@c@t@q@d@i@nAwAj@u@pB}C~@}AdCgE~B_Ez@aBx@cBlAaC~@sBjC_GDBHHF@PBfAR`@NXJNBL?NANADCDCFCFERYLSPUJKNIHEJCJCJAL?^?Z@HAHCLGXQXUn@g@jAy@LKNUJWL[Z}AFQ`@qA~A{DXi@NQHCDCtBy@pEiBh@s@b@q@j@{@R]JMLKRO\\Ud@Un@Yz@[z@Y\\MVMhAo@RKRETAr@BhBBNANENGRMrFiENGJ?J@nAgAdIA"
+        },
+        {
+          "name": "Yeni Mahalle",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 40.7572162,
+            "maxLat": 40.784033,
+            "minLng": 29.8655712,
+            "maxLng": 29.9025949
+          },
+          "encodedPolyline": "k|wwFyyhuDoCLeBB?MGmDGgCEg@Cg@KsACu@?S?q@?e@@_@Ba@@Q@MDYDMDIHQNYb@s@LSP[FQBODW@O?OA[A[Ca@E_@GYEQGMGKIM_@FaANeBXk@Lo@LYFcFt@YT]TkDEi@AaEEuCCmDEgAAc@?q@CmAEu@G_@AUAQ?Y@SB}@Js@F{D^_@BCDKKEAGAIA_@?S?QCk@Gc]tv@mA{AcBg@}Bu@qAg@kAJeAZcFg@aAe@}@eAa@W{@WgAEeA@rCyFr@sN@U@MJyAg@}FQqB_Mqb@Q}CjFeLv@F|@R~AT^D^Dv@wEbJfAPDlAJnCTrAg@dGiFgCkAk@w@gBqBUm@Ui@Oa@eBgC]E]@sA\\cDw@eBGsBkGiBW[oAvBgETe@~FxDxBq@BiI`HgOnGp@MKQSs@u@k@g@n@gCj@_CdAj@x@oDdBoM^yCV{D@wD@uDEeFzCVt@Cd@Aj@?z@?V@R@PBh@JJBp@Nh@Nd@NfBj@BBB@LHV`@FFDBH@t@Kd@G\\Cj@Ov@Sn@SFCHAt@Eb@CF?H@H@h@LTHVPLJf@h@FFX^RVRTPNTRPLLHHBFBLBJ@p@B\\It@?pB`ApAr@j@~A|AlEn@tAl@l@dEnAnCz@VLRTZb@b@`Al@nAf@lA\\n@PXBBxE`AbEjF~CzDTVCHVTDF?D?FCDEFGFSLMLGFQ^EJAJ?FBFBBHBDB@B@FAJI\\CDEBE?YGEAE@CDEJMr@EXC^GzBAp@Bb@Bb@Fh@@HBBDDNHJJDB@DDJDJDFDDHPDHDLT|@FXBX@TEVIHUJADCF?F@HHZ@J@R?NAPKl@E`@Eh@C\\AT?XB`@?`@@^@`@Fn@B\\RF?HUEADGFEBMBEDKNELCNCVA^?bA?^ARALATCTA`@?JAL?F?RCf@Ch@Ep@S`CEt@Cr@Ah@?b@@tADj@Dn@@JFVJ^JTFNFFZXHHFLd@`Al@pA\\r@PZLPHJLLRLFFFHT^JPDN\\tAXhADZ@T?ZA^Cb@G|@C`@?PD~@HtADZF`@Ft@CVNjAdAvPDz@?ZCHG@o@II?KBIF[j@KXELIXOh@Sr@IPSCaI["
         }
       ]
     },
