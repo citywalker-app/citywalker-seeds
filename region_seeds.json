@@ -1,5 +1,5 @@
 {
-  "version": 116,
+  "version": 117,
   "cities": [
     {
       "name": "Amsterdam",
@@ -16003,6 +16003,158 @@
             "maxLng": 103.7916561
           },
           "encodedPolyline": "{v|FwjhxRqJsMS}@i@aD?a@rLmEhe@uPpAq@nA}@l@k@bAsAaDaC{FaE]UeAc@aA[cC_@i@Gu@?uAFeBI{@BsCKoASiHCoBE{@Ii@K]OeAo@eCgAsEqA}B]aBGgB?{KMoDUuCYyCe@eD]_AQyFk@wCO{AC{N`AgGd@_IfAiCd@i@H{HhAsA?aAM{Ac@_@MwHiEsBkAq@c@[[YYk@aA]iAYmBOm@Ug@]i@]e@_Ay@qBaAwQz^oBzGiB`AiCbCm@bBp@lBOHEDCLANcAxC?hAUp@_ApA{@j@s@\\_@LVs@No@`@iB{@AkOPOl@gFdDgKbA}C@Um@U}@yNuAUcJyAFWu@gB~BkArCsAf@eBb@oAhFqCjA_E~BIy@mA}GQ{AE}AJqCEwAS}@sB}E{EgK|EcCdGgDZUVWTWXg@xHkPd@_An@}@`AiAZW`JkH}@iB_@sAUmAI{@Au@@i@j@kFm@}CwBqJoFoPy@sBWk@q@_Am@o@}@o@e@[aQhLOsB}@gAoAuBtAKc@kHHUhFCUIyAiAu@_AYs@}@sDSgAoJfFqAfAyCtCqAzAwCfFwGvLoA`B_B|BsC|CmBdBeDhCwFnDaCdAgGtByEjAcIlA_Ip@oCTiKdAwDh@{LrB{t@|MoSzBuGb@ec@pCOnOQ`E[dHi@zTFtDR~Bz@dLd@pCxB|H`A~Dh@dDTxCJ~JAv@ApAWvG}H^}Iv@oJt@cNlA}Fd@eDH_BAaF[qDe@cIiBs@HwA\\}@^k@\\[Vy@|@e@n@MXWv@On@YhBu@rGMdBCfADhGA|@OrBQzAYrAiAfEi@xAk@jAgArAcA`AeBjAkBz@o@P}AZkANs@BsBAi@Cs@IoL}A_@Co@Ci@?mBHm@Ji@JqNnDi\\rHgCj@nNhN~q@zq@^d@Vh@d@xAJh@F`A?|u@wJbFcAl@]Vm@l@oBtBUb@M`@G^A\\?`ABr@F\\L`@tDzCpAhB\\bBFhA@f@E|@YjCErAFd@\\z@l@jBVxALvARjIXlE@l@EtAOv@W`@gQfQ]P}B`@}@l@kAxCgFkBWKq@fBWhBs@|COfBTnBk[cHuEjRqJWeIlGuVtCsDlCg@xD_EbAFHR|CSZV`@Bf@YH@d@Jh@TJVJ`@RYr@JlAa@h@?zB~@z@Gl@VTi@XZbBvBTDdDMb@XNfAtDdAr@f@Rp@DfCQVX_@pA]n@Mp@Fh@[d@Zn@E`@a@PEXYXGl@TXUFE^`BzANIfBxBfAn@b@hB^bAv@Lz@vAHl@O?JjAMp@\\PIzA]r@Y|@W~@Jb@LR|F~DzBhA|@h@z@Gr@g@FFObAX^VIZNb@hAj@~CrA`Bj@ZpCXhEThBz@rCZp@Hp@XbAj@\\BFGKg@_@UgAUd@Ud@ChANx@h@v@Ln@d@hB|CFV@HJFT@HE?Mj@_@Dk@\\i@NADT~@TCTVRD\\P^XX^DHSTMr@^|CAhAVlCb@z@?`Ba@p@k@^eC^w@`AnAZfCQp@@tB^t@~AjAd@P|A@|@W^qAt@g@t@`@zBtD~CnBD~APp@AXl@bAj@ZPPTJVJ??j@JLd@[NQXSHQB?~@MNm@l@r@pDLvAp@~@ZTnAMj@e@rB\\pALn@v@rCnBnAzGEXAH@HHHNFJ?FABG?]|@UfK}ArAaAdBQbBj@~AlAlEJvFzBjAMnCkBxBCnEXlE|@b@Jn@Bp@ClAWz@OfAE~AEdA@nCd@~Ad@vI`DbCIpAJnAr@PzAl@x@zBbAxBl@rAYz@HPj@@nAt@|Av@^`Ar@HfATl@R`@BJd@NNLTFPLX?JGDIJADEDKFMHIJEBD`@QBBPUNFGZD@CFBXDDN??LCNIPYX@PJJd@JZ?pAaB^H^Ljp@~VOpBH^T@n@EnAmAV?fBb@lA|A\\|@c@f@oAHgAKgARgAj@m@x@Fx@XXTNp@u@lAk@tAG~@^Xp@ThCXhBU\\HZ\\ZTLf@APe@d@[nAQrPnHjA`A\\Nb@?l@Vz@Vlk@vV~Az@rBpAv@t@p@vApBdE`@p@`@Tp@XGb@g@C]DAFBDlDz@PKbAMjVdGdNhDUz@s@Ea@B[Hw@d@]Z]p@EbABh@dAnDtBrCpAfA|@l@tAh@vA^rDTnCKhCi@zB_AfBqAt@{AKyAa@k@YSWIFOj@?rEpALZr@R\\Gj@DHTP@FE\\POPFFkArACAkClCFDdCiCDA@?~AgBnHzGcDnDqEwBAFwAq@k@XA@?@?BBB@B@@@A@A?A?Eb@QlHfDvDcEECBCy@u@QUd@i@tAnA@AB@XWFDYXBBaBhB@BbBkB@C?CHIF@bAEN?VIREXCV?RAR@N@~@L\\Fb@Pj@Vz@VbE|@v@HbA^m@j@NRVEDLIPCn@Nv@d@p@jBdA`An@pI`ExLjHIVvAp@V_@JA?HBFDFh@`@LFHHHHJDJBZFNBF@DBNLdIlEpTpLF@D?DADCAF?DBDB@BB@BDBhB`ADDD@D?D?D@PHAB`HtDfVvMB@B@B@D?b]jBB?B?@A@C|BoI?C?CAACAq^{JEAACAE?EtCqK?CBAB?@?bIpBlA\\d@DzDjA|LtCfBb@dGzA`EhAvLdDB?nBl@`KtCrBn@n@TtH`B~EpAzGhBrFzAERj@H\\HlA\\x@RJIHBnG|AUzBzTzBT_ClAQrCYrBo@\\IFQhCgAxFsCVDRBRN^f@x@`@rAJxBXtGKhAAnAB^HZZ`@b@r@B~@?bAQ^K`@_@ReBVKPDNDYp@I^Bb@JXZXnC~AhB`@pABpAB`A@t@NhCnBvAdBxBlCdAnBb@pAL|@ZVRVdA~Cd@jDTrBf@zBt@dA`CnAdJ~Bo@bCYIOf@ZFOl@sLcCFWkGqAOr@xCn@CPKCERxAXJc@zGtACNKCERxAXJc@|Bd@vAoFri@|NxO`ECDtA\\?mR|T@DvXtDA?eXrD?~D?lB?~A?h@?|A?rC?AhXj@?Bef@|OEJld@l@ACyP|B@xB?f@?zB?bD@?zPj@??{PhCA|C@l@AtB?fC?AxPj@?Bgg@~O@A~h@dLOzIF~W}@li@MxZ\\vD_CbDCrCh@}BzCvEo@~F}B`FqFnB}FdHwb@fi@{bD~@_Gy@sEiBcBeDuAky@p[@dEdCzBU|{AsAvYir@_@Gm_Egv@A?ttDGhTej@DAm~BqQch@kd@EGpdA@~aB{i@B?iQ?wk@?I?K?waBwVA}OAyM?CvD_@ZF~C@~I{Sm@IAM?{b@oA@u@fAB@[Bq@@_@e@AsAKAm@|@kXA_C}@cE{@gCmB{C_CwBaDgBmD_AoEc@uDHkEr@cPlHoPpHkCjA}v@jHeAz@sZyZKMd@g@Kq@PQb@`@^]`ExDBCPQiE_E}EkESROQEIk@i@_@Uc@KDGcC_CuBiBEKGFEEHKGc@gBkAEBm@]o@g@M?WZUUdAgAuAqAgBhBw@s@bBiB?Ge@a@KHK@aAgAPWo@o@MPk@g@]^g@e@v@y@?Qi@TUOy@{@NWFUDk@HYZm@DCFEZBP?ZGj@[nAq@PHnG~GJZ\\`@DEvBvAhFdFPL@FBBBArC}Cn@n@qC|CPHd@e@VT_@`@LFKLZZDEDBDATFr@b@f@v@~AbAbBrAdDnCnI~HrFkEiLwNvAkAnLvN^[mJqLfAy@nJlLVSmIkKlGkFpIlKZUgJiLjCwBDIEO]e@^qAhEeDlL~NZWaEkFpAeADFz@q@uG}H`F_Ev@z@PFHGFHBAFEDGJF^RBEJUBGHOBETe@BEVm@|DiIVg@rC}FVe@lCsFrAmCt@]pCqAVKFKPIp@x@^[EGxB_BDHrC}BzI`Ld@]{I}K}[mb@WCYeAM]iIcIeX~UYFa@ZCPcBlBw@n@GJ?NyWfBkAFmHf@{@sMg@cItD[`@D?GhBIPFh@E@Lv@ErBOBL`JeAdb@s_@]i@sA{AXW]]cLbKmAoAbLaKnAgAcDcJeERm@DK^w@WOUgANkENaF\\AKaAF@JmDVsBDSp@k@OSHIVe@O_@@M@O?a@M_G\\yAFm@@wAdE{@WdAaD}Fd@BKCEk@EMIa@cAGSUYmBb@GKMACEGIPKR]Jc@`B_@dAuBZCA_Bz@ABxA~CQPM@SBGr@?VL?JpCQAKJQAiAf@??jAJNr@ONGA_Bb@A?xALFH?JDx@ANe@PNn@IBHbBKzCOdF]JDb@?tFWCS~F_@XMfAEiCmW_@D?IHKDQAcD[I^wGIuCEUc@_Ce@mCGSs@gBs@uBKS{EIaDM}@@mALg@AMF_@\\}BCwB??EsAY]CQHc@IaAUIHCABGAGeAk@OQ_@UE?cCsBKIKY@O@I@]A{DKeDKQAOBWGKb@Y~AS`@IZBt@Wp@e@b@e@b@]jBiBf@?NEt@eATQOw@B_@DSVMP_@tB{E@MS[US|@gCLIfLKm@if@y]t@}BFUUC{E?m@i@?AWOm@iAcCv@i@dAg@fBa@rBGhk@RdN@?eBeNG@_BVwz@s@AGpHc@AyByAi@?[`@u@o@y\\va@wBtCp@l@@Ze@jBAxDSl@}Bx@cB@URcE?MoBlAA@mHBgBBwE|RwV|M{PbP_a@SGIW}B}CkCqDLk@b@w@n@qDR_AGGFe@Xi@JS@UQo@xA_KfAwIh@yBF_APi@d@sALs@H}@JqB|@_Fv@aEuMwMHU\\c@`@_@BCFA`Bh@d@VJFL?HCHQCKGIICMAUGAEECO@uBu@MSJsCxBx@dDlATRLPj@RhBKpAgAPWXu@X}AX_BAOFKHa@HKDEAGEE@I|BkKMIPa@XYRwB^ILQBKKkCm@?DgCP?JMAc@QEIA@_CFYAQOUOMAO?Ki@BE}@h@CGgBsBPEa@fBOAIGAIqABGC[EMHKEUKmAEAAGBUGK?M@UCaA?SI]AO[iAUa@yD_HmDoG"
+        }
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "countryCode": "SE",
+      "centerLat": 59.333765,
+      "centerLng": 17.980385,
+      "radiusKm": 16.75,
+      "regions": [
+        {
+          "name": "Bromma stadsdelsområde",
+          "osmId": 5689303,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.3107005,
+            "maxLat": 59.3703742,
+            "minLng": 17.8640188,
+            "maxLng": 17.9982384
+          },
+          "encodedPolyline": "ow_iJwqulBug@{XaA}AoB}C_QgXeC{D_Ve_@iEwGeSaQwDs@wDq@iHr@sGsDyReRoJf`@kHhb@}Dhc@{QhSe@jBmCjK_ExKyI~SuLtVoGhCgEhF}EbD_DbBiClC}AvCoAvB_B|AKJIAuA`Aa@VqAx@}BxDEHyAbDSd@gBhEsElNq@pBq@pBW~@_@|@{AzC{@vDmB}@eAjGAJy@lFS|@GZIIeA~FuB`MgNtaAp@P|DdGfCdEh@z@WfCe@~BUpAE`BcAbLoA`I_@xAtQdPhB\\xBx@rC|EnEpDJgARhCR~Cj@pAbB~@jHvEh@\\XDIzA?JQHa@bHaC[]jBWbBDbB@hMf@V@xFaDvPKj@GXs@jAkEdIQ`@GHMHmIjOEf@HrCDVN\\~CzGrAjAd@T`DeAl@b@`@qAx@aDNc@fAjAn@n@z@dAn@dD`@x@|@fBbAxAvBsCdAL^DLBD?F@ALSbGQ|ESlFAXJFVL\\Tx@n@x@|@jAtBT`@t@vATb@`AlBDHjBvD`AzAZd@j@|@DDh@v@fAbBp@z@PTDBD@DADCDAL?LJDFDJDFHD`AUbCo@ZGXCh@@J@B@b@NBBZP`@T~@lAtBtFMZXlALvA@x@APPl@Rr@NKZGX?~@rABTRb@ELOZ_AfEVr@`@`CVbDClDAlCIbBeA|HMpCk@dD?d@JvAJz@V\\l@b@x@Fh@`AX`C@lBVrB^hBv@|@z@z@j@x@zFtK|CdG`Am@b@qF`@{APOdByAlDlG`RxZ`Ree@jC_[|KwUbEuZrHsUqAe_@bG}[fReb@jM}^hAgIfHo\\|DeUlGoQ`G}`@bNwu@jJoc@~AsHbOuZpHqVrPq`@IeCsLaqA_AkIuCmW"
+        },
+        {
+          "name": "Enskede-Årsta-Vantörs stadsdelsområde",
+          "osmId": 5695996,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2449024,
+            "maxLat": 59.3070278,
+            "minLng": 17.997079,
+            "maxLng": 18.1098961
+          },
+          "encodedPolyline": "ma~hJgfbmBr@~@`HzIhOxb@vEtO`A`DzAhEd@jAh@xA|BxExAlCrCjEdCxCpCnC`CbBdD`BfBn@bDx@fCd@~Gp@|LhA|BqF\\{AFsBKkA`@oALsAwAyAm@D{@{A}@iCMj@uA~@c@_AIsC~@cC`AcBdBuHlCeEl@cAR[|GwJZlBdDaEUgAGk@E}G@gBwAmKpBkDjDuBbImOdAkBf@}@nCjMpAzFdAvEPt@~@lD|BhFdCdG\\hA^nBR~AFx@JdCPbJ?rHIxFOtEG|CDfEBfCLzAb@~Cd@xCt@~BhAvCbIvRbB~DbAdCz@zApAnBtAxAlBbBxAlA|HvGlDvDrBjDz@aBXyA`@JDTc@nC]`B^l@rG`KcCzH_MbQpGbC|DlSvDHlFa@fPoBlTmCb@aElE_a@\\mAxEqPbBgG^qA`CoI?cLC_JFMxCuFS}GdGwBvEqLjC}GxAiFz@qEh@wBVoBnGeNdLgw@xPkoAkJ}LmHdKyF`HuFnKEJkAwCSKQKUCSAGESQUMWa@CIJEJKJMPYJSQc@FOu@s@o@eBk@v@q@l@UNy@\\o@Ne@PuHoXuCeKwGsVReChCeEAcK{@_DwE_AiCbPqBlCaJ}`@w@Y_DrEgA~AcAnAc@{Cu@f@uBxAiBnAsBzAy@r@oArAMc@uCmJgOm@I{AyED_A\\]`@{Bn@s@l@SPI@e@BeBFeAHg@DS?{@Dy@FiOEYgA}B}J_AsCi@sBKu@SWWOWe@q@kA?qB~@C?ECkDqA_B?mBSYAq@KqBOeBQwAe@}B]wAaAmC@]lAaDlDuT|Kes@A_@Qo@K_@IiA@w@B[NsAf@eC^uUfDm@Vg@`AGvAQ|A[dB[nCcAlEyAjEsBtDmBjHuDlBaAbCqAUgGcA_PmDwZSwAkViToD|BmARsARyA]yBe@iBc@}@Q}AIq@EI?yAP}AJA??@mEpRqAdJuBxZkAb@AxBsBDoE`A_@`@wFz@_AXwGxF{A_G{HyPQSq@g@_@GY?cLnC{@Go@Dg@PWf@k@|AgATSaGeBXoAlHXfMh@Ad@lImDn@oNtAiAVDfE?~@ClAGdBG~@M`AE^gAMk@xB}@pCoBpFOd@W|@Ol@g@rBg@zBU`Ak@nD{@w@m@Ue@KmA@aAzASAqA`@_BfAsCnDsDfMwBtJgA`BmBdAkD`BlBhU`@lNOnNsBf]_L~jAtCvp@mMxl@fCUR?rDY"
+        },
+        {
+          "name": "Farsta stadsdelsområde",
+          "osmId": 5701014,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2272524,
+            "maxLat": 59.2790563,
+            "minLng": 18.046767,
+            "maxLng": 18.1336742
+          },
+          "encodedPolyline": "_srhJmydmBmHdKyF`HuFnKEJkAwCSKQKUCSAGESQUMWa@CIJEJKJMPYJSQc@FOu@s@o@eBk@v@q@l@UNy@\\o@Ne@PuHoXuCeKwGsVReChCeEAcK{@_DwE_AiCbPqBlCaJ}`@w@Y_DrEgA~AcAnAc@{Cu@f@uBxAiBnAsBzAy@r@oArAMc@uCmJgOm@I{AyED_A\\]`@{Bn@s@l@SPI@e@BeBFeAHg@DS?{@Dy@FiOEYgA}B}J_AsCi@sBKu@SWWOWe@q@kA?qB~@C?ECkDqA_B?mBSYAq@KqBOeBQwAe@}B]wAaAmC@]lAaDlDuT|Kes@A_@Qo@K_@IiA@w@B[NsAf@eC^uUfDm@Vg@`AGvAQ|A[dB[nCcAlEyAjEsBtDmBjHuDlBaAbCqAUgGcA_PmDwZrB}ArKuPMa@rCoEc@uDQmD^_MB[MsAI]U]]GgAAq@Oe@]]k@i@kASkAOyACoAGu@O}@e@eBc@kAjAyBtI{OpAqB`B}B_@sBpAqA~CsPvAzEFBF_AB_@LIVQBAp@ZTVd@^NCr@KbDiFFKDGpDeHbBqAnAgAp@i@`Cd@zBu@v@G~Ik@rCaAjNmLZWRGFB\\PvB~@dBvD|@hBhARtB`@pF_CJGhD`@vAPvAnBnEfGvCcGdGeMx@cBdHbZ{@dClBvDBUHo@Fc@J`@BLCNK`Ah@h@JHWtAJHMrAWzAI\\KIObBCJ??M`ADBEb@RLSbAG`@UOSzBPJrEdC`FlC|BbAxCkAdCiBRm@fFoCdB_AdAp@TL`An@pBjPHtCv@U\\d@dDjAtBxMbKjs@^bCtMRsIl_AkNzy@o@rDM`\\CnGqFzYy@pEaCjMoF|J}C`FuPvYkC|Ex@Fx@Qh@EN^Vl@^nAf@rEz@pBoA`J}BMeAu@aBuAcBYk@WOCa@EEkD_DnG}CtG{AlDgXnl@"
+        },
+        {
+          "name": "Hägersten-Älvsjö stadsdelsområde",
+          "osmId": 5691404,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2598378,
+            "maxLat": 59.3221225,
+            "minLng": 17.9371391,
+            "maxLng": 18.0406421
+          },
+          "encodedPolyline": "sw}hJcjnlB~KaLdBuCp@q@\\c@|CuEPbBl@u@hAwAf@_@dC{AlAS`@ElAI~@?l@LbAh@JCFK@e@FmAPq@Xm@d@[dAMv@O\\Wb@s@bCmGr@qAf@i@h@YhIcAhMoB`@ZpC[fF}DnAgAx@bF@F@FBLDJDLFH@DBDFFFFFDFDHBF@H@FAF?HCBABEHIDEFKBEFMFOBEFQ@GDQBG@IBS@IBSBS?I@U@I?I?U?U?S[qI~BRlA`BXiAVm@n@{AhGwNjE{Rd@KhCk@dI{AvDt@tXpFpAXzDmE`DsBtB}KfEiFjEwDxBkB^_CXmBrBcCfBaNb@}ElAsCjAkCvAmNdCeC~FwOv@gFn@eBd@{Hl@mDd@oCLa@vAwEn@Z\\_@L}GBkBd@aW\\eF@SLcBHkAhF_a@|C{Uh@eFmTlCgPnBmF`@wDI}DmSqGcC~LcQbC{HsGaK_@m@\\aBb@oCEUa@KYxA{@`BsBkDmDwD}HwGyAmAmBcBuAyAqAoB{@{AcAeCcB_EcIwRiAwCu@_Ce@yCc@_DM{ACgCEgEF}CNuEHyF?sHQcJKeCGy@S_B_@oB]iAeCeG}BiF_AmDQu@eAwEqA{FoCkMg@|@eAjBcIlOkDtBqBjDvAlKAfBD|GFj@TfAeD`E[mB}GvJSZm@bAmCdEeBtHaAbB_AbCHrCb@~@tA_ALk@|@hCz@zAl@EvAxAMrAa@nAJjAGrB]zA}BpF}LiA_Hq@gCe@cDy@gBo@eDaBaCcBqCoCeCyCsCkEyAmC}ByEi@yAe@kA{AiEaAaDwEuOiOyb@aH{Is@_AsDXS?gCTaW`Fg@n@e@r@{B|G{Mj`@kIda@kBjh@}FnTsHjFwPlLbMlv@zF`^pLxaAbHxn@`En^tClW~@jIrL`qAHdCbKdJ~GzS|BdHf@zAVz@vChy@lJfE"
+        },
+        {
+          "name": "Hässelby-Vällingby stadsdelsområde",
+          "osmId": 5690815,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.3424037,
+            "maxLat": 59.3991755,
+            "minLng": 17.7606914,
+            "maxLng": 17.9000494
+          },
+          "encodedPolyline": "iviiJq{flBLr@HnAGnBM|A[jI?HmACw@dHC`HcCiAOSw@k@q@e@s@k@WQoACCgDq@e@yAcAi@e@_@GI?WHIFg@dAWb@]p@M\\s@~BIXGPm@cAYg@KS_@q@[m@S]u@wAKQEMe@}@_AiBEI]cAIUOo@Om@k@oCGSa@sBSaAGi@CYO?K?WLo@xAiAjCo@|@]jGaCnDwA`Dr@pAV`@z@p@EfBKnBEZENUf@}@n@u@RC`Bs@Nw@pBq@eBiBtF`AbDxAz@SbCfCdCQnBK`BMxBIpCCtABlG_BUoAKeANu@XqBb@q@rBA|AcB|KkB|I`DnHOv@u@rBw@fFCz@?zBQ|@oAdDIHLfKB~B`@BPPJXFd@DhAGbGTbB@`EsS{AwIc@wVyBJnWHh^LlM`@zPLjEDrDcC~@pKj^zLnTbEpHlAxBdB~CFDz@|Ad@tv@m@|L]nGo@pMu@KkHeAu`@cGoO}BaO~UgOjVcBJeB~CGNm@l@e@x@q@bBwBrBc@Zt@`Af@x@vC`CBNJfATzAr@|BlAvCbBlDxD`HfCdJHg@`Qdl@tHnVop@bwBlQzr@pC~KbAbEnOjm@nQoHfY_dA|tAm{Ap@@tT`CzCqBlh@o^x[sS{JilAiBoT}BuXlUcv@XC\\QPMPGROPGLOp@eANQp@eAZc@Vi@\\{@lKiQgIsz@jYkfAt^_gAfDoIaRyZmDmGeBxAQNa@zAc@pFaAl@}CeG{FuKk@y@{@{@w@}@_@iBWsBAmBYaCi@aAy@Gm@c@W]K{@KwA?e@j@eDLqCdA}HHcB@mCBmDWcDa@aCWs@~@gEN[DMSc@CU_AsAY?[FOJSs@Qm@@QAy@MwAYmAL[uBuF_AmAa@U[QCCc@OCAKAi@AYB[FcCn@aATIEEGEKEGMKM?E@EBE@EAECQUq@{@gAcBi@w@EEk@}@[e@aA{AkBwDEIaAmBUc@u@wAUa@kAuBy@}@y@o@]UWMKG@YRmFP}ERcG@MGAE?MC_@EeAMwBrCcAyA}@gBa@y@o@eD{@eAo@o@gAkAOb@y@`Da@pAm@c@aDdAe@UsAkA"
+        },
+        {
+          "name": "Järva stadsdelsområde",
+          "osmId": 16255029,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.3609047,
+            "maxLat": 59.4402839,
+            "minLng": 17.8516361,
+            "maxLng": 17.9761514
+          },
+          "encodedPolyline": "_qiiJ_}glBGHMHmIjOEf@HrCDVN\\~CzGLr@HnAGnBM|A[jI?HmACw@dHC`HcCiAOSw@k@q@e@s@k@WQoACCgDq@e@yAcAi@e@_@GI?WHIFg@dAWb@]p@M\\s@~BIXGPm@cAYg@KS_@q@[m@S]u@wAKQEMe@}@_AiBEI]cAIUOo@Om@k@oCGSa@sBSaAGi@CYO?K?WLo@xAiAjCo@|@]jGaCnDwA`Dr@pAV`@z@p@EfBKnBEZENUf@}@n@u@RC`Bs@Nw@pBq@eBiBtF`AbDxAz@SbCfCdCQnBK`BMxBIpCCtABlG_BUoAKeANu@XqBb@q@rBA|AcB|KkB|I`DnHOv@u@rBw@fFCz@?zBQ|@oAdDIHLfKB~B`@BPPJXFd@DhAGbGTbB@`EsS{AwIc@wVyBJnWHh^LlM`@zPLjEDrDcC~@{@sC{BsHiBaGoBqe@uGaIqAoFUaAEDwIkQ{HiE_HyDdDiPcJkScFaL{AbEkAvD_BpC{AlC}BdGcBvB{B`AaHiQ\\}EIeF{F}g@yAsHqEuPoAiDkH{MaI}JyGyKcB_Dw@]]M}GkCqDKaBkA_CiEu@gBkBhAi@jAoHzGwMhHkB\\gJlBqFzFl@pGsDAiDpCoFqOoKnTeBe@uEjL}GqCiG_JkLqCoJkKoR{^k@}Md@sI`AuAlEiD|Ew@l@mKqB}DfCeStBoHrDwADqClAqQdDkGxB}LbJlGtY~OhE~BjLuY|@wBfDLzJuMbGqMPnAlDmLvF_MqCaFd[{cAvHqZ`Nqo@~h@adBnGiQhOcWh@{@iFdOp@pDcDvFa@`CKzD?rCB|@dAvBrGnIrApFN`CFhCn@`EeAnLClEZjBZfBxBlMLp@r@bDd@~Al@vAtBvEDAdAXPXPj@^jAd@r@vAjBlAxAhBlBzCjCbFjClAt@tCnAvAp@z@n@jA~@nAjAnA`Bt@rAb@dAVr@Nd@XbAPv@`@lBnA`HXtAZvA`@zAf@|Ah@pAn@jAn@|@h@f@x@n@bEhCbApAvBrCpAvBb@p@NTX\\RRPNRNF@zAf@hAHl@WZAb@LXHb@`BvCtBjBvBlAbCx@lC`CjKd@`Ah@hBp@xAn@~AVp@LPjBfBnB|Bb@P`APz@IZKZc@j@sBf@w@n@XT~@z@|@`@ENrBd@OCeApBoDzBmFLeBjAcDfA_J^gKxBsSbG_VtAaDtDeFrBiBpAQXIgNtaAp@P|DdGfCdEh@z@WfCe@~BUpAE`BcAbLoA`I_@xAtQdPhB\\xBx@rC|EnEpDJgARhCR~Cj@pAbB~@jHvEh@\\XDIzA?JQHa@bHaC[]jBWbBDbB@hMf@V@xFaDvPKj@GXs@jAkEdIQ`@"
+        },
+        {
+          "name": "Kungsholmens stadsdelsområde",
+          "osmId": 5689375,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.3139971,
+            "maxLat": 59.3418014,
+            "minLng": 17.9741962,
+            "maxLng": 18.0587094
+          },
+          "encodedPolyline": "_vdiJym_mB`@_BpGuc@pFcg@p@cNhCsZj@}DdBqLxBmGvAuBpC}AdJ}ElG}GtAgEtDyMhCcEhHiEXsDbOVCv~AE`bBR~LdAvo@bA~HxDfZbMlv@zF`^pLxaAbHxn@`En^ug@{XaA}AoB}C_QgXeC{D_Ve_@iEwGeSaQwDs@wDq@iHr@sGsDyReRs@wJ]aFSsCkBwPfB_Q~Ay\\RiCj@{HDe@dAoFn@oET{BNqBJkNBkOl@gG"
+        },
+        {
+          "name": "Norra innerstadens stadsdelsområde",
+          "osmId": 16404316,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.3175038,
+            "maxLat": 59.3758007,
+            "minLng": 18.0247724,
+            "maxLng": 18.163893
+          },
+          "encodedPolyline": "aahiJ}cdmBBBNPNTNV~EfKbAnDHVHTJRLPLNLLNHLFNDr@JhAH`H[hB~@rGjGVtAkEdE`@pBLpA@R@p@UkAg@h@jHh`@f@k@fBrJp@q@jAlGs@t@Hd@?DABdBbJ@D@DB@B@BA@ABCZ{@FQb@aAj@vAjAjCt@~AJPT`@V^pCjEh@x@`@p@f@z@Tb@NZHRHRHTJ`@HTFVDVFVDXDXBXBVZ[NSXg@Xm@bBbAtAd@f@HN@ZDL@V?R?R?VA^CXEZGZIb@OXKBb@?XPC|AWtFrC`@_BpGuc@pFcg@p@cNhCsZj@}DdBqLxBmGvAuBpC}AdJ}ElG}GtAgEtDyMhCcEhHiEXsDeC{Lq@kG{BkToFc[AmBlBuYbNsKx`@m[NaD~F}fAhH{rAh@qK\\uDDaMo@qNYkH_CeW|AcXqAkNoFgONqWcCq_@lC}c@jDy\\gFop@kEuRa[iUcQ`Uyf@g@uKh\\qDtK_DlJqd@tuAoF`Z_Jxf@iA|Fk~@`tAaMnGcCrEUb@mJnQgP`[}ItPcOfY}IdzAgAdQuBfGiDrKcGjRe@tAoChlAHhUeAhh@|C~\\bCxCnCJpEqBdAvA`Dth@lBgBpEm@bGmItQy\\zq@i`@NIPGPCRAP?RBRFPHPLLJ"
+        },
+        {
+          "name": "Skarpnäcks stadsdelsområde",
+          "osmId": 5695432,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2296259,
+            "maxLat": 59.3017808,
+            "minLng": 18.0858508,
+            "maxLng": 18.2000781
+          },
+          "encodedPolyline": "o||hJqkkmB~AgApAa@R@`A{AlAAd@Jl@Tz@v@j@oDTaAf@{Bf@sBNm@V}@Ne@nBqF|@qCj@yBfALD_@LaAF_AFeBBmA?_AEgEhAWnNuAlDo@e@mIi@@YgMnAmHdBYR`GfAUj@}AVg@f@Qn@Ez@FbLoCX?^Fp@f@PRzHxPzA~FvGyF~@YvF{@^a@nEaArBE@yBjAc@tByZpAeJlEqR?A@?|AKxAQH?p@D|AH|@PhBb@xBd@xA\\rASlASnD}BjVhTRvArB}ArKuPMa@rCoEc@uDQmD^_MB[MsAI]U]]GgAAq@Oe@]]k@i@kASkAOyACoAGu@O}@e@eBc@kAjAyBtI{OpAqB`B}B_@sBpAqA~CsPvAzEFBF_AB_@LIVQBAp@ZTVd@^NCr@KbDiFFKDGpDeHbBqAnAgAp@i@`Cd@zBu@v@G~Ik@rCaAjNmLZWRGFB\\PvB~@dBvD|@hBhARtB`@pF_CJGhD`@vAPvAnBnEfGvCcGdGeMx@cBtVaqAjNiaBlCuYvAuObBgQnBwSrCoCxCwCbLy`AjCuR?wG_@aH{AOaFgBo@Uy@Y}Fe@{k@gFaFa@cCUeBMqIw@kCUeH_L}DmGGtI?|I|Ang@x@fWtBtOU`QiNrWwDzCs@h@{EvDc@LmDfXgQjAyASsHnD{b@wCaRx_CcMAaCc@{AXc@Dm@Nw@aAmAwAyA`@g@@KGc@C]JmA{@sAk@WGs@s@W?yAy@oBcBm@e@qc@~w@_JnXwf@|wAyBhG{JpIgUdMy@mFiDwFkf@gs@H~JJjBRlDa@bHm@`Kn@~QUxILvFRlE_@bEo@zLk@tGNrBdB`@`AtN^xM@dDTvNMjESrDNvb@LfTH|BZf@TbCKvAVhFj@vDrBzJ"
+        },
+        {
+          "name": "Skärholmens stadsdelsområde",
+          "osmId": 5695372,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2673177,
+            "maxLat": 59.3037837,
+            "minLng": 17.8634922,
+            "maxLng": 17.9479721
+          },
+          "encodedPolyline": "sw}hJcjnlB~KaLdBuCp@q@\\c@|CuEPbBl@u@hAwAf@_@dC{AlAS`@ElAI~@?l@LbAh@JCFK@e@FmAPq@Xm@d@[dAMv@O\\Wb@s@bCmGr@qAf@i@h@YhIcAhMoB`@ZpC[fF}DrD|UbBbLrGdd@fArHpJpp@l@vDbA~ElAhFx@zCTXHZRd@L`@hAhC~@xBR`@pDrGLT|AnWrDnBtBjAtUnMDz@l@JpALb@Dr@GN@@Mf@NBNv@TF?@A\\h@PZ~ArApKdLj@x@^fA`@xAXrA`@hCRtCFpDBxA?rEB|CBrC?R@J@HDJBhABjAJbBP`BVzA\\tA\\pAVl@^v@s@vBZr@`@pI?tGaAvFkAXyC?WZ?r[q@xAqE?@rb@bLhVwDdOaYvRcAxFm@pIq@dJgBpWiQoPcLqIqh@vOqBwcAgAa}@mYuVaJ_SyBuUyLmr@_TaZmBoLoAaJa@yCY}AiAmb@wEy]cFwQp@g_@kDwV"
+        },
+        {
+          "name": "Södermalms stadsdelsområde",
+          "osmId": 5691336,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 59.2994414,
+            "maxLat": 59.3291225,
+            "minLng": 18.0114194,
+            "maxLng": 18.1142793
+          },
+          "encodedPolyline": "apaiJsu}lBcA_IeAwo@S_MDabBBw~AcOWeC{Lq@kG{BkToFc[AmBlBuYbNsKx`@m[NaD~F}fAhH{rAh@qK`OrCHr@Fj@Yr@d@`A@CtFjLNi@J]?@~DoKn@^z@U~BcEB]Jk@FcAESlAwBnBaD|CuFtBoDBJN[ArAhANpKmA`B@Bu@pBUf@?ZIHCXMPGLILKJOJOHSHUHUDMHIHEDAL@VHHDJJHJXh@Xj@Xj@Xl@Vl@Tl@x@vBdB^f@|Bl@pCZgAFcDNrBdB`@`AtN^xM@dDTvNMjESrDNvb@LfTH|BZf@TbCKvAVhFj@vDrBzJsCnDsDfMwBtJgA`BmBdAkD`BlBhU`@lNOnNsBf]_L~jAtCvp@mMxl@aW`Fg@n@e@r@{B|G{Mj`@kIda@kBjh@}FnTsHjFwPlLyDgZ"
         }
       ]
     },
