@@ -1,5 +1,5 @@
 {
-  "version": 118,
+  "version": 119,
   "cities": [
     {
       "name": "Amsterdam",
@@ -2202,6 +2202,67 @@
             "maxLng": 13.7611609
           },
           "encodedPolyline": "itx~HqutrA\\X|@`Aj@Zn@rABFHRJVJj@Jb@Nl@A@?JCt@MbARlCx@lAjBbBj@h@`@bA`@z@R^P`@p@|DDn@WjC@PF\\z@dB\\VlA`An@f@n@r@VZb@^RT`@Z`@RXXb@lBb@bATx@Nt@_@|@mAEo@WIg@gAu@W?@n@XbBb@l@^HXp@LDTHJMR[p@r@^T`ABZJ^Ll@hBp@v@V\\NRPNNTPXRlBtArBX`@z@`A^b@Zt@^x@PXp@v@\\b@^p@x@vAVd@`AbBl@dA|@|AXf@Ph@R|@T`AFjAZxAAJeA^GB]h@o@^MNIJMJEJGDx@Zx@Z~@^YvCv@b@l@N~CvAXICoDnBq@BGbAqB{@gJnAsD`AuCdBkF`A}CPi@|@oC`AsDe@sEcAaLAqA?UjADxAz@vCnApHlBhAZpBh@{@_Lj@Y?kB@wAr@c@JG~@VfBf@NDv@Xf@Pf@PfCrCh@Hh@t@`Ab@NRfA`A|@|@dAvBdB`A~@vAT^TVTV~@v@RPTP^ZPXnAvA^b@Pb@Vj@nAhBh@l@l@|AbAjALJ^PVBBAPCd@Qb@a@fAU@rBD~A^rCb@GTSHYTqBLWHFDb@CPGFKrASHg@vA[jAAJO`ACj@Fx@GvAZi@HKXn@VhALtDBvABdAwAjBeBjDu@zAy@vBkC`KYfCLbCDNGVB\\PTAn@CDAJ@J@\\LhA?XADAz@@`@E\\BXNZD`@ZbBn@lAZn@Vb@LRHL?NHTJTJF?PHLDd@XVHb@NXR^Nn@Lh@HXFLFLVnAFP?NFXBLHLFRBJBn@HNDJBNALDXf@jDTxBTzAX~@P\\N`@p@v@VLj@XXJ~Al@nA~@VPNTPjAAJFTFb@Jr@r@tATVNTRNTTr@t@HHf@d@|@fAj@`@VVLLPJJFLJPF`A^d@JVJF?N@T@RBL@NBZ@h@JPJf@A|@ZJDNFj@Xh@Ll@Ex@Kp@Qr@QRCf@Gh@YEbAKdA@~@Fx@Vv@Rd@Xt@^n@d@r@hAdB^\\x@`@LDNBHDXJh@Xh@X\\Hr@A`@If@o@x@bBb@f@RFPw@h@h@B^Xt@J^BRPr@Vb@r@xCB^b@lAPRV`@FFp@x@`@g@RHb@Xj@nBPhBLh@Lb@b@z@TVv@TrBTb@H~BJb@EZ@nAj@j@`@r@h@r@`@z@Jd@k@`@H^Xv@t@`@\\\\j@v@|Ar@dAn@x@`@t@h@bA`@X`@f@r@\\dBjA~Ar@l@Rl@Th@f@z@z@bAv@f@d@f@b@~PcBp@In@`Av@rAPr@ZrB`AxEH`@AZNx@DhCEx@iApH[nAiAt@}A~AOPk@b@ClIcKfKeGlLsHrHcBbA}HdBiGmAKyEiFEwPU_IIaHKkGIaBGc@Q}AOsAs@sB]qAp@sBDcBu@qAw@aAQmC}Co@iAiFsDaAwCgDoJkBeE}AqG}AsB_As@_Eq@eEMeBd@sAf@_CXqBQ}@rS{@|FAJCHAH{BuAsDo@q@MmF?KAK?uA@MAK@k@@uA@[@sAByBFqCFu@@W@W@D`@NrBLhBPlCZnEDd@JxANzB|@rMNtBFt@@R@JBX?LT~CR`DoD`D_CtBKJaUhSx@bDJb@H\\b@bBNp@Tz@XdAVbAh@rBj@zBr@pC|@nDRv@~@zDBJ^tA`@|APl@DRT`AT|@XlALj@Jb@VbAT`Ad@jBv@|CH\\Rx@`@bBZnAdAjELh@H\\XjAf@pBNn@dCbKpAhF`@zAzBdJNn@l@fEXjBWKqFmC{Ac@{BEoCx@}D~Cu@n@_CiDaBOC?CFcBdAOJkAz@w@j@oBpBaAzA[n@s@vAy@r@uAt@yAd@gAjBo@fAWd@c@l@g@z@UjASp@a@v@e@\\cBtBu@f@Y\\CVBv@SjCm@`Fo@lE]XYVEF}@z@e@d@YT_@\\YVeAHwBcA_AEs@Ng@b@GdAJdA[LE@wAd@]`@w@f@u@Ds@IeA]_AIGAs@Ia@EaBo@_APUHq@t@k@n@e@`@QNo@|@KLMNUTEH?@?@PrARzAPtA`@xCvCpNNx@xBfPx@zG^vCX|BVxBH~@Dh@LpAPtBLrAVvCn@vG@PVvCTlCJhAVvF~@lHHt@nAdJ?DnA`Kb@bE^`E^~El@~EN`B@`DElJAhBKbLAj@AnA[vYWdNc@j]EzCu@d`AcJdCcCAwJu@i@IaBk@kEw@uBc@}CyAo@[oBu@yBjAk@sDi@XgBw@QK}E}CcCk@bApCz@~B?FFRbApD`@vA`@dB~@`FFXFXPn@lAdElAbETx@x@tCz@rC_AbCcChGcChGwAbJo@~BUt@EVGLs@hCeBhE[tC?LCZ_@bESbCSpB{AhHMdA_@pCAJkAEcCiEeB~@g@aAKDyE{Is@gBe@z@}E}HO_@MLcB_CgAqA]YcBw@kCaAkEoAgFaAq@|@}BoB{A|A{@wAi@n@oBoAoAqBmBlH_@HW|@mEoC_ExBwA`@eAHsBGgBE[ZyE`GyBd@cC\\g@~@y@j@QvAsCtBW^aQsFqDm@Cg@e@S_AGAJCBE\\U`ACb@s@pXe@|HMpAmAnKi@vD{@hEoAnFLN{ApFsRpg@eGlPe@nAcLlZmN~]wJbXkJpVmD~IELEJ?HMR[XQTq@`B_BdEIZKt@GTaBjEyAzDqKzX{Nt^yCpEqDvDyD~CwKzGiElCyFjDgJnH_ErCOEIUAWHEEQJkLTiYh@ap@@iCLuLBkBuABw@EwAg@sAu@uBeA_CgDuAoB]SoBkAeCyA{BsAgEL[JUNeClC_CfCsBtBY`@oAtBgAxA{EbFiEpEMLg@j@cCfCgCjCeBhB{ClC}@r@mAd@M@e@AqAe@oAc@qFqAsDe@wA|BwBhDiCbEoEfHsJlOiHhLeBnC_@EwIlNMTg@v@Yd@xChE~CpEcQdb@JT{D~HHL]v@aD~HABnGbLXh@qCbHe@jAqHlQc@Es@M]MSKY[Ye@K[O[O[MUeFgHoCyDiCoD{AwBs@cAUc@_AmABoGEkBqJiOiAwBc@eAWkAY{Be@wD^c@Bq@?a@AOCyA@EJeAJ}@Jy@nBmSp@aGjEgORmDIw@jAaDvCdEXEbBwElEkPdA}GhDyNzAiPjCeIlAqC|BsDhB_CjCg@|@]rCuBgDyBIc@CyA?a@JcBn@cFd@iAvGsDmEmLyAyDq@kDS}C@sEJkBf@eEp@sCb@oArH}H~IkDvCcAc@gNCKDU?IBAEg@Aa@D_CLoAP}@p@gEd@gENoC@U@WXuAbMiF|JqEh@]vRqTsBeWs@gJEsB@{ADaBJcBNiA\\yA~GsYgFoFdJmNra@cg@qFyIwLcPsMuQmG}I|DwLfCag@mB`BCgEJaBZoDDq@Du@EwIFmNp@oIX}EBiGQ_ViBwMp@k@_@wFAy@i@Yu@s@c@a@u@mCuA_FsDgM}CsKp@CNS?YQQ{@HiEkCaIcBwAaG}EkSrEmLc@mC}@yFcCwNlBuFxBeGbBkEpAwCrAuDfBeEnBuE^{@pB}FhD}HbAoBp@eBj@}AxCcGMI\\o@n@eB~BsG~B{FGoCAQ?YKsDHwT~CR`EXxBwR_@c@D_@?CPcBTeB`@aD\\{AXoAl@mC{CuEeBmCg@u@XmBtAgNJiAHo@NyAf@??DdAHl@BZBR@TAfDTFwDbAYNC|AAlBLh@h@Xx@DLFy@NyBL_BO[O_@I_@I]c@`@e@b@OFSGSEK?KHKH[^STC?A?CAAC?AAE?CAKEG?EAEAAC?ABKZCJGTQEIGMKKIOGOGi@COA?o@?O@qBB{G_@N]rAwAE_CKSCgAKs@GqAK}BQqBQiBMkCUBiAJyD@eADoAD}CmB{FyD_I_@yCsBuOq@}EYoBm@sBmAgEaDiKI[K]}@eDMa@_@mAq@{Bm@qBSYqAgBBa@RmCVmCTcEHoHBu@LqCVkAv@yDLm@XmA\\yAVeAb@sBj@mCh@cDXaBTqA\\uBh@cDr@uBtA{Ch@cAtCoFt@mDVsAPw@|A{Hx@aFReFGiBMy@c@yE{@kGGe@vAWHSJS\\kC\\iCNw@No@d@}Bp@_BnBmEnD}InB}Gb@{A~BgF^{AzAgGNi@No@TW@A???ADE@?@CNOJMnAsATWVYRWn@s@LMJM\\i@HOJOTa@`@q@f@y@hD}F`@s@nA{HTuAN_ALw@VgB\\aCJsD@u@DeB@_@@oB?eA@gBt@cFd@kH\\gIh@gG`@LBs@bB{@bCsAb@Ud@Yb@WlBkAfBe@pCs@XCTAdAGZCj@An@C~CGpF_DvB[h@IzBRp@HdAb@NgCd@oFHwBLcC@o@@yGFmCHwCkD}BoE_@oEe@yETaCXq@Jc@DYhFGrCsAd@kCd@{E^yB\\wAReA\\sAd@y@V]XuA`AuAdAqA~@}@p@cAt@qAz@]Ts@f@}@l@aAp@a@Xi@\\DkE@wBBoBrAoAr@q@`AmBx@gB^}@Vm@FON_@`AkC`@gAx@oB`@aA`A{CLc@rAeFDSrAsErBeHl@wBXaAJ[TmCb@_FG{A@wDTuFtAm@`C}AhEuCr@c@xGcFp@g@|B{ATQROVOfBqAfCiBT_@bFeItGkKz@sA~@yA`C{DjCgEnG_Kt@uMHy@ReEe@mCe@yDJsABSHiCdAIdAmDVgC\\wB`A}QVwCB_@XiCRsD]uC]sC\\mC\\_EXeGJqBNuDJq@Ja@No@ZeAr@gGJ_AZoCd@}BPm@x@cBTe@r@eAlAgBjBgAc@qEl@^h@`@\\TpBnAxClB`EfCD]BQTuEPgDDm@Bc@B[VHTJp@RfA\\bBd@f@NpA\\VHfD~@dIxBt@mPt@uP`@k@lAh@j@h@^^TR`@ZJHtAz@IjBCn@Cb@[vHE`ASpEUtFALCX?PAVkBg@aFsAkSuFBdEF~I@xADbGD`GfD|HN\\DLDDJVd@fAd@dAHRJXDHDF@DTf@Xr@\\v@j@pARb@t@`Bh@pALZLVn@|Aj@rABDjBZrGbAtEr@jAPFKl@J`G|@f@HC\\GrC[jII~ESzD`ANGhAEp@Y|FGtAIxBCd@SjDUjD_@rD_@lE_@nBg@pCKn@Kf@]bBMn@u@xCQr@a@zAs@|BUr@sAlDQf@[p@_AtB[r@Wz@]lAo@zBCDSr@|@?b@wAfAsDbBwDPa@FOTo@n@aBRk@BGNg@La@\\cANg@Nk@^oAFWF[Pq@XmAFW\\eBNu@BQHa@d@oCTaBTeBJ{@J{@Hy@J}@LuAVuDP_DBe@By@HiBDq@Bs@TmEJsBF_ABe@H{AHmALaCpBZdANZDjBZlG`A|BrAFBjA}Hd@}CJy@BW@@ZF?DAHbG~@bAdBo@dFn@Xo@xGAj@Cf@d@f@z@~@jBnBvB|B`ChChErEtBzBh@j@l@n@dCnCxA~Aj@n@n@p@r@v@?B?DBDF?j@YDCJKLITILELADAPAT?V@h@BRBLDHDHBJFJFFBHFJFJFNHHDLHNJLJPJFDNHRLLHPLFDDDHDHDXLNFf@Rp@VFB\\JJ@HBHB`AVl@GVEPCLA`BeAPQ\\[Z]HINOHKHGNMVUDCNSHId@k@Xk@TYNSJMPQJMNONQh@m@FI`@a@nAiAd@o@j@]d@_@RQTSPOBAd@Y@?BAz@Wr@Yv@a@XWRg@J[?YLgBFo@HOL_@Tq@h@_BTe@R]PWJIPMTOJEXMNE^GTKPKh@[~@aADCh@a@DCPOJKVYd@g@LUf@z@V^z@vBr@~D~AhILGJ?dAj@p@\\f@VFBPHl@TjA^jA^d@N^Ln@Rp@?~AIn@El@E^\\lAbBj@x@V^\\hAP\\LZNVjArBh@j@PXR\\L`@Fb@BVDLDJj@rABP?^G`@ENCFGHKREDI?U@_@RAH?@?BDJ@B@DDLBP?@?H@NDFZYLDFBF\\Gf@Ed@AFIh@y@xBG@?\\HXl@NV`@??Pt@XfAF\\F~A?BG`@MTKL^Rb@x@RP^Jp@r@Fp@Vp@ZzAh@z@Fh@?l@??BL@H@DAr@Kd@g@zBERIb@Mr@WnAc@xBQ`ALZFPLb@Lp@JnA@f@?JAVC\\Gf@MbAG\\WZuBvAOx@@|@BrA?PxApCHh@\\bBd@v@FHHJNHFKtAn@h@j@XbA@RNt@?\\Dd@j@|A@BRTJPLR\\jAbA~@DFDDX^@DR^HNJPf@v@Q^Q`@"
+        }
+      ]
+    },
+    {
+      "name": "Bishkek",
+      "countryCode": "KG",
+      "centerLat": 42.862165,
+      "centerLng": 74.58789,
+      "radiusKm": 12.82,
+      "regions": [
+        {
+          "name": "First of May District (Биринчи май району)",
+          "osmId": 15600026,
+          "adminLevel": 6,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 42.8429224,
+            "maxLat": 42.9503546,
+            "minLng": 74.509931,
+            "maxLng": 74.6118286
+          },
+          "encodedPolyline": "uiudG{_gfM_DQwCKaDOWAmGY]A}DOWAWAcEQ]AqDO_@AA^MnHKbFCrAAZA\\GlDEfBA^?JE|CApC?^?R?PDvCHlDHzDHjE@PBfAJhD@t@@T@Z@xBPBB?p@DhFPTBN@pEPN@tFd@P@G|BIvEOxHAb@?ZCjAI~DAb@?REdBG|D?RAHC|AAd@A^Cp@?JC|@?nBJzBLzABTT~A`@pAxAnEBF@FDLXv@J\\t@|B@DBFL^L`@^ZLNLPJNFNFTFTFVF\\PtADl@J~AVjDB`@FbADb@B`@RdDLnBjAvO@NBVBZDr@B`@RvCPrBL`B@NLpB`@pFB\\D`@BXLvATtC@VdAdNBVZfEDx@@P@^DxA@TDfBJ`D@l@JdE@T@VVdJNpFJxC?Rl@fSDpBFpCLlE\\jLDnA@r@DbA@`@TrI\\rMBt@?^DvBBdAFzA^rLHzC@xACdBI|FC~BGdFEhFEpE?^EOACgMRgG^_I}Aa@vDa^zBuAdAwPJo^`DyAkMv@}Jy@cR_Fh@yA}I{@uo@cB_lAIuEh@wf@GmCoCaKe@_E@iCH_CrB_ZTcDBoC@[gBkSE_@FoDb@kIwBKsFl@iBa@mBo@yI]yCrAqBz@yEv@iBTkAvAk@r@s@Bk@OgKqBoAb@kFxBq@?uD{BcAYEaBGcEImD?MGcDIkCB_CYwEYaHWyCe@uMPyDKCi@mJOcKM?yEOmLWsAUcGYcRs@uKY_AsDeVhK_@Hwq@jNci@q`@oWxA{MsDGGkIgI_F}EkCuAsB_^P_QpCug@~OwGpAdIbJ}BHCXcAl@WTMbDK~Au@fDgBlFiAe@fBnN`IfBrCdZvNlB_Qb@{F`B_@TE`d@sB`RfJxMxGb@\\zA\\zSo@fEhBXTrLj@`AQrEkB@g@nA]JCGyFFJFDD?fH?L?V?~@?fA?vA?r@@h@AbC?hC@\\@h@?dG?L?lA?f@?f@?t@?bE?PAR@hH@J?jDAbCAzD@x@?@?vB?nE@F?nA?D?fFPhCJxDL|DL|ADz@BT@R@~BFnCJnADd@BH@hAF|@LVBxBVjADd@@jAFh@@vDJl@@hDJdHLT@d@@RaAGyAIiBI}BI_CCa@KyCGcBQ_FAWAUEiAWyFWsHU{HCk@C}@EeAAe@G{BOwFCgAAOSsG?IC_AHM`UBbPRnOLxIPv\\n@nK^nVx@bUv@to@vCxu@`EzAHBAAh@GbDKlGCpB?t@Af@?DC~DA`@Ap@CzEAn@CdDGfHAjAAjBA^?lAAR?`@C`DEtEGrHC|AG|GAvACtC?^AZAnA?v@AdAAp@CjC?XEnFAx@E`GCtB?`@ARI?OAuGOaHOE?gIS_@Aa@AyACcBEYAsFM_@A}@Ac@AcDI_GMSAWAuCGeACoACiBEQAu@Au@?cDMu@AWAG?iCGqCGUAkC?gCEmMc@g@Ow@EyGQ}DGo@FgE?sBIUCUEo@CoDS[CgBIq@E{@EUAWCyESWAkCKg@Co@EQASAqDQcCME?iCMUAWA}BIa@AiAE"
+        },
+        {
+          "name": "Lenin District (Ленин району)",
+          "osmId": 15600027,
+          "adminLevel": 6,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 42.7515124,
+            "maxLat": 42.8842538,
+            "minLng": 74.458063,
+            "maxLng": 74.6026908
+          },
+          "encodedPolyline": "k|sdGebpeMzYiCeAqWb@PbCsAfDyEdBgAjBAq@wQ{MzBSiDgCad@}@{Pi@{UvDUhC}@hCeBlDkDtJcJhA`TbD[_Ca]iCh@aFn@iCFyFz@eGAq@\\cCtBI|DgFt@YaFdCwInF}G~DaErAUPOA_@AKCcBLQeE^oE?_GXsBJ}D?UBSFe@F_@?cDN{H`@{Dj@Q?kCHu@Ai@EUAXoDPyBDg@BUr@mJB[JcBH}AJwHBeBDuD?c@@a@RqT?W?_@DqEDiFFeFB_CH}FBeBAyAI{C_@sLG{ACeAEwB?_@Cu@]sMUsIAa@EcAAs@EoA]kLMmEGqCEqBm@gS?SKyCOqFWeJAWAUKeEAm@KaDEgBAUEyAA_@AQEy@[gECWeAeNAWUuCMwACYEa@C]a@qFMqBAOMaBQsBSwCCa@Es@C[CWAOkAwOMoBSeDCa@Ec@GcACa@WkDK_BEm@QuAG]GWGUGUGOKOMQMO_@[Ma@M_@CGAEu@}BK]Yw@EMAGCGyAoEa@qAU_BCUM{AK{B?oBB}@?KBq@@_@@e@B}A@I?SF}DDeB?S@c@H_EBkA?[@c@NyHHwEF}BQAuFe@OAqEQOAUCiFQq@EC?QCAyBA[AUAu@KiDCgAAQIkEI{DImDEwC?Q?S?_@@qCD}C?K@_@DgBFmD@]@[BsAJcFLoH@_@^@pDN\\@bEPV@V@|DN\\@lGXV@`DNvCJ~CPhAD`@@|BHV@T@hCLD?bCLpDPR@P@n@Df@BjCJV@xERVBT@z@Dp@DfBHZBnDRn@BTDTBrBHfE?n@JzDHzGTv@Bf@GlMb@fCDjC?T@pCFhCFF?V@t@@bDLt@?t@@P@hBDnABdABtCFV@R@~FLbDHb@@|@@^@rFLX@bBDxAB`@@^@fIRD?`HNtGNN@H?J?J@d@@xBDbCFlABxCHxBD`@@pBDdJTdEHN@`IPzAD`GLpEJP@|BDhDFjEFt@@J@L@\\DtCHpR`@J@vBDbR`@`BBfd@bAhR\\bRd@N@tEFl@@vFFZAhJMjCEF?lACCyACy@QwFGwBEsBAm@N@zA[`@Gl@Bv@^lAEzA\\~A`AlBLZ@l@aGl@VZJl@PpAZXFTDR@XAXA`AKRAR?T@\\Jb@N|@Z^T|@h@~Av@jBdAhAl@zAv@fAh@PHVD`@Bv@Av@?x@?V@nCE|@E`BWrAUvACjA?ZCtBQpAG|AGfBWxAKn@GpBi@\\KVCZ?XDb@?x@OvAOtEa@xAQzAIPA~Da@tD_@|@K\\?nBDjB?|F@h@AnI{BnEwAl@_AJq@ByCbWY|BeBnBfBpGx@nA\\bA?tBqAl@_@\\e@|HaRFMp@m@jAuAvAwBLOdBmA~Cy@bAa@lEiClFqLnBqAtH{GfBgBzBFzAN~JwHnAy@Ld@FXLTlIzXNj@p@`Dd@pEJb@JVTPZXZb@PXH^Fr@@xAIhAmA|GiClMmClRk@fDk@`BeDzH_ClBcBrAgIvNmCfJoA~B{AlBkCOiAzATzDrF|L~@`CdArACZsD`Ha@p@aIvNsB}A}DsFe@qBu@oE]wAuAqFKs@k@cCi@kC]gAe@uBk@uB?MkAeFQi@y@s@e@z@a@i@iGiDkGcB{Eu@yC_@kBc@cBO_JYmF_@kCGwG@iBO{RGyD?_ABw@NiQ|FcIdCqM~DkDjAeKnEf@bDeBzAwFhAkAdB{@Is@sA{DjAsDhFR|AkCfBeApAcHlEeGlD_DnCsEn@aJpOkE|N?jX_IFPrX|HJvAn`AnDq@bE?f@a@Ro@v@i@zAG@bD~d@u@Jr^ka@C_DpSEhDm^cB\\lFxKdDC|DfL~E`vAq_@|UiDaBpNkB`^gBrQNtDsA`PhQaI`@VbIbFhBzBlFb@CzCt@lDrCiC~BcEtCqCvLiAvCb@`Hz@bBpAcBnTP~DoAjDSt@J~@p@pCmApL_Ft@RbL~DSlEs@fPkGjWeLmFte@xGaBjFKtDcA`CJ}DdZsrA}QeNrnCeTcCaHj@sGdCoCuC{j@Au_@tEaeAxC_^sD}Si@mDvBkOsh@cGnEu@biA{C|D{VzVsSlRvBbsAgf@jEe@eQifA_Mm{@uCe@cBkAgCaCJkD@iCBkC@sC?{CCiCAkCCoBEoDGuCIaBE[AmCIiCGiBC]G{@iRe@cN"
+        },
+        {
+          "name": "October District (Октябрь району)",
+          "osmId": 15600028,
+          "adminLevel": 6,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 42.7847506,
+            "maxLat": 42.868076,
+            "minLng": 74.5839724,
+            "maxLng": 74.7115054
+          },
+          "encodedPolyline": "cyndGidifM?lAAR?`@C`DEtEGrHC|AG|GAvACtC?^AZAnA?v@AdAAp@CjC?XEnFAx@E`GCtB?`@ARJ?J@d@@xBDbCFlABxCHxBD`@@pBDdJTdEHN@`IPzAD`GLpEJP@|BDhDFjEFt@@J@L@\\DtCHpR`@J@vBDbR`@`BBfd@bAhR\\bRd@N@tEFl@@vFFZAhJMjCEF?lACCyACy@QwFGwBEsBAm@N@zA[`@Gl@Bv@^lAEzA\\~A`AlBLZ@l@aGq@]o@c@q@k@q@w@UUkAuA{@iAc@Wg@OEq@Ai@GeAUmCm@{BYsBSqBKwBe@wICu@@IDe@HcAHwC?iCK}AAw@A_AUaBm@wAc@aB]_CEg@Fi@E}AM}@EoBcC{P}CsRBqGvAh@|Cw@pDGb@iJmNmGiHpCjAwJbA{Qv@yElEsXt@_F|AmDSoJsAyGSiCbOupA|A_AvAiMZ}BfQuLt^aIn@}Sa@{FZcEtCkLdW|EjE_SfNuW_DgMc@wNV}GcAkDeM_JcQ_J{CiLq@iGmRiEuEiBeFqGaEv@cGaBePoRg^yRoReRavA{s@oXuLyZcG~Muj@s`@gSyRrr@wf@gEYMc@QSyAUUuv@tH}SrBoDhB_[A`Bod@}R]_Anh@mAbx@w@ti@[lg@eA`n@]|a@RhZWza@j@p_AAvShBb[rExw@jC~OxItk@xAzQAzJQlTbUv@to@vCxu@`EzAHBAAh@GbDKlGCpB?t@Af@?DC~DA`@Ap@CzEAn@CdDGfHAjAAjBA^"
+        },
+        {
+          "name": "Sverdlov District (Свердлов району)",
+          "osmId": 15600029,
+          "adminLevel": 6,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 42.8633955,
+            "maxLat": 42.9728246,
+            "minLng": 74.5965347,
+            "maxLng": 74.7177168
+          },
+          "encodedPolyline": "elsdGme}fM~@oh@v@o\\r@i[iFP_`@pxBuCBeAAkPmBu@IWAS?MBmItCmN{Aa@|BlTpFs@nG`Cn@SxAmDi@YhC}@SUnBfAVsA|Iw@USzAOIk@bE[vBSrAYjBOhA[tB[tBWfB}@jGQnAgBnNg@hENLi@~D}A|KnDb@pBXt@JbANrARc@tJ_Bd_@wArZu@nOa@|PDtIR~Os@?Ac@iEFG|A_Jf@aC?oEIoEQ_J[AWc@I@{@{QmCcDdRaDdN]Kq@[}D}@gBiEuBmBsBq@aAUkCq@gA]oAa@Oh@IjHBlLqEx@_DBgBf@_CGs@CqC@{ACkBIoBRsAd@eB`AqBlA_LMaBCkBc@iAaAeA{@cCxWOBa@tABvJ|QFpXVfF?xGm@lEc@r@K`Ci@rIyAvKiB`Cc@dB}@DCr@Q~AxFZ~ANz@Dd@@vACp@OlAQz@aA`DyAvEoDpK_@nBg@jDCdABvAJ~C`@pKBxAcA~HWnBCXo@OaAIu@h@aCj@oANmAe@]c@_@Gq@L[FgB[Wg@u@e@k@AeAa@}@qAk@F}@r@}BJwADk@j@s@Ta@Ga@Ca@Lo@h@iCxC{@t@o@Jk@Jc@EWAMFQH{@Xk@AqAgAs@]k@a@wAPk@Cs@Hw@IiAOcBj@o@VcAC{AUmA@YXMj@G^[`@iCtB}AlAiA~@sAHcC`@qB~@cD|ByB~BiBnCkCnCmBv@wA?cAm@aAuA_@MgAJu@AcDWyCGiAWeB?}Ag@qC}@kDaA_@Gk@?SJ[Fk@GWKe@]iAWeAQmAYs@Ce@Jk@Hk@N[JODq@Ae@N{@Fk@Dm@F]FqA`@yAB{A`@GEGgAWUGuL|@uBnDkIp@aCFa@eIoCmKcCy]{R{EeBaNcKyEiDsIwCy@QeApNi@hJ}ArOaAnEoAhFiN|j@yFhVmA|Mu@jHeH_C}@qKuNoOgHeBQK_LoGkIiDa[kMgXeYuPuAcFoHwF~Q{CbWDfOdq@dRRHyAxLoOfWnQ|SzI~NZf@DHzAnAfCx@`D_@zOfDb]f\\fX}e@z@~AjHn@lb@iBzKl@|GGxGiBzEeCLGn@\\hCENAxK_ChAHrB|AJJfApApDuE~EcAbAxJBPd@h@jQeEhAkAlFHJ@bAe@|LhErCdAvDb@pCVlAFA`A]zNdBBt^kAh@bA~CpDzAfCz@TGpGBPGdKSf@AxLJ^@HBDFJFDD?fH?L?V?~@?fA?vA?r@@h@AbC?hC@\\@h@?dG?L?lA?f@?f@?t@?bE?PAR@hH@J?jDAbCAzD@x@?@?vB?nE@F?nA?D?fFPhCJxDL|DL|ADz@BT@R@~BFnCJnADd@BH@hAF|@LVBxBVjADd@@jAFh@@vDJl@@hDJdHLT@d@@W}@?MWaGOqDE}@]oJGoAAY?SEkAUoGWkHGwBGcBGoAAm@Cc@Ae@C_AC][sJA]MsDIgDC_Ap@AHM`UBbPRnOLxIPv\\n@nK^nVx@PmT@{JyA{QyIuk@kC_PsEyw@iBc[@wSk@q_AV{a@SiZ\\}a@dAan@Zmg@v@ui@lAcx@"
         }
       ]
     },
