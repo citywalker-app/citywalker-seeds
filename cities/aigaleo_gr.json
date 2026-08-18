@@ -1,0 +1,33 @@
+{
+  "name": "Aigaleo",
+  "countryCode": "GR",
+  "centerLat": 37.990045969879525,
+  "centerLng": 23.678812314859435,
+  "radiusKm": 2.7,
+  "aliases": [
+    "Municipality of Aigaleo",
+    "Egaleo",
+    "Δήμος Αιγάλεω",
+    "Αιγάλεω"
+  ],
+  "regions": [
+    {
+      "name": "Aigaleo",
+      "osmId": 1394279,
+      "adminLevel": 7,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 37.9761673,
+        "maxLat": 38.0093513,
+        "minLng": 23.6654808,
+        "maxLng": 23.6975826
+      },
+      "encodedPolyline": "eozfFazroC_@QoBi@gA[eA]sB{@CAMGEA_CeAyAo@]QMG]Ug@YWOi@[gBuAgA}@GECCCEAEAEEFAHAJAJCb@O~Ck@fDI^EPGPQb@MToAlBk@jAg@lASn@Up@GLQXINg@i@gDuDSYo@{@yDpGkD~Fi@z@a@r@iCtE{@|AgAtCgBpE{DjKSn@Of@a@jAk@bCoCtKaAbEaAdEe@vBo@vBgA`CoCzEiKlQ]j@aFtIaE~Gy@xAc@v@|C|AExB~Ct@fB^fBf@pBn@bA^BrAZTjCT`BV~@J`BL`BLfABJ@z@sC~CDtABxCDpCDx@BJ?fA@d@DLBNHl@d@t@j@f@XLHJJDH`AyAh@q@`@q@HDHFDBJDNJfBdA`CvA`CtAJFlEvCr@d@b@VHBH@FAtEoBdCeAxCqAjAg@@FBLTz@^xAFVBLZrAHAXGHoAnBGv@C`ACfACbDM`@ChAUr@KrAa@n@Qd@AH?|@BR@l@@`ADrAFALK~@THJCXKL@BBVI~@WZQrAo@|Aa@HENSdA_BfBuCvAmBz@eALw@DeA@y@Je@P_AVi@pCbB|BtAtCdBbATv@Jh@Hv@JzAr@Ti@ZoBVsERmCJeB@yAMeJEyHGyDIkECuAGuFK}FEsCAk@?k@@w@HuBDu@DmBFiCDyADqBBe@QMq@c@_@[UQ{D}C}AmA[WSS_@_@kByB}@_Ae@g@WYa@c@eAeAWYSSs@s@}@q@]n@OOkF}EoAmAgCuCoBoBeD_CyA_Aw@c@QIwD}AmB{@SDQGIEGCc@OME"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
