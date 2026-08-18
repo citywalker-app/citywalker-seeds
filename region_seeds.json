@@ -1,5 +1,5 @@
 {
-  "version": 119,
+  "version": 120,
   "cities": [
     {
       "name": "Amsterdam",
@@ -19845,6 +19845,181 @@
             "maxLng": 17.0654358
           },
           "encodedPolyline": "oyiwHwz~fBBgBIyBQ{CAeCH_DL}@VqAF[DUHc@\\wATu@Zy@`DgHx@aBJQ|AwBTa@No@Ja@BK@WBSD[F_@vAmK|AsLZoBFUz@sB^gA~@aCXu@DORgARgBDg@NmAJi@FYVgAh@iB\\}@^m@VWNO|@q@\\a@`@q@Tm@HYNy@L{@Bi@@cDFiB|@gIXqAf@sAJS`@o@tAsAJQNYHYJi@Fk@PFB@?L?@n@TTFz@\\RJ`@PXVb@d@r@r@b@d@RTLHNHVLd@Pj@TPFTDNDN@^Dl@dBR`@VPDB`A^n@nAfAlBNJLHXZ~@dARZf@^lDlFh@Vd@NLa@Vo@vCkH`DyHHFP\\pUpZlItKvEdFcAnCm@dBq@xCu@dFgA`H]|BSrBGp@WzGOjFCnCHjCNpBTfBZ`Bb@bBl@hB|@nBv@nCPr@TjA^`DBd@DzB?tCQjWKfVCxEAhCExAKrBQ|BWdB_@zBc@jBYfA]bAo@|AkAdCcL|SmHnN{@dBYt@Yx@]pAOp@iBw@aDwAKvBIzCAv@AlCBdDF|CV~EJfAJdAX|Bb@xChAjFd@dBh@jB`@pAXl@t@|AlA|A_APKB}Ap@sD`ByC|A_DlByD~CcM|JkJzHmSvPaPtMuQfO_r@`k@SEOY@sATi@P_AJk@Jc@nA}F?IWOu@YY[EYEcB?aAGcAGyAAe@AcCa@CKw@COEUEIc@s@q@]KMMUIi@Ko@a@e@SQg@_AgAcBi@cASg@g@w@g@Wk@KEBIHMd@IVYd@a@n@IJe@j@e@^i@VUHkALpA_QfAoN`@_FTmCjBMjAGp@GFAhAArACvBA@MGuDCiAGg@yAMAcB?_AAoB?e@?o@Aw@LEDKPc@L]HSNyB@cEEiC?MGmC@MAk@Ae@Ae@Au@ImCC{@CoAGwCCsAc@AEyAEuAGqCGwEG_C?eDO@U@eBt@ODgC|@oAl@}Al@gBx@KDa@H[?]IiBi@}AiA[Ko@Wu@y@NuAHaA@MBQxAwHBOZCd@?\\MZa@\\gARe@RUt@QLoE@KBa@@KL}@@IDY?WAc@OkECICQWi@ISEY@_B@]VYd@g@LOv@y@fAiAjAy@v@m@XU??@Ah@_@VSLIVSz@k@VONIbAg@DA^M`AUNAbBMV[LOb@k@T[Nc@L_@bCfCv@pAlB`Cd@l@Z\\RTj@_AXa@VYlBwA^S^Ib@B|ATT@TEb@Md@]d@m@Xg@rBuEPg@Nq@Ju@l@sLBqAAiAq@gKGy@@o@Lo@z@sClDoLT}@Py@z@gGRgB"
+        }
+      ]
+    },
+    {
+      "name": "Xaxim",
+      "countryCode": "BR",
+      "regions": [
+        {
+          "name": "Alvorada",
+          "osmId": 14534393,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.959979,
+            "maxLat": -26.9489973,
+            "minLng": -52.5382475,
+            "maxLng": -52.524411
+          },
+          "encodedPolyline": "~hocD`kt_ItT_MEGaEwJtD{ByAcDpGsDRKtAy@dEaCkBmEtGsDDEuHoQIKEKO]a@}@]u@{@qBcAh@k@DKDaDfBk@GeDpBoAp@cChAUOaBq@k@XoKwEEx@aAzBsH~Es@nAYxADpBb@pAhDvInEbXj@pC|AfEtCzErCtC"
+        },
+        {
+          "name": "Ari Lunardi",
+          "osmId": 14534388,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9675319,
+            "maxLat": -26.9568229,
+            "minLng": -52.5508049,
+            "maxLng": -52.5375811
+          },
+          "encodedPolyline": "b_pcDlfu_IF\\`LrJ`DnCr@n@hPnNzBtDpDhJdAe@RkCbAsDzAHDuHEqEhCLCiGoAG|BkE|BqExAJCyBCcCmCWMWGDaLqXmHbEcDhBiEdCkEdCiDpBuDvBaEtBeCvA"
+        },
+        {
+          "name": "Bela Vista",
+          "osmId": 14526856,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9591384,
+            "maxLat": -26.9484241,
+            "minLng": -52.5263549,
+            "maxLng": -52.5174285
+          },
+          "encodedPolyline": "jlpcD`lq_I_ANqMcRs@mCSw@Oe@a@cBgCrASmAKJg@`@qCbISzBMn@[f@eYkWeEdIzP`_@HhBGdAnKvEj@Y`Bp@TNbCiAnAq@dDqBj@F`DgBJEj@EbAi@`Ag@l@]rAs@dBeAg@oA"
+        },
+        {
+          "name": "Centro",
+          "osmId": 14534387,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9669543,
+            "maxLat": -26.9557518,
+            "minLng": -52.5397589,
+            "maxLng": -52.5273007
+          },
+          "encodedPolyline": "fpqcDjft_ISNmHbEcDhBiEdCCIcBgEyBaFkBeEyDxByDxB{D}ICIEGaEwJtD{ByAcDpGsDRKtAy@dEaCkBmEtGsDDEDClDqBLIzDuBFCnBlEDCpDsBNIrDwBDCvIhS`CvFkBtAiAp@GDnB|ElBnEEBsDrBQHoDtBGBjBtEEBgDbB"
+        },
+        {
+          "name": "Chagas",
+          "osmId": 14534392,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9550316,
+            "maxLat": -26.9501206,
+            "minLng": -52.5172893,
+            "maxLng": -52.5111044
+          },
+          "encodedPolyline": "n~ncDjao_IgHtM|BX`JdEbDpB`Ax@z@bAb@|@~@pFnBgAyAeHoB{EwFeK}AsBmCqC"
+        },
+        {
+          "name": "Distrito Industrial Sérgio Davi",
+          "osmId": 14534389,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9756385,
+            "maxLat": -26.9655905,
+            "minLng": -52.5575538,
+            "maxLng": -52.5517101
+          },
+          "encodedPolyline": "|uqcDzhw_IpE}BpA_@xCe@FqBro@tA_@rSsPa@_Dr@}Ok@oBkEu@?Q|DuDHEdA[B@zDAtC[f@_GeA|BmEX}BE{BmDkI"
+        },
+        {
+          "name": "Flor",
+          "osmId": 14534396,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9749544,
+            "maxLat": -26.964903,
+            "minLng": -52.5280529,
+            "maxLng": -52.5167428
+          },
+          "encodedPolyline": "pjscDrnp_Ix@rD`CtOoGzCjBrMmH`BcD`Bu@tBkE`Hk@yBk@_BeA}CiAyCu@cB[V_@Zw@l@yAwDMLqJaWaBv@sCcIfLqEd@mAhAe@`Bg@hBm@tLDVi@pDjArBuCzB`@XDpAPXRZhBf@fC"
+        },
+        {
+          "name": "Frei Bruno",
+          "osmId": 14534386,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9612431,
+            "maxLat": -26.9532828,
+            "minLng": -52.5426279,
+            "maxLng": -52.5360134
+          },
+          "encodedPolyline": "~hocD`kt_ItT_MBHzD|IxDyBxDyBjBdExB`FbBfEBHkEdCiDpBuDvBaEtBeCvAE?CAmFmD_CyCuGsKu@mC"
+        },
+        {
+          "name": "Germânico",
+          "osmId": 14534394,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9705114,
+            "maxLat": -26.9642417,
+            "minLng": -52.5305549,
+            "maxLng": -52.5244682
+          },
+          "encodedPolyline": "zarcDhur_Ih@hAbBy@pAF|@w@dEsDtBkBk@yBk@_BeA}CiAyCu@cB[V_@Zw@l@yAwDML[PkBfA_M|GkAr@oAr@GDb@`AvIhSDEHG~FeD"
+        },
+        {
+          "name": "Guarany",
+          "osmId": 14534391,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9763539,
+            "maxLat": -26.9645776,
+            "minLng": -52.5416714,
+            "maxLng": -52.5285906
+          },
+          "encodedPolyline": "~prcDtnr_IeErD}@v@qAGcBx@i@iA_GdDIFED`CvFkBtAiAp@GDnB|ElBnEEBsDrBQHoDtBGBjBtEEBgDbBSN`LpXFExDqBNKrDoBNIlBcAdAo@NGzDyBd@CNEHClAk@Os@xA]RI|BoAz@e@x@g@RK|A}@~@k@t@a@j@g@Z`BdJ}FBwA}XwQaAmAkF{Lg@oBqBiC"
+        },
+        {
+          "name": "Primavera",
+          "osmId": 14534395,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9679783,
+            "maxLat": -26.9576537,
+            "minLng": -52.5287942,
+            "maxLng": -52.5190453
+          },
+          "encodedPolyline": "v}pcD`sp_I~Fd@zJTrCbI`Bw@pJ`W[PkBfA_M|GkAr@oAr@GDb@`AEBsDvBOHqDrBEBoBmEGB{DtBMHmDpBEBuHoQIKEKO]a@}@]u@{@qB`Ag@l@]rAs@dBeAg@oAg@cC|KgGsByFfEoC`BI"
+        },
+        {
+          "name": "Santa Terezinha",
+          "osmId": 14534390,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.9748347,
+            "maxLat": -26.9664466,
+            "minLng": -52.5458158,
+            "maxLng": -52.5370424
+          },
+          "encodedPolyline": "||qcDf`u_IxDqBNKrDoBNIlBcAdAo@NGzDyBd@CNEHClAk@Os@xA]RI|BoAz@e@x@g@RK|A}@~@k@LFKlUyD~BnJlEKvTu@E}HSkJYPsE_CIuG[i@BwBIwBKaGO|BqExAJCyBCcCmCWMW"
+        },
+        {
+          "name": "Vila Diadema",
+          "osmId": 14534397,
+          "adminLevel": 10,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": -26.943967,
+            "maxLat": -26.9374258,
+            "minLng": -52.5077695,
+            "maxLng": -52.4955878
+          },
+          "encodedPolyline": "|elcD`{m_Il@iAp@sBb@qBh@sCG_BpD_Ew@eA~CuDkDaG|AmQvEc@xInB`@lD_BjBjFpKgHlGvFdJ|EtGwAnBrBvHwDtAIhBeEpA{@uEsFxF_AUiGyIaAuAqAKqAq@s@k@"
         }
       ]
     },
