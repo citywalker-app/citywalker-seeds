@@ -96,7 +96,9 @@ def save_cache(city, country, rel_id, admin_level, found_level, districts, slug=
         "rel_id": rel_id, "admin_level": admin_level, "found_level": found_level,
         "districts": [
             {"id": d["id"], "name": d["name"],
-             "points": [[p[0], p[1]] for p in d["points"]] if d.get("points") else None}
+             "points": [[p[0], p[1]] for p in d["points"]] if d.get("points") else None,
+             "extra_rings": [[[p[0], p[1]] for p in ring] for ring in d["extra_rings"]]
+                            if d.get("extra_rings") else None}
             for d in districts
         ],
     }, indent=2))
@@ -206,12 +208,12 @@ def find_districts(rel_id, city_admin_level, forced_level=None):
         time.sleep(2)
     return [], None
 
-def fetch_polygon(rel_id):
-    """Return the outer polygon for a single relation as [(lat, lng), ...]."""
+def fetch_polygons(rel_id):
+    """Return every significant outer ring for a relation, each as [(lat, lng), ...]."""
     data = _post(OVERPASS_URL, f'[out:json];rel({rel_id});out body;>;out skel qt;')
-    return _build_ring(data["elements"])
+    return _build_rings(data["elements"])
 
-def _build_ring(elements):
+def _build_rings(elements):
     nodes    = {e["id"]: (e["lat"], e["lon"]) for e in elements if e["type"] == "node"}
     ways     = {e["id"]: e["nodes"]           for e in elements if e["type"] == "way"}
     rels     = [e for e in elements if e["type"] == "relation"]
@@ -225,11 +227,11 @@ def _build_ring(elements):
         return []
 
     # A relation can have multiple disjoint outer rings (exclaves / multi-part
-    # districts, e.g. Munich's Stadtbezirke). Chain every ring we can build
-    # from the remaining segments, then keep the largest — same "most points
-    # as a proxy for size" heuristic _geojson_ring_to_points uses for
-    # GeoJSON MultiPolygons, applied here so OSM relations get the same
-    # treatment instead of silently returning just the first fragment.
+    # districts, e.g. Munich's Stadtbezirke, or Seattle's Greater Duwamish).
+    # Chain every ring we can build from the remaining segments, then keep
+    # every significant one (see _significant_rings) instead of only the
+    # largest — a "keep just the biggest" rule was silently dropping real,
+    # walkable secondary lobes as coverage gaps.
     rings = []
     while segs:
         ring = list(segs.pop(0))
@@ -245,8 +247,8 @@ def _build_ring(elements):
                 break
         rings.append(ring)
 
-    best = max(rings, key=len)
-    return [nodes[n] for n in best if n in nodes]
+    point_rings = [[nodes[n] for n in ring if n in nodes] for ring in rings]
+    return _significant_rings(point_rings)
 
 # ── Geometry ────────────────────────────────────────────────────────────────
 
@@ -412,13 +414,53 @@ def _geojson_ring_to_points(ring):
     """Convert a GeoJSON exterior ring [[lng, lat], ...] to [(lat, lng), ...]."""
     return [(coord[1], coord[0]) for coord in ring]
 
-def _largest_ring(geometry):
-    """Extract the exterior ring of the largest polygon from a Polygon or MultiPolygon."""
+def _ring_area_km2(points):
+    """
+    Planar-approximation area of a [(lat, lng), ...] ring, via the shoelace
+    formula on an equirectangular projection centered on the ring's own
+    latitude. Good enough at city scale to rank same-district fragments by
+    size — not meant for anything more precise than that.
+    """
+    if len(points) < 3:
+        return 0.0
+    lat0 = sum(p[0] for p in points) / len(points)
+    R = 6371.0
+    coslat0 = math.cos(math.radians(lat0))
+    xy = [(math.radians(lng) * coslat0 * R, math.radians(lat) * R) for lat, lng in points]
+    area = 0.0
+    for (x1, y1), (x2, y2) in zip(xy, xy[1:] + xy[:1]):
+        area += x1 * y2 - x2 * y1
+    return abs(area) / 2
+
+def _significant_rings(rings, min_area_fraction=0.15):
+    """
+    Rank same-district polygon fragments by area (descending) and drop ones
+    too small to matter, instead of the old "keep only the single largest"
+    heuristic — which was silently dropping real, walkable secondary lobes
+    (e.g. Seattle's Greater Duwamish splits into two comparably-sized parts;
+    Munich's Stadtbezirke exclaves are usually much smaller than their main
+    body). A fragment survives if its area is at least `min_area_fraction`
+    of the largest fragment's — high enough to filter GIS-artifact slivers
+    (traffic islands, digitization noise) but low enough to keep genuine
+    secondary lobes. Confirmed against Seattle's own data: Greater Duwamish's
+    second lobe is 84% of the first (kept), Capitol Hill's tiny fragments
+    are 5% or less of its main body (dropped), its real second lobe is 23%
+    (kept).
+    """
+    sized = [(r, _ring_area_km2(r)) for r in rings if len(r) >= 3]
+    sized = [(r, a) for r, a in sized if a > 0]
+    if not sized:
+        return []
+    sized.sort(key=lambda ra: ra[1], reverse=True)
+    largest_area = sized[0][1]
+    return [r for r, a in sized if a >= largest_area * min_area_fraction]
+
+def _all_rings(geometry):
+    """All exterior rings of a Polygon or MultiPolygon, as GeoJSON [lng, lat] rings."""
     if geometry["type"] == "Polygon":
-        return geometry["coordinates"][0]
+        return [geometry["coordinates"][0]]
     if geometry["type"] == "MultiPolygon":
-        # Pick the polygon with the most exterior-ring points as a proxy for largest
-        return max(geometry["coordinates"], key=lambda p: len(p[0]))[0]
+        return [poly[0] for poly in geometry["coordinates"]]
     return []
 
 def districts_from_geojson(url, name_field="NAME"):
@@ -426,26 +468,41 @@ def districts_from_geojson(url, name_field="NAME"):
     Download a GeoJSON FeatureCollection from url and return a list of
     {"name": str, "points": [(lat, lng), ...]} dicts ready for clustering.
     Skips features with fewer than 3 points.
+
+    A feature whose geometry is a MultiPolygon with more than one
+    significant fragment (see _significant_rings) becomes multiple district
+    entries — "Name", "Name (2)", "Name (3)", ... sorted by area descending
+    — instead of silently keeping only the largest and dropping the rest as
+    a coverage gap.
     """
     print(f"  Fetching {url[:80]}{'…' if len(url) > 80 else ''}")
     data = _get(url)
     features = data.get("features", [])
     districts = []
     skipped = 0
+    split_notes = []
     for feat in features:
         name = (feat.get("properties") or {}).get(name_field) or "Unknown"
         geom = feat.get("geometry")
         if not geom:
             skipped += 1
             continue
-        ring = _largest_ring(geom)
-        pts  = _geojson_ring_to_points(ring)
-        if len(pts) < 3:
+        rings = _significant_rings(_all_rings(geom))
+        if not rings:
             skipped += 1
             continue
-        districts.append({"name": name, "points": pts})
+        if len(rings) > 1:
+            split_notes.append(f"{name} → {len(rings)} parts")
+        for i, ring in enumerate(rings):
+            pts = _geojson_ring_to_points(ring)
+            if len(pts) < 3:
+                continue
+            label = name if i == 0 else f"{name} ({i + 1})"
+            districts.append({"name": label, "points": pts})
     if skipped:
         print(f"  ⚠️  Skipped {skipped} features (no geometry or too few points)")
+    if split_notes:
+        print(f"  ✂️   Split multi-part districts: {', '.join(split_notes)}")
     print(f"  {len(districts)} districts loaded from GeoJSON")
     return districts
 
@@ -671,7 +728,9 @@ def main():
             found_level = cache["found_level"]
             cached_districts = [
                 {"id": d["id"], "name": d["name"],
-                 "points": [tuple(p) for p in d["points"]] if d["points"] else None}
+                 "points": [tuple(p) for p in d["points"]] if d["points"] else None,
+                 "extra_rings": [[tuple(p) for p in ring] for ring in d["extra_rings"]]
+                                if d.get("extra_rings") else None}
                 for d in cache["districts"]
             ]
             print(f"    (rel:{rel_id}  al:{admin_level})")
@@ -698,7 +757,7 @@ def main():
             cached_districts = [
                 {"id": d["id"],
                  "name": _pick_name(d.get("tags") or {}, i),
-                 "points": None}
+                 "points": None, "extra_rings": None}
                 for i, d in enumerate(raw_districts)
             ]
             save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts, args.slug)
@@ -713,19 +772,32 @@ def main():
                 continue
             print(f"    [{i+1:>2}/{total}] {d['name']}", end="  ", flush=True)
             try:
-                pts = fetch_polygon(d["id"])
-                if len(pts) < 3:
+                rings = fetch_polygons(d["id"])
+                if not rings:
                     print("skip (too few points)")
                     d["points"] = []
+                    d["extra_rings"] = []
                 else:
-                    d["points"] = pts
-                    print(f"({len(pts)} pts)")
+                    d["points"] = rings[0]
+                    d["extra_rings"] = rings[1:]
+                    extra = f", +{len(rings) - 1} more part(s)" if len(rings) > 1 else ""
+                    print(f"({len(rings[0])} pts{extra})")
             except Exception as e:
                 print(f"ERROR: {e}")
             save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts, args.slug)
             time.sleep(3)
 
-        fetched = [d for d in cached_districts if d.get("points")]
+        # Expand any district with extra significant rings (a multi-part
+        # relation, e.g. an exclave district) into additional named entries
+        # — "Name", "Name (2)", "Name (3)" — instead of silently dropping
+        # the smaller parts as a coverage gap.
+        fetched = []
+        for d in cached_districts:
+            if not d.get("points"):
+                continue
+            fetched.append({"id": d["id"], "name": d["name"], "points": d["points"]})
+            for j, ring in enumerate(d.get("extra_rings") or []):
+                fetched.append({"id": d["id"], "name": f"{d['name']} ({j + 2})", "points": ring})
         if not fetched:
             print("❌  No polygons fetched successfully.")
             sys.exit(1)
