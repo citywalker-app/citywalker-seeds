@@ -1,6 +1,7 @@
 {
   "name": "Milan",
   "countryCode": "IT",
+  "aliases": ["Milano"],
   "centerLat": 45.461295,
   "centerLng": 9.1595,
   "radiusKm": 10.51,

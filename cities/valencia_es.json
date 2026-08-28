@@ -1,6 +1,7 @@
 {
   "name": "Valencia",
   "countryCode": "ES",
+  "aliases": ["València"],
   "regions": [
     {
       "name": "Algirós",

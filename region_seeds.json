@@ -1,5 +1,5 @@
 {
-  "version": 131,
+  "version": 132,
   "cities": [
     {
       "name": "Aigaleo",
@@ -5418,6 +5418,10 @@
     {
       "name": "Copenhagen",
       "countryCode": "DK",
+      "aliases": [
+        "København",
+        "Kobenhavn"
+      ],
       "centerLat": 55.672775,
       "centerLng": 12.552555,
       "radiusKm": 7.77,
@@ -7019,6 +7023,9 @@
     {
       "name": "Gent",
       "countryCode": "BE",
+      "aliases": [
+        "Ghent"
+      ],
       "centerLat": 51.084215,
       "centerLng": 3.71456,
       "radiusKm": 13.84,
@@ -10257,6 +10264,9 @@
     {
       "name": "Lisbon",
       "countryCode": "PT",
+      "aliases": [
+        "Lisboa"
+      ],
       "centerLat": 38.74408,
       "centerLng": -9.158085,
       "radiusKm": 8.5,
@@ -11446,6 +11456,9 @@
     {
       "name": "Milan",
       "countryCode": "IT",
+      "aliases": [
+        "Milano"
+      ],
       "centerLat": 45.461295,
       "centerLng": 9.1595,
       "radiusKm": 10.51,
@@ -12067,6 +12080,11 @@
     {
       "name": "Munich",
       "countryCode": "DE",
+      "aliases": [
+        "München",
+        "Muenchen",
+        "Munchen"
+      ],
       "centerLat": 48.15487,
       "centerLng": 11.541845,
       "radiusKm": 13.85,
@@ -12425,6 +12443,10 @@
     {
       "name": "Nürnberg",
       "countryCode": "DE",
+      "aliases": [
+        "Nuremberg",
+        "Nurnberg"
+      ],
       "centerLat": 49.43609,
       "centerLng": 11.10112,
       "radiusKm": 14.15,
@@ -14545,6 +14567,9 @@
     {
       "name": "Rome",
       "countryCode": "IT",
+      "aliases": [
+        "Roma"
+      ],
       "centerLat": 41.87976,
       "centerLng": 12.545115,
       "radiusKm": 30.83,
@@ -16685,6 +16710,9 @@
     {
       "name": "Seville",
       "countryCode": "ES",
+      "aliases": [
+        "Sevilla"
+      ],
       "centerLat": 37.38298,
       "centerLng": -5.92395,
       "radiusKm": 11.39,
@@ -19686,6 +19714,9 @@
     {
       "name": "Valencia",
       "countryCode": "ES",
+      "aliases": [
+        "València"
+      ],
       "regions": [
         {
           "name": "Algirós",
@@ -20700,6 +20731,9 @@
     {
       "name": "Warsaw",
       "countryCode": "PL",
+      "aliases": [
+        "Warszawa"
+      ],
       "centerLat": 52.233,
       "centerLng": 21.06142,
       "radiusKm": 16.89,

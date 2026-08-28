@@ -1,6 +1,7 @@
 {
   "name": "Copenhagen",
   "countryCode": "DK",
+  "aliases": ["København", "Kobenhavn"],
   "centerLat": 55.672775,
   "centerLng": 12.552555,
   "radiusKm": 7.77,

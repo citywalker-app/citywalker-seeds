@@ -1,6 +1,7 @@
 {
   "name": "Nürnberg",
   "countryCode": "DE",
+  "aliases": ["Nuremberg", "Nurnberg"],
   "centerLat": 49.43609,
   "centerLng": 11.10112,
   "radiusKm": 14.15,

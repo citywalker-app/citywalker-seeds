@@ -1,6 +1,7 @@
 {
   "name": "Gent",
   "countryCode": "BE",
+  "aliases": ["Ghent"],
   "centerLat": 51.084215,
   "centerLng": 3.71456,
   "radiusKm": 13.84,

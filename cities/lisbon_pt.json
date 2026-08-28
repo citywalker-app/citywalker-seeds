@@ -1,6 +1,7 @@
 {
   "name": "Lisbon",
   "countryCode": "PT",
+  "aliases": ["Lisboa"],
   "centerLat": 38.74408,
   "centerLng": -9.158085,
   "radiusKm": 8.5,

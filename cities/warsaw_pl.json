@@ -1,6 +1,7 @@
 {
   "name": "Warsaw",
   "countryCode": "PL",
+  "aliases": ["Warszawa"],
   "centerLat": 52.233,
   "centerLng": 21.06142,
   "radiusKm": 16.89,

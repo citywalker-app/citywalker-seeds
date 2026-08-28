@@ -1,6 +1,7 @@
 {
   "name": "Rome",
   "countryCode": "IT",
+  "aliases": ["Roma"],
   "centerLat": 41.87976,
   "centerLng": 12.545115,
   "radiusKm": 30.83,

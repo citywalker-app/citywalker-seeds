@@ -1,6 +1,7 @@
 {
   "name": "Munich",
   "countryCode": "DE",
+  "aliases": ["München", "Muenchen", "Munchen"],
   "centerLat": 48.15487,
   "centerLng": 11.541845,
   "radiusKm": 13.85,

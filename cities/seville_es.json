@@ -1,6 +1,7 @@
 {
   "name": "Seville",
   "countryCode": "ES",
+  "aliases": ["Sevilla"],
   "centerLat": 37.38298,
   "centerLng": -5.92395,
   "radiusKm": 11.39,
