@@ -1,6 +1,9 @@
 {
   "name": "Szczecin",
   "countryCode": "PL",
+  "centerLat": 53.429705,
+  "centerLng": 14.62462,
+  "radiusKm": 16.46,
   "regions": [
     {
       "name": "Północ",

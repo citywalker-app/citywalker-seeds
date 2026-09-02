@@ -1,6 +1,9 @@
 {
   "name": "Bergen",
   "countryCode": "NO",
+  "centerLat": 60.35609,
+  "centerLng": 5.415685,
+  "radiusKm": 21.93,
   "regions": [
     {
       "name": "Arna",

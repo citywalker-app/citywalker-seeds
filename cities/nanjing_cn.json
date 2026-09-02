@@ -1,6 +1,9 @@
 {
   "name": "Nanjing",
   "countryCode": "CN",
+  "centerLat": 32.057355,
+  "centerLng": 118.911935,
+  "radiusKm": 35.89,
   "regions": [
     {
       "name": "Gulou District (鼓楼区)",

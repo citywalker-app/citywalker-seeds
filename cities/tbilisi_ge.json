@@ -1,6 +1,9 @@
 {
   "name": "Tbilisi",
   "countryCode": "GE",
+  "centerLat": 41.730835,
+  "centerLng": 44.806745,
+  "radiusKm": 18.12,
   "regions": [
     {
       "name": "Chugureti District (ჩუღურეთის რაიონი)",

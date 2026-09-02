@@ -1,6 +1,9 @@
 {
   "name": "Buenos Aires",
   "countryCode": "AR",
+  "centerLat": -34.616185,
+  "centerLng": -58.433295,
+  "radiusKm": 10.3,
   "regions": [
     {
       "name": "Belgrano",

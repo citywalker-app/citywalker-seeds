@@ -1,6 +1,9 @@
 {
   "name": "Dresden",
   "countryCode": "DE",
+  "centerLat": 51.07631,
+  "centerLng": 13.77269,
+  "radiusKm": 14.2,
   "regions": [
     {
       "name": "Altfranken",

@@ -1,6 +1,9 @@
 {
   "name": "Ankara",
   "countryCode": "TR",
+  "centerLat": 39.720085,
+  "centerLng": 32.809035,
+  "radiusKm": 66.45,
   "regions": [
     {
       "name": "Ahmetçayırı Mahallesi",

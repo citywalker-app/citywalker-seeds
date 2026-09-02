@@ -1,6 +1,9 @@
 {
   "name": "Vilnius",
   "countryCode": "LT",
+  "centerLat": 54.700615,
+  "centerLng": 25.253,
+  "radiusKm": 17.16,
   "regions": [
     {
       "name": "Antakalnis Eldership (Antakalnio seniūnija)",

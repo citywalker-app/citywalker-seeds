@@ -1,6 +1,9 @@
 {
   "name": "Yaizu",
   "countryCode": "JP",
+  "centerLat": 34.84494,
+  "centerLng": 138.292775,
+  "radiusKm": 9.17,
   "regions": [
     {
       "name": "すみれ台二丁目",

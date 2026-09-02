@@ -1,6 +1,9 @@
 {
   "name": "Mexico City",
   "countryCode": "MX",
+  "centerLat": 19.32074,
+  "centerLng": -99.15261,
+  "radiusKm": 32.9,
   "regions": [
     {
       "name": "Azcapotzalco",

@@ -1,6 +1,9 @@
 {
   "name": "Chemnitz",
   "countryCode": "DE",
+  "centerLat": 50.822645,
+  "centerLng": 12.890755,
+  "radiusKm": 11.55,
   "regions": [
     {
       "name": "Altendorf",

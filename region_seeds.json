@@ -1,5 +1,5 @@
 {
-  "version": 136,
+  "version": 137,
   "cities": [
     {
       "name": "Aigaleo",
@@ -158,6 +158,9 @@
     {
       "name": "Ankara",
       "countryCode": "TR",
+      "centerLat": 39.720085,
+      "centerLng": 32.809035,
+      "radiusKm": 66.45,
       "regions": [
         {
           "name": "Ahmetçayırı Mahallesi",
@@ -424,6 +427,9 @@
     {
       "name": "Antalya",
       "countryCode": "TR",
+      "centerLat": 36.899485,
+      "centerLng": 30.783365,
+      "radiusKm": 26.95,
       "regions": [
         {
           "name": "Atatürk Mahallesi",
@@ -1342,6 +1348,9 @@
     {
       "name": "Auckland",
       "countryCode": "NZ",
+      "centerLat": -36.53143,
+      "centerLng": 174.899775,
+      "radiusKm": 101.74,
       "regions": [
         {
           "name": "Albert-Eden",
@@ -1760,6 +1769,9 @@
     {
       "name": "Belgrade",
       "countryCode": "RS",
+      "centerLat": 44.83613,
+      "centerLng": 20.38625,
+      "radiusKm": 30.36,
       "regions": [
         {
           "name": "Cukarica Urban Municipality (Градска општина Чукарица)",
@@ -1896,6 +1908,9 @@
     {
       "name": "Bengaluru",
       "countryCode": "IN",
+      "centerLat": 12.988055,
+      "centerLng": 77.62212,
+      "radiusKm": 20.13,
       "regions": [
         {
           "name": "Agaram",
@@ -2097,6 +2112,9 @@
     {
       "name": "Bergen",
       "countryCode": "NO",
+      "centerLat": 60.35609,
+      "centerLng": 5.415685,
+      "radiusKm": 21.93,
       "regions": [
         {
           "name": "Arna",
@@ -3920,6 +3938,9 @@
     {
       "name": "Buenos Aires",
       "countryCode": "AR",
+      "centerLat": -34.616185,
+      "centerLng": -58.433295,
+      "radiusKm": 10.3,
       "regions": [
         {
           "name": "Belgrano",
@@ -4043,6 +4064,9 @@
     {
       "name": "Cairo",
       "countryCode": "EG",
+      "centerLat": 29.96564,
+      "centerLng": 31.56753,
+      "radiusKm": 40.65,
       "regions": [
         {
           "name": "Ain Shams",
@@ -4240,6 +4264,9 @@
     {
       "name": "Chemnitz",
       "countryCode": "DE",
+      "centerLat": 50.822645,
+      "centerLng": 12.890755,
+      "radiusKm": 11.55,
       "regions": [
         {
           "name": "Altendorf",
@@ -5347,6 +5374,9 @@
     {
       "name": "Coimbatore",
       "countryCode": "IN",
+      "centerLat": 11.008985,
+      "centerLng": 76.967185,
+      "radiusKm": 13.58,
       "regions": [
         {
           "name": "Central Zone",
@@ -6156,6 +6186,9 @@
     {
       "name": "Dresden",
       "countryCode": "DE",
+      "centerLat": 51.07631,
+      "centerLng": 13.77269,
+      "radiusKm": 14.2,
       "regions": [
         {
           "name": "Altfranken",
@@ -6670,6 +6703,9 @@
     {
       "name": "Erfurt",
       "countryCode": "DE",
+      "centerLat": 50.985185,
+      "centerLng": 11.01938,
+      "radiusKm": 11.61,
       "regions": [
         {
           "name": "Andreasvorstadt",
@@ -7023,6 +7059,9 @@
     {
       "name": "Gdańsk",
       "countryCode": "PL",
+      "centerLat": 54.36107,
+      "centerLng": 18.68987,
+      "radiusKm": 18.59,
       "regions": [
         {
           "name": "Aniołki",
@@ -8516,6 +8555,9 @@
     {
       "name": "Ibirubá",
       "countryCode": "BR",
+      "centerLat": -28.63581,
+      "centerLng": -53.096975,
+      "radiusKm": 2.78,
       "regions": [
         {
           "name": "Bangu",
@@ -9385,6 +9427,9 @@
     {
       "name": "İzmit",
       "countryCode": "TR",
+      "centerLat": 40.7698,
+      "centerLng": 29.94511,
+      "radiusKm": 8.57,
       "regions": [
         {
           "name": "Arızlı Mahallesi",
@@ -9521,6 +9566,9 @@
     {
       "name": "Jyväskylä",
       "countryCode": "FI",
+      "centerLat": 62.251705,
+      "centerLng": 25.668385,
+      "radiusKm": 25.0,
       "regions": [
         {
           "name": "Halssila",
@@ -10182,6 +10230,9 @@
     {
       "name": "Kyoto",
       "countryCode": "JP",
+      "centerLat": 35.09807,
+      "centerLng": 135.718725,
+      "radiusKm": 25.77,
       "regions": [
         {
           "name": "Fushimi Ward (伏見区)",
@@ -11716,6 +11767,9 @@
     {
       "name": "Medway",
       "countryCode": "GB",
+      "centerLat": 51.407605,
+      "centerLng": 0.560435,
+      "radiusKm": 13.24,
       "regions": [
         {
           "name": "All Saints",
@@ -11878,6 +11932,9 @@
     {
       "name": "Mexico City",
       "countryCode": "MX",
+      "centerLat": 19.32074,
+      "centerLng": -99.15261,
+      "radiusKm": 32.9,
       "regions": [
         {
           "name": "Azcapotzalco",
@@ -12808,6 +12865,9 @@
     {
       "name": "Nanjing",
       "countryCode": "CN",
+      "centerLat": 32.057355,
+      "centerLng": 118.911935,
+      "radiusKm": 35.89,
       "regions": [
         {
           "name": "Gulou District (鼓楼区)",
@@ -13578,6 +13638,9 @@
     {
       "name": "Osaka",
       "countryCode": "JP",
+      "centerLat": 34.6775,
+      "centerLng": 135.454575,
+      "radiusKm": 15.84,
       "regions": [
         {
           "name": "Abeno Ward (阿倍野区)",
@@ -14213,6 +14276,9 @@
     {
       "name": "Passos",
       "countryCode": "BR",
+      "centerLat": -20.723315,
+      "centerLng": -46.61896,
+      "radiusKm": 5.27,
       "regions": [
         {
           "name": "Aeroporto",
@@ -14491,6 +14557,9 @@
     {
       "name": "Portland",
       "countryCode": "US",
+      "centerLat": 45.54271,
+      "centerLng": -122.66114,
+      "radiusKm": 18.48,
       "regions": [
         {
           "name": "Arlington Heights",
@@ -16331,6 +16400,9 @@
     {
       "name": "Santa Fe de la Vera Cruz",
       "countryCode": "AR",
+      "centerLat": -31.61434,
+      "centerLng": -60.67632,
+      "radiusKm": 9.93,
       "regions": [
         {
           "name": "Barranquitas",
@@ -16532,6 +16604,9 @@
     {
       "name": "Santiago",
       "countryCode": "CL",
+      "centerLat": -33.362205,
+      "centerLng": -70.56551,
+      "radiusKm": 37.5,
       "regions": [
         {
           "name": "Cerrillos",
@@ -17158,6 +17233,9 @@
     {
       "name": "Seattle",
       "countryCode": "US",
+      "centerLat": 47.614835,
+      "centerLng": -122.336,
+      "radiusKm": 14.7,
       "regions": [
         {
           "name": "Ballard",
@@ -17437,6 +17515,9 @@
     {
       "name": "Seoul",
       "countryCode": "KR",
+      "centerLat": 37.56501,
+      "centerLng": 126.97415,
+      "radiusKm": 18.61,
       "regions": [
         {
           "name": "Dobong-gu (도봉구)",
@@ -18934,6 +19015,9 @@
     {
       "name": "Szczecin",
       "countryCode": "PL",
+      "centerLat": 53.429705,
+      "centerLng": 14.62462,
+      "radiusKm": 16.46,
       "regions": [
         {
           "name": "Północ",
@@ -19157,6 +19241,9 @@
     {
       "name": "Tashkent",
       "countryCode": "UZ",
+      "centerLat": 41.256385,
+      "centerLng": 69.388945,
+      "radiusKm": 28.53,
       "regions": [
         {
           "name": "Almazar District (Olmazor Tumani)",
@@ -19345,6 +19432,9 @@
     {
       "name": "Tbilisi",
       "countryCode": "GE",
+      "centerLat": 41.730835,
+      "centerLng": 44.806745,
+      "radiusKm": 18.12,
       "regions": [
         {
           "name": "Chugureti District (ჩუღურეთის რაიონი)",
@@ -19481,6 +19571,9 @@
     {
       "name": "Teresina",
       "countryCode": "BR",
+      "centerLat": -5.08551,
+      "centerLng": -42.779025,
+      "radiusKm": 16.04,
       "regions": [
         {
           "name": "Acarapé",
@@ -19921,6 +20014,9 @@
     {
       "name": "Toronto",
       "countryCode": "CA",
+      "centerLat": 43.71822,
+      "centerLng": -79.37625,
+      "radiusKm": 22.71,
       "regions": [
         {
           "name": "Caledonia-Fairbank",
@@ -20122,6 +20218,9 @@
     {
       "name": "Trondheim",
       "countryCode": "NO",
+      "centerLat": 63.33825,
+      "centerLng": 10.364365,
+      "radiusKm": 25.83,
       "regions": [
         {
           "name": "Byneset-Leinstrand 14",
@@ -20449,6 +20548,9 @@
     {
       "name": "Uberaba",
       "countryCode": "BR",
+      "centerLat": -19.759255,
+      "centerLng": -47.93521,
+      "radiusKm": 11.56,
       "regions": [
         {
           "name": "Alfredo Freire",
@@ -20772,6 +20874,9 @@
     {
       "name": "Valencia",
       "countryCode": "ES",
+      "centerLat": 39.42253,
+      "centerLng": -0.352535,
+      "radiusKm": 17.43,
       "aliases": [
         "València"
       ],
@@ -21089,6 +21194,9 @@
     {
       "name": "Verona",
       "countryCode": "IT",
+      "centerLat": 45.44562,
+      "centerLng": 11.00052,
+      "radiusKm": 13.27,
       "regions": [
         {
           "name": "Centro Storico",
@@ -21510,6 +21618,9 @@
     {
       "name": "Vilnius",
       "countryCode": "LT",
+      "centerLat": 54.700615,
+      "centerLng": 25.253,
+      "radiusKm": 17.16,
       "regions": [
         {
           "name": "Antakalnis Eldership (Antakalnio seniūnija)",
@@ -22682,6 +22793,9 @@
     {
       "name": "Xaxim",
       "countryCode": "BR",
+      "centerLat": -26.95689,
+      "centerLng": -52.52657,
+      "radiusKm": 3.63,
       "regions": [
         {
           "name": "Alvorada",
@@ -22857,6 +22971,9 @@
     {
       "name": "Yaizu",
       "countryCode": "JP",
+      "centerLat": 34.84494,
+      "centerLng": 138.292775,
+      "radiusKm": 9.17,
       "regions": [
         {
           "name": "すみれ台二丁目",
@@ -23569,6 +23686,9 @@
     {
       "name": "Zurich",
       "countryCode": "CH",
+      "centerLat": 47.37744,
+      "centerLng": 8.536735,
+      "radiusKm": 7.15,
       "regions": [
         {
           "name": "Altstadt",

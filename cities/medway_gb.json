@@ -1,6 +1,9 @@
 {
   "name": "Medway",
   "countryCode": "GB",
+  "centerLat": 51.407605,
+  "centerLng": 0.560435,
+  "radiusKm": 13.24,
   "regions": [
     {
       "name": "All Saints",

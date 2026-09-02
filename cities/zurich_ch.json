@@ -1,6 +1,9 @@
 {
   "name": "Zurich",
   "countryCode": "CH",
+  "centerLat": 47.37744,
+  "centerLng": 8.536735,
+  "radiusKm": 7.15,
   "regions": [
     {
       "name": "Altstadt",

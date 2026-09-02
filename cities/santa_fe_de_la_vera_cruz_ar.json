@@ -1,6 +1,9 @@
 {
   "name": "Santa Fe de la Vera Cruz",
   "countryCode": "AR",
+  "centerLat": -31.61434,
+  "centerLng": -60.67632,
+  "radiusKm": 9.93,
   "regions": [
     {
       "name": "Barranquitas",

@@ -1,6 +1,9 @@
 {
   "name": "Cairo",
   "countryCode": "EG",
+  "centerLat": 29.96564,
+  "centerLng": 31.56753,
+  "radiusKm": 40.65,
   "regions": [
     {
       "name": "Ain Shams",

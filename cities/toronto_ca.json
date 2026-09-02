@@ -1,6 +1,9 @@
 {
   "name": "Toronto",
   "countryCode": "CA",
+  "centerLat": 43.71822,
+  "centerLng": -79.37625,
+  "radiusKm": 22.71,
   "regions": [
     {
       "name": "Caledonia-Fairbank",

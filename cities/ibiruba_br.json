@@ -1,6 +1,9 @@
 {
   "name": "Ibirubá",
   "countryCode": "BR",
+  "centerLat": -28.63581,
+  "centerLng": -53.096975,
+  "radiusKm": 2.78,
   "regions": [
     {
       "name": "Bangu",

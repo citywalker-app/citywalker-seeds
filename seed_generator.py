@@ -261,6 +261,14 @@ def centroid(points):
 def _dist2(a, b):
     return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
 
+def _haversine_km(lat1, lng1, lat2, lng2):
+    r = 6371.0
+    dlat = math.radians(lat2 - lat1)
+    dlng = math.radians(lng2 - lng1)
+    a = (math.sin(dlat / 2) ** 2
+         + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlng / 2) ** 2)
+    return r * 2 * math.asin(math.sqrt(a))
+
 def kmeans(points, k, max_iter=150, seed=42):
     """K-means++ on (lat, lng) tuples. Returns list of cluster indices."""
     random.seed(seed)
@@ -869,9 +877,25 @@ def main():
         source["license"]     = args.source_license or "unknown"
         source["attribution"] = args.source_attribution or "unknown"
 
+    # centerLat/centerLng/radiusKm — the app's RegionSeedLoader.findCity does
+    # coordinate matching first and skips a seed entirely if any of the three is
+    # missing, so every seed must carry them. Center is the midpoint of every
+    # region point's bounding box; radius is the max haversine distance from that
+    # center to any region point (same computation as backfill_center_radius.py).
+    all_pts   = [p for r in regions_raw for p in r["points"]]
+    all_lats  = [p[0] for p in all_pts]
+    all_lngs  = [p[1] for p in all_pts]
+    center_lat = (min(all_lats) + max(all_lats)) / 2
+    center_lng = (min(all_lngs) + max(all_lngs)) / 2
+    radius_km  = max(_haversine_km(center_lat, center_lng, la, ln)
+                     for la, ln in all_pts)
+
     city_entry = {
         "name":        args.city,
         "countryCode": args.country.upper(),
+        "centerLat":   round(center_lat, 6),
+        "centerLng":   round(center_lng, 6),
+        "radiusKm":    round(radius_km, 2),
         "regions":     seed_regions,
         "source":      source,
     }

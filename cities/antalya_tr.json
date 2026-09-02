@@ -1,6 +1,9 @@
 {
   "name": "Antalya",
   "countryCode": "TR",
+  "centerLat": 36.899485,
+  "centerLng": 30.783365,
+  "radiusKm": 26.95,
   "regions": [
     {
       "name": "Atatürk Mahallesi",

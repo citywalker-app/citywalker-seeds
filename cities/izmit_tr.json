@@ -1,6 +1,9 @@
 {
   "name": "İzmit",
   "countryCode": "TR",
+  "centerLat": 40.7698,
+  "centerLng": 29.94511,
+  "radiusKm": 8.57,
   "regions": [
     {
       "name": "Arızlı Mahallesi",

@@ -1,6 +1,9 @@
 {
   "name": "Portland",
   "countryCode": "US",
+  "centerLat": 45.54271,
+  "centerLng": -122.66114,
+  "radiusKm": 18.48,
   "regions": [
     {
       "name": "Arlington Heights",

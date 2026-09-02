@@ -1,6 +1,9 @@
 {
   "name": "Tashkent",
   "countryCode": "UZ",
+  "centerLat": 41.256385,
+  "centerLng": 69.388945,
+  "radiusKm": 28.53,
   "regions": [
     {
       "name": "Almazar District (Olmazor Tumani)",

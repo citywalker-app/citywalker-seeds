@@ -1,6 +1,9 @@
 {
   "name": "Trondheim",
   "countryCode": "NO",
+  "centerLat": 63.33825,
+  "centerLng": 10.364365,
+  "radiusKm": 25.83,
   "regions": [
     {
       "name": "Byneset-Leinstrand 14",

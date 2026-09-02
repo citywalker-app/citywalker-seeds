@@ -1,6 +1,9 @@
 {
   "name": "Uberaba",
   "countryCode": "BR",
+  "centerLat": -19.759255,
+  "centerLng": -47.93521,
+  "radiusKm": 11.56,
   "regions": [
     {
       "name": "Alfredo Freire",

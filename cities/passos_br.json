@@ -1,6 +1,9 @@
 {
   "name": "Passos",
   "countryCode": "BR",
+  "centerLat": -20.723315,
+  "centerLng": -46.61896,
+  "radiusKm": 5.27,
   "regions": [
     {
       "name": "Aeroporto",

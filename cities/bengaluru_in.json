@@ -1,6 +1,9 @@
 {
   "name": "Bengaluru",
   "countryCode": "IN",
+  "centerLat": 12.988055,
+  "centerLng": 77.62212,
+  "radiusKm": 20.13,
   "regions": [
     {
       "name": "Agaram",

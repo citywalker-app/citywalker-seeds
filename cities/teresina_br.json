@@ -1,6 +1,9 @@
 {
   "name": "Teresina",
   "countryCode": "BR",
+  "centerLat": -5.08551,
+  "centerLng": -42.779025,
+  "radiusKm": 16.04,
   "regions": [
     {
       "name": "Acarapé",

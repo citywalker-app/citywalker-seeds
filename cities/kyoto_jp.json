@@ -1,6 +1,9 @@
 {
   "name": "Kyoto",
   "countryCode": "JP",
+  "centerLat": 35.09807,
+  "centerLng": 135.718725,
+  "radiusKm": 25.77,
   "regions": [
     {
       "name": "Fushimi Ward (伏見区)",

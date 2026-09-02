@@ -1,6 +1,9 @@
 {
   "name": "Santiago",
   "countryCode": "CL",
+  "centerLat": -33.362205,
+  "centerLng": -70.56551,
+  "radiusKm": 37.5,
   "regions": [
     {
       "name": "Cerrillos",

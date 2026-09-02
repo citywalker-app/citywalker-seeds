@@ -1,6 +1,9 @@
 {
   "name": "Belgrade",
   "countryCode": "RS",
+  "centerLat": 44.83613,
+  "centerLng": 20.38625,
+  "radiusKm": 30.36,
   "regions": [
     {
       "name": "Cukarica Urban Municipality (Градска општина Чукарица)",

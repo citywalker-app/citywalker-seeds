@@ -1,6 +1,9 @@
 {
   "name": "Verona",
   "countryCode": "IT",
+  "centerLat": 45.44562,
+  "centerLng": 11.00052,
+  "radiusKm": 13.27,
   "regions": [
     {
       "name": "Centro Storico",

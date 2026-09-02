@@ -1,6 +1,9 @@
 {
   "name": "Auckland",
   "countryCode": "NZ",
+  "centerLat": -36.53143,
+  "centerLng": 174.899775,
+  "radiusKm": 101.74,
   "regions": [
     {
       "name": "Albert-Eden",

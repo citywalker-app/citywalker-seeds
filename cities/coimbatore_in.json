@@ -1,6 +1,9 @@
 {
   "name": "Coimbatore",
   "countryCode": "IN",
+  "centerLat": 11.008985,
+  "centerLng": 76.967185,
+  "radiusKm": 13.58,
   "regions": [
     {
       "name": "Central Zone",

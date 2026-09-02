@@ -1,6 +1,9 @@
 {
   "name": "Erfurt",
   "countryCode": "DE",
+  "centerLat": 50.985185,
+  "centerLng": 11.01938,
+  "radiusKm": 11.61,
   "regions": [
     {
       "name": "Andreasvorstadt",

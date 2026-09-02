@@ -1,6 +1,9 @@
 {
   "name": "Gdańsk",
   "countryCode": "PL",
+  "centerLat": 54.36107,
+  "centerLng": 18.68987,
+  "radiusKm": 18.59,
   "regions": [
     {
       "name": "Aniołki",

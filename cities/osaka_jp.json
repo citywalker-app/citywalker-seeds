@@ -1,6 +1,9 @@
 {
   "name": "Osaka",
   "countryCode": "JP",
+  "centerLat": 34.6775,
+  "centerLng": 135.454575,
+  "radiusKm": 15.84,
   "regions": [
     {
       "name": "Abeno Ward (阿倍野区)",

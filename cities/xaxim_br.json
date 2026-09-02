@@ -1,6 +1,9 @@
 {
   "name": "Xaxim",
   "countryCode": "BR",
+  "centerLat": -26.95689,
+  "centerLng": -52.52657,
+  "radiusKm": 3.63,
   "regions": [
     {
       "name": "Alvorada",

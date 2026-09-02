@@ -1,6 +1,9 @@
 {
   "name": "Seattle",
   "countryCode": "US",
+  "centerLat": 47.614835,
+  "centerLng": -122.336,
+  "radiusKm": 14.7,
   "regions": [
     {
       "name": "Ballard",

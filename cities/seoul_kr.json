@@ -1,6 +1,9 @@
 {
   "name": "Seoul",
   "countryCode": "KR",
+  "centerLat": 37.56501,
+  "centerLng": 126.97415,
+  "radiusKm": 18.61,
   "regions": [
     {
       "name": "Dobong-gu (도봉구)",

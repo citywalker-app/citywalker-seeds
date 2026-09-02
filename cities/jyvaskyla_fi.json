@@ -1,6 +1,9 @@
 {
   "name": "Jyväskylä",
   "countryCode": "FI",
+  "centerLat": 62.251705,
+  "centerLng": 25.668385,
+  "radiusKm": 25.0,
   "regions": [
     {
       "name": "Halssila",

@@ -1,7 +1,12 @@
 {
   "name": "Valencia",
   "countryCode": "ES",
-  "aliases": ["València"],
+  "centerLat": 39.42253,
+  "centerLng": -0.352535,
+  "radiusKm": 17.43,
+  "aliases": [
+    "València"
+  ],
   "regions": [
     {
       "name": "Algirós",
