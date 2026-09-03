@@ -1,0 +1,158 @@
+{
+  "name": "Kuala Lumpur",
+  "countryCode": "MY",
+  "centerLat": 3.138921,
+  "centerLng": 101.686971,
+  "radiusKm": 12.5,
+  "regions": [
+    {
+      "name": "Bandar Tun Razak",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.033393,
+        "maxLat": 3.122952,
+        "minLng": 101.703217,
+        "maxLng": 101.749997
+      },
+      "encodedPolyline": "qyxQee_lRrCs@dM[sBfNz@tAvDjA`@fHiD`@jEtt@vAcBnApBoAtCDjJuZn@MiAeN?MhA_YL`@`ARhLhA|@iApB`@`RdBSMbImGa@?uD{Ff@?kB}A?YgKyEeBg@hEc_@gH|A_Uke@~QoEeJ~J_EwFuLeKvDwAoFwCfAmBfBGOm]lHeG~DwAo@_Gf@eHfAwKO}T_CvElPnCvB~@fGvBlGoAfD?fB_D|B_AvKmO|OdR_DtNFfFfAdE^tExBny@fl@fCj@|BxE~DjBfA?vIt@`DfApN?pL{QP_AjIcCnI{@d^sArD_E~AcIrA}FbF{CxHWnFb@c@n@bChJ{FfAo@nd@WnCn@?rDlKvHz@fE|BdAeEpFqBhDh@bFfErI[lC]?oBtEyD~u@sM?eA`Z`BvPhD~e@nAjRq@WwHaJ?]{EkO[qQ}HqAyNxByHlF~BrAwCv_@sDsBwTpi@gIkBeKfLuE|MNDnJxOSh@oGuYw^xMcJyI@eoBHFkvBuu@Ba\\_@cHIaSa@gDfG_MaESxJ_PHmN~K"
+    },
+    {
+      "name": "Batu",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.169964,
+        "maxLat": 3.24445,
+        "minLng": 101.645571,
+        "maxLng": 101.706051
+      },
+      "encodedPolyline": "_fwRshmkRhJTbDfWiEv@lD`CiChNfNxAbIIDpBnEc@tFx@oAmb@xK?h@s^oC?j@wRdQ?~@wTx\\fA?k@rBi@bDD`Gi@fAq@vEk@jB_AhMaAxTx@lAUFkFnIRJuAnEwIlIbG|@eB?uArIhD{BzDlChBpC|@hDmAzCaJtFt@f@u@bA?pA}Jg@KbA_EuIqA_JaJbLaGwEaGlJkHYmBpAcAi@eFfCmBtFcAt@h@xE[~AcAnGcAfF}GtNmBjNoDdZrFpDcA|i@qw@bD_BlVuWmEgCoG?_PtCgFLkBmSmBaDcNsDkIiDuOV_@WpEyDGkEcIhAcMqDyAaDwKwMqO~@lAdQrBbQmAlAuNgByA~@uHYeQtFKfFrFlZlAhHKrBmCp@Y_CwLkPyCyE{GoE}c@hRef@yAOV_T_@?aBoRY}[aQ{MHL`PJtMfAz{BuRi@kJsDiYbMcPrOaSlJwF~JrC~UfLNOnNxQxIbBeCzFJKxR"
+    },
+    {
+      "name": "Bukit Bintang",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.078281,
+        "maxLat": 3.169964,
+        "minLng": 101.677922,
+        "maxLng": 101.723192
+      },
+      "encodedPolyline": "gcjR_gukRlK`HbLqBbIr@~FhD|Pl@tG_GbLsClCf@`CObNbDrKhAxPxC|EQfImEdMdCzGu@hDoA`OtEjGze@nA`Br@?P~@hIfD`f@l^nOlIz`@kC~UwC`JfAnH{L|CaLUgM`A{GzFmI?eC~l@ax@~TbM|ShFvOa@`L_@bXoI?|HbBxExCbAfQsQdImCL{KlCeIhHqFlC?lCqBgE}BwH{@sDmKo@?VoCn@od@zFgAcCiJb@o@oFc@yHVcFzCsA|F_BbIsD~De^rAoIz@kIbCQ~@qLzQqN?aDgAwIu@gA?_EkB}ByEgCk@oy@gl@l@~Ic@hAnCxAsS~Vg@jDgO{@lAXQrJkGzMkJrCwHlHeEvH{CfLoO_VY~AwXk@uN}GmAuAcD?eKuFvJmKwDeNtGgHsBoBzAkBzK}FoB}CI{AmDf@uHxGm]wd@CeCdCaF??oj@uNmZp@aPnGk\\nGd@rJ}@|EhAnGxDnGb@rEuArHKfJpQn_@YjDvA|GxDxDwAjDo_@mIgCvKaB?KvAwA?oBtAmB?YbGgTe@oRrV"
+    },
+    {
+      "name": "Cheras",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.076539,
+        "maxLat": 3.141865,
+        "minLng": 101.698417,
+        "maxLng": 101.753682
+      },
+      "encodedPolyline": "}gbRcx}kRh]zt@_IvCeKrB[{@oBjDiAo@gCvPtMbBgOlIcGfT~Ed@|ExDyD|Eya@_Ko@p@kKoBY}@uAK_FW}F{A??eC`FBdCl]vd@tHyGlDg@HzAnB|C{K|F{AjBrBnBuGfHvDdNwJlKdKtFbD?lAtAtN|GvXj@X_BnO~UzCgLdEwHvHmHjJsCjG{MPsJmAYfOz@f@kDrS_WoCyAb@iAm@_JuEyBeE_@gFgAuNGeR~ClO}O~@wK~C}B?gBnAgDwBmG_AgGoCwBwEmP|T~BvKNdHgA~Fg@vAn@dG_El]mHFNlBgBvCgAvAnFdKwDvFtL_K~DnEdJje@_R}A~Tb_@fHf@iExEdBXfK|A??jBzFg@?tDlG`@LcIeBRa@aRhAqBiA}@SiLa@aA~XMLiAdN?LhAtZo@EkJnAuCoAqBwAbBkEut@hDa@a@gHwDkA{@uArBgNeMZsCr@wD}AuBb@cGzCmKJae@ke@_XyA{DiDoYrJ{I{QwDvAgA_AaQpI_JfOaDpM_GhGeAbElJpCi@fPoGbFqFhF{EvC_G}A{EpEkAg@i@qDwCp@JlBeAf@q@sFkDmBwDTyJ}F_FRcH{Ag^hL}B~@"
+    },
+    {
+      "name": "Kepong",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.187814,
+        "maxLat": 3.232718,
+        "minLng": 101.629613,
+        "maxLng": 101.667365
+      },
+      "encodedPolyline": "kvqRaphkRxBwKrByE|EwDfp@kn@l|@GfCiIfAy@oF{CcGgA|GgT{SkI{@`Cs@?wIsCvCqI{LsFFtBcSSaBeBg@wC`@oa@pn@qReAEaGcJq@uBo@mEeDjBq@|ByYtEg@iBgCmFiDlAqC}@mCiBzB{DsIiD?tA}@dBmIcGoEvIKtAoISGjFmATyTy@iM`AkB~@wEj@gAp@aGh@cDEsBh@?j@y\\gA_AvTeQ?k@vRnC?i@r^yK?nAlb@uFy@oEb@EqBcIH`AjVlAK@dLlJxItFbAVjJjBQlAbBrDg@t[}Q|e@zPkCdIwCfDbUX|HrMvRxF~@lB\\X"
+    },
+    {
+      "name": "Lembah Pantai",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.069197,
+        "maxLat": 3.150813,
+        "minLng": 101.643379,
+        "maxLng": 101.693556
+      },
+      "encodedPolyline": "omvQytlkRgAiFeB_@@]eEkGi@}@iEq@}DwBuNgSkEmSqHeIiHiEwMa@`@eB~AoHPkCi@}DeRa^qEiCqf@yFWh@sADmGfHMtB}RgCc@cCk@hAkGiEAaB}MgCY_@{DPsCtAP^sQgAoDmAoGmAm@s@qMnBg@a@{FlBsNXOgDf@eANgNaJgA_VvC{`@jCoOmIaf@m^iIgDQ_As@?oAaBkG{e@aOuEiDnA{Gt@eMeCgIlE}EPyPyCh@tBz@nHQh@?nBLlEnBbLvAxDtDlDxB~DV~Fe@vEyBnEbACzI`C|EdItAh@bC]|D?nCqAqB`FuAv@?r@`Av@u@bEmIzD}BJk@|@zA|A?bChAh@dCmAT~A{CfHCd@`C`DYpAiDbBcEc@m@fCxAfEGxBo@?cGM`@pBbDjDfB{AXXHxAm@lCxAtGfFm@nAbEjBPbExMvCdC~MtJ`PhD~Od^~HlJxKpP~JzDjDnFPaFvEsE`HJv^j\\dEJ~BgBVeT~DcLhKgFva@eLiH{LsHoQh@mGnShHbBwGlw@_GrDlChTGJvC~SRh@uH`G?vOoOvJsCfJrZxHaBa@{BlBo@vCjIzHcChLjYfh@nz@~Ig^~@V"
+    },
+    {
+      "name": "Segambut",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.12773,
+        "maxLat": 3.208864,
+        "minLng": 101.615237,
+        "maxLng": 101.694717
+      },
+      "encodedPolyline": "{{aRqvkkRkDoF_K{DyKqP_ImJ_Pe^aPiD_NuJwCeCcEyMkBQoAcEgFl@yAuGl@mCIyAYYgBzAcDkDa@qBbGLn@?FyByAgEl@gCbEb@hDcBXqAaCaDBe@zCgHU_BeClAiAi@?cC{A}Aj@}@|BKlI{Dt@cEaAw@?s@tAw@pBaFoCpA}D?cC\\uAi@}EeI{IaCcABxBoEd@wEW_GyB_EuDmDwAyDoBcLMmE?oBPi@{@oHi@uBsKiAcNcDaCNmCg@cLrCuG~F}Pm@_GiDcIs@cLpBmKaHmVtWcD~A}i@pw@qDbAeZsFkNnDuNlBgF|GoGbA_BbAyEZu@i@uFbAgClBh@dFqAbAXlBmJjHvE`GcL`G~I`JtIpAcA~Df@JqA|JcA?g@t@uFu@{C`JfClFf@hBxYuEp@}BdDkBn@lEp@tB`GbJdADqn@pRa@na@f@vC`BdBbSRGuBzLrFwCpIvIrCr@?z@aCzSjI}GfTbGfAnFzCgAx@gChIm|@Fgp@jn@}EvDsBxEyBvKxCbCh[nH~Z`Qk@~AvGxIWzN~DtEbTTla@{F~j@tCpO_Cv^|BzRhKrk@~@xXtGfVXhNNpk@kXlEmDjCaFxF}F|CeHhAcO~DEjMaIdFgH`MJhHzAbP{@\\cF}DaB[aMgA{BnBuEgFgC`MiUlC}OlJqMQeI"
+    },
+    {
+      "name": "Seputeh",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.040627,
+        "maxLat": 3.114875,
+        "minLng": 101.647117,
+        "maxLng": 101.708044
+      },
+      "encodedPolyline": "oorQkowkR_f@oAwPiDaZaB?dA_v@rMuExD?nBmC\\sIZcFgEiDi@qFpBeAdEmCpBmC?iHpFmCdIMzKeIlCgQrQyCcAcByE?}HcXnIaL^wO`@}SiF_UcM_m@`x@?dC{FlIaAzGTfM}C`LoHzLOfNg@dANfDrNYzFmBf@`@pMoBl@r@nGlAnDlArQfAQ_@rCuAzDQX^|MfC@`BjGhEj@iAb@bC|RfCLuBlGgHrAEVi@pf@xFpEhCdR`^h@|DQjC_BnHa@dBvM`@hHhEpHdIjElStNfS|DvBhEp@h@|@dEjGA\\dB^fAhFtD~@hGyFz^b\\{EyI~EwBvAzChGcExEvI|Jg@wAsBxAyD_CyG_Bl@_EwGdIgEuGgOpCgGyCiMb{@f@gJvc@l^lMnBmmBr]n@eFsQl@cl@aOy`@yFgPlHkIqBaDvFeCGyDkEGKqJmDCDqC~CE`@qGuBaBgA_VoRx@pAmFqCaF}Ae_@"
+    },
+    {
+      "name": "Setiawangsa",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.167384,
+        "maxLat": 3.203208,
+        "minLng": 101.699564,
+        "maxLng": 101.758704
+      },
+      "encodedPolyline": "iopRcx_lRfPIJhNuJnItJnKfBXxClEzCrYkRfBgFxC|MfYg@tLf@`IzGhJo^dWnb@lm@`\\jZpS`ZvKvMxA`DbMpDbIiAFjEqExD^VtOWjIhD`AsGjJhCjGNdMnAv@yFxBqE?kFpDqWpEsLpV{Yq@kIam@c`@oAN^kGnAaFvOaV`DoCaBaCoAcH{AcIeDHgJcGU{DmCuAkI~D_AeFpCyg@lBJ~A}Q|BYGaQ|Au@aAkUyBBuA{LwHxBeCmKgF{GcJcEiL{B}AfG}EcAzAsHcQqFkZhJw[rAiTdP\\jPqL`Bg@dJ"
+    },
+    {
+      "name": "Titiwangsa",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.124898,
+        "maxLat": 3.179735,
+        "minLng": 101.694581,
+        "maxLng": 101.75073
+      },
+      "encodedPolyline": "ktjRuj|kRzAbInAbH`B`CaDnCwO`VoA`F_@jGnAO`m@b`@p@jIqVzYqErLqDpW?jFyBpEw@xFeMoAkGOkJiCaArGbNrDlB`DjBlSfFM~OuCnG?lEfCnRsVfTd@XcGlB?nBuAvA?JwA`B?fCwKn_@lIvAkDyDyDwA}GXkDqQo_@JgJtAsHc@sEyDoGiAoG|@}Ee@sJj\\oG`PoGlZq@nj@tN|FzA~EVtAJX|@jKnBn@q@xa@~JxD}E}EyD_Fe@bGgTfOmIuMcBfCwPhAn@nBkDZz@dKsB~HwCi]{t@}An@kVbIm@lEsFVc@jAmS{FgQuS}IwCgEdHcW{Og@dEcMMnDaZpAmJqX_AT}DaXyL_ChIqCcByGyHu@vDyFbFuAxOc@vUf@rOwNNGn[eTM}MVgGT_@nG{CT^bM"
+    },
+    {
+      "name": "Wangsa Maju",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 3.18959,
+        "maxLat": 3.233525,
+        "minLng": 101.690755,
+        "maxLng": 101.748713
+      },
+      "encodedPolyline": "ubuRsvukR|[`QnRX?`B~S^NWdf@xA|c@iRzGnExCxEvLjPX~BlCq@JsBmAiHsFmZJgFdQuFtHXxA_AtNfBlAmAsBcQmAeQpO_AqSaZa\\kZob@mm@n^eW{GiJg@aIf@uL}MgYfFyCjRgB{CsYyCmEgBYuJoKtJoIKiNgPHYfFch@`HaCfFsPbI{LrN{@lIyAjCsHaGyHx@mTOoGmDa@_DqLcH}Dj@mEmHqGx@aNjMuItGIzF~HsBXhn@mHpHvH~I|TpTqDbEzKJ|Zl\\pFrCjRPHdPxGA?pCxLMDsCiCG@mHrMbNeKxJwGjQjErGoFvKp@fL{@dCbBnAoB~CaAv@_GFe@zAeZDmCAC?nC@}C?Wd[_OF"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "file:///tmp/kuala_lumpur_parliamentary_2018.geojson",
+    "license": "CC0-1.0",
+    "attribution": "ElectionData.MY — 2018 Peninsular Malaysia parliamentary boundaries (CC0)"
+  }
+}
