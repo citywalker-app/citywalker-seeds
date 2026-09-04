@@ -1,5 +1,5 @@
 {
-  "version": 145,
+  "version": 146,
   "cities": [
     {
       "name": "Aigaleo",
@@ -20885,6 +20885,301 @@
             "maxLng": 44.7815038
           },
           "encodedPolyline": "kyy}FenwoGDQbCsMvCePHe@rDaS~Now@lDcR~Ncs@|AkFDMrEqGNWtAqCoA_OEa@?_@rBmPdCyNtBaHpBwV|A{IfCoN|B{H|DiM`EqNtAeCp@ST\\FLPBN`@x@lBhAdCJVLXx@jBf@fAJRdBjFJZ^hAjArIRnBLbBDb@VtCDb@Fp@BTPxBFn@D^D`@Hv@\\tC`@M?wAPO\\WHa@I[Ck@FONOf@[@w@Ds@E[Fa@JGHM@g@\\o@BWBIFQNGTI?m@IYJ?HQ\\IFUAUKWCYtACbA_Cb@qAxAaEfAiCv@iAb@e@Xg@jRkBMeDjGk@jIw@|Hw@L?zDRdDJjTfADWLoA@ICm@cBo\\V_Dn@uGMuDeCiKBqWnAqERw@rF}J~BoOx@{MC{IFkGbIca@PaEg@iJw@wIDk@~AtAl@f@z@~@xMhH`A^JB~Af@THdCv@pAf@b@R`EjBhDf@lAJBMVVJJDDBFDHDLf@LJRFt@HdAAR?h@GdB?~@BLDLNLXCt@KL?NALHj@`Ad@p@Ll@JvAPnAJx@Ct@AHMv@AFE\\@`@Dl@FPFJDBZ@R@LHHRHVDJFR^j@TZFXFT?@Hb@Lr@Pz@Lh@F\\Hn@D`@@PhACFBDF@HJdCEXr@zBFXAn@Q\\KHh@fC@RENSZCVDLd@d@^dAHJh@LCRSJQFIT@VFLLDJBHLFTCJEJGNBPHDf@CPFBXEVEV@NJHHDPLHPHPTjAGHCJ@LAFAN@FHJL@JHETEF@PBL@VHRNJNFFH?R?PNHNFFh@CNGNCJAPHHJCJFDNANGDBJJPHJ?RKLIJGL?VFJJ?FJHJJ?J@LDDF?TIHGF?N@NJXH?HPAJ?T?NDJJLFJFRBNBb@CP@PBN@NAVCPAV@NDNBDFL?RAJAR@HDJFDFHD@AVA^?P@RFHDX?D@\\?PATDTDBN@DEHCH@JJH@BF?VCXBNHHBDLHHHATCPI^CT?HHDH?H?D?DFBHENEJIFGDCL?LDTDPDF?V?R?X?JBRFNBFB?HJHPFZDPDLNHTBF?R?FCNHJDJ?B?JJFLDP@J?L@HRb@DFDH?j@AP@LFLAPGDCH@HHHFL?LCNINKPKNGFCLAXDp@@b@@p@BX@`@Hl@Z|B@^@`@AX@X@LFZDLJTFJDTB`@DXDFBTBZDVLLJFLFJJ?JKLQRSHGXBZHPB\\?\\DXLZLf@Fb@B~@Cp@Bh@b@f@h@Pv@b@vA^VXdBfAd@Dz@c@PKXS`@S@Q@WNJLHB?h@@xBk@rAIhD?XDl@?v@X^b@Ll@Lf@d@pEDb@^bDdBfKZvAXVtBp@\\XZf@L`@NhAb@lDVhBRbE?nAr@zOD|DDfCI|FEpDSzH_BbNcBxC_BvBU|@hAtLt@|Gp@|DXRjAMjCiArE}@fDFjBl@z@h@`Az@|@fBrAxItArL`BhTx@rBvCpA`GtMtBvIdHvLbFfHjFfEzQdDrIdEvCN`IeApCZQvAeAnDyFfH{@xS}A~Q_AjBaFbCaJxJuHj_@j@~It@jEBjEzDpLh@zDSlFe@vEf@tEfApEZ`Fr@nFx@zAhBzEp@|DhAfFt@p@dAvMqDdYs@TiChGXd@JbFWNOpEYFw@rKp@fBX~@IfGWR{AM^p@t@f@C`DnFv@?`B|@bJn@hBeAtCJfCzArLdBa@`AtH~BkAlBuBxG~MrBu@zHZzB|AzC~CrE`DzDtYbAtCb@~ArAbO|CtIx@nNAvDMFUbKS`BFtMo@nDwBvD}CdDqCnA{DRkEY}BgBeAcAi@Ku@AiAQs@KYHIv@JTl@f@Jf@Sh@Uv@a@Xw@jByB~DiBrCu@vCgCfCoE`FqO~BsAl@uDXcA^uChDwBjEiAdGw@zBeB`FcEhF}EfEiBl@iB`B}FaCq@nA_Ap@oCl@s@v@kAn@}Ab@{BUqBNaEdBqA~A_BdHoAnCiBdAgEdACgCU_@WEi@N]OYcAc@eAEcAF{@Ig@YO_@Ne@M_@sAy@aF]{@c@[]_AU{@Dk@RkACs@]uAc@{@i@?k@ZWEQg@@w@`@i@l@w@|@i@^i@Ac@U_@Q?k@FWIE_@L_@^Sh@A\\?PQAu@a@u@Wc@m@Eg@@[m@KkAFoAI_@GYGk@CSL[V[Am@s@mBaAo@m@s@_A_@q@_@QYc@yBCs@L_@l@Y\\g@Ek@OOm@Dy@a@m@_Ak@sAB_@Fs@Yc@k@iAE]N_@dAe@bB?jAEtAbAVOLi@Ii@Sg@Y}@_@{@EWTm@BYQe@u@UkA^AB_@]My@@}@Co@NY^QPk@BeBLq@^e@ZWFYIc@]I{AN[CKWBa@@aBAkAOm@g@s@KUL_@L@ZP^Hb@Ob@a@N_@D_@E]][]Ii@DWDIMG}@DYLOj@e@Ra@TgANoAFiAOo@[k@yA_BuAmAq@gA?]FMh@s@d@c@Vg@?m@Q_BES[QMSCe@JQb@Q\\?r@[bAs@ZSFQCY[m@a@k@CYDOZ_@Ts@COcBsBOk@Ju@lAuALi@IYq@aAWGu@P]SQc@Me@AaAXyAr@mBHa@Gu@u@q@q@WK[Is@Do@Pw@t@Bv@MVOTw@NoBp@gA\\aBCeB[g@{Bi@_@y@@c@n@yBNeADkAq@{CRsAn@oAf@aBhAgAh@Fd@h@n@dBZPf@OV}@S[y@s@wAg@oA}@s@aBeAa@s@w@Uq@Ck@J_Ar@uCxCeBC_@MWYe@iCWYIW[q@aB]_@U?gAr@e@Fg@OKYOuAFoARi@rA[NS\\e@`AwBPaAFcCGeBKi@Us@i@s@QEe@?u@y@M[Cc@XkAt@GdAy@PSCk@MQQDoAQc@Ji@Gm@BuAi@mAqAQeB_@m@QkAa@sAKi@Dy@b@eBx@yB|@oA\\Y?sAkAsAe@kA_@mBcAmAaAc@k@Na@QCf@?fCYd@g@`@qADWES[Oa@_B}@cAcA]y@E_@ZuAfAwBRw@?a@MWu@Ke@bA_@\\_@AqALc@MWYGm@@e@Ru@f@g@n@kBXuDS{@WYoCaBe@e@{@_@s@G_@LcA[uAw@iBcCo@_CE]TgAv@uAZ{AIY]i@g@[[FURWL{Ce@gBk@cAiA[oBM}CQ}@}@i@gFImBaBY}BR}BHeCiAoBsAo@[i@TgA_@mA@iA^uASm@g@]q@XsAbAy@v@iBrB{@\\{AMOcBNkBr@aChAmBCwCFuPQ}AwAcF{AeEs@aB{AuBsAmCc@_BGaA?eBIaBYs@WO]H{@~@WHe@GUOI_@J{A`Ag@\\Ar@[Ne@]eAG[CiALuBCSKMOAi@@g@^k@UU_@Ba@A{@WgBEyAEuEFS?e@c@}CS]aACc@GOC[_@IqAc@iAKKO?MFSPs@bBYPYW?Y?qAO_@U[SKUFKFIDQNIHOXKHMDSDWEUIc@Z]t@eFcHuJgDiBq@o@hBUtAI^e@r@o@`B[n@]FQWEq@H}@AcBOSOBS`@q@|AmDvHYRgA`@UZOb@aCrGsAbEqB`D_GzDcE|I{ChDmFbDgFfAeBnAaBfCqBzFcBdKqBbKwApBwArA_A]gFoByCoEyEsLgClK[S@kAAiAEmB@uCQkE[g@s@[s@Ca@MS[_AgBFoA_A_@Aw@qByDs@gBW]]{@{EuGcA}@sGoEgASl@oE?kBIeBF{ALaA]{AMkAq@uBcAaCmAcBMa@SeAKoBGkAiATwARq@HmGn@gFpC_@\\eBzBaDjFuBnEoClGMK"
+        }
+      ]
+    },
+    {
+      "name": "Tehran",
+      "countryCode": "IR",
+      "centerLat": 35.698339,
+      "centerLng": 51.347761,
+      "radiusKm": 23.89,
+      "regions": [
+        {
+          "name": "District 1 (منطقه ۱ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7773022,
+            "maxLat": 35.8284702,
+            "minLng": 51.3751797,
+            "maxLng": 51.5392015
+          },
+          "encodedPolyline": "}nqyE{vlyHc@]Mo@[_Ba@{BM_BGWW}@EwAKuA?gADAL[B_AAmAFuANBt@RnAd@f@Lh@T\\Jb@DLCRGPMRWJSDYB[Cm@Eg@Cy@@[FSHQNOTIRCR?RDHy@JJj@aAjDqFyB}Bo@o@w@y@C?[a@eAeAwDyDy@q@KMm@WOI{@Sq@g@IIWEyByBiAuBOQMPkCwEoAoA}@Kg@QR{ALcCOBCYp@MA]o@mAYg@Q]_@w@Qi@Ik@Am@Am@@k@Ho@Hk@vBr@tBl@d@f@jAhBt@tAjBmCrCv@vAZoAdGjCPLSNy@p@Ft@U`@Bb@EnAD~@STYJg@OU?Yx@GLE^m@PEf@FNAJBTmCT}DH@BCWaB@y@?EA]?ID[JYM]K]IKOmASQAq@Su@o@mB}@aBVa@bG~FVP`@PRDRCh@Ad@BPFj@L^BXIXSPQNGLKRWTi@P?f@DL?\\Cd@HX?VEHx@Hz@XzBh@IrCw@nASn@GTAbAC|@EjLJ`C^p@DRAd@INE@CO_Af@Md@CXMLK?@AEEUDq@JU^WNGIy@@[NVXJVFPHRp@HLJDP?XEJCL?XF\\EFGJONILCROLUFQTKXQP_@H[Jk@dBu@n@jBzAjADb@LzAGXO^YpA[z@u@fB@?j@d@j@RDBEb@GXIf@nARtAVf@Cl@GTEv@YNU[SUQGIMQEKEMCOCQAk@B_AFeAh@mG^Fz@Jh@B\\BNChCWj@pF^bFJ`BLrBHvA?XBpBDvFBd@@d@?d@?d@?d@Ad@Cr@OxBGd@|@VpFtAxIhCrHrBbEPdGLtd@hCdHbAIvCq@`W@zD_BrFyAzEs@zAmKdPuDbGuCxGuFjWsJhi@_C~NW~Eh@fNl@lI`@~FLxEOrDq@`FgGtReF~OY|@_AfCmGtRq@bFCnBj@rLFz@D`DSnHYlCi@`DeDfPyBnUk@dDoC|Mc@fFCnEn@tGfAvDdBhEpD|GjFzJrGlNvEpMzAfF|C`MfDbR~ApMz@tHfAhITxA`@~A`@`AfCjEnBrBfEpDbC`CnAxAtBjDz@|Bl@~B`CfKz@tBaFtByGjEmIfHqItIeDzCcDdBkKtD{DpCaD`EoApCy@dCu@~C_@~BAD}BfToAtMJ`M@~DK~Aw@zCy@xAkDfGs@jB_@fCCbCb@xCfBbFz@jCf@|AZ`AzB`LrBzK`@lBl@vBp@xAdBbCbA|@cCn@gCxA_B~AeAzAqAlCg@hB]bBQjBOlBA~@ApAJpCL~BVrB[Eq@k@]Q]@_CqAqB]g@Oq@@qAy@qAiAoA_AuA]oDz@kDpA{A~@e@Sc@Dm@Hg@J_@LYT}@t@]ZOPYt@Sn@S`Aq@xBOd@QH]tAa@fAQ^MV[ZMFMJcBhBOAIEu@t@i@\\e@b@k@j@c@l@_A|Ag@nAkArCWz@SbAEp@S~AGf@Y|AW~@s@|Bo@bAi@r@g@h@eA~@i@qBy@h@c@y@~@}@q@yBq@qC]]a@Qq@k@SMs@cBo@gA}@{@KGUc@_AkBq@s@kAsBu@Ig@??_@Fg@Lw@}@g@G}ACIcAEi@Aa@?sA`AoBAg@m@Be@@Q@O?QLi@p@o@t@c@PEdAc@Ve@Mq@jAMBt@h@ABNV@HNL_@d@a@p@m@RSl@[TQlAOvAMfAw@BPl@EE_FG]HKFc@OcAa@iBAeBwCCgAQmFy@Km@i@iAoAgEU}AKc@O_Aa@iCQ}@cAwCEWQs@eBDKUCUC]@k@E]Ky@WmAGk@@IPYJEPCHA@GVq@a@cCYyCJIEeAOcA?mAE_EHKNEIYEyAQy@_@mA?cA@GEiCBk@HEPGQy@GyA[sAkAq@wA[oAa@qAUaBC}@kAw@_@S\\GNQXU[MGWo@AOBGKE_@]DEHa@To@RIH[OSYaA^Cx@CT\\LQb@e@N?@TDJ^@t@CTGRw@OiAXaAJs@IUIWAqBCyAEq@Ig@}@sC?_@@k@BIJeABcAOoCKWW[YGMGMUEU@eABaAC_@Oo@a@eAc@aAiAhBoBwC~ByBk@oAk@o@CQa@w@Ym@|@]l@]V?VYHGLSL_@FU@SAGBe@BGDYHU\\WDI?MESEUCSA[@yAAYEWa@aAW_@c@a@_@Q]M[KQGSEWE@UF_@EMMQOGKCCOQE?QSCS@OLMDWGQKGUY_@c@q@DQ}@AiA`@WDO[I]DURq@GSMK]@QDSOU@u@ZUDMAMCKCEKEi@AYCUGMUCSYALCDU?KI@QBYL]Ru@Fc@PMXG\\?XGXWF]@OPID_@IIUIUNWMQBEI[MEO?MFKRSXINo@Ai@CSKIOEa@BiATk@RGJBDa@r@KDKI}@[SOYUIBG`@Ir@UKUCUMIQOSy@[SD[IYJk@UuALEHcAb@KAWQAe@Ye@Jc@Y[QWFKc@k@FYiAwAAYmAWMb@YAqA[@s@]AUCUK{@]g@KKmAVqA~@a@|Am@No@vBRHJn@OPc@\\k@LNNQNXFLT_@OWb@c@A[bAKJGJOLWV{@Ha@R_@Pe@PWHUl@y@R]VqA`@}@jAoBVCPQr@Y`@kBGGk@Wm@a@q@{@AOBOFIgAoAiBgBcAmB_Ac@K{APo@Pg@d@kAb@w@j@[TCL`@X@HZPFd@Eb@OtAEAbBL?^O\\OTGTFJ@~BC\\Y~@qCZy@|AkDNkAAi@K{@AYF[R]`@g@@EZs@Je@DaA@mAD_ALcA^{AHe@Fe@FmA@aACq@BSJo@@mAKgCIw@EuA@k@?a@FeA`@oEdE}BT@EeAScDxAH?V~ANQoAIo@Cu@A}@Bg@J[Pg@EeAQKZw@aEu@UWA_@MCUh@CRGEMAA?Kc@i@yBKa@Aq@Ew@K{BGq@GYEe@Cm@Cs@CWSw@[oAw@mBc@gA{@qB[k@i@q@]]WQ[Uw@]}@Yq@O_BUQEUSW]Og@AQ@[Ba@D[?YCOGe@_@{@OJQLQo@COEWVKEm@IQEOHc@@ODuALB@UBm@AMK]UNc@s@As@j@CDM@I?IMc@BUEg@?QCMG]}AkA_Bk@}Cc@mBEs@g@[e@]FMlBOl@Il@Gr@Gh@IjACl@A^KNESSy@iA}A[Sw@BUBYJWPm@b@UNI?GEIUAQDKHIHOBM@OEKOKUKQGKI?KBWJOLILCj@SVKLMZ]b@e@JSTYBO@OCSC_@E]M_@Ke@Kc@?YDi@Ak@?c@Ge@Gk@GSKOF[LSZqA^kARS^Gf@E~BIl@]POTOlAa@~@I`ABr@Ot@Ov@Yf@YNOl@mARU\\e@@]Aa@DQT_@t@gA^{@^aBr@c@f@_@VW\\i@Vk@\\_@d@_@BKV{@f@wBD]Hc@?MAIDy@P}AACIa@WiB?k@Dq@BU}@f@G[c@oAg@wBF_AH[Ps@AG?M?]ZORWN[Ri@Na@BSF[PmA@W?KAQEU@]Nw@Hi@Dk@D{@NYPYXSVOTSb@u@Ja@DSD{@FOb@_A^aAV}@@cAPK\\KZSZaAG}ASs@Ay@Kw@A{A_@{@Li@QcBB{BAUk@U}BAk@Aq@SN{@H_@F[Pa@g@WOMUYS]c@WSOc@Sk@CQKMMU]Oa@QM[IYC]wAg@e@WC]m@i@iA@AOS^}@j@Xf@Jj@Dh@BV?^Aj@EREZKZW\\gCFUJ[LSRWZQ\\Gv@El@K`@Sd@Yn@g@^]Xa@Xc@v@_BR[JM\\_@JQBMt@aAb@e@FILNf@i@JKLMPKNODMAICSEWE_@I_@GUEe@K[F]DYHKPIt@SF?J?NBJFPLJDd@LL@N?LARCDCHIJe@FWH_@@MBGBAB@HFRNn@TF?D?HIDETe@AAP]HKHERMJ]SOSWQe@IsAC_AgBc@m@gAUc@Sk@Gc@EQOmAEm@@o@Bw@Bu@ZwCFm@Bw@Di@RkAZuATi@b@g@\\[^Wv@o@NGNCy@eCu@oBs@oBiHhE}BqFQKq@UaAW_Aa@g@[j@qBJe@XCpFo@Cg@GWfBKf@Ol@Wl@QJHJ?RYP\\JFb@ENUVg@Do@La@LaABYDOR[JKNINCZGZM^Q^UVQHOHSD_@@a@Ca@ISMWkAaCEMCQ@a@x@eDd@kANIZ]VW\\STM\\MRGVE`@ET@b@?RCv@YNKXk@La@DG"
+        },
+        {
+          "name": "District 10 (منطقه ۱۰ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6670146,
+            "maxLat": 35.7006576,
+            "minLng": 51.3522072,
+            "maxLng": 51.3815441
+          },
+          "encodedPolyline": "cx{xEexqxHnJa@vD[jCMh@Fr@Ev@Cz@ItDU~LgA`Ii@fCK|G]|Gc@fFK`I]hNs@`DIrCIvBWtG}@nDKjDM|@CpFW~C_@`Gk@hFUvI_@hBlFjIvX`@~AfAhH^nC|@|El@|D~@tHRnEEtB_@|Fk@dHcAfN}DhYaAxGc@hBuAxFaEbPEn@Av@_@EMd@]Pc@MmHaDoLgFwFiCqLh@aAD}@FkEVkG^eETaA?eADm@Ca@Ii@G[Eu@A}ABaAEsAMyCa@wDo@oLgBsEk@gIcAkDa@kDc@sASsAQAp@M\\w@j@]Tu@Rg@JyAVcAj@}PHiF`@Si]OkRKgNK{Nm@i~@"
+        },
+        {
+          "name": "District 11 (منطقه ۱۱ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6584185,
+            "maxLat": 35.7013858,
+            "minLng": 51.3781086,
+            "maxLng": 51.4128702
+          },
+          "encodedPolyline": "cx{xEexqxHnJa@vD[jCMh@Fr@Ev@Cz@ItDU~LgA`Ii@fCK|G]|Gc@fFK`I]hNs@`DIrCIvBWtG}@nDKjDM|@CpFW~C_@`Gk@hFUvI_@~AGrBAnIOhVo@`CKd@AbCK`HMbKOr@qO`Dsr@yE}Bp@kRFcAVsATg@H}@K_@IUIc@VuFP_DzA_Z{VgCc_@eEiHw@yb@wE_MuAq@IcN}Aeh@_GqAMob@wE{AYe@_@ua@oEqEg@}@DYHkHUFlFBzIRp[?b@LnRd@`y@LhICdGFlHPhXD`FRj^"
+        },
+        {
+          "name": "District 12 (منطقه ۱۲ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6580886,
+            "maxLat": 35.7019892,
+            "minLng": 51.4048972,
+            "maxLng": 51.4480975
+          },
+          "encodedPolyline": "mouxEw__yHrRt@bOp@bJJf@\\Pd@j@lOFvBLfGh@lIl@dGNfAdAjKYvV^b@d@TGh@Ur@YTbAxa@dApb@t@n\\TbIHxBDj@Hr@b@rE\\rFEnKKpCq@jJ{VgCc_@eEiHw@yb@wE_MuAq@IcN}Aeh@_GqAMob@wE{AYe@_@ua@oEqEg@}@DYHkHUYie@]}j@GgLE}JS_e@?cNO{_@EmN?sAGuGd@?|I@hBJxWd@vW`A`Kb@hA@bn@hB`Qp@bIV`N^hFNzJV`Sb@"
+        },
+        {
+          "name": "District 13 (منطقه ۱۳ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.689665,
+            "maxLat": 35.7262284,
+            "minLng": 51.4473317,
+            "maxLng": 51.598903
+          },
+          "encodedPolyline": "sc~xEupfyHk@qC{AiHeFsW{F{VwD{PaAqEc@_C_EsR}EkUgD{OkDqPgFgVaF}Uk@mEw@yRKeEIwD[mJM_FG_DAa@EuBKwEYgFMkFYcLy@eW_Aw[]aOaDagAIkEDiBHy@b@mW\\kD`D_PnCeZ`Bac@N}X@wNMqCOcCo@cDm@yBxCuIBKT}@T}B?_CeAwMe@{Fu@kVz@AUiIzJShMg@rAxCz@h^|EjTn@r@dD~KmArZnG`JkEpE|Aj@wCpDAtCjCLwB|FDz@nBh@sBfDQxBhCZsC`HAnC|Aj@xFy@n@hL[nGAjDcCbBvCzHQtE|@dEp@W~Gy^rH_BtCp@OjJeH~GqJfSs@nXyLjWQ~DiEtVEpHhA`A`CiA_AvFq@jHXtB`GNpCIwChEx@xFz@`AvB~FnFhBElFf@xBwEpS?nZV|[WnBoBtCi@p@{Cv@_DVcBz[JdAoAfGSrBqAVp@rGi@rCd@~Ci@jAGd@RnBH`BNVjBFhABXj@FfABb@BHf@b@p@r@n@LjE^lANZDZFZFZHXHZJrC`ARDPDPDRBP@PBR@R?P?R?PAL?NALALALCLCLCLCLEzE}A~@[jDiA|CeAxAe@nJMFDFFFFFFFFDFFHX`@pC`Hn@tA^~@Z~@Dj@XjArAvFVXJ^JEJRHRJPJRJPlCfEDFDFFFDFFFDFFDFDBBDBBDBDDDBDBDBDBDBDBF@DBF@DBF@F@D@F@F@F@F@F?B?B@@?B?@?B?@?B?@?BA@?B?@?BA@?B?@AB?@?@A@???@?@?@???@?@?@???@?@?@??DZ?@?F@D?F@D?F@D?F?D@F?D?L@F?L@RDrB@N?H@H?F@F?F@F?B?B@F@H@H@HBH@FBHBFBHBFBF@B@DBD@BBD@BBDBFJNp@lAFHDFBFBBBDDDDFDFDDDDFDDD?@FBDDDBBBB@FBDBBBLFlAd@`@DTHn@^n@`@n@b@l@d@j@d@~BpBb@\\fAn@rEfCdCtAfClAp@^r@p@vC~ChGpHG`I\\jLRvIVxIfAt\\d@zOXhI`@hMf@fOFpBzAxb@FpB\\~ITfIb@lMb@lS@XBlA?@@d@hAt_@|@z[aKc@wWaAyWe@iBK}IAe@?AKIu@a@iCy@eEqCeNiHu_@_FoWiG}[_FyUqCoMmCwMyCmN{AoHaJec@"
+        },
+        {
+          "name": "District 14 (منطقه ۱۴ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6441634,
+            "maxLat": 35.6929613,
+            "minLng": 51.4456059,
+            "maxLng": 51.5232467
+          },
+          "encodedPolyline": "ksyxEyh_yHhA@bn@hB`Qp@bIV`N^hFNzJV`Sb@rRt@X{H~@cOXuAn@mAxByDnFiIdDsFvAeCpAkCtCwEb@}BnAwGrAyGpAgCdA_Bk@yDw@_FyBkKIgABiA~AkJh@aCRyBRmCnGiz@pEcn@B[VqE_H}ByCeAwG_B]IiEcAu@Qy@WsCw@cBa@zNwdAdClAhdAxVlAXvBd@nEn@fCcEt@eAv@kAfBeFj@iIOyC@_@t@eQf@gLmAi@uD{C{CyDcDuDoC_FmCuE}BsEgH{D_FiByEeAeGuB}F{@gCYcBUyGy@}NiAiFeAwE}AaFiBaFaDeEmDcEeEkCgFs@gAgFuA{@lCqUjt@cCo@_Tc]{pA~qAyAFy@@WLQPOd@m@nFuBvUExA@hCQpB_DhWG`I\\jLRvIVxIfAt\\d@zOXhI`@hMf@fOFpBzAxb@FpB\\~ITfIb@lMb@lS@XBlA?@@d@hAt_@|@z["
+        },
+        {
+          "name": "District 15 (منطقه ۱۵ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6057444,
+            "maxLat": 35.6654069,
+            "minLng": 51.4309977,
+            "maxLng": 51.5122269
+          },
+          "encodedPolyline": "y{txEa~~xHX{H~@cOXuAn@mAxByDnFiIdDsFvAeCpAkCtCwEb@}BnAwGrAyGpAgCdA_Bk@yDw@_FyBkKIgABiA~AkJh@aCRyBRmCnGiz@pEcn@B[VqE_H}ByCeAwG_B]IiEcAu@Qy@WsCw@cBa@zNwdAdClAhdAxVlAXvBd@nEn@fCcEt@eAv@kAfBeFj@iInCRvEd@dHj@tADbI}@hLuB}@uKE{@As@q@_ICo@c@cHpC{SdFIH}CbIa@vAbYrQP~CTpBAhIlB|NjG`IxDzHjDtN|D`LmBbCo@dBq@lE}@~Eh@zE`DmGpDuFfG`D`EzAfFxAnCxE_FnAlDdAUtEwFhNcPzEzBrFrIvBdLcJjQ}EtH`CzDaGpOgBhEeEfLcCfGiEzKuF`RKVg@lACFCb@~GnMaa@h]RpBOXB~BtB|@mo@lcA_JjQqAfEsAfEcAjDy@jCw@bCeA`AmB|@ErLDpMLtI\\dK`AdK~AnNhE~TgNv@kSbAw|@rFoA?qCNwEn@y@DuWdByGf@}p@pMwAVe@U_@c@XwVeAkKOgAm@eGi@mIMgGGwBk@mOQe@g@]cJKcOq@"
+        },
+        {
+          "name": "District 16 (منطقه ۱۶ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6144292,
+            "maxLat": 35.6596229,
+            "minLng": 51.3820957,
+            "maxLng": 51.4363541
+          },
+          "encodedPolyline": "unmxEed}xH`BvGfDzKbHpQtEhJxGnLhF`HhPtTbB|BlEnJhDpJ`C~LdAdOrApUDh^ca@aHu`Ahj@sk@l]GmA_AU_@X[vD}FjGaB[mEqAsEmC}JqDsEmAgEtFoF~DwCtBeDvC_FlFkCnDiFnJcClGmB`F{B|CoAv@aBn@eAN{@Ci@^yGUqAMoEFyFHr@qO`Dsr@yE}Bp@kRFcAVsATg@H}@K_@IUIc@VuFP_DzA_Zp@kJJqCDoK]sFc@sEIs@Ek@IyBUcIu@o\\eAqb@cAya@XUTs@Fi@vAW|p@qMxGg@tWeBx@EvEo@pCOnA?v|@sFjScAfNw@"
+        },
+        {
+          "name": "District 17 (منطقه ۱۷ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6366579,
+            "maxLat": 35.6708457,
+            "minLng": 51.343868,
+            "maxLng": 51.3822754
+          },
+          "encodedPolyline": "yvsxEuqrxHxFInEGpALxGTt@zAfAdBf@dBr@xHhA`LnBdHbCrFdB|BlBnBfBnBrClB`HnC`HfBhH|B|Ar@nAt@`DpCfJlL|G`JdBpC`AdBh@pAfClHlDvJt@tBxDjHzBtF}AvEkB|BaCpAeEzA}JbDyFjBqGlBaMrDoGrBwOnEsNvEaP`F{IjC{H`CiA^oFjBcDt@_ARm@P}DlAcAb@_@Hq@Ra@Nq@J{BRoAOuCm@eAMsAYqA]}@[a@s@KS_@{@QoCk@aBwAmDmEwLiHyP@w@Do@`EcPtAyFb@iB`AyG|DiYbAgNj@eH^}FDuBSoE_AuHm@}D}@}E_@oCgAiHa@_BkIwXiBmF~AGrBAnIOhVo@`CKd@AbCK`HMbKO"
+        },
+        {
+          "name": "District 18 (منطقه ۱۸ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6200969,
+            "maxLat": 35.683573,
+            "minLng": 51.2304534,
+            "maxLng": 51.356563
+          },
+          "encodedPolyline": "mlsxEcbywHzNoj@|\\_lAhHeVbJk\\zAsEtC{I`@kAbFyN|@kCjCoHjKuY|Umm@vEmLhGoOvDoJvNm^vAaDrFoM~EcJlBeD`CgDnGcI|BcC`HuGfB{AhKcIPQ~EwDtCyBl@i@gCqF{CoFcEoFsM}P{FoHmDcFeAqBaAwBsDwJ}AoE{FoO_JmScLqXsEwNmBiFQuASwJSsCiA{Fi@aB}AvEkB|BaCpAeEzA}JbDyFjBqGlBaMrDoGrBwOnEsNvEaP`F{IjC{H`CiA^oFjBcDt@_ARm@P}DlAcAb@_@Hq@Ra@Nq@J{BRoAOuCm@eAMsAYqA]}@[~@hDt@dIC~Dm@~HgC|WAFiArLcI`z@cBbQiCnW{Ch[gCzPq@fDi@Mg@KmA]c@IyAImCOgBMcB^g@t@EjBUvKWbIu@jp@ErTk@pZG|IIxGKpGUhc@IxEg@nRWpMSvFWnF_B|Pe@zGu@zIu@pJ[`EeApNy@|JoBzUmCxZiErj@kBhS}G|ZS~@jHdDjGvDxGzC|IfAlC@lIM~CMxFi@~Ce@pFuAjCy@rCiArE{B|BuAbAu@ZUhDiCrDmDxCaDzByCdB_CfCuEnByD^{@dAmCtA{DtAuEzDmNtLce@z@cD"
+        },
+        {
+          "name": "District 19 (منطقه ۱۹ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6074271,
+            "maxLat": 35.6553849,
+            "minLng": 51.3248439,
+            "maxLng": 51.4047147
+          },
+          "encodedPolyline": "sxnxEm|kxHbLpX~IlSzFnO|AnErDvJ`AvBdApBlDbFzFnHrM|PbEnFzCnFfCpFla@s^rCiC~SuVvFiS`FmQt@}PrAgZYiEq@iQaDyTi@iG{AoFuCoMmBwGsA}HkDuRwFc[o@yEu@qFwAaWQsKDkD\\mc@^yJj@yPgB_}@_AyQca@aHu`Ahj@sk@l]GmA_AU_@X[vD}FjGaB[mEqAsEmC}JqDsEmAgEtFoF~DwCtBeDvC_FlFkCnDiFnJcClGmB`F{B|CoAv@aBn@eAN{@Ci@^t@zAfAdBf@dBr@xHhA`LnBdHbCrFdB|BlBnBfBnBrClB`HnC`HfBhH|B|Ar@nAt@`DpCfJlL|G`JdBpC`AdBh@pAfClHlDvJt@tBxDjHzBtFh@`BhAzFRrCRvJPtAlBhFrEvN"
+        },
+        {
+          "name": "District 2 (منطقه ۲ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6998016,
+            "maxLat": 35.8037497,
+            "minLng": 51.331781,
+            "maxLng": 51.393135
+          },
+          "encodedPolyline": "mcnyE}opxHaDwAd@qBCSFc@l@k@r@aAb@SHWr@{Ap@ADQHKxAo@C[d@aAHWJEJk@P[b@Ey@cBkAeB_@qCx@[\\eAO[GOCMKOQCEPE?_@OaAGWe@Be@Mg@NStAUl@WhB[d@w@MoA}@m@[SAg@RM`@ONMR[HUCUI[Qk@EwDUs@e@_CKa@eA{A}Au@M?GKSU_@g@SMI@IFGVGHQBKAE@mBhAIw@A_@Eq@IOgBcAm@q@eAHc@FYAa@EyBi@{@Q_@I[Qg@e@Ym@zA_AjDqAnD{@tA\\nA~@pAhApAx@p@Af@NpB\\~BpA\\A\\Pp@j@ZDWsBM_CKqC@qA@_ANmBPkB\\cBf@iBpAmCdA{A~A_BfCyAbCo@dC|@~ALrA?lHq@rVgDrDc@hD?bEXfEbBtFvC~FhDfC~AbB|@xCfBhGjDnFlCpCx@dDj@tCXpCF~CM|Ga@bGq@vC]bHs@rGo@hF_@tCFjC^|Ad@~Bx@~FbC~@`@NF`Bh@t@\\jD`ApCXnCHv@@hBDhFNbACtDFfFLbGNbH~@lB|@hG`Cx@ZtCbAh@R|@Zr@N|@PhB?dCX`CTlEJzC@fD?~JF|DHvCDxGIfGBhD?T?vDD`BDV@tANnDl@hFfBxCnBhAn@vAr@dFvC~D|BhCpArCbAxFnBfCp@v@NfE`@vH`@vMDt@@tJLb@?jHPX?rT?fABxDf@bAEvNq@bAGzIc@l@h~@JzNJfNNjRRh]`@bo@^lc@cBtBgA^kAx@_BvA_AjEg@pFOHaBPkDLuJj@yL~@}E^yE^_Gz@}ARkDj@aAPuBZ{AVgDFkBKeCUkAIkEFiA@Q???i@@gAHmDPuEXo@BiAPw@H}@NcAAa@NUF_@@e@@i@@iABgFRyG`@kFj@gIz@mCLcNx@_EV_TjAkHn@cETqKl@aAJgAJkN|@oP`AuNx@aF\\mB@wAI{@O}@OsAa@eJmCwUqGa]}IqGeBoHqBeDw@aBImM[yBLmBV_C`@a@FyDp@A@kEZeAHsAJmIt@QBwAJg@B[DqGb@eF^Ym@s@yAc@mAKwAMiAW}@_@e@Sy@c@}A_BkF}@k@aEqAwBaA{B{@iC]wBEgCJyAKiA?w@EmC^w@Vy@PiATcBv@w@^QNUTi@LiAHmBMyCm@qEfBaBYuDm@iCe@yDh@eEqD}BWuChBe@PgAMyASWGuDqB\\O`@Qo@{DBIbAKnAEbB@dBJPfCp@G~@OLI@]Ik@[u@OQo@k@N]D[RgAZ_ATMb@CRDPJTTL@b@EXDTM`@QLaAe@mD{@yBBM^c@Hj@fA|AVBRJ\\GpCfBXl@\\`@f@Rl@JYuBC}J@kAFkBI}AK]c@u@S[WXOQNUCQOOGMISy@K][AcAY?WICOAa@HOQGYUIIGKCS@a@JONITG`@GGo@G_@KUUQ[We@]][_@g@BKG]@g@ZmALF?i@As@DeABq@\\i@BUeAwB{BqAwAgCcBiFoGoEuDyBgC}@}B]aBXcAJa@Oa@IWWaCjAaAC{@KsAo@w@e@JcCa@kEHu@z@YXN`BQ`E}@jDqArB}AlBaBf@u@Ra@CsBTc@PMb@UjA_AvC}Ao@gAdAmBpBk@VSpA_B~BgDt@qAz@aB^aB^gANu@HBJw@LgALm@Lg@Ne@Vm@HE"
+        },
+        {
+          "name": "District 20 (منطقه ۲۰ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.5682071,
+            "maxLat": 35.6295415,
+            "minLng": 51.4002501,
+            "maxLng": 51.4721365
+          },
+          "encodedPolyline": "ybjxE{bayHkBsCy@eCwAiFuAsFeB_HyAyGkAcFkCiKw@wHcAwDgFwEeI_Gmo@lcA_JjQqAfEsAfEcAjDy@jCw@bCeA`AmB|@ErLDpMLtI\\dK`AdK~AnNhE~T`BvGfDzKbHpQtEhJxGnLhF`HhPtTbB|BlEnJhDpJ`C~LdAdOrApUDh^~@xQbIeKRDfCeFxCyF`@{GToCUaBDk@x@JxGbAbK|C~J~AHqAr@}A[[Z_C`@FJe@^Dh@aBdCzAvAO?KUsHH[`AaDxDg@nF{CpB{@xCeArBq@zEuDLKKUh@Qb@OnBq@~Ac@t@WXNbIuC~@]fJcDGeEzEgBvC]h@?d@`@tERp@BzFQN\\PApAc@fF?|DLbHyAr@fF`FoAjBk@Nx@~Bk@dByBp@hAb@G~A_Ch@v@h@MnAeArAn@dMZ\\@pBsCfAyAjCsDnAb@`@o@JO|J{BmGcd@SuAkO~AiALeADm@HgALeEf@{BX[`@@cAgAQg@g@eCyAqB_Bh@kA`@aCqAkAmFxFsBn@Wm@]mAUmAI_ACoAAiAEqA?{@DmAJqAT_BPgATuAXeBvBoHr@aCj@qBv@gCZeAPk@Po@P{@@]@e@I]E_@BqDCe@OoBSgAu@oE}@mGFW@qA?o@QwDL{IFcB?m@@_CAq@Ai@KcAmCaGM[e@gBcA{ELs@rB[x@MXEP?Z@PCREXI\\MXK`@Cr@?JDNXP^bA@ZDfA\\|AZPDeBlEkAvBt@D|Cf@`Db@\\_LHkA_@}AsIc^rMgHIUzCqBpAcA_A{DlAq@|Ae@jBk@`Bg@t@i@LqABmAViAh@sB\\gAXy@bCuEt@W|F_CPIh@SrMyFEqDSuEMqCSgCS{AgBiHkAPUw@{B~BmArAVd@s@`@Pj@q@\\?PST]VsC`BqBx@aC|@oAVw@XiB`AoAv@g@d@q@r@g@b@aAv@o@^kC`BeAj@y@ZmH`DmB`A}@^gChAc@TWJYHu@FeA@g@Fe@^_@Z]`@ULYDcBLu@Ds@R_C`A_Br@i@TWRe@^i@`@k@d@k@\\cCtAg@Tg@P[HGa@qDpBkDjBiBbAcB`AsHzEoIrDOFYb@{BlA}DpBiDxAkGxC}Cp@sJV_OmBmKiAcIu@}Gq@yFt@u@LeCKqDsB"
+        },
+        {
+          "name": "District 21 (منطقه ۲۱ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6766374,
+            "maxLat": 35.7456386,
+            "minLng": 51.0892219,
+            "maxLng": 51.2914947
+          },
+          "encodedPolyline": "gqdyEmpyvH|OxDjD}XbF_b@dCiV~@{KdNsv@BQtEyOhMk]lBcGzBuEtC_DtBuAxAu@rDyBdMcIpFaEbPcP`BqBzA{AnAsAzEyG~CcEzAsBrAkBlLuP~CuFxBcFxBqFfA{DtIsX`CuKfDmNvCuI`A{EdOol@XwA`@iIrAiI~H}f@xEaYtC{QhAoGrBqIv@aEvDiM`JsZbOwg@pLw`@zIeZvHqVnE}NtCgJxBeJzAoFdEkNbAwC|AkFzBqHvAkErA}E~@}DzAaFnDWnByPxA{OR_A|G}ZjBiShEsj@lCyZnB{Ux@}JdAqNZaEt@qJt@{Id@{G~A}PVoFRwFVqMf@oRHyE}FGmBuA_FmCmDw@e@gAeA_CaAkBw@QqCmBoB_BaCiByAyAo@BmAFyA}A}AsB{@{@cAeCYeBuAmAsBaB{BcAeB]sA\\}@IcD_CsEFoBYiEmBsHiCuGs@yClAcC?mDwB{I`@gG[uEWuBC}AGu@U_Di@{DMgCXgFXcAs@_BiCq@u@cG`@sFJ}A]kHT}BbAuDTeD]gCQkDKL|Gh@xVTjNNnINvHRtMXnL\\tOPpHAfCLbFLvELbMXbOJdFVjJHrJRrEHvCJ|FFjDBtB@bKEnHSzIYlGUzCa@rEOzAuA`LsAjMeAzIeCtTi@`Fg@nFcAvS]|Vk@tTUnGiArR{BnV_E|[kExVaErQ_DzL{ExPwGdUSr@iCrHwC`L}AhEiEtOiElNaDpKwBjHgHlVaH|U{CjKiIdYqBhGmDhMyLn`@mK|]sAnFiCbKiCdNyBjOwAdV]`IBhJJbLV|ITbEj@jHp@dHxAxJnFl^bAfJZ~FZzKEnKQ|FWhFmArTiA~S{@fPs@bNi@|IqA|SaAtKqAzJeApFq@rDq@lC"
+        },
+        {
+          "name": "District 22 (منطقه ۲۲ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7145052,
+            "maxLat": 35.7714209,
+            "minLng": 51.0901497,
+            "maxLng": 51.2911501
+          },
+          "encodedPolyline": "oweyEqa}vH@@@@DBJJ@@@?HF@@FBFBNB??JBFBLJB@@B?D@B?HEZCP?L@L?HBH?B@@?@DF@JBP?BABEFKDIF?@?BHH?BCDA@GHA?GFA@GBK@A?A?C@I@Q?A?A???CAACCCAGACACCIEEGGGCIAMCIAA?WAOCC?G?A???I?A?GAEAA?A?ICAAGAA@?@ABA@EAEAAAA@A@A?A@A@??KVA@?D?D@D@BBH??@BA@A@C?A@?@??BBXZHJ^`@BF@B@DAF?HEHCFAF???D@D@BBB@@BB@?B@B@FBB@HBFF@BBD??JVDNBHDR@F?BADEBA@O@MDE?CAA?{@E[AE@M@MDKDWFQHGDE@OFIDIFKJEDG@E?A?C?C?q@QGAGAK@E?G???A?CAIEGAECGEEDA@CBE?A??B?N@N@HDTDNBFDFA@IDGDILKRQT?BHB@B@B?BA@C@C@E?@H?@CF?@?D@B@B@@?BCD?@@DBD??B@B?NEPC\\APC@?NCFCL?@?LAF@FB@@?B?BGd@?RCHAH?@??@@@@FADCJMZW\\WLINGNEF?@AF?F?F@FBNDNHDBDBNNNFDBFDDHBF?D@DAFCFQVEFAHAH?H?FDH@JAH?H@HDFBHJJFDD@PDLFD?@?F?J?BAN?X@R@FBFDHFB@FHHJBFCZITKPGPGFOZEDKJMHE@E?EAA?CAEAACOC]KOEOAICC?A?KEICECEAYEMAGCG?E@C@O@G?GAA@C@GBGDEHCHEPGX?@LBNBF@FBNJNFDBDBDB@@BJDFBRBJ?BBDLL@B?DABABG?E?YAE?A?EBGDCFKXCHEPCHAH?F@H?HEPEPEPEFEDKDGBC@G?C?CAGAIEEEGCMEI?MAA??@???F?JBHDd@BRBPDP@F?J?DABGNIPKPCDEFEDG@G@I?A?I?IAMGGCOI[OGEEGMYCEAAGEC@?@?D?@@@AH@R?H?R?HDPFPN`@NTFPDNHNBF?D?DBDBD?D?FADABEBC@E?E?C@CBADALEJILEDE@C@GAC?YCGAOA??EA]IGAC?A@A?MHSJODI?C???EGAAAGAKAUAGAGCGCC??CAICGAAAE?A?E@??YDK@G?A?G???A@?@LDXJFB@@?DABEDEDg@ZKFA?SHg@^QLGBMHKB?@@@b@@??^@D?n@CZE@?H?@?DDFNFDDDFDTJ@B?BCBMNMPAFAJAFCFEFMLSPGDG@C?C?A?ECGCWEOGC?C@C?A?E?k@EI?A?A@ABC?GCA?GCICC?A@?@@JA@?@?@@@F?B?@@BB@D?B?D?BEHABBJ?HA@CH?@BB@B?D?HADQLQLUJA@@@^BFDB@?BDL@D@?BFDN?B?DAHCHABUJEDW\\MHEDAB?@C?CAE?A?I??@ABOJCBGB?B@?H?BAN?B@@B@H?@@?B?F?H@D@nDrAt@PdATjj@lGZFVHfRvJp@mCp@sDdAqFpA{J`AuKpA}Sh@}Ir@cNz@gPhA_TlAsTViFP}FDoK[{K[_GcAgJoFm^yAyJq@eHk@kHUcEW}IKcLCiJ\\aIvAeVxBkOhCeNhCcKrAoFlK}]xLo`@lDiMpBiGhIeYzCkK`H}UfHmVvBkH`DqKhEmNhEuO|AiEvCaLhCsHRs@vGeUzEyP~C{L`EsQjEyV~D}[zBoVhAsRToGj@uT\\}VbAwSf@oFh@aFdCuTdA{IrAkMtAaLN{A`@sET{CXmGR{IDoHAcKCuBGkDK}FIwCSsEIsJWkJKeFYcOMcMMwEMcF@gCQqH]uOYoLSuMOwHOoIUkNi@yVM}GkElAeHnDkLpIoPvKoGrGwErD{FbEiJ~EcHfFmD|EkCpJgBdEqCnFiE`DsFpFgInJoEzGmAbCmCpA^rBXhCiDdBmCpAqEpAcDh@y@~@OnDiOyC}ASiAGeHuAoBaA{Cw@_BQsARoBa@eGoAkC_AkEcAuCi@yFvAuAs@e@Ue@PcCo@oEtAeADyDrCoDzAg@VwBA]i@a@McBh@s@h@kBS}@Ti@?yDbD{E`CsA\\gBlBkEfEaDp@oNvBEn@@\\Fx@BzADj@?dABjCD`ADzBAlALzEAf@DrB?ZBj@D`AJ@LHNJZl@Nj@Bd@@t@LtA]bD[bHFrB]@BtCKjCc@@c@AiAO_@G]f@Ll@d@p@bAj@P`@@^hBXtDhLfGp@nDlEhB`@tBlEpDhGg@TUhBKd@a@h@WN]NQjJMnCd@dEl@p@x@TjC@pDjOrFnUyClpAYh\\kBe@s@lLgBnYa@|Gm@fCm@fI?dA?t@ZpEl@jCxB`FhAzAThFJvIZdLNv][xDKrAoFxKaLlRyAxDkA`Ei@rEEnC?|DX~Kt@jIf@zDpAxKpFp]lDfLjDhGrGxGvH|DGlGLlKPdE`@pFSlExA|HtLdg@fGl\\nBxJjBlLjB|M|Df[bB|MhA|JDlPQ`Em@hFgCnI_@dBAlB^pBdBvE^xAt@pElCrHf@tBP|CBpCpArPn@sAZQz@Cd@c@d@f@^Fb@XNj@F`ATt@Ep@g@d@QYo@]i@Q[@LdA@~As@nA?@?@"
+        },
+        {
+          "name": "District 3 (منطقه ۳ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7402429,
+            "maxLat": 35.7938099,
+            "minLng": 51.3860821,
+            "maxLng": 51.4764252
+          },
+          "encodedPolyline": "ezcyEaf_yHQ`BYlCe@fC]bBUvD@jCBhCBNAbFQ`E?|CEtD@pFNxCTvBZzBt@zB`ApCfAzB|@vBj@jBr@tCXvDD~I`@|WFvJeGM_N~@}DJ[@yJE_P|EoAhDeGpLsAhEq@nE[hECdETxDrAdK`@|DX`GDzVBlEB~B@dJFtI^zSPlFj@zRLzBJbI`@vH^xNuDGcABiFOiBEw@AoCIqCYkDaAu@]aBi@OG_Aa@_GcC_Cy@}Ae@kC_@uCGiF^sGn@cHr@wC\\cGp@}G`@_DLqCGuCYeDk@qCy@oFmCiGkDyCgBcB}@gC_B_GiDuFwCgEcBcEYiD?sDb@sVfDmHp@sA?_BMeC}@cA}@eBcCq@yAm@wBa@mBsB{K{BaL[aAg@}A{@kCgBcFc@yCBcC^gCr@kBjDgGx@yAv@{CJ_BA_EKaMnAuM|BgT@E^_Ct@_Dx@eCnAqC`DaEzDqCjKuDbDeBdD{CpIuIlIgHxGkE`FuB{@uBaCgKm@_C{@}BuBkDoAyAcCaCgEqDoBsBgCkEa@aAa@_BUyAgAiI{@uH_BqMgDcR}CaM{AgFwEqMsGmNkF{JqD}GeBiEgAwDo@uGBoEb@gFnC}Mj@eDxBoUdDgPh@aDXmCRoHEaDt@r@|@x@vBrBbG`GvB|Bh@r@Zt@V`Ab@zCb@vCVz@Xf@TTZR|@\\tPtG|FxBdBr@xBv@xLhEzKfJ~CdC~KlJ|M|KdPpMfH~FbClBdKtBR@dAVd@J|HvBxBx@~BlBf_@jFj@Hx@JPDzCd@bE~HvAtCfBtErBWb@Iz@IhBQlK{@hBC~ALd@HVFhCtAXIrBlAtKxFp@^`AFz@Lf@FpBZ"
+        },
+        {
+          "name": "District 4 (منطقه ۴ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.723535,
+            "maxLat": 35.790468,
+            "minLng": 51.4468891,
+            "maxLng": 51.6063007
+          },
+          "encodedPolyline": "ygmyEu~dyHt@r@|@x@vBrBbG`GvB|Bh@r@Zt@V`Ab@zCb@vCVz@Xf@TTZR|@\\tPtG|FxBdBr@xBv@xLhEzKfJ~CdC~KlJ|M|KdPpMfH~FbClBdKtBR@dAVd@J|HvBxBx@~BlBf_@jFj@Hx@JPDzCd@bE~HvAtCfBtErBWb@Iz@IhBQlK{@hBC~ALd@HVFhCtAXIrBlAtKxFp@^`AFz@Lf@FpBZDqA@wGFoCpAmY|@uSFkDO_FKaCEgCBwAb@}Dv@}Dv@sEBgGFgDTkEFeAv@uJbA}MjA_MToBd@uDf@gFbEk\\VoDb@gG`@mF`C{Wr@kIRmC^iBBSNgBhAcQzDyl@lJ_vAh@_ITgBzKybBl@wG^qB|@}BhB_C|BaBfAa@dDc@jOeA_Aw[]aOaDagAIkEDiBHy@b@mW\\kD`D_PnCeZ`Bac@N}X@wNMqCOcCo@cDm@yBxCuIBKu@l@aAb@aA@y@Q_FqD]h@m@HkBaDc@oAoAsBaBqC_A}Ae@w@MSIMWc@MSi@o@q@y@y@_A_AiAw@cAs@_Am@s@cF_Gq@s@m@k@U[c@{@qC_Gc@eA[q@Wg@oAgBuDwFy@eA}@oAcA{AS][Ug@[e@[aAm@cBiAuOwKy@g@w@_@iA]_ASeB]qAYyDqAyDqACF?AQr@]pAOl@?BCHQv@c@jBa@zBw@tE_BpJCPcBpG]lA_B`GENaDpJEPk@xB_@rAm@`CGn@c@dE?|@?R@hG@dCEdKQlAq@fEYbB}BfHoDxKqIbU{DrGuFlDmD`BC?EBoIzDaF~DaAv@[VMJgGlIo@z@yIxLQTU\\m@z@_ArA}@rAyDtFABA@a@v@yGtMU`@iApBqFpJaE~Gq@jAU^o@rAU^mBtDwChIiAlEmCxK{EnRiF`TsFtTMf@oBbIUbAkBhJsBxOqApO]`EQ~QSrUIvCq@`W@zD_BrFyAzEs@zAmKdPuDbGuCxGuFjWsJhi@_C~NW~Eh@fNl@lI`@~FLxEOrDq@`FgGtReF~OY|@_AfCmGtRq@bFCnBj@rLFz@"
+        },
+        {
+          "name": "District 5 (منطقه ۵ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6966811,
+            "maxLat": 35.8100343,
+            "minLng": 51.2620291,
+            "maxLng": 51.3419282
+          },
+          "encodedPolyline": "wwpyEmgjxHJKNQJKLWLWJMNK@CBADCB?HGf@Y`@YDABA@CDA@A?ANCBAFCNCNCJEJ@FBL?d@@RCVOLEDAF@DCDBP@L?PARA`@IPEJBN?N@N?L?T@HBJHPNRBRMJC`AW^e@j@WZQ^E^S^E\\i@PBP^jAHj@PJH`AA\\Cn@e@b@@n@AXLVB^GTO\\k@hA]f@C\\BVBZJTXTPd@hATBN?PSJYe@y@tDpBVFxARfALd@QtCiB|BVdEpDxDi@hCd@tDl@`BXpEgBxCl@lBLhAIh@MTUPOv@_@bBw@hAUx@Qv@WlC_@v@DhA?xAJfCKvBDhC\\zBz@vB`A`EpA|@j@~AjFb@|ARx@^d@V|@LhAJvAb@lAr@xAXl@dF_@pGc@ZEf@CvAKPClIu@rAKdAIjE[@AxDq@`@G~Ba@lBWxBMlMZ`BHdDv@nHpBpGdB`]|IvUpGdJlCrA`@|@Nz@NvAHlBA`F]tNy@nPaAjN}@fAK`AKpKm@bEUjHo@~SkA~DWbNy@lCMfI{@jFk@xGa@fFShACh@Ad@A^ATG`@ObA@|@Ov@IhAQn@CtEYlDQfAIh@A??P?hAAjEGjAHdCTjBJfDGzAWtB[`AQjDk@|AS~F{@xE_@|E_@xL_AtJk@jDM`BQNI\\xEXrBDNTv@Z`Ab@z@v@z@zCpArBRHnK@rBZnf@NhVXtTNdMNrVb@JlDj@t@Ln@JhC\\^DANeBY}B]YGWCCAA?u@Kw@MUC_ACHtMRxO@~O@b@H`DDhFYxH}@hHcAdLmAbLuDp]uEWuBC}AGu@U_Di@{DMgCXgFXcAs@_BiCq@u@cG`@sFJ}A]kHT}BbAuDTeD]gCQkDKkElAeHnDkLpIoPvKoGrGwErD{FbEiJ~EcHfFmD|EkCpJgBdEqCnFiE`DsFpFgInJoEzGmAbCmCpA^rBXhCiDdBmCpAqEpAcDh@y@~@OnDiOyC}ASiAGeHuAoBaA{Cw@_BQsARoBa@eGoAkC_AkEcAuCi@yFvAuAs@e@Ue@PcCo@oEtAeADyDrCoDzAg@VwBA]i@a@McBh@s@h@kBS}@Ti@?yDbD{E`CsA\\gBlBkEfEaDp@oNvBmMqBuB[_QaCsAd@oB`@}B@s@D_An@iGbE}@NsD?_@ASUqBhAg@OKc@Ho@TYl@]gCiQoAyCe@yA]k@aAk@Qe@MgAl@eBfAcAtBc@`@k@D[Oc@EeAcA{AH_AOm@Nu@n@gAx@e@?YK[@c@c@iAD]tAS~A?\\Gf@u@Vu@HmARq@~@AJr@l@h@l@tAz@t@`@@\\_@JcAIkBSa@s@]GUBi@Qc@WyBDqAGi@{AeBCUsAm@_@w@y@k@k@Ay@_@[Fg@G_Au@SR_@DuBUm@S][l@k@BQi@Si@RKq@mAN]VJw@Vc@`BmApASdCCBUYi@Mo@OgBhBj@XEf@a@Zn@JB|@g@b@aBh@cAn@Vf@j@^ANQ^yAIgAf@IDIEk@MY?eB_@}@gBmAZc@f@SH_Au@_Dq@CNWI_AUEa@F?o@y@kA|@Lp@Mt@UjAq@fAfAd@Cd@k@B}@l@c@Ho@`@kASo@[Uw@Cm@RSqAy@k@Ri@?Y\\Fd@Ip@cAW{BWBgAr@oAw@c@GW]aA?IOAMRa@d@Iz@qAR?Nj@l@STc@B_@`@k@^OR]?Sg@SIa@MJiA]KUaAV{@DMH@h@e@?o@PyAz@iB~AmA`Bo@`@mBZeB_@]@AYNc@bAeAf@sAJq@EWIm@Dw@jAa@Zo@P_CCm@Sc@J{@LQnAYJ]P?pAHZXrBh@j@MR[\\iA?mCRwDhC\\lDBbBbAVKT@l@|@PaGMoEYwFYuBMe@e@_Aa@}@e@yDISYg@a@k@iAcCKIe@GS?}@LO?m@QQKKIiAoAg@i@SMCOSg@Lq@C_@c@y@K@Wq@UGc@LYBK@[EkBFoAKm@FUM_Ad@q@Ge@RA~@oAOwAt@q@Pg@@C]MCkAfAiBXm@hBe@Hm@GoAJk@`@]BgC}AcABg@]MGYCEMA]dALhCLlBAVGVKl@_@PQP]Rm@LYVWb@[|@{@|@s@`DmDnDwCU[Tg@aCyBfBuFTsAGu@QXUH[HeAX{Bn@{ANe@Y]q@]gAOc@Yc@IgALCh@c@`@e@Vg@^cBVaCf@qH?SCOIc@c@aAo@s@eAk@MJc@De@GQUOWGY?ULaA@qAl@oAHwBR}@TWpAe@Ma@MK{B}@uA}@eAqAd@{@D]fBeB^g@Lg@Gc@c@k@XyCAwAUaBM_DGOc@QoAM]\\m@zAMIW\\mAoAg@SWDKKMg@OKAy@OSuAH]TSu@N}Bd@eAg@s@uCIQg@]FgAQqAXIM@}@d@oBGQg@Q?SJAV[i@]We@_BACQ`@[p@eAn@SHMCIsF|@`@wAVUXw@\\qCiCc@f@q@Bg@|@UVWN{@t@gAAeC|@QPOJ]GiA`@QPm@v@c@VwAf@mAa@{A[WUi@WmByAGMEUs@kAMMYk@eCl@aBE]cC]m@?cAWqDh@m@K]g@]Ss@C_B{@iBa@{BiAQfAItC\\|@@n@Y[kA?EMiB}@_@k@gAw@o@Cu@[W?cA{BQOiE_AiB{Bc@UU@]^e@hAUhA_Bn@mAXkAQGEw@c@[Qg@m@Ae@cKLkAf@kA@MLCV}@f@s@Pm@Co@g@m@mAmE_@EaAbDq@x@?f@_Ab@YhAmBHK"
+        },
+        {
+          "name": "District 6 (منطقه ۶ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7006576,
+            "maxLat": 35.7521851,
+            "minLng": 51.377614,
+            "maxLng": 51.4275001
+          },
+          "encodedPolyline": "mneyE_jsxHfFLbGNbH~@lB|@hG`Cx@ZtCbAh@R|@Zr@N|@PhB?dCX`CTlEJzC@fD?~JF|DHvCDxGIfGBhD?T?vDD`BDV@tANnDl@hFfBxCnBhAn@vAr@dFvC~D|BhCpArCbAxFnBfCp@v@NfE`@vH`@vMDt@@tJLb@?jHPX?rT?fABxDf@bAEvNq@bAGzIc@Sk^EaFQiXGmHBeGMiIe@ay@MoR?c@Sq[C{IGmFYie@]}j@{IDoJXiHRa@@yL\\uKViFSe@EwCM_AG]GmBMk@IwAU{Aa@wBm@{B_@kE_BqDuAuAEoJ|CwAlAqEtDkFdAeC^cCRkEhAeC`A_ExCkFnFgCtCyF`DuEj@_F[iCw@mCoAaCkAsEgA{O{AoEc@}B]eGM_N~@}DJ[@yJE_P|EoAhDeGpLsAhEq@nE[hECdETxDrAdK`@|DX`GDzVBlEB~B@dJFtI^zSPlFj@zRLzBJbI`@vH^xN"
+        },
+        {
+          "name": "District 7 (منطقه ۷ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.70167,
+            "maxLat": 35.7426959,
+            "minLng": 51.4203466,
+            "maxLng": 51.4722863
+          },
+          "encodedPolyline": "it~xEqd{xHwBm@{B_@kE_BqDuAuAEoJ|CwAlAqEtDkFdAeC^cCRkEhAeC`A_ExCkFnFgCtCyF`DuEj@_F[iCw@mCoAaCkAsEgA{O{AoEc@}B]GwJa@}WE_JYwDs@uCk@kB}@wBgA{BaAqCu@{B[{BUwBOyCAqFDuD?}CPaE@cFCOCiCAkCTwD\\cBd@gCXmCPaBDqA@wGFoCpAmY|@uSFkDO_FKaCEgCBwAb@}Dv@}Dv@sEBgGFgDTkEzGzDxCbBrK~HvPpNlG~E~D`EpBObBjAzA?hBJnCElECxFcCrUiMrC}A`@U|As@vEaCxDwB`AYd@WzEcDlLmHb^{\\`EoD`@QpCnM~ExUhG|[~EnWhHt_@pCdNx@dE`@hCHt@@JFtG?rADlNNz_@?bNR~d@D|JFfL{IDoJXiHRa@@yL\\uKViFSe@EwCM_AG]GmBMk@IwAU{Aa@"
+        },
+        {
+          "name": "District 8 (منطقه ۸ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.7090256,
+            "maxLat": 35.7403457,
+            "minLng": 51.4588739,
+            "maxLng": 51.5385939
+          },
+          "encodedPolyline": "ml}xEyddyHmCwMyCmN{AoHaJec@k@qC{AiHeFsW{F{VwD{PaAqEc@_C_EsR}EkUgD{OkDqPgFgVaF}Uk@mEw@yRKeEIwD[mJM_FG_DAa@EuBKwEYgFMkFYcLy@eWkOdAeDb@gA`@}B`BiB~B}@|B_@pBm@vG{KxbBUfBi@~HmJ~uA{Dxl@iAbQOfBCR_@hBSlCs@jIaCzWa@lFc@fGWnDcEj\\g@fFe@tDUnBkA~LcA|Mw@tJGdAzGzDxCbBrK~HvPpNlG~E~D`EpBObBjAzA?hBJnCElECxFcCrUiMrC}A`@U|As@vEaCxDwB`AYd@WzEcDlLmHb^{\\`EoD`@Q"
+        },
+        {
+          "name": "District 9 (منطقه ۹ شهر تهران)",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 35.6664088,
+            "maxLat": 35.7020419,
+            "minLng": 51.27871,
+            "maxLng": 51.3564956
+          },
+          "encodedPolyline": "__vxEivlxH\\QLe@^DhHxPlEvLvAlDj@`BPnC^z@JR`@r@~@hDt@dIC~Dm@~HgC|WAFiArLcI`z@cBbQiCnW{Ch[gCzPq@fDi@Mg@KmA]c@IyAImCOgBMcB^g@t@EjBUvKWbIu@jp@ErTk@pZG|IIxGKpGUhc@}FGmBuA_FmCmDw@e@gAeA_CaAkBw@QqCmBoB_BaCiByAyAo@BmAFyA}A}AsB{@{@cAeCYeBuAmAsBaB{BcAeB]sA\\}@IcD_CsEFoBYiEmBsHiCuGs@yClAcC?mDwB{I`@gG[tDq]lAcLbAeL|@iHXyHEiFIaDAc@A_PSyOIuM~@BTBv@Lt@J@?B@VBXF|B\\dBX@O_@EiC]o@Ku@MmDk@c@KOsVOeMYuTOiV[of@AsBIoKsBS{CqAw@{@c@{@[aAUw@EOYsB]yEf@qF~@kE~AwAjAy@fA_@bBuB_@mc@a@co@hFa@|PIbAk@xAWf@Kt@S\\Uv@k@L]@q@rAPrARjDb@jD`@fIbArEj@nLfBvDn@xC`@rAL`AD|ACt@@ZDh@F`@Hl@BdAE`A?dEUjG_@jEW|@G`AEpLi@vFhCnLfFlH`Db@L"
         }
       ]
     },
