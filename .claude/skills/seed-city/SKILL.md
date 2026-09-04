@@ -1,6 +1,6 @@
 ---
 name: seed-city
-description: Add or update a CityWalker region seed for a city — generate polygons, verify the preview, check the no-overlap invariant against the existing catalog, validate, commit VERSION + cities/ + region_seeds.json together, and push (which ships to users). Use when asked to "seed a city", "add a seed", "add <city> to seeds", "reseed <city>", or similar.
+description: Add or update a CityWalker region seed for a city — generate polygons, verify the preview, check the no-overlap invariant against the existing catalog, validate, commit VERSION + cities/ + region_seeds.json together, push immediately (which ships to users), then regenerate and push the public cities page in citywalker-website. Use when asked to "seed a city", "add a seed", "add <city> to seeds", "reseed <city>", or similar.
 ---
 
 # seed-city
@@ -240,11 +240,40 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
    git commit -m "Add <City> seed"   # or "Reseed <City>: <reason>"
    ```
 
-7. **Push.** This ships to every user on their next 24-hour region-seed
-   cache refresh — there is no staging.
+7. **Push immediately.** Every seed commit gets pushed as soon as it is
+   made — do not batch seeds and push later, and do not leave a seed
+   commit sitting unpushed. This ships to every user on their next
+   24-hour region-seed cache refresh; there is no staging.
 
    ```bash
    git push origin main
+   ```
+
+   This is the one repo where pushing without a separate check-in is
+   expected: the commit rules above (eligibility, overlap, `build.py
+   --check`, three-file stage) are the review gate, so once they pass the
+   push follows in the same step.
+
+8. **Regenerate the public cities page.** The website's city list at
+   `citywalker.app/cities/` is built from this repo's `region_seeds.json`
+   but lives in the `citywalker-website` repo, so it does not update on
+   its own. After every push here, regenerate and push it:
+
+   ```bash
+   cd /Users/pritipatki/AndroidStudioProjects/citywalker-website/cities
+   python3 generate_index.py            # rebuilds index.html from region_seeds.json
+   python3 generate_index.py --check    # must print OK
+   ```
+
+   If `--check` still reports stale after regenerating, the new country's
+   ISO code is missing from the `COUNTRY` map near the top of
+   `generate_index.py` — add it, then regenerate.
+
+   ```bash
+   cd /Users/pritipatki/AndroidStudioProjects/citywalker-website
+   git add cities/index.html cities/generate_index.py
+   git commit -m "Regenerate cities index for <City>"
+   git push origin main   # Cloudflare Pages deploys within a minute or two
    ```
 
 ## Related
