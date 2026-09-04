@@ -1,5 +1,5 @@
 {
-  "version": 143,
+  "version": 144,
   "cities": [
     {
       "name": "Aigaleo",
@@ -11689,6 +11689,132 @@
       "centerLat": 51.530813,
       "centerLng": -0.058147,
       "radiusKm": 13.32
+    },
+    {
+      "name": "Lyon",
+      "countryCode": "FR",
+      "centerLat": 45.757815,
+      "centerLng": 4.835119,
+      "radiusKm": 5.82,
+      "regions": [
+        {
+          "name": "Lyon 1er Arrondissement",
+          "osmId": 10690,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7645928,
+            "maxLat": 45.7747907,
+            "minLng": 4.8131867,
+            "maxLng": 4.8397727
+          },
+          "encodedPolyline": "}{ivGqil\\eBcNa@uFYaPdBqKzCyGhBuA|H{Cq@}B_@oANKLILG?I@KBuAPC?AASA}AAk@i@@?M?[GmDAO_@?SiCOcDAS?YEiDA@_BFo@BM@AQAyBEoBSgIyFByE?gVp@o@GsDw@{@fEQ|@s@zCMII\\RLER[EC?ZVINWDSKg@~@Kv@ADA?GpCFBHRJlAv@~RLbEv@fVABB?z@|V|BvKb@vBPnAvB|KdDtNBLRhA?BIDCM?CCAEAE@CBAD?FLtAThA@?BdBQTC@ADDXFb@XtB`LuCt@Ml@]h@a@d@k@^s@\\{@VaATcARgANiALiAJgAFy@Dy@@y@@{@@qD@}@"
+        },
+        {
+          "name": "Lyon 2e Arrondissement",
+          "osmId": 10680,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7264919,
+            "maxLat": 45.7662799,
+            "minLng": 4.8130295,
+            "maxLng": 4.8398042
+          },
+          "encodedPolyline": "ukivGknn\\jIEfLpCjA~AnE~C|@n@x@x@v@z@lB~Bv@|@v@x@~@v@zB`CrSpInIpGB@DBJHPJdClFNXb@hAfBtEb@dAd@dAb@`Af@~@`BfCv@fA|AlB~@bAp@p@jBdBdCpBrAx@|AbAhB~@xFjBrDXdJbArDNfJUhJcAzO_Cx@OxD{@z@[PKJMPWj@kA`@wATs@HUv@iAT[\\Wn@a@|@_@v@Un@QzB]TDtM{AUkD}BYeFu@iCa@{HoAyDu@uJcCmFy@ae@{YaZgVoGyHSMOIyHoHq@_@oKyG}KoI]IeX_QWO@KWMgRwCe@CeTiBsK@kCLRfIDnB@xB@PLAn@C~AG@ADhD?X@RNbDRhC^?@NFlD?Z?Lh@A@j@@|A@R?@QBCtAAJ?HMFMHOJ^nAp@|B"
+        },
+        {
+          "name": "Lyon 3e Arrondissement",
+          "osmId": 120967,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.739017,
+            "maxLat": 45.763731,
+            "minLng": 4.8384204,
+            "maxLng": 4.8984245
+          },
+          "encodedPolyline": "cfivGkjt\\?u@?aAAuC@aDA{DAqE?kEAgF?sD?qKvEgDlE_DfAu@\\gB@GDU@CJi@DUvAwHdJhCx@gIB[Fe@De@BOHw@H_AfE^hGp@Z@b@?t@Ht@fBNLDAHg@IuBAOCsBAi@AM?SAW?iA?qA@S@SHuAB]BWFaABa@BUNeCF}@B]BY@QBm@NuBBYFiAFs@@QJgB@UFaB@i@Bq@?M?G@M?Y@K?K?M?M?q@@}@?GAYC_@?SCyAA{AB_B?e@Fc@LeH@Y?Q@i@BcA@_AB}@@k@?[@i@?U?k@EsALoG?[?O?O@GDgA@GJm@R}AD[Du@D]BK@MLy@BML_ANwABa@@MBK?A@KR}@l@iDJe@?CFUDI?GdEdBnAf@nAXVDpBXPP@?b@VtBPrDp@HBb@HpFX@@LDxAf@hBp@vGtCdFvBVXf@d@HFfAd@RDlCnA@@FBHDHDxAl@jAh@dCdAf@dAbArBBFDB@@@??@@?@?@@??@?@??@@?B?D@FAFAJEFE@A@?DCDA@AB?@??AH@TDTH`@_@St@mKvd@oDjPqA`OUxAVD_AtJiAw@Oj@YjAEPMf@U`AMf@IXYnA_@xAK`@?DGRI^W`AI\\AB_@~AGTmA`FGTmA~EAHA@CJI\\U~@ABELKb@eBjHCJeBfHCJGRw@`DABEN[tAGRg@tBk@dCCFEP_AzDCJg@pBIXe@pBQt@GRa@`BQr@?BCFGXg@nBi@|BIXWdA??A@oBbIs@tCBBWbACJKf@_@xAq@jCCHSv@K^IXcAdEIb@?@Oj@ELCJ?@EREPKb@Oj@ADELERAFEPYlAGRqAdFGRIZGTAFWfAOl@Mh@?@CPc@bBQv@mCtKKd@W`AERIXGVk@zBsBzIy@|CCLyD|O_@`BiA~FWMgRwCe@CeTiBCaG?aA?oAA}KGkn@AmEAgEA{I?mEAqECgC?mA?{FAqE"
+        },
+        {
+          "name": "Lyon 4e Arrondissement",
+          "osmId": 18510,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7711446,
+            "maxLat": 45.7897261,
+            "minLng": 4.809026,
+            "maxLng": 4.8430325
+          },
+          "encodedPolyline": "yhnvGgel\\x@fArDnFz@lA|@jA~@dA`A`An@h@p@f@p@b@jEjCp@b@nIpGjJbIzCpB|CzAlE|BjDfBzHn@|Dk@~Co@vEsDfGmI~GaFYuBGc@EY@EBAPUCeBA?UiAMuA?G@EBCDAD@B@?BBLHE?CSiACMeDuNwB}KQoAc@wB}BwK{@}VC?@Cw@gVMcEw@_SKmAISGCFqC@?@EJw@f@_ARJVEHO[WB?ZDDSSMH]LHr@{CP}@z@gE_]sQ_Cw@eBxIIDuCrBq@|@q@|@MTk@`Aa@XcAn@y@hAi@z@{A`BEJSl@Kb@CTALDdADRHXbA`Cf@zA\\rA\\vLPrA_@Au@xHeBMP{AqAIADm@|G@BCFfCzDoAGQpAe@~COfBoAdGg@`DGj@eAtGMf@OL_E|@kCl@k@JNvAD`BwCdBQWWu@q@qBEAK@w@J@TcGtL]r@iB`E"
+        },
+        {
+          "name": "Lyon 5e Arrondissement",
+          "osmId": 10688,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7442456,
+            "maxLat": 45.7680006,
+            "minLng": 4.7718132,
+            "maxLng": 4.8306544
+          },
+          "encodedPolyline": "_dfvGwbk\\_BfGx@lAH^CNnBbAMh@u@~C?Ba@lBcCiCw@k@eExQCR?F_@rBKJEF[rAsFzUQRxA`FLZNd@p@jBPZ~@lCBNLj@Lx@L|@DjBHnBZnBhBtHnAdFhDhJAN~BzGNV~AdFj@bBbB|E?PzBjG`C`GlAfDZ~@Xv@b@jA{AzBqA|AaAfB]t@cAtCmAnBMHgFvHjAxDAn@ERsD~JkD~Dy@p@]d@sB`EYd@[LwAJWnCEn@a@ZaE_CwD_CYQGaBi@oCy@yDc@sBe@wCq@oEs@aISqC?cAXyI_MAi@i@aE{Eu@{@a@e@Uo@w@aDOa@IMKG[MqJkBiHkBgJqAAg@@sC@KF}F@mB@gHBeCF}ATqE^oGf@cHSqKDiC@wBBy@Fc@N}@dAsEd@oA~@kBn@w@j@]b@YjCuElA_BRILMNSX_@LUXo@Ps@Hc@De@DaA@SDUrAsFt@sD?C@Ab@wBAA@?dAgFXmHFeC}ArBKLgClDAJCA[^o@|@i@s@cAJe@F}@R_AZ}AA_AJy@j@uDt@eCt@k@iBk@{D?kEFWbBgCz@o@JOR_@DWm@UOqE[iAEIMEE@e@K_GSOg@EQC]?S`@uFBOXs@b@y@\\oABOJgBBw@Fy@^oDKAoAJ]]uC`@mDf@eBcNa@uFYaPdBqKzCyGhBuA|H{CjIEfLpCjA~AnE~C|@n@x@x@v@z@lB~Bv@|@v@x@~@v@zB`CrSpInIpGB@DBJHPJdClFNXb@hAfBtEb@dAd@dAb@`Af@~@wAvEYzA?bA?jJNBr@XvAZJHrBpCl@^"
+        },
+        {
+          "name": "Lyon 6e Arrondissement",
+          "osmId": 10679,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7635554,
+            "maxLat": 45.7871481,
+            "minLng": 4.8394484,
+            "maxLng": 4.8699442
+          },
+          "encodedPolyline": "wmjvGeut\\LKpCkCJMTSf@s@P]JU?G@?x@mDj@{BrAFn@gADGPUZi@PWP]FOh@aBfAoD|FkEHG~GuE?pK?rD@fF?jE@pE@zDA`D@tC?`A?t@@pE?zF?lABfC@pE?lE@zI@fE@lEFjn@@|K?nA?`AB`GsK@kCLyFByE?gVp@o@GsDw@_]sQ_Cw@cEgCuA{@oA_AuAgA_FgE}GoHcCgDkDmH_DoIyB_I_A}Ec@sGAuA?{BBoARaRrGb@F?b`@fClNt@tPXhK`@bADt@@xAkKJsAHgAFEdFaD@?LIBCXQj@]d@_@"
+        },
+        {
+          "name": "Lyon 7e Arrondissement",
+          "osmId": 10682,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7073666,
+            "maxLat": 45.7567897,
+            "minLng": 4.8186823,
+            "maxLng": 4.859956
+          },
+          "encodedPolyline": "{zgvGc_p\\AJVNdX~P\\H|KnInKxGp@^xHnHNHRLnGxH`ZfV`e@zYlFx@tJbCxDt@zHnAhC`@dFt@|BXde@yHzGiCpQ}Gb@SrFwDlAqAjDmDxBgDbBsDpC_ItBmIH[`EeSfCoGrCeGpFgKuBqPmb@|Mc^`Cc@_fA}Al@{@R[D_ANm@Do@@wAA{AEqBMmBGe@?k@Ds@Hm@HsJ|AeBTgAJoAHi@Bk@@e@?e@Am@Eo@Iw@MwCm@}@Qy@_@YM{@c@}Aw@YOYMiBo@a@Ku@Ke@Eg@EoCMcAGcH]eAGs@@S@QD{@Vo@TgDfAq@NS@EDm@@qAWCCcBuA]e@c@}@c@oAc@oBOcA[oBKQoB{Li@sCQs@I[Ma@Qa@y@eBKSWg@GAi@o@u@}@[]SSg@a@YS[U[QYKk@Kc@MmBo@cKkBgKkBECUQAC??wLuBACA@oBbIs@tCBBWbACJKf@_@xAq@jCCHSv@K^IXcAdEIb@?@Oj@ELCJ?@EREPKb@Oj@ADELERAFEPYlAGRqAdFGRIZGTAFWfAOl@Mh@?@CPc@bBQv@mCtKKd@W`AERIXGVk@zBsBzIy@|CCLyD|O_@`BiA~F"
+        },
+        {
+          "name": "Lyon 8e Arrondissement",
+          "osmId": 10686,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.718789,
+            "maxLat": 45.7494402,
+            "minLng": 4.8476322,
+            "maxLng": 4.8921378
+          },
+          "encodedPolyline": "wtevGglv\\Jc@DM@CT_AH]BK@A@IlA_FFUlAaFFU^_B@CH]VaAH_@FS?EJa@^yAXoAHYLg@TaALg@DQXkANk@hAv@~@uJWETyApAaOnDkPlKwd@Ru@|@h@nT`Lb@X`HxCnBv@rBn@zFnAzAj@lBbBd@d@x@p@r@R`@Dx@CdAEnCMzCMzCOv@A|Os@rCChDIvDU~@Gj@KaFhHZdByAfMWpKDn@^b@qLho@YvAy@nEaAnFwL|o@Kn@{AbAWNaAp@qFtCMHa@VMDsDvBOH]Jc@LC@KBD`@@H?FD\\HdALfBNtBxArMZ~CPdDFlA`ACdACdDChDM|M]\\Ab@C~BG`BEXAjHSl@CVANAl@CjEQzCMl@I`@C@?VA?XTz[@xD}Al@{@R[D_ANm@Do@@wAA{AEqBMmBGe@?k@Ds@Hm@HsJ|AeBTgAJoAHi@Bk@@e@?e@Am@Eo@Iw@MwCm@}@Qy@_@YM{@c@}Aw@YOYMiBo@a@Ku@Ke@Eg@EoCMcAGcH]eAGs@@S@QD{@Vo@TgDfAq@NS@EDm@@qAWCCcBuA]e@c@}@c@oAc@oBOcA[oBKQoB{Li@sCQs@I[Ma@Qa@y@eBKSWg@GAi@o@u@}@[]SSg@a@YS[U[QYKk@Kc@MmBo@cKkBgKkBECUQAC??wLuBAC??VeAHYh@}Bf@oBFYBG?CPs@`@aBFSPu@d@qBHYf@qBBK~@{DDQBGj@eCf@uBFSZuADO@Cv@aDFSBKdBgHBKdBkH"
+        },
+        {
+          "name": "Lyon 9e Arrondissement",
+          "osmId": 120966,
+          "adminLevel": 9,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 45.7586716,
+            "maxLat": 45.8082628,
+            "minLng": 4.783995,
+            "maxLng": 4.841247
+          },
+          "encodedPolyline": "s|qvGcvo\\X[r@u@DEHEn@[|B]fBa@nFWr@Kx@]h@UnAoAd@k@RkAhB{JTF|@ZrAd@rAx@hA~@rAlAtAjAj@h@nAtAf@h@\\d@p@bABDDHDFXXnAz@z@h@t@n@RZd@dAzAnD`@`ATlCl@vBl@vBN~AN|Ah@fEBRDr@NlBF~AH|AHdBx@|BlAjCdAxB~@nBvBfEhEnJtAlCVf@l@dAdAfBz@vA~@zAbA`BdA~AZb@zDzEx@fArDnFz@lA|@jA~@dA`A`An@h@p@f@p@b@jEjCp@b@nIpGjJbIzCpB|CzAlE|BjDfBzHn@|Dk@~Co@vEsDfGmI~GaF`LuCt@Ml@]h@a@d@k@^s@\\{@VaATcARgANiALiAJgAFy@Dy@@y@@{@@qD@}@lDg@tCa@\\\\nAKJ@_@nDGx@Cv@KfBCN]nAc@x@Yr@CNa@tF?RB\\DPNf@~FRd@JDALDDHZhANpEl@TEVS^KN{@n@cBfCGV?jEj@zDj@hBdCu@tDu@x@k@~@K|A@~@[|@Sd@GbAKh@r@n@}@Z_@B@@KfCmDJM|AsBGdCYlHeAfFA?@@c@vBA@?Bu@rDsArFETARE`AEd@Ib@Qr@Yn@MTY^ORMLSHmA~AkCtEc@Xk@\\o@v@_AjBe@nAeArEO|@Gb@Cx@AvBEhCRpKg@bH_@nGUpEG|ACdCAfHAlBG|FAJArC@f@]EAW}A@wBYo@b@{AgFBiCMSkC{AsE_GgCm@U@qAGgCGqCSc@G_BIQEc@QkAmAgBgC{@s@OGcACu@ESCO\\QSeGqHuBeC{@gASLOCoCd@wBf@AJIJADAD@D@JKfAE\\GLAFAD?TWJa@p@YXA@C@KDA?A@AB]XU[C?EBA?C?CAa@@q@p@Il@KPSPCBa@r@CFA`@_@CIMCGi@VeCVsANEI?WA@]XEXMf@?JKRKBKFI@GHKDGHID]GYH_@Tm@NOB]IWYSGk@QqBUA?e@IEGYSOOg@]yAk@w@Mw@G]SE?OHU@SHC@CB?F?ZC@WEEDABy@Q{@Qg@MGCOCPh@j@fGBPRvAH`I`@vH^`Fi@l@eBo@aBTc@j@]z@J~CAVc@\\]EUPEMMg@e@cCs@qAu@cA[i@a@}@mDiLWy@mAsChA_AwAuAs@i@g@_@GGCODQfA{ChB}ELUV]^k@p@u@DY@SGsAC]m@mKk@yGm@Ba@Ro@P_CnB_@ZWJc@JAAPqA?IAI?s@@CIkIEqDR_ENy@Rw@IKg@g@?C@AMIACACsAyA??PcACQ@G?C@A@AFCVAVCBC?CCGd@[PQJQEIh@cBHQJSTYPQ|@{@Za@`@q@T_@HORc@To@Nq@Hc@`@yAp@mAH?n@w@u@w@b@oASAaNuDi@Wa@]]_@c@o@Sa@KYmBeHgBmFWeA?AsBkGo@mAOO}@}@WK{CoAMRk@y@g@a@IQy@u@g@We@[UQSCEEs@Ee@Uc@?u@[]DQCGK?g@i@mCFYNSDQE]a@g@WMeBKBaAGkAI_ByAUQI{B_@k@?wDm@[ScASToK@gBBeEeEII?_BfAyCrAID{@`@EBAaC?e@?iA^K@sF@k@[?G{H`@HoAgCAAaEwKsAoDgC{G\\CF?lBF`@Bx@BTCNIDMxBoHJSpB{AFSAWwC{BmAmAo@_@e@Q_@I{Bc@kAe@kBcAs@[GEECMGu@e@"
+        }
+      ]
     },
     {
       "name": "Maastricht",
