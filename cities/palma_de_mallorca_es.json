@@ -1,0 +1,79 @@
+{
+  "name": "Palma de Mallorca",
+  "countryCode": "ES",
+  "centerLat": 39.58103,
+  "centerLng": 2.705458,
+  "radiusKm": 12.95,
+  "regions": [
+    {
+      "name": "Districte Centre",
+      "osmId": 21195064,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 39.5590217,
+        "maxLat": 39.5785705,
+        "minLng": 2.6316575,
+        "maxLng": 2.6574533
+      },
+      "encodedPolyline": "shopFkraOCu@c@Io@qAUmGr@aEm@uFM_D{JmJaJeAgEmIoHsBiBAKeHM_COm@Yg@sK_LxFuV^e@bEyB|CwDxAqElGo@pD_FhGb@xFuC`FrBnH{BjCfCtPx@Ah@WJAFZIFTY`BCfRk@fLqCxUWhAi@nA}@hAIj@MP@LRFvHfRl@Mx@RfEm@\\Hb@l@bLdY@d@OZXv@aAt@tGfPmA`Am@{AkH|FuGePcEdD{@sBbEgDsEaLaA|AEEbA_BGOICaA~AEEbA_BSa@iBvCKAg@}AnBqE}BsFwBhDEIvBiDCIk@h@AEj@i@IQk@h@?Of@c@GMe@b@`@i@CI[VW_@sArBGA]_Ax@sEe@Q@Ed@NBOe@OF]mFmIaCdE~CpDIL_DoDu@nAnElFsEeFcAdBxBbCGLyBcC_@h@RTKPSUg@|@|BbChIf@A`@pB`EUTwAwCuAfCrA`Ba@n@nE`JiDsG}BxBk@kAJI_@k@b@c@k@kAs@f@n@m@Q_@g@\\r@q@Sa@u@v@[NUc@IHR`@aAh@R~@hA]iA`@RtAtAe@uAh@XtAbBm@cBn@`@pBrBiBuBrBd@|BTJhEmEDJmEdEHf@~@lBN@`F_FBFcFzEANn@rAnF_FkFdFdAvBpF{EmFbFlCvFnAiA{AgD~AbDlAgA}AcDxArCdA_AyAwCFGlB|DkGzFrBrEwCeGLMqBgEuBfBDFIHQa@FGDFfB}AO]HI}@kBcBdA`BkAmAeCaAp@~@u@cA_Ba@V^]kBiJM@Jg@Ci@k@uCk@j@@rGx@G^`Da@yCw@DTjGdA~FUTkA["
+    },
+    {
+      "name": "Districte Nord",
+      "osmId": 21195065,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 39.5762074,
+        "maxLat": 39.6582446,
+        "minLng": 2.5686296,
+        "maxLng": 2.6990168
+      },
+      "encodedPolyline": "uvppFiwcOJlH_JEyJwGcAIcA^uCjEm@rBNdJMnA_@nAu@jAaGhHyA`AyAf@_OhAoAKsAc@uBB{@]kAMcB\\{GGyAYeDsAe@@c@NsDrEu@^k@?aFmBmASoAPe@ZqBfCw@f@qAjBWtBJzAGf@q@|AiAlDUH{B_@q@T_AfDgDbBKNMp@KhCU~@uCbEsC|ByApB[LiAEiG}@_DyA]CuC|@g@f@wA`Cq@f@_Bn@u@NkAf@kFj@_Dp@yKtCkAJyBGcBu@u@sAc@Sc@Ca@HoA?oEfAaAl@m@~@{AfDuE~M}AxCcA|EFjGO|EaAvIe@nIiCnSeBvDs@`JDhKaAzHWxD[hC@b@V`ALpGk@xFDbFl@tB\\d@f@RvDXv@TZp@NdEv@nDJdAJzIPvDElEd@jBj@h@lAZrBMXPR^Fh@IvD}@|DI|ANjAt@dA?dBEZa@j@qBxAwCt@m@^c@dAWjCsArB[`ACbBb@jHWx@oA`AMz@CdBf@bEHjIXh@dAnAH^c@rA]dDw@hAaAt@[`AIhALxBQ|@S`@}@|@uAnCKp@OZoFHs@Z{@x@sATQp@@dEWdAe@f@_@v@iC`CS`@Gd@a@j@kA`AcCXgA[y@s@gASONGj@]p@]\\e@RuCTuAf@uFK~ByKwAmK}CWwEwGwGdPaDNsB\\{AwDeBsGcEqKuDkIeBiF}BwFeBwAc@q@Ws@Nu@}@cBy@@aC]gAc@aE}@eTmGwC`@iHWaF_@_PcZE{KLeJpAaKb@yMRs@`BaD\\gANaCC}MUyAoA_BsIVcLHmC^iBoMGkA@iAPcCRgApDwJpDyQj@{NvAoDfBuID{@a@cJFmA|@uDj@cBzDyBpImTzG_P|GcXy@e@dEmXmC}N\\wD|@aDTsHsJuF}@cFOaEz@oJ|BaEsBv@yIvFoLjEmDtCkJk_@oAcHgTw{@pDsHXmSF@@]QmFt@{Jj@mB~FyGRc@lBmK~E{^ZQzDkW~BgXLoIp@uMBiBIcBRsAh@wIhAuLGqBn@aEZmFpA_L@uAdEpAtEOdDBrK|[jJt]|HfSbChIbO|`@|IdQxIvZ|BdJrBbFlC`FtAqAjBiAdAwA`DkBlEoBpAkA~AiBh@_A\\m@v@}BnByBfB]fBFtBWjDAbAHj@Ix@c@v@m@hBmClCwC|AuAn@a@n@QvE[bFcEdByBv@aCj@kAn@WzCc@~CEfD{@rBoBxAg@tDoCbDyAvA{AlAoCnCuBdC_ApFWlBl@nCb@bAFd@MdCNvCOTJfA_@lAiA|AoBdA_ChNrWhGdKjGlIxB~B`DnC`HrEvGpCfFpAzW~EfA`@zBnAbA|@lB~B|A`Dh@dBb@|Bj@|FXp@r@j@j@Jr@GfFaIVb@KPlFtIt@fB|CbFjC`DlVv`@kAtAjRzZqDlB_@d@yFtV|KjL^hALvB"
+    },
+    {
+      "name": "Districte de Llevant",
+      "osmId": 21195051,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 39.5606659,
+        "maxLat": 39.605263,
+        "minLng": 2.6534543,
+        "maxLng": 2.695137
+      },
+      "encodedPolyline": "axupF{fjOcCgEKQqEoIwFmK_@u@To@p@{AxA_CfEyCf@OnBMb@m@VDh@c@xBcAdBWt@[jCEpA_@XSrA{BXWxDkBdDqAhDqCtDfApC?vBj@tCJ`A^lBFjBV|Av@dC~BzCdBnBn@bB?zBkAfD\\pBnAzBv@vADzAYfBKbG@L@l@FhAVV@b@Kd@Y^Mr@g@lAo@d@c@|@oApAeAr@Qj@GvCHZAVEPKX[RQ\\OrASz@[NOZg@fAy@PQz@kBbAaAbAw@dB}Av@Wp@wAXkAJcALq@H[FSLMv@c@PO^[fAa@tBiA\\Kb@CXFb@IfBsAb@SfBk@R@RDbGfB`@RR\\CvBGzC[|I`Ev@vCKrASz@EtAZxD|@hCl@r@p@fB`AtCr@ZTv@~@LRl@RUpByAvRu@fKs@fJo@xI]|EMtCExBClC?xAF|CFrBRxCPpBX`C`@lCF\\RhAVjA`@fBbBnGd@jBDPPx@Jp@Jt@H`ABp@Bx@@xB@zE@dIA`A`@@JEHEJKbBhAvB{GbAwD`@{@Xk@RIQN{@bBoAnFqBlFoBfJcBnFo@|CWdCV`@jC~AGF_Ae@AKy@i@wAz@cA~B@xAVnAaDQmCOs@CgACiCOOO{BwBoHzBaFsB{E`C]RiGc@mA`BIFyAtBmGn@wAhEAF}CvDQJyHiMaFeI{@sACE??OQjAuAkDwFeOgV{@wAU]KOKOOMe@g@SUIMII}CcFWu@]q@mFuIJQWc@iAfBg@v@uB`DOBMBU?SAWIQIQOOQMUK[GWE]MwBOoAc@}Bi@eBm@yAo@gAs@cAy@{@cA}@{@i@_Ae@gAa@mAWmM}ByCm@eB[cCi@cBg@oBu@iBw@}@c@cAm@uBqAgBsAe@]yAqAa@_@{@}@y@}@CCyAiB{@iAuByCyBkD"
+    },
+    {
+      "name": "Districte de Platja de Palma i Pla de Sant Jordi",
+      "osmId": 21194793,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 39.5038147,
+        "maxLat": 39.6148844,
+        "minLng": 2.6630173,
+        "maxLng": 2.8470489
+      },
+      "encodedPolyline": "udrpFeykOyDwLyAsGgFq_@|@}CvR}c@nBaE_r@u\\cChAcLki@mo@yxCY_RwE{nEiQkCuEiAoAC_LoCKU{@m@cAgI_AyENQ_Kax@cBaK{A_HiIc\\uDmStUo`@``@oM`FwAbBmBrBkAlNmLjd@k\\CmAS{@c@]{Ae@aBOoF~@_AKg@[gA}COyADs@dAgEd@o@p@[jBn@j@UDMSeBa@i@cEkDmFiH}DwBYk@I_BV}@l@[xAMjAVTKJi@G{CFu@Nc@hAeBbAm@xB_@vACn@i@Zo@h@yBN{GZ}Cj@oCDkBoAoBuDwCm@}@[w@a@oBIsBLa@VQx@V^^nBbEbBf@j@Bh@Md@]Pg@@c@kA{BIo@Bi@Xs@VSfD[jAq@Ze@`AqDJ{@?mDU{Clc@fN@kG|GmHfXmUFOnZwGJsJlWh@IlH|\\sEYpKY~WvAh^nw@{Q|u@`~@j]vr@b@jANJrCvFhNjYzIjOmCjJrOpTPWvI|KxAgCtLd_@fFaKjMxONAbL|SqBvF|[fd@fIvM`BxAza@nUlJzF`T~RBItMtLxElODh@VCbIpV|FbS`@`ClDfM`Gv^N~AJxFItDJxCLADhRe@KKD@l@cCKGILa@?g@i@EqAf@}APiCx@iDlBq@Xe@@uPfIaGrDeGnEiB~@eBbCoD|BuJhJcCjCa@V}ArBoAdA{BrCy@p@a@p@{ArAaBzBoKpLgUnYyHhK}GxJoAxAo@pA{FbJaGrMmEnMBTI\\y@n@gAhCg@rB]hC?^d@n@?XUZPlB|AvDr@^Pk@vB}@^[hBlBJf@JvCIZSBSeEcAaA{Cd@uCbJh@b@|AqE{AtEj@f@JArCyIeBtFp@b@hBoFqBnGp@`@JWHDdAcCaAfCRNO^DFN]JNfB}BAST@tBsC_@g@DWn@b@H\\mJxMEdAu@W_@XIpAY@L{A_@DCI^GIo@Y]q@QSBs@x@Wj@[zBPfCZBrBjAdAkB\\?@]FGFFHj@MB?NURm@pA?l@ZXEb@q@^g@I_AVMX?T[Bg@p@c@rALj@MH`@tAKNi@Gu@o@Gc@DUd@SWq@aA[CMEHi@MWu@MAUSc@PIRH^@v@_@x@FAN`@Lr@QfABx@Uz@wB^OSGj@s@ZYh@GTBd@IFm@e@_@Dk@^m@jB[JAXm@dAWnAMP]BOTw@CYUGb@IKK\\M?IXWIQLTh@IBQ|@gA|BMz@UXY@DPSb@KGCTYB?^e@L\\|BG^k@JM^c@PMM@OY@_A`BUhAPh@^SNJNl@OSqA@ARUNPr@MREIOJHB?JYCCJ[?UW[FCNOAQ`@CMWGe@h@Qf@CRDHIPLVTKXTHb@?~@Q|@LRCRc@L@f@UNDj@TZSj@DPIb@?~@JVc@dAIFYc@q@LQKGa@JQC]oA}AI_@[]SFw@[IFYI?OOCq@CGPYDa@KiBrBQ[{CjEu@|AO@]xBLdBpBe@bBo@\\A`@PAH_@U]@mC|@BXQBP|Aj@MIeAHp@`@IIw@Lv@HAm@PFl@j@Ik@JJ~@f@CEe@Jh@d@Q]uDDXHA@YDrATxA^H^c@Z{BIyAn@MNJOf@A`AUxAW~ASd@Bn@Md@I@EPUMY`@]BIRo@JDTZCBJOt@]D?NUEGUQCc@V@PNJEb@XrAMl@DbAEDIMEs@e@IZXO^MKFZf@BBVQJMEAMWYC]?XGDDLGTJDJXGRWPIZShFIA@[OAN?R{FIo@O]UMBGNJ?W_Bg@aAG]b@o@QK?IRQI_BlAc@|@kAPkBp@gAx@eAvAu@jBq@r@e@x@oA`FG|B~BtAf@g@DHc@l@SAoD{BIJIf@`An@CJ}@k@]l@YjAB^RTHWJ@]nAWVOKPAHMAS]EKNMp@a@n@A^Sb@G?BZOF?ZEHGCKTmAnEDl@DBHQDLi@rA_@QQTsC|IKd@Hd@PRAr@S`@SFe@GGH?RPVJAJYHBm@tBMJQITKBUILa@LOb@_BfHUj@BJMROlAKHWhAe@n@Un@DHEZRTD`@Ml@GBIOAcAcAgA_@Tl@`Ao@_AQRO|@r@`@H_@Q`AZRQ|@VFBMtAy@l@}@C`@yAvA[`@Ur@EAkAzEa@fAUV[@EKq@Ck@W{@r@a@p@Mf@InBRLLj@dAt@|@pAlB`EHZCJUXOEO_@?e@[u@IF@JwDnDOdAYRBWUCDa@H@HwAs@k@gAhAAELMGM`BgBEa@}@Hz@MFm@q@@p@ELeAAIUCEFy@A_@VAjB?gBg@?@vBEuBc@@BlCGmCWHAI?LCQ?PCQARCQARAKUJX|A]{Ag@Tl@zBo@yBIBIS[^h@pAi@mAe@j@hA`BiA}ASVDJIAMX`Ah@cAa@KpAfBBgB?Fh@RFKHPl@x@y@w@z@TZXVv@oBu@pBRNJMEPRJ~@qD}@rDp@\\|@sD{@rDTLFQCRTL~@qD{@rDp@Zp@eCFD?P`Ad@ADaAe@_@fBfAp@FUETJSGTHKAFz@b@p@UZs@{A}@|Av@HQGGJ?GGFDZaAQQL?Pc@HAVRBTa@~@?ZPNn@CZQr@_B@o@HKLEXZsArDqGjBSfAHpApDrBeD{Aw@R{@fB{DrMcBiAa@Va@AC}UQmDi@aDoCmKuA{G{@oGe@kGGsBCeKRoGpG_|@TqBm@SeAsA[UuCs@gBaAs@q@yKgCoCXwCJaEw@f@qRS]a@SkHoBkC~@gBrAc@H}@C]JuBhAgA`@iBnA_@|@YtBYjAq@vAw@VmFvE{@jByAjAk@v@{@ZsAR]Nm@l@i@PsDG_BXqAdAcBrBgE~B{@HeCa@"
+    },
+    {
+      "name": "Districte de Ponent",
+      "osmId": 21195077,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 39.544798,
+        "maxLat": 39.6210436,
+        "minLng": 2.5638669,
+        "maxLng": 2.6457779
+      },
+      "encodedPolyline": "{iopFktaOb@HBt@jAZLr@`@G~AjIWHCKEBG[HEcAkFKB?Kc@D^tGl@bD|@c@WaADCVbAhBeBMTbBnDEDcBkDoAlAjB|DEDaBkDy@t@l@|AnB~CRe@FDRe@FFXo@HHd@aAhAbA`ArAk@x@HL_@f@DFg@bArCxA~M|D~@eKcBIq@~Gj@_HgCMg@lFEAf@kFkDO_@vDEA\\iDs@O?S|Ot@ATg@CaAbKzCv@fAaLo@O@MxEbAAF_Dk@gAbLjCf@r@{Go@O@M`B^CLe@Kq@zGrI`B|@{M{AUDg@|QK?OXA?`@iNH?z@e@G_AzMnCVh@}HGA@K`@FAHIAi@|HvBZd@eHGA@K`@FAJIAg@fHtEtBAJn@\\LaNyAC?a@X@?NtGL?OX@A^wEIOfNbCnAj@wBDBk@vBfAj@j@yBDBk@vBfAj@j@wBBBi@vBdAj@j@wBD@k@vBn@\\l@}BDBm@|Bp@\\nBoHs@_@m@|BCAl@_CgAi@m@|BECl@}BmBaAm@|BECl@}BkBaAm@|BIEl@}Bo@]J]TLAHxFxCV?@eA|@BNuNrDJV_VkLcSh@k@vLvS_@t_@j@?R`A_@f@pMtQ^i@X`@r@dJStDw@fD]xDD@Fk@t@LDWJBAVPD?IPNfAFn@sMbDaMr@bBb@{@y@uB@I~Lg@A_A`ABReYo@A@aAiFG?[p@{@_J_NhEwF]i@v@cAmPaWV]QYIDHKg@w@o@A?PAMeBDCPMB?d@t@@AJq@EC^t@B?TcCC@Y|@BA_@{@??Kz@DBg@o@AMe@i@AANAKOEs@Ac@x@DNEG_@Za@YIaAHY`@c@b@E|GDhBNb@Vn]vh@f@b@L`AO|SOnGHJK~@HdECpFJ\\@f@IRRx@Dl@DJNDDf@XdAK\\?x@]\\EPWJDJGH@VMPDRIFJZST?LPLFn@L\\GX\\p@B`@I@P`@KNNLUf@Q@CLTLCRa@FGt@TZDZVFJp@OXYCGRm@NCLgAC_@F_AlC\\l@FZUHKXOOKBWYo@RANSFBVQJBPKFXVENJPCRKHQj@WPKBMOKF?RMPE^S?KTWDk@WQ@FXm@ZAL]QKXYMIVLb@In@k@KWcAEZ@`A`@xAQ\\NRe@dBe@AEL[QK\\DRJINPA|@Rj@OLE[KJMYMBV`@N|@PR?X_@~@DNERS?KV[ADl@NQNN?TPNYnAYHMKEZI@Uj@GKBm@QNQMAMWXKf@STA^_@A@VQDAHNBKJs@AQTJVm@CNXEDEMKLIr@`@HPh@Rk@ETRRg@r@c@Lg@CFb@_@HINJHERm@Nc@XJBAFa@L@rEGb@BPLEFPCHU?AdGFDFn@HEd@`@HOHHCb@PDQTAZL^TBJRLK\\v@Ab@Jf@NICMBCJ^KF@TNHV_@Z`@MXNRC^K@CIOXVRIVBT[P\\f@EXPNFIBm@JP?RE\\Ud@]?IHDd@Sv@?ZHB?FI?OTAOOIALLb@MNLHFx@LVZEV|@VIBOL\\FECw@^\\l@jAOz@Bz@GVHFJQD\\RDpAsAbA@Dh@K??HSKqAzA?HT`@F?AFF?CDXh@bBoBIYPXgBrB\\x@fBsBLTMKmBxBf@z@lByBESVd@MKkBtB^n@JMHL|AgBEQLPo@t@HLWVDHVWNVvAcBMSVUeFmLEg@LWXL~FjNyAjASt@g@N@\\_@lA_B|DuCjFsApEOx@ApAHfEPzCyA~HiDbHmAnEs@|AyCjFcYlc@mIkHuG}GqImKyRy]cHmPwG_WmGlEqFtG_@|AcA`Bc@fAu@|DOrBc@hBmBxCm@vEMrCi@pBaDrI]bCsDxFgDxHgBdD_@hIgEhIeAjHKlJUvE_FnCiJsG]f@o@q@_DIo@yBeCq@iA_DCwAsDxAwAfCyB|Cy@fFaAbCGtJ]hDJjK\\|BaAfDoBvDiDDcHbBgGrCwB`@sA?mAuAa@w@yMa[iXgWUuAVaQKeEoAwAaAs@iFgMqA}@{CiDuE}GoBoDcC}BiAg@y@qAaA_EGiBLoEYy@i@g@kFeCoCsBqF}BgAgAsFoDeGDoMK}Hg@kM_@HeDGi@S_@YQsBLmA[k@i@e@kBDmEQwDK{IKeAw@oDOeE[q@w@UwDYg@S]e@m@uBGmB@uBj@yFMqGWaAAc@ZiCVyD`A{HEiKr@aJdBwDhCoSd@oI`AwIN}EGkGd@gC\\uA|AyC|@wCfEcLxAkC`Am@nEgAtCEr@d@d@`AbBt@xBFjAKxKuC~Cq@jFk@jAg@t@O~Ao@p@g@vAaCf@g@tC}@\\B~CxAlHdAd@AZMxAqBrC}BtCcET_AJiCLq@JOfDcB~@gDp@UzB^TIhAmDp@}AFg@K{AVuBpAkBv@g@pBgCr@c@`AIlAR`FlBj@?t@_@rDsEb@ObAHfCfAxAXzGFbB]jALz@\\tBCrAb@nAJ|L{@jB]dAc@~AoAzG{I^oALoACuDMuCDe@h@gBtBgD^c@bA_@bAH\\RzIbGhMFnHrBfElI`JdAzJlJL~Cl@tFs@`ETlGn@pA"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
