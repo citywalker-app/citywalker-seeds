@@ -1,0 +1,144 @@
+{
+  "name": "Lille",
+  "countryCode": "FR",
+  "centerLat": 50.628996,
+  "centerLng": 3.060435,
+  "radiusKm": 4.02,
+  "regions": [
+    {
+      "name": "Bois Blancs",
+      "osmId": 2643241,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6218338,
+        "maxLat": 50.6389016,
+        "minLng": 3.0168437,
+        "maxLng": 3.0401223
+      },
+      "encodedPolyline": "ay`tHiopQTc@FQFOFWNIDEDIFKFOLUHSRYb@o@BEJLh@x@lAtAnAvAxChDrAzAh@j@n@l@LLHHbAlAn@r@z@~@x@v@\\\\RVHJHHDDTTBBBDJPNPLT@BBDjAvBd@|@bCrCdDzDbFvEvCnClD`D|@v@j@\\RJLDLFNBHBH@H@P?L?T?\\CXC??F?bAMlD~@lCpFGdBq@vHWrGf@`Hr@jHo@Ls@RqBd@eBd@k@ZgAv@{@\\gAf@SZORe@rAUl@GJW^Y`@o@yA{ASy@a@CAWYw@w@_BU}@e@uAaC_Do@kAF}ATo@?Q?WG_ByAg@mAC@k@n@k@l@g@j@sBxBWVm@n@s@v@u@t@_A`AONq@p@UVaJlJCYAIKs@WuAG_@EOEYE]CMIm@O{ACSCQMqACQMk@s@yDGQOm@w@iCCCEQu@sBGMGKIEEMCEAK?SGMgAwBGOFQrFkK`B_HzA{FXgAEOA?]cA?ACIA?AGAASi@Uq@eBwEg@qAe@kAO_@_@s@MUAAaAoAGKu@u@gAuASs@Ki@CQAAKm@M}@QkBa@oDSaBUgB`RoJ"
+    },
+    {
+      "name": "Faubourg de Béthune",
+      "osmId": 2643214,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6139219,
+        "maxLat": 50.6226312,
+        "minLng": 3.0212066,
+        "maxLng": 3.0500056
+      },
+      "encodedPolyline": "_p|sHmknQGHu@~@u@fA}AhCGJGLwAlBoBjCEFGHIJsCtDIHMFA?GByA`@a@Ja@Jo@Pu@ROBSFa@JUD_AToAZIBGBKFgAl@CBEFCH]dASd@GHoBbB}@f@gAPa@Hs@kHg@aHVsGp@wHFeBmCqFAw@Cu@AM?M?I@I@K@G@EBIBGDGf@s@HQHMLWFQDKDMFODSFWNo@RcAx@{Dv@qD@KBGDQDODMFSJUJO`@s@DGHOBMa@iBLs@BMXcBBKTwAJm@VyA??VwANy@BSD]Ho@BULkARiBXwCT{BDq@@I?G?G?IFa@@C@E@A?C@KBWJ_BRqCFgABS?G?I?K@e@BG@GBQFmADc@j@}IRuC^sFLkBHoAJsA?K?E?EAEACAECEPeB~@\\NXFJDJ@Bx@bBf@pAVZX\\PLPFNBh@?PAB?JlBJdBLdB^dEVzBVvBt@pFZzBX|BTdCRnCz@rQ`@zH`@xIf@dKn@zMj@dL"
+    },
+    {
+      "name": "Fives",
+      "osmId": 2643159,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6153149,
+        "maxLat": 50.6422061,
+        "minLng": 3.0785018,
+        "maxLng": 3.1039264
+      },
+      "encodedPolyline": "__}sHieyQGJIPKTKZOZO\\KXS`@MTOVQV[`@QPQRQNWPSPKHYNWJSJWFWHYDYD[BS@S?Q?QASAYEUEWGYISGWKOIKGYSSOQOQOa@c@u@w@q@w@{@kAeDqDaAaAe@c@a@[y@i@_@QUIQGQEOCQCWCWAY?Q@Q?WBUBWD}@XgH|CsAn@uB|@_Bj@gFxAk@Xc@J]FU@O?kAAcAIqDe@kC_@YCYCUASAS?M@UBSBMBMDUFQFSJQHSNUPUPwAvAaB|AqAlAgD`DoBhBuElEeAuDLsABSv@oEz@wI@_@TsH@_A?k@BkH?M@O@IXyBB]CmF?MBk@eNaKeO}MZ?XCFAJAPExCy@FCIYc@cBE}@AOKqAOyBh@Wl@YT]zBsCT^Xl@nAdEBLDT`@[rAbDlBaBpAeAO_@Om@Ck@`AQ|AWn@KJANEe@oIWDWDoARsAPSmAAKOkAzEw@@?PCTETELCBAXCDATEB?NCBA??@?|AYJA@A`@GTqCB]BSPyBBY@KJ?xDUDCD@@qC?[?M@o@?Q@M?K@G@GBIDKFQj@CjGcBjF}BFLDJDHJN\\r@Zl@BDBD~@hBDHt@zAXh@l@jAlA~BR^@BN\\?b@AT?N?DA`A?VCRANCLCNGTMd@rCbCRLEb@pBbBzA~Aa@|@OZGNYp@DHCDFDBBRd@`@|@l@zABBB@DCFKtAuBdAaBvD_Dp@i@FEDC|@q@TQLKROp@g@LMFE@L@JPxAFh@T`Bh@jEJx@P|@DTFX^tBHb@Hd@DLDLTMLIBAj@]FCFEDCFE??FC@ABC\\QHL@@NPDFFHFFJIV`AFE~BrCN]ZWf@[DEd@e@JMRS\\]HIDTpAyAfBuBbBzCfGsG\\`AVp@dBbFCDEFj@`BJ^DNd@zAsAvCh@vAh@xA^~@^m@V[`ArC~BlGy@fAEDMPMPMNg@h@[`@QP{@`Au@z@g@j@sAxA{AtAtDlLn@UxA~D"
+    },
+    {
+      "name": "Lille-Centre",
+      "osmId": 2643158,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6221153,
+        "maxLat": 50.6432898,
+        "minLng": 3.0487014,
+        "maxLng": 3.0834733
+      },
+      "encodedPolyline": "_b_tHufyQuB|@_Bj@gFxAk@Xc@J]FU@O?kAAcAIqDe@kC_@YCYCUASAS?M@UBSBMBMDUFQFSJQHSNUPUPwAvAaB|AqAlAgD`DoBhBuElEe@b@yFpFiBdBcB~AmAjAiErEID[LULg@XSLGFMLIJKLKLILIJABINCDCFITELITa@jA]dAITABjBjBpCvBhEbCjCbBn@dA\\bBlAtHzAbJXd@JHxBbBnC~BTP_CdDqAhEnArAt@r@FD@@ABCFGRs@bC?@EPGPER}@lDGRGVG^I`@DB`GjEbG~KILKRkCvEEF?@U^?|CwBvLhHpHjItIvD{IfB_E`@aA`@_AJUd@cAfTwg@vBvCxCxBdClBfEfDAuAAyC?MCiH?[E_K?O?YL?R?bD@H?H@xB?B?B?V?B@B?xF@N?B?D?D?F?R?h@?L?F?D?R@F?aBcH[sAgAuEK_@y@kDk@eCm@iCMg@_AcEOq@Qu@ASBk@PaF@S?E?MBaAD}A?E@Y?K?KBc@@[?G?I@YF}CB{@BmAHsDJ{ERsJ@e@@O?_@?_@@s@?W?uD?gCEaBAa@?]AG?Yg@AqAJgBj@{EfBq@eFOaAi@{Ew@{F"
+    },
+    {
+      "name": "Lille-Moulins",
+      "osmId": 1773819,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6116607,
+        "maxLat": 50.6270438,
+        "minLng": 3.0482606,
+        "maxLng": 3.0847106
+      },
+      "encodedPolyline": "qn~sHgnyQWCWAY?Q@Q?WBUBWD}@XgH|CsAn@v@zFh@zEN`Ap@dFzEgBfBk@pAKf@@?X@F?\\@`@D`B?fC?tD?VAr@?^?^ANAd@SrJKzEIrDClACz@G|CAX?H?FAZCb@?J?JAX?DE|AC`A?L?DARQ`FCj@@RPt@Np@~@bELf@l@hCj@dCx@jDJ^fAtEZrA`BbHrAtFrCtL~GtYx@rDnAdF^xAPh@HRNd@PjB~@\\NXFJDJ@Bx@bBf@pAVZX\\PLPFNBh@?PA?g@Cw@Cc@Ae@Ci@Ac@Au@E{BAqAAsA?wA?}BByBBmCNyEb@{LHyBJyBFmAHqANqBFs@BYBUD]B[D[BYBUD[DYF]Fe@D[F]D_@F_@Hg@PiAHc@N{@nA}Hh@eDh@eD`BcKlAmHrAiIVaBX_BToAVqA`@oB`@qBb@qBb@qB^cBHc@ZyANu@sBeCMOICEE}A}Bq@cAq@cAMRUb@sAeB[a@c@k@c@{@w@yAQ[a@u@aAqBmAcCDGYs@KWIUKYOe@Yq@Wu@GJIPKTKZOZO\\KXS`@MTOVQV[`@QPQRQNWPSPKHYNWJSJWFWHYDYD[BS@S?Q?QASAYEUEWGYISGWKOIKGYSSOQOQOa@c@u@w@q@w@{@kAeDqDaAaAe@c@a@[y@i@_@QUIQGQEOCQC"
+    },
+    {
+      "name": "Lille-Sud",
+      "osmId": 2643215,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6008363,
+        "maxLat": 50.6167194,
+        "minLng": 3.0236148,
+        "maxLng": 3.0767577
+      },
+      "encodedPolyline": "ig|sHqpmQGEGCgAmAc@e@SUKMMMA_A_@}ACOq@wOSXk@eLo@{Mg@eKa@yIa@{H{@sQSoCUeCY}B[{Bu@qFWwBW{B_@eEMeBKeBKmBC??g@Cw@Cc@Ae@Ci@Ac@Au@E{BAqAAsA?wA?}BByBBmCNyEb@{LHyBJyBFmAHqANqBFs@BYBUD]B[D[BYBUD[DYF]Fe@D[F]D_@F_@Hg@PiAHc@N{@nA}Hh@eDh@eD`BcKlAmHrAiIVaBX_BToAVqA`@oB`@qBb@qBb@qB^cBHc@ZyANu@NPnCfDNRNPf@l@TVvAKDGFF?T?F?R@ZFLDHfApBLRDH`@n@JNLPPTLLBBBBZTn@f@^XLLNNNPRTBDbBzB^f@FH|@jAFFLTOZCDABCDkB~CMRGJY^[d@eAvAORIJg@r@g@n@KN{@dAQVMNEHEFIPIRs@`BGNENGNu@dCGRGN_@bAQh@O\\ELYv@ADABCHCFAHM|@KRkBxCkAlBW`@ILoBfDILGHpClAr@Xr@Zb@RLDt@Z\\L`@Rx@\\XLx@^x@\\jAf@HBf@TDBdBr@\\Pt@\\f@Rh@VJDJDJFFBB@b@RNF\\NHDn@ZLDHFTJLHNHJHLHTPr@h@d@\\dAx@HFNJNLLHLJl@d@|@p@JHLLLHFFfAv@NL\\VRPNJFFHFt@j@VRLHv@l@`BjAlBlA~@t@A\\IzB_@fKB?LC\\Cd@bOi@XmE~BGDsAzA_DnDgF`GOPEDy@~@YZqB~BcAhAi@j@e@h@m@t@_AhAVNHDf@Xv@d@RJhCvAJFJHfAl@nAr@PdAFrBBp@J|Dg@PAj@C`BAr@WnDCr@QvA]rAOl@w@zCs@jC{EbHGH[b@qG|Ma@pAMp@I^GVSb@EFKVGNQXU^[^Y^IJSTMTu@xAcAlBaAfBs@pACFMZm@`BIVELKb@CNSjAOx@SxAGb@C^QBI@o@F}@J[DM@UD"
+    },
+    {
+      "name": "Saint-Maurice Pellevoisin",
+      "osmId": 2643162,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6371946,
+        "maxLat": 50.6571564,
+        "minLng": 3.074682,
+        "maxLng": 3.1040272
+      },
+      "encodedPolyline": "y`btHmc{QdO|MdN`KCj@?LBlFC\\YxBAHAN?LCjH?j@A~@UrHA^{@vIw@nECRMrAdAtDe@b@yFpFiBdBcB~AmAjAiErECOAMAG?ACI?EAI?AAEAKAAAK?ACAGAkAYw@SMCmA[E?AAE?AAE?E?I@E@E?gBXW?IAI?QCGCEAMGECGCGEUQIIGE@E@E?AFODMDODMDKBM@ABKDIBKHU?CHUDKBKBI@EPi@??J[Lc@??BE@EaDu@a@Oe@[UQW_@S[Wk@m@mBoBmGw@cC_AwCGSmA}D{BbDABc@p@oAnB}BzDaDkDb@yAgBcDqB{DAAWh@iCgAMGiA]KCUIkAe@MGQIIEqAe@}@]ME_AY[Mq@UYEsCw@u@Ia@EqAEiAWU?}BbAT_B@MXeD@S@Y@uC@Q@OFa@He@N{@ZkBDQhAaFZAz@Jv@HL?lACrCOvBKxAGr@Ez@CZ?N@n@D`@LzAv@RX?ADQF[VgALk@d@yBGQJc@XoA@G@C@AHa@@CF_@Hg@BQBOHi@BODM@OBODYLi@ZgA@K@UB{@@MDeAIg@o@wFwGmZq@kIc@wJlK`Qe@N~AlBFQt@dAEh@fJ|KPEjA`Ad@p@APBBDFJKhEpD?Vx@^XGpDnE~F`Gr@L`@HTDNBDAHAFAHCdBYFx@@D?hA"
+    },
+    {
+      "name": "Vauban-Esquermes",
+      "osmId": 2643242,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6206416,
+        "maxLat": 50.6480756,
+        "minLng": 3.0288176,
+        "maxLng": 3.0536182
+      },
+      "encodedPolyline": "{~~sHa{pQEIEGCCKKo@o@sCwCEEQCmGyGAGLWBEDGLUGOCIIUQa@EO[}@oAwDCICEGUGQACCI]eAIUWu@Y_AWw@GQSq@GOAEGSGOAECGw@gCe@wAe@{AEMACGQGSAECIe@uA}@sCEKACIUESCCu@_CMc@CGAEGMCKKTa@~@a@`AgB~DwDzIkIuIiHqH{CaDGIWWsAoA]Wg@S}@Oq@?sH\\aCHqBJq@L{@`@s@t@cJrLqDfEo@d@sAx@yElCNnCGj@QxAM|BQhChRje@\\r@b@x@NVPX`@p@x@bA^b@z@p@`Av@`B~@zAl@v@Tb@Fv@LTBv@Dp@?~BGjBEhAIzAS`RoJTc@FQFOFWNIDEDIFKFOLUHSRYb@o@BEJLh@x@lAtAnAvAxChDrAzAh@j@n@l@LLHHbAlAn@r@z@~@x@v@\\\\RVHJHHDDTTBBBDJPNPLT@BBDjAvBd@|@bCrCdDzDbFvEvCnClD`D|@v@j@\\RJLDLFNBHBH@H@P?L?T?\\CXC??F?bAMlD~@Aw@Cu@AM?M?I@I@K@G@EBIBGDGf@s@HQHMLWFQDKDMFODSFWNo@RcAx@{Dv@qD@KBGDQDODMFSJUJO`@s@DGHOBMa@iBKKIIEICGGOCOoC{Mm@yCGUES[mAa@_Ba@aBOq@Uy@GWCIAGK]Qm@IUCKc@yA[aAEOGSK[O_@KWIUKQIQEIKQAG_BrBQT_@d@_@f@eChD{CbEcAkA"
+    },
+    {
+      "name": "Vieux-Lille",
+      "osmId": 2643161,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.6360642,
+        "maxLat": 50.6510453,
+        "minLng": 3.0483704,
+        "maxLng": 3.0725461
+      },
+      "encodedPolyline": "wjatH}ptQDB`GjEbG~KILKRkCvEEF?@U^?|CwBvL{CaDGIWWsAoA]Wg@S}@Oq@?sH\\aCHqBJq@L{@`@s@t@cJrLqDfEo@d@sAx@yElCyATC}AEqBAc@E{@A?s@q@DuC@iAAQiDdDS{DCi@e@?Dy@uC{Ar@eFQY\\m@{AkCb@Wl@_@lC_BE]M{@Xs@]e@dAmCe@qAr@sAmBsFa@mAg@Xi@s@aAKg@P[IB_ADoABcA@K@i@Dq@?E@Q@C@[?CJoAFu@@KH{@Fy@@GDc@LeAJw@N_ANaARmATiARgAPu@H_@J]DM?ALa@La@Na@DMRc@L[@CJS`AiB??FMBE^s@PYP_@HMHQr@sALSBC@CFIHSPYLSLSNSLQLQHK@AFILMJKJKHKNMJIPOJKHGVQTO@?h@WXMd@Q^O`@MHEABZAfAENV\\MfB_@xAo@d@a@n@u@`@o@HWDKHQBMDIBKjBjBpCvBhEbCjCbBn@dA\\bBlAtHzAbJXd@JHxBbBnC~BTP_CdDqAhEnArAt@r@FD@@ABCFGRs@bC?@EPGPER}@lDGRGVG^I`@"
+    },
+    {
+      "name": "Wazemmes",
+      "osmId": 1773820,
+      "adminLevel": 10,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 50.618355,
+        "maxLat": 50.6326194,
+        "minLng": 3.0349506,
+        "maxLng": 3.0612864
+      },
+      "encodedPolyline": "{~~sHa{pQEIEGCCKKo@o@sCwCEEQCmGyGAGLWBEDGLUGOCIIUQa@EO[}@oAwDCICEGUGQACCI]eAIUWu@Y_AWw@GQSq@GOAEGSGOAECGw@gCe@wAe@{AEMACGQGSAECIe@uA}@sCEKACIUESCCu@_CMc@CGAEGMCKd@cAfTwg@vBvCxCxBdClBfEfDAuAAyC?MCiH?[E_K?O?YL?R?bD@H?H@xB?B?B?V?B@B?xF@N?B?D?D?F?R?h@?L?F?D?R@F?rAtFrCtL~GtYx@rDnAdF^xAPh@HRNd@PjBQdBBD@D@B@D?D?D?JKrAInAMjB_@rFStCk@|IEb@GlACPAFCFAd@?J?H?FCRGfASpCK~ACVAJ?BA@ADABG`@?H?F?FAHEp@UzBYvCShBMjACTIn@E\\CROx@WvA??WxAKl@UvACJYbBCLMr@KKIIEICGGOCOoC{Mm@yCGUES[mAa@_Ba@aBOq@Uy@GWCIAGK]Qm@IUCKc@yA[aAEOGSK[O_@KWIUKQIQEIKQAG_BrBQT_@d@_@f@eChD{CbEcAkA"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
