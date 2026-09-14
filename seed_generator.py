@@ -126,7 +126,7 @@ def _get(url, headers=None):
     with urllib.request.urlopen(req, timeout=15) as r:
         return json.loads(r.read())
 
-def _post(url, body, retries=3, pause=15):
+def _post(url, body, retries=3, pause=15, timeout=45):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, data=body.encode(), method="POST", headers={
@@ -135,7 +135,7 @@ def _post(url, body, retries=3, pause=15):
                 "User-Agent": "CityWalker-seeds/1.0",
                 "Content-Type": "text/plain",
             })
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read())
         except Exception as e:
             if attempt < retries - 1:
@@ -186,7 +186,11 @@ def _admin_level_from_type(place_type):
 def find_districts(rel_id, city_admin_level, forced_level=None):
     """
     Probe admin levels from city_level+1 up to 10 until we find children.
-    Returns (list_of_relation_elements, found_admin_level).
+    Returns (list_of_relation_elements, found_admin_level, all_elements).
+
+    The query recurses down to member ways and nodes, so all_elements already
+    holds every district's geometry — one Overpass request for the whole
+    city instead of one per district (which tripped 429s on big cities).
     """
     if forced_level:
         levels = [forced_level]
@@ -197,29 +201,33 @@ def find_districts(rel_id, city_admin_level, forced_level=None):
         levels = list(range(6, 12))
 
     for level in levels:
-        q = (f'[out:json];'
+        q = (f'[out:json][timeout:180];'
              f'rel["admin_level"="{level}"]["boundary"="administrative"]'
-             f'(area:{3600000000 + rel_id});out body;')
-        data = _post(OVERPASS_URL, q)
+             f'(area:{3600000000 + rel_id});out body;>;out skel qt;')
+        data = _post(OVERPASS_URL, q, timeout=200)
         els = [e for e in data["elements"] if e.get("type") == "relation"]
         if len(els) >= 2:
             print(f"  admin_level {level}: {len(els)} districts")
-            return els, level
+            return els, level, data["elements"]
         time.sleep(2)
-    return [], None
+    return [], None, []
 
 def fetch_polygons(rel_id):
     """Return every significant outer ring for a relation, each as [(lat, lng), ...]."""
     data = _post(OVERPASS_URL, f'[out:json];rel({rel_id});out body;>;out skel qt;')
     return _build_rings(data["elements"])
 
-def _build_rings(elements):
+def _build_rings(elements, rel_id=None):
+    """Rings for rel_id (or the first relation) out of an Overpass element dump."""
     nodes    = {e["id"]: (e["lat"], e["lon"]) for e in elements if e["type"] == "node"}
     ways     = {e["id"]: e["nodes"]           for e in elements if e["type"] == "way"}
-    rels     = [e for e in elements if e["type"] == "relation"]
+    rels     = [e for e in elements if e["type"] == "relation"
+                and (rel_id is None or e["id"] == rel_id)]
     if not rels:
         return []
-    rel   = rels[0]
+    return _rings_for_relation(rels[0], nodes, ways)
+
+def _rings_for_relation(rel, nodes, ways):
     outer = [m["ref"] for m in rel.get("members", [])
              if m["type"] == "way" and m.get("role", "") in ("outer", "")]
     segs  = [list(ways[w]) for w in outer if w in ways]
@@ -730,6 +738,12 @@ def main():
     else:
         # ── OSM / Overpass path (with resume cache) ───────────────────────
         cache = load_cache(args.city, args.country, args.slug)
+        if cache and args.admin_level and cache["found_level"] != args.admin_level:
+            # The cache is keyed by city only, so a rerun at a different
+            # --admin-level would otherwise silently reuse the old level.
+            print(f"  ↩️  Cache is admin_level {cache['found_level']}, "
+                  f"not {args.admin_level} — ignoring it")
+            cache = None
         if cache:
             rel_id      = cache["rel_id"]
             admin_level = cache["admin_level"]
@@ -748,10 +762,12 @@ def main():
             time.sleep(1)
 
             print(f"\n🗂   Finding districts…")
-            raw_districts, found_level = find_districts(rel_id, admin_level, args.admin_level)
+            raw_districts, found_level, elements = find_districts(rel_id, admin_level, args.admin_level)
             if not raw_districts:
                 print("❌  No districts found. Try --admin-level to specify manually.")
                 sys.exit(1)
+            nodes = {e["id"]: (e["lat"], e["lon"]) for e in elements if e["type"] == "node"}
+            ways  = {e["id"]: e["nodes"]           for e in elements if e["type"] == "way"}
             # For non-Latin-script cities (Taipei, Tokyo, Seoul, etc.) show
             # the English name first with the native script in parentheses,
             # so English-speaking users can read it while locals get visual
@@ -762,12 +778,18 @@ def main():
                 if english and native and english != native:
                     return f"{english} ({native})"
                 return english or native or f"District {idx + 1}"
-            cached_districts = [
-                {"id": d["id"],
-                 "name": _pick_name(d.get("tags") or {}, i),
-                 "points": None, "extra_rings": None}
-                for i, d in enumerate(raw_districts)
-            ]
+            cached_districts = []
+            for i, d in enumerate(raw_districts):
+                # Geometry came back with the district list. A district whose
+                # rings don't build from it keeps points=None, so the
+                # per-district loop below refetches just that one.
+                rings = _rings_for_relation(d, nodes, ways)
+                cached_districts.append({
+                    "id": d["id"],
+                    "name": _pick_name(d.get("tags") or {}, i),
+                    "points": rings[0] if rings else None,
+                    "extra_rings": rings[1:] if rings else None,
+                })
             save_cache(args.city, args.country, rel_id, admin_level, found_level, cached_districts, args.slug)
 
         # ── 3. Fetch polygons (resume-aware) ──────────────────────────────
