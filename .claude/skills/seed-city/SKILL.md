@@ -16,9 +16,40 @@ clean-downloads without hitting the size limit does not need a seed —
 seeding it just adds catalog noise and risks the overlap invariant below.
 Active walker count is not a reason to seed.
 
-If the request came from `check-radius-downloads` output, the eligibility
-check is already done. Otherwise confirm the city is in the too_large list
-before proceeding.
+**A radius fallback does not prove the city is too large.** Run the check
+below before any data-source work, even when the city came from
+`check-radius-downloads` output. Formosa, AR (2026-09-14) had a confirmed
+radius fallback but only ~5,000 highway ways: the too-large screen came from
+the search matching the province, and the pipeline delivered the full city
+7 seconds later. Nearly seeded anyway.
+
+The app shows the too-large screen when the Nominatim area is over 100 km²
+(`NominatimService.MAX_CITY_AREA_KM2`) *or* the path count is high
+(`PathRepository.kt`: `MEDIUM_PATH_COUNT = 8_000`, `MAX_PATH_COUNT = 50_000`).
+The area rule fires on any city whose search result is its province or a big
+municipality, regardless of how many paths it has. So check all three:
+
+1. **Did the pipeline already deliver the full city?** In Aptabase, look for
+   the same `user_id` getting `osm_download_started`
+   `via:"full_from_pipeline_upgrade"` followed by `osm_download_completed` /
+   `city_added` after the radius fallback. If yes, the whole city downloads
+   fine: **don't seed.**
+2. **Count paths inside the real city boundary.** Find the city or
+   municipality relation (not the province: `is_in(lat,lng)` on the download
+   point lists every containing boundary with its admin_level), then:
+   ```
+   [out:json][timeout:150];rel(<city_rel_id>);map_to_area->.c;way(area.c)[highway];out count;
+   ```
+   Under 8,000: **don't seed.** Over 50,000: genuinely too large, proceed.
+   In between: medium, look at what the user actually experienced before
+   deciding, and ask.
+3. **Did search pick a bigger area?** Run a plain Nominatim search for the
+   name with `countrycodes`. A province/state (`place_rank` 8 or lower, or a
+   bounding box far over 100 km²) ranking above the city means the
+   too-large screen was probably a false positive. That's an app search bug
+   to report, not a reason to seed.
+
+Report the result of these checks to the user before generating anything.
 
 ## Choosing a data source
 
