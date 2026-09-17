@@ -1,0 +1,199 @@
+{
+  "name": "Melbourne",
+  "countryCode": "AU",
+  "centerLat": -37.814672,
+  "centerLng": 144.951717,
+  "radiusKm": 5.85,
+  "aliases": [
+    "City of Melbourne"
+  ],
+  "regions": [
+    {
+      "name": "Carlton",
+      "osmId": 2383224,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.80791,
+        "maxLat": -37.79226,
+        "minLng": 144.958471,
+        "maxLng": 144.975716
+      },
+      "encodedPolyline": "hiweF_vysZi@rAkFvcAm@GeCUiGrBsLnE}KgApBe_@mU_CgOoA}BU{AMJkAB_BIsBKeAU_A_@_Ae@q@]_@e@]GQCU|Cyl@z{AvNc@nJ"
+    },
+    {
+      "name": "Carlton North",
+      "osmId": 2383222,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.793226,
+        "maxLat": -37.778043,
+        "minLng": 144.958885,
+        "maxLng": 144.978136
+      },
+      "encodedPolyline": "tvqeF}pysZj_@bD`Gh@{B`d@kOsAOb@Yn@k@x@q@l@y@`@{@Ro@D{CKm@?m@F]F{@Zi@\\q@p@gBrC_@zFfcAhGvDaAp@Uv@_@t@g@v@q@p@s@j@{@^y@Re@Ts@RaA@}AHcALaARaAf@yA^w@n@gAZq@`@wATmAJkAB_BIsBKeAU_A_@_Ae@q@]_@e@]GQCU|Cyl@[Coo@cHw^{DwDln@"
+    },
+    {
+      "name": "Docklands",
+      "osmId": 2397613,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.827023,
+        "maxLat": -37.8096133,
+        "minLng": 144.9311288,
+        "maxLng": 144.9559906
+      },
+      "encodedPolyline": "fkxeFmyusZjo@kUlIwC|Ak@x@jC^zBZ|CNbDCvBGzCEbDIjCi@fJH@JBL?J@NAb@EdBY`AQdCEbALn@_@Ta@NFEXVFc@xBpBhBLcCLB^gER@Q|BIjAD@MhCEbBClAUJOz@SvBC|@uAjNMrCCjABv@@JDf@MH?tCkMrOiB]yG~h@wL_DEXQJYGKWFYmFuA?Eg@MBMcFsAGUWLqA]oCk@oASeBQsAoBG[eHOiP{ANoB{@KVyCx@cF\\uA|@cDvAwEl@cBnCeGxBeEv@gBkJw\\rBy@dKyL}@{E"
+    },
+    {
+      "name": "East Melbourne",
+      "osmId": 2384437,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.823119,
+        "maxLat": -37.807728,
+        "minLng": 144.971363,
+        "maxLng": 144.9913462
+      },
+      "encodedPolyline": "hiweF_vysZb@oJp@mMh@kKjBu^zCkm@\\qGpm@hGpARz`@bDq@pKSlAu@jDg@dBmBbG]z@{CtG}LhVcAKEr@OXC^DDA^wC|EWb@sAtAEBSv@K^CJk@RaA\\SFQhC_C]_n@zT"
+    },
+    {
+      "name": "Flemington",
+      "osmId": 2398086,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.795156,
+        "maxLat": -37.7793899,
+        "minLng": 144.902609,
+        "maxLng": 144.940255
+      },
+      "encodedPolyline": "vzteF}hnsZo@mB]iAkYmi@{GaMmI~HKeFxAgY`@_INkCBw@@Q@I@S@S@MNyC\\cGIiAAWvBcb@oAyAgAeB{@kBsAyDsA~@yDpCyEhDiA~@_AlAk@dB{@vBg@rA]`AWr@ABSj@Wn@Sl@Wp@MZGNGLGLOXOTmAnB]^aBtASLQNOLUPUPWRKHFR?B@DhAJO|Cb@DAd@CBEp@a@DGAEt@|ANOvCy@GCVIAEl@QAEv@Gj@GrATB?P\\DCDO@?LWCKhBV@?JXD}AfBJfAeAt@[xFD?F@z@HKvBbAJUdF_AIANB?IxAARCThBP|ANjFf@l@Fj@FdAJlALMjYAd@qQpPs@x@iEzD??lRd`@??hBxArAz@??pBbA??vBt@?@zA\\|AV|ANnDT??bBT?@_@tDOxA?@vAVz@XDBnAh@lAl@l@n@`A|AjAvDd@@z@Kr@QzBiAp@g@b@e@j@u@\\u@Ri@Ro@ZaB`A_DnAsE|BsFn@sBLe@RiA`@_DdAuFbAwDfA{C"
+    },
+    {
+      "name": "Kensington",
+      "osmId": 2397995,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.802362,
+        "maxLat": -37.787402,
+        "minLng": 144.912948,
+        "maxLng": 144.937826
+      },
+      "encodedPolyline": "dpseFq`rsZAWvBcb@r@t@l@f@dBjAhBz@jBn@lAT~@L|SxBtC@`BCjAItBY|E{@`AMd@?d@BbDd@dA?z@KnC{@l@Ir@D`@Ff@Xh@`@gCrGw@fCm@zBm@|Bi@fCk@hD[vByC~^s@zJk@vCm@lHMdB_@lEk@|HCb@?zA_@rEe@CQ@cBd@o@^q@j@g@f@cBlCkA|BmAjCgApCo@mB]iAkYmi@{GaMmI~HKeFxAgY`@_INkCBw@@Q@I@S@S@MNyC\\cGIiA"
+    },
+    {
+      "name": "Melbourne",
+      "osmId": 2383266,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.855527,
+        "maxLat": -37.799446,
+        "minLng": 144.9514311,
+        "maxLng": 144.989097
+      },
+      "encodedPolyline": "rb}eFy~xsZfAa@r@a@TUZg@\\y@Nq@Fs@BmAF{@Ly@ZgAd@_Al@w@XWb@Yx@[bHeAf@Cd@Bf@Jb@RVPlAjAVNb@PvG`AtAHvAErAQ~@Wf@SlAs@dA}@|@gApCoETi@Pk@J_A@a@?cCDq@F]Pk@NYtEaIHc@HwDrFoAvIuBrFsAn@_@v@k@t@u@f@u@j@cAd@oAt@kCZyAFoAiEhAPmCq@ICVUA?@e@EEl@}@MANs@IYIo@BoA\\IBI`AkC[G`A_Bb@QiAWF@EmC]n@qJiGk@{BUSCa@CGAOAS?EA}@Iw@IaAKQA_DYoCWMdBkBfYkp@`Q]hFsHaAAXK|ACAATC@E@SFEBs@KOEdA{OoH_AzBy\\mh@cGPgAl@wBt@yAfAyAjEwEeAKgD_@wEk@oAMg@EQA}AQ{BSaE[kH{@q@pKSlAu@jDg@dBmBbG]z@{CtG}LhVcAKEr@OXC^DDA^wC|EWb@sAtAEBSv@K^CJk@RaA\\SFQhC_C]_n@zTi@rAkFvcAm@GeCUiGrBsLnE}KgAqAlVf@HjGqIhC?~ANhJgDtLmEw@vNvUvB`GuBzD}ABLtG|]jo@kUlIwC|Ak@oAmDcDuHkBaFoAsDiA{DUaAiAuHo@iFUyBYgDWyCSiDQwCxFmBr[gLrBk@|AYjAMjAIjACb@?pFPxF@r@tDjCG\\zCHChBQQ{BZGDB^IXtBlA]t@YHEJEmAuGlAUnAInADjARdAIlDxB~@r@n@f@j@j@dAxAdAfB|@pBr@vBf@xB"
+    },
+    {
+      "name": "North Melbourne",
+      "osmId": 2384470,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.8061571,
+        "maxLat": -37.787463,
+        "minLng": 144.935279,
+        "maxLng": 144.9585099
+      },
+      "encodedPolyline": "puueFgpvsZf@HjGqIhC?~ANhJgDtLmEw@vNwBp`@qBda@k@`KWdFI^aCfg@aAd@i@ESI]_@EME?KGGOY[m@e@i@a@g@Ya@Gs@Em@HoCz@{@JeA?cDe@e@Ce@?aAL}Ez@uBXkAHaBBuCA}SyB_AMmAUkBo@iB{@eBkAm@g@s@u@oAyAgAeB{@kBsAyDb@Wz@u@tAiAlEeFv`@oi@x[_c@FeA"
+    },
+    {
+      "name": "Parkville",
+      "osmId": 2383234,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.800426,
+        "maxLat": -37.773817,
+        "minLng": 144.936339,
+        "maxLng": 144.965205
+      },
+      "encodedPolyline": "t_qeFkkssZbG}aA`C}`@@SxBm^fcAhGvDaAp@Uv@_@t@g@v@q@p@s@j@{@^y@Re@Ts@RaA@}AHcALaARaAf@yA^w@n@gAZq@`@wATmAzAL|BTfOnAlU~BqBd_@qAlVGdAy[~b@w`@ni@mEdFuAhA{@t@c@VsA~@[o@WW_@Ka@@aBl@cMzCwDXkGx@wT`JSHMBoA^kIrAaH^{Am@nBqJZcCrAPhBH"
+    },
+    {
+      "name": "Port Melbourne",
+      "osmId": 2399659,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.849482,
+        "maxLat": -37.8188297,
+        "minLng": 144.896981,
+        "maxLng": 144.9497184
+      },
+      "encodedPolyline": "d{zeFgtssZn^kc@^s@v@}@zOqQTBlJlDXJrDhAhW|JxJrDn@TLHVT|@v@NNpG|FTPFFLJPPrCfCUn@]|AW~@e@lAq@hDY`AET_@l@Ul@GDMMIFSTWh@qCnI\\`@s@hAUUW?KDOTKZ_@dB_@tBw@pGi@pD?N@J^LF?JHLRFP@NAr@D^CNv@p@h@JETCACT`FnAvP~Db@vBCTKDkTiFyHcBQLIh@dCpB?DI@wC{AGMPwAKCIDKv@?VBLJTGJSLG@I^IDSAEKAWIAZcCwA[CNMGMt@CAYrB@D@D?DAFABADCBABg@tD?F?HDJBJ?LAJGTIFGDEJaAvH|IrBY|BgFmAFH@LAHM\\KvAClE@nCDlBHr@AJGFsBAITEp@?p@NlCPdEDh@AJKHUDGDEZA`@F~@d@zDFZ?NILIF_@BEBER?XJjBXfBj@dCpAfEl@vAzAtC^j@t@x@lAnBNRF@VQFAJKtA}@tAeAhAo@t@i@\\STOh@k@d@_@hAu@NGFIPGFIJEp@k@vAy@TU\\Q|AgAf@Yd@_@JE^ELBPJNTVt@FJXx@NZ?DRn@hAlC@HHJTx@Ap@DZVb@`@jADBjAnDNh@Fd@_@VDFIXQLSIAG]PL\\{XpRe@`@Z|@iIfB@NUFBPLC@FDCDPEJyFtCNn@aAd@[sAk@V@D?Ni@EAEa@TiGKo@BAv@O@APGPULEr@@bACd@EXnAxKlTeG^k@PPR@|FcBp@_@RExBgA~BoAp@c@ZIp@_@jI_EbBFZF^RD?f@m@D?@@?FUZuHpH{@jAaC~BmBpB{@v@xBjGiM`MuHjGcHjDyHlBmHl@kCJeQHmLw@yJuBoLgHeIkHuDmEwKcNaE_GuAuBa@{@e@sAw@kCc@}Bm@}D]sBwCyMiAgGc@iCw@uF}@{Ho@eI_@yHYqOr@cYz@}\\PKDYvL~CxG_i@hB\\jMsO"
+    },
+    {
+      "name": "South Wharf",
+      "osmId": 2397452,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.827648,
+        "maxLat": -37.8230397,
+        "minLng": 144.947516,
+        "maxLng": 144.956656
+      },
+      "encodedPolyline": "za{eFekusZ|BTeBkD??GU?ODSLMTkCn@gH]_CsF_KmCcE]q@yBv@g@mC{E`BiAb@x@jC^zBZ|CNbDCvBGzCEbDIjCi@fJH@JBL?J@NAb@EdBY`AQdCEbALn@_@Ta@NFEXVFc@xBpBhBLcCLB^gER@"
+    },
+    {
+      "name": "South Yarra",
+      "osmId": 2384446,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.848102,
+        "maxLat": -37.827666,
+        "minLng": 144.975805,
+        "maxLng": 145.006453
+      },
+      "encodedPolyline": "fr{eFo}|sZbDwCfFeFbD}CxAkBn@yBl@yERaC^gDTqAdAiE^cBJaA?[Ca@KqC_@kDa@qDi@iC}@kC\\_ANeAToA\\gAj@qAbAcBNc@Do@Gi@Wu@a@c@e@My@Co@DyCj@uB^aADs@Ja@sAQq@Mq@CaADo@Ju@f@{BNw@pVnCdS`CN@tJdAvYhDvSfCwFrw@uBd[wBv[MdBkBfYkp@`Q]hFsHaAAXK|ACAATC@E@SFEBs@KOEdA{OoH_AzBy\\mh@cGPgAl@wBt@yAfAyAjEwE"
+    },
+    {
+      "name": "Southbank",
+      "osmId": 2395850,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.831482,
+        "maxLat": -37.819245,
+        "minLng": 144.946909,
+        "maxLng": 144.971423
+      },
+      "encodedPolyline": "tc{eFovusZUjCMLER?NFT??dBjD}BUQ|BIjAD@MhCEbBl@DXAd@MZQ~KcKtBqBcKyRxPeGoA}A^sAgFoXyCgNOe@q@_Fl@qAtOoOgGq[s@uDyFAqFQc@?kABkAHkAL}AXsBj@s[fLyFlBPvCRhDVxCXfDTxBn@hFhAtHT`AhAzDnArDjB`FbDtHnAlDhAc@zEaBf@lCxBw@\\p@lCbErF~J\\~Bo@fH"
+    },
+    {
+      "name": "West Melbourne",
+      "osmId": 2398105,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -37.82289,
+        "maxLat": -37.798256,
+        "minLng": 144.905455,
+        "maxLng": 144.956446
+      },
+      "encodedPolyline": "vgveFgyrsZl@d@XZFNJFD?DL\\^RHh@D`Ae@`Cgg@H_@VeFj@aKpBea@vBq`@vUvB`GuBzD}ABLtG|]|@zEeKxLsBx@jJv\\w@fByBdEoCdGm@bBwAvE}@bD]tAy@bFWxCz@JOnBhPzAdHNFZrAnBdBPnARnCj@pA\\VMFTbFrACLf@L?DlFtAGXJVXF{@|\\s@bYXpO^xHn@dI|@zHv@tFb@hChAfGvCxM\\rBl@|Db@|Bv@jCd@rA`@z@tAtBuB{AaCmAeDo@sFZgFh@sRxCcCNyHIsGs@gIcBmEWgMcEaB]mBw@mLuDwEgByE}BiAq@g@_@sCoCWc@O_@Qi@Qq@QiAKgACm@D{@DQZ{@\\a@n@eAJYFWBUAyAGm@GSSc@W[mAmAUMg@k@c@Yi@Uc@OmAM^sE?{ABc@j@}H^mELeBl@mHj@wCr@{JxC__@ZwBj@iDh@gCl@}Bl@{Bv@gCfCsG"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
