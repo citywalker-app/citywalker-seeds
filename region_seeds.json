@@ -1,5 +1,5 @@
 {
-  "version": 165,
+  "version": 166,
   "cities": [
     {
       "name": "Aigaleo",
@@ -9981,6 +9981,275 @@
             "maxLng": -79.6221146
           },
           "encodedPolyline": "{xvfGboaeNoQqF_MqDsB~MoI|i@cE`XaFd\\y@vF{Mf|@{Lrx@GVU|AaOfaAmP}E{FeBmEsAy@_@VoNzSkj@]_G`\\qn@dIo]bJig@}@aFmAaYcM{q@mD{SuGs`@iCk[zNy\\Q_BL{At~@xZpHdChA^bq@zTPFv}@jZlDjAj@PXJ@p@b@hEJ?RbAS`@XJf@BJzA_ACOLBbAA^E^?XBRUfCAV?xA@b@UNKVGXCV@ZBTFJFNBRAVIf@Ej@Cp@@hAEX@^Jt@B^HTL^Zh@Xf@P^?TG`@KNENCRCPCLGJK\\E`@Ch@C|@KTIRq@bDLXAFMFKTO@a@|@MXAPIZGGYr@Yp@ILGBMCKGGFIRKNKTCFCPAHEJAF@RAL?T@R@FBLDHBB?B@HLRLTFH@F?HCJCHARANABC?EEMGGCG?I?ICKCG@GBEHIHIBIDG@G@MDKDQRCFGHIDI@K?KGO?IHCHEHEJIXAHANCJ[b@AJANAJAJKVIVOd@I^Ad@E`@SZ[HGDAPBJANMREJCT?f@Ab@APGTCXATERCNOXIRI^M`BGh@Q~@@`@Gr@Mj@Cv@Gr@EPAJLt@O`AM^QT@j@EZG^Sd@MTMj@EZD`@E^]v@Qd@Ml@DPGROd@GFCVMb@E`@Dj@Dd@G|@Kf@Mx@ObAIl@AR@LBp@BL@^?XAVAJ@r@B`@EX?TAJ@`@DT?PJb@Kf@AJ@FFVFJD@DAHAD@HHBD?DCFEHIDKVCN?NAPBn@q@xDMx@MfACfABdBIxBKLGTCFA\\EZCPEJG`@@JIv@Kn@A~@Ad@?\\Ch@Iv@Ip@C`@Yt@Mn@IlACZAbASbBIXOzAId@GVI\\AXk@~CBb@CVYlC_@lFOhGDX\\L]nAOFSpAEt@?n@F`A@p@PlBCJYTOTH^CRGNDd@@VA\\In@KdAEjAEj@?f@?JTh@DT@\\Ad@@b@Dj@AZIl@AXEr@Ev@Mr@M\\CB?FFh@^dBPLGvAOxF\\l@ULYtMg@tTDt@wB|U{@nJcAzMs@dK@T@b@EPI?KJCXAL{s@iRc]oJuXsHa@QvGie@dEuY|Hcf@bEkXfDeVdCkQnC_SRoBhEur@TsEJwAlC}RdBiLn@sD^oBpAiHwSgGhA_JzDjA~ExAdA{HpG`BbAiHbBoMx@iGpBeO}M{D"
+        }
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "countryCode": "VN",
+      "centerLat": 21.010328,
+      "centerLng": 105.824962,
+      "radiusKm": 14.31,
+      "regions": [
+        {
+          "name": "Bach Mai Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9835703,
+            "maxLat": 21.0206574,
+            "minLng": 105.8410347,
+            "maxLng": 105.8751428
+          },
+          "encodedPolyline": "mue_CundeS|G}GlAkAhAwAxAqCT{@f@eB~AiItItIfBdBz@aBvAkAv@_@p@]VMZO|CaAvDi@xC[tDMnDBvCVfEx@jP`GpAbAhDrChEjDhBrBpAjDfEqHh@eA\\_AnDgMdCuID|^CnD?p`@Xh\\A`PAvYIzGEd{@{IEug@WoEA{\\Q_PE}C?cCAyE?iFE{CCiECcECyCHye@E}SCeTCxDeQpCySzDw_@XwFoAuDuBsQUgC|ByL@gA[wCxOuB~KmB|Ba@xDw@bEqAlDcBbC}AvDiDjQ_Q"
+        },
+        {
+          "name": "Bo De Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0208155,
+            "maxLat": 21.0808132,
+            "minLng": 105.8410552,
+            "maxLng": 105.890548
+          },
+          "encodedPolyline": "ewr_C_{aeSzV{[bFoKpCkLPyMaAkLuGaVmJw[aB{Dk@y@rKwG`EwBjDoAbDy@na@mJvAc@fBs@jAm@rAy@x@o@~@w@f@i@~@eA~@eAhCaDnDsEzBoChAoAbAaAbA}@~BgBfJkGvC~@~WrJPFXL`@ZnAh@bBt@lPdHXLLB~Ap@f@RvQdHvDxAjAd@hA`@dF~AjHlCDBxGdCjBr@NF\\PHHxHrG`OnRbOlQdIpJhNrPxDtHj@fAiNxB{@N{WlEcW|Hu_@jBkCPqSvAq[Q}VnAua@jKw`@rSi]dVcYbUm[h\\ySbNoWtIpAoRvAyJbNuPxO{VxJgMx@gA"
+        },
+        {
+          "name": "Cau Giay Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0020277,
+            "maxLat": 21.0568018,
+            "minLng": 105.7537573,
+            "maxLng": 105.8069306
+          },
+          "encodedPolyline": "ohe_CkdudSdC`FfBrFz@nE`@bELfFEzDm@rHmGnf@wHbn@qAbKwC|U}Dq@gB]_ASqAVmDrAcDnBqLfRiG~GyInHkMjLoDv@}Dw@gE_BsGaC{CIkIrDiB`@wAO{DsBqSqRuCmBuAYwESkLWaTrAeBIwAO_DqDqDuF_I}CnEoQfBiIdBgIpD}P|C_RjEySf@gDL}BFiDEcGu@EkQw@wKYyL[q]_A{FSsHWcEMeFWuDYqDg@kB]GgAMkFk@uBj@qHCc@Sa@a@kB[sFG}CBmBF}AdNHlGGnE@FeR@{JE{`@?oAAqFi@}Nf@?rAAlFW`D[tHqAtN{D`Go@hCEzC@hBElCU`Ck@jBk@Lx@PtAp@Id@KtC[f@CtBHrAHpADh@Dj@Fr@Tp@XtC~AtEjDl@^n@ZtEbCZPXT|@r@vDdDxFzE~EzDhDxC`FnE`At@NHh@TlG|Ap@HiFlTJbA~DfGdJpNdYtc@xGnKhTcPdMsJ|SaPxToPlDdFfBnD"
+        },
+        {
+          "name": "Dai Mo Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9593657,
+            "maxLat": 21.0106264,
+            "minLng": 105.7305049,
+            "maxLng": 105.7999935
+          },
+          "encodedPolyline": "gh`_Co~odSIHiHhLgDdFyDtG{DrGmJlNkBrB}BrAoBt@sBd@aZrD{C^N~@n@lCtIj_@o[jLmG^vDlVhBzITfB^jC~A~IsHvAwJzA_GtAcZnGib@~IoOrCTuKHcCVsJt@kW|@u\\x@kUv@iKfBePvDm[tGef@vC}UpAcKvHcn@lGof@l@sHD{DMgFa@cE{@oEgBsFeCaFgBoDmDeFlLcJjCkBnPmMl\\ni@hKiTxEyJfToSdSn[nCfE`B|BZb@??bRcOfO_Mu@gHzFe@dGoCbDqAtExT?@NnAHB\\nFmA@z@nFnCkAtALbCJ`Cp@dBv@fBvBdBfC~J{FrPsLzJaGvE`BlAFrAi@`@xAv@t@nAj@~@n@f@pALrBA`D@`BhAlGA|@i@~B_EfIeBrDy@fFqAhAwDR{Ci@OvJDd@AFIh@Ul@c@xBIz@_@pKu@rTrZnb@_OLaSjQzStYe@z@_Tvc@qMnYwAdD_DcBkDuBwAaAmBeBe@e@aCuCcc@qm@c@f@"
+        },
+        {
+          "name": "Dinh Cong Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9510776,
+            "maxLat": 20.988673,
+            "minLng": 105.8063997,
+            "maxLng": 105.8441773
+          },
+          "encodedPolyline": "_r{~B{u|dSiHfJiD~GoB|T]`Ea@jD{B`DcHhGaAtCk@xEDnBZnC`@bCX`BIhAm@bAaBn@_BqBmBiFeCqGoFkKyEkF}JsOaIeJ_D_AuJaDaA[cDEiAhTpGnApJxGbExCnCbFmOp\\aExIq@t@cBpD_FnKuCfGgCwAqQcGqRhMgEsIuC_FoBeDrE{CjMgI_I}Dy@QoFqD}@c@]c@gAwAqAyAfDgCfAcAdCwClCuDwHkBAq@aDFmBOiAM{@BUGYGOq@u@ReAcEg@PiBsEYs@yCiGs@o@oAuAgBoB{BoCxDmCrPcQrBgDz@uBj@yCVeCFqBB_GEoo@|l@RzSHxCAdAGx@Mv@MnE{@~Du@hEk@|DSvCAfD?bS?vDAdCS`PwBbk@kHHhBAhCOl@}@FoEBy@Jy@V{@h@s@p@k@t@_@t@]`AIbAEtARbCj@vBlBrDfDvHn@hDZzLJfBQlBe@fB_CpFoErJ"
+        },
+        {
+          "name": "Dong Da Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9977427,
+            "maxLat": 21.0321616,
+            "minLng": 105.8107968,
+            "maxLng": 105.841569
+          },
+          "encodedPolyline": "kdd_Cg}~dSk@hD}@pFUrAq@zDg@`F]nDa@pEMbA]rBi@bDeBfKWnAgBfHc@fB{@lEi@`Ea@lC{@lFy@vEu@fFsA|Gl@|@bG`JmMhEuBn@eCt@sFlCeElC_At@w@v@cBtBc@l@i@z@sI~OcD{BwCsBeGsDqRsKq@_@eEiCyNaKcR}KoBsBsV}Z{DyFcDgFi@w@_IsLiD_AFULk@pHaa@Nu@?A@Gp@oDtAiHd@cCjCeNT?`B@jB@P?R?Z?tCD|YFlIHdTB|SBxe@DxCIbEBhEBzCBhFDxE?bC@|C?~ODo@vD"
+        },
+        {
+          "name": "Duong Noi Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9545727,
+            "maxLat": 20.9955025,
+            "minLng": 105.7302422,
+            "maxLng": 105.7648943
+          },
+          "encodedPolyline": "{q`_C{podShHiLHIb@g@bc@pm@`CtCd@d@lBdBvA`AjDtB~CbBvAeDpMoY~Swc@d@{@z\\re@vQpW{@jDw@hDuBjF{FtKgN~UcC~EwAxDsHvWkAzCS~AaCfEqBaFhFsBiBuFuE{JqFhC|ApEqErAo@kCcCL[{C_BNGFCPKF_AJSFGLCNH\\?NINWHaAJq@@SJGTBX\\hANVDN?HAHID]JUDk@CY?QDKLAL@NL`@BNAPMLUHmAXcAJYDYGqCg@q@?aDrBgA`@q@WaJsKc@?_DzBiE`B{Cb@yOfBsLlAcSzBcC|OgZpM^hLgD|AQgAwAPMk@e@uBmA_EW{@a@gCMoBwAuJ_B_J_@kCUgBiB{IwDmVlG_@n[kLuIk_@o@mCO_AzC_@`ZsDrBe@nBu@|BsAjBsBlJmNzDsGxDuGfDeF"
+        },
+        {
+          "name": "Giang Vo Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0022851,
+            "maxLat": 21.0479544,
+            "minLng": 105.7822037,
+            "maxLng": 105.8300072
+          },
+          "encodedPolyline": "smi_CorudS_EgGKcAhFmTq@ImG}Ai@UOIaAu@aFoEiDyC_F{DyF{EwDeD}@s@YU[QuEcCo@[m@_@uEkDuC_Bq@Ys@Uk@Gi@EqAEsAIuBIg@BuCZe@Jq@HQuAMy@kBj@aCj@mCTiBD{CAiCDaGn@uNzDt@eAL]Dc@Q_@_@Uz@{CDUBc@BoABa@Fs@Jk@Nu@h@iBbA_D|@}BjBqDnAkBnFoFxA{ArCmD^w@n@gBt@kE`@mCXaI?{Bb@aI@UL}BHgAJi@~@qDXeAJSb@wAnA}Er@gCb@cBr@aCNa@`@}ArAZNDTHDFHB^J^^pAVL@pARbBXXwFFg@BWFi@|BTr@D`Cj@`DHG|A?~@xABp@?j@E`@@p@ElALzDTcA}HOsAbAeEhD~@~HrLh@v@bDfFzDxFrV|ZnBrBbR|KxN`KdEhCp@^pRrKdGrDvCrBbDzBhAv@hErChAx@ZV~@`Ar@lAlD~Fv]jk@eJdHuGbFlNdUmLbJyTnP}S`PeMrJiTbPyGoKeYuc@eJqN"
+        },
+        {
+          "name": "Hoan Kiem Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0179251,
+            "maxLat": 21.0506205,
+            "minLng": 105.8265879,
+            "maxLng": 105.8620546
+          },
+          "encodedPolyline": "g~i_Cud_eSkBAaBAU?kCdNe@bCuAhHq@nDAF?@Ot@qH`a@Mj@GTcAdENrAbA|H{DUmAMq@Da@Ak@Dq@?yAC?_AF}AaDIaCk@s@E}BUGh@CVGf@YvFcBYqASMAqAW_@_@_@KICEGUIOEsA[Jm@Ly@FkBCQGMGKOY{D}CqBeB{@eASe@g@}BOeDAoFLyJ{DI?cBgFkA]EkEc@wCWgD[YMi@i@Y}AIu@Wc@}@UuAUqCoBu@i@mAi@yAg@k@[s@y@K[_@eAZQb@WROFEJIb@a@LM`AcARUjBoBZ]r@o@lAgAnAgArBgBxC{CtBaCfBkCv@oA|@sAbAaB^c@HIZWfHeFpEmEtBkChCiCpBqBdEsCfEiD`DoCrB}ArA{@xAo@xAq@lIiD`Bo@x\\oMlQsJ|G_BdFwA~EiAhOkB\\EZvCAfA}BxLTfCtBrQnAtDYvF{Dv_@qCxSyDdQmII}YGuCE[?S?Q?"
+        },
+        {
+          "name": "Hoang Mai Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9432589,
+            "maxLat": 21.0065803,
+            "minLng": 105.8408768,
+            "maxLng": 105.9087898
+          },
+          "encodedPolyline": "w||~B_h_eSeCRwD@cS?gD?wC@}DRiEj@_Et@oEz@w@Ly@LeAFyC@{SI}l@SDe{@H{G@wY@aPYi\\?q`@BoDE}^eCtIoDfM]~@i@dAgEpHqAkDiBsBiEkDiDsCqAcAkPaGgEy@wCWoDCuDLyCZwDh@}C`A[NWLq@\\w@^wAjA{@`BgBeBuIuIcY}Yb@g@|LcPpAaEbFaNrFmOjC_LrJ{\\|M}TrMgQ~CwDxIsJlVeSrRuJrOa@|XvDfCbA~y@`\\vn@p`@t_@f\\LHpRlO`f@|X}b@li@s\\jk@aCrE|K|GdAhAt@|BN`B\\r@rKrEvC|@fAO|ALn@f@~@~CpArBjFtAlAWjBBdAZ`Bx@dCLvL[I`AgAnFkBhG}BdKWdAgBlFs@nB{GpR`@zI@ZiB~LQpAObAYt@]d@u@Bo@JmGnC}@V{ARoHv@jA`FhApGl@pDck@jHaPvB"
+        },
+        {
+          "name": "Khuong Dinh Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.978962,
+            "maxLat": 21.0105531,
+            "minLng": 105.7901581,
+            "maxLng": 105.8412754
+          },
+          "encodedPolyline": "_ce_Ck}zdSm@}@rA}Gt@gFx@wEz@mF`@mCh@aEz@mEb@gBfBgHVoAdBgKh@cD\\sBLcA`@qE\\oDf@aFp@{DTsA|@qFj@iDn@wDz\\PnE@tg@VzIDDno@C~FGpBWdCk@xC{@tBsBfDsPbQyDlCzBnCfBnBnAtAr@n@xChGXr@hBrEf@QdAbEt@SNp@XFTFz@ChALlBN`DG@p@vHjBmCtDeCvCgAbAgDfCpAxAfAvA\\b@|@b@nFpDx@P~H|DkMfIsEzCoBtAaHvEsa@jXo@d@uGtExPbX~@zAgTnSyExJiKhTm\\oi@oPlMkCjBmNeUtGcFdJeHw]kk@mD_Gs@mA_AaA[WiAy@iEsCiAw@rI_Ph@{@b@m@bBuBv@w@~@u@dEmCrFmCdCu@tBo@lMiEcGaJ"
+        },
+        {
+          "name": "Phu Dien Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0365709,
+            "maxLat": 21.0982549,
+            "minLng": 105.7453232,
+            "maxLng": 105.7884419
+          },
+          "encodedPolyline": "wuk_CqgsdSDbGGhDM|Bg@fDkExS}C~QqD|PeBfIgBhIoEnQqJx]uY`eAeEwCk@v@iAqAgDfCqFgIuCyHm@JwKhDiAiEoC`A{Oal@mLy^sLrLwNnR}JmBnEkQyBoHgEf@OiCcAReANeEQ_DCgBKGu@wCPf@qHoA?Ziw@eQVgm@rA{`@nAsL`@kv@cO`Awk@t@me@`^zAnN^fBCxZaHnIkBzFmA`C[`BC~BDpCh@~Bz@rJpFdDxAlDx@pD\\|Qp@rPl@l[pDfDj@h^bGzLlBjB\\pDf@tDXdFVbELrHVzFRp]~@xLZvKXjQv@t@D"
+        },
+        {
+          "name": "Phu Luong Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.912531,
+            "maxLat": 20.9632078,
+            "minLng": 105.7111557,
+            "maxLng": 105.7918576
+          },
+          "encodedPolyline": "wuv~BwgmdS~AMpMbDLuI~P{B\\hEnM_ARnClBINpBC|@wA~AzK{AnIoAd@G|Fpn@hBQfFAp@tAvAnA~@\\\\pAuDhH_AGg@zMnD~AYxAkA`DiE~KcEtGgEbD{ClA{Cz@gBR}I^{B?_C?sNo@aBAwPHmBB{Ot@ms@vRwGjByC|BmAxCk@pB?jBVlAdCrArHKdIXlEb@nEdBjCfCbAhCjAvGBdDQpEOjDaBxFcCzFmDdE}EjEwF|BmGn@mG{@mHuEgCuCgDaByDoH_@uEyEaHaD{IwFoQqKiO{DgBuCi@sBGoEn@eF|Aw`@m`@lF{EqNyXyEmL`CgER_BjA{CrHwWvAyDbC_FfN_VzFuKtBkFv@iDz@kDXqAjC}KrHc\\lFeVlWsjAbGuWrSs~@p@Pd@lStEx@KoHvGI\\jBm@vCpGbBoBjIvKtCtEMLdLlJ@v`@i@R`O}BBLpL_CpBlAdBaFbE`Uh[hKaI~DfGjAg@|BjIp@dCcQxOhHvG}CzJiBm@_Rv[kHgKcJnOtEnHoHNAz@?pD|@BnGcBvBlKgE|BvEzBmC~Fk@rB|DhAiB~GrFnA"
+        },
+        {
+          "name": "Phu Thuong Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0518683,
+            "maxLat": 21.0976533,
+            "minLng": 105.7823556,
+            "maxLng": 105.8211303
+          },
+          "encodedPolyline": "mun_C_mwdS@pF?nADz`@AzJGdRoEAmGFeNIG|AClBF|CZrF`@jBR`@Bb@k@pHj@tBLjFFfA{LmBi^cGgDk@m[qDsPm@}Qq@qD]mDy@eDyAsJqF_C{@qCi@_CEaBBaCZ{FlAoIjByZ`HgBBoN_@a^{ALoJP}NVaTjBynAZuMx@uLtDiYfB}MjFoQnLfEbUbIdDlAbDpAdJhEdInEb]tQdL`GzEfBbMjD`FtArEdBRHtJpDrTpKxMzGdB`@bCJ`P@~KD|UEpA?nBCh@|N"
+        },
+        {
+          "name": "Phuc Loi Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9933107,
+            "maxLat": 21.0799138,
+            "minLng": 105.8671036,
+            "maxLng": 105.9387681
+          },
+          "encodedPolyline": "m`g_C{ceeSkKbHoSnO{KvC}Cb@k@gAyDuHiNsPeIqJcOmQaOoRyHsGII]QOGkBs@yGeCECkHmCeF_BiAa@kAe@wDyAwQeHg@S_Bq@MCYMmPeHcBu@oAi@a@[YMQG_XsJwC_AgJjG_CfBcA|@cA`AiAnA{BnCoDrEiC`D_AdA_AdAg@h@_Av@y@n@sAx@kAl@gBr@wAb@oa@lJcDx@kDnAaEvBsKvGeMaRcFuHs@cA_FgJmHeRqEuP}CmOaB_MYuJNoJvAkJ`EsHDo@hAkNfA}QB]lAmSzA{VfJm_@vMuRlE_EnLmKleAa`@lI{C|q@sLd_@cKtL}HxOtKrO`KdEpCf@XpH|DlJfEzEjBz_@xMpBp@jCdA~BjArBpA|BfBjBhBdBtB~OdUnA|ApBxBnBfB~BjBxB~AxBxAjLpHhE`CjB|A`FjDhIrGtQzOvJrIj|@`t@_DvDsMfQ}M|TsJz\\kC~KsFlOcF`NqA`E}LbPc@f@yLdNmPbQkDzCu@p@"
+        },
+        {
+          "name": "Tay Ho Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0023982,
+            "maxLat": 21.0937909,
+            "minLng": 105.8044213,
+            "maxLng": 105.8784987
+          },
+          "encodedPolyline": "gmu_CuozdScDqAeDmAcUcIoLgEjBqGrJg\\b]im@rPsSjQyRnWuIxScNl[i\\bYcUh]eVv`@sSta@kK|VoAp[PpSwAjCQt_@kBbW}HzWmEz@OhNyB|Cc@zKwCnSoOjKcHt@q@jD{ClPcQxLeNbY|Y_BhIg@dBUz@yApCiAvAmAjA}G|GkQ~PwDhDcC|AmDbBcEpAyDv@}B`@_LlByOtB]DiOjB_FhAeFvA}G~AmQrJy\\nMaBn@mIhDyAp@yAn@sAz@sB|AaDnCgEhDeErCqBpBiChCuBjCqElEgHdF[VIH_@b@cA`B}@rAw@nAgBjCuB`CyCzCsBfBoAfAmAfAs@n@[\\kBnBSTaAbAMLc@`@KHGDSNc@V[P^dAJZr@x@j@ZxAf@lAh@t@h@pCnBtAT|@TVb@Ht@X|Ah@h@XLfDZvCVjEb@\\DfFjA?bBzDHMxJ@nFNdDf@|BRd@z@dApBdBzD|CNXFJFLBPGjBMx@Kl@a@|AO`@s@`Cc@bBs@fCoA|Ec@vAKRYdA_ApDKh@IfAM|BATc@`I?zBY`Ia@lCu@jEo@fB_@v@sClDyAzAoFnFoAjBkBpD}@|BcA~Ci@hBOt@Kj@Gr@C`@CnACb@ET{@zC^TP^Eb@M\\u@dAuHpAaDZmFVsA@g@?oBBqA?}UD_LEaPAcCKeBa@yM{GsTqKuJqDSIsEeBaFuAcMkD{EgBeLaGc]uQeIoEeJiE"
+        },
+        {
+          "name": "Tay Tuu Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0477734,
+            "maxLat": 21.0824165,
+            "minLng": 105.7240093,
+            "maxLng": 105.7608109
+          },
+          "encodedPolyline": "ctt_C}aidS|w@keAxA_DbCeIlCwKvEsPnTow@|JlBvNoRrLsLlLx^zO`l@nCaAhAhEvKiDl@KtCxHpFfIfDgChApAj@w@dEvCmBhG_L~_@eAzCaAnBiQbY}NhVoAbCsPzX{b@FoV~@c@B_Pf@oIL_E?qFOeGuAqCkAyDgBoD}C{NcM"
+        },
+        {
+          "name": "Thanh Liet Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 20.9425016,
+            "maxLat": 20.9914997,
+            "minLng": 105.754785,
+            "maxLng": 105.8250241
+          },
+          "encodedPolyline": "gt{~B}hndSYpAwQqW{\\se@{SuY`SkQ~NMsZob@t@sT^qKH{@b@yBTm@Hi@@GEe@NwJzCh@vDSpAiAx@gFdBsD~DgIh@_C@}@iAmGAaB@aDMsBg@qA_Ao@oAk@w@u@a@yAsAh@mAGwEaB{J`GsPrL_KzFeBgCgBwBeBw@aCq@cCKuAMoCjA{@oFlAA]oFICOoA?AuEyTcDpAeGnC{Fd@t@fHgO~LcRbO??[c@aB}BoCgEeSo[_A{AyPcXtGuEn@e@ra@kX`HwEnBuAnBdDtC~EfErIpRiMpQbGfCvAtCgG~EoKbBqDp@u@`EyIlOq\\oCcFcEyCqJyGqGoAhAiTbDD`AZtJ`D~C~@`IdJ|JrOxEjFnFjKdCpGlBhF~ApB`Bo@l@cAHiAYaBa@cC[oCEoBj@yE`AuCbHiGzBaD`@kDzHz@C`AHJrAt@\\b@p@PNNbA?h@?dAlBhL~ElFxD|C~AoBxCqFbBoExGiEeCoMrYa@|@sG|OsIfSmAtCzMrGwDvDeA|@UpBvA|ChB|BJdBlGXHrAt@Df@jF~@`C[V|@fF~E`AbD\\xEJx@KhAe@nC_Apq@fQsSr~@cGtWmWrjAmFdVsHb\\kC|K"
+        },
+        {
+          "name": "Thuong Cat Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0659312,
+            "maxLat": 21.1081244,
+            "minLng": 105.7247853,
+            "maxLng": 105.7731891
+          },
+          "encodedPolyline": "{wt_C__idS{BBGK}@VcB@[|@]l@w@rA[v@c@LeBAgA_@}BQMI]CCJMPK?]UOOQCWLwCO?tCY?qBPiB?_K_A}@EcADoEd@o@^uAcDoJhEi@x@s@h@e@j@aBtAA]PaAaMaEx@{FgEiFf@q@Hy@Ak@IOeA?o@IiCu@v@sEBg@c@Fq@We@{B_@Ay@oBiAcDa@aAgOuRw@cAyQiUf\\sYjUkSvDgDnAaExCuJcG_x@V_JtB{v@T_Ijv@bOrLa@z`@oAfm@sAdQW[hw@nA?g@pHvCQFt@fBJ~CBdEPdAObASNhCfEg@xBnHoEjQoTnw@wErPmCvKcCdIyA~C}w@jeA{@jA{@P"
+        },
+        {
+          "name": "Xuan Phuong Ward",
+          "osmId": null,
+          "adminLevel": null,
+          "isPointFallback": false,
+          "boundingBox": {
+            "minLat": 21.0063691,
+            "maxLat": 21.0565602,
+            "minLng": 105.7265554,
+            "maxLng": 105.7633215
+          },
+          "encodedPolyline": "wrf_Ci{idSqB}AkAXkBlB{EuAoMsFsGzGq@`FhB\\cH`HqH}KmJ_IWyAmFcBF{AJUVKn@PDIp@FZ[RaABi@a@{Aw@Xm@D{@KJc@h@y@s@Ya@Ww@Wk@W_@WMlAkH|KgAm@yAO_BVaGuS_@b@]_AUO[Bq@ZJ`@Bt@oBp@aAv@iCi@S^sAVqBF{AKaAcHaDj@SgBaEp@iBBG?{BBk@?a@@iAJ@H@?Fv@sBZ[qAi@@B~AAv@Sv@_@|@WdAKnAThDI~CeBASj@IZUFi@^UPQZQJWbAiFmAGMSI]AIBMLKDSBI@ENCh@KFS@KGQi@MQg@UKCyBhAUf@[PUC[Mq@?ONq@t@MFO@MCMMIm@CUw@?O?YNMPaA`ASDG`@?t@DPJN?HIHM?[OWGc@H]^QRSBS?q@aBWM[?a@Na@Z_@p@y@`@o@`@IRSLKf@o@v@j@n@q@jAHDk@vAUEALLFG`@a@fBi@SQHqBUiAtHgLqC{@jBoAKyFhHu@\\gKyHoJiG|NiVhQcY`AoBdA{C~K_`@lBiGtYaeApJy]~H|CpDtF~CpDvANdBH`TsAjLVvERtAXtClBpSpRzDrBvANhBa@jIsDzCHrG`CfE~A|Dv@nDw@jMkLxIoHhG_HpLgRbDoBlDsApAW~@RfB\\|Dp@uGdf@wDl[gBdPw@hKy@jU}@t\\u@jWWrJIbC"
         }
       ]
     },
