@@ -1,0 +1,132 @@
+{
+  "name": "Minsk",
+  "countryCode": "BY",
+  "centerLat": 53.882818,
+  "centerLng": 27.611546,
+  "radiusKm": 15.67,
+  "regions": [
+    {
+      "name": "Frunzyenski District (Фрунзенскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8603938,
+        "maxLat": 53.9431262,
+        "minLng": 27.3740176,
+        "maxLng": 27.5335519
+      },
+      "encodedPolyline": "g{xgIsnafDdImNbC}D|JcSAnBpHkNRc@fCmGpCkHdDwIvHqVpJkUE[h@uJ]A@sRyC`A_Jc@sGM?dDVz@AfKy@@Q?wNJ}AG?iBM{N?e@Y@AqE@mL@cL?gJAyJCwIqB?eF@@sCJmOGyr@cEzAcHtCD`@DR@nBMXCd@QF@nIF`l@_B@BhLo@?mFBDwW?oFE?wIDwB?AbGwA@Q??w@y@{NZiEn@W?M?}@U{H~@Wh@Ow@yK_@iH?gBoEcTfCcBWoFgBsTa@mGUcHd@SV@fABZ@AmBXYBq@l@FHaAp@N?Lh@??YNEf@gHlAFxEVGgB`@GJg@BW@YMmCY{H`D]d@c@KmA]??aMh@gAhBWxCk@~Dq@MeFIwFGkFhGgA{@qRm@aP]eLFiNuLp@c@w@oBsEQp@Os@q@{@OGFwBMe@Qq@GMMU`@sI\\oJI_ALcEoBsCy@w@]]sBaCyByBis@c_@kAsf@yAeRoBoRaFkXM_Fz@gFrDgSPqDUaMoAyIeHkAuFk@eN|EeBj@uDbBqBlAeFlDkMog@eL_a@iGsd@c@oCiC_JsBwFuAwCw@oBm@aCcAkF_FiVkNlGdDat@eBAeALm@Xm@p@a@~@i@~AgDtKq@~HE`@MtAe@~EuApNqEzGkHxDaAh@eBh@aD~B}@f@}DxBsDvFiDvEcSxXc@h@{@rAiAtAy^~h@wGtRkEx\\q@hOa@`KaC`k@s@dRkDtz@sBlo@sA|Xc@jHsAhLuGhj@_@|CiArHaCvIiAzDuFrMgMzQePbVqJhO`@d@^`@FHFLX`@^h@FHzDpFz@lAhBpCz@nANT`@?pKjNn@x@x@nAR^pAbBLNhBhBb@n@V^lK~L@@fAnAd@CLH??pElDG\\jPxN|CtCj@Sv@n@NLDDRPtBdAIl@DBfDpB`Al@xA|@RKFEfDvBNJ`IzEfA^f@\\`DxB~FxCzAt@C\\zFxCVy@fP`GCp@tQtGrAzDjAxJfBnNJr@NrBPtG|@QIyCJaCR{A@UZwAd@sBtEuNzAy@t@D|BlAnDfAbAXDh@lHvAtIl@N]lJe@Jl@O~D`@?T{DHe@|@AdEc@|Bu@Cm@~Bm@HTtIwCF[dJkDbBy@|Ag@p@m@jG{B@?D^??fBs@@]fDsAVJ|@pEjCp^D`DX`NqB{BgFnEyE{CyAWyAm@i@Ao@FqAJ}AtAqAdAg@h@i@Pk@Xo@@YXc@`@AtAeAhAgDNe@eD}Bp@sD{AeJEiAq@i@mBK?StD?`I_@v@yAl@y@k@?dBx@ZxAa@z@LxAnHFBRaCIgBTkAhBuCpOnAh@}CpCd@nAo@hFf@|EqIl@KfBChBRj@P~AdAhAn@lAT~@Ip@]~AmAn@Af@Zd@j@j@NCrDAjAvCbAzAP|@mAvFmOpAWfB??mDjC?Aa[?ySuDuHoYtL{@kF?U|Au@@PjBy@ASfD{ANV|FsBdI_EjCi@fN{FxGqBrAu@zAqAjD{@|AUh@`IlBtPMPsGfFoI@?fQvHA?p@El@ClT_FZF`]~CS`A?pOC|HA?vEpHA@tWqH@@du@fLAFzBp@zDzAdDv@pB|CjOfAjEVvA\\tEJbFKrF[xDo@jC"
+    },
+    {
+      "name": "Kastrychnitski District (Кастрычніцкі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.793847,
+        "maxLat": 53.8955293,
+        "minLng": 27.481904,
+        "maxLng": 27.5995676
+      },
+      "encodedPolyline": "woogIi_hgDHmCYyFR}Ev@gUW{B_@iBGkAe@cB_C`AgB~@AVgAr@g@qCvBqA~@PnDyB_CqBeA{JmCgb@lDaSlFgDpl@zEdEiHvKiJhGdHfCmAZ`C`GiDxIyE|HeElAuBbAiH`AoDzBdAt@|GxNuHtEsCnGtd@hF{CyD}ZvDKrDvXxOiHdGvf@}QtJwFmBkCjBmAkIaDoT_VdMRxALbAxB~OjBNHz@t@@zCTpBv@l@ZFXk@\\qA|B_BhAaD|ABTyZlPg@~DqI|Ek`@|TsQjI`AnHd@|GLz@F`@_Bz@_Bq@mAyGcAgLwH~DeItD{DfDqCvEcCjA@N?P?PAPCPANENENELEJGJIJGFIFku@rc@IDIB??Hfl@QzEMbG{In{A?rPdElKdA`BRFTHAjBo@HeEtGmGzK_AdQkGzhABVoDxo@|@tVa@bI_E`NoBhf@c@tAkDxz@I`A]VK`BoFeIoA{BqAmCcAiCaBgFoA_FIUcCqJCMc@cBI_@_AoDkBgFoEmG_@]{L{KaC}BsAaBqBsCcFkKyBeGiC{F{DaGuFiIoWaWcHkGgHoEk@_@yBcBmB_B_GaGkHkHiHeHaJwImKmJmAm@cCq@gIy@wE}@gDwCoJ}IoFsIgLgRaBwCWe@a@wA_@eBQk@kB}IUyA}BkMqAqGaI_CaGoBwJsEsFoCeBqC_KgQtD_YUsDqUoObA{AhCgDrf@kbAOzQlDmGbAqAlAkAfBgAjAw@tBs@xDa@tCM`EVx}@`IPBhCRjG`@|BLtBFpDZdGt@|AP|ARjCf@xB^vALrCd@vIjB`Ej@fD`An@Rr@b@rJnBdHzAbVbEbEj@lANdKjB~A^dE^nCI`Di@zD_A`EgBzPeJrFyCjF_D~BsArJkF|DyBlIoEfEmDZ_@EqDls@kb@HCHEHAF??S"
+    },
+    {
+      "name": "Leninsky District (Ленінскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8258619,
+        "maxLat": 53.9042278,
+        "minLng": 27.550322,
+        "maxLng": 27.6272255
+      },
+      "encodedPolyline": "kr}gIo|cgDhCkEbA{AhCgDrf@kbAOzQlDmGbAqAlAkAfBgAjAw@tBs@xDa@tCM`EVx}@`IPBhCRjG`@|BLtBFpDZdGt@|AP|ARjCf@xB^vALrCd@vIjB`Ej@fD`An@Rr@b@rJnBdHzAbVbEbEj@lANdKjB~A^dE^nCI`Di@zD_A`EgBzPeJrFyCjF_D~BsArJkF|DyBlIoEfEmDZ_@k@ec@V}FXaPh@eCtNuG|QwJlEyBg@qCwPxJsJ~EyHrBwAiMQcGKqk@Cg]Q_e@AsPgMo@YAKCWIOKIKGKGQk@fB{IlYsASI{@@aCRyHTkETeC}BOq@a@k@wA_D_JmQo^iLmdAyc@{]yPcRiDtAEl@Cf@Ad@A`@?`@Af@Af@Eh@Ef@I\\KTMP]ZaBxAc@h@]f@Yh@w@~A[r@[h@a@n@a@f@a@`@{F~Fa@\\_@Z_NhL]Pa@H_@B]A_@E_@Ka@Me@U]Wg@_@_@S]O_@M_@Ic@O[O]QYUaAq@UKWK_@A[D]Nc@b@{E`G}BlCA@q@l@[T[P[N]J_@FWJWLSVO^Kd@Il@OxAG^IZIRKLMLOHgB~@QJQNQVO\\K\\K^Kn@Oz@MbAKd@K^OZOVQTWRUPYL_@PIFQJYRm@f@cBbBWX_@d@]d@c@p@kAnBsExGk@z@a@n@Uf@Sf@Yt@Yx@c@nAe@vAM`@M\\OXOVeBnC}BlD]Zc@^YTSRSRQTOXW`@Yf@Yf@Wb@_@j@_@d@WZa@`@_@\\Y\\W^Ub@M^OXyII{MUeAXaCp@q@?gl@JmG_@IvA{@rNKpTbDnUxA~EdG|OmCpEWZjApCcCpGMEOCQBOBOJQNSTQTaCbDKLOTOPONMPONaFrF]\\MNMLILKNKLKPU`@OZwCtFyApCqBxDaGbLOZOZKZK\\a@lAIVIVIXMXIPINhAvCsMrOuHhHkF|Hza@rdApCbHrIfT"
+    },
+    {
+      "name": "Maskowski District (Маскоўскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8355605,
+        "maxLat": 53.9068198,
+        "minLng": 27.4187101,
+        "maxLng": 27.5537218
+      },
+      "encodedPolyline": "evygI}ejfDhCiAdFmChDcBXB|CgAhCmAbHuCbE{A|DmAnAWxAYxJcEfOwGrKkEbRqHnD}AnEiC|K{ILb@zAkBX]RYxEyFlJaNBPrAeCf@aAAABC`DsFEOhAgDRa@DS^y@zGeQfCyHJH~@uDrAaGpCoNtB{OzA}NF_Fj@iSDk@z@oOb@ETcFFoBKEDiBJiBOAHiBFuAFkAFmA?KDo@Ba@AAAA?KLmCFgA@ODm@P@dAB`@@fDJd@@Db@@VpBv@DBHJlEvEhCvC|@uF[[bCuGQa@xAuC~@gBNMf@JhA`CjB{Cd@iAeAkCuG{O[s@[y@`@_DhANV?zERT@XyCReDyFsBGCXqC~AoHGc@KGc@K?Jo@KG@KIMH[UeAcAy@g@KEsAw@oD_C{BcBiBQ}@ET}Fs@q@WKoFeIoA{BqAmCcAiCaBgFoA_FIUcCqJCMc@cBI_@_AoDkBgFoEmG_@]{L{KaC}BsAaBqBsCcFkKyBeGiC{F{DaGuFiIoWaWcHkGgHoEk@_@yBcBmB_B_GaGkHkHiHeHaJwImKmJkAm@eCq@gIy@wE}@gDwCoJ}IoFsIgLgRaBwCWe@a@wA_@eBQk@kB}IUyA}BkMqAqGaI_CaGoBwJsEsFoCeBqC_KgQtD_YUsDqUoOiCjEsIgTuOxNmCbIgB|D{GvRqJ|YsBz\\w@tNG~@eD`t@jNmG~EhVbAjFl@`Cv@nBtAvCrBvFhC~Ib@nChGrd@dL~`@jMng@dFmDpBmAtDcBdBk@dN}EtFj@dHjAnAxIT`MQpDsDfS{@fFL~E`FjXnBnRxAdRjArf@hs@b_@xBxBrB`C\\\\x@v@nBrCMbEH~@]nJa@rILTFLPp@Ld@GvBNFp@z@Nr@Pq@nBrEb@v@tLq@GhN\\dLl@`Pz@pRiGfAFjFHvFLdF_Ep@yCj@iBVi@fA?`M\\?JlAe@b@aD\\XzHLlCAXCVKf@a@FFfByEWmAGg@fHOD?Xi@??Mq@OI`Am@GCp@YX@lB[AgACWAe@RTbH`@lGfBrTVnFgCbBnEbT?fB^hHv@xK"
+    },
+    {
+      "name": "Partyzanski District (Партызанскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8629621,
+        "maxLat": 53.9308527,
+        "minLng": 27.5663157,
+        "maxLng": 27.8490752
+      },
+      "encodedPolyline": "md_hIo`ggDjF}HtHiHrMsOiAwCHOHQLYHYHWHW`@mAJ]J[N[N[`GcLpByDxAqCvCuFN[Ta@JQJMJOHMLMLO\\]`FsFNOLQNONQNUJM`CcDPURUPONKNCPCNBLDbCqGkAqCV[lCqEeG}OyA_FcDoUJqTz@sNHwAlG^fl@Kp@?`Cq@dAYzMTfEuTpBgNzBmRqJqHsAsA}AaCsAaCeAqC}Nwi@kVs{@fKgN|LmPyGoTb@u@W}AdC{CzCsDc@oDAKASE[wAoBEeDCqa@tXgh@x@AAiF{CgHa@VkC`EiCbCeAaByAs@cCt@oBsDk@gEVwAtB{Fy[}~@kCkGkGeNkGeNgE_K}A}JcAgJZcMmCsj@`EiBdj@aOfJqDnJaCnIk@xLPdL~AhNzEfI|EvAx@qAeDCDGKFKcBeEqAtAyA{@MkGdAeAXp@lBeDaBwJaBwIkCuMdBmAPbATAj@c@Hm@}Hg^_@eB|@w@{@mElBsBZSAgAtNxFJ}@NaAqBuJAYHSr@o@BI?]o@wCrSyQAi@eOep@qD}O~k@{i@Rz@dFkEDiJmG{XSaM{AmP|L{S`I}C_YmPaBAeJCqQmy@}CqNcN_s@dJgvD~EqqB@u@BoBjAcd@{Hgb@CYq@{Iy@kIkA}Vu@yLI_DKwBRo@kCoS_rCM?tp@sNbAsCBtD|g@{BbSqF~GzMfTxIbUmEnKYlPKxdAApuAjCx[GpKxEr@Ery@ClEsOCuIxZAnAq@v@ay@buCw@y@IKQQ]]_@_@kApEhAjA]pAFFGV{@}@Y[mRwR_LuTCH{Fpa@_AfHEd@YzBy@jGIj@UM{r@we@SOlJht@tQlvAWtBkHpk@wA}@yENoGbGy@vCiBlDwApAHx\\`FzK|D~EjFhEjLpJxGzJtBtGdDpW~Avh@f@|OCdSTrXmObFbCn[^lG?dGK~BUfC_D|U{Kvy@QbBKhBItBwBtj@I|AKtBYhDgA|IwCzUk@~DIl@ELy@rH@TnAQv@Gx@Ed@D`DC`@B\\@|@Hb@D\\Fd@FlATdB`@bf@~MbCf@`ALfAHvH^`A|GCjDtCfKvClDxXru@~J~k@pYjp@nAbEvD~PDvHFbF_C`CH|BuDnMcKvd@_L~i@yB~LqI`WY|@rK|PpYds@Xt@"
+    },
+    {
+      "name": "Pyershamayski District (Першамайскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.9026756,
+        "maxLat": 53.9636982,
+        "minLng": 27.5910944,
+        "maxLng": 27.746351
+      },
+      "encodedPolyline": "gp_hIi{kgDbKwd@tDoMI}B~BaCGcFEwHwD_QoAcEqYkp@_K_l@yXsu@wCmDuCgKBkDaA}GwH_@gAIaAMcCg@cf@_NeBa@mAUe@G]Gc@E}@I]Aa@CaDBe@Ey@Dw@FoAPAUx@sHDMHm@j@_EvC{UfA}IXiDJuBH}AvBuj@HuBJiBPcBzKwy@~C}UTgCJ_C?eG_@mGcCo[lOcFUsXBeSg@}O_Bwh@eDqWuBuGyG{JkLqJkFiE}D_FaF{KIy\\c@mGSmEf@{@LyHQcGkAaRd@iDsFy\\_BbAmAsQQm@qK|Ew@aO\\{Ds^pN}CqKdBqa@DaBn@gGWw@sCmHpAyCK}Auh@`M[FdA|G{ZrIf@sXmLsNsHDgb@hKcA|Cu@pLaG`ImC`FxIfT}BfD`Zx|@cGbRmBdNE`AkEbfASfFHnsAjP~AgAvFPf@~@fOoCvJtEtEtAmDvAvClBgCTiByA}BsCcDn@mJhLuCfDfXh@xDD\\tAjKLhAj@tEJFDR|@|DKDGBFVQx@VVHHxAgC`@nBy@t@qAhAn@`DpAiA|@s@~Gn[Kn@F\\`ApEz@rDDZ[Xs@t@CD}@r@Qm@i@h@Yk@GF?COa@Ke@E[OL@Jm@`@DPHl@QFOF{BbIrIxd@l@@TENj@ZQd@eCJGxAlGRx@^`BDPnCkC~@lELBnBgB\\wAdAcEZmAx@p@Oh@mAhF{B~G_DbNm@RAFEPELJrAgh@`rBi@HKd@Lr@}L`g@m@u@@CeFuICPCD{CtHbGtJFHBFPb@mAbErAf@gAnEe@jBAJIn@?t@DTFd@vF|Uv@rCrk@hk@rTpSdE|DhTzShAfArn@~c@dK|HhLpKvNrPpJ~IxGeYj@wBxKoKVUtCfTfJb[\\c@|e@}m@rNha@z\\zX"
+    },
+    {
+      "name": "Savyetski District (Савецкі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.9061173,
+        "maxLat": 53.9717897,
+        "minLng": 27.5534987,
+        "maxLng": 27.6418268
+      },
+      "encodedPolyline": "ozghIkpdgDzCyvAbe@zH|z@v@tQPdCBjBx@p]bb@lElB~NrGfKtErCkl@~Coo@`CcKbGeEpMuI|B}ApA}CVk@X}@pIaWxB_M~K_j@{\\{XsNia@}e@|m@]b@gJc[uCgTWTyKnKk@vByGdYqJ_JwNsPiLqKeK}Hsn@_d@iAgAiT{SeE}DsTqSsk@ik@w@sCwF}UGe@EU?u@Ho@@Kd@kBfAoEsAg@G]_Bf@i@y@{@w@{AgBiA{Bo@sBuB`AcB_Z[aEw@oEu@uCq@iCs@oBuAuCa@i@g@a@q@Uo@GyJQUHONKVGt@e@vMM?EbAL@S`GqA`[UdA@`@FLNBPGjCyCj@Hl@]|ChKlKgL}CkLz@_AjGvZj@WtBgCNhFJrCd@~IHbAJUV\\V|EBRX`Cs@l@o@hAA|Ar@fAT^BDHLFHR^[T}BdJ}ExRb@?i@tBIo@aHbYi@v@wBfIg@nC?BMn@gUv}@aEvSwDy@[|CGj@xDjAoAzJcEQC`AnDx@kAzKw@xNMxC_AtMIfQCrFBhFTfPb@EFjHUC@V?B@h@NfI@AFA?@LtRNrFb@pNp@~_@SpAB?^lOLjE]JnQtBx`@vFjj@|Kli@rK"
+    },
+    {
+      "name": "Tsentralny District (Цэнтральны раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8979188,
+        "maxLat": 53.9708234,
+        "minLng": 27.432149,
+        "maxLng": 27.5778115
+      },
+      "encodedPolyline": "ygghI}ylfD^oAh@e@v@s@bA_CVnAZo@z@}A^s@Na@FUFKFCHCJW|@_BNRPj@RTpJiOdPcVfM{QtFsMhA{D`CwIhAsH^}CtGij@rAiLb@kHrA}XrBmo@jDuz@r@eR`Cak@`@aKp@iOjEy\\vGuRx^_i@hAuAz@sAb@i@bSyXhDwErDwF|DyB|@g@`D_CdBi@`Ai@jHyDpE{GtAqNd@_FLuADa@p@_IfDuKh@_B`@_Al@q@l@YdAMdB@F_Av@uNrB{\\pJ}YzGwRfB}DlCcItOyNqCcH{a@sdAYu@qYes@sK}PWj@qA|C}B|AqMtIcGdEaCbK_Dno@sCjl@gKuE_OsGmEmBq]cb@kBy@eCCuQQ}z@w@ce@{H{CxvAmi@sKkj@}Ky`@wFoQuB?F@NFzDPfJJ|GFvE@?BvBBxANnMVCPxKI@AxCVjPPfD@jBNpEAjCR^HjQR`@M\\aC`@BtATh@@n@?P@\\FvD@z@FjHZhGBb@\\pGJn@?DFjAZnALDJA@@HTJRDVBnAL`E?pA@p@NbJ_@PN`LA@b@jUBFVpEMvCJlHLfGX`JEpFm@rEa@rEIdDEpDLfGSh@Bn@TFdBjNp@nHVbNN`L`@pV?dAL`RNlGHjEFlDJtFJxENrDRlDRtNNtJXpKlBnVnCtW[bBZxAr@XlFrTz@pDvB|HxDvJ|DxI~C|FnDrF~BdDtBtDlAhAJ?HM@A~@rADFK\\|HlLvLdQp@p@hDxEvBtCpArBlBfCGNd@bCLfD@~DEtGF|HDFr@d@T_Bb@qAf@_Ax@w@|@UVGxBY^EXAH?lAj@xBvCHXNFbFxHtAtBrAdG`AjFb@xCBd@DV?DLrB[tECF??[|AGXq@~C"
+    },
+    {
+      "name": "Zavodski District (Заводскі раён)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 53.8048053,
+        "maxLat": 53.8947976,
+        "minLng": 27.5963213,
+        "maxLng": 27.8184363
+      },
+      "encodedPolyline": "gergI_|lgDzImYj@gBFPFJHJNJVHJBX@fMn@t@ZnGSnB}@tAcCl@cCP}CWmh@{@uDeBaDa@lAjAhBt@pBTbDJ~c@_@lDaAvBsAjAaHXcAeC?af@SkCMgeAWmo@H{h@OsZe@i]}@aN{AwPmA_IoA{G_E{R{BeIwC{I{FeOkNeScHgHaF{E_CoEvEaInGsHlJiH~J{HfCoMzGaEjF}FxD}AtDVzEdGfGfKzAfHTrGv@hEzBnQ`C~GjC|If@|Ab@tAd@xAf@xA^dA`@dA^|@Vr@Rl@Vv@T`A^~AlCyDn@`BdDdGnFdEzExBzGzA|GxBjGzEdCz@|@h@zB~A`BhBJsB^wDyEiBeKoGYKMSk@c@Q^kBiB]_@aC{A_DwAmA[aBk@}@k@k@k@aAa@s@IWWOaAa@i@Qt@c@u@_BuBcBeBoAmCa@oBW}BWaEcBqDq@iAOKfF_K|K|TjC_EfXkh@w@_BmEyIcBmC^oBp@_D`AeF`AyEl@oBbA|AbCtCrCbDdCvCt@|@|BbCdCvC~BvCzCjDXd@fJpJtBhBv@d@vJhFpBaL}AGfA}Av@oCfA{GbEaUjBsKjAoGp@cHl@qH\\aDHw@LiBPcA`@uFDeBGeDWgCe@gD{CkPgBsFq@iAwo@qdAwA_BcD{B_@_AlAiBBGkMm[kKtOgD`GeAjD_FpFwAKYAQ?}A?iBXuAj@sDhBuQdYcGjJkI`NrFa]@?CMEy@DiATqAf@uFXoAFg@?eAEe@Mc@M_@Ke@CY@UAMG?CKXe@@WUkA?OZi@Be@C}CQID}ALObBcAn@c@bAaAE_@H{DV}FD_@p@gDTw@e@LcBj@sEzDaG{LoEt@eATg@v@g@x@YFcAHaAYkBGaE^Wm@Qe@]iAWsAm@}B}@kDEQCWE{AkEe@cAIe@nAsB?y@YJiARi@l@iA|@}ASsGMaE{DcGaAcBYo@L_@zDcKvFcN|@sC~@sBrMc]`@y@r@oBNk@dCqGvG}PlFeNhj@mwAHkFLy@KmAmC{UZa@oCwXMoAgCiWx@_A\\iALg@Ai@s@aDtCeDr@iALoAOw@UIo@a@Cu@?gABaEE]DuK@}ZgKKsHW{EDyFUuLY}QWmIjFoIcFsBaH|@me@j@qj@sGvHwBuViL{e@i@kPfHiGmPkf@q~@wNKpj@aHvGgEpd@Ub@KMOLm@~DOnA`@ZaCrMG\\y@jE{@dEu@}@mAzHHjAw@~AQlAaEgCuBc@sACeJxA}J|JcLrt@bLfMGlhAl@xMh@jMbC`d@jIlx@aI|C}LzSzAlPR`MlGzXEhJjhBlb@hBDnOhBzEgJxMzL~HlJbFxEZZTXLJ[z@{GrRqE`LeL`YBV_Mv[}@zBuArDg@pAWo@q@wA_@O_@E]?[J[R[^Yp@Kn@EZCh@KtHAlBGpB_@lAyYbu@Ul@w@rBa@dAyCjIMOO`@JNcOx`@CF]v@y@hBQ^gHhRe@~@c@d@m@R}HpAoBZ{@HgAEcCuBcB_BKIKGeCeCSKiAeAgAoBsCeD_GuF_@EgFeEy@c@iAm@QNeA{@@e@[YeBaAIC_@Uy@]OO]UEWu@YoIsFq@uAe@QwAy@gI}EiN{EeL_ByLQoIj@oJ`CgJpDej@`OaEhBlCrj@[bMbAfJ|A|JfE~JjGdNjGdNjCjGx[|~@uBzFWvAj@fEnBrDbCu@xAr@dA`BhCcCjCaE`@WzCfH@hFy@@uXfh@Bpa@DdDvAnBDZ@R@Jb@nD{CrDeCzCV|Ac@t@xGnT}LlPgKfNjVr{@|Nvi@dApCrA`C|A`CrArApJpH{BlRqBfNgEtTxIHNYL_@Tc@V_@X]^]`@a@V[^e@^k@Vc@Xg@Xg@Va@NYPURSRSXUb@_@\\[|BmDdBoCNWNYL]La@d@wAb@oAXy@Xu@Rg@Tg@`@o@j@{@rEyGjAoBb@q@\\e@^e@VYbBcBl@g@XSPKHG^QXMTQVSPUNWN[J_@Je@LcAN{@Jo@J_@J]N]PWPOPKfB_ANILMJMHSH[F_@NyAHm@Je@N_@RWVMVK^G\\KZOZQZUp@m@@A|BmCzEaGb@c@\\OZE^@VJTJ`Ap@XT\\PZNb@N^H^L\\N^Rf@^\\Vd@T`@L^J^D\\@^C`@I\\Q~MiL^[`@]zF_G`@a@`@g@`@o@Zi@Zs@v@_BXi@\\g@b@i@`ByA\\[LQJUH]Dg@Di@@g@@g@?a@@a@@e@Bg@Dm@hDuAxPbRxc@z]hLldAlQn^~C~Ij@vAp@`@|BNUdCUjESxHA`CHz@rAR"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "file:///private/tmp/claude-501/minsk/minsk_districts.geojson",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors (via Geofabrik Belarus extract)"
+  }
+}
