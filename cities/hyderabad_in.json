@@ -1,0 +1,92 @@
+{
+  "name": "Hyderabad",
+  "countryCode": "IN",
+  "centerLat": 17.426235,
+  "centerLng": 78.430549,
+  "radiusKm": 24.02,
+  "regions": [
+    {
+      "name": "Greater Hyderabad Municipal Corporation Central Zone",
+      "osmId": 7868416,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.3598956,
+        "maxLat": 17.4621506,
+        "minLng": 78.3753491,
+        "maxLng": 78.5294419
+      },
+      "encodedPolyline": "o~_iBmnq}Mk@vKIpAkDn[BnI|KzQFhz@YbAu@fCg@`BqGvTeB`GyAbFwMre@oDu@eFeMqJYgAIyGyHkHzCyAc@s@kCsEeA_NbAp@{Iqg@{FfHaDrJd@hLjBxQqJmBwPiMuKcJoT}A]sKaC}@bEtBvCMjEkDEeE_GoKvFmDO_Mg@wNo@_@?s@CKAvArF@DyFa@LkA}F~@qIbGmB~FaB~CkD~@PqQcJkBFcCgDkAD{D?]@u@@y@@y@HwG{ACcIOcBEtAsBpFiIkB{@{HkDOsCcJjD{MlB}ByCTkBiFtA_a@t@aIfKuA~JoJ}CwEnJ_D?GyBUuJE{AkBmNgCgAs@YyGhGcFkCiNjG@f@HrImDcAqHuAj@cAjBgDT{EN_D{@w@mBkBaF}KAEuHuZs@C{EQkFjDeBhAq@u@sAwAgLdC]`AeAxCiEcAoBu@eBs@wO{PeMcNnEsWJkAXaDfAeJG}COyHmBqYfOeAPCtFo@L}Fd@YBeBcECwHe@e@pGgCDwEJLwFmJwAwAqDoGYcAoAwAgBiCb@iHNa@yPcC|@j@mPrAin@jAo_@zGmM~JeC|JgB|MaAjPoAtBEp@A~MoBjHgANs@dQwFdAP~BiB~@Pd@eAzIwGtFoK@[fAeSrD}HvC{CxFaGrS`CwTcLcFuDaBeE}AoMa@sDPuCl@qChBmDtC}CHFrIfHtFuAdKrDbOEN{HuDiK{BkGWs@eCb@}DqGeA?yFzCcEyAb@yDBQdD{RPaAbGuNxFgEpFk@|B\\~@l@~DdCKz@MhCtDpA^xBtBIBiBhA_Bv@p@lA^XQqCsAd@cA\\I^gAAaBh@ICYmBa@vAeNjDmT|@{ExAyFjEgFv@eB`AmCrCoMpAcG\\gCF[aAmExBqJXmAVmARy@GY_@_C{CmEmAyCVsDh@a@~@g@pNsBv@[nIu@`BNlAeEv@gCxA_BpC}AdFkBlBm@bAuBjATRoCr@cF?{@fAeE[u@XcBvAEdLhEnH|GbEpKBUHo@`@aBHy@IgDc@{DtKa_@^oAhHeBvBg@bDf@bKlDtF}PzGcDsDiG]cFmBiBjAk@~C}AjCoAn@[dApEne@vDr@FhAJbJlBvO{@bCwElCNfGu@`\\`SqEhTaG|R{DpFoAjAaHtGqEjEcT|U?vXAbA]bTnErPtFvH|Q~VlDzQvAxVgG@b@`WvJnOdJpChB{@zCjA|B|AhE}Fp@}@xArBRf@dAvC|AvDdBhHv@xCj@tCxArJzBlSjBxMb@xC~Ehe@nDjUDVzEtEdEjClIfDbGzB|EdF`EfIj@hHl@fIi^pZc^p[uF|E_NjMk@pAkChGcA|EjAzGjA|D|IxZlAhGjBbg@`@dL_A`^uBzK"
+    },
+    {
+      "name": "Greater Hyderabad Municipal Corporation East Zone",
+      "osmId": 7867620,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.3023576,
+        "maxLat": 17.507949,
+        "minLng": 78.506949,
+        "maxLng": 78.6223912
+      },
+      "encodedPolyline": "ykziBcrm~M|AcOtHVX@nENh@BTPdCvAnClA\\`@|EbGnCfDnBdC`EhDvF|E@Lz@dOuCpBaEtChB`@~HzA|AZXp@z@@~B`DuGdGfExH~ARa@rAaExMeDGkHONRxCjE}@hHxIzAzGLpBnJfFsH|EmExDmExD}EjFcARmDPmCpAuAdEsAvAg@hFeMnKcSjDeHrEkJpA{Dx@gC`EgMzIhB|Cs@t@r@dAN`BcEdIgBrA[tH}FhG{MDoBFgC]oGFk@bM_Uj@eAfEdDhAv@tA~@zH_A~IgAJtC|BjBjJ~BNFJ@\\HbPxBv]fEbFf@t[nE`D|HbCbGpMiAtQ|[hO}YFK?A@tGRb@tEdLyE~OrFxEy@tFhPXfAB@FjB~IjEA|@ApG_A_A|FtMhCfDn@bEx@HrB@r@DBrKjJBBxE~EsNnOhKnM_AhGwApGpJ`@tADfCvAtENjHcLxW_Dz]xGlEXbe@bDtPjAvQlOdB~Ff@`BjAk@~C}AjCoAn@[dApEne@vDr@FhAJbJlBvO{@bCwElCNfGu@`\\`SbD`An@HnDb@j[`FCyF`Gp@ClGvF^fBL`AqEpFiCtRhGRbF`F{CbDgEzB{@bAu@lHyQDIhEuOxDu@`PxAdKwC]dCvD~ExFzDGbBkPqAeO~Gh@pGnp@bAhEaBlBPrCiETfm@{F~@}GnKgJMwK}AuBtNIj@tAZbGpAgCvIaDzKdF^pEZHjFbBAbWdE~AhBRRrCe]`AmTPaC@SFYbDyMb@iB|CaEbKoIyAlHaChLhHxA~F_JWkHAQgAmIeMsFdHuYfAsJpC}VeAyMD?~AMdAUfJ{E~ApPpHcCr@C~M[r@pEdRkCj@pELdAxBp@jCHpCFw@aJgAOkDg@a@qF`KiBlIsOfC{N|]yk@~NgSbJ{_@vKg@XA~@yb@PiIRQpa@c_@`@_@rJo\\i@_lBiIiu@oMmV[k@EQ_Lql@wOgXGoU_YaCoYfHQtBOpBwT]sDfMeb@c@iUsQeMsDsQiIA?@BnAbFcNdDgPn]aQz^^np@hC~KjClLwIflAgDB{PJiWBiNzBuSd`@oG~BiX`K}BkBoB{QiItFuFeAg@uEwHwBgImN[g@kRsFKZ_KzY{W\\uCeS_DoTmJ}@sFhAiFjNiHxR}c@nIiY_DgZgDoA|HaClOyBxEsD|Hw@bBe@bAc@~@kPz]aJpJk\\nAmH|BaBbAoCfBuMrEgDhA_ItFoFrBwDeRwB_FO]oBqGt@cHTwBsB_VkNaON{GkLgEID}DxBi@XkHkGoJgI{UmTg_@udAUgrAiSiLUOgQe@wPRhEc@sE??uEaWOsCqEfA{FLq@sKuFgLwAuBfC}AjBeAMiHbAsEcF_TQmJ{DoMmFoKf@wJdqAjLdGwKf\\_@fAXdBvErYqCjJ}DrMqObG{Rg@eKpEiFyCuTN_PUuP]oEzBiOvHgH`NSdG}Cv@iBvLkCnHkHjD?|I{HfA_DfFnDhShGv@L~IpDvAv@hLwC`PaHPmBdGmBvZe@xHzB~L"
+    },
+    {
+      "name": "Greater Hyderabad Municipal Corporation North Zone",
+      "osmId": 7868233,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.4716446,
+        "maxLat": 17.5608321,
+        "minLng": 78.393619,
+        "maxLng": 78.5221259
+      },
+      "encodedPolyline": "ou{iBubq}MmT~m@NxJ@l@wLjChBb@mCPc@tFaPa@mNxGgGt@eg@zB}o@fCfBwImAsB{Rs\\qF_GiAkAgBaUIwNwZ{_@a^yGcWyGIQeIwQHiBVeFrOk^jAaAfI}GjA{D~J_]d@_b@BiAjEqNnNaDn\\yBnaAoCxM_kAuBcO~CiGxH~IXXzE}Nf@gXt@iDxLwj@dJib@@ia@{i@w\\AkK?_@vNkF`GwBlBs@Yid@EsHgFoCkDkBem@y[kEA{XGwYGxL{m@_D}HjCkFzBmEbEjBbAmCbARxFzItIeFbEb@NmKpECg@gLj@oCtCa@zx@zb@yBfPfKf@dGg@zCg@hW_GbJyBjJyAbECpJj@dO~ClNjCpYiBpGtD~FFxKjBbGbAf[~BtJQcA`SrC^r@JzEnAcA`GSnA`EvGvBnDzGxA~HbBpCnLtHpJ~FmKFFxJ~KL~CdA~CvFdAc@b@hBQtF`@fA}C~Ns@tKoIPvAqFbMgExJ{@FsBfAy@YyKwDcD}AcEQoFEcBA{BAqDI|@dFgCTaDp@e@HYFzBjCrNtDlBf@N|@BVtBrNuCdOyC?gBbCiDxEa@|@g@x@mC`A{@Z_ArA_EBuGD{@???qA@HQbBqDu@uAqFaCpDoI|CwLqVEkMkEiCeBsK_DyKeBoDt@eN~@sDVoGb@_MvCl@hLzV|p@jc@|O~@^I`@_Gv[JnS@zA@ZfOnNPPpAx@jTfNfFjHdGtItErG|D\\f@DnBvD`EvHHNM|FAXpEtAmChb@L~@BVVVvAnAmCvDe@n@?lC@zGnBrBDFlIvAB`AyM`t@aMhI_Zte@oFcAEjJgCxAeFs@eEe@iDkKlBgH{@iGiImCgJaDiHdWd@zB`AnEq@t@kH?oDxBkEhZeAbJuE|D{ArLoRU_DnCkFvWgGF}@Uu@QkMeD?f@q@jRO|DSrF"
+    },
+    {
+      "name": "Greater Hyderabad Municipal Corporation North Zone (2)",
+      "osmId": 7868233,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.410562,
+        "maxLat": 17.4945448,
+        "minLng": 78.4516447,
+        "maxLng": 78.5658743
+      },
+      "encodedPolyline": "mcsiBubi~Mef@jLyCpBxAlINrD{BxDcEjGqE~@uIqAcEmBsCyCgGgCgFSb@}GqA{AyELqC_DaMyMeIyL}FiI}DdCiFa@fFsH|EmExDmExD}EjFcARmDPmCpAuAdEsAvAg@hFeMnKcSjDeHrEkJpA{Dx@gC`EgMzIhB|Cs@t@r@dAN`BcEdIgBrA[tH}FhG{MDoBFgC]oGFk@bM_Uj@eAfEdDhAv@tA~@zH_A~IgAJtC|BjBjJ~BNFJ@\\HbPxBv]fEbFf@t[nE`D|HbCbGpMiAtQ|[hO}YFK?A@tGRb@tEdLyE~OrFxEy@tFhPXfAB@FjB~IjEA|@ApG_A_A|FtMhCfDn@bEx@HrB@r@DBrKjJBBxE~EsNnOhKnM_AhGwApG}@fCkAdCuBrC|D|ErI|J}E|PaDnDdIzNtIiN`@o@jH`@TqBzHpEUvEqFdMrG`Az[rFnXpEYbBZt@gAdE?z@s@bFSnCkAUcAtBmBl@eFjBqC|AyA~Aw@fCmAdEaBOoIt@w@ZqNrB_Af@i@`@WrDlAxCzClE^~BFXSx@WlAYlAyBpJ`AlEGZ]fCqAbGsCnMaAlCw@dBkEfFyAxF}@zEkDlTwAdNlB`@BXi@H@`B_@fA]He@bApCrAYPmA_@w@q@iA~AChBuBH_@yBuDqALiCJ{@_EeC_Am@}B]qFj@yFfEcGtNQ`AeDzRCPc@xDbExAxF{CdA?|DpGdCc@Vr@zBjGtDhKOzHcODeKsDuFtAsIgHIGuC|CiBlDm@pCQtC`@rD|AnM`BdEbFtDvTbLsSaCyF`GwCzCsD|HgAdSAZuFnK{IvGe@dA_AQ_ChBeAQeQvFOr@kHfAeI{DgCgAc@s@U_AuAgAsIg@{D?cEr@gCPuCsB{CmC}ECeGnAuCG_@g@a@]SKfAiDpAmEtGsOx@_FtM}VXk@dC{EzS}LlBPnVkB?Cr@uGzKaCdAU?iKzA{Mj@aN?Ur@q}AF}MHmSb@_RaBPaQiAo@w@_HoDyGsG_JaFjAeH`OoJ|A{Kr@aG|@_FpGe^yAo@xAqFsFgAjAcIqBs@aAYkF}@kBs@HeAq@wBkCkA_K}BoIiAwHiA_HmK}NeOyGgMiIgEkACyPbDg\\hF"
+    },
+    {
+      "name": "Greater Hyderabad Municipal Corporation South Zone",
+      "osmId": 7867623,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.2916377,
+        "maxLat": 17.3860266,
+        "minLng": 78.3751559,
+        "maxLng": 78.5308427
+      },
+      "encodedPolyline": "elzhBmkd~Mn@lA|EnJpKeDpVjBjCmI|C{A|EM~CKxx@}DpHgH~SOxKnCApDaKdBFpEHxGbCW`J}@jNwANtLFrSt@dPyB|HiJlEgIt@fBwJ_Qd@~DtQxDMSpELx@|BfOlBC|FItFN~Irg@cCRcE`W_@~B~NhIvHfQfB~DnFzLcH`BcEvG{CdDoMhCsNvFpCbApCpDrC|Ji@|H|d@_DmAzP|\\~@pJjOa@h@uErG_BxBW`@YfPhKn@dGfMt@|AGxA{Bpo@mFbAJ|QLvUfUpCtk@tPkObk@ik@bxAR`FfCfo@v@pRyQ]kDpEev@~xBeGHc_@h@sIJkRgAeV|CK{Eu@e]Au@SeAe@gCoDYaAoU}G_QT{Z@eIkEuHWEo`A}M_Ek@E?mFkA{By@wHqCgA?qCKcDKiBY[vAiA~DsBrHmCQiAE}@s@sD?aFA{CwMsLkBcAm@}CgPzCuP_DoJo@Ly@yAq@TwAiCeHU_BnBwAbBsFvGaRVgJs@sYkNtB{K~@a^a@eLkBcg@mAiG}IyZkA}DkA{GbA}EjCiGj@qA~MkMtF}Eb^q[h^qZm@gIk@iHaEgI}EeFcG{BmIgDeEkC{EuEEWoDkU_Fie@c@yCkByM{BmSyAsJk@uCw@yCeBiH}AwDeAwCSg@yAsBq@|@iE|F}B}A{CkAiBz@eJqCwJoOc@aWfGAwAyVmD{Q}Q_WuFwHoEsP\\cT@cA?wXbT}UpEkE`HuGnAkAzDqF`G}RpEiTbD`An@HnDb@j[`FCyF`Gp@ClGvF^fBL`AqEpFiCtRhGRbF`F{CbDgEzB{@bAu@lHyQDIhEuOxDu@`PxAdKwC]dCvD~ExFzDGbBkPqAeO~Gh@pGnp@bAhEaBlBPrCiETfm@{F~@}GnKgJMwK}AuBtNIj@tAZbGpAgCvIaDzKdF^pEZHjFbBAbWdE~AhBRR"
+    },
+    {
+      "name": "Greater Hyderabad Municipal Corporation West Zone",
+      "osmId": 16460488,
+      "adminLevel": 9,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 17.4095525,
+        "maxLat": 17.5541499,
+        "minLng": 78.2387067,
+        "maxLng": 78.4649617
+      },
+      "encodedPolyline": "_jziBkpo}MaFuFo_@mJgAoCEsDaAiJPwHRsFN}Dp@kR?g@jMdDt@P|@TfGGjFwW~CoCnRTzAsLtE}DdAcJjEiZnDyBjH?p@u@aAoEe@{BhHeWfJ`DhIlCz@hGmBfHhDjKdEd@dFr@fCyADkJnFbA~Yue@`MiIxMat@CaAmIwAEGoBsBA{G?mCd@o@lCwDwAoAWWCWM_AlCib@qEuA@YL}FIOaEwHoBwDg@E}D]KgCy@cTpZiB|H`KdFs@pUs@hrA`@m@hC\\RjX|Ot@p@uGrOqAlEgAhDRJ`@\\^f@tCFdGoA|EBzClCtCrBfCQbEs@zD?rIf@tAfAT~@b@r@fCfAdIzD_NnBq@@uBDkPnA}M`A}JfB_KdC{GlMkAn_@sAhn@k@lPbC}@`@xPhHOhCc@vAfBbAnAnGXvApDlJvAMvFvEKfCEd@qGvHd@bEBCdBe@XM|FuFn@QBgOdAlBpYNxHF|CgAdJY`DKjAoErWdMbNvOzPdBr@nBt@hEbAdAyC\\aAfLeCrAvAp@t@dBiAjFkDzEPr@BtHtZ@D`F|KlBjBz@v@O~CUzEkBfDk@bApHtAlDbAIsIAg@hNkGbFjCxGiGr@XfCfAjBlNDzATtJFxB~C?vEoJnJ|CtA_K`IgK~`@u@hFuAUjB|BxCzMmBbJkDNrCzHjDjBz@qFhIuArBbBDbINzABIvGAx@Ax@At@?\\EzDfDjAGbCKxDIpFmG`AcOq@wClHe@x@gSf^dA~PLlBtHpCt@d@@@@@|DbCcAp@FTw@jAi@FWn@hARAfA{@Rk@NCdAfAjArRvKDBABiAlJw@pGiDlD|BtJlD\\?XaJn^kN|j@hQjJe@bJdFrIqAzCqKdWdQjHsHvQAByFbNwCdHYvn@sQ|cAyuA~jC``@`]~Tng@eVxXiRfQePfO_A|@_j@nFsEQ_kAifAiKa@aByUui@_Q}|@_h@uUhH_H_PgA|FqAbFo`@r@eAyWk@_O_@kJmBwc@u@mQCuBuAk@{GuAcJmAiKeBgE_B}B{@aAiDoDxC?`AaKAsI|EsDnBqD|AwD~AeQtHwIhSpNzGM`AaE`Ln@^sAbDwJ~VyM_GoDr]xHhEd@vEuRbJsD|LpC|EzNuEr`@kJMhc@oYLsErScWqEgFJuEkAiCzDsB~ChApGuSbLaKlf@aO~MkBzKfUlLx@fFbJbC_@j@z]pF`FO_@d@~CEjBxAdBQlJz@jDpUoVbb@{CN{CgFeI`CmFmAkEjDNjDyAFGeEaA?}EwBeHnFeHwFaLhCaNa@cC~MxA`RsDbAg@|AbEvBcEj@lHXqB|EgSwFqBfFzBxGg`@xQ{e@lBnKsp@aBqNgJW`Ck@aO}EQaCqCFoHyCaOfBmF~MiLi@WuHtH{DxAiJiBqVwKcHq@eTzC}AbOdB|GsKsCwFgIqCmG_NaCi]yL}Z?}IrD_BpKuEz@JxQ|BcDz@b|@k@zFyMbGiNJU`NYvAgAhA_AnPqMpKbEzEhBzPmAbF[LAjDB`A}A~HiB|B?`@cFpJoD`ATpGdBpIqExEkQp@}b@bMcJn@e@q@eZhNkCv@iH@EqAcr@tLw@x@yYq@qI{DViGWCaCG_EdBaT`A_B~LwSuD_J{CoHeVWqBAkDzBcAeEgTiKwEfSe@{P_Eq@j@q[mFAmI{BL}S?YBwCNuVuA}Ce@eArEe`@lCoUiAgBs@eA_EkGtEiKjBuCxBeDHkOCe@[gFOgC`@CxLo@tK?PwFlIsEja@E|AoKjAuFuDm@[GN{McKQhHk]xAiH_ByBqBmCiRwF?kD?_A?IhRaUTiS@W@SdDkPvBuE"
+    }
+  ],
+  "source": {
+    "method": "osm",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  }
+}
