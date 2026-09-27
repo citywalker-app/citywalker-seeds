@@ -1,6 +1,7 @@
 {
   "name": "Wrocław",
   "countryCode": "PL",
+  "aliases": ["Wroclaw"],
   "centerLat": 51.126365,
   "centerLng": 16.99178,
   "radiusKm": 13.1,

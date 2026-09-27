@@ -1,6 +1,7 @@
 {
   "name": "Mérida",
   "countryCode": "MX",
+  "aliases": ["Merida"],
   "centerLat": 21.021287,
   "centerLng": -89.617951,
   "radiusKm": 16.9,

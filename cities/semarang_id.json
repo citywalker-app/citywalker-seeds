@@ -1,6 +1,7 @@
 {
   "name": "Semarang",
   "countryCode": "ID",
+  "aliases": ["Kota Semarang"],
   "centerLat": -7.021325,
   "centerLng": 110.388085,
   "radiusKm": 15.26,

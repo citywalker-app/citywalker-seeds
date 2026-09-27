@@ -1,6 +1,7 @@
 {
   "name": "Córdoba",
   "countryCode": "AR",
+  "aliases": ["Cordoba"],
   "centerLat": -31.416795,
   "centerLng": -64.18367,
   "radiusKm": 16.99,

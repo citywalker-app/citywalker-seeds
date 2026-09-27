@@ -1,6 +1,7 @@
 {
   "name": "Hanoi",
   "countryCode": "VN",
+  "aliases": ["Thành phố Hà Nội", "Thanh pho Ha Noi", "Hà Nội", "Ha Noi"],
   "centerLat": 21.010328,
   "centerLng": 105.824962,
   "radiusKm": 14.31,

@@ -1,6 +1,7 @@
 {
   "name": "Yaizu",
   "countryCode": "JP",
+  "aliases": ["焼津市"],
   "centerLat": 34.84494,
   "centerLng": 138.292775,
   "radiusKm": 9.17,

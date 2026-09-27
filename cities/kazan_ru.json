@@ -1,6 +1,7 @@
 {
   "name": "Kazan",
   "countryCode": "RU",
+  "aliases": ["Казань"],
   "centerLat": 55.76052,
   "centerLng": 49.100915,
   "radiusKm": 19.84,

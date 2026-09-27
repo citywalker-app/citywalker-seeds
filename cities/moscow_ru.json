@@ -1,6 +1,7 @@
 {
   "name": "Moscow",
   "countryCode": "RU",
+  "aliases": ["Москва", "Moskva"],
   "centerLat": 55.737228,
   "centerLng": 37.637673,
   "radiusKm": 30.63,

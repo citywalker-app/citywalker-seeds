@@ -1,6 +1,7 @@
 {
   "name": "Tashkent",
   "countryCode": "UZ",
+  "aliases": ["Toshkent"],
   "centerLat": 41.256385,
   "centerLng": 69.388945,
   "radiusKm": 28.53,

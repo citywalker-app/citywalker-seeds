@@ -1,6 +1,7 @@
 {
   "name": "Hong Kong",
   "countryCode": "HK",
+  "aliases": ["香港"],
   "centerLat": 22.352525,
   "centerLng": 114.15985,
   "radiusKm": 41.93,

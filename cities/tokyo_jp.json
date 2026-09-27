@@ -1,6 +1,7 @@
 {
   "name": "Tokyo",
   "countryCode": "JP",
+  "aliases": ["東京都", "東京"],
   "regions": [
     {
       "name": "Chiyoda",

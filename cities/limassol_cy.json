@@ -1,6 +1,7 @@
 {
   "name": "Limassol",
   "countryCode": "CY",
+  "aliases": ["Επαρχία Λεμεσού", "Limassol District"],
   "centerLat": 34.801735,
   "centerLng": 32.956465,
   "radiusKm": 32.43,

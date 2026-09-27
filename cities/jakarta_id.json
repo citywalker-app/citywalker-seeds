@@ -1,6 +1,7 @@
 {
   "name": "Jakarta",
   "countryCode": "ID",
+  "aliases": ["Daerah Khusus Ibukota Jakarta", "Special Capital Region of Jakarta", "DKI Jakarta"],
   "centerLat": -6.230687,
   "centerLng": 106.829598,
   "radiusKm": 21.98,

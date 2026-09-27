@@ -1,6 +1,7 @@
 {
   "name": "The Hague",
   "countryCode": "NL",
+  "aliases": ["Den Haag"],
   "regions": [
     {
       "name": "Centrum",

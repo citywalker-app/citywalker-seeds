@@ -1,6 +1,7 @@
 {
   "name": "Kyoto",
   "countryCode": "JP",
+  "aliases": ["京都市", "京都"],
   "centerLat": 35.09807,
   "centerLng": 135.718725,
   "radiusKm": 25.77,

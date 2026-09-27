@@ -1,6 +1,7 @@
 {
   "name": "Palma de Mallorca",
   "countryCode": "ES",
+  "aliases": ["Palma"],
   "centerLat": 39.58103,
   "centerLng": 2.705458,
   "radiusKm": 12.95,

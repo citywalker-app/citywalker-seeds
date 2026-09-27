@@ -1,6 +1,7 @@
 {
   "name": "Zurich",
   "countryCode": "CH",
+  "aliases": ["Zürich"],
   "centerLat": 47.37744,
   "centerLng": 8.536735,
   "radiusKm": 7.15,

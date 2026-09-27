@@ -1,6 +1,7 @@
 {
   "name": "Kurobe",
   "countryCode": "JP",
+  "aliases": ["黒部市"],
   "centerLat": 36.772027,
   "centerLng": 137.585169,
   "radiusKm": 21.92,

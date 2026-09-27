@@ -1,6 +1,7 @@
 {
   "name": "Antwerpen",
   "countryCode": "BE",
+  "aliases": ["Antwerp"],
   "regions": [
     {
       "name": "Berchem",

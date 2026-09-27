@@ -1,6 +1,7 @@
 {
   "name": "Gdańsk",
   "countryCode": "PL",
+  "aliases": ["Gdansk"],
   "centerLat": 54.36107,
   "centerLng": 18.68987,
   "radiusKm": 18.59,

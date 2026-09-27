@@ -1,5 +1,5 @@
 {
-  "version": 171,
+  "version": 172,
   "cities": [
     {
       "name": "Aigaleo",
@@ -592,6 +592,9 @@
     {
       "name": "Antwerpen",
       "countryCode": "BE",
+      "aliases": [
+        "Antwerp"
+      ],
       "regions": [
         {
           "name": "Berchem",
@@ -705,6 +708,10 @@
     {
       "name": "Aomori-shi",
       "countryCode": "JP",
+      "aliases": [
+        "青森市",
+        "Aomori"
+      ],
       "centerLat": 40.73156,
       "centerLng": 140.750615,
       "radiusKm": 21.07,
@@ -1999,6 +2006,10 @@
     {
       "name": "Beijing",
       "countryCode": "CN",
+      "aliases": [
+        "北京市",
+        "北京"
+      ],
       "centerLat": 39.960415,
       "centerLng": 116.340907,
       "radiusKm": 29.43,
@@ -2294,6 +2305,10 @@
     {
       "name": "Belgrade",
       "countryCode": "RS",
+      "aliases": [
+        "Београд",
+        "Beograd"
+      ],
       "centerLat": 44.83613,
       "centerLng": 20.38625,
       "radiusKm": 30.36,
@@ -2915,6 +2930,10 @@
     {
       "name": "Bishkek",
       "countryCode": "KG",
+      "aliases": [
+        "Бишкек шаары",
+        "Bishkek City"
+      ],
       "centerLat": 42.862165,
       "centerLng": 74.58789,
       "radiusKm": 12.82,
@@ -2976,6 +2995,10 @@
     {
       "name": "Bogota",
       "countryCode": "CO",
+      "aliases": [
+        "Bogotá ciudad",
+        "Bogota ciudad"
+      ],
       "centerLat": 4.55228,
       "centerLng": -74.10495,
       "radiusKm": 33.55,
@@ -3926,6 +3949,12 @@
     {
       "name": "Bruxelles",
       "countryCode": "BE",
+      "aliases": [
+        "Bruxelles - Brussel",
+        "Brussels",
+        "Bruxelles-Brussel",
+        "Brussel"
+      ],
       "centerLat": 50.8388,
       "centerLng": 4.363,
       "radiusKm": 13.02,
@@ -4589,6 +4618,9 @@
     {
       "name": "Cairo",
       "countryCode": "EG",
+      "aliases": [
+        "القاهرة"
+      ],
       "centerLat": 29.96564,
       "centerLng": 31.56753,
       "radiusKm": 40.65,
@@ -6385,6 +6417,9 @@
     {
       "name": "Córdoba",
       "countryCode": "AR",
+      "aliases": [
+        "Cordoba"
+      ],
       "centerLat": -31.416795,
       "centerLng": -64.18367,
       "radiusKm": 16.99,
@@ -6819,6 +6854,11 @@
     {
       "name": "Da Nang",
       "countryCode": "VN",
+      "aliases": [
+        "Thành phố Đà Nẵng",
+        "Thanh pho Da Nang",
+        "Đà Nẵng"
+      ],
       "centerLat": 16.079079,
       "centerLng": 108.07859,
       "radiusKm": 28.12,
@@ -7032,6 +7072,9 @@
     {
       "name": "Dhaka",
       "countryCode": "BD",
+      "aliases": [
+        "ঢাকা"
+      ],
       "centerLat": 23.784585,
       "centerLng": 90.421265,
       "radiusKm": 13.55,
@@ -7236,6 +7279,9 @@
     {
       "name": "Dnipro",
       "countryCode": "UA",
+      "aliases": [
+        "Дніпро"
+      ],
       "centerLat": 48.46612,
       "centerLng": 34.995575,
       "radiusKm": 18.55,
@@ -7679,6 +7725,9 @@
     {
       "name": "Edinburgh",
       "countryCode": "GB",
+      "aliases": [
+        "City of Edinburgh"
+      ],
       "centerLat": 55.905235,
       "centerLng": -3.247545,
       "radiusKm": 13.22,
@@ -8005,6 +8054,9 @@
     {
       "name": "Florianópolis",
       "countryCode": "BR",
+      "aliases": [
+        "Florianopolis"
+      ],
       "centerLat": -27.603474,
       "centerLng": -48.490755,
       "radiusKm": 25.1,
@@ -8248,6 +8300,9 @@
     {
       "name": "Frankfurt am Main",
       "countryCode": "DE",
+      "aliases": [
+        "Frankfurt"
+      ],
       "centerLat": 50.12124765,
       "centerLng": 8.6365827,
       "radiusKm": 14.9,
@@ -8465,6 +8520,9 @@
     {
       "name": "Fukuroi",
       "countryCode": "JP",
+      "aliases": [
+        "袋井市"
+      ],
       "centerLat": 34.743778,
       "centerLng": 137.929799,
       "radiusKm": 10.39,
@@ -8669,6 +8727,9 @@
     {
       "name": "Gdańsk",
       "countryCode": "PL",
+      "aliases": [
+        "Gdansk"
+      ],
       "centerLat": 54.36107,
       "centerLng": 18.68987,
       "radiusKm": 18.59,
@@ -10152,6 +10213,12 @@
     {
       "name": "Hanoi",
       "countryCode": "VN",
+      "aliases": [
+        "Thành phố Hà Nội",
+        "Thanh pho Ha Noi",
+        "Hà Nội",
+        "Ha Noi"
+      ],
       "centerLat": 21.010328,
       "centerLng": 105.824962,
       "radiusKm": 14.31,
@@ -10534,6 +10601,9 @@
     {
       "name": "Hong Kong",
       "countryCode": "HK",
+      "aliases": [
+        "香港"
+      ],
       "centerLat": 22.352525,
       "centerLng": 114.15985,
       "radiusKm": 41.93,
@@ -10864,6 +10934,9 @@
     {
       "name": "Ibirubá",
       "countryCode": "BR",
+      "aliases": [
+        "Ibiruba"
+      ],
       "centerLat": -28.63581,
       "centerLng": -53.096975,
       "radiusKm": 2.78,
@@ -11220,6 +11293,9 @@
     {
       "name": "Istanbul",
       "countryCode": "TR",
+      "aliases": [
+        "İstanbul"
+      ],
       "centerLat": 41.193,
       "centerLng": 28.964825,
       "radiusKm": 84.68,
@@ -11736,6 +11812,9 @@
     {
       "name": "İzmit",
       "countryCode": "TR",
+      "aliases": [
+        "Izmit"
+      ],
       "centerLat": 40.7698,
       "centerLng": 29.94511,
       "radiusKm": 8.57,
@@ -11875,6 +11954,11 @@
     {
       "name": "Jakarta",
       "countryCode": "ID",
+      "aliases": [
+        "Daerah Khusus Ibukota Jakarta",
+        "Special Capital Region of Jakarta",
+        "DKI Jakarta"
+      ],
       "centerLat": -6.230687,
       "centerLng": 106.829598,
       "radiusKm": 21.98,
@@ -12140,6 +12224,9 @@
     {
       "name": "Jyväskylä",
       "countryCode": "FI",
+      "aliases": [
+        "Jyvaskyla"
+      ],
       "centerLat": 62.251705,
       "centerLng": 25.668385,
       "radiusKm": 25.0,
@@ -12318,6 +12405,9 @@
     {
       "name": "Kazan",
       "countryCode": "RU",
+      "aliases": [
+        "Казань"
+      ],
       "centerLat": 55.76052,
       "centerLng": 49.100915,
       "radiusKm": 19.84,
@@ -12418,6 +12508,9 @@
     {
       "name": "Kraków",
       "countryCode": "PL",
+      "aliases": [
+        "Krakow"
+      ],
       "centerLat": 50.0469,
       "centerLng": 20.004795,
       "radiusKm": 16.45,
@@ -12813,6 +12906,9 @@
     {
       "name": "Kurobe",
       "countryCode": "JP",
+      "aliases": [
+        "黒部市"
+      ],
       "centerLat": 36.772027,
       "centerLng": 137.585169,
       "radiusKm": 21.92,
@@ -13160,6 +13256,10 @@
     {
       "name": "Kyoto",
       "countryCode": "JP",
+      "aliases": [
+        "京都市",
+        "京都"
+      ],
       "centerLat": 35.09807,
       "centerLng": 135.718725,
       "radiusKm": 25.77,
@@ -13742,6 +13842,9 @@
     {
       "name": "Lima",
       "countryCode": "PE",
+      "aliases": [
+        "Province of Lima"
+      ],
       "centerLat": -12.046185,
       "centerLng": -76.910015,
       "radiusKm": 55.4,
@@ -13855,6 +13958,10 @@
     {
       "name": "Limassol",
       "countryCode": "CY",
+      "aliases": [
+        "Επαρχία Λεμεσού",
+        "Limassol District"
+      ],
       "centerLat": 34.801735,
       "centerLng": 32.956465,
       "radiusKm": 32.43,
@@ -14888,6 +14995,10 @@
     {
       "name": "Malmö",
       "countryCode": "SE",
+      "aliases": [
+        "Malmö kommun",
+        "Malmo kommun"
+      ],
       "centerLat": 55.57204,
       "centerLng": 13.018585,
       "radiusKm": 10.24,
@@ -15321,6 +15432,9 @@
     {
       "name": "Mérida",
       "countryCode": "MX",
+      "aliases": [
+        "Merida"
+      ],
       "centerLat": 21.021287,
       "centerLng": -89.617951,
       "radiusKm": 16.9,
@@ -15525,6 +15639,10 @@
     {
       "name": "Mexico City",
       "countryCode": "MX",
+      "aliases": [
+        "Ciudad de México",
+        "Ciudad de Mexico"
+      ],
       "centerLat": 19.32074,
       "centerLng": -99.15261,
       "radiusKm": 32.9,
@@ -15871,6 +15989,10 @@
     {
       "name": "Minsk",
       "countryCode": "BY",
+      "aliases": [
+        "Мінск",
+        "Минск"
+      ],
       "centerLat": 53.882818,
       "centerLng": 27.611546,
       "radiusKm": 15.67,
@@ -16110,6 +16232,11 @@
     {
       "name": "Montréal",
       "countryCode": "CA",
+      "aliases": [
+        "Montréal (région administrative)",
+        "Montreal (region administrative)",
+        "Montreal (administrative region)"
+      ],
       "centerLat": 45.557435,
       "centerLng": -73.72423,
       "radiusKm": 25.28,
@@ -16366,6 +16493,10 @@
     {
       "name": "Moscow",
       "countryCode": "RU",
+      "aliases": [
+        "Москва",
+        "Moskva"
+      ],
       "centerLat": 55.737228,
       "centerLng": 37.637673,
       "radiusKm": 30.63,
@@ -16931,6 +17062,11 @@
     {
       "name": "Nanjing",
       "countryCode": "CN",
+      "aliases": [
+        "南京市",
+        "Nanjing City",
+        "南京"
+      ],
       "centerLat": 32.057355,
       "centerLng": 118.911935,
       "radiusKm": 35.89,
@@ -17730,6 +17866,10 @@
     {
       "name": "Osaka",
       "countryCode": "JP",
+      "aliases": [
+        "大阪市",
+        "大阪"
+      ],
       "centerLat": 34.6775,
       "centerLng": 135.454575,
       "radiusKm": 15.84,
@@ -18281,6 +18421,9 @@
     {
       "name": "Palma de Mallorca",
       "countryCode": "ES",
+      "aliases": [
+        "Palma"
+      ],
       "centerLat": 39.58103,
       "centerLng": 2.705458,
       "radiusKm": 12.95,
@@ -18927,6 +19070,9 @@
     {
       "name": "Poznań",
       "countryCode": "PL",
+      "aliases": [
+        "Poznan"
+      ],
       "centerLat": 52.400625,
       "centerLng": 16.90165,
       "radiusKm": 13.68,
@@ -19040,6 +19186,9 @@
     {
       "name": "Praha",
       "countryCode": "CZ",
+      "aliases": [
+        "Prague"
+      ],
       "centerLat": 50.0755,
       "centerLng": 14.4378,
       "radiusKm": 22,
@@ -21629,6 +21778,9 @@
     {
       "name": "São José dos Campos",
       "countryCode": "BR",
+      "aliases": [
+        "Sao Jose dos Campos"
+      ],
       "centerLat": -23.195584,
       "centerLng": -45.859754,
       "radiusKm": 14.91,
@@ -21742,6 +21894,9 @@
     {
       "name": "São Paulo",
       "countryCode": "BR",
+      "aliases": [
+        "Sao Paulo"
+      ],
       "centerLat": -23.68283,
       "centerLng": -46.59568,
       "radiusKm": 40.28,
@@ -22228,6 +22383,9 @@
     {
       "name": "Semarang",
       "countryCode": "ID",
+      "aliases": [
+        "Kota Semarang"
+      ],
       "centerLat": -7.021325,
       "centerLng": 110.388085,
       "radiusKm": 15.26,
@@ -22445,6 +22603,10 @@
     {
       "name": "Seoul",
       "countryCode": "KR",
+      "aliases": [
+        "서울특별시",
+        "서울"
+      ],
       "centerLat": 37.56501,
       "centerLng": 126.97415,
       "radiusKm": 18.61,
@@ -23381,6 +23543,10 @@
     {
       "name": "Stockholm",
       "countryCode": "SE",
+      "aliases": [
+        "Stockholms kommun",
+        "Stockholm Municipality"
+      ],
       "centerLat": 59.333765,
       "centerLng": 17.980385,
       "radiusKm": 16.75,
@@ -24145,6 +24311,12 @@
     {
       "name": "Taipei",
       "countryCode": "TW",
+      "aliases": [
+        "臺北市",
+        "台北市",
+        "臺北",
+        "台北"
+      ],
       "centerLat": 25.08538,
       "centerLng": 121.56154,
       "radiusKm": 14.41,
@@ -24514,6 +24686,9 @@
     {
       "name": "Tashkent",
       "countryCode": "UZ",
+      "aliases": [
+        "Toshkent"
+      ],
       "centerLat": 41.256385,
       "centerLng": 69.388945,
       "radiusKm": 28.53,
@@ -24705,6 +24880,9 @@
     {
       "name": "Tbilisi",
       "countryCode": "GE",
+      "aliases": [
+        "თბილისი"
+      ],
       "centerLat": 41.730835,
       "centerLng": 44.806745,
       "radiusKm": 18.12,
@@ -24844,6 +25022,10 @@
     {
       "name": "Tehran",
       "countryCode": "IR",
+      "aliases": [
+        "شهر تهران",
+        "تهران"
+      ],
       "centerLat": 35.698339,
       "centerLng": 51.347761,
       "radiusKm": 23.89,
@@ -25343,6 +25525,9 @@
     {
       "name": "The Hague",
       "countryCode": "NL",
+      "aliases": [
+        "Den Haag"
+      ],
       "regions": [
         {
           "name": "Centrum",
@@ -25456,6 +25641,10 @@
     {
       "name": "Tokyo",
       "countryCode": "JP",
+      "aliases": [
+        "東京都",
+        "東京"
+      ],
       "regions": [
         {
           "name": "Chiyoda",
@@ -25786,6 +25975,9 @@
     {
       "name": "Toyama",
       "countryCode": "JP",
+      "aliases": [
+        "富山市"
+      ],
       "centerLat": 36.676984,
       "centerLng": 137.208927,
       "radiusKm": 13.18,
@@ -26433,6 +26625,9 @@
     {
       "name": "Uberlândia",
       "countryCode": "BR",
+      "aliases": [
+        "Uberlandia"
+      ],
       "centerLat": -18.916695,
       "centerLng": -48.286305,
       "radiusKm": 13.62,
@@ -28439,6 +28634,9 @@
     {
       "name": "Wrocław",
       "countryCode": "PL",
+      "aliases": [
+        "Wroclaw"
+      ],
       "centerLat": 51.126365,
       "centerLng": 16.99178,
       "radiusKm": 13.1,
@@ -28743,6 +28941,9 @@
     {
       "name": "Yaizu",
       "countryCode": "JP",
+      "aliases": [
+        "焼津市"
+      ],
       "centerLat": 34.84494,
       "centerLng": 138.292775,
       "radiusKm": 9.17,
@@ -28947,6 +29148,9 @@
     {
       "name": "Yekaterinburg",
       "countryCode": "RU",
+      "aliases": [
+        "Екатеринбург"
+      ],
       "centerLat": 56.788215,
       "centerLng": 60.47518,
       "radiusKm": 29.07,
@@ -29458,6 +29662,9 @@
     {
       "name": "Zurich",
       "countryCode": "CH",
+      "aliases": [
+        "Zürich"
+      ],
       "centerLat": 47.37744,
       "centerLng": 8.536735,
       "radiusKm": 7.15,

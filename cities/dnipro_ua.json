@@ -1,6 +1,7 @@
 {
   "name": "Dnipro",
   "countryCode": "UA",
+  "aliases": ["Дніпро"],
   "centerLat": 48.46612,
   "centerLng": 34.995575,
   "radiusKm": 18.55,

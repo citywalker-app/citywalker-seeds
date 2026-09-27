@@ -1,6 +1,7 @@
 {
   "name": "Yekaterinburg",
   "countryCode": "RU",
+  "aliases": ["Екатеринбург"],
   "centerLat": 56.788215,
   "centerLng": 60.47518,
   "radiusKm": 29.07,

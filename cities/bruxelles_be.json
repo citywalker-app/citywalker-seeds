@@ -1,6 +1,7 @@
 {
   "name": "Bruxelles",
   "countryCode": "BE",
+  "aliases": ["Bruxelles - Brussel", "Brussels", "Bruxelles-Brussel", "Brussel"],
   "centerLat": 50.8388,
   "centerLng": 4.363,
   "radiusKm": 13.02,

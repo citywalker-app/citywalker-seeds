@@ -1,6 +1,7 @@
 {
   "name": "Praha",
   "countryCode": "CZ",
+  "aliases": ["Prague"],
   "centerLat": 50.0755,
   "centerLng": 14.4378,
   "radiusKm": 22,

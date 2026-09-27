@@ -1,6 +1,7 @@
 {
   "name": "Cairo",
   "countryCode": "EG",
+  "aliases": ["القاهرة"],
   "centerLat": 29.96564,
   "centerLng": 31.56753,
   "radiusKm": 40.65,

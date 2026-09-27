@@ -1,6 +1,7 @@
 {
   "name": "Montréal",
   "countryCode": "CA",
+  "aliases": ["Montréal (région administrative)", "Montreal (region administrative)", "Montreal (administrative region)"],
   "centerLat": 45.557435,
   "centerLng": -73.72423,
   "radiusKm": 25.28,

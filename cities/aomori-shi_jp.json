@@ -1,6 +1,7 @@
 {
   "name": "Aomori-shi",
   "countryCode": "JP",
+  "aliases": ["青森市", "Aomori"],
   "centerLat": 40.73156,
   "centerLng": 140.750615,
   "radiusKm": 21.07,

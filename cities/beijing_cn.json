@@ -1,6 +1,7 @@
 {
   "name": "Beijing",
   "countryCode": "CN",
+  "aliases": ["北京市", "北京"],
   "centerLat": 39.960415,
   "centerLng": 116.340907,
   "radiusKm": 29.43,

@@ -1,6 +1,7 @@
 {
   "name": "Minsk",
   "countryCode": "BY",
+  "aliases": ["Мінск", "Минск"],
   "centerLat": 53.882818,
   "centerLng": 27.611546,
   "radiusKm": 15.67,

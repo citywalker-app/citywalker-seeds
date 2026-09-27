@@ -1,6 +1,7 @@
 {
   "name": "İzmit",
   "countryCode": "TR",
+  "aliases": ["Izmit"],
   "centerLat": 40.7698,
   "centerLng": 29.94511,
   "radiusKm": 8.57,

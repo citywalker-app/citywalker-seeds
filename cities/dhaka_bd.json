@@ -1,6 +1,7 @@
 {
   "name": "Dhaka",
   "countryCode": "BD",
+  "aliases": ["ঢাকা"],
   "centerLat": 23.784585,
   "centerLng": 90.421265,
   "radiusKm": 13.55,

@@ -1,6 +1,7 @@
 {
   "name": "Tehran",
   "countryCode": "IR",
+  "aliases": ["شهر تهران", "تهران"],
   "centerLat": 35.698339,
   "centerLng": 51.347761,
   "radiusKm": 23.89,

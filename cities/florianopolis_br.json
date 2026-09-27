@@ -1,6 +1,7 @@
 {
   "name": "Florianópolis",
   "countryCode": "BR",
+  "aliases": ["Florianopolis"],
   "centerLat": -27.603474,
   "centerLng": -48.490755,
   "radiusKm": 25.1,

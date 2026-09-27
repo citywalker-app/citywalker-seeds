@@ -1,6 +1,7 @@
 {
   "name": "Bishkek",
   "countryCode": "KG",
+  "aliases": ["Бишкек шаары", "Bishkek City"],
   "centerLat": 42.862165,
   "centerLng": 74.58789,
   "radiusKm": 12.82,

@@ -1,6 +1,7 @@
 {
   "name": "Seoul",
   "countryCode": "KR",
+  "aliases": ["서울특별시", "서울"],
   "centerLat": 37.56501,
   "centerLng": 126.97415,
   "radiusKm": 18.61,

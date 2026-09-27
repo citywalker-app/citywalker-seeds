@@ -1,6 +1,7 @@
 {
   "name": "Poznań",
   "countryCode": "PL",
+  "aliases": ["Poznan"],
   "centerLat": 52.400625,
   "centerLng": 16.90165,
   "radiusKm": 13.68,

@@ -1,6 +1,7 @@
 {
   "name": "Osaka",
   "countryCode": "JP",
+  "aliases": ["大阪市", "大阪"],
   "centerLat": 34.6775,
   "centerLng": 135.454575,
   "radiusKm": 15.84,

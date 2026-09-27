@@ -1,6 +1,7 @@
 {
   "name": "Frankfurt am Main",
   "countryCode": "DE",
+  "aliases": ["Frankfurt"],
   "centerLat": 50.12124765,
   "centerLng": 8.6365827,
   "radiusKm": 14.9,

@@ -1,6 +1,7 @@
 {
   "name": "São José dos Campos",
   "countryCode": "BR",
+  "aliases": ["Sao Jose dos Campos"],
   "centerLat": -23.195584,
   "centerLng": -45.859754,
   "radiusKm": 14.91,

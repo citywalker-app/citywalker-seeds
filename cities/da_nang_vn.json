@@ -1,6 +1,7 @@
 {
   "name": "Da Nang",
   "countryCode": "VN",
+  "aliases": ["Thành phố Đà Nẵng", "Thanh pho Da Nang", "Đà Nẵng"],
   "centerLat": 16.079079,
   "centerLng": 108.07859,
   "radiusKm": 28.12,

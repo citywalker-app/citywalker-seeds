@@ -1,6 +1,7 @@
 {
   "name": "Stockholm",
   "countryCode": "SE",
+  "aliases": ["Stockholms kommun", "Stockholm Municipality"],
   "centerLat": 59.333765,
   "centerLng": 17.980385,
   "radiusKm": 16.75,

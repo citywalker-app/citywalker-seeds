@@ -1,6 +1,7 @@
 {
   "name": "Mexico City",
   "countryCode": "MX",
+  "aliases": ["Ciudad de México", "Ciudad de Mexico"],
   "centerLat": 19.32074,
   "centerLng": -99.15261,
   "radiusKm": 32.9,

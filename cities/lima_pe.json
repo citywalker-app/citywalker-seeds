@@ -1,6 +1,7 @@
 {
   "name": "Lima",
   "countryCode": "PE",
+  "aliases": ["Province of Lima"],
   "centerLat": -12.046185,
   "centerLng": -76.910015,
   "radiusKm": 55.4,

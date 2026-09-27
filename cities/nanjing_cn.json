@@ -1,6 +1,7 @@
 {
   "name": "Nanjing",
   "countryCode": "CN",
+  "aliases": ["南京市", "Nanjing City", "南京"],
   "centerLat": 32.057355,
   "centerLng": 118.911935,
   "radiusKm": 35.89,

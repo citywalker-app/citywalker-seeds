@@ -1,6 +1,7 @@
 {
   "name": "Bogota",
   "countryCode": "CO",
+  "aliases": ["Bogotá ciudad", "Bogota ciudad"],
   "centerLat": 4.55228,
   "centerLng": -74.10495,
   "radiusKm": 33.55,

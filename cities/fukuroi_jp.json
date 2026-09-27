@@ -1,6 +1,7 @@
 {
   "name": "Fukuroi",
   "countryCode": "JP",
+  "aliases": ["袋井市"],
   "centerLat": 34.743778,
   "centerLng": 137.929799,
   "radiusKm": 10.39,

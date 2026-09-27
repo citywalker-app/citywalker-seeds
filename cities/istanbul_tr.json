@@ -1,6 +1,7 @@
 {
   "name": "Istanbul",
   "countryCode": "TR",
+  "aliases": ["İstanbul"],
   "centerLat": 41.193,
   "centerLng": 28.964825,
   "radiusKm": 84.68,
