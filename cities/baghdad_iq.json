@@ -1,0 +1,249 @@
+{
+  "name": "Baghdad",
+  "countryCode": "IQ",
+  "centerLat": 33.3382,
+  "centerLng": 44.383316,
+  "radiusKm": 24.69,
+  "regions": [
+    {
+      "name": "Abna Al-Rafidin",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3740105,
+        "maxLat": 33.3985178,
+        "minLng": 44.4230872,
+        "maxLng": 44.4529016
+      },
+      "encodedPolyline": "iaxjEikcnGr\\qc@tSwYvGiJbGoIpRgXk`@qc@}MwRoPsRui@ju@mZjb@gPpUfPdRnh@hm@tFnG"
+    },
+    {
+      "name": "Al-Adhamiyah",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.353589,
+        "maxLat": 33.4265916,
+        "minLng": 44.3297728,
+        "maxLng": 44.4103085
+      },
+      "encodedPolyline": "qvxjEadqmGzKsBbJoCvBkAhBcB`D}IDuAu@uLi@_Dk@qBeBoE_@_AmEwM}FuLgF_NgDwPo@cMVsI^sAf@cAxA}CbDaIdC{EzAgCbGoG~AuAhDwC|CoAlCgAfBCzCCxCz@zDpA|HfCxIzFdFtElF|E~C`DvD|DnAlAtAtAtBpB`C~BfFbE\\TrFdDlClApB|@~ChAh@PfF`AlCThFb@|E]nE]jBc@jBy@nAsAfA}Af@oB^oB|@aHMiFEuBeCoIiB{Jw@kFm@iFc@wFmA}Oo@qIJmFbAiGbBcHn@wBr@}Bd@s@p@gAxAgA|Dq@hDKbFK`GFdFFxB`@\\}]yAyHkGi[iRuw@eCuFaMyUmDqDwBmA_C}@UIaEoAeGoBmFqBkEoBcCkBaD_DgAmAkg@al@_l@jy@eGpIg_@rh@k\\|c@aJdNig@`s@aExFkSfYa`@ti@arAtfB}BnGa@p@dJXxI\\tL|ArJtB`O~CxMnDpLvDfElAhBh@tKvEhHdDtGzDrAv@`PzJtDzBhGjCtLhGjI`EbHdEvJ`E~HlB"
+    },
+    {
+      "name": "Al-Fahamah",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3763877,
+        "maxLat": 33.4868251,
+        "minLng": 44.2996826,
+        "maxLng": 44.4594286
+      },
+      "encodedPolyline": "{fhkE_hkmGb]yGzMuLzMkYnU_l@jT}u@lJcXrV_Tfc@sc@~_@_\\zE_EvKeGhD_AxLwEzJmBbDDzJP`@q@|BoG`rAufB``@ui@jSgY`EyFhg@as@`JeNj\\}c@f_@sh@dGqI~k@ky@sNeQ_[s]g[a^uFoGoh@im@gPeRaQeScPaRgOcQePeRca@od@aOsPuBeCeJ{KyBkCg@Zw\\|C_nAvLs~@`Jy@n~FkQps@xQfBhBzuCy~AbLqxAqRgIplAu@~IeM|{APlbAeIh|@L~oAPxx@sUl\\tSnH|`@fSdm@xB"
+    },
+    {
+      "name": "Al-Furat",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3692205,
+        "maxLat": 33.4162092,
+        "minLng": 44.4529016,
+        "maxLng": 44.5116345
+      },
+      "encodedPolyline": "klwjEseinGvTsZoPsR~SaZxP~QtLkPbNoRdS_YtBiDm_@oQmHoG_^wd@yDaFkA}C}AyBcKqNgUqYqC}Cm@q@cHwHqEoFCEk_@kd@_K{Lkf@ul@yDdGqOdPyMzZq_@vy@zmAzqAiMlUtBhDdIlJvOzQ|KnM|BjCvOrQxPxRxOpQbP|QnJtKzDrE"
+    },
+    {
+      "name": "Al-Kadhimiya",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3341784,
+        "maxLat": 33.4707031,
+        "minLng": 44.2327666,
+        "maxLng": 44.3728885
+      },
+      "encodedPolyline": "y`_kEye~lGjzA_UpnAkCbe@mDz|@iBxiAqSzFeG}AcLdQsDtJI?wD`@iZkBqN{Ggk@lMarAtFUXK|@WlK}CdLgDjWoHjCw@|Bs@pd@kNiJc_CbJk@jCO`CKrEOlDAdFBfEHxEXnHf@zE^I{JlKoSmJg\\iGcO}DwPoEnAeAqFqDuWSeC]uH}AkT_AsElFpBBc@m@gN@_MkAcGmCwMoAqHOqIEu@iCIMmC?sBPeBvAoE|FsHlCy@bDEjIqA`FyBlBiB|AmDdBoKkRkWkNsVeAM{@}A{CsO[aBGWk@oAwAqAqA[qEUiG]oMm@_@IsBa@sAe@aA_@aCwBu@y@oCcDqCiDuCwD}BaE{@wC[iDGiIp@cRyBa@eFGaGGcFJiDJ}Dp@yAfAq@fAe@r@s@|Bo@vBcBbHcAhGKlFn@pIlA|Ob@vFl@hFv@jFhBzJdCnIDtBLhF}@`H_@nBg@nBgA|AoArAkBx@kBb@oE\\}E\\iFc@mCUgFaAi@Q_DiAqB}@mCmAsFeD]UgFcEaC_CuBqBuAuAoAmAwD}D_DaDmF}EeFuEyI{F}HgC{DqAyC{@{CBgBBmCfA}CnAiDvC_BtAcGnG{AfCeCzEcD`IyA|Cg@bA_@rAWrIn@bMfDvPfF~M|FtLlEvM^~@dBnEj@pBh@~Ct@tLEtAaD|IiBbBwBjAcJnC{KrB_ImBwJaEcHeEkIaEuLiGiGkCuD{BaP{JsAw@uG{DiHeDuKwEiBi@gEmAqLwDyMoDaO_DsJuBuL}AyI]eJY{JQcDE{JlByLvEiD~@wKdG{E~D_`@~[gc@rc@sV~SmJbXkT|u@oU~k@{MjY{MtLc]xGbD|P`ArFlBtLpOxRhQto@jNlWQ~a@bFtb@_AvJ_PjXeGll@twAov@~FbP`t@`{B`Yf^|`@zG`k@|E"
+    },
+    {
+      "name": "Al-Karkh",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.2791182,
+        "maxLat": 33.3539931,
+        "minLng": 44.3483661,
+        "maxLng": 44.4162437
+      },
+      "encodedPolyline": "yxmjEixtmGbFeFrGwBbHyD`E}EhA{ABy@e@s@|N}_@bR_^rFqCh@|@pACrAw@bCiAnBa@~@LxB|@tA~BjAfDHjBAfBq@dH~A~EhBx@jGdBhEnBxAZbBPzBInBUfARjDfAr@\\ZB`@J~@r@l@x@zBf@rB`@~D\\~@aAdSkDpFqGdBlCrDwa@nMoZdYiD\\tFxQiFxBe@tSjh@jRpRdQhGtJgIrDki@v@gBrAiDx@_BhAwBlB{CuDwDsFeGgNgPgCoCyKkMoEqEgE}EwDkGiFqMmCmHqBaHaC_IeCmJaBeG_@qA{DyMcA{Gs@wE_AuMWcHOeMuBo_@y@oH{AgI}FeOiC_EoDqCuF{BsOkCqHEuHEk@?cB@oEt@oExAcEbBeJrEuFtCyDjBsChBeDrBmEbCkG|CmEdDuG~FcErDqIrH{D~E{H~IwHvIiHhIqDdEmAfBcCjDkEjG}A|BeDxEoBrCmFlHgD~EiFvH}BfDSX}@rAqAjBuApByAvBmBrC_ChD_BzDmBbHiAvDcAlEKxBStEa@pII|AWzEw@jDm@`BgApBsAbBUTiEdCkEdBkDJqDAoDOqAK_C_@yPwDcCk@q@bRFhIZhDz@vC|B`EtCvDpChDnCbDt@x@`CvB`A^rAd@rB`@^HnMl@hG\\pETpAZvApAj@nAFVZ`BzCrOz@|AdALjNrVjRjW"
+    },
+    {
+      "name": "Al-Karrada",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.2629662,
+        "maxLat": 33.3215682,
+        "minLng": 44.3669309,
+        "maxLng": 44.4679972
+      },
+      "encodedPolyline": "ctajEilxmGbAEhFQbIaAnIkChI}DxGsDhFoGjDmGt@_HMyJYoHi@wQ]sEI{@mBoIOk@eBuHgEyIqD}EoCmFcD_HaFgHaFkHjJuCyOqt@e]mzAqTsf@eJuPoTmd@sBgA}C{B_GaDkDeEyCgH{AqEyAyHw@cFz@sK~@}KvJuRaQyKaO}UiFuGaYgf@aLyQ}L{PmB{BoSjXoMp`@oe@nmAyM~]wGdQiOzUpd@lp@z@fApVrLnIft@nEyAnEu@bBAj@?tHDpHDrOjCtFzBnDpChC~D|FdOzAfIx@nHtBn_@NdMVbH~@tMr@vEbAzGzDxM^pA`BdGdClJ`C~HpB`HlClHhFpMvDjGfE|EnEpExKjMfCnCfNfPrFdGtDvDzEzB`HvClIbC~IdA"
+    },
+    {
+      "name": "Al-Ma'mun",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.1797569,
+        "maxLat": 33.2910033,
+        "minLng": 44.1846152,
+        "maxLng": 44.5048156
+      },
+      "encodedPolyline": "kjwiE{xtlGhk@eq@p`@wl@o`@knBwdA_|A`Vyr@rnD{q@j`@`OqClj@zf@qGiBgk@{|@_x@zVu}AiEmqCwHazBfHwD|GcHrByDhAiCpJeOe@o@f@iC}AJ{Nm@uRkCe@kRsDaFIuz@CyXAkP}PucDw@gOyp@aB`@sQbDiIxAqD~Pqo@~eAsYt_@oh@bQus@gT}HoZykA?{g@jH}U_MmFoL_YkXaGcPeWgEgZrAm`@aOmXwRhUak@iPoM}HlKqDnL_^xVme@~g@kXfQwEm@m\\~QmQ_YyZ_\\u\\mg@uYmg@ke@y`@g\\kXhBkXf_@oL`s@N~w@`@p}@bBh|@wE`LkX`a@iDf@gm@xIi@Hsm@`GcPRe]kAyn@qGmn@eFyXmD}L\\mL|Aw\\hYyF`JwJtR_A|K{@rKv@bFxAxHzApExCfHjDdE~F`D|CzBrBfAnTld@dJtPpTrf@d]lzAxOpt@kJtC`FjH`FfHbD~GnClFpD|EfExIdBtHNj@lBnIHz@\\rEh@vQXnHLxJu@~GkDlGiFnGyGrDiI|DoIjCcI`AiFPaF`LqNv_@{I|UvG~T_HdGk@f@i@f@YZYXSVy@`Ac@f@c@f@c@d@g@b@yChC{CjCmAbAgDpC[Vo@\\c@Pk@PWF]B[B]BCb@Gv@IdAMdA]lCUtAUpAa@~Ac@hBu@`CuD|LuH~[iD~OyBrMmBxM}AzPm@nHShDe@fJ[xJKnGEfK@fKJfGP`IZtH`@dId@fHr@hIx@xHrA`K|A|JzBhLlCdLjClK`ErM`E~KjHfRfF~M~@lCpGkAxAtCll@ffB|Xxy@|BvFrOvSj_@wXb_@kY~^oUtZuGrNt@tNx_@lq@jhBlOnoBxh@jsAxW~hAoFnvA"
+    },
+    {
+      "name": "Al-Mansour",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.2298351,
+        "maxLat": 33.3675358,
+        "minLng": 44.1864808,
+        "maxLng": 44.3693205
+      },
+      "encodedPolyline": "excjEodulGBAD?tCyAnOiH[q@r@]pnBsnAx]gVxCsBhkAkr@|{Au|@mOooBmq@khBuNy_@sNu@uZtG__@nUc_@jYk_@vXsOwS}BwF}Xyy@ml@gfByAuCqGjA_AmCgF_NkHgRaE_LaEsMkCmKmCeL{BiL}A}JsAaKy@yHs@iIe@gHa@eI[uHQaIKgGAgKDgKJoGZyJd@gJRiDl@oH|A{PlByMxBsMhD_PtH_\\tD}Lt@aCb@iB`@_BTqATuA\\mCLeAHeAFw@Bc@\\CZC\\CVGj@Qb@Qn@]ZWfDqClAcAzCkCxCiCf@c@b@e@b@g@b@g@x@aARWXYX[h@g@j@g@~GeGwG_UzI}UpNw_@`FaLcAD_JeAmIcCaHwC{E{BmBzCiAvBy@~AsAhDw@fBsDji@uJfIeQiGkRqRuSkh@yBd@yQhF]uFeYhDoMnZsDva@eBmCqFpGeSjD_A`A_E]sBa@{Bg@m@y@_As@a@K[Cs@]kDgAgASoBT{BHcBQyA[iEoBkGeBiBy@_B_Fp@eH@gBIkBkAgDuA_CyB}@_AMoB`@cChAsAv@qABi@}@sFpCcR~]}N|_@d@r@Cx@iAzAaE|EcHxDsGvBcFdFeBnK}AlDmBhBaFxBkIpAcDDmCx@}FrHwAnEQdB?rBLlChCHDt@NpInApHlCvMjAbGA~Ll@fNCb@mFqB~@rE|AjT\\tHRdCpDtWdApFnEoA|DvPhGbOlJf\\mKnSHzJ{E_@oHg@yEYgEIeFCmD@sENaCJkCNcJj@hJb_Cqd@jN}Br@kCv@kWnHeLfDmK|C}@VYJuFTmM`rAzGfk@jBpNa@hZ?vDuJHeQrD|AbLp_@vr@n@zbArBzFKzXwBvz@_Yzn@|o@m@``@xb@pRib@z@a@tAo@h`@sClEWx@XlY|LhoA|Do@e^f@UdHiDhU~D~iA}KtMh_B^Crk@hRlgAbF~Pz@"
+    },
+    {
+      "name": "Al-Nura",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3845381,
+        "maxLat": 33.4205203,
+        "minLng": 44.4349316,
+        "maxLng": 44.4768617
+      },
+      "encodedPolyline": "wczjEiuenGfPqUlZkb@ti@ku@{DsEoJuKcP}QyOqQyPyRwOsQ}BkC}KoMwO{QeImJuBiDuL`T{|@`eA}NxPxBjCdJzKtBdC`OrPba@nd@dPdRfObQbP`R`QdS"
+    },
+    {
+      "name": "Al-Rusafa",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.309812,
+        "maxLat": 33.3591448,
+        "minLng": 44.37119,
+        "maxLng": 44.4344848
+      },
+      "encodedPolyline": "idpjE}fymGjDKjEeBhEeCTUrAcBfAqBl@aBv@kDV{EH}A`@qIRuEJyBbAmEhAwDlBcH~A{D~BiDlBsCxAwBtAqBpAkB|@sARY|BgDhFwHfD_FlFmHnBsCdDyE|A}BjEkGbCkDlAgBpDeEhHiIvHwIzH_JzD_FpIsHbEsDtG_GlEeDjG}ClEcCdDsBrCiBxDkBtFuCdJsEbEcBoIgt@qVsL{@gAqd@mp@mV~`@sMfQePjTeLu\\yIuCmDgAcA@yLlQaBj@aUt\\gKdPU\\eXhb@oF{Fqm@pz@rJ|Lp@`LyOdRgLdNdCtFhRtw@jGh[xAxH]|]bCj@xPvD~B^pAJnDNpD@"
+    },
+    {
+      "name": "Al-Sadiq Al-Akbar",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3570916,
+        "maxLat": 33.3845381,
+        "minLng": 44.4407468,
+        "maxLng": 44.4726645
+      },
+      "encodedPolyline": "qjujEuyfnG|U}[rT_[bCgDdH{JhGyIpZub@~JaOoLoTaEcGwBuBwB{A}RuIaNeGwLwFuBhDeS~XcNnRuLjPyP_R_T`ZnPrRwTrZnPrR|MvRj`@pc@"
+    },
+    {
+      "name": "Al-Zawra",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3610389,
+        "maxLat": 33.4966432,
+        "minLng": 44.4594286,
+        "maxLng": 44.582017
+      },
+      "encodedPolyline": "gm~jEmnjnG|NyPz|@aeAtLaThMmU{mA{qAp_@wy@xM{ZpOePxDeGjf@tl@~JzLj_@jd@BDpEnFbHvHfIqNnC_Gb@sAVsBt@sNfBeCdEiF~I}LjEkWf@oCbCqTzBkS@Gl@iClDsOXqA@AZqCbDuRX}Iz@iHFk@pCmSfAkI@EfEmFHKbE}G~AmCvDkG|FsJzBqDj@s@lIeK~AoB@CzAgDnBqBpBeA|Bg@pEeATmBZoAh@aA|A{B|@iAvAiAjCcB|ByA|BsAfA{@|@mAd@gALe@Fc@B}@Gm@Ow@y@qB{@uAcAaA{As@uDeAwEqA_D_AaC}AyAaByAgBuCuDoAaCcBuDuAoBmAmAyBoAiCs@uAWyDGkAAkJjAmHvBiGlEuGrDcIpCOPgBtBURoBx@cAb@mBEu@AeCkAqAm@uCyCoEcHuCcHWk@_BiEwCyBeDYoG?kFz@iE|AsDBeES}C?wEuAa@eAsBoF}CoJyB{GuEeIsDeEm@q@_DgD}B{BWSi@]s@Qe@Ck@@_@Du@Ry@Zc@Vy@t@cGzGmB~B}ExGwDjGwA|BqC|DyElH{BbDeAbAyBrB_Bz@}BdA{@NgBCkAQwCeAsBs@gBi@_B_Ay@w@IIoAsBcAyCeAiDs@iCe@aCy@{Fc@{DYuCCgCAoH?kGFmCR_FVoCx@uEt@uDx@qDl@cB|@_B`@o@Jg@Dm@Ek@Uu@_A{Am@e@g@UeCg@aBS_FO_IHeLSmHBcGb@_BPmHh@sBHgDD{BA_BFcALWF[LSJy@r@g@n@[l@g@`ByAvKs@tFc@bEU|CAnADz@?ZFh@\\rAb@~A^r@f@b@h@d@~@j@d@Hz@D~@Af@GbAOVGh@WlAo@l@o@p@{@v@kA`BoDv@gBr@qB^oANy@Ns@Da@BsAE}BC}@@a@B[Ni@Xm@\\[h@Mn@KvAKp@Ab@Bb@Jt@XfA|@bArAbAbCb@tAj@zBh@rCr@tG`@bETxGJxDLdDVfFRrAPjAPrAFh@@h@Ch@Ch@Gf@Ul@wAxCw@bBw@zAYf@k@j@e@b@a@NaA\\}@NcALkAHkAL}C\\gDR_DH_CGk@EeBWoBi@yCcAeC}@qB}@cAm@cAy@_BqAoCsCo@{@c@{@Ys@s@iB}@cB}@sAq@aAw@mA}@yAy@gA_A_As@g@s@g@w@_@q@Ou@Ic@@c@Dk@Fa@Ni@ZiAv@qBjBwD|C{BhB{D~CqBbBkAz@aBdA{Av@kAd@iA\\kAXu@Ji@Fu@Cy@Ks@Ou@c@}@k@k@e@s@u@iAuAu@cA}@uAgAkBwAkCaAwBu@oBoAmDq@qBaA}CM]IYEYG_@Ee@U}CE]E]Ga@I_@Su@c@eBc@}AuAgIWwAWqAm@iDu@kFm@uE[mAs@}BQu@So@K_@Sc@S_@e@a@o@a@_@Ug@GSCa@?o@FODoAx@oAbAcAr@s@p@wBpAcB|@{AhAi@^u@h@eFbDm@`@kAf@sBv@uChAmCz@yCp@}AZ{AToBP}BPaBH{@Do@C{CWuBWmEo@wBo@aCy@yEiBwFyAsFuAeH}AoGs@iEa@w@IuG}AoGYoE}AgEcAwEwBuCiBoCpQjn@n{DjBff@fAf^cN~k@gq@d@aJFag@ZpAlg@|A~j@nDxp@pCiBh_@mDfx@yChb@iIrFeChFe@fGb@vEdBlh@nn@pQ|Dv_A|~@bo@zn@pa@vp@fVt]fo@xv@lYn]"
+    },
+    {
+      "name": "First Al-Sadr",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3477737,
+        "maxLat": 33.3740105,
+        "minLng": 44.427997,
+        "maxLng": 44.4626072
+      },
+      "encodedPolyline": "icsjE_jdnGzn@{|@j`@cj@nJyM{AwCkv@wzA_K`OqZtb@iGxIeHzJcCfDsT~Z}U|[lb@bg@zR~T|NpP"
+    },
+    {
+      "name": "New Baghdad",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.2622848,
+        "maxLat": 33.3891237,
+        "minLng": 44.4227011,
+        "maxLng": 44.5446923
+      },
+      "encodedPolyline": "azljE{hcnGdPkTrMgQlV_a@hO{UvGeQxM_^ne@omAnMq`@nSkX`UwYx[umAl@}BtBaI|@gDxc@yfBvr@lIfa@tCxDyDbG{DbDga@PmBbQgs@EiD[CuIcA_Fs@_Ds@cDkAuAm@cCwA}BkAgEeD_F_E}B}BmAuA{B{C_CcDa@_Aa@wACW?QBWLc@Rg@V]h@Yz@a@fAUbA?~@@tC^fANvAPvAH|A?pAOzCm@jBm@`DcBhD}AtA[bBM`A@lBZvAh@h@RhA~@d@t@Zv@r@vA|CxJ|@|B~B|F`AfB`AlA|@x@bEnCjBdAr@^fALr@Gv@Y~@{@n@mBZgCPqEGcBWgFi@aF_AwF[gBaAuDeA{DoA_EqBqFwAyDm@sAi@kAiBuC_CgCoA}@sA_@aB]yBg@sDk@yDc@eDa@yBi@qBWkCs@sEwAyFuBsEoB{Ay@y@c@yBwAqAm@iAUw@AaBDyAN}FlBkFvAgDv@cDl@gFbA}ALkCZuCRwE@wF@sDCaF@oLn@yH`AyI|@{CX}Cd@_Dd@k@NmCt@uBn@}DrA{AXy@JuAB}BEgAAiCYsDm@kH}@eDk@}Bi@qAUaCYqCg@kAOuCGaB@eA?K?yHP_F`@yANuANeB\\iCbAuBbA}@v@iCvBoBtB_DzD}G|H_ChCgBfBo@f@{@d@o@XwCz@mANm@@s@MgAe@eAu@{C}D_EyF}@qAgBsCgCgDoCeDcB{Bq@y@u@s@i@a@i@[yD_Bq@UcAQoAEs@Dy@F_Br@qDtBcKbHgEzBaEtB{EtBwAXqAJi@BsCm@cAi@c@e@{@yAw@kBqCmHcA}BeBaDsCgFsBcCuAgAoC}A}EqCOG]Qa@Q_Du@aBYsBEy@@eBHiCVgLx@}I?oGAe@?mKAwDEwIOmAG{BSkBe@cBa@{@]]M_Ae@a@]c@c@e@o@Wc@Qg@IUI]Gi@A]Ac@@gAqEdA}Bf@qBdAoBpB{AfDAB_BnBmIdKk@r@{BpD}FrJwDjG_BlCcE|GIJgElFADgAjIqClSGj@{@hHY|IcDtR[pCA@YpAmDrOm@hCAF{BjScCpTg@nCkEjW_J|LeEhFgBdCu@rNWrBc@rAoC~FgIpNl@p@pC|CfUpYbKpN|AxBjA|CxD`F~]vd@lHnGl_@nQvLvF`NdG|RtIvBzAvBtB`EbGnLnTjv@vzAzAvC`b@rt@v[`q@dCpAbBnBxDrEbAAlDfAxItCdLt\\"
+    },
+    {
+      "name": "Palestine",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3354579,
+        "maxLat": 33.3763877,
+        "minLng": 44.3939887,
+        "maxLng": 44.4471678
+      },
+      "encodedPolyline": "smrjEmu}mGfLeNxOeRq@aLsJ}Lpm@qz@nFzFdXib@T]fKeP`Uu\\`Bk@xLmQyDsEcBoBeCqAw[aq@ab@st@oJxMk`@bj@{n@z|@sk@nx@oh@`t@jg@`l@fAlA`D~CbCjBjEnBlFpBdGnB`EnATH~B|@vBlAlDpD`MxU"
+    },
+    {
+      "name": "Second Al-Sadr",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.3626094,
+        "maxLat": 33.3878939,
+        "minLng": 44.4103085,
+        "maxLng": 44.4407468
+      },
+      "encodedPolyline": "myujEm{`nGnh@at@rk@ox@}NqP{R_Umb@cg@qRfXcGnIwGhJuSvYs\\pc@f[`^~Zr]rNdQ"
+    },
+    {
+      "name": "Zaefarania",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 33.2198378,
+        "maxLat": 33.3034255,
+        "minLng": 44.4481233,
+        "maxLng": 44.5297551
+      },
+      "encodedPolyline": "oodjEwghnGxFaJv\\iYlL}A|L]xXlDln@dFxn@pGd]jAbPSrm@aGh@Ifm@yIhDg@jXaa@vEaLcBi|@a@q}@O_x@nLas@jXg_@jXiBgCaF_A{Ak@q@g@a@kCuA{F_B}EmBgAw@sBoAyCeC{A_BsEkEiDoD}CiC{D}CeD}CuAwAkA}AaC{Eu@}A}CmGqDqHqCiFmCwCqB_CkCkCgGiGeEwCoFqDuEsCuCmAkCgAcDgAkHgB_EcA{Gy@yEs@eE_@{Ee@yD]aBMuAEiAH}ALwBh@iDj@_B^iClAc@Xc@^c@b@g@p@KTq@`BYpAW|BYhFAjDSjHWpEc@xCa@bC{@bCgA`Cy@tAo@h@o@h@eAf@uAPuCDaE]oBWiBYiC_@uGo@uHiAqHu@DhDcQfs@QlBcDfa@cGzDyDxDga@uCwr@mIyc@xfB}@fDuB`Im@|By[tmAaUvYlBzB|LzP`LxQ`Yff@hFtG`O|U`QxK"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "file:///private/tmp/claude-501/-Users-pritipatki-AndroidStudioProjects/4337177a-8b03-497b-8a41-1f168a9480cf/scratchpad/baghdad_l7.geojson",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors (via Geofabrik Iraq extract)"
+  }
+}
