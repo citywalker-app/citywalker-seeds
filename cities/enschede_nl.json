@@ -1,0 +1,158 @@
+{
+  "name": "Enschede",
+  "countryCode": "NL",
+  "centerLat": 52.223356,
+  "centerLng": 6.868496,
+  "radiusKm": 8.42,
+  "regions": [
+    {
+      "name": "Binnensingelgebied",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.20939002324662,
+        "maxLat": 52.22867091743665,
+        "minLng": 6.873707918339359,
+        "maxLng": 6.912121415986118
+      },
+      "encodedPolyline": "oru}Hcxdi@lPlHtCtBrBbF`@vFXhMhA|G~EtJnBnIdD`Sd@pN_CrX_D|m@s@xNcE|IeDrCyESAd@UEBa@eB[uGuA]pA{@pCQxCiClGIXgCnAeHAsD_CiCmAiAoViLc@oKuA_DoGeAoDm@}Ig@cH_ByM}CkPEq@DkDtAkLbBiT}@gW{@wL}BaHfAqSrBqHpEoCtLU`Fc@n@oIdDeBdDM~Ft@xFmA`EhAvEhD"
+    },
+    {
+      "name": "Hogeland - Velve",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.199976175632116,
+        "maxLat": 52.22845180664492,
+        "minLng": 6.889354552074068,
+        "maxLng": 6.941549629479934
+      },
+      "encodedPolyline": "kvu}H}hji@rVbBi@`a@VhXg@xIyAnHdIxRzApUw@dFFhFw@`EoAdCpCtA`CuCfArB}AfDdE}AzF_Jb@{AzMQvEfd@dJeArI{BpDh`@hFjc@vBdg@YtU_}@hG~BsXe@qNeDaSoBoI_FuJiA}GYiMa@wFsBcFuCuBmPmHwEiDaEiAyFlA_Gu@eDLeDdBo@nIaFb@kA_YCsPFyGXuKbB{ZzAaYyGw@}@EeBd@yMfKQoD|O_mAr@yE~@aAb@jA~@z@tLvCpNzAnNzA"
+    },
+    {
+      "name": "Boswinkel - Stadsveld",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.20010890722854,
+        "maxLat": 52.22143152946649,
+        "minLng": 6.844198009867976,
+        "maxLng": 6.890683942066761
+      },
+      "encodedPolyline": "sor}H_u~h@gAdc@m@`_@Yl[YnQi@~NwRnZyG`KiM|T}V`\\wAyFyDmP_EeGaHkF{E{AkAZsCkc@kA_VEqSkBoEaAmFkGoEn@wEv@oTSoRhClArD~BdH@fCoAHYhCmGPyCz@qC\\qAtGtAdBZC`@TD@e@xERdDsCbE}Ir@yN~C}m@~|@iGwCtq@e@`Q"
+    },
+    {
+      "name": "Twekkelerveld - T.H.T.",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.22090634770917,
+        "maxLat": 52.23621806983806,
+        "minLng": 6.844628428326148,
+        "maxLng": 6.880483505650043
+      },
+      "encodedPolyline": "oew}Hcqzh@_v@dvA{AwC_K_ZdLo\\uGyKrEgPnOwi@bFgR|WiaAfAmC~CnGnKtAhLb@hAnVRnRw@nTo@vE_CrNmBfIeD|I}HnO"
+    },
+    {
+      "name": "Enschede-Noord",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.22631226234115,
+        "maxLat": 52.25390918603815,
+        "minLng": 6.827057992760497,
+        "maxLng": 6.916942106020588
+      },
+      "encodedPolyline": "itz}Hkhci@kE{MaB_CyCyCeCsBPaA|BsEqB}QrE_ETwIcD{AxCsIpGGpGPhDSxEfEve@jz@vJdPtLfPlDbCpD@|@fWcBhTuAjLEjDDp@|CjP~AxMf@bHl@|IdAnDgAlC}WhaAcFfRoOvi@sEfPqOxi@cUn|@}FxRs_@vz@Wc@m@aCaCaJKa@Qq@[iAm@}BmAwE?AIU?CAAo@gCm@{Ba@{Aa@yAgA_Em@aCCECM?Aw@sC?A[kAEQ_@sA??IYiCyJ??{A_GACc@_B?CAEMc@?AACGU??AAc@cBlFuHfDwBoAqRfB}bAbEnDWlG`CtGhFDJbDdGjBDIpKwIbImGXK~FFvAwRzAy`@eFYGoIbDw@vAmCjAaEaA}HsEaBvEuL}KnCgAiAByMBqFJ{LzJb@H}XzBmAMoB_@JAE_@FQ}BSHGy@kDz@o@kFlDgA]oEyATiAaJuFhCG_D~G_IhCsBiAiOq@aPCkGbA}O`B[s@qJiAmE"
+    },
+    {
+      "name": "Ribbelt - Stokhorst",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.22375654398175,
+        "maxLat": 52.24085620693749,
+        "minLng": 6.900257951757484,
+        "maxLng": 6.928923482332411
+      },
+      "encodedPolyline": "qdw}Hk{ei@BrPjA~XuLTqEnCsBpHgApS|B`Hz@vLqDAmDcCuLgPwJePwe@kz@yEgEX_B`IyYmCsk@xUvDfEiArFWjIjGfEdD`BhHhNqKxMgKdBe@|@DxGv@{A`YcBzZYtKGxG"
+    },
+    {
+      "name": "Enschede-Zuid",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.18135863837775,
+        "maxLat": 52.20264192214652,
+        "minLng": 6.844180511116308,
+        "maxLng": 6.914897964793672
+      },
+      "encodedPolyline": "idq}Hyyci@rKwOnN}MfFnD~DnZLfj@~EKbCp\\rCrGTzPpAnR~D`AjDC~BvHn@rY\\lSd@|WiCnWs@~IuC~ZyJy]uAe@eAsC_BqDb@hKcApFo@zFRdAuDl`@dDnP{DrF?dM]AuCvIyCdEqArC_A`EQ`IP`EWvC_BxIeQ}Y}G_GsDzDaJe@_KuB{QySfA}b@h@_OXoQXm[l@a_@fAec@d@aQvCuq@XuUwBeg@iFkc@qDi`@jFqDrCsFnCsDZfJfBzBdG}AAhBnEZbD}B~DxRxE`V"
+    },
+    {
+      "name": "Bedrijfsterreinen Enschede-West",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.20696996058855,
+        "maxLat": 52.248181551144434,
+        "minLng": 6.802685939735431,
+        "maxLng": 6.867109179885015
+      },
+      "encodedPolyline": "gax}H_pvh@sBrKVdM?nAy@vGiBpJsAnBwExAkBp@yB@_CRwG`Iq@b@cB`AiBxBmAhCmAbCg@f@sBj@yBrAcE~BeA~Aw@vFcB~PICuEwAuAc@aBg@??KE}@Wo@SQ]KUc@y@[o@oDeHEGEK_B}C_AiBYk@gAwBIMEIO[OY??EKc@y@}@gB_E}HSa@r_@wz@|FyRbUo|@pOyi@tGxKeLn\\~J~YzAvC~u@evA|HoOdD}IlBgI~BsNjGnE`AlFjBnEDpSjA~UrCjc@xCba@vFh[jEtNbAvD~AvPfBpKlJ~TzKdQvPpQoH|_@yNfj@aErMqDdIyFnKoBrD_FdIWiWgEcuA}CweAvAaTLgEwU|LgBdAeAMwNaVcMuAsQs@"
+    },
+    {
+      "name": "Glanerbrug",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.202979659470394,
+        "maxLat": 52.22834851671204,
+        "minLng": 6.938685327446668,
+        "maxLng": 6.981100052502928
+      },
+      "encodedPolyline": "sgu}H_fri@P?XAJ???@Ad@@TDZHTHNF\\PTNz@j@ZNTJXFv@RD@`AVD@RFFBFBJD@?PHHFDBFDPLRR\\XZ\\`@`@@?XZBBFJHHFJHLFJFJLRLRNRLRLP@BFFHLFDBDLLJJLJJJFBBBLH@@RJLDZL?@TFZHTHNSXLLF|Ar@pB~@TJPH`@RVJxAr@A@TJz@^He@v@b@XLnAh@^Pf@Lh@V`@d@ZXp@v@d@h@PZFPVd@`@t@LND@DCB@?FAN@Bz@lAp@|@DF??V\\DDJNPXHNJPT^?xFqCvAu@~\\i@l@qFlR_@e@uCvHeKgHsBfBg@~Sw@fHcRftAwDdOsArDsVcBoN{AqN{AuLwC_A{@c@kA_A`As@xEmHoBrEkg@LmDsHy@jBub@g@wAFuCuEaA`AoSnHRZsJrCYBuHy@eV_J}YQA@CHMDIXi@|@eBrAgCJS@CBEXk@R]`@w@BG@ADIDGVc@JSNW@Cf@{@BEJOJS?AJOHOBEDG`@s@Ta@@AVe@Vc@R]@Cb@u@@CPYJS^q@T_@d@y@@A@AXi@FK@A??Xg@BE`@q@BEJQLWfD{F`AcB@CHODGxB{D\\m@Xg@Xe@b@w@@A@CHOJQHDDBn@\\ZJNB??VDf@FF@PDb@FNDTD@@B@l@ZHFz@l@n@b@|@x@@?L@@?HQL]HI@AH?HBx@^RHp@T^Hf@Fb@@JA`@AH@|@NR@NA`@K|@Q@AXAZC"
+    },
+    {
+      "name": "Buitengebied Zuidwest",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.16120591785053,
+        "maxLat": 52.241005791110126,
+        "minLng": 6.755892710151493,
+        "maxLng": 6.970903135113072
+      },
+      "encodedPolyline": "cds}Hmzdi@eJdAwEgd@{MPc@zA{F~IeE|A|AgDgAsBaCtCqCuAnAeCv@aEGiFv@eF{AqUeIyRxAoHf@yIWiXh@aa@rAsDvDeObRgtAv@gHf@_TrBgBdKfHtCwH^d@pFmRh@m@t@_]pCwA?yFPHtD`BpE`EbE|B|JlH\\]nBvDpB|D|AxCHLlDjBtE~Iv@DtAJb@B^BZBdBJf@D\\BlDeA`BzApE|F~@jAh@n@zBdCzArBd@l@hE|FdHxDfHlKXu@lHlJtE~FNRl@t@MnD|BjDb@jLJ|Bh@fPn@hQ@Z@JFr@CT@J@RTv@Dr@DVElA?VVvE?BB`@Ll@HXLRRVHP@?FNb@|A\\jAFt@DbBAl@DbAPhCVdB?J?RFlA@zCA`A@x@Cj@@b@H|A?@BdA?DBrAHtF?pF?DNzH?@?@NlI?BBdA?B\\bRBhB?D@H?B?L?DLpH@V@FRvG?FPtF?@?B?@B^@T?DJvA?@?@RbD?BNbCb@pG?DBd@BP?@?@@BPrAx@pDNr@?@f@fCB?Pf@Lj@?@`ArEbBGf@zDPp@PZ??@BJLhC~AB@@@p@^`@ZNFXD~AU@I@?d@Az@BPFVR^^RJ??B@f@I`Ae@RID??HJ?pAPJBj@TTBN?d@Kb@SVW@A@A\\`@h@rABDHRj@hA?@rAjC^v@?@d@~@P^l@jA??vC~F@@P\\pAbCfAdCTf@ILd@jA@BbAbC@B??BDDJ@B??JV@DDH@DVj@N^@BrCzGhB~DBF??|AjD`CjFBFjAhCR`@?B~CdH?@r@`B@@~AnD@F@@BF?J?DAJ??Aj@AREbA??Al@[xJAFA^EtAIbCAP?RC\\?@?DCl@Ad@GzA?@?P??AJ???@Ad@AVAXAJ?JATAVATARATAl@ARCt@Cx@??AJ?PANARA^?@A^?BKxCEx@?FCp@Cv@OdE?Ta@nL?DWrH?F?@AP?H?B?BI`CE`BGtA?PSvGSbGEbBAHQnA?FG`@??a@dDIn@ALIr@CLCZCTCLCTIx@CPw@rGAJIl@AJCXEVAP??_A`ISdB???@iB~O??E`@?@g@jEgApJA@C\\??G`@m@fFaAbICPa@hDE\\?@yBhR??G`@??uBrQiBtO??Gd@??wB~QCRMbAUhBW|B[bC?DCP[rCIp@?@ABc@tDShBQnAUtBE`@UfB???@??EV?@???@S~ACXUjB[jC[hC[rCo@fFANe@~DS|A@nC@zC@tC@zC?rB@Z?v@@hA@xA?jB?bC?~A?\\?hD?\\??BfD@`@@~@?j@?tB@hE@rC?B?r@?d@@tD?H?D?R?B?J?@@`BfArCv@rBFP??d@jAHRJV?@xBvF@@?@@@?@HRDJt@nBXt@BD~DdK|B~F`BfEHV@B@@wF|LMV{FfMYl@o@tAUd@a@|@GNm@pA{DnIiJlS_FrKINSb@kKhUEJMVQXAB]h@cA~AOVCDCBA@aItMmGdKKPABmEfHMPmEhH{AfCIJ_CxDEFqB`D_BjCA@S\\c@t@y@pAMRy@rAyBpDeBpCgBvC}CbFeAdBe@t@MT????GJAB@AU^OV??GHm@bAmAnByAbCQX}BtD]f@a@p@KRCBS\\k@~@E?e@?kCBmB@oA@{@@Y?w@@W?Y@iBBqBD[?aDFqA@}BBQ@Y?mDH{BDI?qDFgBDQ?i@@U@e@@m@?Q@{A@{ADk@@yDFCBKF{BfBqB`BA?OLWRm@d@A@IF]ZkFhEA?C@cAr@_@VIFYTy@p@[XwAhAGFmAbBGHsCxDuCxDKNe@p@YJ[LA@[LGB}An@C@QHu@Zi@TyAl@cA`@??eJvDGBC@C@IBcJrDq@Vq@XgC`ASHOFo@cAo@cAyAyBaBiCiOoUIMMS}F{IuAmB{AcCoAkBCEa@m@eHmKCAKSII}EoHA@}@d@sBhA}BnAOFCBiB`AA@A???i@Zy@b@_LbGwBjAQJGDYNA@KFwAv@KUa@}@s@yAk@oAuBoEUg@??[o@??MWCG??Yk@[o@?AOQACKUSa@GK?As@yAAAg@gAWg@Wg@MWu@_BQ]EIy@eB}CoGQ_@ACCE??EKCE??[o@oBaEXkBD[r@eF@CtFy`@~@yG@GBSDWPmAtEg\\D]Hk@??pC}RdBaMp@qE|CyT@IrB}NDWZwBDY?CDUvAcKF_@Hm@pC{Rz@eG?Ez@gG@CDYD]??@A@I^oC@Ex@cG`@qC?ABMc@OqGoBCAOEC?]M_WwHAA_@KOGC?QGCAq@SCAcCu@WI??UGA?_A[A?iA]A?a@MCA??{FeBc@OA?s@UOEEACAiF}A?AkA]EAbB_Qv@wFdA_BbE_CxBsArBk@f@g@lAcClAiChByBbBaAp@c@vGaI~BSxBAjBq@vEyArAoBhBqJx@wG?oAWeMrBsKrQr@bMtAvN`VdALfBeAvU}LMfEwA`T|CveAfEbuAVhW~EeInBsDxFoKpDeI`EsMxNgj@nH}_@wPqQ{KeQmJ_UgBqK_BwPcAwDkEuNwFi[yCca@jA[zEzA`HjF~DdGxDlPvAxF|Va\\hM}TxGaKvRoZgA|b@zQxS~JtB`Jd@rD{D|G~FdQ|Y~AyIVwCQaEPaI~@aEpAsCxCeEtCwI\\@?eMzDsFeDoPtDm`@SeAn@{FbAqFc@iK~ApDdArCtAd@xJx]tC_[r@_JhCoWe@}W]mSo@sY_CwHkDB_EaAqAoRU{PsCsGcCq\\_FJMgj@_EoZgFoDoN|MsKvOyEaV_EyRcD|BoE[@iBeG|AgB{B[gJoCrDsCrFkFpDsIzB"
+    },
+    {
+      "name": "Buitengebied Noord",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 52.225601584895394,
+        "maxLat": 52.28550574747624,
+        "minLng": 6.831744609034729,
+        "maxLng": 6.9730280087464385
+      },
+      "encodedPolyline": "khz}H{}ei@iDRqGQqGFyCrIbDzAUvIsE~DpB|Q}BrEQ`AdCrBxCxC`B~BjEzMhAlEr@pJaBZcA|OBjGp@`PhAhOiCrB_H~HF~CtFiChA`JxAU\\nEmDfAn@jFjD{@Fx@RIP|B^G@D^KLnB{BlAI|X{Jc@KzLCpFCxMfAhA|KoCwEtLrE`B`A|HkA`EwAlCcDv@FnIdFX{Ax`@wAvR_GGYJcIlGqKvIEHeGkBKcDiFEaCuGVmGcEoDgB|bAnApRgDvBmFtHMJy@p@C@IBKBwDfAoA^i@Nm@PaBh@MDUJk@TsA\\e@Ju@@qGFE?SD_AL_Dt@kBb@uAa@y@WSIa@MeAqBc@}@MUe@}@KUkCcFMSo@My@M_@GUCqEq@WByAXu@NQBUFe@n@{AvBgAzAa@j@_AtAoBnCYb@SXW\\ORmClIGTABg@|AwBxGM\\GRCFQ\\}@fBMVeArBiBnDw@|AEHS`@kAzBcApBINMVOXKTQa@GOAEAA?AkAqCa@cAACAA?A_B{D??}JiVAEJaBb@kHJgB@I@OH{AJ_BBa@B]?An@cK@ONcCfA}QNuB???ALyB@E|@eO?AB_@?ClBg[@O@K?Gp@qKl@sJ?A@I^qGDg@Du@LuBBY^gGFw@?ED{@BU?ITgEBY@[NaCHsABe@FoAL}By@qGo@aFGc@OoAE_@SyAGi@s@eF_@qCAKeBoMmAeAIGQn@[YKI_Au@Ns@ACiB_B}BmBaBwAaEmD{BmBg@c@QOYoCCWWN{A|@sAt@kEfCoAaIy@_FWeBy@@C@C?}BDBeAHaDBm@?S?M?OCgA?AOmBEu@o@{I?ElN_JyCmCyAJ]yAsAcGCI]eBu@iDYqAcByH@ARQ`BiAo@_H[cD??Q}AoDuYy@aHgBwNGe@?Ez@{SOqAIm@g@mEAKAECAHKDEBAXKfBk@tC}@r@S@AB?xBs@zDoAEYOy@u@_ESgAk@_D_@qBG_@oAqGCOKk@Kk@AKCMCO?K?aBA}A?cEAmL?k@A{HEmY?q@AQ?W?u@?E?G?uCA_E?m@?uFA{@?ICwE?CEkGAiB?E?y@E}D?QCsEAa@?G?E?C?E?E?C?C?G?CCkEAeA?eArFwNRg@|AaEBGNa@dCwG~@eBR_@hAwBb@y@Zm@n@kA@CDGZo@~@gBr@uANY^q@Zm@JUv@yAJQd@aAZo@`AmB`CyErAmCn@sADIFM|@iB@A`@y@t@yAfBqDDIfCoFhA{B?CBCp@uA@CDI~@iBz@gB@Cb@{@lBkDjBgDZk@h@_AhEyH??DGfCyEP[?Af@}@bBwChAqB??xAmC??nA}BfAoBXEp@I^E?ARCNAbAMvAQrEk@PCbFm@??xEm@lAO|B[`C[zDg@jC_@JAtB[@BHCb@E^GD?XEnBWrAQNAxASPC|ASjAOf@GBApBWrBW|@Mp@KZEvAQzASXEx@Kv@KTEp@Ij@InBYn@IPCvJmADAJDB?hGtA@?r@N??pBd@lCl@dCh@??B@r@N^DD@??VDJ@F@??TD~@n@tD`CRNbBfAjAt@PJ??BBjEvCnCpBjC`DVZ~@hAp@x@JNh@l@BB@@r@|@@B@@\\`@TXj@r@LNpCfD^E@?DALAB?h@EtEc@lAKXClAK|AO@?PAzHq@~@KfBOtBQVC\\E@?@CnAeC^u@rAiCvBaEDIDIDIJQ@EvDkH@AP@~I|Yx@dVCtHsCX[rJoHSaAnStE`AGtCf@vAkBtb@rHx@MlDsEjg@lHnB}O~lAPnDiNpKaBiHgEeDkIkGsFVgEhAyUwDlCrk@aIxYY~A"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://api.pdok.nl/cbs/wijken-en-buurten-2025/ogc/v1/collections/wijken/items?gemeentecode=GM0153&f=json&limit=50",
+    "license": "CC-BY-4.0",
+    "attribution": "CBS (Centraal Bureau voor de Statistiek)"
+  }
+}
