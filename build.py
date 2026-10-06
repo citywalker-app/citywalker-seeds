@@ -28,6 +28,11 @@ SEEDS_PATH   = ROOT / "region_seeds.json"
 
 BBOX_TOLERANCE = 1e-3  # degrees; polyline encoding rounds to 1e-5
 
+# iOS up to 1.2.1 drops a downloaded catalog over 5 MiB without a word and keeps the one
+# it has. The catalog passed that at v176 (2026-09-30), and no change reached iOS for a
+# week. Later iOS builds take 25 MiB; until the old ones are gone, a build over this fails.
+IOS_LEGACY_MAX_BYTES = 5 * 1024 * 1024
+
 REQUIRED_CITY_KEYS   = {"name", "countryCode", "regions", "source"}
 REQUIRED_REGION_KEYS = {"name", "boundingBox", "encodedPolyline"}
 REQUIRED_SOURCE_KEYS = {"method", "license", "attribution"}
@@ -141,7 +146,17 @@ def main():
     args = parser.parse_args()
 
     seeds = build()
-    rendered = json.dumps(seeds, indent=2, ensure_ascii=False)
+    # No whitespace: the apps parse it and nobody reads it, and indentation was 7% of the
+    # bytes. The values are unchanged: the apps compare stored region boxes with these
+    # exactly, so rounding them would read as a reseed of every region city.
+    rendered = json.dumps(seeds, ensure_ascii=False, separators=(",", ":"))
+    size = len(rendered.encode("utf-8"))
+    if size > IOS_LEGACY_MAX_BYTES:
+        sys.exit(f"❌  region_seeds.json would be {size:,} bytes, over the {IOS_LEGACY_MAX_BYTES:,} "
+                 f"older iOS apps accept — they would silently keep their old catalog")
+    if size > IOS_LEGACY_MAX_BYTES - 300 * 1024:
+        print(f"⚠️   region_seeds.json is {size:,} bytes, "
+              f"{IOS_LEGACY_MAX_BYTES - size:,} under the older iOS limit")
 
     if args.check:
         if not SEEDS_PATH.exists():
