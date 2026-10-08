@@ -1,10 +1,12 @@
 {
   "name": "São Paulo",
   "countryCode": "BR",
-  "aliases": ["Sao Paulo"],
-  "centerLat": -23.68283,
-  "centerLng": -46.59568,
-  "radiusKm": 40.28,
+  "aliases": [
+    "Sao Paulo"
+  ],
+  "centerLat": -23.68317,
+  "centerLng": -46.65796,
+  "radiusKm": 37.89,
   "regions": [
     {
       "name": "Aricanduva",
