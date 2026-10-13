@@ -2,22 +2,100 @@
   "name": "Edinburgh",
   "countryCode": "GB",
   "aliases": ["City of Edinburgh"],
-  "centerLat": 55.905235,
-  "centerLng": -3.247545,
-  "radiusKm": 13.22,
+  "centerLat": 55.932107,
+  "centerLng": -3.214483,
+  "radiusKm": 9.25,
   "regions": [
     {
-      "name": "Balerno",
+      "name": "Colinton",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.8187919,
-        "maxLat": 55.8961464,
-        "minLng": -3.4201441,
-        "maxLng": -3.2740766
+        "minLat": 55.8685726347282,
+        "maxLat": 55.9150216795936,
+        "minLng": -3.29130211607759,
+        "maxLng": -3.23025478304184
       },
-      "encodedPolyline": "enctItduSMmGEcCOwFEqBIkCE_AKyBGeBKuBOiCEu@WqDQaCMyAMuAWkCMuAMwAIoAMoBS}CG{AIeBG_CGcBEuBCuAAgAAwA?mC?}A@iABcCDiCFqBF}BFmBJgBLaCNmCRaCX}DNqBVeDF}@HsAF}@JsCJwCDkCD}C@sB?}B?yACkCCyCEyBGuBIcCEeAKoBMyBMiBIkAM}A]eDw@sHg@yEoAsLuA}M{@mIo@{Fm@{FlK{I_Oks@lMyGs@oGlFsDHr@|B{AF^r@e@FUtAy@z@rEv@W@g@Fa@Jc@PWt@mBJa@Jw@K{AM{@yBgDKYKuAMk@i@mASw@kAoAbEwFxC}B^rA`F_Fn@JjBmAxBkFhAH~HcJnSkh@p@d@bDiLJ?nBqDd@mCCeApQgY{BaXhPaN{FmGpByw@rVy[zDe]~FbO`HhN|M|Zh@xAGpEZvELv@@rADZHlDKpCWp@QdAw@~CkAlCOv@MNu@fCFrA?`BHdB@@\\pBJhAbAtDF`ALb@xAbC`BjAxPvYfAzBv]tl@`CjEdR~ZnDxGzi@~~@tElHpJ~PpQjZ`ClEt_@|o@nKdQ|AzCtFjMlE`BfDs@rFpDrJ~ZbBfDmAxJsA|Fa@hD@hHxAlKhFtX@~GJ`BvGbOpApBvB`B|AzI~AdKhAxIa@fCz@nM?dPXzKvB~HdChSA|AQbA[bDWvAuB`HoAqB{BeDaBsBc@SqC{@o@Yu@c@wCqBmBiCYEuDJeA\\cIjFmMvLmDlCgFlDMPUs@QR[PUl@c@^e@`AKFW@MLe@~Ae@dBa@dCCf@EbCD~@An@Mb@CXI\\[d@Mf@?HSXUnBu@rCGn@Sv@MRc@^GRA\\Lf@ANGJg@|AgBd@QCIBCDQtCS\\Op@QTCNIRQRc@F_@AK@{@pAmAlAQ\\i@f@QXGTAr@IV_@p@UVIAIH]j@Oh@@XQlBI`@IHa@RYB[l@c@^[DOGc@ASFIPG~@Qz@KJWDYTCLEDMBGAMSg@iAKM]QKg@OmASm@WqAIm@GMGEQ@[PSPM@EGK@_@zBu@`CIHu@TSRK\\KbAOn@MLI@UVEv@?fACf@GVYv@EZ_AzAA@IZBv@Or@Bn@BNCDY?O|@BtAEdBGx@ILQLa@@QJ[HWXOXQdAIFYDMr@EJe@l@q@^UXAFBHNHDDBJC\\Q\\IFGACGAa@EKGCYLMME@SL[b@Op@s@lBM~@?T\\@ZLVVFP?XSb@G^IHM?UGOMMWKo@Yo@{AmBYGYA}@Hu@PUBQEa@WIMSm@q@aAsAqC]i@SO[MgAGQOa@k@Mg@IwADmAO_@e@i@mA_@YSo@q@s@_@YC_@NOV]|AKRUPo@De@JkAp@MNq@hAk@r@OH_@Hc@GSO]i@MKWM]EIMO{@KeBGo@?]Fy@P{@N_@RIPc@Fm@Ak@IWIIg@Oo@[eAcASKa@Ka@Cc@Dk@NSPK^M~@IpA@bAALkAbE[d@SNiBZm@b@_@XSn@KtA]|Am@nBWd@a@TMAOMGOCSUkC_@q@]YOEYLINCNEVABUPY@a@JW@]G_@Y_AyAKo@EmABaADm@XuADk@Au@Mg@UKMYKMo@YaAHQCYQYe@Qi@_@qCKWUKMYOYKMmAYaBwCmAyA}@c@UEk@Dq@`@QA[YeA_BYi@M_@Mi@E]Eu@@i@Hu@V_B@S@w@FqAPsAVoFGU]_@Wi@OyBGSUc@SMs@Hu@c@g@e@e@w@m@_@e@i@{@sB[wBOi@Yg@m@u@g@cAa@q@]e@Yk@QOOOO_@CSCY@qAScCAI?WLgCXeBDaADOCk@Ec@mAt@Qr@CFOXETKRI?CVK?M^SLEXe@h@w@r@YVWZm@hAy@fB`@x@DNE^BHARUt@zAjEHrBn@hEHzBN`HSTaOhOkKdLaMnMaGjGURE?Qa@E[O[ASMi@GIYq@i@s@UuADgAQeCCeAo@gMQgEBm@c@oIGM}BiA]KIUQGQ]{@eDASEICgAMeC?UCYQm@Gc@KSAOQDa@o@[EEMD_@AGGEGFI`@C?GSQEQQM@MUE?CLE@[i@KFANIDERCJC?c@kA]g@IGk@@]V[CSBm@IQR?JFNC^Qv@MXId@O\\@VJR@HEF]@KDWrAS\\U@IFAJ?`@CJWf@YXIbAIREAGKKYQm@GGK?ONOp@ILMHUFOTi@\\GEGQMgAQ_@o@GSSIYECYLO?[SEB?NE?Sc@AY@q@AGQa@i@WGKGOF{@@y@Aa@K_AC]?qBOy@WKQe@A_@E_@AyAO_@Sw@?ILc@A[CSEIMBCC?]AGKUWUC[Wi@S_AKWK]KMEY]]EQMWKe@S[D_@Mq@KQ]EQSCe@UWEOB]HGBIAWCOOSUI?[EKc@DIIOgAI]ISOOG]_@cAc@{A[e@Ge@Uk@mAsDS_@]cAUGWc@S?OM"
+      "encodedPolyline": "u{gtIpzwRnm@c_@bUiPv@|A^UnE_FdDkBnCSdJl@hBj@rGw@`PkDtKdA`HpLjk@yBbEtLCpAhBfNs@pFhEzAxF|DfNMhD~MCrKvBpFfF|Uj@d@x@A`FtAxBi@fBzBxA`@lC|BvIhMtFvCuB~DmAJ}BjA_GvQWdCaCdDcA~DcItKO`AoBv@i@`Bk@@g@pAu@VcA~BVtS`@vCyIxA}g@xD_Cp@oAzGsElL_CnDgFlChJxRjBfA}@bCwE|Dp@hFyA|@fBpKqBvAyGg]oF}LoK`PyHpJaGfCa@Dc@k@_IdK@tHkFpIb@dBsPbOUmB]YQNs@kOqEqHy@cDCaDqHuTFx@eAwE?yEnAkB?k@kAyC_BgI}AuA{@KoEuFo@hCAjB_@c@cAoCiDiRgAjAcCkJyA{BoGqFeH}Qn@yBuDkJXgCxDuL`Aq@U{Ak@LqCaAIeFsB{Ae@_BgAmKjCgHyA_ECo@~@sAIkBeBiFdBmDuDsLfBmFnEeGoL{Y?gA"
+    },
+    {
+      "name": "Corstorphine East and West Craigs",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.939551473963,
+        "maxLat": 55.9605690368508,
+        "minLng": -3.34700075388245,
+        "maxLng": -3.29380253732379
+      },
+      "encodedPolyline": "evptIdvcSpkAwf@fUeDqDdo@nJMkC`Rz@tW`DzMlA`L}EhB~A`^vCE|JyXtBdl@O`ERdCtAxBg@KYlAwH|Ey@}Gc@q@_E~Q_IjXiIdUeLbUiJpOu]th@yI{q@eBqIzFaQtHiJvB}a@vJc@hIat@lAwMT{Kb@{B][o@^i@Y}|@sk@eAoC[aDj@eR^aA"
+    },
+    {
+      "name": "Corstorphine Gyle",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9266793271336,
+        "maxLat": 55.9452696666369,
+        "minLng": -3.32372901964128,
+        "maxLng": -3.2858150633676
+      },
+      "encodedPolyline": "ksmtIfibSjHmAb@k@`LoD|GtChAS~Z{Y~FkE`PkJtFpn@`NdiCkMzMyJjHoH`Dsa@rM}At@qBhCoAd@c@@uAyBSeCNaEuBel@}JxXwCD_Ba^|EiBmAaLaD{M{@uWjCaRoJLpDeo@"
+    },
+    {
+      "name": "Corstorphine and Clermiston",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9303222714171,
+        "maxLat": 55.9625108077464,
+        "minLng": -3.30098829918062,
+        "maxLng": -3.25041574374753
+      },
+      "encodedPolyline": "udqtIha_S|TeRCaDdAdAzJsOZf@`DkCz@`E~JiH`CdY~@{BpNqLvCkD_@cEtA{Cz@qK~DuNlBcBr@IdB`OnHyAbAvHfMcHEoChCs@CaSrAoGdBuEjKgRzAgFr@mH?sDSiDcAuD~@wAnp@f|EaPjJ_GjE_[zYiAR}GuCaLnDc@j@s^rFqkAvf@Wk@NgLUeMqLawB"
+    },
+    {
+      "name": "Craigentinny and Meadowbank",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9510849761217,
+        "maxLat": 55.972628580559,
+        "minLng": -3.17367356442919,
+        "maxLng": -3.11576123173055
+      },
+      "encodedPolyline": "_sotIvwjReD_FqAu@sAZk@`AkBoD}@wGQh@WKb@cPqD{@{CVsB`AeEpFa@mAjE_UkEkH?sAk@g@kDaBsB[cCpCaAKBqBkAb@o@sDqHmScBaH_AmLVoG{@sOOPsA{JwE_JgAs@iCFo@o@p@}DWaBcT_ZjH}VlBmEj@gD`I{RlBwDhDoD`BwDnQmYjEcLvQwk@fI`Sj@vTo@~@DhAVh@nA{@n@^`BYrIrAlBMlBlNp@xNeLhaAiBd]B`ZjA|QpEh_@bBfI^DxDlJrFzPtFtg@oQtIj@xOs@E_BoA"
+    },
+    {
+      "name": "Craigleith and Blackhall",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9493897110254,
+        "maxLat": 55.9682465044412,
+        "minLng": -3.2771574914134,
+        "maxLng": -3.22120710420646
+      },
+      "encodedPolyline": "qhrtIrbwR?aB|\\}TrFkFb`@}j@`KsMrCcClGzd@dGtz@wKtZoFjI}HnG_@~C[dPJnAt@]z@zEd@X`Bo@p@XxBnO`BtDxAjAf@jC~@r@l@dCi@\\WMF`Ar@r@`@jBl@\\d@jBWNzAjDb@?d@yBz@c@tFti@Dv_@`Af@`AxGkHbIwIxGeAjB}BkXaKbHy@}DcDfCWg@eKzO_AeADvC}TdROgPTmNzDwu@jCu^d@gO@_b@w@mVyAaQeAmGoEoLyCoDqCqBaCu@}JcAuAq@}CuCk@u@"
+    },
+    {
+      "name": "Craiglockhart",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9127992929497,
+        "maxLat": 55.931666896373,
+        "minLng": -3.2595186592889,
+        "maxLng": -3.22142268704974
+      },
+      "encodedPolyline": "mwitIfztRrTgK`@HBbBzAaB~E{B^sDN|B~@v@zKDB]lCACn@nD`@xAE~EiBh@f@FtAe@|@FhV\\`Ap@HBhNu@VYvADjSd@v@@`Aq@hAwDFcAd@HzTfAbIcC~AM`AtLnZoEdGgBlFtDrLeBlDdBhFHjB_ArABn@xA~DkCfHfAlKd@~ArBzAHdFkF`@uAaAmAgFIuHqBeHqCyAkEiAoAmBw@sC[I[\\MhEq@fAcBf@}DkAa@uCjAgF[aI_@mCqDiD}@k@iFc@_BkBcBr@yBfD}c@kkAiC{F_FgHb]oo@~DiMxBrApC^"
     },
     {
       "name": "Craigmillar",
@@ -25,25 +103,324 @@
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.8890878,
-        "maxLat": 55.9600189,
-        "minLng": -3.1717988,
-        "maxLng": -3.0749528
+        "minLat": 55.9147067695899,
+        "maxLat": 55.9448007177102,
+        "minLng": -3.15387934284183,
+        "maxLng": -3.07962498840534
       },
-      "encodedPolyline": "uygtInw_RlDfAp@r@R`@jAE?uAT}GJ_BPyAa@q@nDuJnCyEFTXe@LULULSFKKSnCaFzAgDfI{OfCkDTr@hBqDKWrAwD`EkJtFgSfAcD~MgPCI~@aBbBeEbBuFF_ArAdBGv@@n@`AlLd@`KNzKGrTFbOd@bNC~CD`B~@zQhBi@Pd@Yp@QbAEz@@nAZfG^bFfBtPnBjMtBjKjCjLR`AzOjn@fAeAFXG^@ZfBbJrAtIfAxIrAbMp@rHnCjb@HrBGpCNlLJzWb@xg@Dl@Rj@p@t@O|@c@GUPMVIb@y@~NgC``@KjBqJn@{@Ji@@o@M]Qe@_@q@iASKQa@qB|@MGK?MGIOiDkA_D}@w@WcAk@yCiBQOyAuBsEqGBeC?y@G{AMiA}@gGy@kEU_CqCcPYiBGg@GyAK}@SqAeA{FaDiRyBwMsCuPgCzEcBjCeEaFyA_B_I{IqBqBgFsAg@xCa@~AGhB]rAYfBg@UIZUTGPOHEAQLOJ_@XSAWAMJEJOf@IZiAAi@KcCaAu@Yg@Kc@G{@c@q@g@g@Uc@l@Yf@Yn@oAjDQ\\i@|@w@x@yAz@WXSTQXiA`Cy@fBy@rBiD|IeCpGUl@i@|AOj@YnA[pBi@`DQp@e@vAk@dAy@`A{A~A{AdB_@v@Uh@qBlF{DfKyA|DcAfCGREVC^mAGaEYcAG_@GSDSHKLCHALU?COQYAUAKGOq@eAAACGAEq@mAMUK]GEIAMg@CA?SDGAII]i@mAq@cBQW_AkCIAI[?IYw@OYYWWc@CILk@VcBTqBJ{AFmABu@B}@?uAA}@AgAEaAI{ASwC]wEu@sKYH{CyEyGqK_CiDiI{CiB_EyGmPa@cAIa@AYM][MSOWe@e@w@Ik@ACWi@GmGKoAy@uC]e@EwA[oBO}CSe@?qAK}A?_@M_EBcBC_A@_CDcACmCCuEZ_CDuCQmBUk@F_B?iDQkBOa@Yu@k@eAiARA?C@eB|Aw@t@aBbAYj@AfA_@|BqAzNqCkEeBiEe@cBk@uBa@wABM@U@a@C{Am@m[GaCUqEEyAyAp@{@b@kFzE{FdFuGnG@JSLCc@@EwAgPy@aJIm@Oc@[m@q@oAeC{E{BaE}CbJ{@lCeDbLgChK}BpKmArGc@k@?Q?QCU@[AaAGiCMiCCa@Ek@I_AC?Gm@GIGo@@Qk@aFCBMiAG??GUFk@Bq@Aq@G{AWwAWsAWu@IO@MDMJIBK@M?KKKOKEG?IBKF[^UTEQEEE@CCAGEcAVG@GRYBIo@}PGkAFM@?@A{GwNiAoBRo@DKLc@T{@Hm@HOLm@F}@Ns@TwAVaAb@cAj@i@Z@FD\\tAFIHW?eBVw@`@cAh@gBh@}AJU\\k@d@cB~@mBvAiD|@iCj@yB`AuBBGN_@BQvAyCBEv@eBPi@hAqBLYHILc@JOZy@xAqEZiARg@bAiCh@eB|@mDf@wAzAiFzAeFtA_FjAwElAkHP}@\\yBLqA?c@Co@@CCIEe@Ig@Ek@Qy@?CWm@SKIK?EFIFEAIGM?GFCPDM]ZE@IAYHG@WDEN?AGGO?KBKJGEG?GJMCc@HMFi@N{@BcBCWOc@EG?QES@SCKBUFKDSEk@@YAoABa@DS?SFy@Ak@DSB{@Ee@Jg@Bw@JcAHaCFUV]DOTgAJy@VeBL_C@e@EMG@Yj@QF[OQ]AMLaCAa@EWYs@GWc@qFGkAEmHFq@Ps@@SASIi@A]D]Ty@BWrQfQh@jA`@ZXd@VJj@CVFhB|BfAjE?`BI|DF~BvD_BzFz@bBwAtB{@lJdCjEnJtDaHX{@|AeDt@uBjB|B`GsEFEpDqCd@|DzKlu@Pe@dAgBw@rKeA|H\\rCT`CVnC@tBRdDRrGJZ@tGHpB?DZrCtAzHn@|HvAxLN`HhArQOzJpBb@DLXJXHNBfARvC~@tFfBdFp@x@F`MbAxA?r@NhElAdBx@tEv@^XXp@XZnBj@`Bd@ANfBj@FIdKnCdCv@RF"
+      "encodedPolyline": "_vmtIdhyQFyIzDK`Fp@tFiCpIzBrFrKjI{RtBbBzLkJ~L~z@vA}BuBzTdAlM|@x[tFde@nBdh@vQtFd[tCzOnEv@hApGfCpQvE_EpT}At@cDw@cAcAaAbCJbCq@`BHfDdCpBc@nJz@`AIjAp@_@vGdHFr@{FpTVd@uJtWa@g@eBvFcP}a@sUta@jZnm@KrAcAgAQ~AwAdBjCzAeBtMiDdG_KcQFq@kCsEsAfCeCbBc@g@a@p@}DeAq@yA?oIOgC[CeAzD}CtDmK`R|CjHnBhItBnT[HmOcVsAgAaHsBoOy^E\\}@cECsFcBoGuAaOSs^^gF]{Le@mCcAcBgAPaGzEeC|SwAu@aCoEiC}JgByr@{F}jATiFWod@jA}AlB_AdR}FnGqE|HsKbJuQuK}B{H}EkAKeCxBaEnHcAp@iAeAu@aFyF}MOsAVcBiFcO?}Rm@sA"
     },
     {
-      "name": "Drylaw/Telford",
+      "name": "Cramond, Barnton and Cammo",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.9606614,
-        "maxLat": 55.9880786,
-        "minLng": -3.2713511,
-        "maxLng": -3.2151045
+        "minLat": 55.9495727759263,
+        "maxLat": 55.9956419204039,
+        "minLng": -3.35391061489498,
+        "maxLng": -3.28277737690997
       },
-      "encodedPolyline": "_ertIhfwRpAdA~Ar@`ARtDVjBPvBj@dB~@vA|@xAhBxAdCnAxCzAzEZzAn@nEd@xEv@fLL`CPdFDnAmArFoG~YyEpT{DzQeFjBCMo@TIhAsBKuCrAOFOHOFa@Py@\\LzAJ`AB\\DZBZDd@Db@Fh@IDKFOHWJWLQLOHOFOHQJKDKFQHOH[N[Pu@^_@PSJa@R[Pg@Vs@\\u@`@[N?@Wr@KXKZMXKZENCFGKGIGIIMKMMFKDWNYLOHMFg@VOHOHOFIFWLKDMFyVdAWtAQRQFUGIOc@HgBcAc@`@s@WaABWMKBi@b@kAYkAbAIRkTrPYmBfBuCx@iHPyJ`AgDvCsD\\jD\\@VgKK_BwAkA{DyLq@aAw@?kAkCq@@mCgFgBkBkA_FRuCrG`Dt@qANW^}CbBi@OqAVm@eAgCgEuNSaB]mCa@o@q@TKsB`AmCj@eLkAkBjA_Aj@wMIcGcAoCt@[TiDKk@_AIfA]c@Uv@QXkBYoA_FiF}C{F|C|AhAqC`@eEUmEM{BoBkD_H}G{CyHkDyw@r@kHtMyRvWzBjCXlCgATIp@b@RgAD@~@f@`AGT?Xx@KxDhDm@P?DwBbAQBFlDo@AYl@MD`A`Au@D_@zAS`@b@FYFACi@vBc@BxAp@OFD`GmAGuAz@QVWbAUVHNvEZrJPtEPtEd@lKTjFlDm@`@|J|@UTfFvA[HARGPnEfBz]hAvVD`@PLHBFX?\\EL`CfC"
+      "encodedPolyline": "skvtIvh`Sf}@fRfLsLpOzCxBfRh@v@\\lP`Mdx@hOwIlBaGvA_JnDgIvCuCdCvBl@qJdAAWqHzBe@yAqNbSmGxF~bAIhTZ|@c@n@k@rPv@~GpAlBt{@hj@h@Xn@_@\\Zc@zBUzKmAvMiI`t@wJb@wB|a@uHhJ{F`QdBpIxIzq@y^dj@qB_BwGcAk@_AeCyGsMwVeBwR{ObLwGux@u@aHoAmFoBwVd@eMlAiI`Vgi@`FkJnIeLuB{CqBhBsDHoBlCkBN{HcJgFaEoEoI_BiBaEwAsDmDuAcF{Ea[aBgDyAkG{@gA{AWcC`AyABoCuBaO_FaNmJ{F~DyE`B{ALaBvBgFu@{DqCoHsMyIsLkLqF{DgEmBiPByOjAkBjAm@|Aj@hEe@vEcINvArA}C_@hDxAeEzAeAPh@]vBtBoGnEcHLp@_@hC~@o@"
+    },
+    {
+      "name": "Currie",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.8712194256211,
+        "maxLat": 55.9215330764118,
+        "minLng": -3.34945714872316,
+        "maxLng": -3.26915571870574
+      },
+      "encodedPolyline": "athtI~hdS|Tee@|DqM`D}QpAlEnA~ATjBnDxJv@`Bt@d@~BlOfAiBfE`A~GiBdAwBfTgReF_WtDmAR`@~Ez@tGs@`EqC\\XTlBrPcOc@eBjFqIAuH~HeKb@j@`@E`GgCpFqGvMaSnF|LxGf]pBwAgBqKxA}@q@iFvE}D|@cCkBgAiJyRfFmC~BoDrEmLnA{G~Bq@|g@yDxIyApKnK|NfQ_Er\\wVr\\oBpw@jGpGsPtMlB|XmQ|X]~D}CrG}BjIm@e@aSxh@wIrJu@OeB|DiB`Bo@QmGbFQk@wIxIzAzAd@jARfDvCpFD~CwBbHo@N{@yEuC|BEc@_CzAIm@kFjDn@jGiMfG~Nts@eY`WwAxP}L~O_CcQmUnJeP`Po@{CcGpC}CrCoX_S}AuJo@{@_AgEeBcDoCk@m@sEaBcAVkGqBmLc@mGWaHJyMmEul@aCgMuCcd@{Huv@lIiLn@_@|@B`@i@p@uE"
+    },
+    {
+      "name": "Davidson Mains and Silverknowes",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9605616572167,
+        "maxLat": 55.9892236911355,
+        "minLng": -3.30046096996003,
+        "maxLng": -3.24878522557818
+      },
+      "encodedPolyline": "mevtIj~_SQcAbBiFR]\\Pd@}Aj@@bAmAz@oCnBuCbGqP@n@Xa@PuAnAqBjAaEpBqJjWcSvAPl@a@hCTd@]vBfBn@Bd@ST{@fWkCpFmCj@z@xA}DjRsJ}@gJjH{ClBF?wAv@JfFsBnVwiAXx]u@jZuCja@eEf}@X~[xDvr@cSlGxApN{Bd@VpHeA@m@pJeCwBwCtCoDfIwA~ImB`GiOvIaMex@]mPi@w@yBgRqO{CgLrLg}@gRb@UlAwErA}A"
+    },
+    {
+      "name": "Drylaw and Telford",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9606878557767,
+        "maxLat": 55.9683711425181,
+        "minLng": -3.26131704970243,
+        "maxLng": -3.23642441013756
+      },
+      "encodedPolyline": "ehrtI|xwRKiUlBbCpDxBjKdAbCx@hG|FzCrGnAtEdAvGxAnR`@zLoVviAcFpBEwA]S]eTkDcf@j@aAPeBwAo@a@}HQDoCqo@{@qC"
+    },
+    {
+      "name": "Fairmilehead",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.8819774410168,
+        "maxLat": 55.9126280392448,
+        "minLng": -3.23277261462818,
+        "maxLng": -3.17745743424852
+      },
+      "encodedPolyline": "olgtIr~qR\\GSgI|@}Lq@_KJmLbBeRkA{AxAsHzAqo@f@TzBu_@fE|BnLGh@hFl@KPwDSiA`GkMTwB\\x@lAGpAl@f@[KlCaAtAYfC`B~h@q@xJzGuD`IaPdDUbFdBnBCTs[hA}VtH|CvBKfJsE~EoHtDwAS{EdHnAmGnpAsLnaAb@x@p@NvOqEfGWbBhSl@fQlHfXtIvQbCp@|A_@dDuBbA{I`AiCnBaK|FpOs@|QAf\\uCvJ`CfSmGvN_@~CzAvIqB|Nkk@xBaHqLuKeAaPjDsGv@iBk@eJm@oD^Mqa@m@qU?}[eIjA@z@aSrDs@?_Am@aBDW_DeImBkIEiChAYiCnAcHKeF}@w@YmB~@kAC}LsA`@I}D"
+    },
+    {
+      "name": "Firrhill",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9018598769196,
+        "maxLat": 55.9147035258325,
+        "minLng": -3.23970111622217,
+        "maxLng": -3.21732849653817
+      },
+      "encodedPolyline": "sygtI~vvRz@a@`EQf@_AAaAe@w@EkSXwAt@WCiNq@I]aAGiVf@}Ai@{AtIsCb@{DoBwOhCiAjIDdIlBV~C`BE~@l@r@?`SsDA{@dIkA?|[l@pULpa@_EtCuChD_@Tw@}AcUhPci@t[gAcIA_U"
+    },
+    {
+      "name": "Gilmerton and District",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.8892474272234,
+        "maxLat": 55.9253908329359,
+        "minLng": -3.16285567338136,
+        "maxLng": -3.09215885016618
+      },
+      "encodedPolyline": "yzbtIjshRiCyB_BsCkAh@kCg@qDEqKdCoT_BwARsC|AwFhFeEaZmOg}@cFvImUsWmFoAeC`OINOWuD`C{@lBcJ_CaDkBgFnKoDnC_DjGiM}QeFyQsCoBb@_FkC{AvAeBP_BbAfAJsAkZom@rUua@bP|a@dBwF`@f@tJuWWe@zFqTGs@wGeHq@^HkA{@aAb@oJeCqBJmAU]?{@p@aBQaBXgBl@}@bAbAbDv@|Au@~DqTtDjAdAvAjAGr@mP]m@hDsJbF_IhPu\\fCkDTt@hBsDZmBbFwLvHeXlNgQtCqGvBqIrAdB~Ab[Nlq@t@|Zt@|MfBi@Pf@m@bC@|C~C`_@zG`_@fSlx@dAeAFXCfAjFn[dDh\\hC~a@~@buAh@jB"
+    },
+    {
+      "name": "Gorgie and Dalry",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9330785726065,
+        "maxLat": 55.9462502037867,
+        "minLng": -3.2502917249138,
+        "maxLng": -3.21302033953097
+      },
+      "encodedPolyline": "yemtIhisRbNl]PfBpJ|P`BtGZHrQpi@fF~L}FbFyAVSa@yA`AVpAYtAPtBx@n@fA`Dj@C~FvL_ApBuBfBrBbKSjAX`@}FdEgBJmBhD_GdFuFjJkf@ynDsDa]{CsCT}MpCLzAcDdByA|L|W"
+    },
+    {
+      "name": "Grange Prestonfield",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9189013445172,
+        "maxLat": 55.9402386179111,
+        "minLng": -3.19716712114687,
+        "maxLng": -3.14414818532729
+      },
+      "encodedPolyline": "ytltIpthREaCnAX`AeHbAqYbKsjAxNn^bJvCtPpWZIxBp_@UbJeAlHtGvNb@~B~DzHtAw@z\\~BrBdDmAtAVhBzBSTs@fBhBZbBrAxVx@bw@eDpAgFxFcE|Ni@CApDo@?GjEq@dAqC@IWBgKfAODn@X@GmBiB}@q@Au@f@yGtYiA|GE`E_@IOn@g@g@{@JDtOuD~@FpD}A@OqDgBAQyD{AHS{DiCGOsAsFt@PkLd@gDUyGmGuh@uHzPuK|HeHc{@}FaZpEoKSsD^yC{@yIyBh@uCEyBs@cBiBtCo_@"
+    },
+    {
+      "name": "Granton and District",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.968148170383,
+        "maxLat": 55.9879755738867,
+        "minLng": -3.24223238599301,
+        "maxLng": -3.2141543681561
+      },
+      "encodedPolyline": "awutIrksRnXbBbA}EvDLzBcAl@ZTaAbAd@dAGd@fA?fDrDi@BiBvF_AA[l@KD`AfAuAzAS`@`@JcAvBc@BzAzHwAGuAvC_AXLGmB|HaBxLvcCx@tCc@vCh@`O}DgE}CgIqJfEj@fJkCf@iCzAsLzDmIt@eLpCoAiM[OiCv@[m@}Cia@yCxAmAuA_@fBsDyEWXo@O}CvB]sEqJ_K{CiImC}j@KkMbJgRp@S"
+    },
+    {
+      "name": "Hutchison and Chesser",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9239549645511,
+        "maxLat": 55.9353643907072,
+        "minLng": -3.26717334268353,
+        "maxLng": -3.23229287702703
+      },
+      "encodedPolyline": "mzktIhpwRO}GxAaAR`@xAW|FcFiIuTjLhFhDxClFvHfh@fsA}EzM}B~DArDfB~Pm@hKu@rC\\`De@vDwAfCo@pCElH`@tCqFtO}CsGmFqP_Bwf@eOsv@aBcHkBiERkAsBcKtBgB~@qB_GwLk@BgAaDy@o@"
+    },
+    {
+      "name": "Juniper Green and Baberton Mains",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9008278808132,
+        "maxLat": 55.9136211624221,
+        "minLng": -3.29978053949838,
+        "maxLng": -3.27192309777025
+      },
+      "encodedPolyline": "_qftIt`~RhDbRbAnC^b@@kBn@iCnEtFhATxA`BtApHjAxC?j@oAjB?xEdAvEGy@pHtTB`Dx@bDpEpHr@jOoD`CuGr@_F{@Sa@uDlAdF~VgTfReAvB_HhBgEaAgAhB_CmOu@e@gA}B_D}IUkBoA_BqAmElIyl@rDqNrEiLoBoHjBcKpA{Rx@kCdFaG"
+    },
+    {
+      "name": "Leith Central",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9564370974292,
+        "maxLat": 55.9750106583051,
+        "minLng": -3.19726540353285,
+        "maxLng": -3.16214909767808
+      },
+      "encodedPolyline": "yrstI`ilR~CwE`B`E~AoCzBuI\\QxApBlB_J~BvK`EaFlBcJc@_@rAmLYe@f@aCa@_@fG}XyDgGa@d@_@s@@wCf@AnEwFn@lC?V_@BInBpDnEPdBrBaEHR`@a@d@hBlH_KlByG\\iIt@m@jADxBkCrBZlEvBFbBlElHkE~TX|@lEaFjCkApCKbDx@c@bPVJPk@|@xGjBlDg@x@m@F}C}C}@`jAo@tAiD_D_QkU_BxFoBxD__@rm@|BrOKjOm@hAFl@wCaGuAtDoGcMiI~OmC~I{M{cB"
+    },
+    {
+      "name": "Leith Harbour and Newhaven",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9690045512268,
+        "maxLat": 55.991690745332,
+        "minLng": -3.1979973858908,
+        "maxLng": -3.14084701669585
+      },
+      "encodedPolyline": "_outIftgRKa@ZdC[Os@r@KSYRs@nCrBe@fAFZpFTsCn@u@|B]h@t@Em@h@KXXtEuMdE}CbAmM}@_Fb@aFImGrBfAb@oAX?t@jAIv@z@xCx@t@IwFlAKzDyE_GsWfGjWxBuBpC}EbIyIhD{MdFaMhObSbBdDqLxn@wHzY}Llm@DdM~JxGpIlHrF~JT`BjHjG_BbRb@^mBbJkClDQO[|@gCqKmB~IyAqB]P{BtI_BnCaBaE_DvEpBpV{TjXVxK}@h@cDaOg@eAkCgAo@~J{B|GO~BQzUdAdMm@ZUwBsCQmDsDuGjAwBk@cBeBq[{eA_KuIm@iBXyBnFaJbD}JpHc\\~@{Gc@iDXoAiBgEGmAh@H@e@l@^pAzC|EuPzE{YJwBg@mBm@fA{ANY]UXWk@eBWBqAe@lBe@Gw@}GHoAz@kBWa@gAJkA]Kq@jDoC`@BvDsBHbCZZ`@YP_EjBaFn@Qp@ZNfC"
+    },
+    {
+      "name": "Leith Links",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9633649355926,
+        "maxLat": 55.9754756512088,
+        "minLng": -3.17302777024333,
+        "maxLng": -3.14489624325041
+      },
+      "encodedPolyline": "oprtIrfeRhAxAm@zFn@n@~BIpAt@vE~IrAzJNQz@rOOpJtAdMvJtXn@rDjAc@EdCs@XS|GqAzFsIhMe@iBa@`@ISsB`EQeBqDoEHoB^C?Wo@mCoEvFg@@AvC^r@`@e@xDfGaGhXqGeFUaBsF_KqImH_KyGEeM|Lmm@vH{YpLyn@"
+    },
+    {
+      "name": "Liberton and District",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.8890872181096,
+        "maxLat": 55.9311672295244,
+        "minLng": -3.19252240501747,
+        "maxLng": -3.14233572504241
+      },
+      "encodedPolyline": "ktjtIdbeR|CuDpA{D^jC?nIp@xA|DdA`@q@b@f@dCcBrAgCjCrEGp@~JbQdD{FdA_GjBhAv@bAtEzPhM|Q~CkGnDoCfFoK`DjBbJ~Bz@mBtDaCNVHOdCaOlFnAlUrWbFwIlOf}@dE`ZvFiFrC}AvASnT~ApKeCpDDjCf@jAi@~ArChDtCM|@g@Ek@jAuIf{AeHoARzEuDvAgEzG_KfFwBJuH}CiA|VUr[qBAcF{AwBAq@XwHrO_H|Dp@yJaBuh@XqC`AuAJmCg@ZqAm@_B@Ks@UvBaGjMRnAQpDm@Ji@iFmMCaEiCeBg@gDaEyB{E{@qGiDmMeJxZsBzMsCsBaFZqDeAaAy`AkBuY}AaBa@f@{BRWiBlAuAsBeDs\\_C}At@yNq\\hAoIPaIyBs_@}BiUgBmH}CkHlKaR"
+    },
+    {
+      "name": "Longstone",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9117427526236,
+        "maxLat": 55.9274669925032,
+        "minLng": -3.27291704473122,
+        "maxLng": -3.24816726767006
+      },
+      "encodedPolyline": "uijtIxb}RpFuOa@uCDmHn@qCvAgCd@wD]aDl@kBt@qLgB_Q@sD|B_EfGgPnA{AbBs@xAfBrFh@jFrEz@hMkAxFh@rCtD`AbBg@p@gALiEj@[rChGjEhApCxApBdHHtH`@tCz@dBdAl@|Dc@tAHhBx@j@MTzAaAp@yDtLYfCcAz@gAy@f@}BsAeAsLpLuB`@sFfDiBQyATvAzRk@fPwE_BuDPsA`AiGbIcF{PyHq[a@vAEhNkAlFoAhAcAg@{@gHwByE"
+    },
+    {
+      "name": "Marchmont and Sciennes",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9261514521128,
+        "maxLat": 55.9405151447485,
+        "minLng": -3.20376366494098,
+        "maxLng": -3.18050523085474
+      },
+      "encodedPolyline": "avltIhvmRa@iPcC{PpBIvQsL|Erk@tK}HrHyPlA`H`Ep_@TlGi@pEMlKrFu@NrAhCFRzDzAIPxDlBJHfD|AADcEfDm@dA|U{AhBEjEgJdBMwAYb@mHh@AeAk@B?[aCJBmDKmA[R?y@aDDyHtEqLjCuBpCgLbHgA_I^{B{BsRs@oSuDXhCm^NqJ"
+    },
+    {
+      "name": "Merchiston",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9258645015174,
+        "maxLat": 55.9436038942979,
+        "minLng": -3.23430841713236,
+        "maxLng": -3.19979108479773
+      },
+      "encodedPolyline": "sfmtInorRhCsGjKkPq@sClBcD`BeM`DxBxDnHbCeIn@}IMsG~A}B~LwCxHuE~CAh@nBZrRC|f@g@D?Z\\fCv@IFfAo@Tt@zFa@F|@hOtAAtCdBbIvf@tBRBfJnC@zAdAeExMc]no@sH_GoHsCqN{a@[IaBuGqJ}PQgByVom@~DoHf@_@RV"
+    },
+    {
+      "name": "Morningside",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9105364858981,
+        "maxLat": 55.9310948754987,
+        "minLng": -3.22484227357996,
+        "maxLng": -3.1781708342761
+      },
+      "encodedPolyline": "i`ktI||qRf@E@ck@_@}HbCM?Zj@C@dAlHi@Xc@LvAfJeBDkEzAiB}@{NMwV|@Md@h@No@^HPeGdIo_@fAgAzC~@FlBYAEo@gANCfKHV~CIh@{A@mDn@?@qDh@B~DyNfFyFhDuADpHpDdA`F[rCrBlBkMjJi[pDdNvArI|EdH|C|A{Bt_@g@U{Apo@yArHjAzAcBdRKlLp@~J}@|LRfIk@PVrDrAa@B|Ls@f@K`AXnA|@v@JdFoAbHhC`Tc@zD_QzFyADoDa@Bo@mC@C\\{KE_Aw@O}B_@rD_FzB{A`BCcB{AHgElCqLdFcEy@}CoCoCACgJuBS_Iuf@yCgBuA@}@iO`@Gu@{Fn@UGgAw@H]cD"
+    },
+    {
+      "name": "Muirhouse and Salvesen",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9655819269566,
+        "maxLat": 55.984886031765,
+        "minLng": -3.271373266032,
+        "maxLng": -3.24845985886294
+      },
+      "encodedPolyline": "_putIn_{Rp@Ah@bAjDr@t@uAhDm@bCDtPqH~ChBtAnCxCaGdJwCb@oA|OmE|^{X^vHxAt@QdBk@`AjDbf@\\dT\\RDvA{@I?vAmBGkHzC|@fJkRrJyA|Dk@{@qFlCgWjCUz@e@Ro@CwBgBe@\\iCUm@`@wAQkWbSOuB~AyB|@sH?}Fb@aEnA_DvBcC`@lD\\CPmMaBeBe@kCyCsHk@y@y@?oAsDW`@WQ_CwFeBwAeAmENcB"
+    },
+    {
+      "name": "Murrayfield",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9381228961749,
+        "maxLat": 55.9567410197927,
+        "minLng": -3.26952478054196,
+        "maxLng": -3.22396602398061
+      },
+      "encodedPolyline": "_xotInnxRzEyFxB{DvKuZ_Gky@dB{DdGrPhCgEnBvAhBmFrI~@|Is@]cV`DFTfJ|Di@t@o@`b@r{C_A|ApAtFDvGwA~KoL~TeDrJg@nCMdFPzKiCr@DnCgMbHcAwHoHxAeBaOs@HmBbB_EtN{@pKuAzCc@yAaAg@Ew_@uFui@{@b@e@xBc@?{AkDVOe@kBm@]a@kBs@s@GaAVLh@]m@eC_As@g@kCyAkAaBuDyBoOq@YaBn@cAoA]eDu@\\NuR^_DvEeD"
+    },
+    {
+      "name": "New Town and Broughton",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9502819809678,
+        "maxLat": 55.968103316912,
+        "minLng": -3.21419873365313,
+        "maxLng": -3.17184652363381
+      },
+      "encodedPolyline": "sgrtIt}mR~^sm@nByD~AyFnPzTxDnD\\i@nAmkA|C|Cl@G|@_AnBdDfKj]pEj]c@jV}@fBsAZdS`sBaBz@dAtKd@GThAqDlKkEpS{BzAFkFgA{AuCm@oCeBiCo@}CwBw@kA`A_B}DcL{@yFz@uJXoM_HfD}@vDG|Bw@@yD|DuCm]qEpAeEkJw@`BaBmCgC_AkHa@mCmCaE}Ms@iEDcQwB{M"
+    },
+    {
+      "name": "Northfield and Willowbrae",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.936535527178,
+        "maxLat": 55.9566309958527,
+        "minLng": -3.1774449461102,
+        "maxLng": -3.11860844262604
+      },
+      "encodedPolyline": "qlntIhv`RrCl\\`W_V`DaBpAfk@rAnHfEnJvAt@dC}S`G{EfAQbAbBd@lC\\zL_@fFRr^tA`ObBnGBrF|@bEcKfkAm@nTqAtKoAYB|CaC~\\eEpJaB|G_As@qAOw@t@m@fW_AxEmA|AoGxDcFtAeCMaGmB_D}CaDeG_@FQ]?cC_ByGeAkA?yDmHor@aGiRyDmJ_@EiB}I{Esa@gAcTF{TlB}]`Lq`AhJa`@vJi[bInOh@nB"
     },
     {
       "name": "Old Town",
@@ -51,12 +428,103 @@
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.9364846,
-        "maxLat": 55.991682,
-        "minLng": -3.2058063,
-        "maxLng": -3.1160788
+        "minLat": 55.9449590287691,
+        "maxLat": 55.9564388173662,
+        "minLng": -3.20581072909058,
+        "maxLng": -3.16932021326505
       },
-      "encodedPolyline": "{wltIbwiRXTf@Zl@RpAVl@Ff@Ap@Cf@I\\Kh@Sz@|I_@tCA|BTp@Wb@_@p@Qf@cAlC}@lC`A`FhB`JZhBp@`EDXbAhMmAd@]Ps@f@aDtBqAx@{AfA_Ax@QLUJODiAFU?D\\BZPfAZjBn@fDNdAL~AL|BJjDFdC@hB?nBEbBEpAIfBOhCOtBeAA_M_@UGgGW?e@I??b@uDME_@G?B\\s@IECCIAG_@ECJCHGDAVJDJFJXJj@NxCVvEAJCJEFGJ?BHAD?DBDFHzAJ|B@XEB@NGBQLiAbBuAxBo@pACHCRARCxA]VYNcA`AZfAUTgB`ABxKAb@If@Mf@I^gAjDuAtEQSKAm@Ao@Sc@U]_@}@b@YFe@h@Wf@c@jAa@nCP^C`Aa@d@ItAoAuMyC_[qCoYoA_M?E_BcPoAcNb@[b@KTYVe@Po@D_@BgAZgS}AgLGsAi@cGUwAk@wBk@eBk@kBgCuI}C_Kg@cAoAwBGAUHQ`@SRWFU?WKa@Ym@wAKFQ_@WIExAGfHAfA?l@AnAItLGnGClDEvBErB?jEKlNOl@_@f@mAiAyAsA]]ACoC_Dy@kAMQeBiCw@iAa@g@gBeCYa@GG?A[lACHWbAa@tACHGLSb@i@dAi@~@i@z@cC|D{AjCuCtEcAdBMRCBKT]l@iAdBo@fAWd@]f@yBfDc@p@c@r@e@x@q@jAA@Ud@??BRVhB@@Fx@JfAFZJn@\\fAH^Hd@?@@JBh@ChAALARKdA?F?LAdA@|ABbABzA@?A@Qt@A?IFMH??Dj@GLO]_CoF??OXm@lAFj@GBC@ABABILEDgAaCSYOYk@kA?Ci@}@We@Uc@_@u@??@LENGRCBCDEHEFCBY\\EDIJMXCDOd@MXCHO\\EJOTCDe@p@A@??g@v@UZ?@}@pBCDGPWr@EJ?@Sp@Qh@K`@GRCJ]vAIaAC[AQA?A?S{Bs@cJ?EAGC]BC????C[?EA@A??Aa@_FC]AM?A@?@???AI?AA@?ECS?IACAA?CC]KgAMgBAIOiB?A@?AKA??CAM?C@?AIAA?E?A@EAYAA?????AAACGQsBIcA?C?G??@EEq@?E??AAAAACAE?A?Ec@iFIgAMaBSiC@KEc@?CQoBIgA@ABA?CAEA?C?Gi@G}@CI??KqA{@LVhAGZMl@Nx@IDNjA_@`@sFvG}DzEcDbEDjCBfAHtCPjDDjAA@PbBv@a@PxAo@^wCnAa@DW@aCCMpJR|IHvC}E|@OACKEEO@w@Z[mCgCAwDaEcGlAqCq@qAsAq[_eACQmKcECO_@mHhGwLlDuKdHg[~@yGe@eD\\sAa@_Ar@^{BaDKqAl@LGk@|@`@hAxC|EuPxEsYLwBg@uBm@fAoCLWo@aBO@yAc@rBe@K{@_GP_Cv@yAkDo@K{@~JwFPfCv@ATeEfBwEr@Y`A~@OvC`@l@oBZ}@~C|De@ZtFPmCp@{@nAe@bAJRt@Eu@dAP~DwLtEkDfAaN{@yEb@mFOaG|BbAx@mAr@jAIn@z@~Cx@x@GyFpCqA`SyVbFcQzEmNfA_DfA}CnAoDj@uAtAgDp@uA\\{@H[`@iCJ]R]Vo@`AuBb@sAJSPk@rAkD`AyBf@w@z@oBx@q@~@uAl@c@HMVaAx@}AlAeBfDkF|@}AnBuC|CoFZo@bBqFd@oANa@f@aA@E\\wAf@gAZgAVo@p@wCd@iALa@xBkGf@iB~@cCn@uBJg@~@mChAnBzGvNA@A?GLFjAn@|PCHSXAFWFDbA@FBBDADDDPTUZ_@JGHCF?JDJNJJL?JAHCLKLENAt@HrAVvAVzAVp@Fp@@j@CTG?FF?LhABCj@`FAPFn@FHFl@B?H~@Dj@B`@LhCFhC@`AAZBT?P?Pb@j@lAsG|BqKfCiKdDcLz@mC|CcJzB`EdCzEp@nAZl@Nb@Hl@x@`JvAfPADBb@RMAKtGoGzFeFjF{Ez@c@xAq@DxATpEF`Cl@l[BzAA`@ATCL`@vAj@tBd@bBdBhEpCjEpA{N^}B@gAXk@`BcAv@u@dB}ABA@?hASj@dAXt@N`@PjB?hDG~ATj@PlBEtC[~BBtEBlCEbAA~BB~@CbBL~D?^J|A?pARd@N|CZnBDvA\\d@x@tCJnAFlGVh@@BHj@d@v@cArKg@zFk@lGkAjMcAvK_BrQMxBEvBSdKA^Cl@El@MrAQdBq@vEqAYBpA@`@Aj@Gj@c@hEOfBMtCQzDGzAEt@Iv@Ip@Id@K^\\f@TX"
+      "encodedPolyline": "wootIrijRlQkIhAbKArDx@n@t@zC_G`IdErMzBzJ`Aq@bBGZ`Jz@[v@rJdFjWr@a@t@tIExBhCnEjApDZfCUbAh@hAZfLl@bFEp@yEnHQ|C}B~A\\tAaCzA@jLwDlNoEwAeBfAoBtGT|Ac@h@IrAeScsBpA[~@gBb@kVqEi]gKk]oBeDUDj@aArA[pAt@dD~E~AnAr@Dk@yO"
+    },
+    {
+      "name": "Portobello",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9355774703696,
+        "maxLat": 55.959886126629,
+        "minLng": -3.12842994524221,
+        "maxLng": -3.07505516094996
+      },
+      "encodedPolyline": "yjmtIty`RaD`BaW~UcDe^}IgQwJh[iJ``@o@mNoByNiBLiJuAoAZo@_@oAz@Wk@EgAn@o@k@gUiIaSbD}NbA_AbAV|E_PfK}W`FgKvGkRzJa]lEyTJoFeAuFxAoICcMl@sNnBqMWkBcA_@DwCmAiLCqId@wGxOxN`C~ChCdAhBnCl@`CHlDK`Pl@rA?|RhFbOWbBNrAxF|Mt@`FhAdAbAq@`EoHdCyBjAJzH|EtK|BcJtQ}HrKoGpEeR|FmB~@kA|AVnd@UhF`G|oA"
+    },
+    {
+      "name": "Sighthill, Broomhouse and Parkhead",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9174378866178,
+        "maxLat": 55.9327292300125,
+        "minLng": -3.31547951566788,
+        "maxLng": -3.26549259386157
+      },
+      "encodedPolyline": "sejtIlx}Rp@qDbAf@nAiAt@{Cd@eEEcL\\i@xT~z@tDbXpEpQrAjBbGbFdAlBOl@`@~@f@tLSvBN~B_GfCgSdLk@xBdEr_@pBtXpCpMjAnD|A|BiApAcARmJdMeFvMsClKoDdHgMrK}P}{C_Dm[aNqeAh[cPrGgF"
+    },
+    {
+      "name": "Southside",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9369491526934,
+        "maxLat": 55.9514490992964,
+        "minLng": -3.19156446321563,
+        "maxLng": -3.16768619761812
+      },
+      "encodedPolyline": "_zntIxzjRlAmB~@`EIzAP\\f@AzDjHjCzBfHnBdEY~JsFtAiBz@}Eb@mVv@aAvAP~@r@~BcJtCwFbBhBxBr@tCDxBi@z@xI_@xCRrDqEnK|F`ZfAnNwQrLqBHtBbNj@lL?vKo@xL_X}@Aa@E`@iDMQc@AZk@Eu@e@y@iFwDeHDyBu@uIs@`@eFkWw@qJy@^]gJgBH}@n@{ByJeEuMhDgFFR"
+    },
+    {
+      "name": "Stenhouse, Saughton Mains and Whitson",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9265221847046,
+        "maxLat": 55.9382661294099,
+        "minLng": -3.2746270728022,
+        "maxLng": -3.2454215962678
+      },
+      "encodedPolyline": "giktIfiyRdOrv@~Avf@pGzR`FxJtAdK{@|BsExDk[vOoAlAaa@cwCtFkJ~FeFlBiDfBK|FeErDjM"
+    },
+    {
+      "name": "Stockbridge and Inverleith",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9527382950533,
+        "maxLat": 55.9726259860407,
+        "minLng": -3.23592727357158,
+        "maxLng": -3.19278633914825
+      },
+      "encodedPolyline": "}cstI|moRdEeMpGyLnGbMtAuDnClG?y@l@iAr@hEnF`P~AhAjH`@pBr@vApA^fAv@aBdEjJpEqAtCl]xD}Dv@AF}B|@wD~GgDYnM{@tJz@xF|DbLaA~Av@jA|CvBhCn@nCdBfC`@xA`CKpEmKnHuArEb@b_@}JlM_`@xj@sFjF}\\|Tm@kBcOuyCQ_UgHq|@"
+    },
+    {
+      "name": "Tollcross",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9362285484614,
+        "maxLat": 55.9490064318861,
+        "minLng": -3.21451365005764,
+        "maxLng": -3.19094574776986
+      },
+      "encodedPolyline": "eontIf~pRrHmXAiL`C}A]uA|B_BP}C~EcIUaFW]L_Ai@iJi@eBT[`Bd@@[Pb@hDLDa@@`@~W|@eB`VtDYr@nSzBrR_@zBfA~HnLkHAnL_@`EcCdIyDoHaDyBaBdMmBbDp@rCkKjPyBbGONSWg@^iE|HiI_RmE_GaEcDk@oAk@qCo@}JmE~@b@iI"
+    },
+    {
+      "name": "Trinity",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9706942974408,
+        "maxLat": 55.9817933899937,
+        "minLng": -3.21766172854436,
+        "maxLng": -3.18490134649044
+      },
+      "encodedPolyline": "e}ttIdurRhAyPHgHYgDv@{d@?mLaAmJK}FrCPTvBl@[eAeM`@{YzB}Gn@_KjCfAhAjC`CzL|@i@WyKzTkXpSziCHxQpAbX}H`BFlBYMwC~@FtA{HvAC{AwBb@KbAa@a@o@Hk@HgAtAEaAm@J@ZwF~@ChBsDh@?gDe@gAeAFcAe@U`Am@[{BbAwDMR}CkAuL"
     },
     {
       "name": "West End",
@@ -64,30 +532,44 @@
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.9334163,
-        "maxLat": 55.9817985,
-        "minLng": -3.2502921,
-        "maxLng": -3.1718446
+        "minLat": 55.94384946993,
+        "maxLat": 55.9552563535759,
+        "minLng": -3.22936149476732,
+        "maxLng": -3.20295373168983
       },
-      "encodedPolyline": "uemtIjjsRN^BDBF|@vBfAnCHJXp@J^jDpIbA|Bb@dA@p@@NDTFPJPP`@rAxBBANXHj@xAxBlBxCXp@~AtEANBXBBAJJF@EBAB@jBvFjAjDnAxDfCpHt@pBp@lBfBzEAD?H@HBP}@vAaErGiC~DmBrAYNNrCB@?LA@^|FDPBXCBLlAH~@BA@FC@D`@Hl@Lt@BA@DA@Jd@Pp@`@hAR`@t@zALDDVbBdDJBHHDV~@~A@AFHADlBjDBE@BCDh@`ABGBHADl@bA[R_An@aD~Be@DcADq@vAc@p@W^e@f@m@f@kA~@iAbAUPo@fAA@MRwAlCW`@_@l@c@n@M}@w@yFQoACO{AyKWiBk@cEm@kE[_CQqAEWEYqAoJKu@iAkIcAmHeAwHiAiIy@iG_@iCiAkIWgBUaB_@qCAEqAuJO_Ae@oDu@n@_@H_D^SgJaDGHbFDbHD|EcBLqFd@mAMo@IOA_BSeBSUzAW|@a@v@[ZmBwAMP{BtDqAmD{@aCe@sAUo@{@_Ci@jA{@lBA@CYY_D_@wDUoBS{Ai@iD}B{NsC~BoDlEiLnOgC`Ee@f@cD|E{JfOcD|DaC`CiE`DqI|FmIxFuCrBOFMBICQMEa@iAwVgB{]QoESFI@wAZUgF}@Ta@}JmDl@UkFe@mKQuEQuE[sJOwEWIcATWV{@PFtAaGlAGEq@NCyAwBb@Bh@G@GXa@c@{ARE^aAt@EaAm@L@XmDn@CGcAPEvBQ?iDl@JyDYy@U?aAF_Ag@EASfAq@c@UHmCfAkCYRuCmAgMz@oHLgFJyH[cDz@am@eAqWfC@ZlCv@[NADDBJN@|E}@IwCS}ILqJ`CBVA`@EvCoAn@_@QyAw@`@QcB@AEkAQkDIuCCgAEkCbDcE|D{ErFwG^a@OkAHEOy@Lm@F[WiAz@MJpA??BHF|@Fh@B?@?@D?BC@A@HfAPnB?BDb@AJRhCL`BHfAb@hF?D?@@D@B@@@@???DDp@AD???F?BHbAPrBBF@@?@????@@@XAD?@?D@@@HA??B@L?B@?@JA??@NhB@HLfBJfAB\\?B@@@B?HBR?D@A?@@H??A?A??@@LB\\`@~E?@@?@A?DBZ????CBB\\@F?Dr@bJRzB@?@?@PBZH`A\\wABKFSJa@Pi@Rq@?ADKVs@FQBE|@qB?AT[f@w@??@Ad@q@BENUDKN]BILYNe@BELYHKDEX]BCDGDIBEBCFSDOAM??^t@Tb@Vd@h@|@?Bj@jANXRXfA`CDEHM@C@CBAFCGk@l@mANY??~BnFN\\FMEk@??LIHG@?Pu@@AA?C{ACcAA}A@eA?M?GJeA@S@MBiACi@AK?AIe@I_@]gAKo@G[KgAGy@AAWiBCS??Te@@Ap@kAd@y@b@s@b@q@xBgD\\g@Ve@n@gAhAeB\\m@JUBCLSbAeBtCuEzAkCbC}Dh@{@h@_Ah@eARc@FMBI`@uAVcABIZmA?@FFX`@fBdC`@f@v@hAdBhCLPx@jAnC~C@B\\\\xArAlAhA^g@Nm@JmN?kEDsBDwBBmDFoGHuL@oA?m@@gAFgHDyAVHP^JGl@vA`@XVJT?VGRSPa@TIF@nAvBf@bA|C~JfCtIj@jBj@dBj@vBTvAh@bGFrA|AfL[fSCfAE^Qn@Wd@UXc@Jc@ZnAbN~AbP?DnA~LpCnYxC~ZnAtMHuA`@e@BaAQ_@`@oCb@kAVg@d@i@XG|@c@\\^b@Tn@Rl@@J@PRtAuEfAkDH_@Lg@Hg@@c@CyKfBaATU[gAbAaAXO\\WByA@SBSBIn@qAtAyBhAcBPMFCAODCAYK}BI{AEGECE?I@?CFKDGBK@KWwEOyCKk@KYKGKE@WFEBIBK^D@FBHDBr@HC]F?D^tDL?c@H??d@fGVTF~L^dA@]vEo@~H]tEH@VAnCa@d@~NB|@@ZDn@jAnLHj@H`@P|@FTFL@`@g@jAb@tD`@bDdBk@`A_AdBeAtAu@pAs@D`@BfABz@?pAErAAj@Ep@Gv@GECRGf@EZIf@FHq@zCOh@a@dA[p@qB}DiBvC}BhDwB|Cm@~@gAfBkB|CsBhDk@v@s@lAQ`@yAfEKPUN_E`LdCdGjAnCN^"
+      "encodedPolyline": "y}ntIh`rRpDmKUiAe@FeAuK`B{@HqAb@i@U}Ax@yDr@}AfBgAnEvA{B`Ic@hIlE_An@|Jj@pCj@nA`EbDlE~FjDtHeBxA{AbDqCMU|MtCzBhIxq@u@n@}Dh@UgJaDGTdVuIp@sI_Am@xC{@rAoBwAiCfEeGsPeBzDsGef@{ClCi@g\\D{AtAsEhOkKjEqS"
     },
     {
-      "name": "Wester Hailes",
+      "name": "West Pilton and West Granton",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
       "boundingBox": {
-        "minLat": 55.871221,
-        "maxLat": 55.9382702,
-        "minLng": -3.3494185,
-        "maxLng": -3.232288
+        "minLat": 55.9671654095385,
+        "maxLat": 55.9855844861389,
+        "minLng": -3.25656400479908,
+        "maxLng": -3.23388971826022
       },
-      "encodedPolyline": "sbetIbvaSBH@VHr@Nb@xGcGtF{Ev@q@a@gBxAkCfAeBbAiA?eI`IeKp@\\~Cy@zAo@fAu@nAwAhB{BtEaH~AaCfAeBrAyBdGxLvGf\\TOtAgAcBgKxAaAq@aF~CsC|@}@v@wBcAW_@y@a@a@mIeQzBkAl@g@h@Wp@o@vBmDZs@h@cB`A{Bn@mBJ[dAcGpBm@pAM~DWzAK~BY|WoBxJ}ApKnK|NfQ{Dd]sVx[qBxw@zFlGiP`NzB`XqQfYBdAe@lCoBpDK?cDhLq@e@oSjh@_IbJiAIyBjFkBlAo@KaF~E_@sAyC|BcEvFjAnARv@h@lALj@JtAJXxBfDLz@JzAKv@K`@u@lBQVKb@G`@Af@w@V{@sEuAx@GTs@d@G_@}BzAIs@mFrDr@nGmMxG~Njs@mKzIOG{HlHeBdBCJsA`PcMzPuBiOKy@kUhJ_A~@wLtLm@j@EDICIK]qC}@PIByDvBcC~BMJAByU{PIMg@USQK@IGAQAg@OcAe@iA[{BIw@q@_A]}AUeAOYa@c@WaAIWKSKMOGK@e@Ba@Ea@SIMKWIm@KoAIq@GOEIo@Ye@[Fg@Dm@HsBAu@Eq@Iq@Ms@k@{B[eBOyAK}AMwB_@aICcBDoBLaCDgAE}@i@}FOwAaBwU]uF_@mDQiAsA}GSuAYuCa@{Es@eM_@kHWsDy@wIk@kFiAkKSsAOiAe@mE]sEMeBa@r@u@hBcBtEs@vBc@bBeAbEi@~A[|@q@tA_@t@}@vA_AfAs@p@o@l@w@f@_CrAcAn@KFm@rAi@mKYeFk@iKc@iI[_G_@_HYsFcAeSo@wLeAsSWeFOuCIiAo@mK[_Eo@uHg@eFQgBaAcISwAsBcOiAoImCyRgCsQSwBqAkJk@eEeAqHqBaOeAsHqAoJAEoBqNCUiCmRuC{SSyAcCkQ_A_HEYb@o@^m@Va@vAmCLS@An@gATQhAcAjA_Al@g@d@g@V_@b@q@p@wAbAEd@E`D_C~@o@ZSm@cA@ECICFi@aABEACCDmBkD@EGIA@_A_BEWIIKCcBeDEWMEu@{ASa@a@iAQq@Ke@@AAEC@Mu@Im@Ea@BAAGC@I_AMmABCCYEQ_@}F@A?MCAOsCXOlBsAhC_E`EsG|@wACQAI?I@EgB{E~@\\r@VnA`@d@RpB`Ad@VlAz@x@r@t@v@xA`BbAtAt@hAt@xA|ApDxAtD~BfGtBpFvF|NbDjI|BbGnB~ErDnJn@bBBVHOTi@NUNYj@_AL]\\]PCHABYRAb@\\BH?HBL@RMAXb@N@f@b@RD~BRr@Cn@HjBhBRXJFfA^HTX|@N~BBvC@bALbAQlASv@]p@En@?p@Fj@Vx@\\XvAVv@TP@r@QLKZIp@gAH[Bi@Ky@@e@ToAHIN@NT|@~CtA~A~@J\\SPHPCjA`@JLJFTXF^h@z@^Zj@`@NVd@vAPfAVlA@~AAR?p@Af@@~@Ht@H`@RtAFZJT\\d@l@h@PLP@`Ca@lACHAz@HjA~@j@?JIPtAeAr@kArFF\\kCrEMdArB`Fn@zAd@~@ITEIKVHN]~@|GtPH`A~FlEh@l@z@zARf@v@|BFR@F@DPl@Jj@N|@BFt@o@JQDh@D?B@DH\\fBFBrBpLAFFZLGBNDLBAZ`BHJVNDKGaADm@Ja@Ro@BEBC@G?GHA@JHTb@l@HF@FRHH?HLLJH?NH~@hBj@@j@Xf@`@f@v@x@hELfAJ^bAbCLh@?NEL_A`AAFA?CHE\\AJAN?XEt@?T@^BTDP@VHf@ZtAHZFVBP@?CUCQZv@TVJZh@~Al@|AVd@D`@Vf@V~@Zz@d@xBHn@?`@Hl@H|@JjAPl@Th@j@x@hAhBtApDLbC@l@P~BH~BDn@J?BB"
+      "encodedPolyline": "smutIrbwR`@eE_@uD|CwBdBDDf@nC`D^gBlAtAxCyA|Cha@Zl@hCw@ZNnAhMdLqClIu@rL{DhC{AjCg@k@gJpJgE|CfI|DfEEfBz@pCnCpo@k^tX}OlEc@nAgHrBcBhAsBzEuAoC_DiBuPpHcCEiDl@j@oCNyKZnD`@EVn@HOyBmIsCiH_AqGgABKsB~@aCl@sL[u@_@DMq@fA{@l@cMG{GeAqCNe@f@?TkDQs@}@FhA[a@]r@IZyBaCiE_CqBw@cC{AkBpC|AtAqC"
+    },
+    {
+      "name": "Westerhailes",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 55.9085168934902,
+        "maxLat": 55.9225351007064,
+        "minLng": -3.30485616974338,
+        "maxLng": -3.26222026161062
+      },
+      "encodedPolyline": "krhtIdr}RIsKeAuLxAUhBPrFgDtBa@rLqLrAdAg@|BfAx@bA{@tDjJo@xBdH|QtIlIvCjK}CzDeAxDeAlQkBbKnBnHsEhLsDpNoNv_AiGfRoRz`@c@~C}A}BkAoDqCqMqBuXeEs_@j@yBfSeL~FgCBoHg@}Ja@_ANm@eAmBcGcFsAkBqEqQcCwRmE}QhGcIrAaAtDQvE~Ab@yI"
     }
   ],
   "source": {
-    "method": "osm",
-    "license": "ODbL-1.0",
-    "attribution": "© OpenStreetMap contributors"
+    "method": "geojson",
+    "url": "https://services-eu1.arcgis.com/FgpikkYuSUOuITxp/arcgis/rest/services/Community_Council_Boundaries_from_28_March_2025/FeatureServer/189/query?where=LABEL%20NOT%20IN%20%28%27Queensferry%20and%20District%27%2C%27Kirkliston%27%2C%27Ratho%20and%20District%27%2C%27Balerno%27%29&outFields=*&f=geojson&outSR=4326",
+    "license": "OGL-UK-3.0",
+    "attribution": "Copyright City of Edinburgh Council, contains Ordnance Survey data © Crown copyright and database right 2025"
   }
 }
