@@ -73,73 +73,6 @@ def compute_center_radius(city):
     return round(center_lat, 6), round(center_lng, 6), round(radius_km, 2)
 
 
-# A small safety margin so shrunk circles don't just barely touch (floating-point
-# rounding could leave a hairline overlap) — matches the seed-city skill's
-# "shrink so the circles just touch" intent with a little headroom.
-OVERLAP_MARGIN_KM = 0.05
-MIN_RADIUS_KM = 0.5  # never shrink a city's coverage circle to near-nothing
-
-
-def resolve_new_overlaps(all_cities):
-    """all_cities: list of dicts with name/lat/lng/radius/is_new (mutated in place
-    on the 'radius' key for is_new entries). Shrinks radii on newly-backfilled
-    ("is_new") cities just enough to remove any overlap that involves at least
-    one of them — existing (already-shipped) cities' radii are never touched,
-    since RegionSeedLoader.findCity's coordinate match doesn't check city name at
-    all, so a *new* overlap silently introduced by this script would be a real
-    wrong-city bug that didn't exist before the field was added.
-
-    Overlaps between two already-existing cities are left alone (out of scope —
-    they were already live before this script ran) but returned separately so
-    the caller can report them.
-
-    Runs to a fixed point: shrinking one pair can't un-overlap a third city
-    (shrinking only ever reduces radius), so a single pass over all pairs,
-    repeated until nothing changes, is sufficient and always terminates.
-    """
-    pre_existing_overlaps = []
-    _unresolvable_warned = set()
-    changed = True
-    while changed:
-        changed = False
-        for i, a in enumerate(all_cities):
-            for b in all_cities[i + 1:]:
-                dist = haversine_km(a["lat"], a["lng"], b["lat"], b["lng"])
-                overlap = a["radius"] + b["radius"] - dist
-                if overlap <= 0:
-                    continue
-                if not a["is_new"] and not b["is_new"]:
-                    if (a["name"], b["name"], round(overlap, 2)) not in pre_existing_overlaps:
-                        pre_existing_overlaps.append((a["name"], b["name"], round(overlap, 2)))
-                    continue
-
-                shrink_total = overlap + OVERLAP_MARGIN_KM
-                before_a, before_b = a["radius"], b["radius"]
-                if a["is_new"] and b["is_new"]:
-                    # Split the reduction between both, proportional to their current
-                    # size, but never below MIN_RADIUS_KM.
-                    share_a = shrink_total * (a["radius"] / (a["radius"] + b["radius"]))
-                    share_b = shrink_total - share_a
-                    a["radius"] = max(MIN_RADIUS_KM, a["radius"] - share_a)
-                    b["radius"] = max(MIN_RADIUS_KM, b["radius"] - share_b)
-                elif a["is_new"]:
-                    a["radius"] = max(MIN_RADIUS_KM, a["radius"] - shrink_total)
-                else:
-                    b["radius"] = max(MIN_RADIUS_KM, b["radius"] - shrink_total)
-
-                # Only re-loop if a radius actually moved — both sides can be
-                # clamped at MIN_RADIUS_KM already (two candidates too close
-                # together to ever stop overlapping), in which case looping
-                # again would recompute the exact same no-op shrink forever.
-                if a["radius"] != before_a or b["radius"] != before_b:
-                    changed = True
-                elif (a["name"], b["name"]) not in _unresolvable_warned:
-                    _unresolvable_warned.add((a["name"], b["name"]))
-                    print(f"⚠️   {a['name']} <-> {b['name']}: still overlap after both hit "
-                          f"the {MIN_RADIUS_KM}km floor — needs a manual radius decision.")
-    return pre_existing_overlaps
-
-
 def main():
     parser = argparse.ArgumentParser(description="Backfill centerLat/centerLng/radiusKm on city files")
     parser.add_argument("city", nargs="?", help="Only backfill this city (matched against the JSON 'name' field, case-insensitive). Omit to process every city.")
@@ -157,10 +90,9 @@ def main():
             return 1
     target_set = set(target_paths)
 
-    # Build the full catalog's center/radius state up front — overlap resolution
-    # needs every city (targets AND everything else already shipped), not just
-    # the ones this run will touch, since a newly-backfilled city can overlap an
-    # untouched existing one too.
+    # Circles of neighbouring cities may overlap: the apps only match a city when the point
+    # is also inside one of its district outlines, so a circle is never shrunk here. What
+    # build.py does require is that the circle covers every outline point.
     all_cities, no_geometry_paths = [], []
     for path in all_paths:
         city = json.loads(path.read_text())
@@ -183,14 +115,6 @@ def main():
             "path": path, "name": city["name"], "lat": lat, "lng": lng,
             "radius": radius, "is_new": will_recompute, "had_fields": has_fields,
         })
-
-    pre_existing_overlaps = resolve_new_overlaps(all_cities)
-
-    if pre_existing_overlaps:
-        print("Pre-existing overlaps between already-shipped cities (not touched by this script, already live):")
-        for name_a, name_b, overlap in pre_existing_overlaps:
-            print(f"  ⚠️   {name_a} <-> {name_b}: {overlap}km overlap")
-        print()
 
     updated, skipped = 0, 0
     for entry in all_cities:

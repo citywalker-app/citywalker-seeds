@@ -32,13 +32,20 @@ python3 build.py                               # rebuild region_seeds.json
 
 ## Invariants
 
-- **No overlapping city radii.** `findCity` on the phone picks the first
-  catalog entry whose `radiusKm` circle contains the user, so any overlap
-  ships a wrong-city bug. Not checked by `build.py` — must be verified
-  manually. See the `seed-city` skill for a runnable overlap check.
+- **A city's circle covers all of its outlines.** The apps test
+  `centerLat`/`centerLng`/`radiusKm` first and the district outlines second,
+  so an outline point outside the circle can never match by coordinate.
+  Leave the three fields as `seed_generator.py` writes them. Circles of
+  neighbouring cities may overlap: the outline test picks the city. (The
+  old "no overlapping radii" rule was retired on 2026-10-13. It dated from
+  when the circle was the only test, and shrinking circles to obey it cut
+  off real city area.) Checked by `build.py`.
+- **Outlines of two cities never overlap.** Where they do, the apps take
+  whichever city comes first in the catalog. Checked by `build.py`, which
+  needs shapely for it: run it as `venv/bin/python3 build.py`.
 - **Only seed too_large cities.** Cities that clean-download without
   hitting the Overpass size limit do not need seeds. Adding one just
-  bloats the catalog and risks the overlap invariant. See
+  bloats the catalog. See
   [[feedback_seed_selection_rule]].
 - **Every seed commit stages three files together**: `cities/<slug>.json`,
   `region_seeds.json`, and `VERSION`. Missing `VERSION` fails CI's sync
@@ -49,4 +56,4 @@ python3 build.py                               # rebuild region_seeds.json
 ## Skills in this repo
 
 - `seed-city` — end-to-end skill for adding or updating a seed, including
-  the overlap check and commit rules.
+  the commit rules.

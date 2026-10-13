@@ -15,5 +15,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install shapely (the build compares city outlines)
+        run: pip install -r requirements.txt
+
       - name: Validate city files and check region_seeds.json is in sync
         run: python3 build.py --check

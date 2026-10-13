@@ -16,10 +16,11 @@ small.
 
 import argparse
 import json
+import math
 import sys
 from pathlib import Path
 
-from seed_generator import decode_polyline
+from seed_generator import decode_polyline, _haversine_km
 
 ROOT         = Path(__file__).parent
 CITIES_DIR   = ROOT / "cities"
@@ -33,7 +34,17 @@ BBOX_TOLERANCE = 1e-3  # degrees; polyline encoding rounds to 1e-5
 # week. Later iOS builds take 25 MiB; until the old ones are gone, a build over this fails.
 IOS_LEGACY_MAX_BYTES = 5 * 1024 * 1024
 
-REQUIRED_CITY_KEYS   = {"name", "countryCode", "regions", "source"}
+# The apps test a city's circle before its outlines, so an outline point outside the circle
+# can never match by coordinate. radiusKm is rounded to 10 m, hence the slack.
+CIRCLE_TOLERANCE_KM = 0.01
+
+# Outlines of two different cities may touch but not overlap: where they do, the apps take
+# whichever city comes first in the catalog. Neighbours share a border that is rounded to
+# 1e-5 degrees on each side, so slivers under a hectare are let through.
+OUTLINE_OVERLAP_MAX_KM2 = 0.01
+
+REQUIRED_CITY_KEYS   = {"name", "countryCode", "centerLat", "centerLng", "radiusKm",
+                        "regions", "source"}
 REQUIRED_REGION_KEYS = {"name", "boundingBox", "encodedPolyline"}
 REQUIRED_SOURCE_KEYS = {"method", "license", "attribution"}
 SOURCE_METHODS       = {"osm", "geojson", "shapefile", "manual"}
@@ -62,6 +73,12 @@ def validate_city(path, city, errors):
     elif source["method"] not in SOURCE_METHODS:
         err(f"source.method must be one of {sorted(SOURCE_METHODS)}, got {source['method']!r}")
 
+    center = (city["centerLat"], city["centerLng"], city["radiusKm"])
+    if not all(isinstance(v, (int, float)) and not isinstance(v, bool) for v in center):
+        err(f"centerLat/centerLng/radiusKm must be numbers, got {center!r}")
+        center = None
+    worst_outside = None  # (km past the circle, region name)
+
     regions = city["regions"]
     if not regions:
         err("regions is empty")
@@ -82,7 +99,7 @@ def validate_city(path, city, errors):
 
         encoded = r["encodedPolyline"]
         if encoded is None:
-            continue  # bbox-only seed; the app supports these
+            continue  # bbox-only seed; the app supports these, and only matches it by name
         try:
             pts = decode_polyline(encoded)
         except Exception as e:
@@ -97,6 +114,55 @@ def validate_city(path, city, errors):
                     abs(min(lngs) - bb["minLng"]), abs(max(lngs) - bb["maxLng"]))
         if drift > BBOX_TOLERANCE:
             err(f"region '{rname}' boundingBox disagrees with polyline by {drift:.5f}°")
+
+        if center:
+            reach = max(_haversine_km(center[0], center[1], la, ln) for la, ln in pts)
+            outside = reach - center[2]
+            if outside > CIRCLE_TOLERANCE_KM and (worst_outside is None or outside > worst_outside[0]):
+                worst_outside = (outside, rname)
+
+    if worst_outside:
+        err(f"radiusKm {center[2]} does not cover the outlines: region '{worst_outside[1]}' "
+            f"reaches {worst_outside[0]:.2f} km past the circle, so the apps cannot match "
+            f"points there by coordinate. Recompute centre and radius from the outlines; "
+            f"circles of neighbouring cities may overlap")
+
+
+def check_outline_overlaps(cities, errors):
+    """Fails any two cities whose district outlines overlap."""
+    try:
+        from shapely.geometry import Polygon
+        from shapely.ops import unary_union
+        from shapely.validation import make_valid
+    except ImportError:
+        sys.exit("❌  build.py needs shapely to compare city outlines: run it as "
+                 "venv/bin/python3 build.py, or pip install -r requirements.txt")
+
+    outlines = []
+    for city in cities:
+        parts = []
+        for r in city["regions"]:
+            if r["encodedPolyline"] is None:
+                continue
+            pts = decode_polyline(r["encodedPolyline"])
+            # Many stored rings touch themselves once rounded to 1e-5; make_valid repairs
+            # that without moving the border.
+            parts.append(make_valid(Polygon([(ln, la) for la, ln in pts])))
+        if parts:
+            outlines.append((f"{city['name']} ({city['countryCode']})", unary_union(parts)))
+
+    for i, (name_a, a) in enumerate(outlines):
+        for name_b, b in outlines[i + 1:]:
+            if not a.intersects(b):
+                continue
+            shared = a.intersection(b)
+            if shared.is_empty or shared.area == 0:
+                continue
+            lat = shared.representative_point().y
+            km2 = shared.area * 111.32 * 111.32 * math.cos(math.radians(lat))
+            if km2 > OUTLINE_OVERLAP_MAX_KM2:
+                errors.append(f"outlines of {name_a} and {name_b} overlap by {km2:.2f} km²: "
+                              f"a point there matches whichever city is first in the catalog")
 
 
 def build():
@@ -124,6 +190,9 @@ def build():
             print(f"⚠️   {path.name}: source license/attribution unknown — "
                   f"required before this city can be merged")
         cities.append({k: v for k, v in city.items() if k not in CONTRIB_ONLY_KEYS})
+
+    if not errors:
+        check_outline_overlaps(cities, errors)
 
     if errors:
         print(f"❌  {len(errors)} validation error(s):")

@@ -1,6 +1,6 @@
 ---
 name: seed-city
-description: Add or update a CityWalker region seed for a city — generate polygons, verify the preview, check the no-overlap invariant against the existing catalog, validate, commit VERSION + cities/ + region_seeds.json together, push immediately (which ships to users), then regenerate and push the public cities page in citywalker-website. Use when asked to "seed a city", "add a seed", "add <city> to seeds", "reseed <city>", or similar.
+description: Add or update a CityWalker region seed for a city — generate polygons, verify the preview, validate, commit VERSION + cities/ + region_seeds.json together, push immediately (which ships to users), then regenerate and push the public cities page in citywalker-website. Use when asked to "seed a city", "add a seed", "add <city> to seeds", "reseed <city>", or similar.
 ---
 
 # seed-city
@@ -13,7 +13,7 @@ sure what ships is correct.
 
 **Only seed cities that hit `too_large` on the Overpass proxy.** A city that
 clean-downloads without hitting the size limit does not need a seed —
-seeding it just adds catalog noise and risks the overlap invariant below.
+seeding it just adds catalog noise.
 Active walker count is not a reason to seed.
 
 **A radius fallback does not prove the city is too large.** Run the check
@@ -220,46 +220,28 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
    Iterate with `--admin-level`, `--max-regions`, `--clusters`, or switch to
    a better data source. Use `--dry-run` to iterate without touching files.
 
-4. **Check the no-overlap invariant against the catalog.** This is the one
-   check the build does not do for you. The Android app's `findCity` picks
-   the **first** catalog entry whose `radiusKm` circle contains the user, so
-   any two cities whose circles overlap ship a wrong-city bug for anyone in
-   the intersection.
+4. **Leave the circle as generated.** `seed_generator.py` writes
+   `centerLat`/`centerLng`/`radiusKm` so the circle covers every outline
+   point. Do not shrink it, even when it overlaps a neighbouring city's
+   circle: the apps only match a city when the point is also inside one of
+   its district outlines, so overlapping circles are harmless. A circle
+   that is too small is not: the apps test it first, and any part of the
+   city outside it can no longer be matched by coordinate.
 
-   Run this from the repo root:
-
-   ```bash
-   python3 - <<'PY'
-   import json, math
-   d = json.load(open('region_seeds.json'))
-   def km(a, b):
-       R = 6371.0
-       la1, lo1, la2, lo2 = map(math.radians, [a['centerLat'], a['centerLng'], b['centerLat'], b['centerLng']])
-       h = math.sin((la2-la1)/2)**2 + math.cos(la1)*math.cos(la2)*math.sin((lo2-lo1)/2)**2
-       return 2*R*math.asin(math.sqrt(h))
-   cs = d['cities']
-   for i, a in enumerate(cs):
-       for b in cs[i+1:]:
-           dist = km(a, b)
-           if dist < a['radiusKm'] + b['radiusKm']:
-               overlap = a['radiusKm'] + b['radiusKm'] - dist
-               print(f"OVERLAP {overlap:5.1f}km  {a['name']} ({a['radiusKm']}km) ↔ {b['name']} ({b['radiusKm']}km)  centers {dist:.1f}km apart")
-   PY
-   ```
-
-   If the new city overlaps anything, shrink its `radiusKm` in the city
-   JSON, or shrink the neighbor's, so the circles just touch. Rerun the
-   check. Do not commit until it prints nothing new. (Pre-existing overlaps
-   in the catalog are known — only care about ones involving the city you
-   just added or updated.)
+   What must not overlap is the **outlines** of two different cities,
+   because there the apps take whichever city is first in the catalog. If
+   the new city's districts spill into a neighbouring seed city, fix the
+   outlines (a better source, or drop the district that belongs to the
+   neighbour). The next step fails on both problems.
 
 5. **Validate and confirm sync.** This is what CI runs:
 
    ```bash
-   python3 build.py --check
+   venv/bin/python3 build.py --check
    ```
 
-   If it complains that `region_seeds.json` is out of sync, run
+   It also fails when a city's outlines reach past its own circle, or when
+   the outlines of two cities overlap. If it complains that `region_seeds.json` is out of sync, run
    `python3 build.py` (no `--check`) to rebuild.
 
 6. **Commit all three artifacts together.** The staged set must include
@@ -281,7 +263,7 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
    ```
 
    This is the one repo where pushing without a separate check-in is
-   expected: the commit rules above (eligibility, overlap, `build.py
+   expected: the commit rules above (eligibility, `build.py
    --check`, three-file stage) are the review gate, so once they pass the
    push follows in the same step.
 
@@ -310,7 +292,7 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
 ## Related
 
 - [[feedback_seed_selection_rule]] — only seed too_large cities
-- [[seed_no_overlap_invariant]] — why step 3 matters
+- [[seed_no_overlap_invariant]]: the circle rule this replaced, retired 2026-10-13, and why step 4 says not to shrink
 - [[feedback_seed_commit_includes_VERSION]] — why step 5 stages three files
 - [[citywalker_seeds_repo]] — repo layout; pushing main ships to users
 - `check-radius-downloads` skill (in citywalker-pipeline) — finds the
