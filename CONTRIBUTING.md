@@ -12,7 +12,7 @@ Thanks for wanting to add your city. The whole process is one command plus a vis
 
 2. Open `previews/your_city_cc.html` in a browser and check the result against the standards below. Iterate with `--admin-level`, `--max-regions`, `--clusters`, or a better data source until it looks right. `--dry-run` lets you iterate without writing seed files.
 
-3. Run `python3 build.py --check` to confirm everything validates and `region_seeds.json` is in sync.
+3. Run `python3 build.py --check` to confirm everything validates and `region_seeds.json` is in sync. It needs `shapely` (`pip install -r requirements.txt`).
 
 4. Open a PR containing the new `cities/<slug>.json`, the preview HTML, the rebuilt `region_seeds.json`, and the bumped `VERSION`. **Include a screenshot of the preview in the PR description.** That screenshot is the main review artifact.
 

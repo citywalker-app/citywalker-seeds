@@ -242,7 +242,7 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
 
    It also fails when a city's outlines reach past its own circle, or when
    the outlines of two cities overlap. If it complains that `region_seeds.json` is out of sync, run
-   `python3 build.py` (no `--check`) to rebuild.
+   `venv/bin/python3 build.py` (no `--check`) to rebuild.
 
 6. **Commit all three artifacts together.** The staged set must include
    `cities/<slug>.json`, `region_seeds.json`, **and** `VERSION`. Missing
@@ -293,7 +293,7 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
 
 - [[feedback_seed_selection_rule]] — only seed too_large cities
 - [[seed_no_overlap_invariant]]: the circle rule this replaced, retired 2026-10-13, and why step 4 says not to shrink
-- [[feedback_seed_commit_includes_VERSION]] — why step 5 stages three files
+- [[feedback_seed_commit_includes_VERSION]]: why step 6 stages three files
 - [[citywalker_seeds_repo]] — repo layout; pushing main ships to users
 - `check-radius-downloads` skill (in citywalker-pipeline) — finds the
   candidate cities this skill acts on

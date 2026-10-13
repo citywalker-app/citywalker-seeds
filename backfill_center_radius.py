@@ -3,10 +3,11 @@
 backfill_center_radius.py — add centerLat/centerLng/radiusKm to city files
 that lack them.
 
-seed_generator.py has never written these fields (git history shows they only
-exist on the ~24 cities carried over from the original pre-automation catalog
-split). Without them, the app's RegionSeedLoader.findCity skips coordinate
-matching entirely and falls back to exact name-string matching only — less
+seed_generator.py has written these fields since 2026-09-02 and build.py now
+fails a city without them, so this is only for repairing a file edited by hand.
+(Before that the generator left them out: they existed only on the ~24 cities
+carried over from the original pre-automation catalog split.) Without them,
+the app's RegionSeedLoader.findCity skips coordinate matching entirely and falls back to exact name-string matching only — less
 robust than a coordinate-radius check (fails on any name mismatch, aliasing
 gap, or ambiguous multi-country city name). See Sheffield 2026-07-24 investigation.
 
@@ -70,7 +71,8 @@ def compute_center_radius(city):
     center_lng = (min(lngs) + max(lngs)) / 2
 
     radius_km = max(haversine_km(center_lat, center_lng, lat, lng) for lat, lng in points)
-    return round(center_lat, 6), round(center_lng, 6), round(radius_km, 2)
+    # Radius rounds up, so the circle covers the farthest point.
+    return round(center_lat, 6), round(center_lng, 6), math.ceil(radius_km * 100) / 100
 
 
 def main():

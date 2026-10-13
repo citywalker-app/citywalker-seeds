@@ -917,7 +917,7 @@ def main():
         "countryCode": args.country.upper(),
         "centerLat":   round(center_lat, 6),
         "centerLng":   round(center_lng, 6),
-        "radiusKm":    round(radius_km, 2),
+        "radiusKm":    math.ceil(radius_km * 100) / 100,  # up, so the circle covers the farthest point
         "regions":     seed_regions,
         "source":      source,
     }

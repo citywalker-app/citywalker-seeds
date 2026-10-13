@@ -26,8 +26,8 @@ ships to every user on their next refresh — there is no staging.**
 python3 seed_generator.py "Mainz" DE          # OSM, default
 python3 seed_generator.py "Tokyo" JP --admin-level 7
 python3 seed_generator.py "City" CC --dry-run
-python3 build.py --check                       # what CI runs
-python3 build.py                               # rebuild region_seeds.json
+venv/bin/python3 build.py --check              # what CI runs (needs shapely)
+venv/bin/python3 build.py                      # rebuild region_seeds.json
 ```
 
 ## Invariants

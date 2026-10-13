@@ -14,7 +14,7 @@ The app downloads [`region_seeds.json`](region_seeds.json) from this repo's `mai
 
 ## Adding a city
 
-You need Python 3.10+. No required dependencies; `shapely` (better cluster polygons) and `pyshp` (Shapefile input) are optional.
+You need Python 3.10+ and `shapely` (`pip install -r requirements.txt`): the build uses it to check that the outlines of two cities do not overlap, and the generator for cluster polygons. `pyshp` (Shapefile input) is optional.
 
 The simplest path uses OpenStreetMap admin boundaries:
 

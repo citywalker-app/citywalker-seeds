@@ -35,7 +35,8 @@ BBOX_TOLERANCE = 1e-3  # degrees; polyline encoding rounds to 1e-5
 IOS_LEGACY_MAX_BYTES = 5 * 1024 * 1024
 
 # The apps test a city's circle before its outlines, so an outline point outside the circle
-# can never match by coordinate. radiusKm is rounded to 10 m, hence the slack.
+# can never match by coordinate. radiusKm has two decimals and older seeds rounded it to
+# the nearest rather than up, so a point can sit up to 5 m outside; hence the slack.
 CIRCLE_TOLERANCE_KM = 0.01
 
 # Outlines of two different cities may touch but not overlap: where they do, the apps take
@@ -51,6 +52,12 @@ SOURCE_METHODS       = {"osm", "geojson", "shapefile", "manual"}
 
 # Keys stripped from the built file — metadata for contributors, not the app.
 CONTRIB_ONLY_KEYS = {"source"}
+
+
+def bbox_ring(bb):
+    """The corners of a region's bounding box as (lat, lng) points."""
+    return [(bb["minLat"], bb["minLng"]), (bb["minLat"], bb["maxLng"]),
+            (bb["maxLat"], bb["maxLng"]), (bb["maxLat"], bb["minLng"])]
 
 
 def validate_city(path, city, errors):
@@ -99,21 +106,24 @@ def validate_city(path, city, errors):
 
         encoded = r["encodedPolyline"]
         if encoded is None:
-            continue  # bbox-only seed; the app supports these, and only matches it by name
-        try:
-            pts = decode_polyline(encoded)
-        except Exception as e:
-            err(f"region '{rname}' polyline does not decode: {e}")
-            continue
-        if len(pts) < 3:
-            err(f"region '{rname}' polyline has only {len(pts)} points")
-            continue
-        lats = [p[0] for p in pts]
-        lngs = [p[1] for p in pts]
-        drift = max(abs(min(lats) - bb["minLat"]), abs(max(lats) - bb["maxLat"]),
-                    abs(min(lngs) - bb["minLng"]), abs(max(lngs) - bb["maxLng"]))
-        if drift > BBOX_TOLERANCE:
-            err(f"region '{rname}' boundingBox disagrees with polyline by {drift:.5f}°")
+            # bbox-only seed; the app supports these, and matches a point against the box
+            # itself, so the box is the outline for the checks below.
+            pts = bbox_ring(bb)
+        else:
+            try:
+                pts = decode_polyline(encoded)
+            except Exception as e:
+                err(f"region '{rname}' polyline does not decode: {e}")
+                continue
+            if len(pts) < 3:
+                err(f"region '{rname}' polyline has only {len(pts)} points")
+                continue
+            lats = [p[0] for p in pts]
+            lngs = [p[1] for p in pts]
+            drift = max(abs(min(lats) - bb["minLat"]), abs(max(lats) - bb["maxLat"]),
+                        abs(min(lngs) - bb["minLng"]), abs(max(lngs) - bb["maxLng"]))
+            if drift > BBOX_TOLERANCE:
+                err(f"region '{rname}' boundingBox disagrees with polyline by {drift:.5f}°")
 
         if center:
             reach = max(_haversine_km(center[0], center[1], la, ln) for la, ln in pts)
@@ -143,8 +153,9 @@ def check_outline_overlaps(cities, errors):
         parts = []
         for r in city["regions"]:
             if r["encodedPolyline"] is None:
-                continue
-            pts = decode_polyline(r["encodedPolyline"])
+                pts = bbox_ring(r["boundingBox"])  # the apps match a bbox-only region by its box
+            else:
+                pts = decode_polyline(r["encodedPolyline"])
             # Many stored rings touch themselves once rounded to 1e-5; make_valid repairs
             # that without moving the border.
             parts.append(make_valid(Polygon([(ln, la) for la, ln in pts])))
