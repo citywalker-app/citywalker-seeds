@@ -1,9 +1,9 @@
 {
   "name": "Mumbai",
   "countryCode": "IN",
-  "centerLat": 19.0808,
-  "centerLng": 72.8789,
-  "radiusKm": 21.45,
+  "centerLat": 19.08082,
+  "centerLng": 72.87888,
+  "radiusKm": 22.77,
   "regions": [
     {
       "name": "South Mumbai",

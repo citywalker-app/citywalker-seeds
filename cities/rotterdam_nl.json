@@ -1,9 +1,9 @@
 {
   "name": "Rotterdam",
   "countryCode": "NL",
-  "centerLat": 51.905256,
-  "centerLng": 4.46971,
-  "radiusKm": 10.54,
+  "centerLat": 51.92188,
+  "centerLng": 4.282035,
+  "radiusKm": 22.93,
   "regions": [
     {
       "name": "Botlek-Europoort-Maasvlakte",

@@ -1,9 +1,9 @@
 {
   "name": "Mogi das Cruzes",
   "countryCode": "BR",
-  "centerLat": -23.525,
-  "centerLng": -46.105,
-  "radiusKm": 21.08,
+  "centerLat": -23.55638,
+  "centerLng": -46.18614,
+  "radiusKm": 25.64,
   "regions": [
     {
       "name": "Biritiba-Ussu",
