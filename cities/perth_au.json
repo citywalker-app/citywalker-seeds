@@ -1,0 +1,158 @@
+{
+  "name": "Perth",
+  "countryCode": "AU",
+  "centerLat": -31.937722,
+  "centerLng": 115.869104,
+  "radiusKm": 15.1,
+  "regions": [
+    {
+      "name": "Bayswater",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.952079,
+        "maxLat": -31.865367,
+        "minLng": 115.877703,
+        "maxLng": 115.938751
+      },
+      "encodedPolyline": "d}oaEsjgbU?wItm@Jpp@}x@~MwOzCsExZx_@jTaXzPdTtm@lk@jLuNp@z@fFoGq@{@p[q`@}@gAxDwEz@fAvLcOtAdBNSxGvIX]NPX_@~@hA[^NPZ_@z@dApA_BtAfBt@}@|@hAY\\PRs@z@tBlCr@{@h@p@s@z@nShWbQaTbNvT|BvGhCfLhAhC`BxBrAbA|GdEhChA]{@?k@wEwLlIAEcWgAmCqA_CqBgCg@sA?wAx@gJCoBZqAMe@PQKq@XeBj@qAzC_DtAeCTItA}Cj@g@R{@XQz@wB@g@L@rDiEXmArAeBAk@Pc@d@IHJ~@Yn@YN]z@LZYb@?^a@ZCHRXQdA?bD~@l@p@xDlArHdDbDz@xAHdB[lDeB~D{EtBsEpBcJN{BC{Fe@gLe@}DBqCg@iLFaBUo@C_Ds@kFkAiDo@iDaAcCk@q@}DeDaCa@uAHmDhAgHfFo@fAe@TaA|Ac@RmA`B}AdAo@dASIyAhCaA`AaBdEgEdFiBjAgBx@oB^i@j@c@HOe@_EXeFy@_DmAiAQ_DyBeEaFqBaB_AoDi@k@iAkCIqCo@qCeAkCy@gHo@kBe@uCAuI`@kEYgC?iANU?cEMaH[yBOiEVe@A_AR_Ak@y@IgFJyIiAcMFiAM{@JYMaAR[SMTM?iAq@wIgBsFcD_Ec@qA{@e@eDi@YU{Im@_B]QRA]yC[cTxW}GeIeU`YaAjBkMzOkCeD?\\aSpVY?qF{GU^]a@]G{@^oBZqDEi@n@Eh@q\\cFj@sGg@uLOPsf@eH?vDaj@?AqCuAkD}aBD@dcByUvBqBj@}BfAkAx@}BdDkAlEO~E`B|SzElf@lDnv@lAnx@@`Pk@|U~CA?j@r@`AnDx@nDf@nDF"
+    },
+    {
+      "name": "Belmont",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.988796,
+        "maxLat": -31.919758,
+        "minLng": 115.89689,
+        "maxLng": 115.987472
+      },
+      "encodedPolyline": "hw_bEqbkbUjjEskFY_@`MoN}QiUC_Ar@{@o@y@p@{@q@{@hAuAs@{@r@{@s@{@T[b@cFdKczBz@gA_AkAzAkBw@aAv@wPl@u@c@i@z@aR_CuCxDyESUv@oPlDk@yCsDeFl@yLeAeD_A{BoBs@r@}yBm\\l@t@wDk@\\c@i@IgArAkB}BoFy@o@x@{IwCab@kGwJi@w@{@eImAo{CvvDkKoMW\\eBwBY\\j@xD_GxH`AtI}CxDz@tAClAn@t@Bl@^p@I\\ZCt@hAb@FrBrBpAn@vChCj@z@N?ENj@d@b@jEKzHWrCw@zDqAhDi@p@eIhUm@`EXhA~@hArEhAxNp@nIr@TIx@P|BC|Af@\\Or@t@JCb@qAdAm@QfCTJrBcCuA|Bl@h@JQCZh@h@z@lBzB`Dv@n@bC|Fl@jDN~Fh@`CJdGJFKNF~Al@pEPvD`@|BLnCInLPpAG~EZxJCbG`@fBJpDPr@JrJVjAJ_A`@g@Jf@o@r@Ft@Mv@l@v@f@hDlDdL\\z@rA`AYn@O@Ll@b@\\d@e@xA?n@rAXpCX^i@ODRVVRIl@dAlCvBN?n@`AbAt@H^vAbAlCb@fDWpBeAxAqA`@kAiDVkA\\WGUe@Hq@X[TLVQTHv@{@ZDJ[^\\Xm@t@QRaAm@h@EMa@L\\m@XHFu@RDdAgAFXxAiCN}@tAoBbCwA`@i@][j@PPMv@oAzAiAtBoCDqAi@yB_BeCNwAZo@CUy@c@j@{Cj@HvA|@NQLP|Cd@t@t@nBf@rEw@`@LVOVPdAMbAz@nBhClCtBF^~BdD|BrGjHr\\j@lGrCfQRdGClEPzAGdIM^Fz@YbBJNYVSlA?`BQX]Da@rAYVH^SlAuA`C"
+    },
+    {
+      "name": "Cambridge",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.962711,
+        "maxLat": -31.908087,
+        "minLng": 115.753461,
+        "maxLng": 115.8439535
+      },
+      "encodedPolyline": "ph|aEcboaUlDSrQJ`@QHe@b@C`EBvASvBFbEGZMvDHhBg@vYHnSl@pTyq@~o@kHJulA{oA??uhAaJ?JoPMeHwU@?ujAtR?BuVwUEByYyJAVakAj@kBvEeKHsBcBaL{@qJg@gJU{XlAiM|BqLiKyLwAnDcDjGcEvFuCzCaEdDoBhA_^nPaKpHwf@rj@sCrC}B~AdAtFXhDAjf@`C\\lFFvA^v[pRxH`W~@xLOR{A?x@vMtHxH[tKe`@ha@Ajn@sCM}EfQoBlB}ElAiAh@sAfB[xA{Dr^@j\\?r@QAElB@~IRh@@~_@yuA?BjhA~EMhGDlJ_@zGCpNfAzCI|_@\\zIjAhDJpLCvESpMt@xZV"
+    },
+    {
+      "name": "Claremont",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.993484,
+        "maxLat": -31.969018,
+        "minLng": 115.7662164,
+        "maxLng": 115.792658
+      },
+      "encodedPolyline": "tugbE{qqaUPqi@gKTiH_AaAo@gB_E_@_BoAiLB{F^cHtBaPjDuLrBkFzA{Bl@c@?_IRI@_ZsPCA~ZgNaM?}Be^AKy@g{@?QY}NQArmA|DtJ?tW`AnGbVFCr]zXBCi@tH?|B@@h@~YDqFcJmD_SrXDdAxCdElIdFrDlAZ?MjPpGzExC"
+    },
+    {
+      "name": "Nedlands",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -32.004909,
+        "maxLat": -31.944346,
+        "minLng": 115.752711,
+        "maxLng": 115.817475
+      },
+      "encodedPolyline": "nnebEm}naU@iwAwIAAi@}BAuH?Bh@{XCBs]cVGaAoG?uW}DuJ@smA|NPPXf{@?Jx@d^@?|BfN`M@_[rPBA~YSH?|Gz@g@bB@~@c@l@N`HFzBZnDcAZNhBQbBs@pA{BhDyDhHmEhJ}DjDg@pCLbBc@vBCfBeA\\_Ak@oC_@oFaAsEkA{Bi@oFq@oDQyGy@sKH_Bb@[wAwP{BoNeBuF}AmDcEiG}B{BiCeBeFcBeGc@E[KTY?y@q@@g@[x@y@EyDmBMMB[O^e@LyB_BsB}B}CoFiCgD_C{BwCsB_BrEaMrJsm@FmOzBfA`LyJxAqAkL_]F?hHoI??`EoI??yPaP??jCQ?EfdAcFkFyH}F}^gRCbPqTCwBh@_@\\?|A}p@@?tjAvUALdHKnP`J??thAzoA?KtlA_p@jHqTxq@pQi@bF?`I_@l@DfOuAfFDvGf@bIEb@J|BMv@H\\Md@N`@Ipe@TpKn@dD?tJf@pQhBxDt@p@n@tBGhCX"
+    },
+    {
+      "name": "Perth",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.996761,
+        "maxLat": -31.9414214,
+        "minLng": 115.810995,
+        "maxLng": 115.889099
+      },
+      "encodedPolyline": "v|bbEwizaU?aEnI??iH~\\GpAjLxJyAgAaLlO{Brm@G`MsJ~AqEQKxh@cvAs@eHaBuG}EwLuCgEoDcDqEqCcGoBwQkAwF^eFnCmKbLyDnDuFvC{HVwGuBiFyD}EaGgFgFeOyIwHgB}QeAaGuAcGiCmDuD_BgD_AqFa@}G?cMdE{]jRex@dAcY`DsYtGoS^wJaAoJgBsKyD_LuIeO`BcDYg@aBdDyHwKmAmAaDcBmC[gDn@_OjG{cAv[}E@\\tPDjZZzC|@nEbG|N\\hCF|BKtBU`AbAt@oo@vhBxUlHoCv@qCzAwAhA{@jAkBpEuHjW`x@t`ADSjhAntApDfDhE~Bx@T?rZ`P??xPnI?"
+    },
+    {
+      "name": "South Perth",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -32.033425,
+        "maxLat": -31.964207,
+        "minLng": 115.844745,
+        "maxLng": 115.899608
+      },
+      "encodedPolyline": "~obbEs|`bUJe@pCgCx@K`@bARs@zAmA|Bg@f@n@J]fCgB~By@jAAZv@nAcA`B@hE}@n@VJQzBo@tDg@v@@T`@RU`AMhHYjD?pDz@pAU~O_LrRaJnZmLbF_BnGiATRpA_@JHfEo@N?@X@S`Ho@r@J?Jt@ID^xDO~Fb@`@PtFn@tFtAdDd@~FbCz@M|Bb@nAGf@QnAkBz@m@|I{B|EHzFlA`DGdCd@X_@zAaJfBuAvB{@bJeBvCM~AXtBOl@\\pCNDNtEnA|@t@x@P|DoAlBStFgBfHuDbJ_HhCqA`EgArEEtEu@nBTrBrAv@tAt@zBGjEJj@jAXbAUx@qF`AuCnAgAdBIxAgAv@oAVaCm@{B{A}@kByBuB_@_BN_DdB{@PkCIgDw@uDeCmAsCoAs@q@cB[mDTkEjAmHjEuOfAkBbAq@lCmDzDsBdA}@FYaAd@}AXc@n@eAl@m@Ea@QWg@VsAxA_AbBO?Mi@OuA?]OZOcB[yFm@mKEmJoFqEc@_AWqA}@}@qAuF@hFKRQc@_Bu@aAgAsCg@sFS}ENiAUeBD_A_@yGi@}AgBm@Ik@Le@gAaAHoAg@UAW@yA`@yAIw@_AuAWoAcE_Ck@}Ac@uCl@yD?uBl@yAIa@TmBa@{AD{Ak@aC?{Bo@{BCu@XiACaCbAgBl@kBd@k@t@OwIuKsSrBmM|OlLvN_Dzj@{KkAkD{@_KsDwFc@wF^wa@nHeBJcZKiLgBcBkA{CsD_Zj^gSgWvKyM_O_RekApwAl@rNG`Hk@fLRxDd@vB`AvBvExEtCzDzAhErArGj@rF@dJkAtHg@jGo@fDgAtD{CdGiB~FcBnHkCtH}E~FcC`BsEpBsJxBeBbA_CpCiA~B]pB_AjAn@rBV~BlB|Cj@XrB\\jCOr@t@"
+    },
+    {
+      "name": "Stirling",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.93854,
+        "maxLat": -31.842018,
+        "minLng": 115.750736,
+        "maxLng": 115.893532
+      },
+      "encodedPolyline": "jvpaEcqnaUH]\\VdC_BlIcA`Do@nC@lIeCpGG~MeCtKwArJm@tCs@tCAjFk@jB?dJu@`EAjDWbDPRWFN|@@|Gm@xHG|@S~DCjE_@^H`DSh@Pd@O\\Vb@Md@NXIrDf@tFEl@KjFDAgdAxuA?A_`@Si@A_JDmBP@?s@Ak\\zDs^ZyArAgBhAi@|EmAnBmB|EgQrCL@kn@d`@ia@ZuKuHyHy@wMzA?NS_AyLyHaWw[qRwA_@mFGaC]@kf@YiDeAuFaF~C}EtBwExAiNrCqLx@]ooC_A}EeEhAj_DizDkD{IiCiA}GeEsAcAaByBiAiCiCgL}BwGcNwTcQ`ToSiWr@{@i@q@s@z@uBmCr@{@QSX]}@iAu@|@uAgBqA~A{@eA[^OQZ_@_AiAY^OQY\\yGwIORuAeBwLbO{@gAyDvE|@fAq[p`@p@z@gFnGq@{@kLtNum@mk@{PeTkT`XyZy_@{CrE_NvOqp@|x@um@K?vIoDG_JaBs@aA?k@eLB_Fo@uf@x@iGd@mPhDqGl@qEI_LkAcJlk@}@pKi@l|DQfEwBbMoGhOcElIqNxQuBfFc@pFj@bLrAbKlJra@z@|Eb@xFtCbq@OnjDuCpo@G`GT~F|Cj^?~BlG?IbC[x@wBdDi@rA_@VAle@b@??rNbB}@xF]bEP`@PN\\`@Pz@?V`@fBXdBCTRv@EbBg@nBJ`AM|As@xD}@pBTpEi@|Dr@bAUf@a@^DDQhBYlCKf@F\\^rA]|ADlAc@bCZrEk@pA@ZTfAFn@|@PHVQDX\\K?QzAAl@SzBXbBG~EoAfDW~C`@`DWPNNGB^TDFQh@Sx@Fj@~@@e@ZRLO|AKt@f@IN^J~C{AXHZOjBB^PPKtDdABM`@FJKv@JHNJMlC~@r@EdAXd@^S^DbAJD"
+    },
+    {
+      "name": "Subiaco",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.964512,
+        "maxLat": -31.942012,
+        "minLng": 115.802069,
+        "maxLng": 115.841737
+      },
+      "encodedPolyline": "l`bbE}qxaUDgdAP??__@y@UiE_CqDgDkhAotAERwk@{r@}BpLmAhMTzXf@fJz@pJbB`LIrBwEdKk@jBW`kAxJ@CxYvUDCtVf]A?}A^]vBi@pTBBcP|^fRxH|FbFjF"
+    },
+    {
+      "name": "Victoria Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -32.01326,
+        "maxLat": -31.93996,
+        "minLng": 115.878763,
+        "maxLng": 115.933099
+      },
+      "encodedPolyline": "`jcbEgqgbUdkAqwA~N~QwKxMfSfW~Yk^zCrDbBjAhLfBbZJdBKva@oHvF_@vFb@~JrDjDz@zKjA~C{j@mLwNx@cA_]kb@kLWj@oNMcBc@eBuAgCoBrBsk@ss@iOrJXsBEgKb@{d@oBuBgIhLuDzDcGoH{RuV?QzNoQ{^ud@qaEhaFmNzGq@t@sAZqGb@eQ[{@[c@XiA@{AZwIlE_DpCGt@sBjDg@jBM?Ep@oAnDJ^WlAH^OjDNjBKLQSXjCTzApAhDhB`Cp@b@pAd@z@BjB~@rBJ`Ch@hAt@n@BfCc@vF\\dDUf@L~@Ql@P|Bm@`CKxEyAxKcGnGqBdBaAp@{@p@Qz@y@fDuA~HkFjCw@dAu@`HyCbCi@tCK|ELfBf@DOJXvCv@tBrBPAb@|@lAr@hBhB`DrEhBhErK`Q|B|EhBhFtAtFrArI"
+    },
+    {
+      "name": "Vincent",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -31.949811,
+        "maxLat": -31.912883,
+        "minLng": 115.8231098,
+        "maxLng": 115.885305
+      },
+      "encodedPolyline": "rgxaEmu|aUpLy@tDo@bLoCdIcD~I_GrCsCvf@sj@`KqH~]oPpFsDxHoInCgErBcEvAoDtHkWjBqEz@kAvAiApC{AnCw@yUmHno@whBcAu@TaAJuBG}B]iCoAkD_CsEqBmIc@{GDcMQ_P{OGuKeBsCmAwDm@c@iAQKWN]AAOEH_BgCaA[Yw@{@Gq@uAMBSU{Ag@y@aBMMKDDbWmI@`LzZk_DhzDdEiA~@|E\\noC"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "file:///private/tmp/claude-501/-Users-pritipatki-AndroidStudioProjects-CityWalker-grdb/1fe8b305-6635-43e7-9bc2-590616004428/scratchpad/perth_lgas.geojson",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors (local government area boundaries via Nominatim)"
+  }
+}
