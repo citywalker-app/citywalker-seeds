@@ -20,7 +20,8 @@ import math
 import sys
 from pathlib import Path
 
-from seed_generator import decode_polyline, _haversine_km
+from seed_generator import decode_polyline, encode_polyline, _haversine_km
+from simplify_outlines import simplify_regions, DEFAULT_TOLERANCE_M
 
 ROOT         = Path(__file__).parent
 CITIES_DIR   = ROOT / "cities"
@@ -52,6 +53,11 @@ SOURCE_METHODS       = {"osm", "geojson", "shapefile", "manual"}
 
 # Keys stripped from the built file — metadata for contributors, not the app.
 CONTRIB_ONLY_KEYS = {"source"}
+
+# Outlines in cities/ keep every point their source had; the built file carries them
+# thinned so that no border moves by more than this (see simplify_outlines.py). Nine
+# tenths of the catalog is outline points, and half of them sit on straight stretches.
+OUTLINE_TOLERANCE_M = DEFAULT_TOLERANCE_M
 
 
 def bbox_ring(bb):
@@ -176,6 +182,23 @@ def check_outline_overlaps(cities, errors):
                               f"a point there matches whichever city is first in the catalog")
 
 
+def simplify_outlines(cities, tolerance_m=OUTLINE_TOLERANCE_M):
+    """
+    Thins every outline in place for the built file; bounding boxes are left alone.
+    All cities go in together so a border two regions (or two cities) share vertex for
+    vertex stays shared after thinning. Returns (points before, points after).
+    """
+    regions = [r for c in cities for r in c["regions"] if r["encodedPolyline"] is not None]
+    rings = [[tuple(p) for p in decode_polyline(r["encodedPolyline"])] for r in regions]
+    thinned = simplify_regions(rings, tolerance_m)
+    for r, ring in zip(regions, thinned):
+        r["encodedPolyline"] = encode_polyline(ring)
+        # boundingBox stays as the source has it: thinning only drops points, so the box
+        # still holds the outline, and the apps download a region's streets by its box, so
+        # a changed box would miss the proxy's cache for every region at once.
+    return sum(len(r) for r in rings), sum(len(r) for r in thinned)
+
+
 def build():
     errors = []
 
@@ -203,6 +226,9 @@ def build():
         cities.append({k: v for k, v in city.items() if k not in CONTRIB_ONLY_KEYS})
 
     if not errors:
+        points_before, points_after = simplify_outlines(cities)
+        print(f"ℹ️   outlines thinned to {OUTLINE_TOLERANCE_M:g} m: "
+              f"{points_before:,} points → {points_after:,}")
         check_outline_overlaps(cities, errors)
 
     if errors:
@@ -227,8 +253,9 @@ def main():
 
     seeds = build()
     # No whitespace: the apps parse it and nobody reads it, and indentation was 7% of the
-    # bytes. The values are unchanged: the apps compare stored region boxes with these
-    # exactly, so rounding them would read as a reseed of every region city.
+    # bytes. The apps compare their stored outlines with these exactly and take any
+    # difference as a reseed of the region, so the thinning above must stay deterministic:
+    # the same sources give the same bytes, and a change of tolerance reseeds every city.
     rendered = json.dumps(seeds, ensure_ascii=False, separators=(",", ":"))
     size = len(rendered.encode("utf-8"))
     if size > IOS_LEGACY_MAX_BYTES:

@@ -10,7 +10,7 @@ Region boundaries are approximate and intended for exploration tracking, not aut
 
 ## How the app uses this repo
 
-The app downloads [`region_seeds.json`](region_seeds.json) from this repo's `main` branch and caches it for 24 hours, falling back to a bundled copy. That file is a built artifact: the source of truth is the per-city files in [`cities/`](cities/), assembled by [`build.py`](build.py). Do not edit `region_seeds.json` by hand.
+The app downloads [`region_seeds.json`](region_seeds.json) from this repo's `main` branch and caches it for 24 hours, falling back to a bundled copy. That file is a built artifact: the source of truth is the per-city files in [`cities/`](cities/), assembled by [`build.py`](build.py). Do not edit `region_seeds.json` by hand. The build also thins each outline so that no border moves by more than 2 m (`simplify_outlines.py`); the files in `cities/` keep full detail.
 
 ## Adding a city
 

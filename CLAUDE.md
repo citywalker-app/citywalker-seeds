@@ -19,6 +19,7 @@ ships to every user on their next refresh — there is no staging.**
   artifact for PRs.
 - `seed_generator.py` — the main tool. See README for full flag list.
 - `build.py` — validates cities/*.json and rebuilds region_seeds.json.
+- `simplify_outlines.py` — thins outlines for the built file (see below).
 
 ## Common commands
 
@@ -50,6 +51,15 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
 - **Every seed commit stages three files together**: `cities/<slug>.json`,
   `region_seeds.json`, and `VERSION`. Missing `VERSION` fails CI's sync
   check. See [[feedback_seed_commit_includes_VERSION]].
+- **The built outlines are thinned; the sources are not.** `build.py` drops
+  outline points that lie within 2 m of the border through their neighbours
+  (`simplify_outlines.py`), which halves the catalog: 5.24 MB → 2.90 MB at
+  v196. A border two regions share is thinned once and both get the same
+  points, so the apps still merge shared borders exactly. Each outline keeps its four extreme points, so the box the apps download by (and the proxy caches by) is unchanged. Edit `cities/`
+  with full detail and let the build thin it. Do not change the tolerance
+  lightly: the apps compare stored outlines with the catalog byte for byte,
+  so a different tolerance reads as a reseed of every city (one-time
+  re-persist of regions on every phone).
 - **Non-OSM sources need license + attribution.** The build rejects
   `"license": "unknown"` because the app redistributes this data.
 
