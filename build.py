@@ -29,10 +29,11 @@ SEEDS_PATH   = ROOT / "region_seeds.json"
 
 BBOX_TOLERANCE = 1e-3  # degrees; polyline encoding rounds to 1e-5
 
-# iOS up to 1.2.1 drops a downloaded catalog over 5 MiB without a word and keeps the one
-# it has. The catalog passed that at v176 (2026-09-30), and no change reached iOS for a
-# week. Later iOS builds take 25 MiB; until the old ones are gone, a build over this fails.
-IOS_LEGACY_MAX_BYTES = 5 * 1024 * 1024
+# iOS 1.2.2 and later drop a downloaded catalog over 25 MiB without a word and keep the
+# one they have. iOS up to 1.2.1 had a 5 MiB limit; the cap moved to 25 MiB on 2026-10-26
+# (London's 32 boroughs) when those builds were ~3% of iOS sessions. They keep their old
+# catalog from then on.
+IOS_LEGACY_MAX_BYTES = 25 * 1024 * 1024
 
 # The apps test a city's circle before its outlines, so an outline point outside the circle
 # can never match by coordinate. radiusKm has two decimals and older seeds rounded it to
