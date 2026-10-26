@@ -1,1 +1,1 @@
-shapely
+shapely==2.2.0

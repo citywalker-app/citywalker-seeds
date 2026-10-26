@@ -62,7 +62,13 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
   and let the build thin it. Do not change the tolerance lightly: the apps
   compare stored outlines with the catalog byte for byte, so a different
   tolerance reads as a reseed of every city (one-time re-persist of regions
-  on every phone).
+  on every phone). The same goes for the thinning arithmetic: it uses only
+  `+ - * /` so every machine builds the same bytes. `math.cos`, `hypot` or
+  `sqrt` differ in the last bit between macOS and Linux, which made CI's sync
+  check fail on every push from v197 to v198. shapely is pinned in
+  `requirements.txt` for the same reason: its validity check decides which
+  outlines keep their points. Bump it on purpose, and only if
+  `build.py --check` still passes on the new version.
 - **Non-OSM sources need license + attribution.** The build rejects
   `"license": "unknown"` because the app redistributes this data.
 

@@ -27,7 +27,6 @@ The source files in cities/ are not touched: build.py calls simplify_regions()
 on the way to the built file.
 """
 
-import math
 
 # The apps judge a GPS fix against the outlines, and a phone's fix is off by
 # 5-10 m on a good day: a border moved by 2 m changes no credit anyone can see.
@@ -184,15 +183,35 @@ def _dist2(a, b):
     return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
 
 
+def _cos_deg(deg):
+    """
+    Cosine of an angle in degrees using only + - * /. IEEE-754 rounds those exactly
+    the same on every machine, unlike math.cos, whose last bit depends on the C
+    library: macOS and Linux built different bytes from the same sources, so CI's
+    sync check failed (v197). Within 6 units in the last place of math.cos up to
+    70° of latitude (11 at 80°): nanometres on the ground, and it's the same
+    nanometres on every machine, which is what matters here.
+    """
+    x = deg * 3.141592653589793 / 180.0
+    x2 = x * x
+    term = total = 1.0
+    for i in range(1, 15):
+        term = -term * x2 / ((2 * i - 1) * (2 * i))
+        total += term
+    return total
+
+
 def _douglas_peucker(points, tolerance_m, fixed_points=frozenset()):
     """
     Iterative Douglas-Peucker; distances in metres on a local flat projection.
     Points in fixed_points are kept, and the stretches between them thinned on their own.
+    Only + - * / are used, compared as squared distances (no sqrt or hypot), so the
+    same sources give the same points on every machine; see _cos_deg.
     """
     n = len(points)
     if n <= 2:
         return points
-    k = math.cos(math.radians(sum(p[0] for p in points) / n))
+    k = _cos_deg(sum(p[0] for p in points) / n)
     xy = [(p[1] * k * M_PER_DEG, p[0] * M_PER_DEG) for p in points]
     keep = [p in fixed_points for p in points]
     keep[0] = keep[-1] = True
@@ -206,18 +225,19 @@ def _douglas_peucker(points, tolerance_m, fixed_points=frozenset()):
         ex, ey = xy[e]
         dx, dy = ex - sx, ey - sy
         length2 = dx * dx + dy * dy
-        worst, idx = 0.0, -1
+        worst, idx = 0.0, -1  # squared distance in m²
         for i in range(s + 1, e):
             px, py = xy[i]
             if length2 == 0.0:
-                d = math.hypot(px - sx, py - sy)
+                ax, ay = px - sx, py - sy
             else:
                 t = ((px - sx) * dx + (py - sy) * dy) / length2
                 t = 0.0 if t < 0.0 else 1.0 if t > 1.0 else t
-                d = math.hypot(px - sx - t * dx, py - sy - t * dy)
+                ax, ay = px - sx - t * dx, py - sy - t * dy
+            d = ax * ax + ay * ay
             if d > worst:
                 worst, idx = d, i
-        if worst > tolerance_m:
+        if worst > tolerance_m * tolerance_m:
             keep[idx] = True
             stack.append((s, idx))
             stack.append((idx, e))
