@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 from seed_generator import decode_polyline, encode_polyline, _haversine_km
-from simplify_outlines import simplify_regions, DEFAULT_TOLERANCE_M
+from simplify_outlines import simplify_regions, DEFAULT_TOLERANCE_M, OutlinesNotSettled
 
 ROOT         = Path(__file__).parent
 CITIES_DIR   = ROOT / "cities"
@@ -182,15 +182,24 @@ def check_outline_overlaps(cities, errors):
                               f"a point there matches whichever city is first in the catalog")
 
 
-def simplify_outlines(cities, tolerance_m=OUTLINE_TOLERANCE_M):
+def simplify_outlines(cities, errors, tolerance_m=OUTLINE_TOLERANCE_M):
     """
     Thins every outline in place for the built file; bounding boxes are left alone.
     All cities go in together so a border two regions (or two cities) share vertex for
-    vertex stays shared after thinning. Returns (points before, points after).
+    vertex stays shared after thinning. Returns (points before, points after), or None
+    after adding to errors if some outlines would still cross themselves.
     """
-    regions = [r for c in cities for r in c["regions"] if r["encodedPolyline"] is not None]
+    owned = [(c, r) for c in cities for r in c["regions"] if r["encodedPolyline"] is not None]
+    regions = [r for _, r in owned]
     rings = [[tuple(p) for p in decode_polyline(r["encodedPolyline"])] for r in regions]
-    thinned = simplify_regions(rings, tolerance_m)
+    try:
+        thinned = simplify_regions(rings, tolerance_m)
+    except OutlinesNotSettled as e:
+        for i in e.rings:
+            city, region = owned[i]
+            errors.append(f"{city['name']} / {region['name']}: outline still crosses itself "
+                          f"after thinning; see simplify_outlines.MAX_PASSES")
+        return None
     for r, ring in zip(regions, thinned):
         r["encodedPolyline"] = encode_polyline(ring)
         # boundingBox stays as the source has it: thinning only drops points, so the box
@@ -226,10 +235,11 @@ def build():
         cities.append({k: v for k, v in city.items() if k not in CONTRIB_ONLY_KEYS})
 
     if not errors:
-        points_before, points_after = simplify_outlines(cities)
-        print(f"ℹ️   outlines thinned to {OUTLINE_TOLERANCE_M:g} m: "
-              f"{points_before:,} points → {points_after:,}")
-        check_outline_overlaps(cities, errors)
+        counts = simplify_outlines(cities, errors)
+        if counts:
+            print(f"ℹ️   outlines thinned to {OUTLINE_TOLERANCE_M:g} m: "
+                  f"{counts[0]:,} points → {counts[1]:,}")
+            check_outline_overlaps(cities, errors)
 
     if errors:
         print(f"❌  {len(errors)} validation error(s):")

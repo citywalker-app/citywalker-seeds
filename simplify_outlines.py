@@ -35,6 +35,18 @@ DEFAULT_TOLERANCE_M = 2.0
 
 M_PER_DEG = 111_320.0
 
+# Each pass keeps the original points of every ring that came back crossing itself, which
+# can in turn break a neighbour. Five rings needed one extra pass in v196.
+MAX_PASSES = 4
+
+
+class OutlinesNotSettled(Exception):
+    """Some outlines still cross themselves after MAX_PASSES; `rings` holds their indexes."""
+
+    def __init__(self, rings):
+        super().__init__(f"{len(rings)} outline(s) still cross themselves after {MAX_PASSES} passes")
+        self.rings = rings
+
 
 def simplify_regions(rings, tolerance_m=DEFAULT_TOLERANCE_M):
     """
@@ -46,6 +58,7 @@ def simplify_regions(rings, tolerance_m=DEFAULT_TOLERANCE_M):
     run within the tolerance of each other (a neck a few metres wide). Any ring
     that was sound and comes back crossing itself keeps its arcs as they were,
     and so do its neighbours along those arcs, so the border stays shared.
+    Raises OutlinesNotSettled if that hasn't settled after MAX_PASSES.
     """
     cleaned = [_clean(r) for r in rings]
     arcs_by_ring = _split_into_arcs(cleaned)
@@ -54,15 +67,17 @@ def simplify_regions(rings, tolerance_m=DEFAULT_TOLERANCE_M):
         if ring:
             fixed_points.update(_extremes(ring))
     pinned = set()  # canonical arc keys left unsimplified
-    for _ in range(4):
+    for _ in range(MAX_PASSES):
         out = _assemble(cleaned, arcs_by_ring, tolerance_m, pinned, fixed_points)
         broken = [i for i, (before, after) in enumerate(zip(cleaned, out))
                   if len(before) >= 4 and _is_simple(before) and not _is_simple(after)]
         if not broken:
-            break
+            return out
         for i in broken:
             pinned.update(_canonical(arc)[0] for arc in arcs_by_ring[i])
-    return out
+    # The last pass still broke something. Shipping it would hand the apps an outline
+    # that crosses itself, so stop the build instead.
+    raise OutlinesNotSettled(broken)
 
 
 def _extremes(ring):
