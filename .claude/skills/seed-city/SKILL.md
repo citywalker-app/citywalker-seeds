@@ -11,51 +11,64 @@ sure what ships is correct.
 
 ## Before you start: is this city eligible?
 
-**Only seed cities that hit `too_large` on the Overpass proxy.** A city that
-clean-downloads without hitting the size limit does not need a seed —
-seeding it just adds catalog noise.
-Active walker count is not a reason to seed.
+**Policy since 2026-10-27: seed every unseeded city that hit the too-large
+screen** (a radius fallback in Aptabase, or a full-city build by the
+too-large pipeline in the proxy cache), **even when the whole city downloads
+fine.** A seed gives region picking and a per-region coverage breakdown that
+a full-city download doesn't, and both apps move existing users onto a new
+seed's regions on their own (full-city downloads are re-split into regions
+on the phone, radius cities get regions plus an auto-download). There is no
+path-count gate any more: don't run the old Overpass `out count` or
+Nominatim checks to decide eligibility.
 
-**A radius fallback does not prove the city is too large.** Run the check
-below before any data-source work, even when the city came from
-`check-radius-downloads` output. Formosa, AR (2026-09-14) had a confirmed
-radius fallback but only ~5,000 highway ways: the too-large screen came from
-the search matching the province, and the pipeline delivered the full city
-7 seconds later. Nearly seeded anyway.
+Still skip or ask:
+- **Counties, districts and other non-city areas** (Somerset, Norfolk, New
+  Castle County, Rhondda Cynon Taf...): hold them and ask the user. Seeds are
+  meant to be the city proper.
+- **Small towns that can't make 5+ sensible walkable regions** (Bariri,
+  Guamal, Voss): these usually tripped only the 100 km² area rule
+  (`NominatimService.MAX_CITY_AREA_KM2`). Report them instead of forcing a
+  seed.
+- **The seed's outline must match the boundary the full-city download used**
+  (the city's own boundary, not a wider metro). If a seed's outer regions
+  reach past it, Android marks partly filled border regions downloaded, and
+  iOS refuses to re-split a city whose streets fall in under half the seed's
+  regions (`coversTooLittleOfSeed`). Keep rural parts as large regions
+  rather than dropping them when the city boundary includes them (Ottawa,
+  Winnipeg).
 
-The app shows the too-large screen when the Nominatim area is over 100 km²
-(`NominatimService.MAX_CITY_AREA_KM2`) *or* the path count is high
-(`PathRepository.kt`: `MEDIUM_PATH_COUNT = 8_000`, `MAX_PATH_COUNT = 50_000`).
-The area rule fires on any city whose search result is its province or a big
-municipality, regardless of how many paths it has. So check all three:
+## No live OSM calls without asking
 
-1. **Did the pipeline already deliver the full city?** In Aptabase, look for
-   the same `user_id` getting `osm_download_started`
-   `via:"full_from_pipeline_upgrade"` followed by `osm_download_completed` /
-   `city_added` after the radius fallback. If yes, the whole city downloads
-   fine: **don't seed.**
-2. **Count paths inside the real city boundary.** Find the city or
-   municipality relation (not the province: `is_in(lat,lng)` on the download
-   point lists every containing boundary with its admin_level), then:
-   ```
-   [out:json][timeout:150];rel(<city_rel_id>);map_to_area->.c;way(area.c)[highway];out count;
-   ```
-   Under 8,000: **don't seed.** Over 50,000: genuinely too large, proceed.
-   In between: medium, look at what the user actually experienced before
-   deciding, and ask.
-3. **Did search pick a bigger area?** Run a plain Nominatim search for the
-   name with `countrycodes`. A province/state (`place_rank` 8 or lower, or a
-   bounding box far over 100 km²) ranking above the city means the
-   too-large screen was probably a false positive. That's an app search bug
-   to report, not a reason to seed.
-
-Report the result of these checks to the user before generating anything.
+**Don't call Overpass or nominatim.openstreetmap.org (and so don't run
+`seed_generator.py` without `--geojson-url`/`--shapefile`, which calls both)
+unless the user OKs it for that city.** The public mirrors are often
+overloaded and the user has asked to keep our traffic off them. A Geofabrik
+country extract (one file download, processed offline with osmium) is fine
+where it is that country's precedent (Turkey). Don't download other extracts
+just to estimate walkability.
 
 ## Choosing a data source
 
-Try sources in this order. The order is about cost, not quality — OSM works
-for most cities and needs zero research, so only sink time into finding a
-portal when OSM demonstrably fails.
+**Start from the country's precedent.** Before picking a source, list how
+existing seeds in that country were made (`source` in `cities/*_<cc>.json`)
+and follow the non-OSM one if there is one: US city portals, UK ONS wards
+(Medway, Leeds, Bradford), CA city open data (Calgary, Ottawa, Winnipeg), BR
+IBGE, MX SEPOMEX (Mérida, Guadalajara), KR SGIS via vuski/admdongkor, NO SSB
+grunnkretser, JP CODH Geoshape, AU state/city open data (Sydney, Brisbane,
+Hobart), TR Geofabrik. Only where a country has nothing but direct-OSM
+precedents (ES, FI, HU, RU, SE...) look for an open-data alternative first,
+then ask the user before using OSM. The list below is the older cost order,
+for when OSM is OK'd.
+
+**Record the real source.** After generating, replace `source.url` in
+`cities/<slug>.json` with the public upstream URL plus a short note on any
+filtering or grouping (see São José dos Campos). A local `file://` path means
+nothing to a reader, and the public credits page links this URL.
+
+**Licences.** The licence must allow redistribution. If a portal states none,
+stop and ask the user (Dallas, Las Vegas, Virginia Beach, Houston). Record
+the attribution the licence asks for: it is shown on
+citywalker.app/data-sources/.
 
 1. **OSM (default).** No flags, uniform licensing:
    `python3 seed_generator.py "City" CC`. Try this first every time.
@@ -276,7 +289,13 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
    cd /Users/pritipatki/AndroidStudioProjects/citywalker-website/cities
    python3 generate_index.py            # rebuilds index.html from region_seeds.json
    python3 generate_index.py --check    # must print OK
+   cd ..
+   python3 data-sources/generate.py          # credits page, from cities/*.json source blocks
+   python3 data-sources/generate.py --check  # must print OK
    ```
+
+   If the data sources page shows a licence as its raw id, add it to
+   `LICENCES` in `data-sources/generate.py` with a display name and link.
 
    If `--check` still reports stale after regenerating, the new country's
    ISO code is missing from the `COUNTRY` map near the top of
@@ -284,14 +303,20 @@ decent OSM neighbourhood data where a smaller city like Uberaba doesn't.
 
    ```bash
    cd /Users/pritipatki/AndroidStudioProjects/citywalker-website
-   git add cities/index.html cities/generate_index.py
+   git add cities/index.html cities/generate_index.py data-sources/index.html data-sources/generate.py
    git commit -m "Regenerate cities index for <City>"
    git push origin main   # Cloudflare Pages deploys within a minute or two
    ```
 
+   Stage only these files by name. The website checkout often holds other
+   unpublished work, and the pipeline's daily report commits and pushes
+   `main` from the same checkout, so anything committed there goes live on
+   its next run (it shipped the data sources page on 2026-10-28 before its
+   own push).
+
 ## Related
 
-- [[feedback_seed_selection_rule]] — only seed too_large cities
+- [[feedback_seed_policy_and_overpass]]: seed every too-large city, even ones that download in full; ask before live OSM calls (replaces the old "only seed too_large" rule)
 - [[seed_no_overlap_invariant]]: the circle rule this replaced, retired 2026-10-13, and why step 4 says not to shrink
 - [[feedback_seed_commit_includes_VERSION]]: why step 6 stages three files
 - [[citywalker_seeds_repo]] — repo layout; pushing main ships to users
