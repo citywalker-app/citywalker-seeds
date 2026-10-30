@@ -1,0 +1,327 @@
+{
+  "name": "Winnipeg",
+  "countryCode": "CA",
+  "centerLat": 49.853782,
+  "centerLng": -97.15284,
+  "radiusKm": 16.33,
+  "regions": [
+    {
+      "name": "Charleswood",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.80890286142046,
+        "maxLat": 49.87400288646856,
+        "minLng": -97.34915063684055,
+        "maxLng": -97.22818766305151
+      },
+      "encodedPolyline": "ii_oH|icqQAfd@u@C}Mi@cw@_Dcw@}Can@cCGgDEsCG{DMsH?[A[MuHMoIOqIMqIMoIOqIImFCaBMoIGmDEqCQqKqDQ[C[Awq@iD[AYCsk@uCgBCeBDeBPa{@nLIBeMdBoAPQgAi@yBoAqC{A}CmBmCqAgA{B{AiAgAiAcBo@mBa@mCQkDCoDLwDXmDv@oDdAmCjE}IvAsBd@Yf@WbAWnAKbG[xAa@tAs@~@qAh@gBTiBFsCAwDDiEJiBhAwLd@iEn@}Dz@sD~CaKx@yDb@aDJkCMoH@aEPcG?kMJeEHe@Da@`@uCv@uDdAkCjAcBxAaArAWhAY`Bq@zAoArAyBz@}Bp@kCf@uDRiDBqCOoCk@aDw@kC_AaBiAqAwAoAsAu@uASqAHgBn@cBv@_Bh@{Ev@cCp@}Ah@mCzAgAd@{A\\aBAiAOwA_@mC_B}@cAo@sAKm@UmAKaCBeBHuBx@iGVgD?mDIqBk@uEy@_EcAsC_BaEmAqEgA_Fc@kCKqAEq@A_AAkA@aFBk@J{DXmFJcFEoB[wB{BiLu@kFc@iEi@oD{@}DQeAm@qI_@wDG{A@{@bBH\\@^BfADX@hADb@B\\@B@n@B`@Bb@@b@BdEPbCJtGXX@AV|y@jDXB@_@bDN`ADb@@^B^@`@B^@`@B^@^B`@@^B`@@^BX@D?`@B^@P@AD^Bf@Br@Bb@BX@V@Z@X@R@T@X@ZBZ@X@Z@T@T@T@V@ZB|GXN@l@Bd@@XBZ@Z@X@ZBZ@T@T@\\@j@B`@Bj@Br@BX@XBX@Z@X@X@XBX@l@Bt@Bf@B??p@Bb@BZ@XBX@X@V@n@BR@^BF?Z@Z@v@mg@_G}tAaA{TZ@hCL`@@rHZxCJxCLjADlAFpADxBJfENbDNbDLbDLbDLdDLbDLbDLbDNbDLbDLbDLjADzBJf@B`CH`@BdDLbDLbDLbDLbDNdDLbDLpGVdd@~At@?A|T?H?NG~vBvK?KtmChJ?KxmChJCAh^C`v@?hQEp~@?dLIn{A"
+    },
+    {
+      "name": "Downtown & Exchange District",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.88127343631919,
+        "maxLat": 49.90793877714296,
+        "minLng": -97.15906440761857,
+        "maxLng": -97.12565241098396
+      },
+      "encodedPolyline": "ewmoHba~oQSA{Kc@?GeAGQ?BkC_CKByByFUc@AcDMCvBeBIGZS`CATGvEY`BErBaBCz@|EpEbWo[_A_r@sBdKce@lENd@{CFWOM{@k@CCn@wCtCoMjBuIFY}@o@QK`BoHOKm@a@QMgGmE@E_Aq@_@Ya@WAD_Aq@o@UUOOKGRuBpJGVoVfhAyCuB_Ba@_IyFyBiD{@m@xJyc@xJ{c@hBgIf@{BhDsOhDsOdBlAnFiVCICGAAVkAd@uBNh@|@vB~@hBbAxApAjAp@^ZJVH~ADvB@lBIxBu@pAu@b@W~B_CjBsBfCqBdJqGNOpAmAnAuAvBoAnBq@pB_@tCExBV~A^jAl@hA`A~@~@HzA@`CGrE?tEAtEDvEP`D@RT|Cf@jDf@rCf@tCl@`Cv@zBn@lBt@bCp@~Bp@pBv@rBv@zBp@~B`@zBZzBD`@N~AZbCPvBN|BHnCFlCDnC?pCHzCD~B@lCC`CHfBVhB`@vBLd@{@AwACm@eC]CkAE[A?F"
+    },
+    {
+      "name": "Elmwood & East Kildonan",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.89417362478468,
+        "maxLat": 49.93292705431579,
+        "minLng": -97.12694703301104,
+        "maxLng": -97.05267647716687
+      },
+      "encodedPolyline": "grpoHjzmoQ~EvBbF~CpEtAa_@brDKvBMxCE~C?xC?vAn@`W@\\kAd@wQ{FB~AKxDKpE_@G}@Bo@RyApAc@l@]n@]`AYbAkApEYrAW`Bo@fF_@dCc@nBwAdGe@~Ai@zAqGzOmA`DwApD_I`QqEnHs@r@iBfAuBt@mEhAs@HgEKkBSw@SSKg@UcBgAyAoAyAwAsB}BmAeCwA}Do@qCg@gEe@kE_@mFYuEbBkHhB}H@ELm@BGJe@Je@DQDQLe@Je@Je@Le@Je@Lk@Le@mG{EqLwKed@}a@m_@u]_@g@pN{m@eAw@FYhH}ZjClBFWNq@DQJa@Ji@Li@Lg@Nq@HYFULm@Nm@Lk@Nm@Lm@Nk@Lm@Nk@Lm@Nm@Lk@Nm@Nm@Lm@Nm@Lk@Nm@Lm@Nk@Lm@Nm@Lk@Nm@Lm@Nk@Nm@Lk@Nm@BOLg@Li@Li@Li@Lg@Ji@Li@Li@T_ANq@Le@aZga@vQmw@jRcy@jo@lm@zVhP|FwVqAwNt@h@dL~GjChDdDhNbEvIbTnQvEzDtBvA~BxArC~@lFxB`@PhCz@"
+    },
+    {
+      "name": "Fort Garry & Linden Woods",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.80863943253912,
+        "maxLat": 49.85418038954416,
+        "minLng": -97.20700313698306,
+        "maxLng": -97.11941026644807
+      },
+      "encodedPolyline": "adaoHp}_pQx^p|Af\\tvAqCrBeiAtz@_VpQiD`DcH~KcBq@{{Aun@eUmJ}Bq@YG[I_BUaBMyBIoAwY{FysAs@_PcJkvBU}E[mDm@eDcAiCeDsDi@k@rHsAv@OcJ_`@~AoAGWESAEMc@?CGWCICKGUACEQdAw@nB{AHNnAdAvAt@pAVnAIhA_@~@{@p@_Bh@yBJmA@WDu@?_ASqDYiC[iBa@gBgFuPeAyDi@sCWiCGyBC{BBsBFqBN{BXeCh@yCz@cDvA_E|AsDpF}LvCaGvFwLp@oAr@gAz@gA`A}@lAeAxAeAhBcA|Aa@`BCzAN~Al@pA~@~@jAdA|An@vAf@fBZzBJxBAbDKnBSjC_@rCi@tCg@vBmApEkAvDi@fCg@fDW`EOfEC|DFzBJrAx@hFVr@Z`AdAzAlA`AdBt@~@Fx@@pB]vAo@tAyA`BoCfGkKhBqCnAaBlBkBbBmAh@a@|BoA`Be@~AGhC\\vAn@`Ax@~@jAzArChApDp@lDT~DEpDSfF]`F[rCs@|Eu@rHWvCIvCF|DT~Db@`D^xAj@tA|@hAlAdAxAn@rBh@zAH`AB^?zAWjBo@~BmApE{DlGgGjGwG~B}B`BoArAq@z@WxEoAnCc@vCUfCIrHMtBQbCk@|BiApAaAtAyBhBsDz@mEx@_HlAvE`C~J|@xD~@zDdCjKNl@mB~C{BbCaDzA{GtAcChA_HhFuBzBaBjCuAdDy@`Di@zDsAzBcBt@iDNnFnWr@h`@"
+    },
+    {
+      "name": "Fort Richmond & University",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.76498335098678,
+        "maxLat": 49.819872412594904,
+        "minLng": -97.17766706289741,
+        "maxLng": -97.115249116011
+      },
+      "encodedPolyline": "kz{nHrfbpQsbAI}^@}FRgH~A_EvBcE~C_HjGy^q|As@i`@oFoWhDObBu@rA{Bh@{Dx@aDtAeD`BkCtB{B~GiFbCiAzGuA`D{AzBcClB_DOm@eCkK_A{D}@yDaC_KmAwEHaALaFFqFCsCUgCm@aEqAsGyAsEeE{JwDyJ_BaF_@_Bs@{EQ{Gj@wHfBuIfD{H`CwCxDkBfEStCbAtEfGvAxDtApGxBbMzBfM|CtMnAhGr@nC~@vBjA~AdAdAh@VfBl@xADxAK`C}@vCkDjBgElCcKjDyObEaNbHuMtE}DtDgDvD[xDNzCzArCvDzA|Ic@tHaBxEmCjEaDpDuDxBwDvCoBfFBdH`AvExC`FlD`DlLfF|I~E|F~E`ErDxE|BbHr@dFuAjF{Cr@rCzQ|t@jYjjArGvWnFTbEA~De@|DkApDmBbHqEJd@ZlAT`AV`AEHUj@AFEHGHGHGFGBGDGFSPQRQRON`AfBr@xB??h@fCTpC?tCSpCGp@?r@Dr@Jn@v@zCl@a@FXHZH\\J\\???@J`@DNFVJb@BHBLBJJ^BJFRH^@FHVFV@FJ^J`@Nl@XhARz@mA`ASv@`@zAAp@RDZlAhEt@`CnDu@`DVhAMl@ApHzB~IVpAkA}Ag@}@uAeCoAsBsAeB{CaCiDkBoB[iCGwC?{BEe}BE??"
+    },
+    {
+      "name": "Island Lakes, Royalwood & Sage Creek",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.808932006155075,
+        "maxLat": 49.84089683327146,
+        "minLng": -97.08948987077977,
+        "maxLng": -97.02555028895561
+      },
+      "encodedPolyline": "ct_oHbeloQLd@Lb@lI|\\qBp@I@UPSRSZU^ADIVKNKDS@YOO@WPORIRKRINMJOHK@I@C?E?KFINGREZANAH@TJXPVLVFTDVEPMPODO@MGCCCCIKa@g@KOGKEMEUIYGOGKIGOAK@GJABKPKTGVAX?LDRL`@J^D\\@TA@CPC@EDG?IGEMGMG[GUMUKMKKMIKCO?MBODQHIBIBYDWEMYIu@Ke@OMSBMTOf@KbBIh@?^FZRd@\\zAt@~BV~Aj@pBHf@D`AA\\GJYJu@Lc@Hg@Cu@a@k@g@IU?[@s@Nq@V_@@WGWQG}AR{@r@i@B{@YSD[j@o@|@g@hAcAr@u@v@SXEV@TRZZb@VHr@GRI`@[NIJDFHFV?XKh@GfAM|@c@lAUb@QXY\\OAo@cAg@UkADKBKLCP@h@F^T^ZRhANb@Rb@RXZFRBh@IXWNYHYE_@?W?_@Is@k@c@Io@D]LSNMn@QXc@DICIMI_@@s@Ee@KKUJ[pAGj@FZRl@?b@ENKHa@E[UQ[EQAm@BUAQGIKCKBOTQ`@Kf@Cf@BXFLh@b@r@NRb@@TU`@a@Ti@By@IKIQi@O{AGeAOo@KII?QFo@fAk@nAMDYGq@o@_@OSF[\\Mb@Gp@Dp@FnD?t@HtBh@nEAVEXINQDSEOMOE]Oc@Ww@OmB{Ag@o@We@Y]OAKDGNIj@Cp@Hh@Nb@|@|DB^CXGT[Xe@Lu@QMKi@u@mBuAWOg@m@s@g@m@Wa@]_@Qk@k@SKc@GOBs@x@MTE^@^Fn@\\hAHh@ANa@Ni@Wi@yAUUMCM@KFQZK^KFK?E?[[Ie@Ce@UKMHCLD|AAPKf@Eb@DxBSdAUf@c@VU?KIQq@_@k@KEK@OXE^Dv@FNPVl@d@TV@XETa@l@g@LIJe@Rm@h@S\\i@j@Q`@M`@S^KDWMMUMg@CmAc@sAMOq@Qk@HKGWa@KmAO_@MGGBGJA^?`@OxBM`@e@n@[NKCYYi@iAEU?WTuB@]C[IKcAj@MPGr@?VIjA?^\\xBl@jFBhACt@Mt@S^UFOC{@aAUm@YwCi@}BSk@KU[e@MKQCQBIJO`@Kd@UlBAp@Bn@RbCVxA@PAJUZSNWEc@SWYeAu@GOCS?y@a@gA?SDa@P]RUNET[@OAMQKWBOPWNcAtAYNe@?QFMLS`@a@tBA^P`An@bCXf@Pb@@\\A^YDcBuAQIQAc@B{@GmAFeASe@CeCa@oFuWQys@EodDm@??}A?kN?sR?_V?}J?{dA?w@pvAGvWAHy@^gDx@Vb@dFfC`Prd@dlB`]fuA"
+    },
+    {
+      "name": "North End & Point Douglas",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.89976382127738,
+        "maxLat": 49.941713453325576,
+        "minLng": -97.17075485116764,
+        "maxLng": -97.10856192062305
+      },
+      "encodedPolyline": "keyoHtf`pQhFuUGGIGXqAJe@OMJc@\\{AFFzYorA`AmEdNcn@pYoqAqDcBNq@Je@Le@bEcRnAx@hCkLuAc@jGaYKCFY`@kBBG`AmE~@eEXFdBd@rCrAfHfFzAtAfBrBdAfBnAvChBjFb@lBd@hBTvALlAN`CXtE^lFd@jEf@fEn@pCvA|DlAdCrB|BxAvAxAnAbBfAf@TRJv@RjBRfEJr@IlEiAtBu@hBgAr@s@pEoH~HaQvAqDlAaDpG{Oh@{Ad@_BvAeGb@oB^eCn@gFVaBXsAjAqEXcA\\aA\\o@b@m@xAqAn@S|@C^F|A`@dAd@dAx@r@|@d@x@f@dAZnATfBVrCLdDBbDBfKEfCk@fUMzGg@nN@dAHvANxA`@xCdAdHlA`HRn@e@tBWjADH@F@?oFjVeBmAiDrOkEcD_D_B{F_ACv@OhCMjCUEEt@]~AOp@_@bBcHj[aEpRi^baB_QyLaDtNNLGVeB|HSbAeBzH}@|D{@|Di@`Co@vC{AzGKd@Kf@{DScHiRsDvPab@wBkMqKuF`Wsw@qj@Py@DQPL"
+    },
+    {
+      "name": "North Kildonan",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.91044168696384,
+        "maxLat": 49.96274493572986,
+        "minLng": -97.11805862706623,
+        "maxLng": -96.99728150069394
+      },
+      "encodedPolyline": "msuoHfrjoQkRby@wQlw@`Zfa@Md@Op@U~@Mh@Mh@Kh@Mf@Mh@Mh@Mh@Mf@CNOl@Mj@Ol@Oj@Ml@Ol@Mj@Ol@Ml@Oj@Ml@Ol@Mj@Ol@Ml@Ol@Ol@Mj@Ol@Ml@Oj@Ml@Oj@Ml@Ol@Mj@Ol@Ml@GTIXOp@Mf@Mh@Kh@K`@EPOp@GVkCmBiH|ZGXdAv@qNzm@^f@l_@t]dd@|a@pLvKlGzEMd@Mj@Kd@Md@Kd@Kd@Md@EPEPKd@Kd@CFMl@ADiB|HcBjHOaCMmAUwAe@iBc@mBiBkFoAwCeAgBgBsB{AuAgHgFsCsAeBe@YGgCi@qDUaDAeBLcDr@_EnAwErAuAX_Hr@yCE}C[kBg@oBw@gAu@yBkB{AqBsAcCiAwCw@iCoB}Kq@iEyAqLaAwFGWcBmHeAsD}B_FeAyA_As@wBs@m@CsA?_CRkBd@gCrAwCdB{BxAmAj@gAZkCRoCEwASuAk@sDgCyAsBWoAa@cDQ}CA{CJgDj@oGd@eHTeGD{EO}Em@wEs@kDi@sByCqH{AwCmBuCyCsDgL}OoDsEoGsJ_EmFmAoAoAqAeBwAuDiDmEmE~AyExAgEFUVs@rA}DNc@Na@h@{APi@To@\\gA^eAj@aB`x@i_CNa@Na@Ro@tA}DxAmEzAkEDO^cAPk@`@iA@CZaA^eA\\eAzAkEzAmEzAkExAmE|@iCrA}Dz@eCtA_ElAoDxPag@b@mAb@qAb@oA`@oAd@qAb@oA`@oAb@qAb@oAb@oAb@oA^eA\\eAl@eBb@qAb@oAb@oAb@oAb@qAb@oAjBqF|N}b@~@kC`AwCjAgDxBsGjH_TtHyTdAyCAxD?|DCjPArACpQEt[EvU?Z?Z?T?T?R?T?R?TAT?R?T?R?T?T?R?T?T?v@?RAT?R?T?T?R?T?R?T?T?R?T?R?TAT?R?T?T?R?T?R?T?T?R?T?R?TAT?R?T?P?t@?Z?Z?Z?Z?ZAZ?Z?Z?\\A`MAzCAnFnKDdA@pC@b@?~GBd@?~GBb@@|C@dA?`@@R?tB@xHBfE@hDBZ?hE@~GDf@?LrAbHpw@h@~FlJteAJrAlHdy@u@i@pAvN}FvV{ViPko@mm@"
+    },
+    {
+      "name": "Osborne Village & Fort Rouge",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.850537882085604,
+        "maxLat": 49.88578055844957,
+        "minLng": -97.17615035641555,
+        "maxLng": -97.11271632113436
+      },
+      "encodedPolyline": "_{goH~l~oQl@dDZlDT|EbJjvB[AOAE?k@Co@CYAC[_\\oACu@IiAIu@Os@_d@ymBua@zZoA|@lCjLlCjLnCjLlCjLlCjLb@lBXx@b@n@tB~Bh@x@^jAPvAmI[oEOwDSgFQoEOaFSiESgNg@LwKIoBUw@qCmKsCwKgEuPw@_Bo@w@]_@kAaB]~@}A}A]e@oAkDl@wAp@qAx@}@`Aq@nDsBpAcAfD{CpA_B|@cBj@sBHa@n@cE?}Eg@qDcBqDsBaBsB[{IrC{IxIWPiARmAEcAYu@i@k@s@c@iAc@qBWmAMe@a@wBWiBIgBBaCAmCE_CI{C?qCEoCGmCIoCO}BQwB[cCO_BEa@[{Ba@{Bq@_Cw@{Bw@sBq@qBq@_Cu@cCo@mBw@{Bm@aCg@uCg@sCg@kDU}CASQaDEwE@uE?uEFsEAaCI{Ax@|@rHvInF`HnF`Ht@x@tBrBbBnB|EpGrB|BtBdBt@f@dBfAzBjA`CbArCn@nD^bCH`CSfC{@lBaAlAcAd@m@l@uAt@yBj@aCn@mDJaBHwCGuEQcEe@eFa@qF[_Fq@mNOiEKwECeDDiFL}EVyEb@{EJu@d@eDz@iDp@}ApAwBdB{AbBaAzBu@|BUxEJ~@J`ATdBn@`GxCbEhBlBdA~AhAzH~GnAtAhAzApAtBdDxGhAtChChIhA|D|@bEfCbPLp@p@fFf@vEXbDRzCH`DBxD@bGClEAbFBnELbENfEVpDH~@`@bEd@xD^pBd@nB~AnEt@lAoBzAeAv@DP@BFTBJBHFV?BLb@@DDRFV_BnAbJ~_@w@NsHrAh@j@dDrDbAhC"
+    },
+    {
+      "name": "River Heights",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.84760221339944,
+        "maxLat": 49.87949877793129,
+        "minLng": -97.20755539371444,
+        "maxLng": -97.1566392013807
+      },
+      "encodedPolyline": "iahoHpvhpQkT_Agj@cCy`@eBoS}@sQmPqC~Ay@d@WuCc@cEa@uD_@oC_@aBi@yAq@}C_@cD]eEEoBLuFDgCRkDZeJAyCGgBMcBQoAc@mBi@yCyByPUaCMiCCcBDgBNiCVoBd@sBh@cBp@wA|DaHdAsBpAsCt@cCd@cCZeCRgCHaGA{CGkCa@yEQ}@i@aCcByFcDmKg@kBe@}B_@wBOiB?q@HmAR_BVaB^uAnAjD\\d@|A|A\\_AjA`B\\^n@v@v@~AfEtPrCvKpClKTv@HnBMvKfNf@hER`FRnENfFPvDRnENlIZQwA_@kAi@y@uB_Cc@o@Yy@c@mBmCkLmCkLoCkLmCkLmCkLnA}@ta@{Z~c@xmBNr@Ht@HhABt@~[nABZX@zAFD?N@Z@r@~OzFxsAnAvYr@xOvC|q@ye@uB"
+    },
+    {
+      "name": "River Park South & South St. Vital",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.73738137373539,
+        "maxLat": 49.82799769008205,
+        "minLng": -97.15472747059896,
+        "maxLng": -97.02566823172576
+      },
+      "encodedPolyline": "opznHxuzoQkFzCeFtAcHs@yE}BaEsD}F_F}I_FmLgFmDaDyCaFaAwECeHnBgFvDwCtDyB`DqDlCkE`ByEb@uH{A}IsCwD{C{AyDOwDZuDfDuE|DcHtMcE`NkDxOmCbKkBfEwCjDaC|@yAJyAEgBm@i@WeAeAkA_B_AwBs@oCoAiG}CuM{BgMyBcMuAqGwAyDuEgGuCcAgERyDjBaCvCgDzHgBtIk@vHPzGr@zEiBtAu@j@K?u@D_@BW@SaM@aDHmC\\gEUgBkLse@gAmE]aBEmADqA|@}HDa@HcA@eBIgBWsAsMei@cAeEOuBU}N[aDaVsaAb@SMg@s@wCSu@e@mBm@eCEMCMQo@GYJ?JGJ_@P[JGLALBTTh@xAh@V`@O@OIi@]iAGo@A_@D_@LUr@y@NCb@FRJj@j@^P`@\\l@Vr@f@f@l@VNlBtAh@t@LJt@Pd@MZYFUBYC_@}@}DOc@Ii@Bq@Hk@FOJEN@X\\Vd@f@n@lBzAv@Nb@V\\NNDNLRDPEHODY@Wi@oEIuB?u@GoDEq@Fq@Lc@Z]RG^Np@n@XFLEj@oAn@gAPGH?JHNn@FdANzAPh@JHx@Hh@C`@UTa@AUSc@s@Oi@c@GMCYBg@Jg@Pa@NUJCJBFH@PCT@l@DPPZZT`@DJIDO?c@Sm@G[Fk@ZqATKJJDd@Ar@H^HLHBb@EPYLo@RO\\Mn@Eb@Hr@j@^HV?^?XDXIVOHYCi@GSY[c@Sc@SiAO[SU_@G_@Ai@BQJMJCjAEf@Tn@bAN@X]PYTc@b@mAL}@FgAJi@?YGWGIKEOHa@ZSHs@FWI[c@S[AUDWRYt@w@bAs@f@iAn@}@Zk@REz@Xh@Cz@s@|ASPFFVAVW^Op@Ar@?ZHTj@f@t@`@f@Bb@It@MXKFK@]EaAIg@k@qBW_Bu@_C]{ASe@G[?_@Hi@JcBNg@LURCNLJd@Ht@LXVDXEHCHCPINELCN?JBLHJJJLLTFTFZFLDLHFF?DEBABQ@AAUE]K_@Ma@ES?M@YFWJUJQ@CFKJAN@HFFJFNHXDTDLFJJN`@f@HJBBBBLFNANELQDQEWGUMWQWKYAU@I@OD[FSHOJGD?B?HAJANILKHOJSHSNSVQNAXNRAJEJOHW@ET_@R[RSTQHApBq@mI}\\Mc@Me@a]guAsd@elBgCaPc@eFxBn@jErAd@NIt@xD?b@A?K`n@y@`l@DzL@x_@DAjkArMz`@f@xArBjGnB`GhC|H`@pArVClTA`B?lEAjE?@[Dga@|i@AZrAD?lGdXVhANj@dBtHvMbk@dApEdl@dfCXjAbFjTvFCrNIxFCvFCdFCf@?dFCd@?jBA?aA?eFn@jCZrAjAbFr\\|vAdPzq@|Jlb@XjA`Qnt@p@vCxF`V|@xDlBbI`AbE]BcCQiCc@yCw@{BaAuBaAcBe@iB[mBQwBA{BJoBVkB`@eBj@iAj@yDpBiCdBeCtB_F~EkB`C_AbBaJ~R{ArCsA|BmBpCqB~BmBjBgHbFsCbBeA`@eA`@cCf@eBJoD?{IWwC[mNoCuBYoBM_HYcTa@mFUkG\\eEvC}AnDa@rE?tEz@rGbBbGxBzE|D`G`EzHbAvDl@bG]~EkAzCuBbBwB|@iB?{BgAsB_BiBeByAyBwCqHuB_JmBmIuBqO{AeOo@mLi@oKI}Li@{K_AyEsAmCaB_BgCcAkBEcDlAaD~CaI|KkAtA??????"
+    },
+    {
+      "name": "St. Boniface & Norwood",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.86715028476352,
+        "maxLat": 49.90268642398886,
+        "minLng": -97.13740682411861,
+        "maxLng": -97.03372178616628
+      },
+      "encodedPolyline": "odloHjqtoQ|@xDl@fCvAnGG`@vLrh@jBzH`BnHKt@c@zEWxEM|EEhFBdDJvENhEp@lNZ~E`@pFd@dFPbEFtEIvCK`Bo@lDk@`Cu@xBm@tAe@l@mAbAmB`AgCz@aCRcCIoD_@sCo@aCcA{BkAeBgAu@g@uBeBsB}B}EqGcBoBuBsBu@y@oFaHoFaHsHwIy@}@_A_AiAaAkAm@_B_@yBWuCDqB^oBp@wBnAoAtAqAlAONeJpGgCpBkBrB_C~Bc@VqAt@yBt@mBHwBA_BEWI[Kq@_@qAkAcAyA_AiB}@wBOi@So@mAaHeAeHa@yCOyAIwAAeAf@oNL{Gj@gUDgCCgKCcDMeDWsCUgB[oAg@eAe@y@s@}@eAy@eAe@}Aa@JqEJyDC_BvQzFjAe@A]o@aW?wA?yCD_DLyCJwB`_@crDbGml@H{@H{@l^qnDZuErIsAFtXDrhCU~k@@d_@tQCz@?lCFv_@K`A?~@?dNFAaChN?`@m@@tgClVkK?^?vL?bJ?ZPb@A`@OT@fL?pD?`A?Lc@@k@Ic@a@[Ma@JWPSXQd@CR@\\JR^pAVl@RF^MV[XCHFLt@C`@Qt@S^YFw@MkA`@qC^iACc@@KHCJG`AAbEERa@Jo@W{AY{@[SAoAXYSGSc@uC?e@Ts@RShAe@JOFWMm@MMOGaARc@@aAViALM^[bF?d@HXVRFRAVKVMJe@Bm@EK@SPC^H`@Z`@|@jBD^K`@UNSEgB}@[a@Oo@SaBGaDEQKEK@c@r@o@xAi@fBBN"
+    },
+    {
+      "name": "St. James",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.87172674027201,
+        "maxLat": 49.933086333563224,
+        "minLng": -97.27506639953126,
+        "maxLng": -97.18639840117142
+      },
+      "encodedPolyline": "ywkoH|itpQGr@CtFQhCe@jBkA`CsCnC_BbAsGjAiBtBc@bAQj@i@tBKz@DfA@j@Sl@kApAm@x@y@d@sAXfEqYlLip@e`AwD_WcAPqNUAyAGA?{Lg@mBIoOm@D}BDwDNgLsH[eAEoBIiEQUnQE|B?PV@ClBKbJCrAGxFGhDJ@AL?LKxHmGWyJa@[A@R[Ac@Aih@oBWAek@uB?eI?G?S?cI?kI?oH?sI?[?kN?mN?[AqI?wN?iL?cL?kB?eeAiS?_X?il@?qK?le@koCp`A?Aqk@?i[P?t_@aa@nEiSx]rVbCbBpAz@nBlAjBjAtB|@vBr@lB\\~APpADlPn@lUv@s@ts@X@`JZpPl@nL`@bRp@GfEGACdChDLOdLvI\\hMgHnN}H~@i@Df@DjBEfCUzDInC?~AL`BZ`Bp@vAx@r@r@N~DW`BAj@Vj@f@d@z@\\|ANxA@xAMhBsAtIS~BSbD?jBP`D`@nFbBfN\\bCBPb@zDHhCApDMnDKbAy@pCoAbFoAlEs@pCc@fCaA~Ew@vEADSrBIrCFtC?`FK|FGlFBlEVrDnAxJ^|DRlDAt@c@tJA|ABn@Jf@N\\`AjA|A`CZ~@PbBFtBI`DO`EChBAz@FzA^vDl@pIPdAz@|Dh@nDb@hEt@jFzBhLZvBDnBKbFYlFKzDCj@A`F@jA@~@Dp@wA`@{@t@M\\"
+    },
+    {
+      "name": "St. Norbert",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.71355564021256,
+        "maxLat": 49.784555656055616,
+        "minLng": -97.22009191975829,
+        "maxLng": -97.12815583523134
+      },
+      "encodedPolyline": "smonH~kcpQ~vA|xFZrAaHE}j@]ycB{@cN@}@?ymAD?ab@wA?atAKmB?MiaDIwNm@aOOoAw@qGoA{ImD_QcEoPzBDvC?hCFnBZhDjBzC`CrAdBnArBtAdCf@|@jA|AWqA{B_J@qHLm@WiAt@aDaCoDiEu@[mASE@q@a@{ARw@lAaAS{@YiAOm@Ka@K_@AGGWIWAGI_@GSCKK_@CKCMCIKc@GWEOKa@?A??K]I]I[GYm@`@w@{CKo@Es@?s@Fq@RqC?uCUqCi@gC??s@yBaAgBNOPSPSRQFGFEFCFGFIFIDI@GTk@DIWaAUaA[mAKe@cHpEqDlB}DjA_Ed@cE@oFUsGwWkYkjA{Q}t@s@sCjAuA`I}K`D_DbDmAjBDfCbA`B~ArAlC~@xEh@zKH|Lh@nKn@lLzAdOtBpOlBlItB~IvCpHxAxBhBdBrB~AzBfAhB?vB}@tBcBjA{C\\_Fm@cGcAwDaE{H}DaGyB{EcBcG{@sG?uE`@sE|AoDdEwCjG]lFTbT`@~GXnBLtBXlNnCvCZzIVnD?dBKbCg@dAa@dAa@rCcBfHcFlBkBpB_ClBqCrA}BzAsC`J_S~@cBjBaC~E_FdCuBhCeBxDqB|@lDp@rC`@`Bv@~C`@bBxB|IhFbTn@lC~@vD\\rA~BpJ`Id\\tHxZfBlHx@hDrc@thB@DJ^HZ`S|x@n@fCXhABH"
+    },
+    {
+      "name": "St. Vital",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.81284783769339,
+        "maxLat": 49.87482483341192,
+        "minLng": -97.14853206119217,
+        "maxLng": -97.08139908507445
+      },
+      "encodedPolyline": "_aaoHvvwoQ]fEIlCA`DR`MVA^Ct@EJ?t@k@hBuA^~A~A`FvDxJdEzJxArEpArGl@`ETfCBrCGpFM`FI`Ay@~G{@lEiBrDuAxBqA`A}BhAcCj@uBPsHLgCHwCToCb@yEnA{@VsAp@aBnA_C|BkGvGmGfGqEzD_ClAkBn@{AV_@?aAC{AIsBi@yAo@mAeA}@iAk@uA_@yAc@aDU_EG}DHwCVwCt@sHr@}EZsC\\aFRgFDqDU_Eq@mDiAqD{AsC_AkAaAy@wAo@iC]_BFaBd@}BnAi@`@cBlAmBjBoA`BiBpCgGjKaBnCuAxAwAn@qB\\y@A_AGeBu@mAaAeA{A[aAWs@y@iFKsAG{BB}DNgEVaEf@gDh@gCjAwDlAqEf@wBh@uC^sCRkCJoB@cDKyB[{Bg@gBo@wAeA}A_AkAqA_A_Bm@{AOaBB}A`@iBbAyAdAmAdAaA|@{@fAs@fAq@nAwFvLwC`GqF|L}ArDwA~D{@bDi@xCYdCOzBGpBCrBBzBFxBVhCh@rCdAxDfFtP`@fBZhBXhCRpD?~@Et@AVKlAi@xBq@~A_Az@iA^oAHqAWwAu@oAeAIOu@mA_BoEe@oB_@qBe@yDa@cEI_AWqDOgEMcECoE@cFBmEAcGCyDIaDS{CYcDg@wEq@gFMq@gCcP}@cEiA}DiCiIiAuCeDyGqAuBiA{AoAuA{H_H_BiAmBeAcEiBaGyCeBo@aAU_AKyEK}BT{Bt@cB`AeBzAqAvBq@|A{@hDe@dDaBoHkB{HwLsh@Fa@wAoGm@gC}@yDCOh@gBn@yAb@s@JAJDDPF`DR`BNn@Z`@fB|@RDTOJa@E_@}@kB[a@Ia@B_@RQJAl@Dd@CLKJW@WGSWSIY?e@ZcFL_@hAM`AWb@A`ASNFLLLl@GVKNiAd@SRUr@?d@b@tCFRXRnAYR@z@ZzAXn@V`@KDS@cEFaABKJIb@AhABpC_@jAa@v@LXGR_@Pu@Ba@Mu@IGYBWZ_@LSGWm@_@qAKSA]BSPe@RYVQ`@KZLb@`@j@Hb@AD?d@R^CZkAAUU{@a@eD?SJWFE^AxAZh@@lAJFBZG`@g@FSCi@Ic@OuADiAA_A@g@Jg@LIXAb@h@TnAFbACt@Bj@DZ@^Jj@Vh@d@l@\\FHMDi@KyB@aCRcDJi@LU^EP^DlBHzAb@tCVx@Ll@h@f@P@\\]L[Hs@@{CG{AJoBPSn@UV?v@^FPF`AHp@HRXXlA\\Vd@Fr@Rp@LRt@V`@GJKZIPSDa@BsAFy@PcAXiABo@L]JGN@d@h@n@hBX~BH\\n@zAZBLIFQBk@CUF_AN}@Rs@?sAJo@\\_@`A[????XPV^Rt@@v@OxAGnBBzADPb@Bd@c@f@m@DGJQVGd@a@LSr@c@JMJM\\M`@FPLT`@Ph@PvAVbAt@z@NHfBTr@@VF`@AZKVWHO@OG[Q_@OMgAiBCYBMZa@N_@`@yAJMFDH\\AzADLRJVOv@QhAh@FJBL?PM`@Q`@Q~@AT@VN|@Pl@dAxBf@jAVVz@DpAQR?NMF]Cu@SoA[y@[Wy@i@g@m@C]Hc@fAy@r@aAv@u@lAQ~@Un@WRAJAj@J~CGHCN]@OSy@Bu@D]n@oBJSLk@IkBN{@Pq@VUJBLZP~AVhAd@`@NDNApAcBVg@\\{A\\q@?QMk@O]]}AIk@@ULGRXRl@R`@^XXGDId@[X_@@OI_@_@w@K_@CM?q@Dc@FCF?LLFVLN\\?LGRe@^eADSN]HCTH|@`AZ^ZH^Kd@m@Hi@?SEm@I[S]YYa@o@c@eAG]@YN]PS^CtAZh@\\`AfAPFJ@h@WVa@H_@A_@Mq@y@cAM_@]qC@YNSZKf@YfBUn@Uv@@f@HHJBLEVSDK?e@VOXAJHZTXZRf@NZb@BP?NUbBElAFr@Xd@NFTAtAiBVKNOj@KTNzAxAfA^|AXdC`@d@BdARlAGz@Fb@CP@PHbBtAXE@_@A]Qc@Yg@o@cCQaA@_@`@uBRa@LMPGd@?XObAuAVONQVCPJ@LANUZODSTQ\\E`@?R`@fA?x@BRFNdAt@VXb@RVDROT[@KAQWyAScCCo@@q@TmBJe@Na@HKPCPBLJZd@JTRj@h@|BXvCTl@z@`ANBTGR_@Lu@Bu@CiAm@kF]yB?_@HkA?WFs@LQbAk@HJBZA\\UtB?VDTh@hAXXJBZOd@o@La@NyB?a@@_@FKFCLFN^JlAV`@JFj@Ip@PLNb@rABlALf@LTVLJER_@La@Pa@h@k@R]l@i@d@SHKf@M`@m@DUAYUWm@e@QWGOEw@D_@NYJAJD^j@Pp@JHT?b@WTg@ReAEyBDc@Jg@@QE}ABMLITJBd@Hd@ZZD?FXPn@BLDLl@dCd@lBRt@r@vCLf@c@R`VraAZ`DT|NNtBbAdErMdi@VrAHfBAdBIbAE`@}@|HEpADlA\\`BfAlEjLre@TfB"
+    },
+    {
+      "name": "The Maples & Amber Trails",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.9402301147281,
+        "maxLat": 49.97281063000033,
+        "minLng": -97.19517497070233,
+        "maxLng": -97.11713740065086
+      },
+      "encodedPolyline": "s~xoHno_pQHFBBBBiFtUCCMIEPQx@Sv@ERc@pBi@bCS|@e@rB[xAYlAERQv@g@xBo@vCWhAmArFS|@U`AETERGRERGVETGVGVEPERGVGT?@ERERGRERm@nC[zAk@`CQz@_@~AOr@Qv@GVETGTETGTETGTGTQx@AHMh@Op@Sx@ETCHCJETGTETGTETADEPQv@Qr@UfAOp@ENKh@??Oj@Mj@Ml@Mh@WlAGTq@zCIZGZ{A`HYnAU`AMh@Kh@Mj@Oj@Op@Ib@ABKf@Mf@Kh@Mf@Kf@Mf@Kf@Mf@Kh@Mf@Kf@Ol@WjACNK^]~AS`Ak@fCWdAQx@S|@Op@I^K`@Op@I\\I^G\\CHERI\\I^I\\I\\I\\CLEPI\\G\\Mj@Sv@AHOp@yv@G?{Ko^lISc@mLgWwUah@{@kBgAoFq@mFa@gGMgGDgG\\uGr@oG|@_FjWwjAJi@Bi@dZmsAbL{j@~CpC`f@wwBdHm[`Sj_@|Qr]ah@l~BJJtpAjfANLKd@YpA"
+    },
+    {
+      "name": "Transcona",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.87093374424737,
+        "maxLat": 49.91591767602333,
+        "minLng": -97.07116535532109,
+        "maxLng": -96.95652942301814
+      },
+      "encodedPolyline": "ytooHrtloQIz@Iz@cGll@qEuAcF_D_FwBiC{@a@QmFyBsC_A_CyAuBwAwE{DcToQcEwIeDiNkCiDeKiG_@UmHey@KsAmJueAi@_GcHqw@MsAg@??_A@qIJmx@?cB?cB@cB?cBDk^BqQ@qF?sA?eA@wD@qM?i@?gF@{A?w@?i@?k@?i@?i@?i@?i@@k@?i@?i@?i@?i@?k@?i@?i@?i@@k@?i@?i@?i@?i@?w@@cE?U?w@JqbA?sABuLLyw@@kI~m@aX`n@cXnB{@hIoDbDuA~cAi@|BAAh`A?bE?h@?h@?lfA?|FzK?n`@Atm@?ArgAAfgA@~kCc@??Zol@B?Z?tD?hKiJ?c@?wH@K?A?gM?i@?aB??`E}B@e@?c@?RbPsIrA[tEm^pnD"
+    },
+    {
+      "name": "Tuxedo & Assiniboine Park",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.81436916780779,
+        "maxLat": 49.87697011334391,
+        "minLng": -97.25191488109364,
+        "maxLng": -97.1967207296841
+      },
+      "encodedPolyline": "ighoHniqpQ@EQA_@Aa@CE?YA_@Ca@A_@Ca@A_@C_@Aa@C_@Aa@C_@A_@Cc@AaAEcDOA^YC}y@kD@WYAuGYcCKeEQc@Cc@Aa@Co@CCA]Ac@CiAEYAgAE_@C]AcBIBiBNaEHaDGuBQcB[_A}AaCaAkAO]Kg@Co@@}Ab@uJ@u@SmD_@}DoAyJWsDCmEFmFJ}F?aFGuCHsCRsB@Ev@wE`A_Fb@gCr@qCnAmEnAcFx@qCJcALoD@qDIiCc@{DCQ]cCcBgNa@oFQaD?kBRcDR_CrAuILiBAyAOyA]}Ae@{@k@g@k@WaB@_EVs@Oy@s@q@wA[aBMaB?_BHoCT{DDgCEkBEg@x@e@pC_BrQlPnS|@x`@dBfj@bCjT~@xe@tBwC}q@s@yOxBH`BL~ATZHXF|Bp@dUlJz{Atn@bBp@bH_LhDaD~UqQrK~c@fDvNxAfGfQ|t@~BtH?xD?tDAdG?lA?|B?nH?X?r@?p@?rDAhJ?rCu@?ed@_BqGWcDMeDMcDOcDMcDMcDMeDMa@CaCIg@C{BKkAEcDMcDMcDMcDOcDMcDMeDMcDMcDMcDMcDOgEOyBKqAEmAGkAEyCMyCKsH[a@AiCM[A`AzT~F|tAw@lg@[A[AG?_@CSAo@CWAYAYAYC[Ac@Cq@C??g@Cu@Cm@CYAYCYAYA[AYAYCYAs@Ck@Ca@Ck@C]AUAUA[A[CYA[A[AYCe@Am@COA}GY[CWAUAUAUA[AYA[A[CYAUASAYA[AWAYAc@Cs@Cg@C_@C"
+    },
+    {
+      "name": "Tyndall Park & Weston",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.90530612980968,
+        "maxLat": 49.960776658411774,
+        "minLng": -97.22999256890378,
+        "maxLng": -97.15853323664382
+      },
+      "encodedPolyline": "{htoHthgpQ@pk@q`A?me@joCgm@Am`@Zcn@?kl@A[?BuhABifA@ygAxv@FNq@@IRw@Lk@F]H]H_@H]H]H]H_@H]DSBIF]H_@H]Nq@Ja@H_@Nq@R}@Py@VeAj@gCRaA\\_BNo@VkANm@Jg@Lg@Ji@Lg@Jg@Lg@Jg@Lg@Ji@Lg@Jg@@CHc@Nq@Nk@Lk@Ji@Li@TaAXoAzAaHF[H[p@{CFUVmALi@Lm@Lk@Nk@??Ji@DONq@TgAPs@Pw@DQ@EDUFUDUFUDUBKBIDURy@Nq@Li@@IPy@FUFUDUFUDUFUDUFWPw@Ns@^_BP{@\\yALg@Z{ADSf@{BDSFSDSDS?AFUFWDSDQFWFWDUFWDSFSDSDUTaAR}@r@eDp@wCn@wCf@yBPw@DSXmAZyAd@sBR}@h@cCb@qBDSRw@rw@pj@tFaWjMpK`b@vBrDwPbHhRzDRJg@Je@zA{Gn@wCh@aCz@}D|@}DdB{HRcAdB}HFWOM`DuN~PxLqQ|x@Ah@tY|A|Mn@`]dBsBlJ_Mpj@}EvTkDvOoEhSu_@`a@Q??h["
+    },
+    {
+      "name": "West End & Wolseley",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.87373770244194,
+        "maxLat": 49.916779219594005,
+        "minLng": -97.20632989354057,
+        "maxLng": -97.1342303664807
+      },
+      "encodedPolyline": "aqmoHprhpQwI]NeLiDMBeCF@FgEcRq@oLa@qPm@aJ[YAr@us@mUw@mPo@qAE_BQmB]wBs@uB}@kBkAoBmAqA{@cCcBy]sVjDwO|EwT~Lqj@rBmJa]eB}Mo@uY}A@i@pQ}x@h^caB`EqRbHk[^cBNq@\\_BDu@TDLkCNiCBw@zF~@~C~AjEbDiDrOg@zBiBfIyJzc@yJxc@z@l@xBhD~HxF~A`@xCtBnVghAFWtBqJFSNJTNn@T~@p@@E`@V^X~@p@ADfGlEPLl@`@NJaBnHPJ|@n@GXkBtIuCnMo@vC~@n@NLGVe@zCmEOeKbe@~q@rBn[~@qEcW{@}E`BBDsBXaBFwE@URaCF[dBHBwBbDLb@@xFTCxB~BJCjCP?z@D?GD?B??PzKb@R@?GZ@jAD\\Bl@dCvABz@@VlAb@pBb@hAj@r@t@h@bAXlADhASVQzIyIzIsCrBZrB`BbBpDf@pD?|Eo@bEI`@k@rB}@bBqA~AgDzCqAbAoDrBaAp@y@|@q@pAm@vA_@tAW`BS~AIlA?p@NhB^vBd@|Bf@jBbDlKbBxFh@`CP|@`@xEFjC@zCI`GSfC[dCe@bCu@bCqArCeArB}D`Hq@vAi@bBe@rBWnBOhCEfBBbBLhCT`CxBxPh@xCb@lBPnALbBFfB@xC[dJSjDEfCMtFDnB\\dE^bDp@|Ch@xA^`B^nC`@tDb@bEVtC_Ah@oN|HiMfH"
+    },
+    {
+      "name": "West Kildonan & Garden City",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.925633193803435,
+        "maxLat": 49.9940079783838,
+        "minLng": -97.22999864202728,
+        "maxLng": -97.0730169933538
+      },
+      "encodedPolyline": "k|xoHpg_pQGG]zAKb@upAkfAKK`h@m~B}Qs]aSk_@eHl[af@vwB_DqCcLzj@eZlsACh@Kh@kWvjA}@~Es@nG]tGEfGLfG`@fGp@lFfAnFz@jBvU`h@lLfWRb@n^mI?zKAxgAChfACthA_m@@ym@@?whA@mfABslC@_nCgv@?oF?g\\?@wd@uU@?wd@O?hs@ktB^eAfk@ebBd@uANJXy@xAiE`w@i|BNc@Na@AAFQnOwc@rIuVRo@Tm@vGqR~Ka\\|AqElAnA~DlFnGrJnDrEfL|OxCrDlBtCzAvCxCpHh@rBr@jDl@vEN|EEzEUdGe@dHk@nGKfD@zCP|C`@bDVnAxArBrDfCtAj@vARnCDjCSfA[lAk@zByAvCeBfCsAjBe@~BSrA?l@BvBr@~@r@dAxA|B~EdArDbBlHFV`AvFxApLp@hEnB|Kv@hChAvCrAbCzApBxBjBfAt@nBv@jBf@|CZxCD~Gs@tAYvEsA~DoAbDs@dBM`D@pDTfCh@_AdEaAlECFa@jBGXJBkG`YtAb@iCjLoAy@cEbRMd@Kb@Or@pDbBqYnqAeNbn@aAlE{YnrA"
+    },
+    {
+      "name": "Westwood & Crestview (Assiniboia)",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.85905101899829,
+        "maxLat": 49.93134161901131,
+        "minLng": -97.34350573726002,
+        "maxLng": -97.25467480168327
+      },
+      "encodedPolyline": "k_joH~`ypQId@KdE?jMQbGA`ELnHKjCc@`Dy@xD_D`K{@rDo@|De@hEiAvLKhBEhE@vDGrCUhBi@fB_ApAuAr@yA`@cGZoAJcAVg@Ve@XwArBkE|IeAlCw@nDYlDMvDBnDPjD`@lCn@lBhAbBhAfAzBzApAfAlBlCzA|CnApCh@xBPfA~@`Gn@xCr@xE|@rIh@|Dr@vEr@`Ez@|Dz@jDn@lD`@dDd@tEkAGiCMu@CcAGoCMwAGMA_@C[AaAE[C[AYAi@Ck@CwAIwAGyAI{BK[AwAGwAIyAGwAIwAGwAG}BK[CwAGwAIwAGyAGwAIwAG{@EI?qAGiAGlC~c@m@EuyBcK]yi@MmTGuICwCYge@_iAkFiAGiAGiAKkAKiAKiAOaa@cF}CY}CM}C?_DJ}CV{Cd@iLvBcAPcANcAJcAJeAHcADu@DkJ@Z{lC_LBEgaFt@B`j@rBpn@~Bdk@tBV@hh@nBb@@Z@ASZ@xJ`@lGVJyH?M@MKAFiDFyFBsAJcJBmBWA?QD}BToQhEPnBHdADrHZOfLEvDE|BnOl@lBHzLf@@?xAFT@QpN~VbAd`AvDmLhp@gEpYrAYx@e@l@y@jAqARm@Ak@EgAJ{@h@uBPk@b@cAhBuBrGkA~AcArCoCjAaCd@kBPiCBuFFs@L]z@u@vAa@JpAb@jCfA~ElApE~A`EbArCx@~Dj@tEHpB?lDWfDy@hGItBCdBJ`CTlAJl@n@rA|@bAlC~AvA^hAN`B@zA]fAe@lC{A|Ai@bCq@zEw@~Ai@bBw@fBo@pAItARrAt@vAnAhApA~@`Bv@jCj@`DNnCCpCShDg@tDq@jC{@|BsAxB{AnAaBp@iAXsAVyA`AkAbBeAjCw@tDa@tCE`@"
+    },
+    {
+      "name": "Whyte Ridge & Waverley West",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.76810548482661,
+        "maxLat": 49.82123631399276,
+        "minLng": -97.22107968905185,
+        "maxLng": -97.17364929614686
+      },
+      "encodedPolyline": "ceznHfbjpQwb@H}MBoh@HE~a@eMA{O?{A?{K?kG?}B?e`@?_LC?|G_CuHgQ}t@yAgGgDwNsK_d@diAuz@pCsBg\\uvA~GkGbE_D~DwBfH_B|FS|^ArbAHd}BDbEnPlD~PnAzIv@pGNnAl@`OHvNLhaDkB?kv@Au_@A"
+    },
+    {
+      "name": "Windsor Park & Southdale",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 49.8393511514112,
+        "maxLat": 49.88600039920155,
+        "minLng": -97.09946359940051,
+        "maxLng": -97.02672925825036
+      },
+      "encodedPolyline": "_oeoH|nqoQUOk@JONWJuAhBU@OGYe@Gs@DmATcB?OCQ[c@g@O[SUYI[@KNYd@WJ?REDWCMIKg@Iw@Ao@TgBTg@X[JORAX\\pCL^x@bALp@@^I^W`@i@VKAQGaAgAi@]uA[_@BQRO\\AXF\\b@dA`@n@XXR\\HZDl@?RIh@e@l@_@J[I[_@}@aAUIIBO\\ER_@dASd@MF]?MOGWMMG?GBEb@?p@BLJ^^v@H^ANY^e@ZEHYF_@YSa@Sm@SYMFATHj@\\|AN\\Lj@?P]p@]zAWf@qAbBO@OEe@a@WiAQ_BM[KCWTQp@Oz@HjBMj@KRo@nBE\\Ct@Rx@ANO\\IB_DFk@KC@[@o@V_ATmAPw@t@s@`AgAx@Ib@B\\f@l@x@h@ZVZx@RnABt@G\\OLS?qAP{@EWWg@kAeAyBQm@O}@AW@UP_APa@La@?QCMGKiAi@w@PWNSKEM@{AI]GEKLa@xAO^[`@CLBXfAhBNLP^FZANINWV[Ja@@WGs@AgBUOIu@{@WcAQwAQi@Ua@QMa@G]LKLKLs@b@MRe@`@WFKPEFg@l@e@b@c@CEQC{AFoBNyAAw@Su@W_@YQaAZ]^Kn@?rASr@O|@G~@BTCj@GPMH[Co@{AI]Y_Co@iBe@i@OAKFM\\Cn@YhAQbAGx@CrAE`@QR[HKJa@Fu@WMSSq@Gs@We@mA]YYISIq@GaAGQw@_@W?o@TQRKnBFzAAzCIr@MZ]\\QAi@g@Mm@Wy@c@uCI{AEmBQ_@_@DMTKh@SbDA`CJxBEh@IL]Ge@m@Wi@Kk@A_@E[Ck@Bu@GcAUoAc@i@Y@MHKf@Af@@~@EhANtAHb@Bh@GRa@f@[FGCmAKi@AyA[_@@GDKV?R`@dDTz@@T[jA_@Be@SE??M?aA?qDAgLNU@a@Qc@?[?cJ?wL?_@mVjKAugCa@l@iN?@`CeNG_A?aA?w_@JmCG{@?uQBAe_@T_l@EshCGuXScPb@?d@?|BA?aE`B?h@?fM?@?J?vHAb@?hJ??iK?uD?[nl@C?[b@?tk@Cp[A~H?R?~@?jHA~C?~qAGb@?jB??v@?zdA?|J?~U?rR?jN?|Al@?DndDPxs@nFtW}AYgA_@{AyA"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://data.winnipeg.ca/api/geospatial/8k6x-xxsy?method=export&format=GeoJSON (City of Winnipeg Neighbourhoods, 237 neighbourhood characterization areas grouped by hand into 24 along the Community Characterization Areas)",
+    "license": "OGL-Winnipeg",
+    "attribution": "Contains information licensed under the Open Government Licence – Winnipeg (City of Winnipeg Neighbourhoods, grouped)"
+  }
+}
