@@ -203,7 +203,7 @@
   ],
   "source": {
     "method": "geojson",
-    "url": "http://127.0.0.1:8935/trondheim_gk_serve.geojson",
+    "url": "https://kartkatalog.geonorge.no/metadata/statistiske-enheter-grunnkretser/51d279f8-e2be-4f5e-9f72-1a53f7535ec1",
     "license": "NLOD-2.0",
     "attribution": "Kartverket / Statistisk sentralbyrå (SSB) — grunnkretser"
   }

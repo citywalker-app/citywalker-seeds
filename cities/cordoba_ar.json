@@ -1,7 +1,9 @@
 {
   "name": "Córdoba",
   "countryCode": "AR",
-  "aliases": ["Cordoba"],
+  "aliases": [
+    "Cordoba"
+  ],
   "centerLat": -31.416795,
   "centerLng": -64.18367,
   "radiusKm": 16.99,
@@ -230,8 +232,8 @@
   ],
   "source": {
     "method": "geojson",
-    "url": "file:///tmp/cordoba_cpc.geojson",
-    "license": "unknown",
-    "attribution": "unknown"
+    "url": "https://gobiernoabierto.cordoba.gob.ar/datos/recurso/19770/C.P.C_2024.kml",
+    "license": "CC-BY-SA-AR (CBA)",
+    "attribution": "Municipalidad de Córdoba – Gobierno Abierto, Mapa CPCs 2024"
   }
 }
