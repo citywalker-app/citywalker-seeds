@@ -1,0 +1,158 @@
+{
+  "name": "Iquique",
+  "countryCode": "CL",
+  "centerLat": -20.751108,
+  "centerLng": -70.016195,
+  "radiusKm": 77.44,
+  "regions": [
+    {
+      "name": "Arturo Prat",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.217842868718,
+        "maxLat": -20.2099463100548,
+        "minLng": -70.1532733517667,
+        "maxLng": -70.1398429983817
+      },
+      "encodedPolyline": "||jzB~dbkLWjJh[~@mBfcAm_@WeB`BwAqBoFeoAvTE"
+    },
+    {
+      "name": "Barrio Industrial",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2212005809689,
+        "maxLat": -20.0633200153326,
+        "minLng": -70.1530670051527,
+        "maxLng": -70.0989399995667
+      },
+      "encodedPolyline": "nzqyBjezjL`tD~Sj`GtmBtyHs|@z`BvBiDjbCui@iCoJ~e@kEdAmCvLnFdoA{AhA_CqFkMeBkMyUuGxArGsD{@qPsT{R}FnIvFuIcBeBqXiKkl@_GsL`FkG{AoZtMyG_BcMbB}FjIeE^f@dIkD_AiBvB}FaCyLjMeMpDaDnL{YnTsIeCuG|EuIcCsAbD{RsG{FeMgIo@oGsFoDiX{SyOcHRqEiFyLgAkB}Ioq@f@eJkGNwDiLkDkE|@s@{Fi`@gFoK~BsNwNsWrMyKzAwf@gf@u\\qAyb@_T{d@eJw]|D}T`KoIhOsOqHyTbGcQlNaAbK{JF_@fMoIuB`@}CcQiCoBrCvfCwqE"
+    },
+    {
+      "name": "Caupolicán",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2307138620155,
+        "maxLat": -20.2199739033301,
+        "minLng": -70.1424302191634,
+        "maxLng": -70.129095840885
+      },
+      "encodedPolyline": "jylzBzt`kLnh@_RQdg@rEP_@jYub@cJm@hZmVo@h@gT{ESdAue@jPgA"
+    },
+    {
+      "name": "Cavancha",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2433325675095,
+        "maxLat": -20.2246117172581,
+        "minLng": -70.1545469409557,
+        "maxLng": -70.138055096743
+      },
+      "encodedPolyline": "fdmzBzyakLtb@bJhq@hQp\\tI_[|a@c@jGsEpCyBcA?fH{FWqBtGwGMgCoNvEbHdCuJmC~@CmEhCBH}JsJaFwOZwCyFeDfBwSs@j@e[iEMl@iZ"
+    },
+    {
+      "name": "Gómez Carreño",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2414037601479,
+        "maxLat": -20.2296483987602,
+        "minLng": -70.1427666669834,
+        "maxLng": -70.1280971289864
+      },
+      "encodedPolyline": "zbnzBza`kL~PgEva@dCh@xDxQ~YuQzDd@xo@iq@iQ^kYsEQPeg@"
+    },
+    {
+      "name": "Hospital",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2210664797184,
+        "maxLat": -20.2099463100548,
+        "minLng": -70.1421868862142,
+        "maxLng": -70.1310782071214
+      },
+      "encodedPolyline": "n}jzBfn`kLti@hCEpCeAte@zERi@fT{Qi@i[_AVkJwTDlCwLjEeAnJ_f@"
+    },
+    {
+      "name": "La Tirana",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.3622960587306,
+        "maxLat": -20.2203233733037,
+        "minLng": -70.1826017414021,
+        "maxLng": -70.1095000002604
+      },
+      "encodedPolyline": "dhlzBpr`kLhDkbCdlA~AKnp@nXiB~ZzFrNsIhBsHxDNfNeIzEqZpHrFpW{CtCeEjExHjIv@rM{FvIn@~BsGbDtFfd@WdVdCpCa@BkGzKpCztFfuA`}E_|AtcAzgMyCe@R{BmDtBgNmB_TyLcCaHkKk@oIeG{BeNhA}TuG}I{B|@DoJiJsH{KcY_@cL}K{E_HqUkEyBsKnAgKcPuOg@}CyL`CwM_DiHyTiP{VkDmB}GqKeGiXiAsMgFyUnEyM{FmFxBcImFwN`AuAiE}NuCgHbGsIgLgFcA_AgLpBoBqFkK}DgAmDn@sBrIuMvBgBjKuLkCEeDiDuAXoKgGmC_LtFgGmEcQ|@eNfDiDfGqKfA@|C_ElAgDi@cAuJqCdF}CsF{BdGyBuCqJk@_ChDm@yCoCtB_MgHgVlVcFyC{TjHqT{i@_i@jFqo@Pi@yDwa@eC_QfEoh@~QkPfADqC"
+    },
+    {
+      "name": "Parque Balmaceda",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2303126833527,
+        "maxLat": -20.2172926073657,
+        "minLng": -70.1536190477426,
+        "maxLng": -70.1419769930515
+      },
+      "encodedPolyline": "xbmzBdubkLhELk@d[vSr@dDgBvCxFiQdFkQbSaE}@a@jH{GJeCsBoW[lBgcAzQh@lVn@"
+    },
+    {
+      "name": "Playa Brava",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.2563260062995,
+        "maxLat": -20.2383868123954,
+        "minLng": -70.144481941628,
+        "maxLng": -70.1284250239466
+      },
+      "encodedPolyline": "`yozBnfakLtQ{DyQ_Zpo@Q~h@kFpTzi@oh@bVwf@ha@q\\uIe@yo@"
+    },
+    {
+      "name": "Puerto",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -20.221877727044,
+        "maxLat": -20.2002541624758,
+        "minLng": -70.1637584500337,
+        "maxLng": -70.152701892092
+      },
+      "encodedPolyline": "thizB|_fkL~BwFmOmH@}GpOpJpCwKoB`KjF\\XsJtOG~FkD_BuGzAiAvApBdBaBl_@VnWZdCrBi@zDoEmAbBdCcIE{DhIuFqBcBbFhBhFkCmBoAxBg@gDiCbK_BwG}GcDuBeNqFYsKtQnEfN{@xHyEdBObEeIhC_EyDa@oIye@aVbCcA~X|M"
+    },
+    {
+      "name": "Punta Lobos",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -21.4388962906572,
+        "maxLat": -20.3513099995777,
+        "minLng": -70.2125398005529,
+        "maxLng": -69.8198500003347
+      },
+      "encodedPolyline": "pe|{Bj~ujLllUmmHjjUhqCrqZi`Jzzu@{ja@_j@bzLn}d@uw@rjLlkHvaI~Ah@zLqEtJ|@jSwEpPzMpL^vz@xOtg@lLzJzC|`@~EnFmCjLnHlNjJheAsI`U?jP~Yxi@qBxMpGrSrBd`@}OxT}Kh_Aw]xc@`Brb@_RpPcK|ZrGx[kApPhBvGTXb@h@|B`CX`@HLzC|ISzRh@pA??bJfR_w@hh@wm@|P_XdTs]hJqKyA{KjLua@bSgn@~Lyc@d[c@lFmDi@wQnI_S}E}d@|Wcb@jHoJwBqAbCkJOoS~HwInJsJUmKhD_GnJkOBgFmJcL`EsNi@cCzHsDcAeCeEtC_FyF{QeC_e@iTcQka@eI{JeOcD_We^oa@et@mTwR{Bsc@kAet@tDk}@hc@oJcCmIvAsGbIqGe@kVnNyKnAmA}BoFrJsA{AoC|@`@fCcCm@_AlGyHx@]wBgHdG}IZiJbIqV|Hc@dK{CbDeGaB}EfCmBuCmA`JsC}EoBdD_AaBgJvCmDuFS{JyFuDyCdD_OqMiKnAgDkJqMQwHfD]jEcE_FkEvDyH}CqCnBpBH{@fDsR}DwTrRqC}Br@~CeC]uCjE{Kr@_BvIwD}BcGjJmEyA_C~DiDaAmH`EUdGuCcAqBxO_FqCoCbImIcEkAlHaBoDaTwG_FtKaDkAyBfEqBeAVxBaEqEH|E{CuA{AfB_I{LiUwFcGnFoZlDc^nSgPdYkJ}AiXtSoIxQmA~M}IcBeEeF_a@hHoG}BqKlFmPdA}QnY_ZoGcV~DqQhKuMdRwGhBcKxLeHtAqDxHoW|KwOjVsIrETfCuJdDzCdBuAjDyFSKsGmEkFcOsCiNyViI`@_LyDiFpCmEyAuIaPkE_@pCi@yEwI{I_EuSWwNxDeDaD{GbJmQ_AoAnEqFpAyb@}Bqa@bHkDdGsj@d^cD|MRpPwKxDqAfFyEw@gArC{GaCw@fEmFxAMlEaFtBqCdMoRnCaC~GgFf@bB`CsFv@z@rHmEoCgDnByBzTmNm@\\xBaFhCvAxBiBfGuCkBsBrCiLEdBjDeMsC{FzFa`@jHqElDa@zNgC`DwPhGcCgEuGvGgRf@LbJwGkBkEdJwDmHwD~GyDmKkJfCKjKgNhF\\`NoGxA@tV{FF[bGcFtDsIqJoI{@d@mBoI}DMiEsLmDeOhC{CyFaHjBfCcDaQ{CyBsMuVsPq_@{CoBtEmGj@NmG_HkJmEm@H~DoEmF{DCsW}a@gLoFe`@cAcMfFaEpKwKq@sEeMeHgDUyEgGeEJoToQoFyFqH}L{A{DrCyVk[mF|A_FaC?kM}UaRuO{XsPoLcX{FwNeKsp@kFkm@jL_BpEgHLcj@xX}O|Yl@|FkH`D[fGsIrEsWcEgDqN{N}N_]jCgAzElGfPuB~Bmc@aTkGx@uDcHwFh@_EmCqOlIiGwDeQUkTbI@|IiHjIwi@tAiOpEkGfPqQ@}`@r^[`UgUs@aZnUuAtF{MxA_@bDkHtBaYdZ_Uv`@sNpLmIxYjDxIo[S{{@dt@wBaAoRxYxEnFMpH_JiAyDjEjErGoCtD{Fo@cDnCDtKmFSvBxRqCs@m@dC~EtGgEhA_CcEsCFUzFsERpBhFqCjKyCgAhI~OuJkErFxLyG_HkB{NfByBsFyJv@mC}H_H`@iLkHqDiEmZ_DaDgBhBb@yEyHqHyMoBaEcSsLiQYcJuDpDoR`AyE~LsLcEoBzA{@{BmC|EoB}D}EzIcFqCiAtBgBqFaF`Cm@_D}AjBqCsABlGaCqAsT|GsKbPyJr@x@rCmLq@eAqD}HL_CbFiLw@gBvB}DmDaEpCsKH_B_Cb@pCwC}@vAnGsGv@bAdFeS{EHtCiFxAuC}BCpFuEy@BfFaF}@i@rE}Er@iEU_CeIcEd@e@yE_ArDyCUeEeKHmIuG_EjC{ImHcFSgHkLoNiHqFqWoFiSx@}RtLgEtO_BQG`LoLbB}F~[_PVTlFsJ{@uAwCuExEuLfAgG{ByA~EkBoBuK~CuF_EkFd@e@kCwGa@yAbDmEsMyOkLkC`C{Gi@sFiMpHyGmFmEeVvLsGoDWvHoA{KoJnFgJsQqHmCsDxBkMmBwFhNgCyC{HxBiGoDoC~D{KuAkErPuGpAqQ_JiBuPqDqCsOpFiAaHcHyBsL`Dv@rIiIv@cNcDo@sG{EkC_OyAmCoBlCwFoB}EqNeCu[dFw[q@c@xFoGtF}NoAg@tRsTlTuLm@cDuEyEnH}HNmArE_CkAeZpEwDnIeC_Ak@zDwZxLgIf@{FoDmDdD_TmBwAdDqKwC_AxG_Od@uAoCsChC}QwJ}@qEuM~EiGaF_DjCmLwBlAaByOqFmFaHu@yIuE}Bc]oCaAbEsAyBaAtDaDeAmAtJ{GyBaA{EcC`EwDmHgBfDsEmEc@~DqDuBQrGoCFqAlFyAuAIbCuHwFNgGeFmEyJ`AwDjJaCuDqCjCkGc@{BhFgEsB{AbCeEoDiBdGcNmAg@pBrFxEKpJsFwDmLx@mCkCmK~DiNwHgKbA{FoEOxEqGAqHoD{@mEqj@hKyJ~I_AlNsO{G{AzFwG`CmZoP_DjFmG{GuKcDsEbBwE_DmCoIdFkLeFaG~CcFkEqCOqHoSiAsHgMeQjAiS}EqGqIcAkIee@iTmBkFwAhAs@aEgGyB_DoHnBaDeB_OqVcXsGq@K~GsDwBuD`Eo^eMySgQkYcDiKfHu@|GaHfFG|ReM|AqJqH_WdHyAmP|CoJeKeNe_@cQeXh@oDqGcFvAqApF}Hk@KdDsCwB_AdBWuC}OkHoB|M_KrE{Jo@qEpDsU`@iJuQaCRwDqFuFZ{N~Mm@nEoDeE_IrHcEoGk[|JgCgDqEhQgHe@mCjE_K_JmBbC`CdIiJjBy@{CuLu@kLmKgW{D_L{OcUgIgKhPmA~LmDq@{BtGoIyNeHIgHbEeIrQyLtLcL`BcJgE}CdE`@vO{DrE}O`BkRdOyBrJcMCg@rGkOoBKlVgJj@}@uDsPwEwO~FwBgCuIGkD~EcYbC_E|CqCkDucA{gMziU_hE"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://services5.arcgis.com/hUyD8u3TeZLKPe4T/arcgis/rest/services/Distrito_Densid_Superficie/FeatureServer/0 (INE Censo 2017 distritos censales, COMUNA=1101, 11 districts; district names from the 2017 census tables, matched by population; geometry unchanged)",
+    "license": "CC-BY-SA-4.0",
+    "attribution": "Instituto Nacional de Estadísticas (INE), Censo 2017 distritos censales (CC BY-SA 4.0)"
+  }
+}
