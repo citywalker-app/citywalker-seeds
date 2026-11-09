@@ -219,5 +219,9 @@
     "url": "https://download.geofabrik.de/asia/iran-latest.osm.pbf (Isfahan city boundary, admin_level 7; its 15 municipal districts, admin_level 9 place=suburb; District 2's two separate pieces kept as two regions)",
     "license": "ODbL-1.0",
     "attribution": "© OpenStreetMap contributors (via Geofabrik Iran extract)"
-  }
+  },
+  "aliases": [
+    "اصفهان",
+    "Esfahan"
+  ]
 }
