@@ -9,6 +9,11 @@ adding or editing a city file:
   python3 build.py            # validate + write region_seeds.json
   python3 build.py --check    # validate + verify region_seeds.json is in sync (CI)
 
+A rebuild may not drop a city or region name the current region_seeds.json
+already has: the apps match challenges (Complete a City Together) to regions
+by name, so a renamed or removed region makes every challenge on it
+uncompletable. Pass --allow-removed-regions to drop names on purpose.
+
 Per-city files carry a "source" block (method, license, attribution) that is
 kept out of the built file: the app does not need it and the download stays
 small.
@@ -255,13 +260,64 @@ def build():
     return {"version": version, "cities": cities}
 
 
+def region_names(seeds):
+    """{(city name, countryCode): set of region names} of a built catalog."""
+    return {(c["name"], c.get("countryCode")): {r["name"] for r in c["regions"]}
+            for c in seeds["cities"]}
+
+
+def check_published_names(old_seeds, new_seeds):
+    """
+    Names in [old_seeds] (the catalog users have) that [new_seeds] drops, as
+    printable lines, plus warnings for regions added to cities that had some.
+    Challenges find their area by city name + country and region names, so a
+    dropped name leaves those challenges unable to find their streets, and a
+    region added to a city changes the target of whole-city challenges.
+    """
+    old, new = region_names(old_seeds), region_names(new_seeds)
+    removed, added = [], []
+    for city, names in sorted(old.items(), key=lambda kv: (kv[0][0], kv[0][1] or "")):
+        label = f"{city[0]} ({city[1]})"
+        if city not in new:
+            removed.append(f"{label}: city no longer in the catalog")
+            continue
+        gone = sorted(names - new[city])
+        if gone:
+            removed.append(f"{label}: regions {', '.join(gone)} no longer in the catalog")
+        extra = sorted(new[city] - names)
+        if extra:
+            added.append(f"{label}: new regions {', '.join(extra)}")
+    return removed, added
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true",
                         help="Verify region_seeds.json matches the build output (CI)")
+    parser.add_argument("--allow-removed-regions", action="store_true",
+                        help="Let the build drop city or region names the current "
+                             "region_seeds.json has (breaks challenges on them)")
     args = parser.parse_args()
 
     seeds = build()
+
+    if not args.check and SEEDS_PATH.exists():
+        try:
+            published = json.loads(SEEDS_PATH.read_text())
+        except json.JSONDecodeError:
+            published = None
+        if published is not None:
+            removed, added = check_published_names(published, seeds)
+            for line in added:
+                print(f"⚠️   {line}: whole-city challenges on it now have more streets to walk")
+            if removed:
+                print("❌  This build drops names that region_seeds.json already has:" if not args.allow_removed_regions
+                      else "⚠️   Dropping names on purpose (--allow-removed-regions):")
+                for line in removed:
+                    print(f"    {line}")
+                if not args.allow_removed_regions:
+                    sys.exit("    Challenges are matched to regions by name, so these would break.\n"
+                             "    Keep the old names, or rerun with --allow-removed-regions if it's intended.")
     # No whitespace: the apps parse it and nobody reads it, and indentation was 7% of the
     # bytes. The apps compare their stored outlines with these exactly and take any
     # difference as a reseed of the region, so the thinning above must stay deterministic:

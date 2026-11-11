@@ -44,6 +44,13 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
 - **Outlines of two cities never overlap.** Where they do, the apps take
   whichever city comes first in the catalog. Checked by `build.py`, which
   needs shapely for it: run it as `venv/bin/python3 build.py`.
+- **Published city and region names never change.** Challenges (Complete
+  a City Together) find their area by city name + country and region
+  names, so renaming or removing one leaves every challenge on it unable to
+  find its streets. `build.py` refuses a build that drops a name the current
+  `region_seeds.json` has; rerun with `--allow-removed-regions` only when
+  that's intended. Adding regions to a city is allowed but changes the
+  target of whole-city challenges, so it prints a warning.
 - **Only seed too_large cities.** Cities that clean-download without
   hitting the Overpass size limit do not need seeds. Adding one just
   bloats the catalog. See
