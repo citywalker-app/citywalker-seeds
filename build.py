@@ -12,7 +12,9 @@ adding or editing a city file:
 A rebuild may not drop a city or region name the current region_seeds.json
 already has: the apps match challenges (Complete a City Together) to regions
 by name, so a renamed or removed region makes every challenge on it
-uncompletable. Pass --allow-removed-regions to drop names on purpose.
+uncompletable. Pass --allow-removed-regions to drop names on purpose. With
+--check (CI) the names are compared with region_seeds.json at --published-ref
+(default origin/main), since the file on disk is already the new build there.
 
 Per-city files carry a "source" block (method, license, attribution) that is
 kept out of the built file: the app does not need it and the download stays
@@ -22,7 +24,9 @@ small.
 import argparse
 import json
 import math
+import subprocess
 import sys
+from collections import Counter
 from pathlib import Path
 
 from seed_generator import decode_polyline, encode_polyline, _haversine_km
@@ -261,9 +265,18 @@ def build():
 
 
 def region_names(seeds):
-    """{(city name, countryCode): set of region names} of a built catalog."""
-    return {(c["name"], c.get("countryCode")): {r["name"] for r in c["regions"]}
+    """
+    {(city name, countryCode): Counter of region names} of a built catalog.
+    Counted, not a set: some cities have two regions of the same name (Kurobe),
+    and dropping one of them must still count as a drop.
+    """
+    return {(c["name"], c.get("countryCode")): Counter(r["name"] for r in c["regions"])
             for c in seeds["cities"]}
+
+
+def names_list(counter):
+    """'A, B (2)': each name once, with its count when it is above one."""
+    return ", ".join(f"{n} ({k})" if k > 1 else n for n, k in sorted(counter.items()))
 
 
 def check_published_names(old_seeds, new_seeds):
@@ -281,13 +294,33 @@ def check_published_names(old_seeds, new_seeds):
         if city not in new:
             removed.append(f"{label}: city no longer in the catalog")
             continue
-        gone = sorted(names - new[city])
+        gone = names - new[city]
         if gone:
-            removed.append(f"{label}: regions {', '.join(gone)} no longer in the catalog")
-        extra = sorted(new[city] - names)
+            removed.append(f"{label}: regions {names_list(gone)} no longer in the catalog")
+        extra = new[city] - names
         if extra:
-            added.append(f"{label}: new regions {', '.join(extra)}")
+            added.append(f"{label}: new regions {names_list(extra)}")
     return removed, added
+
+
+def load_published(ref):
+    """
+    (catalog, where it came from), or (None, where it should have come from).
+    [ref] None reads region_seeds.json on disk; otherwise that file at a git ref.
+    """
+    if ref is None:
+        source = "region_seeds.json"
+        try:
+            return json.loads(SEEDS_PATH.read_text()), source
+        except (OSError, json.JSONDecodeError):
+            return None, source
+    source = f"region_seeds.json at {ref}"
+    try:
+        text = subprocess.run(["git", "show", f"{ref}:region_seeds.json"], cwd=ROOT,
+                              capture_output=True, text=True, check=True).stdout
+        return json.loads(text), source
+    except (OSError, subprocess.CalledProcessError, json.JSONDecodeError):
+        return None, source
 
 
 def main():
@@ -297,27 +330,33 @@ def main():
     parser.add_argument("--allow-removed-regions", action="store_true",
                         help="Let the build drop city or region names the current "
                              "region_seeds.json has (breaks challenges on them)")
+    parser.add_argument("--published-ref", default="origin/main",
+                        help="With --check: the git ref whose region_seeds.json users have "
+                             "(CI passes the PR's base, or the commit before a push)")
     args = parser.parse_args()
 
     seeds = build()
 
-    if not args.check and SEEDS_PATH.exists():
-        try:
-            published = json.loads(SEEDS_PATH.read_text())
-        except json.JSONDecodeError:
-            published = None
-        if published is not None:
-            removed, added = check_published_names(published, seeds)
-            for line in added:
-                print(f"⚠️   {line}: whole-city challenges on it now have more streets to walk")
-            if removed:
-                print("❌  This build drops names that region_seeds.json already has:" if not args.allow_removed_regions
-                      else "⚠️   Dropping names on purpose (--allow-removed-regions):")
-                for line in removed:
-                    print(f"    {line}")
-                if not args.allow_removed_regions:
-                    sys.exit("    Challenges are matched to regions by name, so these would break.\n"
-                             "    Keep the old names, or rerun with --allow-removed-regions if it's intended.")
+    # The names users already have: in CI from git (the file on disk is the new
+    # build there), otherwise the region_seeds.json this build is about to replace.
+    published, source = load_published(args.published_ref if args.check else None)
+    if published is None:
+        if not args.allow_removed_regions:
+            sys.exit(f"❌  Can't read the published catalog ({source}), so dropped city or region\n"
+                     f"    names can't be checked. Fix that, or rerun with --allow-removed-regions.")
+        print(f"⚠️   Not checking for dropped names: can't read {source}")
+    else:
+        removed, added = check_published_names(published, seeds)
+        for line in added:
+            print(f"⚠️   {line}: whole-city challenges on it now have more streets to walk")
+        if removed:
+            print(f"❌  This build drops names that {source} has:" if not args.allow_removed_regions
+                  else f"⚠️   Dropping names on purpose (--allow-removed-regions), compared with {source}:")
+            for line in removed:
+                print(f"    {line}")
+            if not args.allow_removed_regions:
+                sys.exit("    Challenges are matched to regions by name, so these would break.\n"
+                         "    Keep the old names, or rerun with --allow-removed-regions if it's intended.")
     # No whitespace: the apps parse it and nobody reads it, and indentation was 7% of the
     # bytes. The apps compare their stored outlines with these exactly and take any
     # difference as a reseed of the region, so the thinning above must stay deterministic:

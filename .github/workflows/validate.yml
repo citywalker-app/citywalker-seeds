@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # the name check reads the previous region_seeds.json from git
 
       - uses: actions/setup-python@v5
         with:
@@ -19,4 +21,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Validate city files and check region_seeds.json is in sync
-        run: python3 build.py --check
+        # Names users already have may not disappear: compare with the PR's base,
+        # or with the commit before this push.
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            REF="origin/${{ github.base_ref }}"
+          else
+            REF="${{ github.event.before }}"
+          fi
+          python3 build.py --check --published-ref "$REF"

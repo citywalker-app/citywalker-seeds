@@ -48,8 +48,10 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
   a City Together) find their area by city name + country and region
   names, so renaming or removing one leaves every challenge on it unable to
   find its streets. `build.py` refuses a build that drops a name the current
-  `region_seeds.json` has; rerun with `--allow-removed-regions` only when
-  that's intended. Adding regions to a city is allowed but changes the
+  `region_seeds.json` has (in CI, `--check` compares with the PR's base or
+  the commit before the push); rerun with `--allow-removed-regions` only
+  when that's intended. A missing or unreadable previous catalog fails the
+  check instead of skipping it. Adding regions to a city is allowed but changes the
   target of whole-city challenges, so it prints a warning.
 - **Only seed too_large cities.** Cities that clean-download without
   hitting the Overpass size limit do not need seeds. Adding one just
