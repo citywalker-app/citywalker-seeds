@@ -54,7 +54,9 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
   check instead of skipping it. In CI, put `[allow-removed-regions]` in a
   commit message of the push or PR to let an intended rename through. A
   direct push to main publishes before CI runs, so a reseed that renames
-  regions goes through a PR. Adding regions to a city is allowed but changes the
+  regions goes through a PR. If the PR is squash-merged, keep the tag in the
+  squashed message, or main's run goes red afterwards (harmless: the PR
+  check already passed). Adding regions to a city is allowed but changes the
   target of whole-city challenges, so it prints a warning.
 - **Only seed too_large cities.** Cities that clean-download without
   hitting the Overpass size limit do not need seeds. Adding one just
