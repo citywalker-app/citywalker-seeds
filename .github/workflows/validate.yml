@@ -22,11 +22,18 @@ jobs:
 
       - name: Validate city files and check region_seeds.json is in sync
         # Names users already have may not disappear: compare with the PR's base,
-        # or with the commit before this push.
+        # or with the commit before this push. A rename on purpose (say a city's
+        # regions redrawn) goes through when a commit in the range says
+        # [allow-removed-regions] in its message.
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             REF="origin/${{ github.base_ref }}"
           else
             REF="${{ github.event.before }}"
           fi
-          python3 build.py --check --published-ref "$REF"
+          EXTRA=""
+          if git log --format=%B "$REF..HEAD" | grep -qF "[allow-removed-regions]"; then
+            echo "A commit allows dropping names: [allow-removed-regions]"
+            EXTRA="--allow-removed-regions"
+          fi
+          python3 build.py --check --published-ref "$REF" $EXTRA
