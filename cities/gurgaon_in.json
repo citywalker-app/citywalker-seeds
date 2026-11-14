@@ -1,0 +1,227 @@
+{
+  "name": "Gurgaon",
+  "countryCode": "IN",
+  "centerLat": 28.428148,
+  "centerLng": 76.996087,
+  "radiusKm": 14.18,
+  "regions": [
+    {
+      "name": "Sectors 100–103, 107",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4755644,
+        "maxLat": 28.5157991,
+        "minLng": 76.8953452437783,
+        "maxLng": 76.9994099
+      },
+      "encodedPolyline": "gsxlDeiztMw`@hd@w^bb@gGiC??????????__@zW??????????????????ikAfxL{K}HkMyG}BiMtCkMe]wWpIgR@c@U}IpGaXxHsNnMoNiA}GqBaKqOqSAi@eB_l@bBaDbPyWlNmUQaLN{l@_BsHyb@mo@uYut@~Qm`@rKeVdBcDbRs]zMcZhLwShRqPbW?|N_U`fAtgAtBnCfb@|e@"
+    },
+    {
+      "name": "Sectors 105–106, 108–109",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4858551,
+        "maxLat": 28.5212528,
+        "minLng": 76.9706359,
+        "maxLng": 77.0186166
+      },
+      "encodedPolyline": "_o|lDehauMfMzJpZ~UpPvMiCdDgInQa^p`@}N~TcW?iRpPiLvS{MbZcRr]eBbDsKdV_Rl`@sRq`@mMuM`HuJfCcE~K}KHSHSdMm^n@gBx@_CpB_GyCgCmOqM_CqB|AkDqDsBoIgDtFyLdBaEfCaP|@kCxD{Kd@wAj@aDBILs@pAiHpAoHmAwAEGu@{@qCaDcDuDhD}GvHiOpFuKpOdL`EtDlTvS~]tXbDwFf_@kk@"
+    },
+    {
+      "name": "Sectors 1–2, 110–115",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.491709996098564,
+        "maxLat": 28.5409048,
+        "minLng": 77.0013356,
+        "maxLng": 77.0485082
+      },
+      "encodedPolyline": "sz}lDsscuMuOlW|n@ng@jKnIg_@jk@cDvF_^uXmTwSaEuDqOeLqFtKwHhOiD|G}@aAgH}HoMqNmSpM}E|U}@jAmDbEmA~E}JrTuJ`Ta@|@uN_AmZoOwDs@kCsDoCcHgCsDlEuJoAcBr@sKs@_Cq@yBfB}B|CuLnHcFdHgMzFoKd@m@pFgGhDkGhEm_@BQvBaMhEaKn@{ALWbBcEBCxR_e@hAiCzAuCPi@dEAvEwFnLkWvYjMxO~Ft@X~HxGdG`FzB|AxHrGxE~DvBfBhA~@xBdBlDpChGxE^yNtfAlKhA`Swh@re@wNh@w@gAGOoD_Fm@f@"
+    },
+    {
+      "name": "Sectors 3, 15, 87, 91",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.3598696,
+        "maxLat": 28.408423,
+        "minLng": 76.879741,
+        "maxLng": 76.9357696
+      },
+      "encodedPolyline": "i{clDizftMf@c~AqTQTks@wl@F??ElOwJtC{^yQ@_a@{RhUc^kQmp@nRhCmE|DaHoHwWw@oCeEiO_AeDaAmD{DqNyDoNgCmJqFmSPDlb@wNw@nCxS|KnEoErIoIpXaVfBwAhJsHrCtB|UnQ|DxClZlWfK`IsCtK????????????????????????????????AB??????????????????????????????????sBbIyIzR`IjKnBxA??????????????????????????????????rXfSfP`L??????????tGjH????????????????????????mCfIlIhH??????r@xA??????????????????????????????zA~ClGjA~@r@??p@f@hC~ErDdGnBdGmGxEOlEfAxDjEbEtEyFbJxF~EfAjDrAtAn@lBtFgCpIsQ|Vyi@fy@pE}G"
+    },
+    {
+      "name": "Sectors 18–25",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4774587,
+        "maxLat": 28.5202589,
+        "minLng": 77.0362827,
+        "maxLng": 77.119507
+      },
+      "encodedPolyline": "gxylDmppuMbAlFnDxYOvIlDtb@t@jKf@|GzDdi@vBlRiIiKgd@ps@eMnSiJdOkFwEmMlQlSpi@}OnaAufAmK_@xNiGyEmDqCyBeBiA_AwBgByE_EyHsG{B}AeGaF_IyGu@YyO_GtBoQrIk_@pH}RD_@hBoQFoByAsLCaFd@cDpBiJoE{AaIyFmNgLkBkAaJoC}CYUOtCsErB}EV{@Ro@t@eNp@_J@O^aFxDsMV}@|@mE^kBnAiGtJmh@b@aCb@gCvLoYr@cB`ZdQzL{JdE{MxCgMxBcHdFeIbKs\\|DsMtS}j@~q@lJhK~DpTjIa@nCc@r]uAnGIzBlAhP\\zYkAdD{@jAuAhC_DdFeGvLvM`AtFb@"
+    },
+    {
+      "name": "Sectors 16–17, 26, 28–30, 41",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4500074,
+        "maxLat": 28.4926411185778,
+        "minLng": 77.04178855614376,
+        "maxLng": 77.11511987610535
+      },
+      "encodedPolyline": "qsslDiqjuMwX~b@iFbIgBfCeB`DeC|KqL~PsAzAqScRgB|CkExGU^gMvRhGrHrBnB{NjT}bA_g@mHR{E_EmBeAGzGcp@fBmSqi@lMmQjFvEhJeOdMoSfd@qs@hIhKwBmR{Dei@g@}Gu@kKmDub@NwIoDyYcAmFuFc@wMaAdGwL~CeFtAiCz@kAjAeD]{YmAiPH{BtAoGb@s]`@oCfq@nDbAtIvWqOrIti@uAz@tBbAlPdeA_M|OlM~bBrJnFdE~NE?jEWfEC`DCvChNbb@r_@jN|M"
+    },
+    {
+      "name": "Sectors 11, 15, 31–33, 38–40",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.42242913062448,
+        "maxLat": 28.467443741855917,
+        "minLng": 77.0101187,
+        "maxLng": 77.0640544
+      },
+      "encodedPolyline": "ifrlD_viuM??????????????????????????????dIrD????????????????????|ZeBdo@|j@|LpCxEnE`Shz@_Qxi@qMlGtG|d@B|FU`EsGnNyDfD{BrDgElIADaE~GgAbBMTuHxMqOdXs_@eZwP_RiFpTqBzEsu@iq@oAiA{NoMeDsGeFqG{EaGnGoSiFoW}i@yd@_A_DzNkTsBoBiGsHfMwRT_@jEyGfB}CpSbRrA{ApL_QdC}KdBaDfBgChFcIvX_c@fShRbQfPzEgH"
+    },
+    {
+      "name": "Sectors 34, 36–37",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.407286303676457,
+        "maxLat": 28.462311508918088,
+        "minLng": 76.94040544284418,
+        "maxLng": 77.0202659
+      },
+      "encodedPolyline": "ujplDmy`uMtHyMLUfAcB`E_H@EfEmIl_@bZxK~IlCvH^tBf@`FfKbDf@du@Wb@rUbb@tMfF`MfFaFdRj[dk@wVz\\}u@jXeGdIky@dZwKhUbOrTmLpAiPl@ic@p~@oaA|}@C?sDiaCg@CkB}Ekt@a~AR_@bz@iBoGNmi@{YoLoj@fg@aiA`OhD??????????????????????????lT[????????????????????????hCxG??lDhKjJiEbNmGbCoBfD{CtG}FlPaWhDwGjFuJ~A_DpOeX"
+    },
+    {
+      "name": "Sectors 3–7, 9–10, 12–13, 104",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4358808,
+        "maxLat": 28.5050072,
+        "minLng": 76.9808303,
+        "maxLng": 77.0494004
+      },
+      "encodedPolyline": "g{plDg``uM_B~CkFtJiDvGmP`WuG|FgDzCcCnBcNlGkJhEmDiKiCyGmTZaOiDgg@`iAmK[uShHkAeC{ByEmj@pw@gb@}e@uBoCafAugA`^q`@fIoQhCeD??qPwM??????????????????????????????????qZ_VgM{JkKoI}n@og@tOmWl@g@nD~EFNv@fA????????????vNi@????????????????????vh@se@iAaS|OoaAbp@gBF{GlBdAzE~DlHS|bA~f@~@~C|i@xd@hFnWoGnSzE`GdFpG????dDrGzNnMnAhA??ru@hq@pB{EhFqTvP~Qr_@dZ"
+    },
+    {
+      "name": "Sectors 42–45, 51–54, 56",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4205318,
+        "maxLat": 28.469221777334955,
+        "minLng": 77.05152646943216,
+        "maxLng": 77.1265409
+      },
+      "encodedPolyline": "yqolDapruMzOnK|DhI`Ih]hCfRzA|KK?wj@Ql@~c@cEr|@vOrPnm@~o@sd@|m@jGtGoHjZ}LqCeo@}j@}ZdBeIsDfKoOcRvXcQgPgSiRkN}Mcb@s_@wCiN??????aDB??gEBeEV??????????????????????????eE_O????????????????????sJoFmM_cB~L}OmPeeAuBcAtA{@sIui@nKkGb[gUxQsTd\\sAbXgAr@iAlBwCtUeFhI|]rErNbP[vRpAnIhBxFdHnFpQ`@rL~AnCnBjF@Bx@rCb@`Bn@|Ff@bEjNbH"
+    },
+    {
+      "name": "Sectors 50, 57, 62, 64–65",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.37356126023912,
+        "maxLat": 28.4306451,
+        "minLng": 77.05049216615473,
+        "maxLng": 77.091248
+      },
+      "encodedPolyline": "yhflDqoluMukAbq@sIxDoUpt@}k@qMM_@mBt@kG`CgAb@gI~CoJpD}MhFiCbAq]rNuB|@cBcByYvJyEoEnHkZkGuGrd@}m@om@_p@wOsPbEs|@m@_d@vj@PJ?v@~FvEdW`QrDbNhClC\\zBV|FsElI}IbFoDjAl@zDfGtBuBn@_ChCb@z@k@`Bo@dDc@hM`IjDhCpDgAzCKzMlB|Oo@B?dKoAlHtD`YTfI|ArPrC`AdA\\nFlQj@~He@nEqEfD_B~DJtFvL^rFYz\\vAzJdFbIii@lHmFgP[qAMk@"
+    },
+    {
+      "name": "Sectors 49, 71–72, 74",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.374234909308324,
+        "maxLat": 28.4292708,
+        "minLng": 77.0000093,
+        "maxLng": 77.0589847
+      },
+      "encodedPolyline": "c`jlDgeauM??????????????????????????Ata@nPrDiP|PyAZsE`h@gCs@}FqCuCmBkCwBsAgAsAqAkAeBoEoF{BuDgEqCaTkG?~Zoc@xIg@eu@dR|Fm^aLg@aF_@uBmCwHyK_Jm_@cZzBsDxDgDrGoNTaEC}FuG}d@pMmG~Pyi@aSiz@xYwJbBbBtB}@p]sNhCcA|MiFnJqDfI_DfAc@jGaClBu@L^|k@pMbw@dqBl[bWbgAtm@cdDp]a@fd@"
+    },
+    {
+      "name": "Sectors 67, 73–75",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.3153915,
+        "maxLat": 28.41891681506653,
+        "minLng": 76.98313931395887,
+        "maxLng": 77.0740103
+      },
+      "encodedPolyline": "{zzkDcq`uMxP|R~H`PnHpKjJ|I}UnTo[SA?aLp@FdFeAdDyB|C}@tFg@~GvAjHpBxD`BtJUhH{ArDsAvBgC~AiFLaDiAsCS{EsDaNgDeT_JcK_Ii_@\\gO?yLjAwVoF?gJSyOCcK[{HdAmMf@eNiCuIy\\oROgDoDgAiCiD_CaFg@_JkIu@eCpEuLTc^eAuLsCmMoEgQrVuFlMaMwFmTgLuGoFsDjEgClJcPgFsIqCiCy@mFjH??????????????????????????????????}ChE_CpJoDdXdGvGjNdB??????~WfKbFn@hEf@??????????rKhJ`EJ??pCP??~Et@??????????????????vD~I????????????????????{FfN??wI`SeIzW??yJjW??qAtB??????????????????????_fBsF????????????????????????}VjGk[ek@`FeRaMgFuMgFsUcb@Vc@nc@yI?_[`TjGfEpCzBtDnEnFjAdBrApArAfAjCvBtClB|FpCfCr@rEah@??????????????????????xA[hP}PoPsD@ua@`@gd@bdDq]cgAum@m[cWcw@eqBnUqt@rIyDtkAcq@Lj@ZpAlFfPhi@mHn@bA~FhLdBrJxAjOvCbQh@~L_ApMiBxLgExTsB`NrBhK`DpGxBnErKtExF|ItBlChNrC|M_@nKf@jJVhQ~E~GxG~BGdBcArAc@dB@zBQ`AuAf@cBp@mEs@}FdCcBrHsAnSCbThAvAvHj@vGtI|CfJnArFlElBtGzA`J\\hIvDxArGh@nBFnF_BdFk@hHbBvFfCqDxJcEjLeClP~@~D~CvH~DlN|ArB|JpMhK|W"
+    },
+    {
+      "name": "Sectors 83–84, 88–90, 93",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.386976575102636,
+        "maxLat": 28.451362185444278,
+        "minLng": 76.9241277,
+        "maxLng": 76.98448379131135
+      },
+      "encodedPolyline": "ahilDc|vtMsOtCcBFwX~@cJx@oJ|@{Jva@YfAwCvK????????????????????eAzD????????????????????????????????yDtNiL~_@}GjPdFbEhFdE????????????????????????????????~FvE????????????????????????????????~IhHpFdBzJrA|Y`SvCvHkCdJmb@vNQEs{@dUwG_o@}Fqb@aErBiPnGsBoJG]I_@Q_A}aD{MnaA}}@hc@q~@hPm@lLqAcOsTvKiUjy@eZdGeI|u@kXvV{\\|VkG~eBrFsJhPmTp^gKtNlChBfOtJwCdRGPkFtOyFhOyGsCoDcAiBi@"
+    },
+    {
+      "name": "Sectors 8–9, 12",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.3691266,
+        "maxLat": 28.41313298421029,
+        "minLng": 76.86563370009914,
+        "maxLng": 76.9098897
+      },
+      "encodedPolyline": "qedlDyjftM????????????????????????????????gJfS??????????iKxM}NhR{RfZ????????????????????????????????????_KgL_P}KIGuHiEy@e@??????????????????????????????DMjEyK`CiM`B}K{HaH??????????????????????????????????i@e@iBaB????????????????????????????????mVqTeHyFoCzBqCbJ??aBfF??????gC~C????????????????????wCQ????????????????????????????????c@CiCoA????????????????????????????????qE{B??????iHeI????qDqG??????????????????????????????????yIqOyTaRyGgGwBoA\\gJyF}@_En@sCf@uCHaGgF_E}EMu@r^c_@lCdHb[ei@lp@oRb^jQzRiUA~`@????????????|^xQ??????????????tJuCDmOvl@GUjs@pTPg@b~AqE|GuBpE"
+    },
+    {
+      "name": "Sectors 92, 94, 102",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": 28.4012233,
+        "maxLat": 28.50469454361042,
+        "minLng": 76.8869504,
+        "maxLng": 76.9808303
+      },
+      "encodedPolyline": "soklD_}otMpFlSfClJxDnNzDpN`AlD~@dDdEhOv@nCnHvW}D`Hm_@ro@mCeHs^b_@wAuHe@mEyBqIuKuJsPwHwEaAkCXeC|A}AB_IkFgExG}@~BaCfAgIcEaCdBmB`LoBlHaH|MgK~RoDxF_CQyRcOe^|d@cJzHcFuK{H{KiBeCsm@pSsHyB]KyC}@sFgBgMeE_`@kLqMkAoJmBiY}QqRiCoRc@iXpFmNsBeLxDiEpBmB~@yTjBiPzQ_KrGcLbBd@gKyAuCiTqOhkAgxL~^{WfGhCv^cb@v`@id@|CxD`j@br@yBpCkIlKdEkFgMrqHj|BqwBB?|aDzMP~@H^F\\rBnJhPoG`EsB|Fpb@vG~n@r{@eU"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://download.openstreetmap.fr/extracts/asia/india/haryana-latest.osm.pbf (admin_level 9 sectors inside the admin_level 6 Gurgaon boundary; unsectored land given to the nearest sector)",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "aliases": [
+    "Gurugram",
+    "गुरुग्राम"
+  ]
+}
