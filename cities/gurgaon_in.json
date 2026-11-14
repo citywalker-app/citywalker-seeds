@@ -6,7 +6,7 @@
   "radiusKm": 14.18,
   "regions": [
     {
-      "name": "Sectors 100–103, 107",
+      "name": "Sectors 100, 101, 102A, 103, 107",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -45,7 +45,7 @@
       "encodedPolyline": "sz}lDsscuMuOlW|n@ng@jKnIg_@jk@cDvF_^uXmTwSaEuDqOeLqFtKwHhOiD|G}@aAgH}HoMqNmSpM}E|U}@jAmDbEmA~E}JrTuJ`Ta@|@uN_AmZoOwDs@kCsDoCcHgCsDlEuJoAcBr@sKs@_Cq@yBfB}B|CuLnHcFdHgMzFoKd@m@pFgGhDkGhEm_@BQvBaMhEaKn@{ALWbBcEBCxR_e@hAiCzAuCPi@dEAvEwFnLkWvYjMxO~Ft@X~HxGdG`FzB|AxHrGxE~DvBfBhA~@xBdBlDpChGxE^yNtfAlKhA`Swh@re@wNh@w@gAGOoD_Fm@f@"
     },
     {
-      "name": "Sectors 3, 15, 87, 91",
+      "name": "Sectors 3A, 15, 87, 91",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -84,7 +84,7 @@
       "encodedPolyline": "qsslDiqjuMwX~b@iFbIgBfCeB`DeC|KqL~PsAzAqScRgB|CkExGU^gMvRhGrHrBnB{NjT}bA_g@mHR{E_EmBeAGzGcp@fBmSqi@lMmQjFvEhJeOdMoSfd@qs@hIhKwBmR{Dei@g@}Gu@kKmDub@NwIoDyYcAmFuFc@wMaAdGwL~CeFtAiCz@kAjAeD]{YmAiPH{BtAoGb@s]`@oCfq@nDbAtIvWqOrIti@uAz@tBbAlPdeA_M|OlM~bBrJnFdE~NE?jEWfEC`DCvChNbb@r_@jN|M"
     },
     {
-      "name": "Sectors 11, 15, 31–33, 38–40",
+      "name": "Sectors 11, 15-I, 15-II, 31–33, 38–40",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -97,7 +97,7 @@
       "encodedPolyline": "ifrlD_viuM??????????????????????????????dIrD????????????????????|ZeBdo@|j@|LpCxEnE`Shz@_Qxi@qMlGtG|d@B|FU`EsGnNyDfD{BrDgElIADaE~GgAbBMTuHxMqOdXs_@eZwP_RiFpTqBzEsu@iq@oAiA{NoMeDsGeFqG{EaGnGoSiFoW}i@yd@_A_DzNkTsBoBiGsHfMwRT_@jEyGfB}CpSbRrA{ApL_QdC}KdBaDfBgChFcIvX_c@fShRbQfPzEgH"
     },
     {
-      "name": "Sectors 34, 36–37",
+      "name": "Sectors 34, 36, 37, 37A–37D",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -110,7 +110,7 @@
       "encodedPolyline": "ujplDmy`uMtHyMLUfAcB`E_H@EfEmIl_@bZxK~IlCvH^tBf@`FfKbDf@du@Wb@rUbb@tMfF`MfFaFdRj[dk@wVz\\}u@jXeGdIky@dZwKhUbOrTmLpAiPl@ic@p~@oaA|}@C?sDiaCg@CkB}Ekt@a~AR_@bz@iBoGNmi@{YoLoj@fg@aiA`OhD??????????????????????????lT[????????????????????????hCxG??lDhKjJiEbNmGbCoBfD{CtG}FlPaWhDwGjFuJ~A_DpOeX"
     },
     {
-      "name": "Sectors 3–7, 9–10, 12–13, 104",
+      "name": "Sectors 3–7, 9A, 10, 12A, 13, 104",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -162,7 +162,7 @@
       "encodedPolyline": "c`jlDgeauM??????????????????????????Ata@nPrDiP|PyAZsE`h@gCs@}FqCuCmBkCwBsAgAsAqAkAeBoEoF{BuDgEqCaTkG?~Zoc@xIg@eu@dR|Fm^aLg@aF_@uBmCwHyK_Jm_@cZzBsDxDgDrGoNTaEC}FuG}d@pMmG~Pyi@aSiz@xYwJbBbBtB}@p]sNhCcA|MiFnJqDfI_DfAc@jGaClBu@L^|k@pMbw@dqBl[bWbgAtm@cdDp]a@fd@"
     },
     {
-      "name": "Sectors 67, 73–75",
+      "name": "Sectors 67, 73, 74A, 75A",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
