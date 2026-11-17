@@ -401,6 +401,10 @@ def check_published_ids(old_seeds, new_seeds):
             if r["id"] not in regions and r["id"] not in retired:
                 problems.append(f"{label}: region {r['id']} ({r['name']}) dropped without a "
                                 f"'retired' entry saying where it went")
+            elif r["id"] in retired and retired[r["id"]].get("splitFrom") != r.get("splitFrom"):
+                # Retiring a part must keep its origin, or challenges on the origin lose its parts.
+                problems.append(f"{label}: region {r['id']} ({r['name']}) retired without its "
+                                f"splitFrom {r.get('splitFrom')!r}")
             elif r["id"] in regions and regions[r["id"]].get("splitFrom") != r.get("splitFrom"):
                 # Older challenges on the origin cover this part through splitFrom.
                 problems.append(f"{label}: region {r['id']} ({r['name']}) splitFrom changed from "
