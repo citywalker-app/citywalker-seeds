@@ -1,0 +1,106 @@
+{
+  "name": "San Miguel del Monte",
+  "countryCode": "AR",
+  "centerLat": -35.435204,
+  "centerLng": -58.808066,
+  "radiusKm": 3.65,
+  "regions": [
+    {
+      "name": "Centro Este",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.446947070229506,
+        "maxLat": -35.43667361033568,
+        "minLng": -58.81672348968045,
+        "maxLng": -58.79424956995469
+      },
+      "encodedPolyline": "dvhwEpnzeJ`B|@zCvBtApAn@Xx@kAtAgEn@iDn@sAhCdB|BhAtCu@hC`CjEx@IHoApCKd@TFND@\\?Z?V@NNNHFLLBBAf@Bh@B^B^@XBb@Dr@HzAh@DoAzRg@d@?DB`@@d@Bj@DdAnDs@Kt@w@`@Gb@ALHd@nAFP`@i@J_AO_AZk@FKZUz@Zn@Hn@ZdBVlBx@`Ew@DcFRgEPaDN}CLRhFPzETlG^nKPbFRtFcDR{DVkEXaBJ_BJ{DViG`@`AyCWiIIgCSwGQiFQwFQ}Fc@eL|BWpBUKgCK_COqDYqHKcCOeEQkEW_H\\Ob@Ml@KPEb@Gn@u@b@_@PMVQT?X@`ABd@Ac@yK"
+    },
+    {
+      "name": "Centro Norte",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.439408640172864,
+        "maxLat": -35.420149350196546,
+        "minLng": -58.81874921040908,
+        "maxLng": -58.79172137028368
+      },
+      "encodedPolyline": "dmhwEvtzeJbAmAtBmAdBi@b@xKe@@aACYAU?WPQLc@^o@t@c@FQDm@Jc@L]NV~GPjENdEJbCXpHNpDJ~BJfCqBT}BVb@dLP|FPvFPhFRvGHfCVhIaAxCgDTo@DmF\\yGb@SmFaF\\iF\\A?uF`@oF\\cG`@PjFuEZu]~BmAs\\oAa]qAy\\fJk@pE[rE[xE[rE]vLy@fM{@xHi@UeGg@oMQaFe@wLi@{M]cJnAr@xC~DdHhJjCfD~ApAhDh@|HzBj@mA"
+    },
+    {
+      "name": "Centro Oeste",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.45342958975627,
+        "maxLat": -35.42134658012888,
+        "minLng": -58.83197546027339,
+        "maxLng": -58.80760006041606
+      },
+      "encodedPolyline": "~xjwEvl~eJ~EdC|GvClB|@`@RBj@FzAPjEBj@LfD_Ij@_G`@aEXHvDBjADdBBl@yCgF{AgCoFhGIJOPOU}CmEgA_BiAaB@b@zAb_@TtFBt@Dr@JhCyBP_BJuAJ{AJwAJ{ALTpFRzE}AJyAJYBWBuF^mF\\WB{F`@gWdBE{Ac@sMYeIMyDaBa\\OmDWcGGgBUeFmRtAwEZkEZkEXAWgc@rCMgDt]_CtE[QkFbGa@nF]tFa@@?hF]`F]RlFxGc@lF]n@EfDUhGa@zDW~AK`BKjEYzDWbDSSuFQcF_@oKUmGQ{ESiF|CM`DOfEQbFSv@EtBnKr@jDXtA@dBHlCTlBl@~Af@~AT`@l@dA|@fA`@n@`Az@bA`AnAt@"
+    },
+    {
+      "name": "Noreste",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.4564847696497,
+        "maxLat": -35.41161680026904,
+        "minLng": -58.80543257026423,
+        "maxLng": -58.76946863015392
+      },
+      "encodedPolyline": "~vhwEdlueJfGxHlR|Um@n@bHtIp`@pf@hPbTxQrT|@hCMFi@Ec@Ck@b@k@pBa@fBW`@[f@k@h@k@L[FqBxBgBz@{AtAy@z@qA~@[\\u@|@ULQJIFu@d@}At@cAXQDkA\\kAb@s@NmA]}@g@w@e@mA[wAwAg@k@e@g@KRq@dAKRwAhA}@`AkEy@iCaCuCt@}BiAiCeBo@rAo@hDuAfEy@jAo@YuAqA{CwBaB}@eBh@uBlAcAlAk@lA}H{BiDi@_BqAkCgDeHiJyC_EoAs@\\bJh@zMd@vLP`Ff@nMTdGyHh@gMz@wLx@sE\\yEZsEZqEZgJj@gKj@eDRaBJcBJeFZoUrALU~Wc_@`Vk\\O}D`DW`Vu\\l_@oi@P?tFeIjD_FzVa^dR}WbGoI"
+    },
+    {
+      "name": "Norte",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.42141530987425,
+        "maxLat": -35.40842564004206,
+        "minLng": -58.82112857001728,
+        "maxLng": -58.80442511955458
+      },
+      "encodedPolyline": "lfewEd`_fJLfDqjArHcBua@oAo]|R}_@nUsAdF[bBK`BKdDSfKk@pAx\\nA`]lAr\\"
+    },
+    {
+      "name": "Oeste",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.44774653988699,
+        "maxLat": -35.42141530987425,
+        "minLng": -58.84666402997801,
+        "maxLng": -58.818131659973744
+      },
+      "encodedPolyline": "`zhwErnafJVClF]tF_@VCXCxAK|AKxAKxAKtAI`BMzAKvBMf@hL|EnnAoWhBeCNiDTyDV}CRaCPgSbAy@?g@EYMMUKaCoBeg@s@eRujAzGqAk\\sA_]Co@y@uO[gJ_AoWfc@sC@VjEYjE[vE[lRuATdFFfBVbGNlD`B`\\LxDXdIb@rMDzAfWeBzFa@"
+    },
+    {
+      "name": "Sur",
+      "osmId": null,
+      "adminLevel": null,
+      "isPointFallback": false,
+      "boundingBox": {
+        "minLat": -35.461982180143345,
+        "maxLat": -35.443348730204434,
+        "minLng": -58.83426104025751,
+        "maxLng": -58.816572299624866
+      },
+      "encodedPolyline": "|}lwEz}`fJkDTuDToEZaHb@gF\\cG`@?JrJnNbBdCwAh@cIx@PrEcA@O?O?Q_AWaBWqA[_BUgAa@wA_A_E}@{Ce@mAeN~@cHd@qDVqAHwDXwBL{AJaBLuAHyAJyAJS{EUqFzAMvAKzAKtAK~AKxBQKiCEs@Cu@UuF{Ac_@Ac@hA`BfA~A|ClENTNQHKnFiGzAfCxCfFCm@EeBCkAIwD`EY~Fa@~Hk@MgDCk@QkEG{ACk@\\Lz@^`BFt@Db@@~DPzAEdACp@B`A@nEs@dIcBbEoAdAYHjBh@`Nf@tLd@vLf@~Lf@pMmEZ"
+    }
+  ],
+  "source": {
+    "method": "geojson",
+    "url": "https://data.source.coop/nlebovits/censo-argentino/2022/radios.parquet (PROV=06, DEPTO=547: the tracts of fracciones 03, 09, 10 and 11 with 500+ people per km², grouped by fracción, plus the edge tracts 03-07/03-08 (Oeste), 09-02 (Norte), 09-03/11-09 (Noreste); tract geometry from https://ri.conicet.gov.ar/handle/11336/149711)",
+    "license": "CC-BY-4.0",
+    "attribution": "INDEC, Censo Nacional 2022; census tract map by Rodríguez & de Grande (CONICET), via source.coop/nlebovits/censo-argentino"
+  }
+}
