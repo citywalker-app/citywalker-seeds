@@ -38,8 +38,11 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
 - **Ids never change.** Every city has an `id` and every region a whole-number
   `id`; challenges find their area by them. A reseed keeps them (the generator
   prints renames, splits and merges it detected: check them). A region that goes
-  away moves to `retired` with `mergedInto`; ids are never reused. `build.py`
-  refuses a build that changes or drops a published id. See README, "Ids".
+  away moves to `retired` with `mergedInto`; ids are never reused. A split
+  retires the old id and gives every part a new id with `splitFrom` ("an id
+  never loses a split part"). Region names are unique within a city. `build.py`
+  refuses a build that changes or drops a published id, `splitFrom` or `retired`
+  entry. See README, "Ids".
 
 - **A city's circle covers all of its outlines.** The apps test
   `centerLat`/`centerLng`/`radiusKm` first and the district outlines second,

@@ -103,8 +103,12 @@ Each file in `cities/` looks like this:
 
 Challenges (Complete a City Together) find their area by the city `id` and a region
 `id`, so ids never change: a renamed region keeps its id, a region that goes away moves
-to `retired`, a split-off part names its origin in `splitFrom`, and an id is never
-reused. `seed_generator.py` assigns them (a reseed carries the old ones over by name,
+to `retired` (with `mergedInto`), and an id is never reused. **An id never loses a split
+part:** when a region splits, its id is retired and every part, even one that keeps the
+name, gets a new id with `splitFrom`, so a challenge on the old id still covers the whole
+area and one made later on a part covers only that part. A carried region keeps its
+`splitFrom`, and published `splitFrom` and `retired` entries never change. Region names are
+unique within a city (phones match their downloaded rows by name). `seed_generator.py` assigns them (a reseed carries the old ones over by name,
 then by area, and prints what it decided), `assign_ids.py` adds missing ones to files
 edited by hand, and `build.py` refuses a build that changes or drops a published id.
 

@@ -70,10 +70,17 @@ def assign(path):
 
 
 # A new region takes an old one's id (a rename or a redrawn border) when each covers at
-# least this much of the other; a split-off part names its origin when this much of it lay
-# in the old region; a dropped region is mergedInto the region holding this much of it.
+# least SAME_REGION_SHARE of the other. A region keeps its id by name only if the old and
+# new outlines overlap by at least NAME_MIN_OVERLAP (generic names like "Zone 1" can move).
+# An old region is split when two or more new regions each lie mostly (SPLIT_SHARE) inside
+# it and each takes at least PART_MIN_SHARE of it: then the old id is retired and every
+# part gets a new id with "splitFrom", so a challenge on the old id keeps its whole area and
+# one made later on a part covers only that part ("an id never loses a split part").
+# A dropped region is mergedInto the region holding MERGE_SHARE of it.
 SAME_REGION_SHARE = 0.6
+NAME_MIN_OVERLAP  = 0.25
 SPLIT_SHARE       = 0.5
+PART_MIN_SHARE    = 0.1
 MERGE_SHARE       = 0.5
 
 
@@ -101,38 +108,73 @@ def _key(name):
 
 def carry_ids(old_city, new_city, stem, log=print):
     """
-    new_city with "id" on the city and every region, "splitFrom" on split-off parts and an
+    new_city with "id" on the city and every region, "splitFrom" on split parts and an
     updated "retired" list, carried over from old_city (the file being replaced, or None).
+    A carried region keeps its "splitFrom"; retired entries are kept as they were.
     Key order: "id" first, "retired" last (only when it has entries).
     """
     old_regions = [r for r in (old_city or {}).get("regions", []) if "id" in r]
-    retired = list((old_city or {}).get("retired", []))
+    retired = [dict(t) for t in (old_city or {}).get("retired", [])]
     used = {r["id"] for r in old_regions} | {t["id"] for t in retired}
-    next_id = max(used, default=0) + 1
+    next_id = [max(used, default=0) + 1]
     new_regions = new_city["regions"]
-    ids = [None] * len(new_regions)
-    taken = set()
+    n = len(new_regions)
+    ids = [None] * n
+    split_from = {}
+    old_by_id = {r["id"]: r for r in old_regions}
+    taken = set()        # old ids carried to a new region
+    gone = set()         # old ids retired in this run
 
-    # 1. Same name: same district.
-    old_by_name = {}
-    for r in old_regions:
-        old_by_name.setdefault(_key(r["name"]), r)
-    for i, r in enumerate(new_regions):
-        o = old_by_name.get(_key(r["name"]))
-        if o is not None and o["id"] not in taken:
-            ids[i] = o["id"]
-            taken.add(o["id"])
+    def fresh():
+        v = next_id[0]
+        next_id[0] += 1
+        return v
 
     old_shapes = {r["id"]: _shape(r) for r in old_regions}
     new_shapes = [_shape(r) for r in new_regions]
 
-    # 2. Renamed or redrawn: an unmatched new region mostly the same area as an unmatched old one.
-    pairs = []
+    # 1. Splits: an old region with two or more new regions mostly inside it.
+    for o in old_regions:
+        oshape = old_shapes[o["id"]]
+        parts = [i for i in range(n)
+                 if ids[i] is None
+                 and _share(new_shapes[i], oshape) >= SPLIT_SHARE
+                 and (new_shapes[i].intersection(oshape).area / oshape.area if oshape.area > 0 else 0) >= PART_MIN_SHARE]
+        if len(parts) < 2:
+            continue
+        gone.add(o["id"])
+        retired.append({"id": o["id"], "mergedInto": None})
+        for i in parts:
+            ids[i] = fresh()
+            split_from[i] = o["id"]
+        log(f"    id {o['id']}: '{o['name']}' split into " +
+            ", ".join(f"{ids[i]} '{new_regions[i]['name']}'" for i in parts) + f"; {o['id']} retired")
+
+    # 2. Same name and overlapping: same district.
+    old_by_name = {}
+    for r in old_regions:
+        if r["id"] not in gone:
+            old_by_name.setdefault(_key(r["name"]), []).append(r)
     for i, r in enumerate(new_regions):
         if ids[i] is not None:
             continue
-        for o in old_regions:
+        for o in old_by_name.get(_key(r["name"]), []):
             if o["id"] in taken:
+                continue
+            a, b = _share(new_shapes[i], old_shapes[o["id"]]), _share(old_shapes[o["id"]], new_shapes[i])
+            if max(a, b) >= NAME_MIN_OVERLAP:
+                ids[i] = o["id"]
+                taken.add(o["id"])
+                break
+            log(f"    '{r['name']}': same name as {o['id']} but a different place; not the same district")
+
+    # 3. Renamed or redrawn: an unmatched new region mostly the same area as an unmatched old one.
+    pairs = []
+    for i in range(n):
+        if ids[i] is not None:
+            continue
+        for o in old_regions:
+            if o["id"] in taken or o["id"] in gone:
                 continue
             a, b = _share(new_shapes[i], old_shapes[o["id"]]), _share(old_shapes[o["id"]], new_shapes[i])
             if min(a, b) >= SAME_REGION_SHARE:
@@ -143,37 +185,23 @@ def carry_ids(old_city, new_city, stem, log=print):
             taken.add(o["id"])
             log(f"    id {o['id']}: '{o['name']}' is now '{new_regions[i]['name']}' (same area)")
 
-    # 3. New districts: a fresh id; a split-off part names the old district it came from.
-    split_from = {}
+    # 4. New districts: a fresh id.
     for i, r in enumerate(new_regions):
-        if ids[i] is not None:
-            continue
-        ids[i] = next_id
-        next_id += 1
-        best = max(old_regions, key=lambda o: _share(new_shapes[i], old_shapes[o["id"]]), default=None)
-        if best is not None and _share(new_shapes[i], old_shapes[best["id"]]) >= SPLIT_SHARE:
-            split_from[i] = best["id"]
-            log(f"    id {ids[i]}: new '{r['name']}', split from {best['id']} '{best['name']}'")
-        elif old_city is not None:
-            log(f"    id {ids[i]}: new '{r['name']}'")
+        if ids[i] is None:
+            ids[i] = fresh()
+            if old_city is not None:
+                log(f"    id {ids[i]}: new '{r['name']}'")
 
-    # 4. Old districts with no successor: retired, merged into the district now holding most of them.
+    # 5. Old districts with no successor: retired, merged into the district now holding most of them.
     for o in old_regions:
-        if o["id"] in taken:
+        if o["id"] in taken or o["id"] in gone:
             continue
-        shares = [(_share(old_shapes[o["id"]], new_shapes[i]), ids[i]) for i in range(len(new_regions))]
+        shares = [(_share(old_shapes[o["id"]], new_shapes[i]), ids[i]) for i in range(n)]
         share, into = max(shares, default=(0.0, None))
         merged = into if share >= MERGE_SHARE else None
         retired.append({"id": o["id"], "mergedInto": merged})
         log(f"    id {o['id']}: '{o['name']}' retired, " +
             (f"merged into {merged}" if merged is not None else "no successor (challenges on it end)"))
-    # A retired region merged into one that is itself gone now points at its successor.
-    succ = {t["id"]: t["mergedInto"] for t in retired}
-    for t in retired:
-        seen = set()
-        while t["mergedInto"] is not None and t["mergedInto"] in succ and t["mergedInto"] not in seen:
-            seen.add(t["mergedInto"])
-            t["mergedInto"] = succ[t["mergedInto"]]
 
     regions = []
     for i, r in enumerate(new_regions):
@@ -181,11 +209,12 @@ def carry_ids(old_city, new_city, stem, log=print):
         out.update({k: v for k, v in r.items() if k not in ("id", "splitFrom")})
         if i in split_from:
             out["splitFrom"] = split_from[i]
+        elif ids[i] in old_by_id and "splitFrom" in old_by_id[ids[i]]:
+            out["splitFrom"] = old_by_id[ids[i]]["splitFrom"]   # a carried region keeps its origin
         regions.append(out)
     city = {"id": (old_city or {}).get("id", stem)}
     city.update({k: v for k, v in new_city.items() if k not in ("id", "regions", "retired")})
     city["regions"] = regions
-    # Keep "regions" where the generator put it (before "source").
     ordered = {}
     for k in ["id"] + [k for k in new_city if k not in ("id", "retired")]:
         ordered[k] = city[k]

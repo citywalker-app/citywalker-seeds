@@ -97,6 +97,12 @@ def validate_region_ids(city, err):
     dupes = sorted({i for i in ids if ids.count(i) > 1 and i is not None}, key=str)
     if dupes:
         err(f"region ids used twice: {dupes}")
+    # Phones match their downloaded rows to the catalog by name, so two regions of one city
+    # with the same name can't be told apart there.
+    names = [" ".join(str(r.get("name", "")).casefold().split()) for r in city.get("regions", [])]
+    same = sorted({r.get("name") for r, k in zip(city.get("regions", []), names) if names.count(k) > 1})
+    if same:
+        err(f"region names used twice in this city: {same}")
 
     retired = city.get("retired", [])
     if not isinstance(retired, list):
@@ -108,8 +114,14 @@ def validate_region_ids(city, err):
             err(f"retired entries need a whole-number id and mergedInto (a region id or null), got {t!r}")
             continue
         retired_ids.append(t["id"])
-        if t["mergedInto"] is not None and t["mergedInto"] not in ids:
-            err(f"retired region {t['id']} is mergedInto {t['mergedInto']}, which is not a region of this city")
+    for t in retired:
+        if not isinstance(t, dict) or "mergedInto" not in t:
+            continue
+        # Into a current region, or into a retired one (apps follow the chain).
+        into = t["mergedInto"]
+        if into is not None and (into == t.get("id") or (into not in ids and into not in retired_ids)):
+            err(f"retired region {t.get('id')} is mergedInto {into!r}, which is not another region "
+                f"(current or retired) of this city")
     if len(set(retired_ids)) != len(retired_ids):
         err(f"retired ids listed twice: {sorted(retired_ids)}")
     reused = sorted(set(retired_ids) & set(i for i in ids if i is not None))
@@ -377,15 +389,24 @@ def check_published_ids(old_seeds, new_seeds):
         if new is None:
             problems.append(f"{label}: city id no longer in the catalog")
             continue
-        regions = {r["id"]: r["name"] for r in new["regions"] if "id" in r}
-        retired = {t["id"] for t in new.get("retired", [])}
+        regions = {r["id"]: r for r in new["regions"] if "id" in r}
+        retired = {t["id"]: t for t in new.get("retired", [])}
         for r in old["regions"]:
-            if "id" in r and r["id"] not in regions and r["id"] not in retired:
+            if "id" not in r:
+                continue
+            if r["id"] not in regions and r["id"] not in retired:
                 problems.append(f"{label}: region {r['id']} ({r['name']}) dropped without a "
                                 f"'retired' entry saying where it went")
+            elif r["id"] in regions and regions[r["id"]].get("splitFrom") != r.get("splitFrom"):
+                # Older challenges on the origin cover this part through splitFrom.
+                problems.append(f"{label}: region {r['id']} ({r['name']}) splitFrom changed from "
+                                f"{r.get('splitFrom')!r} to {regions[r['id']].get('splitFrom')!r}")
         for t in old.get("retired", []):
             if t["id"] not in retired:
                 problems.append(f"{label}: retired region {t['id']} no longer listed as retired")
+            elif retired[t["id"]].get("mergedInto") != t.get("mergedInto"):
+                problems.append(f"{label}: retired region {t['id']} mergedInto changed from "
+                                f"{t.get('mergedInto')!r} to {retired[t['id']].get('mergedInto')!r}")
     return problems
 
 
