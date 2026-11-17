@@ -1,9 +1,11 @@
 {
+  "id": "tokyo_jp",
   "name": "Tokyo",
   "countryCode": "JP",
   "aliases": ["東京都", "東京"],
   "regions": [
     {
+      "id": 1,
       "name": "Chiyoda",
       "osmId": 1761742,
       "adminLevel": null,
@@ -17,6 +19,7 @@
       "encodedPolyline": "kvxxEi`zsYjUgIhEeE~E}AhBgGEqKdM_DnQuIxLkXfA{J`AJl@gFhDgHiGuJzCoM_B{@\\yBpJqc@cV_LkEiSiVqQJo@eAo@MbAs^kSaGuAAq@sESsG`CuMjN}Pgu@oDmLkDkFfAeAkJmN}AQWxFqE]V{DaH_@i@xOmMoAwAd^yDOm@bMqEy@KdCmLs@k@tSnHR@vAnARCbGjCY\\hHm@RnDdA`ByCv@DdBwIpEdA_CnEzAp@]`Bx@TqCpQqE`Gq@lDGbWiG`s@ElM|BzK[|@zCbD`AkCvFfD@vArh@p_@nTz`@xFxElPxD|Dp@"
     },
     {
+      "id": 2,
       "name": "Chuo",
       "osmId": 1758897,
       "adminLevel": null,
@@ -30,6 +33,7 @@
       "encodedPolyline": "}ouxE_r_tYrAmAtFiShH{DjHIjZxTxBb@~Tgg@bl@rJjq@mXkvA_fC}zApI{WlHiXuFcOyHgXuSiH}AwD`@oJbEqIhJaKbF_H`AeKc@iJpe@tAFWzDpE\\VyF|APjJlNgAdAjDjFnDlL|Pfu@tMkNrGaCrER@p@`GtAr^jSLcAdAn@Kn@hVpQjEhSjUxKVD"
     },
     {
+      "id": 3,
       "name": "Minato",
       "osmId": 1761717,
       "adminLevel": null,
@@ -43,6 +47,7 @@
       "encodedPolyline": "cttxEszusYdFgIxLiJvEcJtErBNxCpGkK`DyScC}@fG_W{BoDhNzFfGu@n@dABuB`[}B~EyEnCxCfB@IbArDNdB~Ir@HZ{AdLlLrA_@dBrI`C[XtEn@w@|IfAG_CjJ{BhC~BXk@b@`@fAyA{Ac@QmGdE}AkCcIuAk@NcBeBQhE{WhCsBnFxA|EiBHyBeGoBj@eCrE`BpB_De@aApHyIzJoAjAVB`BjBk@~Aj@`CuEbAv@l@s@o@{Ay@PEmHjQmHa@}IgABUmF}Fj@~C_H_EcXvIaDr@oLkL{\\IkH|EJ\\cDo@gYoTZEyJ?sh@hBJu@gCnE_LhQeN}KoPq]uv@gk@zc@kOjv@kq@lXcl@sJ_Ufg@yBc@kZyTuFG}HjDwGjTmAr@uKdh@~Az@{CnMhGtJiDfHm@fFaAKgAzJyMhY_RlIuKhCa@`QqMnIf@nFsG|C[tJ`QpIrEjMgBvGbArG_A`Cz@dCw@r@tCF_@rBdSkChGpF|CzM|CsAv@h@_DfIdOfDnCyEpAhCe@~ArTdRUbAnIzHh@d@"
     },
     {
+      "id": 4,
       "name": "Shinjuku",
       "osmId": 1758858,
       "adminLevel": null,
@@ -56,6 +61,7 @@
       "encodedPolyline": "{n_yE}|nsYlAeB|CbAwBoJ_ECnAgANiFtGkHFuBjFYzB_BbChArDCvB{CoAcALqB~AJUmEvAzCrALEoE`MnKt@{IxCeEkF}a@UcJdBJz@oEkBwAxAeEuBa@Z{HlGjFxA~FjM~T~NxCrHZfGYlIgDnDJ`^dQzGrJzAg@IsCdAr@hAaCpPtInFmDcAuI~FT^|D|AQzMqE~IcIw]yk@uKs]f@cA{@VqBcNjEh@HwBhAq@]gMj@}AhI}FrHg@xAgMhDkKjIgNxD}ClZbJbKB_BmLtCkAn@^hCoF}C{MiGqFeSjC^sBuCGv@s@{@eC~@aCcAsGfBwGwCqJuBiCkOeH^qJrG}CaAcEkUfIkVkFyFyEoT{`@sh@q_@AwAwFgDaAjC{CcDKmCq^vIuBbCsE`l@xEn@]lE`Bh@|@zHwBbFaGk@\\vRc@zAcBBg@|FtAr@QlAbBa@A`Ac@vBiALYbHyCbBu@YoBbGsCkAu@xJm@{@I|@lBv@AlAqBK[|@jB|@CpD_BhIuAp@o@vCfBp@BhDqIzOr@lDbExCgAnDlAbT{@b@O`CWoBwAf@{@tGsIoBZqCyAPVs@sE`@iDy@wHvFsAcA}@\\JoAgCkCsCnHqBmAkBlMa@lNlCnAbCrHH|LqCzd@V``@uEb@b@rFsApATjA{Br@IeAuPvEuNlZtLJpJfEtIpApJ}AvDT?bF~Dl@e@~CtDr@F@"
     },
     {
+      "id": 5,
       "name": "Shibuya",
       "osmId": 1759477,
       "adminLevel": null,
@@ -69,6 +75,7 @@
       "encodedPolyline": "guvxEsrlsYxDwAvBdAlH[ZqNeA}Zn@y@gCwW~MdAjPoClPoHh@e^xD}O@cIfHySjBuBrDuAVh@xFeDn^c[lK{Lb@j@tCuBX_DtJeMt@r@rA}Dz@|@l@qCx@BvBuIjPmXQqAvBOhGeMxBeHiBk@_AsKhCoE_BwBR{DkEs@hGyGn@yN_McL[zAs@IeB_JsDOHcAgBAoCyC_FxEa[|BCtBo@eAgGt@iN{FzBnDgG~VbC|@aDxSqGjKOyCuEsBwEbJyLhJeFfIyJaJTcAsTeRd@_BqAiCoCxEeOgD~CgIw@i@}CrAiCnFo@_@uCjA~AlLcKCmZcJyD|CkIfNiDjKyAfMsHf@uJzI\\fMiAp@IvBkEi@pBbNz@Wg@bAtKr]v]xk@_JbI{MpE}AP_@}D_GUbAtIoFlDqPuIiA`CeAs@J~DbNtRfKpJnHxL|NdLjBpE~HzI|HvWxPjLvGlThDv@j@j@"
     },
     {
+      "id": 6,
       "name": "Taito",
       "osmId": 1758888,
       "adminLevel": null,
@@ -82,6 +89,7 @@
       "encodedPolyline": "oyayEei`tYvKaIbK_EfOjCnB]~NlDv[_[xHiDPpEgFvDz@~CkEpE|@`BjAs@JwBtEaCnL|@tAmHhB_C|E^`@zCr@yFjC?IbHTi@pDPf@qA?rBdBy@Hx@eBo]hDOCsDbF\\c@zLfLVj@uSlLr@JeCpEx@l@cMxDNvAe^lMnAh@yOjEVhJqe@}g@e]ac@{P}JyG{w@gy@uc@wKeXwAcFhs@p@bf@oDP@tCmBHGtEz@~AaA`A{AOwA~DrPlLfClHh@tX|DrC\\nC~DZp@lDdB??rCqBzWwFfNrBzBHhBkDjCeGrM`DxOiA`HgJb@yCdBmGrP@@"
     },
     {
+      "id": 7,
       "name": "Sumida",
       "osmId": 1758891,
       "adminLevel": null,
@@ -95,6 +103,7 @@
       "encodedPolyline": "igzxEonetY~GaAvL{GeFmL}@l@IsEnBGW_H`BIY{GpGw@qGaQbJiEi@wXhI]o@m\\iIZe@mMqSfAUcK}CLgAag@g{AhEzX{`AzDaICoZ]s@iGpEyEo@gPsQsFeKgBk@gEpCsDjPoE|IiHnF_GZoEyByDmF{@wF^sE~E}J{LwUueBdlBkq@t^|B~I|@~BrNnLzB~FdKw@bEr@pRpPlRbIff@hCtc@vKzw@fy@|JxG`c@zPhd@t[pH`AfEP"
     },
     {
+      "id": 8,
       "name": "Bunkyo",
       "osmId": 1758878,
       "adminLevel": null,
@@ -108,6 +117,7 @@
       "encodedPolyline": "io~xEqowsY|D_RnEgJ~@aArCjAnBcGt@XxCcBXcHhAMb@wB@aAcB`@PmAuAs@f@}FbBCb@{A]wR`Gj@vBcF}@{HaBi@\\mEyEo@jFym@na@cLuAkIDmMhGas@N_YzFsJpCqQy@U\\aB{Aq@~BoEqEeAeBvIw@EaBxCoDeAl@S]iHkCXBcGoASAwAwUk@b@{LaE_@]tDiDNdBn]Iy@eBx@?sBg@pAqDQUh@HcHkC?s@xFa@{C}E_@iB~BuAlHoL}@uE`CKvBkAr@}@aBjEqE{@_DfFwDQqEyHhDw[~Z_OmDoB\\gOkCeLvEsO`NfCnF}D|GiOzd@pDvMtA_A|A~@`ClGq@S?`B_A_BeAnBr@n@}E~C}@aAyAhBf@jAuCxHbGfKSx@dFnCnA}DzA_@rHnLpAuAhBzD_JfKbHzMbA_AxDvF`FeGnBaAf@hAbBeC|C~KjDsCv@fBeAv@TlEeAt@~A`C{@bA\\x@lAg@ZnCpAk@ZzAs@`D{JvF`@tAXg@tAbAqHrQnBd@y@rBr@f@WlCt@Ax@eCHbEzBGnAzI`PmBt@aBtIiChB_Ch@j@}AdCz@pE`D`AxBdS`Dv@wAfEvBjBpAm@hK|BhAL"
     },
     {
+      "id": 9,
       "name": "Toshima",
       "osmId": 1759506,
       "adminLevel": null,

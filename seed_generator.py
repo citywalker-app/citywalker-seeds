@@ -625,8 +625,12 @@ def write_preview(city_name, country_code, regions, original_count, slug=None):
 <div id="legend"></div>
 <script>
 var map = L.map('map', {{zoomControl: true}});
-L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+// Esri basemap, not tile.openstreetmap.org: previews are opened via file://,
+// which sends no Referer, and OSM's tile policy blocks Referer-less requests.
+// (CARTO needs an API key; OSM France / OpenTopoMap are volunteer-run too.)
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{{z}}/{{y}}/{{x}}', {{
+  maxZoom: 19,
+  attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>'
 }}).addTo(map);
 
 var data = {geojson};
@@ -934,8 +938,13 @@ def main():
     # ── 7. Write cities/<slug>.json, bump VERSION, rebuild ───────────────
     CITIES_DIR.mkdir(exist_ok=True)
     city_path = CITIES_DIR / f"{slugify(args.city, args.country, args.slug)}.json"
+    old_city = None
     if city_path.exists():
-        print(f"\n📝  Replacing existing {city_path.name}…")
+        print(f"\n📝  Replacing existing {city_path.name}… (ids carried over)")
+        old_city = json.loads(city_path.read_text())
+    # Permanent ids: challenges find their districts by them (see assign_ids.py).
+    from assign_ids import carry_ids
+    city_entry = carry_ids(old_city, city_entry, city_path.stem)
     city_path.write_text(json.dumps(city_entry, indent=2, ensure_ascii=False) + "\n")
 
     version = int(VERSION_PATH.read_text().strip()) + 1

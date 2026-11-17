@@ -1,4 +1,5 @@
 {
+  "id": "delhi_in",
   "name": "Delhi",
   "countryCode": "IN",
   "centerLat": 28.56345,
@@ -6,6 +7,7 @@
   "radiusKm": 10.53,
   "regions": [
     {
+      "id": 1,
       "name": "Chanakya Puri Tehsil",
       "osmId": 10701234,
       "adminLevel": 6,
@@ -19,6 +21,7 @@
       "encodedPolyline": "gpsmD_vovMtAt\\|@zDj@bC_@pCG`@MtGy@~a@qz@cCuIoAYDqDf@}Bo@sRjc@g`@~cAcDfE_I|FkClBu[pLv@nEd`@xZir@rvAKTcC`HgAjBbDdCxCLdEnArQpLfG|BrF|ExR|PXfALjBJhBr@vLnMvH`QhOtBhBzJvInC`CfJ_LzN`QbIfG`NdAlOpGhPRhPlMnMtGtQjH~IwJ~_@fUrg@c]rJ_GnFaGtEcN~AgEd@{AjI}WnE_YbCeOlAaXlBsi@qB^Cg@{IfCm_@nHkEaAtBeJbIiNcBs_@OkZgHa@w@eJqEys@{Cof@kEc^oBk^u`@gCgv@bBmKEuAqH]qA`OoLyEwLaBkHsAsLuAq_@oUrD"
     },
     {
+      "id": 2,
       "name": "Delhi Cantonment",
       "osmId": 3492183,
       "adminLevel": 6,
@@ -32,6 +35,7 @@
       "encodedPolyline": "yskmDwm|uMt{B|lA~FgQba@|Ap]@b@DdBJ_FbKq@xFhChCrAiAfBnAgBrDjC`ByAj@]LzAxAf@r@Td@rB`Ad@Rz@nAT\\FV`@bBzA^eDlNeFnPih@yOU~GeCYoD_@qQ{AgDQgAv@{@rAmAxG}QwEGAgLyBMJWpBKt@yB|QoApLkA|JIC]hCAz@YGU|AyAxJn@Lq@~Du@Y_J_HwEp@kf@nGVva@kRlb@oFtRvNp[q@rGlApDM`e@CdFaAnQcA`LuAAGnFdC|@uJlRmqAidAyTwRkb@}\\yxD}`D{LqKrOwQ`GfFfIcRZi@vAf@v@_BhAZyBtGdJpEtCoRV_CpABHKAMGWgAwBVk@[YNYb@PbC}BfAyBB[LA?o@mEBWMo@RUbAAVWLY_Ab@{@o@uAa@\\UKHc@NO\\Yy@Uv@Yn@@zBa@bDf@FONBHWOEF[PDHYl@{BeH{DqIeHeFkAkBc@sFCcKzAuARe@a@mA`@a@c@{AmB|@iDhAFhHjAlCeAfC}AlEqKcE{CyMwBb@qJxF_CkEqI|KgJtAWnAy@p@fAxEmDd@k@fCuCnIcFli@aLhSy@nKiDvQwLvBsJbE}Qu@oCDuCpEmE~PhIbFbCaAnCcBvE~IrOfKgDfB`GpByBvTls@zAa@\\B`AUxTsJjCwB~CgDr@y@dGwKvQjJvHx@~C~AvGxFFzD`Bp@T^|NbG"
     },
     {
+      "id": 3,
       "name": "Vasant Vihar Tehsil",
       "osmId": 10701233,
       "adminLevel": 6,

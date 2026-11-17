@@ -1,4 +1,5 @@
 {
+  "id": "maastricht_nl",
   "name": "Maastricht",
   "countryCode": "NL",
   "centerLat": 50.857904,
@@ -6,6 +7,7 @@
   "radiusKm": 6.12,
   "regions": [
     {
+      "id": 1,
       "name": "Centrum",
       "osmId": null,
       "adminLevel": null,
@@ -20,6 +22,7 @@
       "outlineUpdatedAt": "2026-10-05T04:02:19Z"
     },
     {
+      "id": 2,
       "name": "Noordoost",
       "osmId": null,
       "adminLevel": null,
@@ -33,6 +36,7 @@
       "encodedPolyline": "qhtuHwa|a@BE`@y@DGRNJHJH`Ap@lA~@fAv@VJbAt@jA|@^XPu@n@oCr@}Cn@mCh@aC?AHYBHLG??JMHOJWTg@h@oBH]@EP_@T[d@_@p@aB`@Jn@LL@FAPILGVQHGZ@L@F?DC@?TGBAHC@AJE^Ql@UNIBAXKJEDCDADFBCLEXOPIDEDCJMJMHQJSN]HSVk@Xq@Tk@FOHJPR@B@?LN?@HFFFB@HBFBHBN@L@D?J?FANAPCDGHGNIFENGPGNGVMPIVKTKRKRIBAF@D?LBHBPHTHLDNDVJ`@NRFTFLBTFRBRBHAJ?JAHEJEHEJEFCHAD@DD?C?c@Oa@t@SdEDnAC~Au@TETCB?ZIJEPCLELEPGRIRGRG?QM}FZeEdBwSBW?A@K@KBB@BvBzDHWj@aBf@uAaAeI??R}@pAsFRq@@IBKLg@pA^??H@b@NFLRRLJp@Vr@\\PFf@F^Fb@Dh@@GLA@?@MPBFt@KhBh@??JBJDRErB`JpC~LzAvGdAnELl@`@|A`@bBBHV`AZdA^nAf@`Bf@zA\\bAL\\N`@N`@JXN^LZHRPb@P^Pb@JTLXP`@N\\R`@Vh@Rb@h@dATb@Zj@Vd@Xf@Xh@Xd@Zd@V`@V`@Zf@X`@X`@X^V^`@h@Z`@tAbBnBvBpBpBnBlB`@\\wD~MI\\Sz@_@~AGZADMh@On@a@`Bc@jBWdAYnAo@rC{@nDa@dBEPIZIb@GVGXGXGZgChLINGNENEPGTEPEPEPGPELETENGTCRENGRENCJGLSZaApOjCl@bi@~KsXfY_ZnhAsH~I}V`I?@@b@a@JyD~@wDJuDk@sDoB}C_BaDuBeDmBmDwBiD}B}BuEkCiDuCiDuBqEgBwEMk@kAgFcBeF{AeGuBwEk@m@sBqBgDoB{CoCeAw@{AiA_DeCkDeB}DGgDsBsDk@{BKeAEwDvAoDQuDr@ED_DvCcEoByDPsDw@mDiDeCoDyBqFm@iHiAwFeAsFm@aHKwH\\eHr@qGjBaGtCmErBiDrBgF`CwEDa@d@Nt@qE??DY?AJi@??Hk@f@kD?GB@??B@??B@D@??@@??@FHv@?@?HBp@??@n@???J?B?@?D??AfA?????F?BC`A?DA|@?J?H?D@B@DBBB?B?BADCBCBCDA??BAD?B?DFBB@DMp@Mp@n@VVLJe@@IBM??@IJn@@??D?J??ATANBh@@\\HVL`@DFTZJJVTNN^PZNDDFFHFHBJDJFHDVJPBh@J@??A??BCXCB@@B????D@N?B?VCTATMDCHIH?JGROJAJCDADDDBJ?DABCHFNFRF^JZLHBLBNDD?^K\\ITENCLKXSDEFGHETKPGJa@Lg@D]D]De@BYD]Jo@Bq@ZeARgAZw@He@JWTa@BEVq@JWf@iBHWJQR[LOPa@HQBEf@gBd@w@??BEBG`@s@??DGP[DG^kA"
     },
     {
+      "id": 3,
       "name": "Noordwest",
       "osmId": null,
       "adminLevel": null,
@@ -47,6 +51,7 @@
       "outlineUpdatedAt": "2026-10-05T04:02:19Z"
     },
     {
+      "id": 4,
       "name": "Oost",
       "osmId": null,
       "adminLevel": null,
@@ -61,6 +66,7 @@
       "outlineUpdatedAt": "2026-10-05T04:02:19Z"
     },
     {
+      "id": 5,
       "name": "West",
       "osmId": null,
       "adminLevel": null,
@@ -75,6 +81,7 @@
       "outlineUpdatedAt": "2026-10-05T04:02:19Z"
     },
     {
+      "id": 6,
       "name": "Zuidoost",
       "osmId": null,
       "adminLevel": null,
@@ -89,6 +96,7 @@
       "outlineUpdatedAt": "2026-10-05T04:02:19Z"
     },
     {
+      "id": 7,
       "name": "Zuidwest",
       "osmId": null,
       "adminLevel": null,

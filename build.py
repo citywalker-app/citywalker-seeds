@@ -9,8 +9,15 @@ adding or editing a city file:
   python3 build.py            # validate + write region_seeds.json
   python3 build.py --check    # validate + verify region_seeds.json is in sync (CI)
 
+Every city has a permanent "id" (its file name when first assigned) and every
+region a permanent whole-number "id", unique within its city and never reused
+(assign_ids.py gives new ones). Challenges find their area by these ids, so a
+rebuild may not change or drop a published id: a region that goes away moves to
+the city's "retired" list with "mergedInto" (the region that took it over, or
+null), and a region split off another names it in "splitFrom".
+
 A rebuild may not drop a city or region name the current region_seeds.json
-already has: the apps match challenges (Complete a City Together) to regions
+already has either (apps before the ids match by name): the apps match challenges (Complete a City Together) to regions
 by name, so a renamed or removed region makes every challenge on it
 uncompletable. Pass --allow-removed-regions to drop names on purpose. With
 --check (CI) the names are compared with region_seeds.json at --published-ref
@@ -24,6 +31,7 @@ small.
 import argparse
 import json
 import math
+import re
 import subprocess
 import sys
 from collections import Counter
@@ -54,9 +62,10 @@ CIRCLE_TOLERANCE_KM = 0.01
 # 1e-5 degrees on each side, so slivers under a hectare are let through.
 OUTLINE_OVERLAP_MAX_KM2 = 0.01
 
-REQUIRED_CITY_KEYS   = {"name", "countryCode", "centerLat", "centerLng", "radiusKm",
+REQUIRED_CITY_KEYS   = {"id", "name", "countryCode", "centerLat", "centerLng", "radiusKm",
                         "regions", "source"}
-REQUIRED_REGION_KEYS = {"name", "boundingBox", "encodedPolyline"}
+REQUIRED_REGION_KEYS = {"id", "name", "boundingBox", "encodedPolyline"}
+CITY_ID_PATTERN      = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 REQUIRED_SOURCE_KEYS = {"method", "license", "attribution"}
 SOURCE_METHODS       = {"osm", "geojson", "shapefile", "manual"}
 
@@ -73,6 +82,46 @@ def bbox_ring(bb):
     """The corners of a region's bounding box as (lat, lng) points."""
     return [(bb["minLat"], bb["minLng"]), (bb["minLat"], bb["maxLng"]),
             (bb["maxLat"], bb["maxLng"]), (bb["maxLat"], bb["minLng"])]
+
+
+def is_region_id(v):
+    return isinstance(v, int) and not isinstance(v, bool) and v >= 1
+
+
+def validate_region_ids(city, err):
+    """Region ids: whole numbers, unique within the city, never reused; retired and splitFrom consistent."""
+    ids = [r.get("id") for r in city.get("regions", [])]
+    for r in city.get("regions", []):
+        if "id" in r and not is_region_id(r["id"]):
+            err(f"region '{r.get('name')}' id must be a whole number from 1, got {r['id']!r}")
+    dupes = sorted({i for i in ids if ids.count(i) > 1 and i is not None}, key=str)
+    if dupes:
+        err(f"region ids used twice: {dupes}")
+
+    retired = city.get("retired", [])
+    if not isinstance(retired, list):
+        err("retired must be a list")
+        retired = []
+    retired_ids = []
+    for t in retired:
+        if not (isinstance(t, dict) and is_region_id(t.get("id")) and "mergedInto" in t):
+            err(f"retired entries need a whole-number id and mergedInto (a region id or null), got {t!r}")
+            continue
+        retired_ids.append(t["id"])
+        if t["mergedInto"] is not None and t["mergedInto"] not in ids:
+            err(f"retired region {t['id']} is mergedInto {t['mergedInto']}, which is not a region of this city")
+    if len(set(retired_ids)) != len(retired_ids):
+        err(f"retired ids listed twice: {sorted(retired_ids)}")
+    reused = sorted(set(retired_ids) & set(i for i in ids if i is not None))
+    if reused:
+        err(f"retired region ids reused by current regions (ids are never reused): {reused}")
+
+    for r in city.get("regions", []):
+        if "splitFrom" not in r:
+            continue
+        src = r["splitFrom"]
+        if not is_region_id(src) or src == r.get("id") or (src not in ids and src not in retired_ids):
+            err(f"region '{r.get('name')}' splitFrom {src!r} is not another region (current or retired) of this city")
 
 
 def validate_city(path, city, errors):
@@ -100,6 +149,10 @@ def validate_city(path, city, errors):
         err(f"centerLat/centerLng/radiusKm must be numbers, got {center!r}")
         center = None
     worst_outside = None  # (km past the circle, region name)
+
+    if not (isinstance(city["id"], str) and CITY_ID_PATTERN.match(city["id"])):
+        err(f"id must be lowercase letters, digits, '_' or '-', got {city['id']!r}")
+    validate_region_ids(city, err)
 
     regions = city["regions"]
     if not regions:
@@ -260,6 +313,10 @@ def build():
     dupes = {n for n in names if names.count(n) > 1}
     if dupes:
         sys.exit(f"❌  Duplicate city entries: {sorted(dupes)}")
+    ids = [c["id"] for c in cities]
+    dupes = {i for i in ids if ids.count(i) > 1}
+    if dupes:
+        sys.exit(f"❌  City ids used twice: {sorted(dupes)}")
 
     return {"version": version, "cities": cities}
 
@@ -301,6 +358,35 @@ def check_published_names(old_seeds, new_seeds):
         if extra:
             added.append(f"{label}: new regions {names_list(extra)}")
     return removed, added
+
+
+def check_published_ids(old_seeds, new_seeds):
+    """
+    Ids in [old_seeds] that [new_seeds] changes or drops, as printable lines. A published
+    region id must stay a region or move to its city's "retired" list; a retired id must
+    stay retired; a city id must stay. Cities or regions published before they had ids are
+    skipped (the first build with ids has nothing to compare).
+    """
+    new_by_id = {c["id"]: c for c in new_seeds["cities"] if "id" in c}
+    problems = []
+    for old in old_seeds["cities"]:
+        if "id" not in old:
+            continue
+        label = f"{old['name']} ({old.get('countryCode')}) [{old['id']}]"
+        new = new_by_id.get(old["id"])
+        if new is None:
+            problems.append(f"{label}: city id no longer in the catalog")
+            continue
+        regions = {r["id"]: r["name"] for r in new["regions"] if "id" in r}
+        retired = {t["id"] for t in new.get("retired", [])}
+        for r in old["regions"]:
+            if "id" in r and r["id"] not in regions and r["id"] not in retired:
+                problems.append(f"{label}: region {r['id']} ({r['name']}) dropped without a "
+                                f"'retired' entry saying where it went")
+        for t in old.get("retired", []):
+            if t["id"] not in retired:
+                problems.append(f"{label}: retired region {t['id']} no longer listed as retired")
+    return problems
 
 
 def load_published(ref):
@@ -346,6 +432,14 @@ def main():
                      f"    names can't be checked. Fix that, or rerun with --allow-removed-regions.")
         print(f"⚠️   Not checking for dropped names: can't read {source}")
     else:
+        id_problems = check_published_ids(published, seeds)
+        if id_problems:
+            print(f"❌  This build changes ids that {source} has:")
+            for line in id_problems:
+                print(f"    {line}")
+            sys.exit("    Challenges find their area by these ids. A region that goes away moves to\n"
+                     "    the city's 'retired' list (with mergedInto); a split-off part names its\n"
+                     "    origin in 'splitFrom'. Ids never change.")
         removed, added = check_published_names(published, seeds)
         for line in added:
             print(f"⚠️   {line}: whole-city challenges on it now have more streets to walk")

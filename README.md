@@ -73,17 +73,23 @@ Each file in `cities/` looks like this:
 
 ```jsonc
 {
+  "id": "mainz_de",              // permanent: the file name when first assigned
   "name": "Mainz",
   "countryCode": "DE",
   "regions": [
     {
+      "id": 1,                   // permanent whole number, unique in the city, never reused
       "name": "Altstadt",
       "osmId": 12345,            // null for clustered or non-OSM regions
       "adminLevel": 9,           // null for clustered or non-OSM regions
       "isPointFallback": false,
       "boundingBox": { "minLat": 49.98, "maxLat": 50.01, "minLng": 8.26, "maxLng": 8.29 },
       "encodedPolyline": "..."   // Google encoded polyline of the region outline
+      // "splitFrom": 3          // on a part split off region 3 in a reseed
     }
+  ],
+  "retired": [                   // only when a region went away; omitted otherwise
+    { "id": 4, "mergedInto": 1 } // mergedInto: the region that took it over, or null
   ],
   "source": {
     "method": "osm",             // osm | geojson | shapefile | manual
@@ -92,6 +98,15 @@ Each file in `cities/` looks like this:
   }
 }
 ```
+
+### Ids
+
+Challenges (Complete a City Together) find their area by the city `id` and a region
+`id`, so ids never change: a renamed region keeps its id, a region that goes away moves
+to `retired`, a split-off part names its origin in `splitFrom`, and an id is never
+reused. `seed_generator.py` assigns them (a reseed carries the old ones over by name,
+then by area, and prints what it decided), `assign_ids.py` adds missing ones to files
+edited by hand, and `build.py` refuses a build that changes or drops a published id.
 
 `build.py` validates every file (schema, polyline decodes, bounding box matches the polygon) and assembles `region_seeds.json`, stripping the `source` block to keep the app download small. The catalog version in [`VERSION`](VERSION) is bumped automatically by the generator; the app uses it to detect updates.
 

@@ -1,4 +1,5 @@
 {
+  "id": "aigaleo_gr",
   "name": "Aigaleo",
   "countryCode": "GR",
   "centerLat": 37.990045969879525,
@@ -12,6 +13,7 @@
   ],
   "regions": [
     {
+      "id": 1,
       "name": "Aigaleo",
       "osmId": 1394279,
       "adminLevel": 7,

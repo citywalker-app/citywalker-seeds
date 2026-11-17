@@ -1,4 +1,5 @@
 {
+  "id": "xaxim_br",
   "name": "Xaxim",
   "countryCode": "BR",
   "centerLat": -26.95689,
@@ -6,6 +7,7 @@
   "radiusKm": 3.63,
   "regions": [
     {
+      "id": 1,
       "name": "Alvorada",
       "osmId": 14534393,
       "adminLevel": 10,
@@ -19,6 +21,7 @@
       "encodedPolyline": "~hocD`kt_ItT_MEGaEwJtD{ByAcDpGsDRKtAy@dEaCkBmEtGsDDEuHoQIKEKO]a@}@]u@{@qBcAh@k@DKDaDfBk@GeDpBoAp@cChAUOaBq@k@XoKwEEx@aAzBsH~Es@nAYxADpBb@pAhDvInEbXj@pC|AfEtCzErCtC"
     },
     {
+      "id": 2,
       "name": "Ari Lunardi",
       "osmId": 14534388,
       "adminLevel": 10,
@@ -32,6 +35,7 @@
       "encodedPolyline": "b_pcDlfu_IF\\`LrJ`DnCr@n@hPnNzBtDpDhJdAe@RkCbAsDzAHDuHEqEhCLCiGoAG|BkE|BqExAJCyBCcCmCWMWGDaLqXmHbEcDhBiEdCkEdCiDpBuDvBaEtBeCvA"
     },
     {
+      "id": 3,
       "name": "Bela Vista",
       "osmId": 14526856,
       "adminLevel": 10,
@@ -45,6 +49,7 @@
       "encodedPolyline": "jlpcD`lq_I_ANqMcRs@mCSw@Oe@a@cBgCrASmAKJg@`@qCbISzBMn@[f@eYkWeEdIzP`_@HhBGdAnKvEj@Y`Bp@TNbCiAnAq@dDqBj@F`DgBJEj@EbAi@`Ag@l@]rAs@dBeAg@oA"
     },
     {
+      "id": 4,
       "name": "Centro",
       "osmId": 14534387,
       "adminLevel": 10,
@@ -58,6 +63,7 @@
       "encodedPolyline": "fpqcDjft_ISNmHbEcDhBiEdCCIcBgEyBaFkBeEyDxByDxB{D}ICIEGaEwJtD{ByAcDpGsDRKtAy@dEaCkBmEtGsDDEDClDqBLIzDuBFCnBlEDCpDsBNIrDwBDCvIhS`CvFkBtAiAp@GDnB|ElBnEEBsDrBQHoDtBGBjBtEEBgDbB"
     },
     {
+      "id": 5,
       "name": "Chagas",
       "osmId": 14534392,
       "adminLevel": 10,
@@ -71,6 +77,7 @@
       "encodedPolyline": "n~ncDjao_IgHtM|BX`JdEbDpB`Ax@z@bAb@|@~@pFnBgAyAeHoB{EwFeK}AsBmCqC"
     },
     {
+      "id": 6,
       "name": "Distrito Industrial Sérgio Davi",
       "osmId": 14534389,
       "adminLevel": 10,
@@ -84,6 +91,7 @@
       "encodedPolyline": "|uqcDzhw_IpE}BpA_@xCe@FqBro@tA_@rSsPa@_Dr@}Ok@oBkEu@?Q|DuDHEdA[B@zDAtC[f@_GeA|BmEX}BE{BmDkI"
     },
     {
+      "id": 7,
       "name": "Flor",
       "osmId": 14534396,
       "adminLevel": 10,
@@ -97,6 +105,7 @@
       "encodedPolyline": "pjscDrnp_Ix@rD`CtOoGzCjBrMmH`BcD`Bu@tBkE`Hk@yBk@_BeA}CiAyCu@cB[V_@Zw@l@yAwDMLqJaWaBv@sCcIfLqEd@mAhAe@`Bg@hBm@tLDVi@pDjArBuCzB`@XDpAPXRZhBf@fC"
     },
     {
+      "id": 8,
       "name": "Frei Bruno",
       "osmId": 14534386,
       "adminLevel": 10,
@@ -110,6 +119,7 @@
       "encodedPolyline": "~hocD`kt_ItT_MBHzD|IxDyBxDyBjBdExB`FbBfEBHkEdCiDpBuDvBaEtBeCvAE?CAmFmD_CyCuGsKu@mC"
     },
     {
+      "id": 9,
       "name": "Germânico",
       "osmId": 14534394,
       "adminLevel": 10,
@@ -123,6 +133,7 @@
       "encodedPolyline": "zarcDhur_Ih@hAbBy@pAF|@w@dEsDtBkBk@yBk@_BeA}CiAyCu@cB[V_@Zw@l@yAwDML[PkBfA_M|GkAr@oAr@GDb@`AvIhSDEHG~FeD"
     },
     {
+      "id": 10,
       "name": "Guarany",
       "osmId": 14534391,
       "adminLevel": 10,
@@ -136,6 +147,7 @@
       "encodedPolyline": "~prcDtnr_IeErD}@v@qAGcBx@i@iA_GdDIFED`CvFkBtAiAp@GDnB|ElBnEEBsDrBQHoDtBGBjBtEEBgDbBSN`LpXFExDqBNKrDoBNIlBcAdAo@NGzDyBd@CNEHClAk@Os@xA]RI|BoAz@e@x@g@RK|A}@~@k@t@a@j@g@Z`BdJ}FBwA}XwQaAmAkF{Lg@oBqBiC"
     },
     {
+      "id": 11,
       "name": "Primavera",
       "osmId": 14534395,
       "adminLevel": 10,
@@ -149,6 +161,7 @@
       "encodedPolyline": "v}pcD`sp_I~Fd@zJTrCbI`Bw@pJ`W[PkBfA_M|GkAr@oAr@GDb@`AEBsDvBOHqDrBEBoBmEGB{DtBMHmDpBEBuHoQIKEKO]a@}@]u@{@qB`Ag@l@]rAs@dBeAg@oAg@cC|KgGsByFfEoC`BI"
     },
     {
+      "id": 12,
       "name": "Santa Terezinha",
       "osmId": 14534390,
       "adminLevel": 10,
@@ -162,6 +175,7 @@
       "encodedPolyline": "||qcDf`u_IxDqBNKrDoBNIlBcAdAo@NGzDyBd@CNEHClAk@Os@xA]RI|BoAz@e@x@g@RK|A}@~@k@LFKlUyD~BnJlEKvTu@E}HSkJYPsE_CIuG[i@BwBIwBKaGO|BqExAJCyBCcCmCWMW"
     },
     {
+      "id": 13,
       "name": "Vila Diadema",
       "osmId": 14534397,
       "adminLevel": 10,

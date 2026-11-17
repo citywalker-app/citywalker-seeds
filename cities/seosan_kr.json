@@ -1,4 +1,5 @@
 {
+  "id": "seosan_kr",
   "name": "Seosan",
   "countryCode": "KR",
   "aliases": [
@@ -10,6 +11,7 @@
   "radiusKm": 25.76,
   "regions": [
     {
+      "id": 1,
       "name": "Buchun-dong (부춘동)",
       "osmId": null,
       "adminLevel": null,
@@ -23,6 +25,7 @@
       "encodedPolyline": "ojr_FstybW`G`DvWfKlLlM~AdHFRVL\\HLBbZ}BbN}B`DaA~Gd@lc@}H|C{@z@`LPnOPvWsCjJAXI|A?`@FxJcCfA}AvAeAlGuGnPuBjEm@LwA?cF{AyFgDs@PyPnQCHk@|BFvEf@fK~@d@`GfFhK~Qh@bFSxB_m@r[qEg@mIt@oCvC_BhCy@vCcCbSoAbBkGd@}N`Sw@KaN{CoAg@e@g@eJuPi@cCI_Ri@sAqDwDyE{AiEsAgBkAgBiCkCaHu@qDKkDxCaG\\{Bt@{]r@eDtKwWjI{@p@k@U{Bu@{AgCk@iBsBUW|@eEt@sAnBaDnFTdAy@\\g@RWZe@V{BWaSgD{\\wEcKFeBxGwSbAwA~IiB|@yArCiF"
     },
     {
+      "id": 2,
       "name": "Buseok-myeon (부석면)",
       "osmId": null,
       "adminLevel": null,
@@ -36,6 +39,7 @@
       "encodedPolyline": "gf~~E_~xbWrNVN|MXFfm@@pHbApi@nNbIfC`LbGrPlJjN~ItI|CzRDzB?`k@gCxBq@fA_@rATl@l@vKo@te@iDhL_BzCv@bEhCjEWpVeDdDHpFdB~IjJtL`JfKrDr@VfHbBjUzLzIrKjAvAzH^lO`A~PfDbTjFzSfIv@zA`AjDxD`EvKdH~QpGxHzBpBxF~Cj[OnFwBrGsQ|\\aEjC}I|AuGd@yF~BoPlVuDrKyZt`@kMvP_@td@tCbAxB~H_AlNcFtLGb@gCrP|AlJjEv@nDbArChDGxEqAtC}CdAyJtBgCbIqIdMaB`CaKhKuOtKqu@pO{Bi@_HaBoxApCcjBnDoYhXuEjt@{Fv@ok@q@qk@D{f@NoADE?ua@jAyK~Gkf@z@gb@iBi]zA{JYma@oAoe@jKiMrCyV`Bcb@iAsNi@{WkEgLaDs{@eVbCeKF_@F_@DYb@sDD]B]Dk@d@sHh@}IB]@]BW@Y?M@SAM?K[_HAICOGWGKEMKQGKKKc@_@OM_@WOOGIEICKAK?M?W@a@~@iPD]BYHc@d@yCd@yCbAiGvBe[f@wILwDJ{EDge@?IAOCOIMsN{Q{@i@m@MaB?uBNaATkAb@{KzExH_UGuMTuDp@mB~B_DtAgA`CmBdEiBlLmJ`AmAnAuD_AoMuDmMs@kFlOThSjD~OhIjEdJXd@`@Nz@N|ShCnCEnDaBv@sARqDg@yODqBlAiF|JkLfAm@tF_@vMlBzMLzD_BDC\\yAiAqC_E_DoEeG}@sAb@_E|BiFpAyCdFyEB@jBd@vHxIlB`ArEElFuAh^jCvAt@hBhJpV`QpAh@nVpAvYyIpBkA|AaCdAs@lEsCpPoIdQuGlOuOtEwKdEkQrBoZoAyl@C}@vDyFdEcDl@wCx@aJpEug@nEkl@dHqY"
     },
     {
+      "id": 3,
       "name": "Daesan-eup (대산읍)",
       "osmId": null,
       "adminLevel": null,
@@ -49,6 +53,7 @@
       "encodedPolyline": "m`h`Fss}bWzAt[T`SQvTvB}@tDAb@Bd@Lj@XjCvBdD|OJt@B~B?`@?p@]xG_H|a@y@rEiBtFIPcR`[sC`Ae@Ly@nAGZMzK`@bOWfBIf@_OrFeIk@sI`LyAtHD~F_@zAyFvJ{F~FQbBNzIGjMkDlN`@ld@cBnHwAxj@aJaO{M{IwNoJwYxd@zE`Gt@rDpDvRm@la@{Ar@}BkAs@s@qB`AqAr@gAhF`@bMrAfDtJlIfBd@pDu@dCJ|BlC|B`Eh@lCJtJaCjRePfPcVzLqCj@cDl@uBLUEo@y@iBoAkAc@wC@{Hl@cDt@kCp@}Ad@[`JLhK_BpNgG|BmB`AVh`@dA`C`A|AjAlBbBnAvAh@bDOvCOvAb@pAjB\\`DVpCL`Cl@x@|HnHtBx@bBb@`@nAh@zBDnAm@lByOvMiBTaB[sPeHw`@yMiH`GlArVDb@jAp@h@FdAAf@\\t@x@DdB?`CUlBaJdNgENwA[eAk@iB[{Ha@}Q`@wIjAsBtBfBp]t@nF`AfA~@hAt@tA?`F@ff@KlBy@dB}InCiLjB}BKoD_A}A_CsAgBgPkI}AK]fBI`C_@xAwEjFySPyDI}BY\\cGdCcG\\}IsAgDsAK{@?}D?wYdAoFrQoBnHt@bH{BbG}UnSeKnDq]`GaM[oYyCmDwEKcJfSySmQ{p@}RdWcKfI{Ci@eDaFcFkGoE_AiIiCwDaISoIhCaJzJeG`MN`JeHdKiTeE}NmKzEsEgHlAcHkFsHwTyO{BtAmGxDcAy@vUkPrV{@lAiC_BgRsPkGiFgA_J}@s@uCrAaDpCaD~BaBqCuj@wDcs@xB_y@rBuUy@g_AAc@o[yJuNlk@sZmPhVi{@t_@fKs@obAGaDA}DL_AlEqU`AeEfWPpFoFzBih@\\sHRmIBcBs@mE?sD?i@HwAhIed@lDqJrJyGfSeAfFwC~A_AlEkJnZgb@hKoF~yAov@~ZwQdSoLvdAsVpZiHfy@mTt`@cChUx@xj@vQps@nXvAj@nu@xL"
     },
     {
+      "id": 4,
       "name": "Dongmun 1-dong (동문1동)",
       "osmId": null,
       "adminLevel": null,
@@ -62,6 +67,7 @@
       "encodedPolyline": "gpn_F}p_cWbK|e@Jd@FV@LBh@?L@H?NALAPEf@QzAETET]lBYtAUfAsA`Hs@rHEbKy@lEOh@o@~Bs@fCgFpMm@z@oBNa@Ks@k@QUQQ{@s@_BL_CRwANDr@k@`JtA|Pd@rDHlABZ`At{@ETCLaD`AcN|BcZ|BMC]IWMGS_BeHmLmMwWgKaGaDUiAwCeI_BmByGyDe@QgFmB_EuDqC_GcAcGWo@w@gByA{Ag\\eMmB_GaB}HnFeCzEmEhD{Dh@g@tBuBdL{B~GmApEaAlPqGt@_ArE{NbBcGlCaGzDuE~AWnMaB~Hg@RAPCPEr@[pF_FjEePjCkMnGeCjFEjSnGfIlCr@bCf@rBN\\X`@fDhCLFZDd@BP@N?JG"
     },
     {
+      "id": 5,
       "name": "Dongmun 2-dong (동문2동)",
       "osmId": null,
       "adminLevel": null,
@@ -75,6 +81,7 @@
       "encodedPolyline": "kkn_Fkw|bWhDEPLNh@`G`a@~B~Pw@rAaBrCi@nCsAxHhEjUZdAJ\\FHRVXZLVJXH\\DNx@lKHnAE@}Cz@mc@|H_He@BMDUaAu{@C[ImAe@sDuA}Pj@aJEs@vAO~BS~AMz@r@PPPTr@j@`@JnBOl@{@fFqMr@gCn@_CNi@x@mE"
     },
     {
+      "id": 6,
       "name": "Eumam-myeon (음암면)",
       "osmId": null,
       "adminLevel": null,
@@ -88,6 +95,7 @@
       "encodedPolyline": "whw_FyylcWLYhCqD\\a@bIkHHAlBh@n@\\f@p@lAfBh@n@`@TXBzT_BVKtAq@lAw@n@e@j@g@tA_Bx@o@n@c@r@g@j@]dAk@d@Qd@I`O_BZAVBh@R|ExBtDzBhT~RbSzQp_@nTjUnMbE|BxAr@zHlBdIf@l@gBr@f@^V|DjEjGdI|DlF^l@h@|@Vj@rFdNn@lBXhBfB|FzAfD`@`@dAZbOxAbMpAzAd@fF|CxFbEvH|GtAfCbH|Lf@z@pAdAzEbBnFfBzABfGJxGJp@e@~@cB`G}LbDoGh@Sh@A`K`BxDhA`@`@Tx@|@pHh@jB|@bB~EbIn@bAh@TfDh@nBTv@?nEYhCgBDGRw@RiAE}BhTxWpT~N`D@vHkIWsBb@_BrAgBfDk@hCf@vQ`HvB`Cg@nFYbAe@bBiDbGcF|IuBzFaIf^Qf@m@|BwBxKi@jE}@pFkGrIs_@`a@qFvDqAa@oB}AwAmAwDqDaEwCkHsAuRvAq\\iB}^cBiC`@s_@qCa@yJoB}FeN{G_Zo@kCrAgCjOzAjXhAhRr@lEdB`ElAhG`@hCLx@Jt@tBjQKFO?QAe@C[EMGgDiCYa@O]g@sBs@cCgImCkSoGkFDoGdCkCjMkEdPqF~Es@ZQDQBS@_If@oM`B_BV{DtEmC`GcBbGsEzNu@~@mPpGqE`A_HlAeLzBuBtBi@f@iDzD{ElEoFdCyHgDqCoAa@eAxCsW_GyG{FsJq@oCC_BnB{GUoAyF}JuEoH_LmIoCsBoFMeFN{@Wm@SeBoBkBgIB}GZsAtHqHV_EEuQ_AcF{FaKa`@oYe@Ok@Ey@?s@LcPvEuRjEM@G?_\\mHmRiHa@Ui@g@_@i@S[c@}@[aAWcAKgAQcAc@oA_AsB][YS{@c@nC_GnIgNVWv@m@jEsC^U`@OtAEb@Al@BZ@rOeFdV_IPGn@g@Vu@T_Af@_CLo@uAoGQ_AEe@Bo@TaA`@s@f@s@Za@NQNQPGb@I~FaAbA?^Nj@Vl@^j@\\b@Dd@Ax@Mb[{PJQvAoHFc@Fg@Jy@HgB?cBC}EoAoKyBeH}BoHCOAG?O?qABaBFoAlG}_@hDmNvF{]cAa[EyF"
     },
     {
+      "id": 7,
       "name": "Gobuk-myeon (고북면)",
       "osmId": null,
       "adminLevel": null,
@@ -101,6 +109,7 @@
       "encodedPolyline": "s}w~Es~qcWfOWj`@rHnLdDlBrT~@nENn@bIfM|@d@jGhDbEnAzKbKfKrPx@tA|H`eAxA`StEzPhExJVzCIzBgCbBaGXmEtEgGvL}Hh\\?lHtHdMjLbNzNhJrCbFQzJr@nHjAbHlGvRrIjCjATNFnMrL`CbCvGd^wWh^_@dg@UtAyAxBq@bAsVrzAaAjGCLcMzv@oJ|j@k}@kKiBd@eC|AqSxW{AlBgLrBeUhDsp@oQsiAnK{t@|u@}BEsNW^kJpLkvBvBiXnFmP~E}QiPqUq\\iPm[_NaEkMoFcS`DePxAyFqCaW}BwGK_@qAqHgAgLVcM?SCaJm@qIwAoIBcDvBmGlJ_Sn@gGPoJ~Ei|@tAkZ^iE`AgFhDyInDiOs@cAEG}D_GQ{Eg@iOzK_XbLMbFbBvG_XSqHbGuFxG|ClIhBtD[lE_@|DwE^mF@KNuBfCa@lR~F~CtB|DwHhAa@zLcEhKQnDeAjU}LtEyClJ_XdIgKnKoOxAeGxJ{F"
     },
     {
+      "id": 8,
       "name": "Haemi-myeon (해미면)",
       "osmId": null,
       "adminLevel": null,
@@ -114,6 +123,7 @@
       "encodedPolyline": "inb_F{}ucWfEqFfE{DvGmAvM_CtXkMtO{GnBCxG~BfCtCf@jEn@fFxBj@t@R\\HtFl@hG~AvIfLF`BWzE?`AVl@x@p@fRn@lBDjFy@lF{@tCLtDzAvD|A|KxJnDpFbCCtU_IrH{EpFd@tSnDbb@vMzEjCvDvEvFzKvL~LoInRCvFxBhHpCpIyJzFyAdGoKnOeIfKmJ~WuExCkU|LoDdAiKP{LbEiA`@}DvH_DuBmR_GgC`@OtBAJ_@lF}DvEmE^uDZmIiByG}CcGtFRpHwG~WcFcBcLL{K~Wf@hOPzE|D~FDFr@bAoDhOiDxIaAfF_@hEuAjZ_Fh|@QnJo@fGmJ~RwBlGCbDvAnIl@pIB`J?RWbMfAfLpApHJ^|BvGpC`WyAxFaDdPnFbS`EjMl[~Mp\\hPhPpU_F|QoFlPwBhXqLjvB_@jJmUy@gg@aEkLyAiOsDiHqDiNcK}_@ca@gMkTkIyTkB_FeBaK~@kPvEej@vAgKiAuDiPuFyDwCi@a@u@aCe@cCD_APsBlF{PViE]}DgBoEsTsYaQsJcTwJkAy@ECmBwAsPyR`Ig^tB{FbF}IhDcGd@cBXcAf@oFwBaCwQaHiCg@gDj@sAfBc@~AVrBwHjIaDAqT_OiTyWeAgFkDyVo@sUGkDKiAs@o@aAy@}B}AgAe@iA}@eAyAaCaN}A{HsBoJcHkIeFcUpAyEpAoEb@qBl@gEv@wINkCQ{FxHeNlK}C~B?|@nVGv@~P?iGwh@sCma@OaA_BsA}ByCDmAtJsKzAu@zKmBpCKb[hExAk@hA}AbAgDJo@pAgJ|BaH`AuA~EsDnEuClGGpNDjMmS`Ko`@EiBgAiC{D{ESiAbIwb@nOsDlOoLrBy@lSy@rCHrGtAfHqGb@iL"
     },
     {
+      "id": 9,
       "name": "Inji-myeon (인지면)",
       "osmId": null,
       "adminLevel": null,
@@ -127,6 +137,7 @@
       "encodedPolyline": "_nn_FufubWvEfD`PhLz\\dPtLnF|P|GdDn@xCaDlRuTrU}Z|LsMtXcNnAg@`@KVCn@G`I]HVh@\\zNlGvQ|DzDiD\\KbCy@rKeD|JhBd@jGb@ArBC|wCy`@JMVeAEi@{AoGiNqk@lCqHjF_UhHpDhOrDjLxAfg@`ElUx@eHpYoEjl@qEtg@y@`Jm@vCeEbDwDxFB|@nAxl@sBnZeEjQuEvKmOtOeQtGqPnImErCeAr@}A`CqBjAwYxIoVqAqAi@qVaQiBiJwAu@i^kCmFtAsEDmBaAwHyIkBe@CAeFxEqAxC}BhFc@~D|@rAnEdG~D~ChApC]xAEB{D~A{MMwMmBuF^gAl@}JjLmAhFEpBf@xOSpDw@rAoD`BoCD}SiC{@Oa@OYe@kEeJ_PiIiSkDmOUr@jFtDlM~@nMoAtDaAlAmLlJeEhBaClBuAfA_C~Cq@lBUtDFtMyH~Tc^yHq@?c@N_@\\Wb@Uh@gO|EwMhDiBLu@BuHXm@AICOISSUi@]u@SWKKaDoAOEQCc@J_LnCODUN]\\y@~@QJQLUH[FYB]?eAGc@KWMc@e@_FiHm@_Au@mAAGAK?KBOJ[J_@DMDYDe@@]@]AQGc@K_@I_@qD}KEKOQcE_EyAqAsBcB]S[IWCYAiA@i@@O?MCECCEUm@wE}LKa@CMGuCAi@zAcHb@eCVwA@G@]t@mUI_CeMq_@eFkP|NaSjGe@nAcBbCcSx@wC~AiCnCwClIu@pEf@~l@s[RyBi@cFiK_RaGgF_Ae@g@gKGwEj@}BBIxPoQr@QxFfDbFzAvA?"
     },
     {
+      "id": 10,
       "name": "Jigok-myeon (지곡면)",
       "osmId": null,
       "adminLevel": null,
@@ -140,6 +151,7 @@
       "encodedPolyline": "m`h`Fss}bW|Eg@|E|@fP`CzA`@bCh@x@LpEh@pQvBb~@nKl[lCvEIhCOfHuAlb@WzKFtCVzVqAfY}Dps@{IP]XMLCN@`@Jv@TnQvHzBdAvQbMzLtL[\\Kf@EjABZJf@^t@r@z@j@d@VRd@XjH~DvI~IbF`GBFCJEJSZgAlCmAzCIZ@JBRzGv]tHpOLRjAnEDRdCzOJn@?RiExZKf@Uj@_@n@KNyPrSUP_@RiHnAWFa@?e@Ga@KmEfBaG`COLIRGh@QzDAXvF~m@JVvE`It@`ATLTBTGnAo@^MTAPDlC`AZNb@^hB`BhDtEvH|\\BNfAxTmCjIOXEZ@XDb@Nz@Rt@~ApGxApT|A|X@ZFnAJvALn@Hb@JX`JnPb@l@j@j@h@RN`EJxE?TCVIZCBOXY`@WH[Ds@FwCDu@Cq@Km@AoAR}@T]NuCvAuObJi@\\c@n@Sj@Mh@uBzKCj@?`@Bp@F|@D`@Ll@d@vCl@~F@b@AXGZMZQ\\c@r@m@p@c@ReYfFiYlDgQzOuApCyClFiEpGkBrC_TLoJbIw@p@g@`@kAzAe@nAiA~FuDxYC^YpCuDO}MfCsK~GeApB]dARnGkAvGWdAiAnAeL`CiCHqEGu@Y_Am@iK_L{AgB?yDt@oSVcHPwA{@wF}Bq@gFKiBe@g@uBkAiHsAuPn@aXrCcCtCuHBa@XyYEye@QkEU{Aq@{@cBi@sIsAy@p@i@|C}NrOkA~@kA?iHK_XuBq@gBOsCY{ODkCzB}Aj@q@pAsBvCeKf@}DWuA_BkAiFy@yEb@g@Xo@l@kBbAoKh@iCOs@aB?sCpBqYhB{HdCA~AD~DkBJKtBaHu@aDm@yAgIsLyLcWoC}SpAyABoBO}]}A{AoDaCa@QmBK_Ez@}C`AsStTGhCXdRlAt[WzH_CdHiBvP}BhTmBbD_DtBsD?eCq@kS_D_R^sDdDyAjCu@dDq@xEFz@?lA_@`C_BbAgK|C{BsBqIwHkAmB^i\\vAyj@bBoHa@md@jDmNFkMO{IPcBzF_GxFwJ^{AE_GxAuHrIaLdIj@~NsFHg@VgBa@cOL{KF[x@oAd@MrCaAbRa[HQhBuFx@sE~G}a@\\yG?q@?a@C_CKu@eD}OkCwBk@Ye@Mc@CuD@wB|@PwTUaS{Au["
     },
     {
+      "id": 11,
       "name": "Palbong-myeon (팔봉면)",
       "osmId": null,
       "adminLevel": null,
@@ -153,6 +165,7 @@
       "encodedPolyline": "oty_Fm{nbWtHcJjD}D`NgJl@a@f@Mb@El@DzRbBdI~A|KtDvB~B|Cr@rGk@dQ{A`E_BnRfIjFj@jDmARZZz@fH~XpAfHz@pFHfAs@^fOfe@P^VHfB_Ad@g@vAoAdIyBp@A`_@hEnE`DhBvBnEZd@gLVoFb@eGZaAl@_B@h@FtCBLJ`@vE|LTl@BDDBLBN?h@AhAAX@VBZH\\RrBbBxApAbE~DNPDJpD|KH^J^Fb@@PA\\A\\Ed@EXELK^KZCN?J@J@Ft@lAl@~@~EhHb@d@VLb@JdAF\\?XCZGTIPMPKx@_A\\]TONE~KoCb@KPBND`DnAJJRV\\t@Th@RRNHHBl@@tHYt@ChBMvMiDfO}ETi@Vc@^]b@Op@?b^xHzK{EjAc@`AUtBO`B?l@Lz@h@rNzQHLBN@N?HEfe@KzEMvDg@vIwBd[cAhGe@xCe@xCIb@CXE\\_AhPA`@?V?L@JBJDHFHNN^VNLb@^JJFJJPDLFJFVBN@HZ~G?J@LAR?LAXCVA\\C\\i@|Ie@rHEj@C\\E\\c@rDEXG^G^cCdKkCyAi@Uo@Us@Uc@K_AO{@Q}BOa@@_CTa@Fm@JkC`AKDqYjB}Py@mNiHsBgHI[gAyDMe@Ow@GWAS?m@BuAAi@EQEIIGUIsE}@q@IMAM@eFl@KDOF_@XqDdBmIbBKB}CIeXPgDdDoFhFq@j@]NUHcIdA}Fr@iARUFQJOLeAbAsM|M_`@t`@_p@di@cMfK_G_RCIEAcDMkCNoHnN_J`PcJrL{YlJYLyC|EkKpDiQ}GqE{DiCw@SGEAQBSDE@yGbDgBnCj@v@v@tAFL@F@L@H?P?~JcElSIT}Y`c@IJKDY@iC_EQ_@GUc@gESoEKaDGcBEa@g@_BGQoAsBq@_AkKaM_@a@[WuDsC[QQIQIwRbFCJCNCPEXAH?D@Fx@`QAb@_@Rw@NYBuAWUKe@[u@kJTs@h@UeHyPaSEgWeLcA}@qA{AMOKO}HmPKUCGsAeGCIAG?I@KBIDEFEDAFAH@F@JFDDDJLRFHB?DAp@_@nGcEDCjF{Vj@gEF_A@uA?k@AIaAwHAIEOEOEOg@oACGCCGGo@OQCSAI?K@S@WDM?UAGCECEEGGEGEKu@kECO?G?E?G?E?GDsCvBmSBIDEVUDCDEDCDALAp@AF?N@DBnAf@LJFHFH@REPGHdJdIba@fLzYjHD@J?HAXId@ONGLGxHyDhBaBrJuIHI?QAK?IAKc@wGUwDAU@OFMFGdRiOzJcEfCa@lF]L?F?bFb@VBlR}M`AcBtDg^`Gi]|@sB{E_AsPiAM@IFoV~SONUZsCzEmN`LuA[m@KQAM@QBaThFQHgC|AIDGFeArAyA|AmHrDIDU?SKIKEIGWa@oF@uCDqACMEQAGEScH{ZG[eFgEy@_@OGmOiGeM{Z{l@wEgJdBXqCB_@tDyYhA_Gd@oAjA{Af@a@v@q@nJcI~SMjBsChEqGxCmFtAqCfQ{OhYmDdYgFb@Sl@q@b@s@P]L[F[@YAc@m@_Ge@wCMm@Ea@G}@Cq@?a@Bk@tB{KLi@Rk@b@o@h@]tOcJtCwA\\O|@UnASl@@p@Jt@BvCEr@GZEVIXa@NYBCH[BW?UKyEOaE"
     },
     {
+      "id": 12,
       "name": "Seongnam-dong (석남동)",
       "osmId": null,
       "adminLevel": null,
@@ -166,6 +179,7 @@
       "encodedPolyline": "eum_Fw~xbWDAlCQb@SfAk@zAcAvDkCNMTUPSf@q@V]n@{@na@_k@~LwVjTs[dAqGlDeTBKFWXaAdCcIVy@x@_CNa@JOf@w@f@s@\\g@JO`A_BFKFKJU|@eB@E@E|E_TfAoJp@gFvK}Z~IyLfAsAtC{CpFwDr_@aa@jGsI|@qFh@kEvByKl@}BPg@rPxRlBvADBjAx@bTvJ`QrJrTrYfBnE\\|DWhEmFzPQrBE~@d@bCt@`Ch@`@xDvChPtFhAtDwAfKwEdj@_AjPdB`KjB~EjIxTfMjT|_@ba@hNbKkF~TmCpHhNpk@zAnGDh@WdAKL}wCx`@sBBc@@e@kG}JiBsKdDcCx@]J{DhDwQ}D{NmGi@]IWaI\\o@FWBa@JoAf@uXbN}LrMsU|ZmRtTyC`DeDo@}P}GuLoF{\\ePaPiLwEgDl@MtBkEtGoPdAmG|AwAbCgAGyJ?a@H}A@YrCkJQwWQoO{@aL"
     },
     {
+      "id": 13,
       "name": "Seongyeon-myeon (성연면)",
       "osmId": null,
       "adminLevel": null,
@@ -179,6 +193,7 @@
       "encodedPolyline": "gq|_F_|dcWdCjAbAh@fAt@l@n@Vn@`@vAXfAhDpHjH~Bz@b@XR\\Z~@rBb@nAPbAJfAVbAZ`Ab@|@RZ^h@h@f@`@TlRhH~[lHF?LAtRkEbPwEr@Mx@?j@Dd@N``@nYzF`K~@bFDtQW~DuHpH[rAC|GjBfIdBnBl@Rz@VdFOnFLnCrB~KlItEnHxF|JTnAoBzGB~Ap@nCzFrJ~FxGyCrW`@dApCnAxHfD`B|HlB~Ff\\dMxAzAv@fBVn@bAbGpC~F~DtDfFlBd@PxGxD~AlBvCdIThAsChF}@xA_JhBcAvAyGvSGdBvEbKfDz\\V`SWzB[d@SV]f@eAx@oFUoB`Du@rA}@dETVhBrBfCj@t@zATzBq@j@kIz@uKvWs@dDu@z]]zByC`GJjDt@pDjC`HfBhCfBjAhErAxEzApDvDh@rAH~Qh@bCdJtPd@f@nAf@`NzCv@JdFjPdMp_@H~Bu@lUA\\AFWvAc@dC{AbHm@~A[`Ac@dGWnFe@fLoE[iBwBoEaDa_@iEq@@eIxBwAnAe@f@gB~@WIQ_@gOge@r@_@IgA{@qFqAgHgH_Y[{@S[kDlAkFk@oRgIaE~AeQzAsGj@}Cs@wB_C}KuDeI_B{RcBm@Ec@Dg@Lm@`@aNfJkD|DuHbJi@Sk@k@c@m@aJoPKYIc@Mo@KwAGoAA[}A}XyAqT_BqGSu@O{@Ec@AYD[NYlCkIgAyTCOwH}\\iDuEiBaBc@_@[OmCaAQEU@_@LoAn@UFUCUMu@aAwEaIKWwF_n@@YP{DFi@HSNM`GaClEgB`@Jd@F`@?VGhHoA^STQxPsSJO^o@Tk@Jg@hEyZ?SKo@eC{OESkAoEMSuHqO{Gw]CSAKH[lA{CfAmCR[DKBKCGcFaGwI_JkH_Ee@YWSk@e@s@{@_@u@Kg@C[DkAJg@Z]{LuLwQcM{BeAoQwHw@Ua@KOAMBYLQ\\qs@zIgY|D{VpAuCW{KGmb@V~Ay@nBgBtBiCfAkBxAyChCeI\\_BT_BD_A@SLwAR_AN[JSXe@r@iAxB}CtHiKBCjNom@xJ_f@nAmFVqLvA}m@PoAVo@^i@jA}@rCo@b@KtCi@bH]xDIxYRhUp@ZB\\Bd@B\\@h@@h@?^Ad@Gb@I\\Q^s@rYu\\"
     },
     {
+      "id": 14,
       "name": "Suseok-dong (수석동)",
       "osmId": null,
       "adminLevel": null,
@@ -192,6 +207,7 @@
       "encodedPolyline": "wvh_F}facWuCzCgArA_JxLwK|Zq@fFgAnJ}E~SADAD}@dBKTGJGJaA~AKN]f@g@r@g@v@KNO`@y@~BWx@eCbIY`AGVCJmDdTeApGkTr[_MvVoa@~j@o@z@W\\g@p@QRUTOLwDjC{AbAgAj@c@RmCPIoAy@mKEOI]KYMWY[SWGIK][eAiEkUrAyHh@oC`BsCv@sA_C_QaGaa@Oi@QMiDDDcKr@sHrAaHTgAXuA\\mBDUDUP{ADg@@Q@M?OAI?MCi@AMGWKe@cK}e@uBkQKu@My@a@iCmAiGeBaEs@mEiAiR{AkXfCkOjCsA~Yn@dNzGnB|F`@xJr_@pChCa@|^bBp\\hBtRwAjHrA`EvCvDpDvAlAnB|ApA`@"
     },
     {
+      "id": 15,
       "name": "Unsan-myeon (운산면)",
       "osmId": null,
       "adminLevel": null,

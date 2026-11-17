@@ -1,4 +1,5 @@
 {
+  "id": "ibiruba_br",
   "name": "Ibirubá",
   "countryCode": "BR",
   "aliases": ["Ibiruba"],
@@ -7,6 +8,7 @@
   "radiusKm": 2.78,
   "regions": [
     {
+      "id": 1,
       "name": "Bangu",
       "osmId": null,
       "adminLevel": null,
@@ -20,6 +22,7 @@
       "encodedPolyline": "xvvmDfi~bIpL_H|@sAb@iAJy@@e@Ee@GuASiCQ{CIuAFu@Z}@`@e@N[j@oGlEPzBOvA{A~DKxHyA\\U`DkB|EmD|@AhG[?rF@t@k@`Ne@nJaB|I{@tKmAfLTzIzBnHuGNs@DSBiCJ_@@cZdA??]BkCJS@kDN{I\\?e@AuC?i@MaNB_L"
     },
     {
+      "id": 2,
       "name": "Centro",
       "osmId": null,
       "adminLevel": null,
@@ -33,6 +36,7 @@
       "encodedPolyline": "dwvmDnl_cIzI]jDORAjCK\\CD|OFtNDlGLnQcPLCjU?n@eB@cB?@eC?KG?uJF?AAwGeF@AcI?K?UAgGmEA@{AAQAqMGcNdB@M{T|ACL_@bSO?h@@tC?d@"
     },
     {
+      "id": 3,
       "name": "Chácara",
       "osmId": null,
       "adminLevel": null,
@@ -46,6 +50,7 @@
       "encodedPolyline": "fuumDjy|bIDwGlJjCjHpFrDlApD`@rA[rA[|BuAbEgAfDZ?Bk@nGOZa@d@[|@Gt@HtAPzCRhCFtADd@Ad@Kx@c@hA}@rAqL~GCP_EvEAAqMoHKGYSwAiAyH_C\\yd@?S"
     },
     {
+      "id": 4,
       "name": "Esperança",
       "osmId": null,
       "adminLevel": null,
@@ -59,6 +64,7 @@
       "encodedPolyline": "vxxmD`g_cIjDMpTy@Zfd@wCCRlIvJc@nJIbIGfEGnAnEhEfDM~ASpAdB~GxBtBGvD{AxEv@xIeC|]yeAn@QmJLoA@IL{@yC?p@kB|@yCn@qC^aCPyAPgA@KRwAP}ARyCB_BF{BCs@AwH?IBy@QgHq@{Hi@wDkB_IoBiIqBiIk@}BtGO"
     },
     {
+      "id": 5,
       "name": "Floresta",
       "osmId": null,
       "adminLevel": null,
@@ -72,6 +78,7 @@
       "encodedPolyline": "hstmD`q~bIOy[|Bx@dD|A`CEhJbB~GzBxH~BvAhAXRJFpMnH@@_BrBgBxCcLtB_AT_Bp@{Ax@}AjAqBpBiK|AaC^kJz@BuY?W"
     },
     {
+      "id": 6,
       "name": "Hermany",
       "osmId": null,
       "adminLevel": null,
@@ -85,6 +92,7 @@
       "encodedPolyline": "lwvmDj}ccI?E?AjBM|@KXI|EaCjBqAfA_ApDgErAcB`AkAlAqAnAeAtBqA~@a@bA_@xBo@`Ck@HCbCk@jB_@xAYhAL@KxC?Mz@AHMnAPlJPlC|@bCJpImDjM^x^?xNaFxGkGrJMR?@{BvD}e@sU`B~EyMlCp@aHuD_BjHqx@GaE"
     },
     {
+      "id": 7,
       "name": "Jardim",
       "osmId": null,
       "adminLevel": null,
@@ -98,6 +106,7 @@
       "encodedPolyline": "hixmDf{bcIIBaCj@yBn@cA^Gua@CyUlAAtBCpBAhBCpRQ?H@vHBr@GzBC~ASxCQ|ASvAAJQfAQxA_@`Co@pC}@xCq@jBAJiAMyAXkB^cCj@"
     },
     {
+      "id": 8,
       "name": "Odila",
       "osmId": null,
       "adminLevel": null,
@@ -111,6 +120,7 @@
       "encodedPolyline": "r_umDd``cIr@qAJ?pY[T?FbN@pM@PAzAlE@@fG?T?J@bIsF@NlE?DBnALzB?BcDUqOHwAwH?AEO?Ak@}CsAuEmBqGuC{K|BF`EoFDeBq@eAwAZq@]Ds@h@_Aj@gA"
     },
     {
+      "id": 9,
       "name": "Planalto",
       "osmId": null,
       "adminLevel": null,
@@ -124,6 +134,7 @@
       "encodedPolyline": "~mwmDps`cIEmGGuNE}O??bZeA^AhCKRCr@Ej@|BpBhInBhIjB~Hh@vDp@zHPfHCx@qRPiBBqB@uBBmA@eOHMoQ"
     },
     {
+      "id": 10,
       "name": "Progresso",
       "osmId": null,
       "adminLevel": null,
@@ -137,6 +148,7 @@
       "encodedPolyline": "~jvmDbzacItJGF??JAdCbB?dBA?pADzWDnZ@jBAhBYH}@JkBLK_QiUGQsW?KAgR}AA?CM{BCoA?EOmErFAdFA@vG?@"
     },
     {
+      "id": 11,
       "name": "Pôr-do-Sol",
       "osmId": null,
       "adminLevel": null,
@@ -150,6 +162,7 @@
       "encodedPolyline": "d}vmDz|acIzIAnEAnFCtGAFta@_A`@uBpAoAdAmApAaAjAsAbBqDfEgA~@kBpA}E`C@iBAkBEoZE{W?qA?o@"
     },
     {
+      "id": 12,
       "name": "Santa Helena",
       "osmId": null,
       "adminLevel": null,
@@ -163,6 +176,7 @@
       "encodedPolyline": "|numDtf_cIpBqB|AkAzAy@~Aq@~@UbLuBfByC~AsB~DwEBQC~KL`NcSNM^}ABLzTeBAU?qYZK?FKjDmFvBuBx@mATiAPeBf@oB"
     },
     {
+      "id": 13,
       "name": "São Jacó",
       "osmId": null,
       "adminLevel": null,
@@ -176,6 +190,7 @@
       "encodedPolyline": "pnwmDv|acIoE@{I@BkUbPMdOIBxUuG@oFB"
     },
     {
+      "id": 14,
       "name": "Unida",
       "osmId": null,
       "adminLevel": null,

@@ -19,6 +19,8 @@ ships to every user on their next refresh — there is no staging.**
   artifact for PRs.
 - `seed_generator.py` — the main tool. See README for full flag list.
 - `build.py` — validates cities/*.json and rebuilds region_seeds.json.
+- `assign_ids.py` — adds missing permanent ids (city and region) to cities/*.json;
+  `seed_generator.py` does this itself, keeping a reseeded city's old ids.
 - `simplify_outlines.py` — thins outlines for the built file (see below).
 
 ## Common commands
@@ -32,6 +34,12 @@ venv/bin/python3 build.py                      # rebuild region_seeds.json
 ```
 
 ## Invariants
+
+- **Ids never change.** Every city has an `id` and every region a whole-number
+  `id`; challenges find their area by them. A reseed keeps them (the generator
+  prints renames, splits and merges it detected: check them). A region that goes
+  away moves to `retired` with `mergedInto`; ids are never reused. `build.py`
+  refuses a build that changes or drops a published id. See README, "Ids".
 
 - **A city's circle covers all of its outlines.** The apps test
   `centerLat`/`centerLng`/`radiusKm` first and the district outlines second,

@@ -1,4 +1,5 @@
 {
+  "id": "iquique_cl",
   "name": "Iquique",
   "countryCode": "CL",
   "centerLat": -20.751108,
@@ -6,6 +7,7 @@
   "radiusKm": 77.44,
   "regions": [
     {
+      "id": 1,
       "name": "Arturo Prat",
       "osmId": null,
       "adminLevel": null,
@@ -19,6 +21,7 @@
       "encodedPolyline": "||jzB~dbkLWjJh[~@mBfcAm_@WeB`BwAqBoFeoAvTE"
     },
     {
+      "id": 2,
       "name": "Barrio Industrial",
       "osmId": null,
       "adminLevel": null,
@@ -32,6 +35,7 @@
       "encodedPolyline": "nzqyBjezjL`tD~Sj`GtmBtyHs|@z`BvBiDjbCui@iCoJ~e@kEdAmCvLnFdoA{AhA_CqFkMeBkMyUuGxArGsD{@qPsT{R}FnIvFuIcBeBqXiKkl@_GsL`FkG{AoZtMyG_BcMbB}FjIeE^f@dIkD_AiBvB}FaCyLjMeMpDaDnL{YnTsIeCuG|EuIcCsAbD{RsG{FeMgIo@oGsFoDiX{SyOcHRqEiFyLgAkB}Ioq@f@eJkGNwDiLkDkE|@s@{Fi`@gFoK~BsNwNsWrMyKzAwf@gf@u\\qAyb@_T{d@eJw]|D}T`KoIhOsOqHyTbGcQlNaAbK{JF_@fMoIuB`@}CcQiCoBrCvfCwqE"
     },
     {
+      "id": 3,
       "name": "Caupolicán",
       "osmId": null,
       "adminLevel": null,
@@ -45,6 +49,7 @@
       "encodedPolyline": "jylzBzt`kLnh@_RQdg@rEP_@jYub@cJm@hZmVo@h@gT{ESdAue@jPgA"
     },
     {
+      "id": 4,
       "name": "Cavancha",
       "osmId": null,
       "adminLevel": null,
@@ -58,6 +63,7 @@
       "encodedPolyline": "fdmzBzyakLtb@bJhq@hQp\\tI_[|a@c@jGsEpCyBcA?fH{FWqBtGwGMgCoNvEbHdCuJmC~@CmEhCBH}JsJaFwOZwCyFeDfBwSs@j@e[iEMl@iZ"
     },
     {
+      "id": 5,
       "name": "Gómez Carreño",
       "osmId": null,
       "adminLevel": null,
@@ -71,6 +77,7 @@
       "encodedPolyline": "zbnzBza`kL~PgEva@dCh@xDxQ~YuQzDd@xo@iq@iQ^kYsEQPeg@"
     },
     {
+      "id": 6,
       "name": "Hospital",
       "osmId": null,
       "adminLevel": null,
@@ -84,6 +91,7 @@
       "encodedPolyline": "n}jzBfn`kLti@hCEpCeAte@zERi@fT{Qi@i[_AVkJwTDlCwLjEeAnJ_f@"
     },
     {
+      "id": 7,
       "name": "La Tirana",
       "osmId": null,
       "adminLevel": null,
@@ -97,6 +105,7 @@
       "encodedPolyline": "dhlzBpr`kLhDkbCdlA~AKnp@nXiB~ZzFrNsIhBsHxDNfNeIzEqZpHrFpW{CtCeEjExHjIv@rM{FvIn@~BsGbDtFfd@WdVdCpCa@BkGzKpCztFfuA`}E_|AtcAzgMyCe@R{BmDtBgNmB_TyLcCaHkKk@oIeG{BeNhA}TuG}I{B|@DoJiJsH{KcY_@cL}K{E_HqUkEyBsKnAgKcPuOg@}CyL`CwM_DiHyTiP{VkDmB}GqKeGiXiAsMgFyUnEyM{FmFxBcImFwN`AuAiE}NuCgHbGsIgLgFcA_AgLpBoBqFkK}DgAmDn@sBrIuMvBgBjKuLkCEeDiDuAXoKgGmC_LtFgGmEcQ|@eNfDiDfGqKfA@|C_ElAgDi@cAuJqCdF}CsF{BdGyBuCqJk@_ChDm@yCoCtB_MgHgVlVcFyC{TjHqT{i@_i@jFqo@Pi@yDwa@eC_QfEoh@~QkPfADqC"
     },
     {
+      "id": 8,
       "name": "Parque Balmaceda",
       "osmId": null,
       "adminLevel": null,
@@ -110,6 +119,7 @@
       "encodedPolyline": "xbmzBdubkLhELk@d[vSr@dDgBvCxFiQdFkQbSaE}@a@jH{GJeCsBoW[lBgcAzQh@lVn@"
     },
     {
+      "id": 9,
       "name": "Playa Brava",
       "osmId": null,
       "adminLevel": null,
@@ -123,6 +133,7 @@
       "encodedPolyline": "`yozBnfakLtQ{DyQ_Zpo@Q~h@kFpTzi@oh@bVwf@ha@q\\uIe@yo@"
     },
     {
+      "id": 10,
       "name": "Puerto",
       "osmId": null,
       "adminLevel": null,
@@ -136,6 +147,7 @@
       "encodedPolyline": "thizB|_fkL~BwFmOmH@}GpOpJpCwKoB`KjF\\XsJtOG~FkD_BuGzAiAvApBdBaBl_@VnWZdCrBi@zDoEmAbBdCcIE{DhIuFqBcBbFhBhFkCmBoAxBg@gDiCbK_BwG}GcDuBeNqFYsKtQnEfN{@xHyEdBObEeIhC_EyDa@oIye@aVbCcA~X|M"
     },
     {
+      "id": 11,
       "name": "Punta Lobos",
       "osmId": null,
       "adminLevel": null,

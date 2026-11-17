@@ -1,4 +1,5 @@
 {
+  "id": "jodhpur_in",
   "name": "Jodhpur",
   "countryCode": "IN",
   "centerLat": 26.280207,
@@ -6,6 +7,7 @@
   "radiusKm": 11.34,
   "regions": [
     {
+      "id": 1,
       "name": "Jodhpur North-East",
       "osmId": null,
       "adminLevel": null,
@@ -19,6 +21,7 @@
       "encodedPolyline": "ap~_Dwd||Lx\\ip@rwBqbC~~BubAxx@sE|q@xIjy@mr@no@wV?|nMm}N?jOkoC"
     },
     {
+      "id": 2,
       "name": "Jodhpur North-West",
       "osmId": null,
       "adminLevel": null,
@@ -32,6 +35,7 @@
       "encodedPolyline": "__q_Ds`i|Lkz@yeAenB{Vmu@_]u]ib@{Qwi@kDmm@fLmx@_pAuEch@kUs_@o`@gTuh@}Fcm@d@wIl}N??loN_|@u["
     },
     {
+      "id": 3,
       "name": "Jodhpur South-East",
       "osmId": null,
       "adminLevel": null,
@@ -45,6 +49,7 @@
       "encodedPolyline": "_bo_Didf}LnwD_[z}@jGp`A`k@fvEtrFpvCxbEwfT??}nM"
     },
     {
+      "id": 4,
       "name": "Jodhpur South-West",
       "osmId": null,
       "adminLevel": null,

@@ -1,4 +1,5 @@
 {
+  "id": "vasai-virar_in",
   "name": "Vasai-Virar",
   "countryCode": "IN",
   "centerLat": 19.407,
@@ -6,6 +7,7 @@
   "radiusKm": 14.9,
   "regions": [
     {
+      "id": 1,
       "name": "Vasai",
       "osmId": null,
       "adminLevel": null,
@@ -19,6 +21,7 @@
       }
     },
     {
+      "id": 2,
       "name": "Nallasopara",
       "osmId": null,
       "adminLevel": null,
@@ -32,6 +35,7 @@
       }
     },
     {
+      "id": 3,
       "name": "Virar",
       "osmId": null,
       "adminLevel": null,

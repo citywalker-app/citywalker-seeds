@@ -1,4 +1,5 @@
 {
+  "id": "olsztyn_pl",
   "name": "Olsztyn",
   "countryCode": "PL",
   "centerLat": 53.7766,
@@ -6,6 +7,7 @@
   "radiusKm": 6.91,
   "regions": [
     {
+      "id": 1,
       "name": "Brzeziny",
       "osmId": 2720059,
       "adminLevel": 9,
@@ -19,6 +21,7 @@
       "encodedPolyline": "w}`gI{c`|BvD_BpCaAnDDhKxAEjClAzMnAlJtDdYbCbX`@VRzAf@rELbE[rJ@xBu@cAoAY]?uChBaDK}@Cy@B{ARg@Gg@q@FoAKKSSkANqAwAiHyKuAuCu@_@q@Hi@`Aa@dAUPWBg@Ms@Yu@Ba@^Sp@OTQHSQU]}@iBa@i@eCl@u@_@g@Uk@?mAl@e@Je@HqAGsHi@uBdAy@HSCQMU_@QUyBwBu@g@u@a@gH_EaCoASKm@IyAEkCJaAMaA[iAy@q@y@s@}@_FwEQOAAsAmAg@k@rAcLb@iFV}E^uUDmB@e@B@JBJ@tAIxBq@jEiAj@{@n@Gl@?tDn@fEPjAEjDUh@F`EPfE`@J`@XBp@D^_@v@FtAJlAJnJ?@fA`NI`D_@"
     },
     {
+      "id": 2,
       "name": "Dajtki",
       "osmId": 2720060,
       "adminLevel": 9,
@@ -32,6 +35,7 @@
       "encodedPolyline": "oybgIypw{BzM|L|GpMA|MLj@VdAE^EId@~EBAn@tHf@jTnJzClBnFuApLcC`LgC~JeD`FcCvEqD|Jw@tCmB`FyBdD_ExI_BzGyCnEeCpE}C~AcJ~GcE|CiCvCiG|FgDvDyCzBoCjCqLbEwCbEkCVcAHiRdBqALaJa@{BByJqAu@w@iAe@gCcB_AaBe@gCk@u@kBWoAGmCsIg@iB}@{EYcCPeDP}@A_ASm@e@]Gc@rAyDl@eH~AiGdByCx@oDAcELuCjA}EEcD_A_Ec@mF\\kFZgBbAsAJaCrCoH~AuF~@q@GcBw@_D]cCC_HG_FRuAdAvAtBxBnA~Av@~E]pEvB~@~@e@DQ`AcDtAeCrAmC`BeAZgAv@_D@qCg@kDq@aA|A_Bh@Z`BvA~BBdL}FrCsEhB{EfAyJ|A_JTiEtC{KxCgLd@uClChCtBq@lAe@`MdN~DCfHfGnL}EdC@pDeC"
     },
     {
+      "id": 3,
       "name": "Generałów",
       "osmId": 2720061,
       "adminLevel": 9,
@@ -45,6 +49,7 @@
       "encodedPolyline": "mf|fImu~{B{AeFACIYgFeSoAkFuBwHsA_EkG_WeBeJe@sCY}@k@uEi@{Be@yDoAxHeAxFcAdEcAdDcAlDe@lBg@rAOdA[v@{@lB_@dAWp@g@pAaAjDe@nAm@nA_@r@eBxAiAj@}ARcBEoA_@gB_BkAgAaAs@s@SwCJk@FaAPwF?uCBc@?cH[{Ba@{ASEjClAzMnAlJtDdYbCbX`@VRzAf@rELbE[rJ@xBV|@Vl@tAz@n@XhAjAZC^_@b@cAb@_@p@k@b@OPKXl@DhAO~AO`ABd@RXLDfC_AFaPrSw@H_GOkDKkAlE?nCQZwA^}VFyCMwE_@uJAUCi@vCrAfAb@XHJHjAXfARb@JdARrAZh@Lt@Jf@L`AVfBz@d@VfB|Ap@z@h@v@dAvBd@t@LJrDxC`@VX@n@?dKBiA_FyCsK"
     },
     {
+      "id": 4,
       "name": "Grunwaldzkie",
       "osmId": 2742866,
       "adminLevel": 9,
@@ -58,6 +63,7 @@
       "encodedPolyline": "kkdgIaxy{Bk@jAs@lCEhD_H`NWrD?tDYvDKpFRdBFlAe@tCsCoGmDmI_CcHoDsNkGeXmPcs@}ADWmH{BeLkMqf@hBwC`EaA`B]xBzAfACv@p@|@pBp@Tb@[t@oAt@qAz@]~A_AXk@\\z@XDp@n@FHdDrBjDjCfDvCrDjDjAh@Nb@Xv@v@~AjGdIFFrIzKGh@Z`@XZAb@kIn[xBzC~I`PLh@HbBWzBuFtM"
     },
     {
+      "id": 5,
       "name": "Gutkowo",
       "osmId": 2742867,
       "adminLevel": 9,
@@ -71,6 +77,7 @@
       "encodedPolyline": "_nfgIeao{B{BByJqAu@w@iAe@Jd@Z|BUdIHbDQdB]tAEhEAjCP|B`@|AAnBl@|BhAjBNl@D|@Cv@o@vAStEd@t@Lx@HrAIv@}@pCAb@B|CcBvBYn@M|C@tDc@z@mD|B|AbG?lBb@hCFjHYrKQvEALs@h@]TAxBy@`Aw@Gy@Ia@oBm@EwA_@o@}@e@yBc@sCeAcCiAaDq@aCi@kA}@g@o@c@c@yBRuAfBqDlAkCb@wDv@kGvAeGrD_G~@eBK_Aa@kAYmAEcAj@{AToBEuCN_HuEsCw@w@cCmQDgDH}AGmDyAy@uAcJ@gBSgBq@sA_Ac@Eu@RuBg@wFy@{FFiEf@qFj@o@lAc@t@AjAh@h@ETcCH}BGe@Ua@g@AqAfAq@l@c@Js@K_A]cLsKiD_CsAv@qAl@kBFwB}@y@gAeA}A_Aa@q@{@OcA_@}BY{A[a@o@Kc@j@M`BBxDHhCVzARbA[t@q@BaAA_Av@iAdA{BBoAu@aAo@iCe@}CC{BGoAg@aAaAaAyA]qDP_Ej@iBh@mAl@mFt@mEPaDEcBOkECcEa@wDk@yEIcCD}Bh@eCk@u@oDyB{@mCuC}I{I{BkDc@sDi@iKq@sDaCge@dz@sAwB_ByBcBoC_AsAcB]{BBcAn@}@hBwAzGaAkAmCsDyBtC\\Tj@d@^|EeAo@P`Fu@zDuDsCiBsA{@nE{AiAAJlBnIxApKZPEl@eAo@SfA`FjFlF|FhDpCaCpLLh@KbBdBRAf@Iv@J^v@l@S`@[@}As@EJ}@o@i@tAb@bB@x@xQtQTIfCbAbAlAtAhAtE|AdDPjEgBlBsB\\uAf@s@~@A|DaAMlUVzK@~CGdCDxA@lAc@MVbDFhQInDQ|BIvB\\~CIv@B@Da@@hCVBRC@oBHGNKvArAzCrCt@r@Jq@lB`BlHlGvD~C~CrCz@{EhGjFfEcTlBsJzAwHzH`HtIwc@fBR|FfD^l@`Trg@vBzFbHjP`EnJhAbCvDjJhC`EhDjJh@pBrBdFtApCqBlCRl@Nh@tDfGhB_Ah@h@ZQXF|@hCZa@P@v@rDvCvRvGeD?gAf@}Af@}Ab@kI[iF_BeBHaAOsCy@uDv@MQoBQ@jB}GtCgMtAwC[q@qDdCsEhE_Fv@BiAIoAfA}FEmDJgDj@sJvDqPb@eBJcBKoIK{Cn@eBfA_GpAkB~@uCRiAEgAM_GOuCNiL\\iCb@cAv@k@"
     },
     {
+      "id": 6,
       "name": "Jaroty",
       "osmId": 2742868,
       "adminLevel": 9,
@@ -84,6 +91,7 @@
       "encodedPolyline": "ox}fIc_f|BKRcBhEwFlLqCzFkCvF{@`B}BhESY_@o@}AoAi@Y_@SwCg@uASmBUeCBiEbB[L_G|BE@m@ViExAeH^iHPgBp@aAt@NzCAjMC`{AsFhA\\~SvD_BpCaAnDDhKxAzARzB`@bHZb@?tCCvF?`AQj@GvCKr@R`Ar@jAfAfB~AnA^bBD|AShAk@dByA^s@l@oAd@oA`AkDf@qAVq@^eAz@mBZw@NeAf@sAd@mBbAmDbAeDbAeEdAyFnAyHg@wF_@{BUqB]mBs@qK]sJUeGg@mNWsFm@qMwAob@"
     },
     {
+      "id": 7,
       "name": "Kormoran",
       "osmId": 2742869,
       "adminLevel": 9,
@@ -97,6 +105,7 @@
       "encodedPolyline": "oqcgIabc|BQhAYdBw@pEKbAwA`IgAvJCLeAfKm@hDqBvKGXsCrOoF{I_Du@oKfA{Bs@kA{@aCuDsGgPsGiG~@aFxA}HhAaHjAuE|@}Ep@iDzAcIKGjHob@n@d@~HbHjIpKjAbBnDxFlEhFxBhBfAz@|CfCd@d@"
     },
     {
+      "id": 8,
       "name": "Kortowo",
       "osmId": 2720062,
       "adminLevel": 9,
@@ -110,6 +119,7 @@
       "encodedPolyline": "op_gIct|{Bu@cAoAY]?uChBaDK}@Cy@B{ARg@Gg@q@FoAKKSSkANqAwAiHyKuAuCu@_@q@Hi@`Aa@dAUPWBg@Ms@Yu@Ba@^Sp@OTQHSQU]}@iBa@i@eCl@u@_@g@Uk@?mAl@e@Je@HqAGsHi@GhD[lBE\\i@bEQdCGx@K^GJiCxEcE|HwDbH{A`JqT{G_TeIAb@kIn[xBzC~I`PLh@HbBWzBuFtMhAMpA~A`BlEvFbA|ChBvD|BxAzDxDjBdAbB^~Bd@RrEeQjEgKHqAj@[nBwGlCsAhDxAdApA~FhKjAxL?jB{A~ImEzB}@~@SpAaC~AsAjBEtAEhE}CpEcEzCzM|L|GpMA|M`As@LKGKZk@TN@@fAeAtBoBH@h@q@dF}El@s@TKfE}Dq@i@Dw@JNXJj@d@`CkChA}@|B}BND@NJFpEoDjAg@JeA?e@LFBp@tBu@bAKfAU^\\`A^hY}s@kKiIlDaRGmIAk@OgPt@{AfA{ApBmFdE{CDp@dDf@xBr@ByL@iKgC~@MESYCe@NaAN_BEiAYm@QJc@Nq@j@c@^c@bA_@^[BiAkAo@YuA{@Wm@W}@"
     },
     {
+      "id": 9,
       "name": "Likusy",
       "osmId": 2742871,
       "adminLevel": 9,
@@ -123,6 +133,7 @@
       "encodedPolyline": "a}jgIeht{Bz@lCnDxBj@t@Tc@zEmFdBgCjB_BdG_EnA_CPiAHwA?yAG{@WcAa@{AWo@GiBF}A|BaC`Bs@xBN`AnCxBfHlCfErEvCvAjArC|GrBtGRtE_AvFi@tCX`FAhLq@bG[~FFxE@pGEnEjBiBhC_@xAkAzAcCd@sDKsCc@]a@~AgAr@{@iBsAgCWyBOsCt@eBz@wBrCQdAwBTqCT{D{@cE]yB?eCbAiGdAcCpCiA`CAfAx@DxAA~BZj@x@v@xBGtAe@dA}BRyA_AeAqA_AeAeDg@oFm@{Au@iBe@qCCsCb@sAdBoAnCA|As@dBy@dBBpD|@VLn@\\r@y@WgCSmBi@oAsBo@@aAn@wBbBeIUkCC_G`@oOR{DsDcEgEmF@sAf@yBpIyMXyBY{FoA}B|AcEJ?n@}CSW\\qAp@IbBsAlF_At@GqCkKeAOaLvRmC`Dm@f@cTtPkOhKuO`MmEnDiGjE{DnHcLba@qVt{@"
     },
     {
+      "id": 10,
       "name": "Osiedle Kętrzyńskiego",
       "osmId": 2742870,
       "adminLevel": 9,
@@ -136,6 +147,7 @@
       "encodedPolyline": "_qfgIeea|BoAnHf@`A?@aCbNsBdKDZ_BrIiAjCgA~@gCbBN|AFlAmD_AuDc\\uDy[}@{Hq@h@}BgKQs@wByH}@sC_GsEwCiCyDiKtCwNe@cFyAcFy@uCg@gN?_GAuAQaE_@sBTeGX}Fp@aJ`BoCyCaYeE}U}@uE{@cFxEgGzAAzA_Br@yBf@cFNaBd@_@T_CO{AWyCk@e@Ks@ZeBhEqFYeGV}ArCmHn@iL\\mBfAUtAEp@cAv@oCh@cA|AMf@{@^iIbAmFpByFb@uAG{Bs@iCm@mAjOu~@zAb@xL~AfEtBZNxLbGtBdAE~AL^g@bKs@v@_@vAR~ABzEzAl@f@aAhAVLk@Lt@C`ImJ``AvRn]kA`E}FrR}BnHsB`DiBhCiBfCuDfF{EtGkCtAoDlBiF|Aa@rJa@pJKvXClI?L?^A`F@dD?`AAvKPll@Nd@Nh@_@HSFSJ@r@@`@DVLd@b@rCHbCC~AQpBI^Oh@XPt@\\dBf@lBj@ExVhJrETJ"
     },
     {
+      "id": 11,
       "name": "Osiedle Tadeusza Kościuszki",
       "osmId": 2720075,
       "adminLevel": 9,
@@ -149,6 +161,7 @@
       "encodedPolyline": "wxegI_bb|Ba@Ye@VIIYSHc@UO?@CA?AIGc@r@Q^[z@}AiA_A|@g@Hy@nOm@pEcBuA]v@iAbBWnA]MoAnHf@`A?@aCbNnKjHZiBhDrCGN[`BnE~BdKnFbK|Et@Kx@k@bAK^l@`A|CpAjBpJ~IxCf@dBHfBlDr@rA`@^rAcLb@iFV}E^uUDmB@e@qA?mCoCwBeEoF{I_Du@oKfA{Bs@kA{@aCuDsGgPsGiG~@aF"
     },
     {
+      "id": 12,
       "name": "Podgrodzie",
       "osmId": 2720076,
       "adminLevel": 9,
@@ -162,6 +175,7 @@
       "encodedPolyline": "kfbgIuk}{BGhD[lBE\\i@bEQdCGx@K^GJiCxEcE|HwDbH{A`JqT{G_TeIY[[a@Fi@sI{KGGkGeIw@_BYw@Oc@kAi@sDkDgDwCkDkCeDsBGIq@o@YE]{@Xi@fAmAT[Z}@G}@Og@aAg@YMm@m@EsAPeDRkCFqBE]YqAUaBKi@@e@Rk@n@e@Ni@Lw@LmATuAHWJK`BsAn@g@Z[bK|Et@Kx@k@bAK^l@`A|CpAjBpJ~IxCf@dBHfBlDr@rA`@^f@j@rAlA@@PN~EvEr@|@p@x@hAx@`AZ`ALjCKxADl@HRJ`CnAfH~Dt@`@t@f@xBvBPTT^PLRBx@ItBeA"
     },
     {
+      "id": 13,
       "name": "Podleśna",
       "osmId": 10677517,
       "adminLevel": 9,
@@ -175,6 +189,7 @@
       "encodedPolyline": "gqigIwm`|B{EjJiHhQ_AxAuABg@Oq@iC{@qIyKu^lF}Gb@sGaK{H}AkJgCdFgC~K}DdQ`Arr@s]lB}s@fNqWdFcBRkAH[DOB]FaFz@WRWNA@e@Jm@NgEn@uCp@aA_RQ{DcJvCkAiLqExA}AcWbOqFAKq@CKs@PwA@gB[mAV_BEi@zGiANeF`A@As@~AsJdKN`@aN?aCw@kTAmBFsARyAbCgO`@Nf@h@L|@j@j@d@Jn@`@~AsEbAiBrAl@lBsD~ARdCsATeABqCmA{@gBOu@gAkA{CWmBw@]aAmBOiBGiBVqArByCRy@j@a@zDkAtEoAb@i@EsBm@aBOEiB_FSeBMwEf@qArAwArBcCn@AfA_Az@_C`@mCUyBa@uAo@eIaAgBe@uBDoCR_DfAyBAWXMFX@Y@UBB`@a@h@Rh@FXELO^oAd@wB\\}BFaCKyBi@iGmAyPOoBcAoLg@kFC_Bg@{E?_@BGt@y@JXTV\\Td@Ff@I`A_@JMH_@Ha@jBeCL[?U^q@l@c@Nz@Ph@RXHBJTHd@@b@Ax@Mz@KRMb@?L]tAC\\Ib@?d@CJ?r@Fx@f@dB\\|@T\\^ZlAf@n@@~@Uh@@`@b@Vt@JbA?\\Id@tJfGf\\pQnSvNfE_M~DrHzJdB`Els@HvCbAh^bAl@tDxAl@yApAkI`ItF~AaGdLvKvAzD^rBP`E@tA?~Ff@fNx@tCxAbFd@bFuCvNxDhKvChC~FrE|@rCvBxHPr@i@`@YaA[~@eAlGB|@g@FuAkAM|Ae@KDoAaDDwCj@{E`AsBiAk@rFoBv@uA|@oBdBmCvCy@tAcChE"
     },
     {
+      "id": 14,
       "name": "Wojska Polskiego",
       "osmId": 10712865,
       "adminLevel": 9,
@@ -188,6 +203,7 @@
       "encodedPolyline": "c}fgI}p}{BiBvAq@pA}CxCmAuB_BhCkBu@s@c@_AWmEc@{BmAeD_E}BcG?qFUiIe@sCmAwB{Cg@iBJqAo@wAa@oC|@yBx@g@x@UhFe@~Aw@^_AMu@To@hBuAfD{@rDo@pC}@`@qAMiA[eAo@iA~@yBnDi@f@w@|AElBn@xBp@zB?jFEnFBxCTrBfAfDLd@IrAiAxCg@Vu@Iy@mBcA]y@r@kClCqBB{@`Aq@~Bk@~@{@V{@Am@_@{ARs@|A{@hAsA^yBMsAL_@zAq@nAcANsBw@k@nD`B~Af@lCP~EHvBcBfAsBvAcAKcA}AeBuD[cA{BeBaAC}@p@_A|AuAFyAi@k@Eo@hAa@jCeBfAcABmDrA_ACc@jDcCnAoDf@kDt@kAIgB}@OeATgHz@BD_@VGBKvCw@l@yBMcEU@sA\\m@o@m@cAM{C@cBSwCQuEu@o@iA}@iB@i@I]uAo@}AOeAd@}AMeGkAkBoBaB_@q@i@aA[yAg@}AcDcI_AqA_AeAiA_Ae@Wi@a@mAgCg@yI_A}HRwBPeBBkA?{AGc@bBSpWeF|s@gNr]mBaAsr@|DeQfC_LfCeF|AjJ`KzHc@rGmF|GxKt^z@pIp@hCf@NtAC~@yAhHiQzEkJLXfDxGl@z@lA`AdFbDl@wBbBzA|AhD|BtAPJ?[?wFDIzBFvHBj@??aF?Q~@nBnBjGhBmJhBtANJtAyGd@\\HLJZ@XbC~AtDb\\bA`HdDlObHtUiBvC"
     },
     {
+      "id": 15,
       "name": "Zatorze",
       "osmId": 2733090,
       "adminLevel": 9,
@@ -201,6 +217,7 @@
       "encodedPolyline": "a}ggIsta|Bi@`@YaA[~@eAlGB|@g@FuAkAM|Ae@KDoAaDDwCj@{E`AsBiAk@rFoBv@uA|@oBdBmCvCy@tAcChELXfDxGl@z@lA`AdFbDl@wBbBzA|AhD|BtAPJ?[?wFDIzBFvHBj@??aF?Q~@nBnBjGhBmJhBtANJtAyGd@\\HLJZ@XbC~AuDy[}@{Hq@h@}BgK"
     },
     {
+      "id": 16,
       "name": "Zielona Górka",
       "osmId": 10677871,
       "adminLevel": 9,
@@ -214,6 +231,7 @@
       "encodedPolyline": "}bggIcln|BqDk@Qd@gCi@[pBqBfIwAzBw@m@qAYm@L]_AiCd@AkDtAaFx@uCeCr@t@}GLQE]AYEwEDqAG{FJiFGgDHaCKm@yQpJyIxFkDrAyH|DwWdNCRaAw@GUgBmAiD}CYLQG\\wC{FxH{FhHOc@W}AWu@u@pADZiCzBOy@y@t@aBoJi@wCg@_@u@vK_BfPOpHoEpCuBhCwA|Au@p@q@rDo@rD[pCqAxFgB`K_Gv\\cArBOtBWvDu@vDGf@HNPbERtBXtABl@B~DX~HPbABxEEzCf\\pQnSvNfE_M~DrHzJdB`Els@HvCbAh^bAl@tDxAl@yApAkI`ItF~AaGdLvKvAzDTeGX}Fp@aJ`BoCyCaYeE}U}@uE{@cFxEgGzAAzA_Br@yBf@cFNaBd@_@T_CO{AWyCk@e@Ks@ZeBhEqFYeGV}ArCmHn@iL\\mBfAUtAEp@cAv@oCh@cA|AMf@{@^iIbAmFpByFb@uAG{Bs@iCm@mAjOu~@"
     },
     {
+      "id": 17,
       "name": "Śródmieście",
       "osmId": 2733091,
       "adminLevel": 9,

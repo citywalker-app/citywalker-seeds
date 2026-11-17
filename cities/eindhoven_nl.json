@@ -1,8 +1,10 @@
 {
+  "id": "eindhoven_nl",
   "name": "Eindhoven",
   "countryCode": "NL",
   "regions": [
     {
+      "id": 1,
       "name": "Centrum",
       "osmId": 11977052,
       "adminLevel": null,
@@ -16,6 +18,7 @@
       "encodedPolyline": "gl}xH_bk`@dBs@hVwe@jMuPjJaCmGuCcIhDyKgMbKqP]uKcN_B}DxB}ApDmQ}LsB~@oCfJ{HN}IwoAgAg`@qLjJkD`AgRjRuEdIgE|VqAfo@lHrCtUxPlGxAPfTlENS~JlDzQ~DsDpAdGrK~NbNIjDjAd@B"
     },
     {
+      "id": 2,
       "name": "Woensel-Noord",
       "osmId": 11977054,
       "adminLevel": null,
@@ -29,6 +32,7 @@
       "encodedPolyline": "arfyHe~_`@jaBq_CwSqa@aJs[viAqiAua@wtAj@yJeAweB~BwbAuBsn@`@ei@iJzNsCoEuEjKiQZaQmDmFrEwAa@]sFgBoA}OpS}GjD_AaF}GmHcDa@uDv@cD}Al@kMaHgDq@_DoJYkCiBiJgOkItKeF~@yBnJ|@fmE}AjJlFjVz@zOm@vJkED[dZlIttArJv{@`R`fArV~|@fKbm@@P"
     },
     {
+      "id": 3,
       "name": "Woensel-Zuid",
       "osmId": 11977053,
       "adminLevel": null,
@@ -42,6 +46,7 @@
       "encodedPolyline": "uocyHw~c`@pxCajErGsOrCmQmEmGy@aF_ErDmD{QR_KmEOQgTmGyAuUyPmHsClCiz@oIkKkESy@vA}Ck@wD}LwIiA{C{BRcKs@cBaIqAwDeFcCiIEoMsBoHqDyDwC|AqAsCZgO}@eL_Et@YzGiD~Ee@tTxBbcA_CvbAdAveBk@xJta@vtAwiApiA`Jr[xIjQ|HdO"
     },
     {
+      "id": 4,
       "name": "Tongelre",
       "osmId": 11977051,
       "adminLevel": null,
@@ -55,6 +60,7 @@
       "encodedPolyline": "sh~xHyen`@zHOnCgJrB_AdIrFfPkrBrUmzEk@gKcDcJTgCgM}_@c@`@xCjK}BLwBtCmC_AiDdA{A~GsDJ}BzCoDyABjC_BnBl@z@hBcASlDmEvF[{CcBJoBtC_BXaApDqFjFm@gDaAb@wA{@eFxDmIaEeBmCaAl@a@jD}FxAWrDqBfCLxDgBy@oC~F@dCaEb@yBbEmHfBw@~F_BFsC{BqB|@yA}CAfHaD~@kCvD}Cv]{CzK_DvDFrDuBXwE`Pq@LBmDuApDeEdBPlCoDrDj@`EuAPi@fB|@dL[fOpArCvC}ApDxDrBnHDnMbChIvDdF`IpAr@bBSbKzCzBvIhAvD|L|Cj@x@wAjERnIjKjC{KtEeI`T}SpBOpLkJfAf`@jI`jAPtD"
     },
     {
+      "id": 5,
       "name": "Stratum",
       "osmId": 11977055,
       "adminLevel": null,
@@ -68,6 +74,7 @@
       "encodedPolyline": "k_yxHchl`@`CiAl@gC`Ck@dAbCjBAzEgFlFoAd@nFxGfBhDgEfChB|DqD|GkBxBo`CpAuKtCsI|H}KdH_CSyBoDl@}MkBaBeB{B_Ka@wpBuoC~B~Bga@{CiBGwBwDjBcRqBa@w@aPfnDgPjrBfGhE|AqD|DyBbN~A\\tKcKpPxKfMbIiDrGzCpMbRvEEfD}IbCJfLyCn@_MnGkDzDpBxB{Al@^jD~R`MzHbApFx@N"
     },
     {
+      "id": 6,
       "name": "Gestel",
       "osmId": 11977056,
       "adminLevel": null,
@@ -81,6 +88,7 @@
       "encodedPolyline": "m}vxHurb`@zJyKu@{@bAqAm@}J`@uEtBq@gB_NsCiIcEiBg@iBaBZu@s~AdAs@mA_JHaj@z@kLaA}CEq^t@o@_AkC|Aso@}GjB}DpDgCiBiDfEyGgBe@oFmFnA{EfFkB@eAcCaCj@m@fCaChAsBuBIkCaM{HkD_Sm@_@yBzA{DqBoGjDo@~LgLxCcCKgD|IwEDwMiRiIzAmNzQkKbUnKb]mJjO|BfBR`FhLdc@s@~BxGfNjIp]nEfKhDfNp@dKrF~CZxHdWnjAl]j@^`ApAGpI{E`TaCTw@r[@~CuA`EnFvBlRJ|@"
     },
     {
+      "id": 7,
       "name": "Strijp",
       "osmId": 11977050,
       "adminLevel": null,

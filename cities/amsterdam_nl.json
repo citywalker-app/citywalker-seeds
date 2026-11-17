@@ -1,8 +1,10 @@
 {
+  "id": "amsterdam_nl",
   "name": "Amsterdam",
   "countryCode": "NL",
   "regions": [
     {
+      "id": 1,
       "name": "Centrum",
       "osmId": null,
       "adminLevel": null,
@@ -16,6 +18,7 @@
       "encodedPolyline": "ars~Hanb]jG\\rNvF\\v[pPv]~@rKjEbInIb~@xEtMxHrp@wBdq@}R~a@{A|N}DvAaFzKwFx@}FtH}`@fR}D}DsE_@yj@_Z_Ct@iDgFmb@iVYmn@~@[aA]a@_PvVoIpJ{JfHwN`Hc]f@u[dMoBJeDzC?|HagAtJsf@rG_NtHoC"
     },
     {
+      "id": 2,
       "name": "Westpoort",
       "osmId": null,
       "adminLevel": null,
@@ -29,6 +32,7 @@
       "encodedPolyline": "{~z~Hszv\\vv@_lAb]zy@Kd\\_C`B~JlX{@hFxCjJ}JlSqCj`@Df~@|Fd]mD{EyEdQrC~D?bLtSdAh@lwBaFfV}MjWjDrRqKnJsOhHiEnM|E`k@BtmBzYrK}NtMkE{BoD~V{Dnn@bGxAy@tEnM`D}VnrDu|Di`AlUymDmEgAd`AavNxGiq@bAhAtN_r@|GeSnXgg@"
     },
     {
+      "id": 3,
       "name": "West",
       "osmId": null,
       "adminLevel": null,
@@ -42,6 +46,7 @@
       "encodedPolyline": "_du~Haww\\rf@vU``@cR|FuHfGgAbDsIdGaE|F~[}@r@dBnBwAjOxAjOhAPtVjdBU~DuFcCcAfFb@p\\yP@e@}BmS`ACeGwDDm[dLVdc@kO}A{Dbo@sz@yWqMHQwa@ix@fCkEc@c@kFl@}rAdDmQtHuMyCkJz@iF_KmX~BaBJe\\c]{y@jc@}l@l]uJ`@~O`A\\_AZXln@lb@hVzC~ElCm@rP`J"
     },
     {
+      "id": 4,
       "name": "Zuid",
       "osmId": null,
       "adminLevel": null,
@@ -55,6 +60,7 @@
       "encodedPolyline": "uom~Hye~\\vGnVbMzCdK`L~@bZtB`HlCv@`LmBxLvJjUxJbJoEhEbvFeArAik@QeHbBq@lp@fBxAhAnMkB~FtE~ZdJLdI|wA`@di@qGdGiWi^c@{rA_BkPqOip@mLmDsJVUdQgEpIcXlDoLYmB}@BcPkCwGWvAg`@R@tCeTJCgYaNFc@q\\bAgFtFbCT_EuVkdBiAQyAkOvAkOeBoB|@s@}F_\\`AmMvSaf@|Acm@_Ggh@|V_KbXaVbXkNnOsCdMkHpJrD|F|P"
     },
     {
+      "id": 5,
       "name": "Nieuw-West",
       "osmId": null,
       "adminLevel": null,
@@ -68,6 +74,7 @@
       "encodedPolyline": "a~s~Hwlp\\VeNjO|AWec@l[eLvDEBdGlSaAd@|Bz_@IBfYdTKAuCf`@SVwAjCvGCbPlB|@nLXbXmDfEqITeQrJWlLlDpOhp@~AjPb@zrAhWh^es@|wB_h@dl@orApnE}DhIuErCgFFqqA}UwTfByObIyHyOy^b@a_@xDmj@ZkAlAoMaDx@uEcGyAjJofAjEzB|NuM{YsKCumBsEsm@~D}JrOiHpKoJkDsR|MkW`FgVYetBq@aCsRk@?cLsC_ExEeQlDzEyEyUt~@cBPva@pMIrz@xWbD}_@"
     },
     {
+      "id": 6,
       "name": "Oost",
       "osmId": null,
       "adminLevel": null,
@@ -81,6 +88,7 @@
       "encodedPolyline": "mrn~Hmar]bIdEdGbO_Cb_@jAnTbCvGaqAdzC}Gr]vBLpBpFxC|KkBrApo@fe@~g@ph@lKzThK|o@nD@KrLfEzQwDpDoEpk@jF~OMnKjFr@jF~D`Ob{@fd@}DlAdOtB~DdCkEdEzBjHeUnLzJ?fSsBPeCpFkJd`@sBr`@_DvFaF`CiV{IeNsKaLlB_DiAcDsb@eKaLcM{CkJq_@iD{G_GwDwPnHoOrCcXjNcX`V}V~JsGaVoIc~@kEcI_AsKqPw]]w[sNwFkG]qGrBcFnHiM~l@}H`gA{C?KdDeMnB}La_CaAyiDxFwRx|@qpBxLoi@nDyl@}Hq_Cya@gpCbaCsGbf@voCpT|Q"
     },
     {
+      "id": 7,
       "name": "Noord",
       "osmId": null,
       "adminLevel": null,
@@ -94,6 +102,7 @@
       "encodedPolyline": "cb}~Hybs]gDcLgGcG|DeKz@_T|E{KjI_EvHSqEmT_FyD{AuE`Gok@pJeh@yGst@hA_]uEyPfC{P~Omd@l|Cs]xqAfbGxa@fpC~HloBwAhm@wIfj@iLv\\ku@taByFvR`AxiDxLn|BHbTqDfZuItVaN|Oqp@lRiKhI{~AhbC_Vnk@uN~q@wX{XgDX}NpJ}Ei@_WiZgFm@sCqSr@}MdCkG_CoEhDuNzHkDxGsJlCyJz@isAjHix@t`@upAPcLdKu\\f^g_AuAsZkMyv@cEsD_f@sPiAaVcG\\yA_HrA^pEeEm@gM`BMiDqkBwWgy@nW{ZiB_LeFuFgEGNu{@zf@yoB"
     },
     {
+      "id": 8,
       "name": "Zuidoost",
       "osmId": null,
       "adminLevel": null,
@@ -107,6 +116,7 @@
       "encodedPolyline": "img~Hioq]~Ao@zBbKUiGtEwBVlC|AqAr@~@~CmMj@rBjCyGzKd]pRlOW|G~EvBhG?b@rGhRJ|U|YyFhvApCzBrSjo@bSz`@hGdAxLtIgBjFoDz@lB`E`@vP`LhGcBlWhAzJmYtRoxBdjB{Zf\\cE|CiCwAuArBaTa]wCyLuF~EoFyT{GfCyBeJkFcBcDtCcBcHoM|EoGlMcDcAwHyNkNyk@ja@k^__@{{A|H}OcPsViI_GOmJgBaDfCwi@fOqZpHsHbOqGvg@u^lPPtAeEhBnDjPs]zD_a@xHeN"
     },
     {
+      "id": 9,
       "name": "Weesp",
       "osmId": null,
       "adminLevel": null,
