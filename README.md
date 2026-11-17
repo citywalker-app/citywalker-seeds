@@ -109,7 +109,11 @@ part:** when a region splits, its id is retired and every part, even one that ke
 name, gets a new id with `splitFrom`, so a challenge on the old id still covers the whole
 area and one made later on a part covers only that part. A carried region keeps its
 `splitFrom`, and published `splitFrom` and `retired` entries never change. Region names are
-unique within a city (phones match their downloaded rows by name). `seed_generator.py` assigns them (a reseed carries the old ones over by name,
+unique within a city (phones match their downloaded rows by name).
+
+Known limit, by choice: a split part that is later merged into an unrelated region drops
+out of challenges on the original id (the apps don't follow that merge, since it would add
+the whole unrelated region's streets). `seed_generator.py` assigns them (a reseed carries the old ones over by name,
 then by area, and prints what it decided), `assign_ids.py` adds missing ones to files
 edited by hand, and `build.py` refuses a build that changes or drops a published id.
 
