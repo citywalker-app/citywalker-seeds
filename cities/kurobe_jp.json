@@ -65,7 +65,7 @@
     },
     {
       "id": 5,
-      "name": "宇奈月温泉",
+      "name": "宇奈月温泉 南",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": 6,
-      "name": "宇奈月温泉",
+      "name": "宇奈月温泉 北",
       "osmId": null,
       "adminLevel": null,
       "isPointFallback": false,
