@@ -89,7 +89,8 @@ Each file in `cities/` looks like this:
     }
   ],
   "retired": [                   // only when a region went away; omitted otherwise
-    { "id": 4, "mergedInto": 1 } // mergedInto: the region that took it over, or null
+    { "id": 4, "mergedInto": 1 } // mergedInto: the region that took it over, or null;
+                                 // plus "splitFrom" if it had one when retired
   ],
   "source": {
     "method": "osm",             // osm | geojson | shapefile | manual

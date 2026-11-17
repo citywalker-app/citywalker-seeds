@@ -106,6 +106,15 @@ def _key(name):
     return " ".join(name.casefold().split())
 
 
+def _retired(region, merged_into):
+    """A retired entry; a region that came from a split keeps its splitFrom, so a challenge
+    on the original id still reaches the parts this one splits into later."""
+    t = {"id": region["id"], "mergedInto": merged_into}
+    if "splitFrom" in region:
+        t["splitFrom"] = region["splitFrom"]
+    return t
+
+
 def carry_ids(old_city, new_city, stem, log=print):
     """
     new_city with "id" on the city and every region, "splitFrom" on split parts and an
@@ -143,7 +152,7 @@ def carry_ids(old_city, new_city, stem, log=print):
         if len(parts) < 2:
             continue
         gone.add(o["id"])
-        retired.append({"id": o["id"], "mergedInto": None})
+        retired.append(_retired(o, None))
         for i in parts:
             ids[i] = fresh()
             split_from[i] = o["id"]
@@ -199,7 +208,7 @@ def carry_ids(old_city, new_city, stem, log=print):
         shares = [(_share(old_shapes[o["id"]], new_shapes[i]), ids[i]) for i in range(n)]
         share, into = max(shares, default=(0.0, None))
         merged = into if share >= MERGE_SHARE else None
-        retired.append({"id": o["id"], "mergedInto": merged})
+        retired.append(_retired(o, merged))
         log(f"    id {o['id']}: '{o['name']}' retired, " +
             (f"merged into {merged}" if merged is not None else "no successor (challenges on it end)"))
 

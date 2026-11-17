@@ -117,6 +117,10 @@ def validate_region_ids(city, err):
     for t in retired:
         if not isinstance(t, dict) or "mergedInto" not in t:
             continue
+        if "splitFrom" in t:
+            src = t["splitFrom"]
+            if not is_region_id(src) or src == t.get("id") or (src not in ids and src not in retired_ids):
+                err(f"retired region {t.get('id')} splitFrom {src!r} is not another region (current or retired)")
         # Into a current region, or into a retired one (apps follow the chain).
         into = t["mergedInto"]
         if into is not None and (into == t.get("id") or (into not in ids and into not in retired_ids)):
@@ -404,6 +408,9 @@ def check_published_ids(old_seeds, new_seeds):
         for t in old.get("retired", []):
             if t["id"] not in retired:
                 problems.append(f"{label}: retired region {t['id']} no longer listed as retired")
+            elif retired[t["id"]].get("splitFrom") != t.get("splitFrom"):
+                problems.append(f"{label}: retired region {t['id']} splitFrom changed from "
+                                f"{t.get('splitFrom')!r} to {retired[t['id']].get('splitFrom')!r}")
             elif retired[t["id"]].get("mergedInto") != t.get("mergedInto"):
                 problems.append(f"{label}: retired region {t['id']} mergedInto changed from "
                                 f"{t.get('mergedInto')!r} to {retired[t['id']].get('mergedInto')!r}")
